@@ -1,0 +1,163 @@
+import copy
+import pickle
+import os
+import re
+
+### Regex
+from wiki_syntax import WIKI_RE
+
+RE_paragraph_head = r"={2,3}\s[^a-zA-Z]+\s={2,3}"
+RE_infobox_open = r"\{\{"
+RE_infobox_close = r"\}\}"
+RE_table_open = r"\{\|"
+RE_table_close = r"\|\}"
+
+#### 문단 제목 - 첫 문단의 문단은 사용
+person_paragraph_target = [
+    "생애", "생활", "성장", "가족", "경력"
+]
+
+company_paragraph_target = [
+
+]
+
+#### Method
+def extract_valid_text(text: str):
+    ret_text = copy.deepcopy(text).strip()
+
+    ret_text = re.sub(WIKI_RE.CITE.value, "", ret_text)
+
+    ret_text = re.sub(WIKI_RE.REF.value, "", ret_text)
+    ret_text = re.sub(WIKI_RE.REF_2.value, "", ret_text)
+    ret_text = re.sub(WIKI_RE.REF_3.value, "", ret_text)
+    ret_text = re.sub(WIKI_RE.REF_4.value, "", ret_text)
+    ret_text = re.sub(WIKI_RE.REF_5.value, "", ret_text)
+
+    ret_text = re.sub(WIKI_RE.COMMENT.value, "", ret_text)
+    ret_text = re.sub(WIKI_RE.PRE.value, "", ret_text)
+
+    ret_text = re.sub(WIKI_RE.BR.value, "", ret_text)
+
+    # Font Shape
+    if re.search(WIKI_RE.FONT_SHAPE_5.value, ret_text):
+        fontShape = re.search(WIKI_RE.FONT_SHAPE_5.value, ret_text).group(0)
+        convertFontShape = fontShape.replace("'''''", "")
+        ret_text = ret_text.replace(fontShape, convertFontShape)
+    if re.search(WIKI_RE.FONT_SHAPE_3.value, ret_text):
+        fontShape = re.search(WIKI_RE.FONT_SHAPE_3.value, ret_text).group(0)
+        convertFontShape = fontShape.replace("'''", "")
+        ret_text = ret_text.replace(fontShape, convertFontShape)
+    if re.search(WIKI_RE.FONT_SHAPE_2.value, ret_text):
+        fontShape = re.search(WIKI_RE.FONT_SHAPE_2.value, ret_text).group(0)
+        convertFontShape = fontShape.replace("''", "")
+        ret_text = ret_text.replace(fontShape, convertFontShape)
+
+    # Free Link
+    if re.search(WIKI_RE.FREE_LINK_ALT.value, ret_text):
+        ret_text = re.sub(WIKI_RE.FREE_LINK_LHS.value, "", ret_text)
+        ret_text = re.sub(WIKI_RE.FREE_LINK_CLOSED.value, "", ret_text)
+
+    if re.search(WIKI_RE.FREE_LINK_BASIC.value, ret_text):
+        ret_text = re.sub(WIKI_RE.FREE_LINK_OPEN.value, "", ret_text)
+        ret_text = re.sub(WIKI_RE.FREE_LINK_CLOSED.value, "", ret_text)
+
+    # External Link
+    if re.search(WIKI_RE.EXT_LINK_ALT.value, ret_text):
+        corresStr = re.search(WIKI_RE.EXT_LINK_ALT.value, ret_text).group(0)
+        convertedStr = re.sub(WIKI_RE.EXT_LINK_ALT_LHS.value, "", corresStr)
+        convertedStr = re.sub(r"\]", "", convertedStr)
+        ret_text = ret_text.replace(corresStr, convertedStr)
+
+    # Exception
+    ret_text = ret_text.replace("[[", "")
+    ret_text = ret_text.replace("<>", "")
+
+    return ret_text
+
+def extract_person_doc(src_path: str, pkl_idx: int, save_dir: str, mode: str):
+    load_list = []
+    with open(src_path, mode="rb") as src_file:
+        load_list = pickle.load(src_file)
+
+    save_file = open(save_dir+"/"+mode+str(pkl_idx)+".txt", mode="w", encoding="utf-8")
+
+    for d_idx, doc in enumerate(load_list):
+        if 0 == (d_idx + 1) % 1000:
+            print(f"{d_idx+1} Processing...")
+
+        doc_title = doc[0]
+        doc_text_split = doc[1].split("\n")
+        filter_doc_text = []
+
+        is_introduction = True
+        is_need_info = False
+        is_table = False
+        for text_line in doc_text_split:
+            if 0 >= len(text_line):
+                continue
+            if "각주" in text_line: # stop read page
+                break
+
+            if re.search(RE_infobox_open, text_line) and not re.search(RE_infobox_close, text_line):
+                is_need_info = False
+                is_introduction = False
+                continue
+            if not re.search(RE_infobox_open, text_line) and re.search(RE_infobox_close, text_line):
+                is_need_info = True
+                is_introduction = True
+                continue
+
+            if re.search(RE_table_open, text_line):
+                is_table = True
+            if re.search(RE_table_close, text_line):
+                is_table = False
+                continue
+            if is_table:
+                continue
+
+            if re.match(RE_paragraph_head, text_line):
+                is_introduction = False
+                is_need_info = False
+                for head_target in person_paragraph_target:
+                    if head_target in text_line:
+                        is_need_info = True
+                        break
+
+            if is_introduction or is_need_info:
+                valid_text = extract_valid_text(text_line)
+                filter_doc_text.append(valid_text)
+
+        # # save file, split filter data
+        save_file.write(doc_title+"\n\n")
+        for d_text in filter_doc_text:
+            split_d_text_list = d_text.split(". ")
+            for split_text in split_d_text_list:
+                if 0 >= len(split_text.strip()):
+                    continue
+                if "." != split_text.strip()[-1] and "=" != split_text.strip()[-1]:
+                    save_file.write(split_text.strip() + ".\n")
+                else:
+                    save_file.write(split_text.strip() + "\n")
+        save_file.write("\n")
+
+    save_file.close()
+
+def extract_company_doc(src_path: str, pkl_idx: int):
+    pass
+
+#### Main
+if "__main__" == __name__:
+    print("[semi_auto_maker][main] ----START ")
+
+    classify_path = "../data/classify"
+    filter_dir = "../data/filter"
+    target = "person"
+    pkl_file_list = list(filter(lambda x: True if target in x else False, os.listdir(classify_path)))
+
+    # Multi process
+    for pkl_idx, pkl_name in enumerate(pkl_file_list):
+        src_path = classify_path + "/" + pkl_name
+        if "person" == target:
+            print(f"[START] {pkl_name}")
+            extract_person_doc(src_path=src_path, pkl_idx=(pkl_idx+1), save_dir=filter_dir, mode=target)
+            print(f"[END] {pkl_name}")

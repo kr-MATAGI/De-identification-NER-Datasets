@@ -1,9 +1,12 @@
-import logging
+import os
+import re
+
 import torch
+import numpy as np
 
 from transformers import AutoTokenizer, AutoModelForTokenClassification
-
 #######################################################################################################################
+# labels
 NAVER_NE_MAP = {
     "O": 0,
     "B-PER": 1, "I-PER": 2, # 인물
@@ -23,33 +26,86 @@ NAVER_NE_MAP = {
     "X": 29, # special token
 }
 
-def init_logger():
-    logger = logging.getLogger(__name__)
-    logger.setLevel(logging.INFO)
-    log_formatter = logging.Formatter('%(asctime)s - %(message)s')
-    stream_handler = logging.StreamHandler()
-    stream_handler.setFormatter(log_formatter)
-    logger.addHandler(stream_handler)
+# regex
+RE_paragraph_head = r"={2,5}\s[^a-zA-Z]+\s={2,5}"
 
-    return logger
+# excpet label
+NOT_NEED_TAGS = ["ANM", "PLT", "MAT"]
 
-
-if "__main__" == __name__:
-    logger = init_logger()
-
-    # config
-    device = "cuda" if torch.cuda.is_available() else "cpu"
-    # config = ElectraConfig.from_pretrained(model_name_or_path,
-    #                                        num_labels=len(NAVER_NE_MAP.keys()),
-    #                                        id2label={str(i): label for i, label in enumerate(NAVER_NE_MAP.keys())},
-    #                                        label2id={label: i for i, label in enumerate(NAVER_NE_MAP.keys())})
-
-    # model
+#### Method
+def trained_model_load(tokenizer_name: str, model_dir: str):
     tokenizer = AutoTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
     model = AutoModelForTokenClassification.from_pretrained("../model")
-    model.to(device)
+
+    return tokenizer, model
+
+def do_semi_auto_tagging(model, tokenizer, src_path: str, save_dir: str):
+    src_file = open(src_path, mode="r", encoding="utf-8")
+    save_file = open(save_dir+"/model_"+src_path.split("/")[-1], mode="w", encoding="utf-8")
+
+    id2label = {v: k for k, v in NAVER_NE_MAP.items()}
+    title = ""
+    src_lines = src_file.readlines()
+    for line_idx, src_line in enumerate(src_lines):
+        if "\n" == src_line: # new doc
+            title = ""
+            continue
+        if 0 >= len(title): # set title
+            title = src_line.strip()
+            continue
+
+        if 0 == (line_idx % 1000):
+            print(f"{line_idx} Processing, {src_path.split('/')[-1]}")
+
+        text = src_line.strip()
+        if ("분류:" in text) or ("틀:" in text) or (re.match(RE_paragraph_head, text)):
+            continue
+
+        inputs = tokenizer(text, return_tensors="pt", truncation=True)
+        input_ids = inputs["input_ids"][0]
+        tokens = tokenizer.convert_ids_to_tokens(input_ids)
+
+        outputs = model(**inputs)
+        logits = outputs.logits
+        preds = logits.detach().cpu().numpy()
+        preds = np.argmax(preds, axis=2)[0]
+
+        conv_preds = list(id2label[x] for x in preds)
+        tokens = tokens[1:-1]
+        conv_preds = conv_preds[1:-1]
+
+        new_tokens = []
+        new_preds = []
+        for tok, prd in zip(tokens, conv_preds):
+            if "##" in tok:
+                back_word = new_tokens[-1]
+                back_word += tok.replace("##", "")
+                new_tokens[-1] = back_word
+            else:
+                new_tokens.append(tok)
+                new_preds.append(prd if prd.split("-")[-1] not in NOT_NEED_TAGS else "O")
+        assert len(new_tokens) == len(new_preds)
+
+        save_file.write(title + "\n")
+        save_file.write(text + "\n")
+        for tok, prd in zip(new_tokens, new_preds):
+            save_file.write(tok + "\t" + prd + "\n")
+        save_file.write("\n")
+
+    src_file.close()
+    save_file.close()
+
+if "__main__" == __name__:
+    # model
+    tokenizer, model = trained_model_load(tokenizer_name="monologg/koelectra-base-v3-discriminator",
+                                          model_dir="../model")
     model.eval()
 
+    # semi-auto tagging using by model
+    target_dir = "../data/filter"
+    save_dir = "../data/model_output"
+    target_file_list = os.listdir(target_dir)
 
-    inputs = tokenizer("안녕하세요, 최재훈 입니다.")
-    outputs = model(inputs)
+    for f_idx, file_name in enumerate(target_file_list):
+        src_path = target_dir + "/" + file_name
+        do_semi_auto_tagging(model, tokenizer, src_path=src_path, save_dir=save_dir)

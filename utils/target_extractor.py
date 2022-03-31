@@ -6,7 +6,7 @@ import re
 ### Regex
 from wiki_syntax import WIKI_RE
 
-RE_paragraph_head = r"={2,3}\s[^a-zA-Z]+\s={2,3}"
+RE_paragraph_head = r"={2}\s[^a-zA-Z]+\s={2}"
 RE_infobox_open = r"\{\{"
 RE_infobox_close = r"\}\}"
 RE_table_open = r"\{\|"
@@ -18,7 +18,8 @@ person_paragraph_target = [
 ]
 
 company_paragraph_target = [
-
+    "개요", "역사", "사업", "규모", "실적",
+    "인수", "합병", "기본 정보"
 ]
 
 #### Method
@@ -52,6 +53,28 @@ def extract_valid_text(text: str):
         convertFontShape = fontShape.replace("''", "")
         ret_text = ret_text.replace(fontShape, convertFontShape)
 
+    # special character
+    ret_text = re.sub(WIKI_RE.SPECIAL_CHAR.value, "", ret_text)
+    ret_text = re.sub(WIKI_RE.SUBP_SCRIPT.value, "", ret_text)
+
+    # <> tag
+    ret_text = re.sub(WIKI_RE.SPAN_TAG.value, "", ret_text)
+    ret_text = re.sub(WIKI_RE.MATH_TAG.value, "", ret_text)
+    ret_text = re.sub(WIKI_RE.SMALL_TAG.value, "", ret_text)
+    ret_text = re.sub(WIKI_RE.BIG_TAG.value, "", ret_text)
+
+    ret_text = re.sub(WIKI_RE.ONLY_INCLUDE_TAG.value, "", ret_text)
+    ret_text = re.sub(WIKI_RE.INCLUDE_ONLY_TAG.value, "", ret_text)
+    ret_text = re.sub(WIKI_RE.NO_INCLUDE_TAG.value, "", ret_text)
+    ret_text = re.sub(WIKI_RE.NO_WIKI_TAG.value, "", ret_text)
+
+    # Redirect
+    if re.search(WIKI_RE.REDIRECT.value, ret_text):
+        corresStr = re.search(WIKI_RE.REDIRECT.value, ret_text).group(0)
+        convertedStr = corresStr.replace("#넘겨주기 [[", "")
+        convertedStr = convertedStr.replace("]]", "")
+        ret_text = ret_text.replace(corresStr, convertedStr)
+
     # Free Link
     if re.search(WIKI_RE.FREE_LINK_ALT.value, ret_text):
         ret_text = re.sub(WIKI_RE.FREE_LINK_LHS.value, "", ret_text)
@@ -78,8 +101,12 @@ def extract_person_doc(src_path: str, pkl_idx: int, save_dir: str, mode: str):
     load_list = []
     with open(src_path, mode="rb") as src_file:
         load_list = pickle.load(src_file)
-
     save_file = open(save_dir+"/"+mode+str(pkl_idx)+".txt", mode="w", encoding="utf-8")
+
+    if "person" == mode:
+        head_target_list = person_paragraph_target
+    else:
+        head_target_list = company_paragraph_target
 
     for d_idx, doc in enumerate(load_list):
         if 0 == (d_idx + 1) % 1000:
@@ -118,7 +145,7 @@ def extract_person_doc(src_path: str, pkl_idx: int, save_dir: str, mode: str):
             if re.match(RE_paragraph_head, text_line):
                 is_introduction = False
                 is_need_info = False
-                for head_target in person_paragraph_target:
+                for head_target in head_target_list:
                     if head_target in text_line:
                         is_need_info = True
                         break
@@ -128,7 +155,7 @@ def extract_person_doc(src_path: str, pkl_idx: int, save_dir: str, mode: str):
                 filter_doc_text.append(valid_text)
 
         # # save file, split filter data
-        save_file.write(doc_title+"\n\n")
+        save_file.write(doc_title+"\n")
         for d_text in filter_doc_text:
             split_d_text_list = d_text.split(". ")
             for split_text in split_d_text_list:
@@ -151,13 +178,13 @@ if "__main__" == __name__:
 
     classify_path = "../data/classify"
     filter_dir = "../data/filter"
-    target = "person"
+    target = "person" # use person / company
     pkl_file_list = list(filter(lambda x: True if target in x else False, os.listdir(classify_path)))
 
     # Multi process
     for pkl_idx, pkl_name in enumerate(pkl_file_list):
         src_path = classify_path + "/" + pkl_name
-        if "person" == target:
-            print(f"[START] {pkl_name}")
-            extract_person_doc(src_path=src_path, pkl_idx=(pkl_idx+1), save_dir=filter_dir, mode=target)
-            print(f"[END] {pkl_name}")
+
+        print(f"[START] {pkl_name}")
+        extract_person_doc(src_path=src_path, pkl_idx=(pkl_idx+1), save_dir=filter_dir, mode=target)
+        print(f"[END] {pkl_name}")

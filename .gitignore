@@ -1,6 +1,8 @@
 # dataset
 *.xml
 *.bin
+*.txt
 
 # ide
 .idea/
+__pycache__

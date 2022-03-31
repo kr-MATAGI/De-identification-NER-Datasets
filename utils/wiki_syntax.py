@@ -13,8 +13,14 @@ class WIKI_RE(Enum):
     SPECIAL_CHAR = r"&[a-zA-Z]+;"
     SUBP_SCRIPT = r"<su(b|p)>[^(<su(b|p)>))]+</su(b|p)>"
 
-    MATH_TAG= r"<math>[^<]+</math>"
+    MATH_TAG = r"<math>[^<]+</math>"
     SPAN_TAG = r"<span (?!</span>).+</span>"
+    SMALL_TAG = r"<small>[^<]*</small>"
+    BIG_TAG = r"<big>[^<]*</big>"
+    NO_INCLUDE_TAG = r"<noinclude>[^<]*</noinclude>"
+    NO_WIKI_TAG = r"<nowiki>[^<]*</nowiki>"
+    ONLY_INCLUDE_TAG = r"<onlyinclude>[^<]*</onlyinclude>"
+    INCLUDE_ONLY_TAG = r"<noinclude>[^<]*</noinclude>"
 
     REDIRECT = r"#넘겨주기 (\[\[)[^\]]+(\]\])"
     COMMENT = r"(<!--).+(-->)"

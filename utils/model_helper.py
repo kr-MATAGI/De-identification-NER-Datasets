@@ -83,6 +83,9 @@ def do_semi_auto_tagging(model, tokenizer, src_path: str, save_dir: str):
                 new_tokens[-1] = back_word
             else:
                 new_tokens.append(tok)
+                if "TIM" == prd.split("-")[-1]:
+                    prd = prd.split("-")[0]
+                    prd += "-DAT"
                 new_preds.append(prd if prd.split("-")[-1] not in NOT_NEED_TAGS else "O")
         assert len(new_tokens) == len(new_preds)
 

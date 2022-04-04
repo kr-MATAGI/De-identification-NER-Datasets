@@ -1,0 +1,4896 @@
+W홀딩컴퍼니
+주식회사 더블유홀딩컴퍼니는 대한민국의 물류사업, F&B사업, 방송 사업, 연예매니저 사업 등을 영위하고 있다.
+주식회사	O
+더블유홀딩컴퍼니는	B-ORG
+대한민국의	B-LOC
+물류사업	O
+,	O
+F	B-TRM
+&	O
+B사업	I-TRM
+,	O
+방송	O
+사업	O
+,	O
+연예매니저	O
+사업	O
+등을	O
+영위하고	O
+있다	O
+.	O
+
+CJ E&M
+CJ ENM 엔터테인먼트부문()은 대한민국의 종합 엔터테인먼트 기업이다.
+CJ	B-ORG
+ENM	I-ORG
+엔터테인먼트부문	O
+(	B-NUM
+)	O
+은	O
+대한민국의	B-LOC
+종합	O
+엔터테인먼트	O
+기업이다	O
+.	O
+
+CJ E&M
+CJ그룹의 계열사로, 본사는 서울 마포구 상암산로 66 (상암동, CJ ENM센터)에 있다.
+CJ그룹의	B-ORG
+계열사로	O
+,	O
+본사는	O
+서울	B-LOC
+마포구	B-LOC
+상암산로	B-AFW
+66	I-AFW
+(	B-LOC
+상암동	B-LOC
+,	O
+CJ	B-AFW
+ENM센터	I-AFW
+)	O
+에	O
+있다	O
+.	O
+
+CJ E&M
+주로 영화를 수입하고 있으며, 배급은 CJ 엔터테인먼트에서 배급하고 있다.
+주로	O
+영화를	B-FLD
+수입하고	O
+있으며	O
+,	O
+배급은	O
+CJ	B-ORG
+엔터테인먼트에서	O
+배급하고	O
+있다	O
+.	O
+
+CJ E&M
+2010년 9월 15일 (주)씨제이오쇼핑의 미디어사업부문을 인적분할하여 (주)오미디어홀딩스()로 설립하였다.
+2010년	B-DAT
+9월	I-DAT
+15일	I-DAT
+(	B-ORG
+주	B-ORG
+)	O
+씨제이오쇼핑의	B-ORG
+미디어사업부문을	O
+인적분할하여	O
+(	B-ORG
+주	I-ORG
+)	O
+오미디어홀딩스	I-ORG
+(	I-ORG
+)	O
+로	O
+설립하였다	O
+.	O
+
+CJ E&M
+같은 해 10월 15일 한국거래소 코스닥증권시장에 상장하였으며 2011년 1월 20일에 현재의 씨제이이앤엠 주식회사로 상호 변경하였다.
+같은	B-DAT
+해	I-DAT
+10월	B-DAT
+15일	I-DAT
+한국거래소	B-ORG
+코스닥증권시장에	B-ORG
+상장하였으며	O
+2011년	B-DAT
+1월	I-DAT
+20일에	I-DAT
+현재의	O
+씨제이이앤엠	B-ORG
+주식회사로	I-ORG
+상호	O
+변경하였다	O
+.	O
+
+CJ E&M
+2011년 3월 1일 CJ그룹 내 미디어 계열 5개사 (주)온미디어, 씨제이미디어(주), 씨제이인터넷(주), 엠넷미디어(주), 씨제이엔터테인먼트(주)를 인수 합병하여 '씨제이이앤엠(주)'('''CJ''' '''E'''ntertainment '''&''' '''M'''edia)로 설립되었다.
+2011년	B-DAT
+3월	I-DAT
+1일	I-DAT
+CJ그룹	B-ORG
+내	O
+미디어	O
+계열	O
+5개사	B-NUM
+(	B-ORG
+주	B-ORG
+)	O
+온미디어	B-ORG
+,	O
+씨제이미디어	B-ORG
+(	I-ORG
+주	I-ORG
+)	O
+,	O
+씨제이인터넷	B-ORG
+(	I-ORG
+주	I-ORG
+)	O
+,	O
+엠넷미디어	B-ORG
+(	I-ORG
+주	I-ORG
+)	O
+,	O
+씨제이엔터테인먼트	B-ORG
+(	B-ORG
+주	I-ORG
+)	O
+를	O
+인수	O
+합병하여	O
+'	B-ORG
+씨제이이앤엠	B-ORG
+(	I-ORG
+주	I-ORG
+)	I-ORG
+'	B-ORG
+(	B-ORG
+'	B-ORG
+'	B-ORG
+'	B-ORG
+CJ	B-ORG
+'	B-TRM
+'	B-TRM
+'	B-TRM
+'	B-TRM
+'	B-TRM
+'	B-TRM
+E	B-TRM
+'	O
+'	O
+'	O
+ntertainment	O
+'	O
+'	B-TRM
+'	B-TRM
+&	B-TRM
+'	B-TRM
+'	B-TRM
+'	B-TRM
+'	B-TRM
+'	B-TRM
+'	B-TRM
+M	B-TRM
+'	B-TRM
+'	B-TRM
+'	B-TRM
+edia	O
+)	O
+로	O
+설립되었다	O
+.	O
+
+CJ E&M
+인수 합병 이후에 방송, 게임, 영화, 음악/공연/온라인 4개 사업 부문으로 다각화하여 종합적인 미디어, 엔터테인먼트 사업을 영위하고 있다.
+인수	O
+합병	O
+이후에	O
+방송	O
+,	O
+게임	O
+,	O
+영화	B-FLD
+,	O
+음악	O
+/	O
+공연	O
+/	O
+온라인	O
+4개	B-NUM
+사업	O
+부문으로	O
+다각화하여	O
+종합적인	O
+미디어	O
+,	O
+엔터테인먼트	O
+사업을	O
+영위하고	O
+있다	O
+.	O
+
+CJ E&M
+대표이사 2명과 사외이사 3명, 이미경 씨제이(주) 부회장을 비롯한 미등기 임원 25명이 재직하고 있으며 CJ E&M의 총괄부회장직을 맡고 있는 이미경 부회장이 경영에 상당한 영향력을 행사며 사실상 총괄.
+대표이사	B-CVL
+2명과	B-NUM
+사외이사	B-CVL
+3명	B-NUM
+,	O
+이미경	B-PER
+씨제이	B-ORG
+(	B-ORG
+주	I-ORG
+)	B-CVL
+부회장을	B-CVL
+비롯한	O
+미등기	B-LOC
+임원	B-CVL
+25명이	B-NUM
+재직하고	O
+있으며	O
+CJ	B-ORG
+E	I-ORG
+&	I-ORG
+M의	I-ORG
+총괄부회장직을	O
+맡고	O
+있는	O
+이미경	B-PER
+부회장이	B-CVL
+경영에	O
+상당한	O
+영향력을	O
+행사며	O
+사실상	O
+총괄	O
+.	O
+
+CJ E&M
+* CJ ENM 미디어콘텐츠부문()는 CATV, IPTV, 위성방송, 온라인 등을 통해 방송 채널 및 방송콘텐츠를 서비스 하고 있다.
+*	B-ORG
+CJ	B-ORG
+ENM	I-ORG
+미디어콘텐츠부문	B-TRM
+(	B-NUM
+)	O
+는	O
+CATV	B-TRM
+,	O
+IPTV	B-TRM
+,	O
+위성방송	B-TRM
+,	O
+온라인	O
+등을	O
+통해	O
+방송	O
+채널	O
+및	O
+방송콘텐츠를	O
+서비스	O
+하고	O
+있다	O
+.	O
+
+CJ E&M
+==== CJ ENM 자회사 채널 ====
+=	B-ORG
+=	B-ORG
+=	B-ORG
+=	B-ORG
+CJ	B-ORG
+ENM	I-ORG
+자회사	O
+채널	B-ORG
+=	B-ORG
+=	B-ORG
+=	B-ORG
+=	B-ORG
+
+CJ E&M
+* tvN: No.1 K콘텐츠 채널, 즐거움엔 (엔터테인먼트 채널).
+*	B-ORG
+tvN	B-ORG
+:	O
+No	O
+.	O
+1	O
+K콘텐츠	B-ORG
+채널	O
+,	O
+즐거움엔	O
+(	O
+엔터테인먼트	O
+채널	O
+)	O
+.	O
+
+CJ E&M
+* tvN DRAMA: 믿고보는 즐거움엔 tvN의 두 번째 채널 (드라마 채널).
+*	B-ORG
+tvN	B-ORG
+DRAMA	B-TRM
+:	O
+믿고보는	O
+즐거움엔	O
+tvN의	B-ORG
+두	B-NUM
+번째	I-NUM
+채널	I-NUM
+(	B-FLD
+드라마	B-FLD
+채널	O
+)	O
+.	O
+
+CJ E&M
+* tvN SHOW: 빠져드는 즐거움엔 tvN의 세 번째 채널 (밀레니엄 세대 대상 엔터테인먼트 채널).
+*	B-ORG
+tvN	B-ORG
+SHOW	O
+:	O
+빠져드는	O
+즐거움엔	O
+tvN의	B-ORG
+세	B-NUM
+번째	I-NUM
+채널	I-NUM
+(	O
+밀레니엄	B-LOC
+세대	O
+대상	O
+엔터테인먼트	O
+채널	O
+)	O
+.	O
+
+CJ E&M
+* tvN STORY: 나의 이야기는 계속된다 tvN의 네 번째 채널 (중장년 세대 대상 엔터테인먼트 채널).
+*	B-ORG
+tvN	B-ORG
+STORY	O
+:	O
+나의	O
+이야기는	O
+계속된다	O
+tvN의	B-ORG
+네	B-NUM
+번째	I-NUM
+채널	I-NUM
+(	O
+중장년	B-DAT
+세대	O
+대상	O
+엔터테인먼트	B-FLD
+채널	O
+)	O
+.	O
+
+CJ E&M
+* Mnet: We Are K-Pop (음악 및 엔터테인먼트 채널).
+*	O
+Mnet	B-ORG
+:	O
+We	O
+Are	O
+K	O
+-	O
+Pop	B-FLD
+(	B-FLD
+음악	B-FLD
+및	O
+엔터테인먼트	O
+채널	O
+)	O
+.	O
+
+CJ E&M
+* OCN: 대한민국 No.1 채널 (영화 채널).
+*	O
+OCN	B-ORG
+:	O
+대한민국	B-LOC
+No	B-TRM
+.	O
+1	I-TRM
+채널	O
+(	B-FLD
+영화	B-FLD
+채널	O
+)	O
+.	O
+
+CJ E&M
+* OCN Thrills: 뜨겁게 신나게 즐겁게, "심장을 깨우다" (영화 채널).
+*	O
+OCN	B-ORG
+Thrills	O
+:	O
+뜨겁게	O
+신나게	O
+즐겁게	O
+,	O
+"	B-TRM
+심장을	B-TRM
+깨우다	O
+"	B-FLD
+(	B-FLD
+영화	B-FLD
+채널	O
+)	O
+.	O
+
+CJ E&M
+* OCN Movies: 오늘은 힐링하는 법, "영화보다" (영화 채널).
+*	O
+OCN	B-ORG
+Movies	O
+:	O
+오늘은	B-DAT
+힐링하는	O
+법	O
+,	O
+"	B-FLD
+영화보다	B-FLD
+"	O
+(	B-FLD
+영화	B-FLD
+채널	O
+)	O
+.	O
+
+CJ E&M
+* 캐치온1: 영화는 캐치온 (영화 채널, (구) 캐치온TV).
+*	O
+캐치온1	B-NUM
+:	O
+영화는	B-FLD
+캐치온	O
+(	B-FLD
+영화	B-FLD
+채널	O
+,	O
+(	O
+구	O
+)	O
+캐치온TV	B-TRM
+)	O
+.	O
+
+CJ E&M
+* 캐치온2: 영화는 캐치온 (영화 채널, (구) 캐치온 플러스).
+*	O
+캐치온2	B-NUM
+:	O
+영화는	B-FLD
+캐치온	O
+(	B-FLD
+영화	B-FLD
+채널	O
+,	O
+(	O
+구	O
+)	O
+캐치온	B-TRM
+플러스	O
+)	O
+.	O
+
+CJ E&M
+* Olive: 맛있는 순간마다, (요리 전문 채널).
+*	O
+Olive	O
+:	O
+맛있는	O
+순간마다	O
+,	O
+(	O
+요리	O
+전문	O
+채널	O
+)	O
+.	O
+
+CJ E&M
+* 투니버스: 우리들의 투니버스 (어린이, 청소년, 65세 이상 노인 특화 및 애니메이션, 드라마, 예능 3049 맘세대 채널).
+*	B-AFW
+투니버스	B-AFW
+:	O
+우리들의	B-ORG
+투니버스	B-AFW
+(	O
+어린이	O
+,	O
+청소년	O
+,	O
+65세	B-NUM
+이상	I-NUM
+노인	O
+특화	O
+및	O
+애니메이션	B-FLD
+,	O
+드라마	B-FLD
+,	O
+예능	B-NUM
+3049	I-NUM
+맘세대	O
+채널	O
+)	O
+.	O
+
+CJ E&M
+* OGN: game changer (게임 전문 채널, (구) 온게임넷).
+*	O
+OGN	B-CVL
+:	O
+game	O
+changer	O
+(	O
+게임	O
+전문	O
+채널	O
+,	O
+(	O
+구	O
+)	O
+온게임넷	B-ORG
+)	O
+.	O
+
+CJ E&M
+* 중화TV: 차이나는 즐거움 (중국문화 전문 채널).
+*	O
+중화TV	B-TRM
+:	O
+차이나는	B-LOC
+즐거움	B-LOC
+(	B-LOC
+중국문화	B-LOC
+전문	O
+채널	O
+)	O
+.	O
+
+CJ E&M
+* UXN: ULTRA EXTRAORDINARY NETWORK (UHD 전문 채널).
+*	O
+UXN	B-TRM
+:	O
+ULTRA	B-EVT
+EXTRAORDINARY	I-TRM
+NETWORK	I-TRM
+(	B-TRM
+UHD	B-TRM
+전문	O
+채널	O
+)	O
+.	O
+
+CJ E&M
+* CH.DIA: 다~보라! CH.DIA (크리에이터 전문 채널).
+*	O
+CH	O
+.	O
+DIA	O
+:	O
+다	O
+~	O
+보라	O
+!	O
+CH	O
+.	O
+DIA	O
+(	O
+크리에이터	O
+전문	O
+채널	O
+)	O
+.	O
+
+CJ E&M
+* Asia: tvN, where fun takes off! (동남아시아 타겟 No.1 트렌드 리딩채널).
+*	O
+Asia	B-LOC
+:	O
+tvN	B-ORG
+,	O
+where	O
+fun	O
+takes	O
+off	O
+!	O
+(	B-LOC
+동남아시아	B-LOC
+타겟	O
+No	O
+.	O
+1	B-DAT
+트렌드	O
+리딩채널	O
+)	O
+.	O
+
+CJ E&M
+* Movies: tvN Movies, World First & Only (세계 최초이자 유일한 한국어 블록 버스터 영화 채널).
+*	O
+Movies	O
+:	O
+tvN	B-ORG
+Movies	O
+,	O
+World	O
+First	O
+&	O
+Only	O
+(	O
+세계	O
+최초이자	O
+유일한	O
+한국어	B-FLD
+블록	O
+버스터	B-FLD
+영화	B-FLD
+채널	O
+)	O
+.	O
+
+CJ E&M
+* tvN Thai: tvN Thai (태국 중심의 한국어 엔터테인먼트 채널).
+*	B-ORG
+tvN	B-ORG
+Thai	B-ORG
+:	O
+tvN	B-ORG
+Thai	B-LOC
+(	B-LOC
+태국	B-LOC
+중심의	O
+한국어	B-CVL
+엔터테인먼트	O
+채널	O
+)	O
+.	O
+
+CJ E&M
+* tvN Taiwan: tvN Taiwan (대만 중심의 한국어 엔터테인먼트 채널).
+*	B-ORG
+tvN	B-ORG
+Taiwan	O
+:	O
+tvN	B-ORG
+Taiwan	B-LOC
+(	B-LOC
+대만	B-LOC
+중심의	O
+한국어	B-CVL
+엔터테인먼트	O
+채널	O
+)	O
+.	O
+
+CJ E&M
+* tvN Africa: tvN Africa (아프리카 중심의 한국어 엔터테인먼트 채널).
+*	B-ORG
+tvN	B-ORG
+Africa	O
+:	O
+tvN	B-ORG
+Africa	B-LOC
+(	B-LOC
+아프리카	B-LOC
+중심의	O
+한국어	B-CVL
+엔터테인먼트	O
+채널	O
+)	O
+.	O
+
+CJ E&M
+* <s>구 KM</s> (현 GM): 음악 채널, GTV(구)SDN TV의 모기업인 베리미디어(구 지텔레비전)에 매각.
+*	O
+<	O
+s	O
+>	O
+구	O
+KM	B-ORG
+<	O
+/	O
+s	O
+>	O
+(	O
+현	O
+GM	B-TRM
+)	O
+:	O
+음악	O
+채널	O
+,	O
+GTV	B-ORG
+(	O
+구	O
+)	O
+SDN	B-TRM
+TV의	I-TRM
+모기업인	O
+베리미디어	B-ORG
+(	O
+구	O
+지텔레비전	B-ORG
+)	O
+에	O
+매각	O
+.	O
+
+CJ E&M
+* <s>HBO 코리아</s>: 타임워너와 공동으로 운영한 프리미엄 유료영화채널, 폐국되어 캐치온이 승계.
+*	O
+<	O
+s	O
+>	O
+HBO	B-ORG
+코리아	B-LOC
+<	O
+/	O
+s	O
+>	O
+:	O
+타임워너와	B-ORG
+공동으로	O
+운영한	O
+프리미엄	O
+유료영화채널	O
+,	O
+폐국되어	O
+캐치온이	B-ORG
+승계	O
+.	O
+
+CJ E&M
+* 내셔널지오그래픽채널 코리아: 다큐멘터리 전문 채널, 21세기 폭스(현 월트 디즈니 컴퍼니)에 매각.
+*	O
+내셔널지오그래픽채널	B-ORG
+코리아	I-ORG
+:	O
+다큐멘터리	B-FLD
+전문	O
+채널	O
+,	O
+21세기	B-ORG
+폭스	I-ORG
+(	O
+현	O
+월트	B-ORG
+디즈니	I-ORG
+컴퍼니	I-ORG
+)	O
+에	O
+매각	O
+.	O
+
+CJ E&M
+* <s>퀴니</s>: 오락 및 애니메이션 전문 채널, 폐국되어 구 스토리온이 승계.
+*	O
+<	O
+s	O
+>	O
+퀴니	B-CVL
+<	O
+/	O
+s	O
+>	O
+:	O
+오락	O
+및	O
+애니메이션	B-FLD
+전문	O
+채널	O
+,	O
+폐국되어	O
+구	O
+스토리온이	B-ORG
+승계	O
+.	O
+
+CJ E&M
+* <s>스페이스툰</s>.
+*	O
+<	O
+s	O
+>	O
+스페이스툰	O
+<	O
+/	O
+s	O
+>	O
+.	O
+
+CJ E&M
+* <s>Xports</s> (구 SBS CNBC→현 SBS Biz): 스포츠 채널, SBS에 매각.
+*	O
+<	O
+s	O
+>	O
+Xports	O
+<	O
+/	O
+s	O
+>	O
+(	O
+구	O
+SBS	B-ORG
+CNBC→현	I-ORG
+SBS	B-ORG
+Biz	I-ORG
+)	O
+:	O
+스포츠	O
+채널	O
+,	O
+SBS에	B-ORG
+매각	O
+.	O
+
+CJ E&M
+* <s>스토리온</s>: People, Life, Story All About Woman, 여성 중심의 라이프스타일 채널, 폐국되어 O tvN이 승계.
+*	O
+<	O
+s	O
+>	O
+스토리온	B-ORG
+<	O
+/	O
+s	O
+>	O
+:	O
+People	O
+,	O
+Life	O
+,	O
+Story	O
+All	O
+About	O
+Woman	O
+,	O
+여성	O
+중심의	O
+라이프스타일	O
+채널	O
+,	O
+폐국되어	O
+O	B-ORG
+tvN이	B-ORG
+승계	O
+.	O
+
+CJ E&M
+* 바둑TV: 생각의 힘 (바둑 전문 채널), 한국기원에 매각.
+*	O
+바둑TV	B-TRM
+:	O
+생각의	O
+힘	O
+(	O
+바둑	B-CVL
+전문	O
+채널	O
+)	O
+,	O
+한국기원에	B-ORG
+매각	O
+.	O
+
+CJ E&M
+* <s>Channel M</s>: THIS IS WHO WE ARE, K-POP 전문 해외 채널, 폐국되어 tvN Asia가 승계.
+*	O
+<	O
+s	O
+>	O
+Channel	O
+M	O
+<	O
+/	O
+s	O
+>	O
+:	O
+THIS	B-ORG
+IS	B-ORG
+WHO	I-ORG
+WE	I-ORG
+ARE	I-TRM
+,	O
+K	B-FLD
+-	O
+POP	B-FLD
+전문	O
+해외	O
+채널	O
+,	O
+폐국되어	O
+tvN	B-ORG
+Asia가	I-ORG
+승계	O
+.	O
+
+CJ E&M
+* <s>온게임넷</s>: 역대슬로건 (게임 전문 채널), 폐국되어 OGN이 승계.
+*	O
+<	O
+s	O
+>	O
+온게임넷	B-ORG
+<	O
+/	O
+s	O
+>	O
+:	O
+역대슬로건	O
+(	O
+게임	O
+전문	O
+채널	O
+)	O
+,	O
+폐국되어	O
+OGN이	B-ORG
+승계	O
+.	O
+
+CJ E&M
+* <s>OCN 시리즈</s>: Your Series, OCN의 두번째 채널 (시리즈 채널), 폐국되어 DIA TV가 승계.
+*	O
+<	O
+s	O
+>	O
+OCN	B-ORG
+시리즈	O
+<	O
+/	O
+s	O
+>	O
+:	O
+Your	O
+Series	O
+,	O
+OCN의	B-ORG
+두번째	B-NUM
+채널	O
+(	O
+시리즈	O
+채널	O
+)	O
+,	O
+폐국되어	O
+DIA	B-TRM
+TV가	I-TRM
+승계	O
+.	O
+
+CJ E&M
+* <s>XTM</s>: 남자의 날을 세워라! (남성 중심의 라이프스타일 채널), 폐국되어 XtvN이 승계.
+*	O
+<	O
+s	O
+>	O
+XTM	B-TRM
+<	O
+/	O
+s	O
+>	O
+:	O
+남자의	O
+날을	O
+세워라	O
+!	O
+(	O
+남성	O
+중심의	O
+라이프스타일	O
+채널	O
+)	O
+,	O
+폐국되어	O
+XtvN이	O
+승계	O
+.	O
+
+CJ E&M
+* 챔프TV: ㅋㄷㅋㄷ (애니메이션 채널), 티캐스트에 매각.
+*	O
+챔프TV	B-TRM
+:	O
+ㅋㄷㅋㄷ	O
+(	B-FLD
+애니메이션	B-FLD
+채널	O
+)	O
+,	O
+티캐스트에	B-ORG
+매각	O
+.	O
+
+CJ E&M
+* <s>수퍼액션</s>: Life is Action! Only One Action channel (영화 채널), 폐국되어 OCN Thrills가 승계.
+*	O
+<	O
+s	O
+>	O
+수퍼액션	O
+<	O
+/	O
+s	O
+>	O
+:	O
+Life	O
+is	O
+Action	O
+!	O
+Only	O
+One	O
+Action	O
+channel	O
+(	B-FLD
+영화	B-FLD
+채널	O
+)	O
+,	O
+폐국되어	O
+OCN	B-ORG
+Thrills가	I-ORG
+승계	O
+.	O
+
+CJ E&M
+* <s>채널CGV</s>: 영화는 CH CGV (영화 채널), 폐국되어 OCN Movies가 승계.
+*	O
+<	O
+s	O
+>	O
+채널CGV	B-ORG
+<	O
+/	O
+s	O
+>	O
+:	O
+영화는	B-FLD
+CH	B-ORG
+CGV	B-ORG
+(	O
+영화	B-FLD
+채널	O
+)	O
+,	O
+폐국되어	O
+OCN	B-ORG
+Movies가	I-ORG
+승계	O
+.	O
+
+CJ E&M
+* <s>DIA TV</s>: ASIA`S NO.1 CREATOR GROUP (크리에이터 전문 채널), 폐국되어 CH.DIA가 승계.
+*	O
+<	O
+s	O
+>	O
+DIA	B-TRM
+TV	I-TRM
+<	O
+/	O
+s	O
+>	O
+:	O
+ASIA	B-ORG
+`	O
+S	O
+NO	I-EVT
+.	O
+1	B-DAT
+CREATOR	I-TRM
+GROUP	I-TRM
+(	O
+크리에이터	O
+전문	O
+채널	O
+)	O
+,	O
+폐국되어	O
+CH	B-ORG
+.	O
+DIA가	B-TRM
+승계	O
+.	O
+
+CJ E&M
+* 잉글리시 젬: 프리미엄 키즈 영어 콘텐츠 채널 (어린이 키즈영어 전문 채널), 미디어캔의 PP자회사인 필콘미디어에 매각.
+*	O
+잉글리시	B-CVL
+젬	I-CVL
+:	O
+프리미엄	O
+키즈	O
+영어	B-CVL
+콘텐츠	O
+채널	O
+(	O
+어린이	O
+키즈영어	O
+전문	O
+채널	O
+)	O
+,	O
+미디어캔의	O
+PP자회사인	O
+필콘미디어에	B-ORG
+매각	O
+.	O
+
+CJ E&M
+* <s>Olive</s>: 맛있는 순간마다, (요리 전문 채널), 폐국되어 tvN STORY가 승계.
+*	O
+<	O
+s	O
+>	O
+Olive	O
+<	O
+/	O
+s	O
+>	O
+:	O
+맛있는	O
+순간마다	O
+,	O
+(	O
+요리	O
+전문	O
+채널	O
+)	O
+,	O
+폐국되어	O
+tvN	B-ORG
+STORY가	O
+승계	O
+.	O
+
+CJ E&M
+* <s>온스타일</s>: No.1 Style channel Style It's Onstyle (여성 중심의 라이프스타일 및 패션 전문 채널), 폐국되어 새로운 Olive가 승계.
+*	O
+<	O
+s	O
+>	O
+온스타일	B-ORG
+<	O
+/	O
+s	O
+>	O
+:	O
+No	O
+.	O
+1	O
+Style	O
+channel	O
+Style	O
+It	O
+'	O
+s	O
+Onstyle	O
+(	O
+여성	O
+중심의	O
+라이프스타일	O
+및	O
+패션	O
+전문	O
+채널	O
+)	O
+,	O
+폐국되어	O
+새로운	O
+Olive가	O
+승계	O
+.	O
+
+CJ E&M
+* <s>O tvN</s>: Life X Entertainment TV, tvN의 두 번째 채널 (라이프 엔터테인먼트 채널), 폐국되어 tvN DRAMA가 승계.
+*	O
+<	O
+s	O
+>	O
+O	B-ORG
+tvN	B-ORG
+<	O
+/	O
+s	O
+>	O
+:	O
+Life	B-TRM
+X	O
+Entertainment	I-TRM
+TV	I-TRM
+,	O
+tvN의	B-ORG
+두	B-NUM
+번째	I-NUM
+채널	O
+(	O
+라이프	O
+엔터테인먼트	O
+채널	O
+)	O
+,	O
+폐국되어	O
+tvN	B-ORG
+DRAMA가	B-TRM
+승계	O
+.	O
+
+CJ E&M
+* <s>XtvN</s>: 놀러오락! tvN의 세 번째 채널 (밀레니엄 세대 대상 엔터테인먼트 채널), 폐국되어 tvN SHOW가 승계.
+*	O
+<	O
+s	O
+>	O
+XtvN	O
+<	O
+/	O
+s	O
+>	O
+:	O
+놀러오락	O
+!	O
+tvN의	B-ORG
+세	B-NUM
+번째	I-NUM
+채널	I-NUM
+(	O
+밀레니엄	O
+세대	O
+대상	O
+엔터테인먼트	O
+채널	O
+)	O
+,	O
+폐국되어	O
+tvN	B-ORG
+SHOW가	O
+승계	O
+.	O
+
+CJ E&M
+* CJ ENM 영화사업부문(), CJ엔터테인먼트 등의 상표로 활동하며 영화 및 비디오의 투자, 제작 및 배급과 공연의 투자, 제작 및 기획 등을 담당한다.
+*	B-ORG
+CJ	B-ORG
+ENM	I-ORG
+영화사업부문	O
+(	O
+)	O
+,	O
+CJ엔터테인먼트	B-ORG
+등의	O
+상표로	O
+활동하며	O
+영화	B-FLD
+및	O
+비디오의	B-TRM
+투자	O
+,	O
+제작	O
+및	O
+배급과	O
+공연의	O
+투자	O
+,	O
+제작	O
+및	O
+기획	O
+등을	O
+담당한다	O
+.	O
+
+CJ E&M
+* CJ ENM 음악콘텐츠부문().
+*	B-ORG
+CJ	B-ORG
+ENM	I-ORG
+음악콘텐츠부문	B-FLD
+(	B-NUM
+)	O
+.	O
+
+CJ E&M
+* CJ ENM 컨벤션사업본부().
+*	B-ORG
+CJ	B-ORG
+ENM	I-ORG
+컨벤션사업본부	I-ORG
+(	O
+)	O
+.	O
+
+CJ E&M
+* CJ ENM 공연사업본부().
+*	B-ORG
+CJ	B-ORG
+ENM	I-ORG
+공연사업본부	I-ORG
+(	O
+)	O
+.	O
+
+CJ E&M
+* CJ ENM 애니메이션사업본부().
+*	B-ORG
+CJ	B-ORG
+ENM	I-ORG
+애니메이션사업본부	I-ORG
+(	O
+)	O
+.	O
+
+CJ E&M
+* CJ ENM 미디어솔루션부문().
+*	B-ORG
+CJ	B-ORG
+ENM	I-ORG
+미디어솔루션부문	B-FLD
+(	B-NUM
+)	O
+.	O
+
+교보증권
+교보증권(敎保證券)은 대한민국의 증권회사이다.
+교보증권	B-ORG
+(	B-ORG
+敎	I-ORG
+保	I-ORG
+證	I-ORG
+券	I-ORG
+)	O
+은	O
+대한민국의	B-LOC
+증권회사이다	O
+.	O
+
+교보증권
+1949년 대한민국 최초의 증권사인 대한증권으로 출범해서, 1994년 교보생명이 인수한다.
+1949년	B-NUM
+대한민국	B-LOC
+최초의	O
+증권사인	O
+대한증권으로	B-ORG
+출범해서	O
+,	O
+1994년	B-NUM
+교보생명이	B-ORG
+인수한다	O
+.	O
+
+현대위아
+현대위아(Hyundai WIA)는 대한민국의 기업으로, 현대자동차그룹의 계열사이다.
+현대위아	B-ORG
+(	B-ORG
+Hyundai	I-ORG
+WIA	I-ORG
+)	O
+는	O
+대한민국의	B-LOC
+기업으로	O
+,	O
+현대자동차그룹의	B-ORG
+계열사이다	O
+.	O
+
+현대위아
+자동차 부품 사업과 공작기계 사업을 핵심 부문으로 두고 있다.
+자동차	B-AFW
+부품	O
+사업과	O
+공작기계	O
+사업을	O
+핵심	O
+부문으로	O
+두고	O
+있다	O
+.	O
+
+현대위아
+매출 구성은 자동차 부품 82%, 기계 18% 가량으로 구성된다.
+매출	O
+구성은	O
+자동차	B-AFW
+부품	O
+82	B-NUM
+%	O
+,	O
+기계	O
+18	B-NUM
+%	I-NUM
+가량으로	O
+구성된다	O
+.	O
+
+현대위아
+자동차 엔진, 부변속기, 등속조인트 등의 파워트레인 부품, 모듈(샤시모듈, 플랫폼모듈 등)을 제조한다.
+자동차	B-AFW
+엔진	I-AFW
+,	O
+부변속기	B-TRM
+,	O
+등속조인트	B-TRM
+등의	O
+파워트레인	O
+부품	O
+,	O
+모듈	B-TRM
+(	B-TRM
+샤시모듈	B-TRM
+,	O
+플랫폼모듈	O
+등	O
+)	O
+을	O
+제조한다	O
+.	O
+
+현대위아
+공작기계산업의 수요처는 자동차, 항공기, 선박 산업으로 이들 산업의 제조업 설비 투자에 민감하게 영향을 받는다.
+공작기계산업의	O
+수요처는	O
+자동차	B-AFW
+,	O
+항공기	B-AFW
+,	O
+선박	B-AFW
+산업으로	O
+이들	O
+산업의	O
+제조업	O
+설비	O
+투자에	O
+민감하게	O
+영향을	O
+받는다	O
+.	O
+
+현대위아
+1976년 기아산업은 기아기공을 설립했는데, 기아기공은 공작기계와 자동차용 변속기를 생산하면서 기아산업의 주요 부품을 지원한다.
+1976년	B-TIM
+기아산업은	O
+기아기공을	B-ORG
+설립했는데	O
+,	O
+기아기공은	O
+공작기계와	O
+자동차용	O
+변속기를	O
+생산하면서	O
+기아산업의	O
+주요	O
+부품을	O
+지원한다	O
+.	O
+
+현대위아
+2014년 9월 자동차 부품 단·주조제품 전문업체인 현대위스코와 현대메티아를 11월 1일부로 흡수 합병한다고 발표한다.
+2014년	B-DAT
+9월	I-DAT
+자동차	B-AFW
+부품	O
+단	O
+·	O
+주조제품	O
+전문업체인	O
+현대위스코와	B-ORG
+현대메티아를	B-ORG
+11월	B-DAT
+1일부로	I-DAT
+흡수	O
+합병한다고	O
+발표한다	O
+.	O
+
+SGC솔루션
+SGC솔루션은 1967년 6월 27일 설립된 대한민국의 유리제품 제조회사이다.
+SGC솔루션은	B-ORG
+1967년	B-TIM
+6월	I-DAT
+27일	I-DAT
+설립된	O
+대한민국의	B-LOC
+유리제품	O
+제조회사이다	O
+.	O
+
+SGC솔루션
+대한민국 밀폐용기 시장에서 2005년 출시한 '글라스락'(Glasslock)이라는 상표로 시장 점유율 1위를 기록하고 있다.
+대한민국	B-LOC
+밀폐용기	O
+시장에서	O
+2005년	B-DAT
+출시한	O
+'	B-TRM
+글라스락	I-TRM
+'	B-TRM
+(	B-TRM
+Glasslock	B-TRM
+)	O
+이라는	O
+상표로	O
+시장	O
+점유율	O
+1위를	B-NUM
+기록하고	O
+있다	O
+.	O
+
+SGC솔루션
+과거에는 캔류 사업부문도 있었으나 수익이 저조한다는 이유로 캔류 사업은 한일제관에 분리 매각된 바 있다.
+과거에는	O
+캔류	O
+사업부문도	O
+있었으나	O
+수익이	O
+저조한다는	O
+이유로	O
+캔류	O
+사업은	O
+한일제관에	B-ORG
+분리	O
+매각된	O
+바	O
+있다	O
+.	O
+
+SGC솔루션
+* 유리병사업: 음료 및 주류용 백색병, 갈색병, 녹색병 제조 및 판매.
+*	O
+유리병사업	O
+:	O
+음료	O
+및	O
+주류용	O
+백색병	B-TRM
+,	O
+갈색병	B-TRM
+,	O
+녹색병	B-TRM
+제조	O
+및	O
+판매	O
+.	O
+
+SGC솔루션
+* 생활용품사업: 강화유리밀폐용기(글라스락) 및 일반유리식기.
+*	O
+생활용품사업	O
+:	O
+강화유리밀폐용기	B-TRM
+(	O
+글라스락	O
+)	O
+및	O
+일반유리식기	O
+.	O
+
+카프로
+카프로는 나일론의 원료인 카프로락탐(caprolactam)과 유안비료(속효성 질소질 비료)의 제조 및 판매를 전문으로하는 화학업체이며 코스피 상장 기업이다.
+카프로는	B-ORG
+나일론의	B-ORG
+원료인	O
+카프로락탐	B-TRM
+(	B-TRM
+caprolactam	B-TRM
+)	O
+과	O
+유안비료	O
+(	O
+속효성	O
+질소질	B-FLD
+비료	O
+)	O
+의	O
+제조	O
+및	O
+판매를	O
+전문으로하는	O
+화학업체이며	B-FLD
+코스피	B-ORG
+상장	O
+기업이다	O
+.	O
+
+카프로
+대한민국에서는 유일한 카프로락탐 생산 업체이며 대한민국 최대의 유안비료 생산업체이다.
+대한민국에서는	B-LOC
+유일한	O
+카프로락탐	B-LOC
+생산	O
+업체이며	O
+대한민국	B-LOC
+최대의	O
+유안비료	B-TRM
+생산업체이다	O
+.	O
+
+카프로
+본사는 서울특별시 종로구 인사동7길 12 (관훈동)에 있고 공장은 울산광역시 남구 사평로에 있다.
+본사는	O
+서울특별시	B-LOC
+종로구	B-LOC
+인사동7길	B-AFW
+12	B-NUM
+(	B-LOC
+관훈동	B-LOC
+)	O
+에	O
+있고	O
+공장은	O
+울산광역시	B-LOC
+남구	B-LOC
+사평로에	B-LOC
+있다	O
+.	O
+
+카프로
+* 1969년 - 한국카프로락탐을 설립하고.
+*	B-DAT
+1969년	B-TIM
+-	O
+한국카프로락탐을	B-ORG
+설립하고	O
+.	O
+
+카프로
+* 1974년 - 민영화 되었으며.
+*	B-DAT
+1974년	B-NUM
+-	O
+민영화	O
+되었으며	O
+.	O
+
+카프로
+* 1974년 - 주식을 증권거래소에 상장했다.
+*	B-DAT
+1974년	B-NUM
+-	O
+주식을	O
+증권거래소에	O
+상장했다	O
+.	O
+
+카프로
+* 1996년 - 효성그룹 임직원들이 한국카프로락탐의 지분을 사들였고 코오롱그룹이 이에 맞서 주주총회 무효 소송을 냈다.
+*	B-DAT
+1996년	B-TIM
+-	O
+효성그룹	B-ORG
+임직원들이	B-CVL
+한국카프로락탐의	B-ORG
+지분을	O
+사들였고	O
+코오롱그룹이	B-ORG
+이에	O
+맞서	O
+주주총회	O
+무효	O
+소송을	O
+냈다	O
+.	O
+
+카프로
+* 2001년 - 현재의 상호로 변경했으며.
+*	B-DAT
+2001년	I-DAT
+-	O
+현재의	O
+상호로	O
+변경했으며	O
+.	O
+
+카프로
+* 2004년 - 제3공장을 준공했다.
+*	B-DAT
+2004년	I-DAT
+-	O
+제3공장을	B-AFW
+준공했다	O
+.	O
+
+카프로
+카프로락탐은 대한민국 총 수요의 70% 가량을 나일론 제조업체에 공급한다.
+카프로락탐은	B-LOC
+대한민국	B-LOC
+총	O
+수요의	O
+70	O
+%	O
+가량을	O
+나일론	B-LOC
+제조업체에	O
+공급한다	O
+.	O
+
+카프로
+유안비료는 전체 판매량의 90%를 수출하고 나머지는 농업, 공업용으로 대한민국 내에 판매한다.
+유안비료는	O
+전체	O
+판매량의	O
+90	O
+%	O
+를	O
+수출하고	O
+나머지는	O
+농업	O
+,	O
+공업용으로	O
+대한민국	B-LOC
+내에	O
+판매한다	O
+.	O
+
+카프로
+매출 구성은 카프로락탐과 유안비료가 98%를 넘어 전체 매출의 대부분을 차지하고 있다.
+매출	O
+구성은	O
+카프로락탐과	B-ORG
+유안비료가	O
+98	B-NUM
+%	O
+를	O
+넘어	O
+전체	O
+매출의	O
+대부분을	O
+차지하고	O
+있다	O
+.	O
+
+카프로
+실적은 좋지 못한 편으로, 2012년 적자전환하여 순이익이 -192억원이 되었고 2013년에는 -892억원으로 적자폭이 늘었다.
+실적은	O
+좋지	O
+못한	O
+편으로	O
+,	O
+2012년	B-NUM
+적자전환하여	O
+순이익이	O
+-	B-NUM
+192억원이	B-NUM
+되었고	O
+2013년에는	B-NUM
+-	B-NUM
+892억원으로	I-NUM
+적자폭이	O
+늘었다	O
+.	O
+
+카프로
+2014년에도 매분기 적자가 계속되고 있었으며 -792억원의 순손실을 남겼다.
+2014년에도	B-DAT
+매분기	O
+적자가	O
+계속되고	O
+있었으며	O
+-	B-NUM
+792억원의	B-NUM
+순손실을	O
+남겼다	O
+.	O
+
+카프로
+2015년에는 -61억원의 순손실을 남겼다.
+2015년에는	B-NUM
+-	B-NUM
+61억원의	I-NUM
+순손실을	O
+남겼다	O
+.	O
+
+한국쉘석유
+한국쉘석유는 윤활유와 그리스 등을 생산하는 로열 더치 쉘 그룹의 대한민국 투자 법인이다.
+한국쉘석유는	B-ORG
+윤활유와	O
+그리스	B-LOC
+등을	O
+생산하는	O
+로열	B-ORG
+더치	I-ORG
+쉘	I-ORG
+그룹의	I-ORG
+대한민국	B-LOC
+투자	O
+법인이다	O
+.	O
+
+한국쉘석유
+1960년 7월 5일 설립되었으며 한국증권거래소 상장기업이다.
+1960년	B-TIM
+7월	I-DAT
+5일	I-DAT
+설립되었으며	O
+한국증권거래소	B-ORG
+상장기업이다	O
+.	O
+
+한국쉘석유
+대한민국 주식시장에서 대표적인 고배당주로 유명하다.
+대한민국	B-LOC
+주식시장에서	O
+대표적인	O
+고배당주로	B-CVL
+유명하다	O
+.	O
+
+한국쉘석유
+* 1960년 극동정유공업을 설립했고.
+*	B-DAT
+1960년	B-TIM
+극동정유공업을	B-ORG
+설립했고	O
+.	O
+
+한국쉘석유
+* 1961년 부산 우암공장 윤활유 준공 및 생산개시.
+*	B-DAT
+1961년	B-DAT
+부산	B-AFW
+우암공장	I-AFW
+윤활유	B-AFW
+준공	O
+및	O
+생산개시	O
+.	O
+
+한국쉘석유
+* 1969년 극동정유와 영국 로열 더치 쉘 합작법인을 극동쉘정유를 설립했다.
+*	B-DAT
+1969년	B-DAT
+극동정유와	B-ORG
+영국	B-LOC
+로열	B-ORG
+더치	I-ORG
+쉘	I-ORG
+합작법인을	O
+극동쉘정유를	B-ORG
+설립했다	O
+.	O
+
+한국쉘석유
+* 1976년 부산 용당 저유소 윤활유 및 절삭유 공장 준공 및 쉘 브랜드 윤활유 제품 생산 개시.
+*	B-DAT
+1976년	B-DAT
+부산	B-LOC
+용당	B-AFW
+저유소	O
+윤활유	O
+및	O
+절삭유	O
+공장	O
+준공	O
+및	O
+쉘	O
+브랜드	O
+윤활유	O
+제품	O
+생산	O
+개시	O
+.	O
+
+한국쉘석유
+* 1977년 기존 상호명을 극동쉘정유를 현재 상호명을 한국쉘석유를 설립하였다.
+*	B-DAT
+1977년	B-DAT
+기존	O
+상호명을	O
+극동쉘정유를	B-ORG
+현재	O
+상호명을	O
+한국쉘석유를	B-ORG
+설립하였다	O
+.	O
+
+한국쉘석유
+* 1985년 부산 우암공장 생산중단 및 매각.
+*	B-DAT
+1985년	B-TIM
+부산	B-LOC
+우암공장	B-AFW
+생산중단	O
+및	O
+매각	O
+.	O
+
+에스엠컬처앤콘텐츠
+thumb.
+thumb	O
+.	O
+
+에스엠컬처앤콘텐츠
+(주)에스엠컬처앤콘텐츠(약칭: 'SM C&C')는 SM 엔터테인먼트 계열의 연예기획사이다.
+(	B-ORG
+주	B-ORG
+)	O
+에스엠컬처앤콘텐츠	B-ORG
+(	O
+약칭	O
+:	O
+'	B-EVT
+SM	B-AFW
+C	I-AFW
+&	I-AFW
+C	I-AFW
+'	O
+)	O
+는	O
+SM	B-TRM
+엔터테인먼트	O
+계열의	O
+연예기획사이다	O
+.	O
+
+에스엠컬처앤콘텐츠
+2006년 볼빅을 인수하며 코스닥에 상장하였으며, 2007년 인터넷 여행사 투어익스프레스를 인수하였다.
+2006년	B-DAT
+볼빅을	B-ORG
+인수하며	O
+코스닥에	B-ORG
+상장하였으며	O
+,	O
+2007년	B-DAT
+인터넷	B-TRM
+여행사	O
+투어익스프레스를	B-ORG
+인수하였다	O
+.	O
+
+에스엠컬처앤콘텐츠
+2012년 AM 엔터테인먼트를 인수하며 배우 라인업을 강화하였다.
+2012년	B-DAT
+AM	B-ORG
+엔터테인먼트를	I-ORG
+인수하며	O
+배우	B-CVL
+라인업을	O
+강화하였다	O
+.	O
+
+에스엠컬처앤콘텐츠
+자회사로는 호텔트리스가 있으며 기업 트래블 데스크를 운영중이며 본사는 서울특별시 강남구 삼성로 648 (삼성동)에 있다.
+자회사로는	O
+호텔트리스가	B-ORG
+있으며	O
+기업	O
+트래블	B-TRM
+데스크를	O
+운영중이며	O
+본사는	O
+서울특별시	B-LOC
+강남구	B-LOC
+삼성로	B-AFW
+648	I-LOC
+(	B-LOC
+삼성동	B-LOC
+)	O
+에	O
+있다	O
+.	O
+
+뉘앙스 커뮤니케이션즈
+뉘앙스 커뮤니케이션즈 주식회사()는 미국의 음성 인식 엔진 개발 회사이다.
+뉘앙스	B-ORG
+커뮤니케이션즈	I-ORG
+주식회사	I-ORG
+(	I-ORG
+)	O
+는	O
+미국의	B-LOC
+음성	B-TRM
+인식	I-TRM
+엔진	I-TRM
+개발	O
+회사이다	O
+.	O
+
+뉘앙스 커뮤니케이션즈
+시리의 음성 인식 엔진을 공급하기로 유명하다.
+시리의	B-TRM
+음성	O
+인식	O
+엔진을	O
+공급하기로	O
+유명하다	O
+.	O
+
+뉘앙스 커뮤니케이션즈
+음성인식 기술이 PC에 적용된 최초의 사례는 1980년대 초 드래곤 시스템(Dragon Systems)이 개발한 도스용 프로그램 드래곤 딕테이트(DragonDictate)이다.
+음성인식	B-TRM
+기술이	I-TRM
+PC에	B-TRM
+적용된	O
+최초의	O
+사례는	O
+1980년대	B-DAT
+초	I-DAT
+드래곤	B-TRM
+시스템	I-TRM
+(	B-TRM
+Dragon	I-TRM
+Systems	I-TRM
+)	O
+이	O
+개발한	O
+도스용	B-TRM
+프로그램	B-TRM
+드래곤	I-TRM
+딕테이트	I-TRM
+(	I-TRM
+DragonDictate	I-TRM
+)	O
+이다	O
+.	O
+
+뉘앙스 커뮤니케이션즈
+2000년도에는 한국지사인 "뉘앙스 커뮤니케이션즈 코리아"가 설립되었으며, 2007년 처음으로 한국어 딕테이션(Dictation) 프로젝트를 시작했다.
+2000년도에는	B-DAT
+한국지사인	B-CVL
+"	B-ORG
+뉘앙스	B-ORG
+커뮤니케이션즈	I-ORG
+코리아	I-ORG
+"	O
+가	O
+설립되었으며	O
+,	O
+2007년	B-DAT
+처음으로	O
+한국어	B-TRM
+딕테이션	I-TRM
+(	I-TRM
+Dictation	I-TRM
+)	I-TRM
+프로젝트를	I-TRM
+시작했다	O
+.	O
+
+뉘앙스 커뮤니케이션즈
+2010년 구글은 세계 1위인 뉘앙스의 기술로 음성검색 서비스를 제공했으며, 에이치씨아이랩은 네이버와 다음에 음성검색 시스템을 공급했다.
+2010년	B-DAT
+구글은	B-ORG
+세계	O
+1위인	B-NUM
+뉘앙스의	O
+기술로	O
+음성검색	B-TRM
+서비스를	I-TRM
+제공했으며	O
+,	O
+에이치씨아이랩은	B-ORG
+네이버와	B-ORG
+다음에	B-ORG
+음성검색	B-TRM
+시스템을	I-TRM
+공급했다	O
+.	O
+
+뉘앙스 커뮤니케이션즈
+스마트폰 사용자들이 음성으로 검색이 가능하다.
+스마트폰	B-TRM
+사용자들이	B-CVL
+음성으로	O
+검색이	O
+가능하다	O
+.	O
+
+웨이보 (기업)
+웨이보()는 시나 웨이보 서비스를 운영하는 기업이다.
+웨이보	B-TRM
+(	B-TRM
+)	O
+는	O
+시나	O
+웨이보	B-TRM
+서비스를	I-TRM
+운영하는	O
+기업이다	O
+.	O
+
+웨이보 (기업)
+현재 미국 나스닥에 상장되어 있다.
+현재	O
+미국	B-LOC
+나스닥에	B-ORG
+상장되어	O
+있다	O
+.	O
+
+웨이보 (기업)
+시나 웨이보는 페이스북과 트위터와 유사한 기능을 제공한다.
+시나	B-PER
+웨이보는	B-TRM
+페이스북과	B-ORG
+트위터와	B-TRM
+유사한	O
+기능을	O
+제공한다	O
+.	O
+
+웨이보 (기업)
+중국 인터넷 유저의 30% 정도가 사용하는 것으로 알려져 있다.
+중국	B-LOC
+인터넷	B-TRM
+유저의	B-CVL
+30	B-NUM
+%	I-NUM
+정도가	O
+사용하는	O
+것으로	O
+알려져	O
+있다	O
+.	O
+
+웨이보 (기업)
+웨이보는 중국어로 마이크로 블로그를 뜻하지만, 현재 웨이보란 이름으로 나스닥에 상장되어 있다.
+웨이보는	B-ORG
+중국어로	B-AFW
+마이크로	B-TRM
+블로그를	I-TRM
+뜻하지만	O
+,	O
+현재	O
+웨이보란	B-ORG
+이름으로	O
+나스닥에	B-ORG
+상장되어	O
+있다	O
+.	O
+
+웨이보 (기업)
+원래는 2010년 T.CN이라는 이름의 시나 그룹(SINA Corporation)의 자회사로 설립됐으나 2012년 웨이보로 이름을 바꿨다.
+원래는	O
+2010년	B-DAT
+T	B-ORG
+.	I-ORG
+CN이라는	I-ORG
+이름의	O
+시나	B-ORG
+그룹	I-ORG
+(	B-ORG
+SINA	B-ORG
+Corporation	I-ORG
+)	O
+의	O
+자회사로	O
+설립됐으나	O
+2012년	B-NUM
+웨이보로	B-TRM
+이름을	O
+바꿨다	O
+.	O
+
+그루프 PSA
+그루프 PSA(Groupe PSA),  이전 사명 'PSA 푸조 시트로엥'(PSA Peugeot Citroën)은 프랑스의 자동차 회사인 푸조가 1976년 당시 심각한 재정난으로 허덕이던 프랑스 자동차 기업 시트로엥을 인수하면서 탄생한 그룹이다.
+그루프	B-LOC
+PSA	I-ORG
+(	B-ORG
+Groupe	I-ORG
+PSA	I-ORG
+)	O
+,	O
+이전	O
+사명	O
+'	B-ORG
+PSA	B-ORG
+푸조	B-ORG
+시트로엥	I-ORG
+'	B-AFW
+(	B-TRM
+PSA	B-AFW
+Peugeot	I-TRM
+[UNK]	I-TRM
+)	O
+은	O
+프랑스의	B-LOC
+자동차	B-AFW
+회사인	O
+푸조가	B-ORG
+1976년	B-TIM
+당시	O
+심각한	O
+재정난으로	O
+허덕이던	O
+프랑스	B-LOC
+자동차	B-AFW
+기업	O
+시트로엥을	B-ORG
+인수하면서	O
+탄생한	O
+그룹이다	O
+.	O
+
+그루프 PSA
+대한민국 현대자동차그룹의 관계와 비슷하다.
+대한민국	B-LOC
+현대자동차그룹의	B-ORG
+관계와	O
+비슷하다	O
+.	O
+
+그루프 PSA
+2017년 3월 7일에는 독일의 자동차 회사인 오펠, 영국의 자동차 회사인 복스홀을 인수하였다.
+2017년	B-NUM
+3월	I-DAT
+7일에는	I-DAT
+독일의	B-LOC
+자동차	B-AFW
+회사인	O
+오펠	B-ORG
+,	O
+영국의	B-LOC
+자동차	B-AFW
+회사인	O
+복스홀을	B-ORG
+인수하였다	O
+.	O
+
+그루프 PSA
+2020년 FCA 그룹과 1:1로 합병하였으며, 현 PSA의 대표인 카를루스 타바르스(Carlos Tavares)가 합병 회사의 대표를 맡는다.
+2020년	B-TIM
+FCA	B-ORG
+그룹과	I-ORG
+1	B-TRM
+:	I-TRM
+1로	O
+합병하였으며	O
+,	O
+현	O
+PSA의	B-ORG
+대표인	O
+카를루스	B-PER
+타바르스	I-PER
+(	B-ORG
+Carlos	I-ORG
+Tavares	I-ORG
+)	O
+가	O
+합병	O
+회사의	O
+대표를	B-CVL
+맡는다	O
+.	O
+
+그루프 PSA
+새로운 합병 법인의 이름은 스텔란티스(Stellantis)이다.
+새로운	O
+합병	O
+법인의	O
+이름은	O
+스텔란티스	B-PER
+(	B-TRM
+Stellantis	B-PER
+)	O
+이다	O
+.	O
+
+컴스코어
+컴스코어(Comscore)는 미국의 인터넷 마켓팅 연구 기업으로 마켓팅 자료와 서비스를 많은 인터넷 기업에 제공한다.
+컴스코어	B-ORG
+(	B-TRM
+Comscore	B-TRM
+)	O
+는	O
+미국의	B-LOC
+인터넷	O
+마켓팅	O
+연구	O
+기업으로	O
+마켓팅	O
+자료와	O
+서비스를	O
+많은	O
+인터넷	O
+기업에	O
+제공한다	O
+.	O
+
+컴스코어
+컴스코어는 자사가 조사하는 컴퓨터상의 모든 인터넷 자료를 추적하여 온라인 동향을 연구한다.
+컴스코어는	B-ORG
+자사가	O
+조사하는	O
+컴퓨터상의	O
+모든	O
+인터넷	O
+자료를	O
+추적하여	O
+온라인	O
+동향을	O
+연구한다	O
+.	O
+
+컴스코어
+컴스코어는 1999년 7월 버지니아주 레스턴에서 설립되었다.
+컴스코어는	B-ORG
+1999년	B-DAT
+7월	I-DAT
+버지니아주	B-LOC
+레스턴에서	B-LOC
+설립되었다	O
+.	O
+
+사람인에이치알
+사람인에이치알은 대한민국의 리크루팅 플랫폼이다.
+사람인에이치알은	B-ORG
+대한민국의	B-LOC
+리크루팅	O
+플랫폼이다	O
+.	O
+
+사람인에이치알
+공채정보를 제공하는 온라인 취업포털 사람인을 중심으로 헤드헌팅, 아웃소싱사업 등을 운영하고 있다.
+공채정보를	O
+제공하는	O
+온라인	O
+취업포털	O
+사람인을	B-ORG
+중심으로	O
+헤드헌팅	O
+,	O
+아웃소싱사업	O
+등을	O
+운영하고	O
+있다	O
+.	O
+
+사람인에이치알
+2012년 코스닥에 상장 되었다.
+2012년	B-DAT
+코스닥에	B-ORG
+상장	O
+되었다	O
+.	O
+
+일양약품
+일양약품(一洋藥品, Il-Yang Pharm.
+일양약품	B-ORG
+(	O
+一	O
+洋	O
+藥	O
+品	O
+,	O
+Il	O
+-	O
+Yang	O
+Pharm	O
+.	O
+
+일양약품
+Co., Ltd)은 대한민국의 의약품 제조·업체 회사이다.
+Co	B-ORG
+.	O
+,	O
+Ltd	B-TRM
+)	O
+은	O
+대한민국의	B-LOC
+의약품	O
+제조	O
+·	O
+업체	O
+회사이다	O
+.	O
+
+일양약품
+본사·공장은 경기도 용인시 기흥구 하갈동에 위치해 있다.
+본사	O
+·	O
+공장은	O
+경기도	B-LOC
+용인시	B-LOC
+기흥구	B-LOC
+하갈동에	B-LOC
+위치해	O
+있다	O
+.	O
+
+일양약품
+* 1946년 7월 1일 일양약품 전신인 공신약업사로 설립되었다 창업자는 정형식 명예회장이다 (정형식 회장은 17세의 나이로 우에무라 제약소에 입사해 제약업계와 인연을 맺었다.).
+*	B-DAT
+1946년	B-NUM
+7월	I-DAT
+1일	I-DAT
+일양약품	B-ORG
+전신인	O
+공신약업사로	O
+설립되었다	O
+창업자는	B-CVL
+정형식	B-PER
+명예회장이다	B-CVL
+(	B-PER
+정형식	B-PER
+회장은	B-CVL
+17세의	B-NUM
+나이로	O
+우에무라	B-LOC
+제약소에	O
+입사해	O
+제약업계와	O
+인연을	O
+맺었다	O
+.	O
+)	O
+.	O
+
+일양약품
+* 1946년 의약품과 화공약품을 팔던 한성약관을 인수해 공신약업사를 세웠다.
+*	B-DAT
+1946년	B-NUM
+의약품과	O
+화공약품을	O
+팔던	O
+한성약관을	B-ORG
+인수해	O
+공신약업사를	O
+세웠다	O
+.	O
+
+일양약품
+* 1957년 7월 정 회장은 당시 위산과다로 고생하고 있었는데, 이것이 노루모를 만든 계기의 시작이었다.
+*	B-DAT
+1957년	B-TIM
+7월	I-DAT
+정	B-PER
+회장은	B-CVL
+당시	O
+위산과다로	B-CVL
+고생하고	O
+있었는데	O
+,	O
+이것이	O
+노루모를	O
+만든	O
+계기의	O
+시작이었다	O
+.	O
+
+일양약품
+* 1959년 생산공장을 성북구 하월곡동 24번지로 이전 (109평으로 규모 확대).
+*	B-DAT
+1959년	B-NUM
+생산공장을	O
+성북구	B-LOC
+하월곡동	B-LOC
+24번지로	B-NUM
+이전	B-NUM
+(	B-NUM
+109평으로	I-NUM
+규모	O
+확대	O
+)	O
+.	O
+
+일양약품
+* 1960년 회사 이름을 공신약업사에서 일양제작소로 변경하였다.
+*	B-DAT
+1960년	B-TIM
+회사	O
+이름을	O
+공신약업사에서	B-ORG
+일양제작소로	B-ORG
+변경하였다	O
+.	O
+
+일양약품
+일양은 '하나에서 출발해 바다를 이룬다'라는 뜻으로 세워졌다.
+일양은	B-TIM
+'	B-NUM
+하나에서	B-NUM
+출발해	O
+바다를	O
+이룬다	O
+'	O
+라는	O
+뜻으로	O
+세워졌다	O
+.	O
+
+일양약품
+* 1961년 회사 상호명을 일양제작소를 일양약품공업사로 변경하였다.
+*	B-DAT
+1961년	B-NUM
+회사	O
+상호명을	O
+일양제작소를	B-ORG
+일양약품공업사로	B-ORG
+변경하였다	O
+.	O
+
+일양약품
+* 1971년 일양약품공업사를 일양약품공업(주)로 상호변경 및 법인체로 전환.
+*	B-DAT
+1971년	B-DAT
+일양약품공업사를	B-ORG
+일양약품공업	B-ORG
+(	B-ORG
+주	I-ORG
+)	O
+로	O
+상호변경	O
+및	O
+법인체로	O
+전환	O
+.	O
+
+일양약품
+* 1971년 인삼 자양강장 드링크 원비디를 출시하였다.
+*	B-DAT
+1971년	B-DAT
+인삼	B-CVL
+자양강장	I-AFW
+드링크	B-AFW
+원비디를	I-AFW
+출시하였다	O
+.	O
+
+일양약품
+원비디는 출시 5개월째 판매량이 40만 병을 넘어섰다.
+원비디는	B-ORG
+출시	O
+5개월째	B-DAT
+판매량이	O
+40만	B-NUM
+병을	I-NUM
+넘어섰다	O
+.	O
+
+일양약품
+* 1972년  서울 하월곡동 생산공장 시대는 막을 내리고 생산시설은 용인 시대를 개막하였다.
+*	B-DAT
+1972년	B-DAT
+서울	B-LOC
+하월곡동	B-LOC
+생산공장	O
+시대는	O
+막을	O
+내리고	O
+생산시설은	O
+용인	B-LOC
+시대를	O
+개막하였다	O
+.	O
+
+일양약품
+* 1973년 일본 후지화학 기술제휴한 액체위장약 노이시린 출시하였다.
+*	B-DAT
+1973년	B-DAT
+일본	B-LOC
+후지화학	B-ORG
+기술제휴한	O
+액체위장약	B-TRM
+노이시린	I-TRM
+출시하였다	O
+.	O
+
+일양약품
+* 1974년 주식을 증권거래소에 상장했다.
+*	B-DAT
+1974년	B-DAT
+주식을	O
+증권거래소에	B-ORG
+상장했다	O
+.	O
+
+일양약품
+* 1976년 원비디의 후속 제품인 원비에프를 출시했고, 7만 5000병을 미국으로 수출했다.
+*	B-DAT
+1976년	B-DAT
+원비디의	B-ORG
+후속	O
+제품인	O
+원비에프를	B-ORG
+출시했고	O
+,	O
+7만	B-NUM
+5000병을	I-NUM
+미국으로	B-LOC
+수출했다	O
+.	O
+
+일양약품
+* 1977년 진해거담제 아스마에스시럽 출시하였다.
+*	B-DAT
+1977년	B-DAT
+진해거담제	B-TRM
+아스마에스시럽	B-TRM
+출시하였다	O
+.	O
+
+일양약품
+* 1981년 이담효소 소화제 아진탈 출시하였다.
+*	B-DAT
+1981년	I-DAT
+이담효소	B-TRM
+소화제	B-TRM
+아진탈	I-TRM
+출시하였다	O
+.	O
+
+일양약품
+* 1984년 일양약품 씨름단을 창단했다.
+*	B-DAT
+1984년	I-DAT
+일양약품	B-ORG
+씨름단을	I-ORG
+창단했다	O
+.	O
+
+일양약품
+* 1985년 프랑스 불란서 라테마사 기술제휴한 과민성대장증상 치료제 디세텔 시판.
+*	B-DAT
+1985년	B-TIM
+프랑스	B-LOC
+불란서	B-LOC
+라테마사	B-LOC
+기술제휴한	O
+과민성대장증상	B-TRM
+치료제	O
+디세텔	B-ORG
+시판	O
+.	O
+
+일양약품
+* 1985년 미국 SC존슨사 스프레이형 살충제 레이드 판매계약제휴.
+*	B-DAT
+1985년	B-NUM
+미국	B-LOC
+SC존슨사	B-ORG
+스프레이형	O
+살충제	O
+레이드	O
+판매계약제휴	O
+.	O
+
+일양약품
+* 1985년 스프레이형 살충제 레이드 출시.
+*	B-DAT
+1985년	B-NUM
+스프레이형	O
+살충제	B-TRM
+레이드	O
+출시	O
+.	O
+
+일양약품
+* 1985년 정통 영지버섯 드링크인 영비천을 시중에 선보였다.
+*	B-DAT
+1985년	I-DAT
+정통	O
+영지버섯	B-CVL
+드링크인	B-CVL
+영비천을	B-LOC
+시중에	O
+선보였다	O
+.	O
+
+일양약품
+* 1987년 녹색병에 생약성분의 건위소화제 생단액 시판.
+*	B-DAT
+1987년	B-TIM
+녹색병에	B-TRM
+생약성분의	O
+건위소화제	B-TRM
+생단액	B-TRM
+시판	O
+.	O
+
+일양약품
+* 1989년 아진탈를 리뉴얼을 한 아진탈포르테 재출시.
+*	B-DAT
+1989년	B-TIM
+아진탈를	O
+리뉴얼을	O
+한	O
+아진탈포르테	O
+재출시	O
+.	O
+
+일양약품
+* 1989년 생약성분 보강이 된 진해거담제 아스마에취시럽 재출시.
+*	B-DAT
+1989년	B-DAT
+생약성분	O
+보강이	O
+된	O
+진해거담제	B-TRM
+아스마에취시럽	B-CVL
+재출시	O
+.	O
+
+일양약품
+* 1989년 설치식 바퀴살충제 레이드 콘트롤러 시판.
+*	B-DAT
+1989년	I-DAT
+설치식	O
+바퀴살충제	B-TRM
+레이드	O
+콘트롤러	O
+시판	O
+.	O
+
+일양약품
+* 1990년 무설탕에 영지버섯 드링크 영비천 재출시에 영비천 캔으로 출시하였다.
+*	B-DAT
+1990년	B-DAT
+무설탕에	B-CVL
+영지버섯	B-CVL
+드링크	O
+영비천	O
+재출시에	O
+영비천	O
+캔으로	O
+출시하였다	O
+.	O
+
+일양약품
+* 1990년 일양약품 자매회사인 금보제약㈜, 동방합성화학㈜ 기공식.
+*	B-DAT
+1990년	B-DAT
+일양약품	B-ORG
+자매회사인	O
+금보제약㈜	B-ORG
+,	O
+동방합성화학㈜	B-ORG
+기공식	O
+.	O
+
+일양약품
+* 1991년 회사명을 일양약품공업(주)를 지금의 일양약품(주)의 상호로 변경하였다.
+*	B-DAT
+1991년	B-DAT
+회사명을	O
+일양약품공업	B-ORG
+(	B-ORG
+주	I-ORG
+)	O
+를	O
+지금의	O
+일양약품	B-ORG
+(	B-ORG
+주	I-ORG
+)	O
+의	O
+상호로	O
+변경하였다	O
+.	O
+
+일양약품
+* 1994년 정형식 회장의 장남인 정도언이 대표이사 사장에 취임했다.
+*	B-DAT
+1994년	B-TIM
+정형식	B-PER
+회장의	B-CVL
+장남인	B-CVL
+정도언이	B-PER
+대표이사	B-CVL
+사장에	I-CVL
+취임했다	O
+.	O
+
+일양약품
+* 1995년 영지버섯이온함유음료 영비천마일드 출시하였다.
+*	B-DAT
+1995년	I-DAT
+영지버섯이온함유음료	B-CVL
+영비천마일드	B-TRM
+출시하였다	O
+.	O
+
+일양약품
+* 1995년 영비천이 러시아 우주 비행사의 공식후원 지정하였다.
+*	B-DAT
+1995년	I-DAT
+영비천이	B-LOC
+러시아	B-LOC
+우주	O
+비행사의	B-CVL
+공식후원	B-CVL
+지정하였다	O
+.	O
+
+일양약품
+* 1997년 생단액를 리뉴얼을 한 생단액에스 재출시하였다.
+*	B-DAT
+1997년	B-DAT
+생단액를	B-TRM
+리뉴얼을	O
+한	O
+생단액에스	B-TRM
+재출시하였다	O
+.	O
+
+일양약품
+* 1997년 영비천을 리뉴얼을 한 영비천S를 재출시하였다.
+*	B-DAT
+1997년	B-DAT
+영비천을	B-AFW
+리뉴얼을	O
+한	O
+영비천S를	B-TRM
+재출시하였다	O
+.	O
+
+일양약품
+* 2003년 토코페롤 드링크린 일양토코페롤과 체지방 분해 음료 원다이어트를 출시했다.
+*	B-DAT
+2003년	I-DAT
+토코페롤	B-CVL
+드링크린	O
+일양토코페롤과	B-CVL
+체지방	O
+분해	O
+음료	O
+원다이어트를	O
+출시했다	O
+.	O
+
+일양약품
+* 2004년 영비천S를 리뉴얼을 한 영비천골드 재출시하였다.
+*	B-DAT
+2004년	B-DAT
+영비천S를	B-TRM
+리뉴얼을	O
+한	O
+영비천골드	B-ORG
+재출시하였다	O
+.	O
+
+일양약품
+* 2011년 충북 음성에 백신공장을 준공하였다.
+*	B-DAT
+2011년	I-DAT
+충북	B-LOC
+음성에	B-LOC
+백신공장을	B-AFW
+준공하였다	O
+.	O
+
+일양약품
+* 2013년 독감백신을 식약처에서 허가받았다.
+*	B-DAT
+2013년	I-DAT
+독감백신을	O
+식약처에서	O
+허가받았다	O
+.	O
+
+일양약품
+* 2016년 용인시 하갈동에 도시첨단산업단지인 일양히포도시첨단산업단지 조성 MOU체결(용인시-일양약품 2800억 투자).
+*	B-DAT
+2016년	B-DAT
+용인시	B-LOC
+하갈동에	B-LOC
+도시첨단산업단지인	O
+일양히포도시첨단산업단지	B-LOC
+조성	O
+MOU체결	B-ORG
+(	B-LOC
+용인시	B-LOC
+-	O
+일양약품	B-ORG
+2800억	B-NUM
+투자	O
+)	O
+.	O
+
+일양약품
+* 2019년 1월 일양약품 용인공장 부지 일양히포도시첨단산업단지 조성공사.
+*	B-DAT
+2019년	B-DAT
+1월	I-DAT
+일양약품	B-ORG
+용인공장	B-AFW
+부지	O
+일양히포도시첨단산업단지	B-LOC
+조성공사	O
+.	O
+
+일양약품
+* 일양약품 본사 및 용인공장: 경기도 용인시 기흥구 하갈로 110 일양약품 (하갈동).
+*	O
+일양약품	B-ORG
+본사	O
+및	O
+용인공장	B-LOC
+:	O
+경기도	B-LOC
+용인시	B-LOC
+기흥구	B-LOC
+하갈로	B-AFW
+110	I-TRM
+일양약품	B-ORG
+(	B-LOC
+하갈동	B-LOC
+)	O
+.	O
+
+일양약품
+* 일양약품 음성백신공장: 충청북도 음성군 금왕읍 대금로 1291 (내송리).
+*	O
+일양약품	B-ORG
+음성백신공장	B-CVL
+:	O
+충청북도	B-LOC
+음성군	B-LOC
+금왕읍	B-LOC
+대금로	O
+1291	B-NUM
+(	B-LOC
+내송리	B-LOC
+)	O
+.	O
+
+일양약품
+* 일양바이오팜 제천공장: 충청북도 제천시 제천바이오밸리 3로8 일양바이오팜.
+*	O
+일양바이오팜	B-ORG
+제천공장	B-ORG
+:	O
+충청북도	B-LOC
+제천시	B-LOC
+제천바이오밸리	B-ORG
+3로8	B-NUM
+일양바이오팜	B-ORG
+.	O
+
+일양약품
+* 일양약품 중국현지공장: 양주일양제약유한공사,통화일양유한공사,일양한중무역유한공사 3개 공장.
+*	O
+일양약품	B-ORG
+중국현지공장	B-AFW
+:	O
+양주일양제약유한공사	B-ORG
+,	O
+통화일양유한공사	B-ORG
+,	O
+일양한중무역유한공사	B-ORG
+3개	B-NUM
+공장	I-NUM
+.	O
+
+FNC 엔터테인먼트
+FNC 엔터테인먼트()는 가수 겸 작곡가 출신 한성호가 설립한 연예기획사이다.
+FNC	B-ORG
+엔터테인먼트	I-ORG
+(	B-ORG
+)	O
+는	O
+가수	B-CVL
+겸	O
+작곡가	B-CVL
+출신	O
+한성호가	B-PER
+설립한	O
+연예기획사이다	O
+.	O
+
+FNC 엔터테인먼트
+본사는 서울특별시 강남구 도산대로85길 46 (청담동)에 위치에 있으며 소속 아티스트는 FT아일랜드, CNBLUE, AOA, 엔플라잉, SF9, 체리블렛, P1Harmony 등이 있다.
+본사는	O
+서울특별시	B-LOC
+강남구	B-LOC
+도산대로85길	B-AFW
+46	I-AFW
+(	B-AFW
+청담동	B-LOC
+)	O
+에	O
+위치에	O
+있으며	O
+소속	O
+아티스트는	B-CVL
+FT아일랜드	B-ORG
+,	O
+CNBLUE	B-ORG
+,	O
+AOA	B-ORG
+,	O
+엔플라잉	B-TRM
+,	O
+SF9	B-TRM
+,	O
+체리블렛	B-ORG
+,	O
+P1Harmony	B-TRM
+등이	O
+있다	O
+.	O
+
+FNC 엔터테인먼트
+2006년 '피쉬엔케익뮤직(Fish & Cake)'을 설립한 후 주로 밴드그룹 위주로 아티스트를 발굴했다.
+2006년	B-DAT
+'	B-ORG
+피쉬엔케익뮤직	B-ORG
+(	I-ORG
+Fish	I-ORG
+&	I-ORG
+Cake	I-ORG
+)	I-ORG
+'	O
+을	O
+설립한	O
+후	O
+주로	O
+밴드그룹	O
+위주로	O
+아티스트를	B-CVL
+발굴했다	O
+.	O
+
+FNC 엔터테인먼트
+이후 음반 프로듀싱, 아티스트 육성 및 매니지먼트, 드라마 OST 제작, 공연 기획 분야에서 두드러지는 성장세를 보여왔다.
+이후	O
+음반	O
+프로듀싱	O
+,	O
+아티스트	B-CVL
+육성	O
+및	O
+매니지먼트	O
+,	O
+드라마	B-FLD
+OST	B-FLD
+제작	O
+,	O
+공연	O
+기획	O
+분야에서	O
+두드러지는	O
+성장세를	O
+보여왔다	O
+.	O
+
+FNC 엔터테인먼트
+2012년 4월에 사명을 FNC 엔터테인먼트로 바꾸고 종합 엔터테인먼트사로 영역을 확장하면서 영화 및 드라마 제작 영역으로도 발을 넓히고 있다.
+2012년	B-DAT
+4월에	I-DAT
+사명을	O
+FNC	B-ORG
+엔터테인먼트로	O
+바꾸고	O
+종합	O
+엔터테인먼트사로	O
+영역을	O
+확장하면서	O
+영화	B-FLD
+및	O
+드라마	B-FLD
+제작	O
+영역으로도	O
+발을	O
+넓히고	O
+있다	O
+.	O
+
+FNC 엔터테인먼트
+2014년 12월 4일 엔터테인먼트 기업으로는 SM 엔터테인먼트, YG 엔터테인먼트, JYP 엔터테인먼트에 이어 4번째로 코스닥 상장에 성공하였다.
+2014년	B-DAT
+12월	I-DAT
+4일	I-DAT
+엔터테인먼트	O
+기업으로는	O
+SM	B-ORG
+엔터테인먼트	O
+,	O
+YG	B-ORG
+엔터테인먼트	O
+,	O
+JYP	B-ORG
+엔터테인먼트에	O
+이어	O
+4번째로	B-NUM
+코스닥	B-ORG
+상장에	O
+성공하였다	O
+.	O
+
+웹젠
+thumb.
+thumb	O
+.	O
+
+웹젠
+웹젠()은 2000년 설립된 온라인 게임 기업이다.
+웹젠	B-ORG
+(	B-TRM
+)	O
+은	O
+2000년	B-DAT
+설립된	O
+온라인	B-TRM
+게임	I-TRM
+기업이다	O
+.	O
+
+웹젠
+《뮤 온라인》을 시작으로 MMORPG 《R2》, 액션 RPG 《C9》등을 개발했다.
+《	B-TRM
+뮤	I-TRM
+온라인	I-TRM
+》	O
+을	O
+시작으로	O
+MMORPG	B-TRM
+《	B-TRM
+R2	I-TRM
+》	O
+,	O
+액션	B-TRM
+RPG	I-TRM
+《	B-TRM
+C9	I-TRM
+》	O
+등을	O
+개발했다	O
+.	O
+
+웹젠
+2003년에는 중국, 2004년에는 일본으로 각각 뮤 온라인을 출시했고, 2005년에는 필리핀 시장에 뮤 온라인을 출시했다.
+2003년에는	B-DAT
+중국	B-LOC
+,	O
+2004년에는	B-NUM
+일본으로	B-LOC
+각각	O
+뮤	B-TRM
+온라인을	I-TRM
+출시했고	O
+,	O
+2005년에는	B-DAT
+필리핀	B-LOC
+시장에	O
+뮤	B-TRM
+온라인을	I-TRM
+출시했다	O
+.	O
+
+웹젠
+2005년부터는 차기작인 'SUN(Soul of the Ultimate Nation)' 등을 출시했으며 2011년 2월, ‘메틴2’로 유럽시장 온라인게임 시장 점유 1위를 기록 중인 (주)이미르엔터테인먼트의 지분 100%와 경영권을 인수했다.
+2005년부터는	B-DAT
+차기작인	O
+'	O
+SUN	O
+(	O
+Soul	O
+of	O
+the	O
+Ultimate	O
+Nation	O
+)	O
+'	O
+등을	O
+출시했으며	O
+2011년	B-DAT
+2월	I-DAT
+,	O
+‘	B-TRM
+메틴2	B-TRM
+’	O
+로	O
+유럽시장	B-LOC
+온라인게임	B-TRM
+시장	O
+점유	O
+1위를	B-NUM
+기록	O
+중인	O
+(	B-ORG
+주	B-ORG
+)	I-ORG
+이미르엔터테인먼트의	I-ORG
+지분	O
+100	B-NUM
+%	I-NUM
+와	O
+경영권을	O
+인수했다	O
+.	O
+
+웹젠
+2013년 7월, 웹젠은 '아크로드2'와 '뮤2' 등 온라인게임 개발 및 '뮤 더제네시스'를 비롯한 모바일 게임사업 진출에 주력하고 있으며, 북미/유럽 지역을 대상으로 게임포털 'gPotato'를 운영하면서 해외 게임서비스 확대에 집중하고 있다.
+2013년	B-DAT
+7월	I-DAT
+,	O
+웹젠은	B-ORG
+'	B-TRM
+아크로드2	B-TRM
+'	O
+와	O
+'	B-TRM
+뮤2	B-TRM
+'	O
+등	O
+온라인게임	B-TRM
+개발	O
+및	O
+'	B-TRM
+뮤	B-TRM
+더제네시스	I-TRM
+'	O
+를	O
+비롯한	O
+모바일	B-TRM
+게임사업	I-TRM
+진출에	O
+주력하고	O
+있으며	O
+,	O
+북미	B-LOC
+/	O
+유럽	B-LOC
+지역을	O
+대상으로	O
+게임포털	O
+'	B-TRM
+gPotato	B-TRM
+'	O
+를	O
+운영하면서	O
+해외	O
+게임서비스	O
+확대에	O
+집중하고	O
+있다	O
+.	O
+
+영진약품
+영진약품(永進藥品, Yungjin Pharm Co.
+영진약품	B-ORG
+(	B-TRM
+永	O
+進	O
+藥	O
+品	O
+,	O
+Yungjin	B-TRM
+Pharm	I-TRM
+Co	I-TRM
+.	O
+
+영진약품
+Ltd.)은 대한민국의 제약 업체 회사이다.().
+Ltd	B-ORG
+.	O
+)	O
+은	O
+대한민국의	B-LOC
+제약	O
+업체	O
+회사이다	O
+.	O
+(	O
+)	O
+.	O
+
+영진약품
+1962년 7월 16일에 설립되었으며, 회사 형태를 법인으로 바꾸고 영진약품공업(주)으로 바뀌었다.
+1962년	B-NUM
+7월	I-DAT
+16일에	I-DAT
+설립되었으며	O
+,	O
+회사	O
+형태를	O
+법인으로	O
+바꾸고	O
+영진약품공업	B-ORG
+(	I-ORG
+주	I-ORG
+)	O
+으로	O
+바뀌었다	O
+.	O
+
+영진약품
+1963년 제1, 2공장을 세웠다.
+1963년	B-NUM
+제1	B-AFW
+,	I-AFW
+2공장을	I-AFW
+세웠다	O
+.	O
+
+영진약품
+1988년 식품사업부와 화장품사업부를 각각 세웠으나, IMF 이후에 경영상 문제로 1997년 12월 부도를 냈다.
+1988년	B-DAT
+식품사업부와	B-ORG
+화장품사업부를	B-ORG
+각각	O
+세웠으나	O
+,	O
+IMF	B-ORG
+이후에	O
+경영상	O
+문제로	O
+1997년	B-DAT
+12월	I-DAT
+부도를	O
+냈다	O
+.	O
+
+영진약품
+2004년 KT&G가 경영권을 인수하면서 KT&G 계열사로 편입됐다.
+2004년	B-DAT
+KT	B-ORG
+&	B-ORG
+G가	I-ORG
+경영권을	O
+인수하면서	O
+KT	B-ORG
+&	O
+G	B-ORG
+계열사로	O
+편입됐다	O
+.	O
+
+영진약품
+자양강장제인 구론산 바몬드, 소화제 판크론, 코엔자임 드링크 큐텐액 등 의약품을 개발하였다.
+자양강장제인	B-TRM
+구론산	B-TRM
+바몬드	I-TRM
+,	O
+소화제	B-TRM
+판크론	I-TRM
+,	O
+코엔자임	B-TRM
+드링크	I-TRM
+큐텐액	I-TRM
+등	O
+의약품을	O
+개발하였다	O
+.	O
+
+영진약품
+드링크 사업부가 있는 익산공장은 2013년 10월 16일 해태HTB에 매각하였다.
+드링크	B-ORG
+사업부가	I-ORG
+있는	O
+익산공장은	B-ORG
+2013년	B-NUM
+10월	I-DAT
+16일	I-DAT
+해태HTB에	B-ORG
+매각하였다	O
+.	O
+
+넥스트엔터테인먼트월드
+넥스트엔터테인먼트월드()는 2008년에 설립된 대한민국의 콘텐츠 전문 유통사이다.
+넥스트엔터테인먼트월드	B-ORG
+(	I-ORG
+)	O
+는	O
+2008년에	B-DAT
+설립된	O
+대한민국의	B-LOC
+콘텐츠	O
+전문	O
+유통사이다	O
+.	O
+
+넥스트엔터테인먼트월드
+2012년 1월 25일, 2008년 설립된 도메오홀딩스가 기존의 '넥스트엔터테인먼트월드'를 흡수 합병하여 폐업처리되었으며, 동시에 도메오홀딩스는 넥스트엔터테인먼트월드(NEW)로 상호를 변경하였다.
+2012년	B-DAT
+1월	I-DAT
+25일	I-DAT
+,	I-DAT
+2008년	B-DAT
+설립된	O
+도메오홀딩스가	B-ORG
+기존의	O
+'	B-ORG
+넥스트엔터테인먼트월드	I-ORG
+'	O
+를	O
+흡수	O
+합병하여	O
+폐업처리되었으며	O
+,	O
+동시에	O
+도메오홀딩스는	B-ORG
+넥스트엔터테인먼트월드	B-ORG
+(	B-ORG
+NEW	O
+)	O
+로	O
+상호를	O
+변경하였다	O
+.	O
+
+넥스트엔터테인먼트월드
+=== 영화 투자·배급 사업부 (MOVIE & NEW) ===
+=	B-FLD
+=	B-FLD
+=	B-FLD
+영화	B-FLD
+투자	O
+·	O
+배급	O
+사업부	O
+(	O
+MOVIE	O
+&	O
+NEW	O
+)	O
+=	O
+=	B-ORG
+=	B-ORG
+
+넥스트엔터테인먼트월드
+* 영화 투자·배급 사업부 (MOVIE & NEW)는 2008년에 설립된 대한민국의 한국영화 투자·제작·배급 및 외화 수입·배급을 담당하는 영화사이며, 애니메이션 제작·수입·배급을 담당하는 부서인 ANIMATION & NEW를 자매부서로 두고있다.
+*	B-FLD
+영화	B-FLD
+투자	O
+·	O
+배급	O
+사업부	B-ORG
+(	B-ORG
+MOVIE	B-ORG
+&	I-ORG
+NEW	I-ORG
+)	O
+는	O
+2008년에	B-DAT
+설립된	O
+대한민국의	B-LOC
+한국영화	B-FLD
+투자	O
+·	O
+제작	O
+·	O
+배급	O
+및	O
+외화	O
+수입	O
+·	O
+배급을	O
+담당하는	O
+영화사이며	O
+,	O
+애니메이션	B-FLD
+제작	O
+·	O
+수입	O
+·	O
+배급을	O
+담당하는	O
+부서인	O
+ANIMATION	B-ORG
+&	I-ORG
+NEW를	I-ORG
+자매부서로	O
+두고있다	O
+.	O
+
+넥스트엔터테인먼트월드
+창립부터 2년간 영화진흥위원회 통합전산망 배급사별 점유율에서 중.하위권에 머물렀으나 2012년 하반기부터 배급사별 점유율이 급상승하였고, 2013년 12월 배급사별 월별 점유율에서 CJ E&M을 제치고 1위를 차지했다.
+창립부터	O
+2년간	B-DAT
+영화진흥위원회	B-ORG
+통합전산망	O
+배급사별	O
+점유율에서	O
+중	O
+.	O
+하위권에	O
+머물렀으나	O
+2012년	B-DAT
+하반기부터	I-DAT
+배급사별	O
+점유율이	O
+급상승하였고	O
+,	O
+2013년	B-DAT
+12월	I-DAT
+배급사별	O
+월별	O
+점유율에서	O
+CJ	B-ORG
+E	I-ORG
+&	I-ORG
+M을	I-ORG
+제치고	O
+1위를	B-NUM
+차지했다	O
+.	O
+
+넥스트엔터테인먼트월드
+한국영화 주요작품으로는 《킹콩을 들다》, 《청담보살》, 《헬로우 고스트》, 《세상에서 가장 아름다운 이별》, 《부러진 화살》, 《내 아내의 모든 것》, 《바람과 함께 사라지다》, 《피에타》, 《반창꼬》,.
+한국영화	B-FLD
+주요작품으로는	O
+《	B-AFW
+킹콩을	I-AFW
+들다	I-AFW
+》	I-AFW
+,	O
+《	B-AFW
+청담보살	I-AFW
+》	I-AFW
+,	O
+《	B-AFW
+헬로우	I-AFW
+고스트	I-AFW
+》	I-AFW
+,	O
+《	B-AFW
+세상에서	O
+가장	I-AFW
+아름다운	I-AFW
+이별	I-AFW
+》	I-AFW
+,	O
+《	B-AFW
+부러진	I-AFW
+화살	I-AFW
+》	I-AFW
+,	O
+《	B-AFW
+내	I-AFW
+아내의	I-AFW
+모든	I-AFW
+것	I-AFW
+》	O
+,	O
+《	B-AFW
+바람과	I-AFW
+함께	I-AFW
+사라지다	I-AFW
+》	I-AFW
+,	O
+《	B-AFW
+피에타	I-AFW
+》	I-AFW
+,	O
+《	B-AFW
+반창꼬	I-AFW
+》	I-AFW
+,	O
+.	O
+
+넥스트엔터테인먼트월드
+《7번방의 선물》, 《신세계》, 《감시자들》, 《변호인》, 《해무》, 《스물》, 《연평해전》, 《부산행》, 《판도라》, 《더 킹》, 《악녀》, 《강철비》, 《염력》, 《독전》, 《허스토리》, 《안시성》, 《가장 보통의 연애》, 《시동》등 이 있다.
+《	B-NUM
+7번방의	B-NUM
+선물	I-AFW
+》	O
+,	O
+《	B-AFW
+신세계	I-AFW
+》	O
+,	O
+《	B-AFW
+감시자들	I-CVL
+》	O
+,	O
+《	B-CVL
+변호인	I-CVL
+》	O
+,	O
+《	B-AFW
+해무	I-AFW
+》	O
+,	O
+《	B-AFW
+스물	I-AFW
+》	O
+,	O
+《	B-AFW
+연평해전	I-AFW
+》	I-AFW
+,	O
+《	B-AFW
+부산행	I-AFW
+》	I-AFW
+,	O
+《	B-AFW
+판도라	B-AFW
+》	O
+,	O
+《	B-AFW
+더	I-AFW
+킹	I-AFW
+》	O
+,	O
+《	B-AFW
+악녀	I-AFW
+》	O
+,	O
+《	B-AFW
+강철비	I-AFW
+》	O
+,	O
+《	B-AFW
+염력	I-AFW
+》	O
+,	O
+《	B-AFW
+독전	I-AFW
+》	O
+,	O
+《	B-AFW
+허스토리	I-AFW
+》	O
+,	O
+《	B-AFW
+안시성	I-AFW
+》	O
+,	O
+《	B-AFW
+가장	I-AFW
+보통의	I-AFW
+연애	I-AFW
+》	O
+,	O
+《	B-TRM
+시동	I-TRM
+》	O
+등	O
+이	O
+있다	O
+.	O
+
+넥스트엔터테인먼트월드
+=== CINE Q ===
+=	O
+=	O
+=	O
+CINE	O
+Q	O
+=	O
+=	O
+=	O
+
+넥스트엔터테인먼트월드
+*씨네Q()는 영화관사업부로 지역 프리미엄 문화공간으로서 과감한 혁신과 변화를 선도하는 새로운 감각의 멀티플렉스 영화관.
+*	B-ORG
+씨네Q	B-ORG
+(	O
+)	O
+는	O
+영화관사업부로	B-ORG
+지역	O
+프리미엄	O
+문화공간으로서	O
+과감한	O
+혁신과	O
+변화를	O
+선도하는	O
+새로운	O
+감각의	O
+멀티플렉스	O
+영화관	O
+.	O
+
+넥스트엔터테인먼트월드
+=== MUSIC&NEW ===
+=	B-TRM
+=	B-TRM
+=	B-ORG
+MUSIC	B-ORG
+&	O
+NEW	O
+=	O
+=	B-ORG
+=	O
+
+넥스트엔터테인먼트월드
+* 뮤직앤뉴()는 2012년에 설립된 음악사업 계열사로 음원 유통, 음반 제작 및 유통, 콘텐츠 투자 & 유통을 담당한다.
+*	B-ORG
+뮤직앤뉴	B-ORG
+(	B-TRM
+)	O
+는	O
+2012년에	B-DAT
+설립된	O
+음악사업	B-FLD
+계열사로	O
+음원	O
+유통	O
+,	O
+음반	O
+제작	O
+및	O
+유통	O
+,	O
+콘텐츠	O
+투자	O
+&	O
+유통을	O
+담당한다	O
+.	O
+
+넥스트엔터테인먼트월드
+*성민 다행이아 비밀의남자 ost 발매 KBS2 일일드라마.
+*	O
+성민	B-PER
+다행이아	I-PER
+비밀의남자	O
+ost	O
+발매	O
+KBS2	B-ORG
+일일드라마	O
+.	O
+
+넥스트엔터테인먼트월드
+=== CONTENTS PANDA ===
+=	B-ORG
+=	B-ORG
+=	B-ORG
+CONTENTS	B-ORG
+PANDA	O
+=	O
+=	B-ORG
+=	B-ORG
+
+넥스트엔터테인먼트월드
+* 콘텐츠판다()는 2013년에 설립된 글로벌판권유통 사업 계열사로 외화 수입, 한국영화 세일즈 및 투자/제작 사업 및 부가판권사업을 전담하는 콘텐츠 유통사이다.
+*	B-ORG
+콘텐츠판다	B-TRM
+(	B-TRM
+)	O
+는	O
+2013년에	B-DAT
+설립된	O
+글로벌판권유통	O
+사업	O
+계열사로	O
+외화	O
+수입	O
+,	O
+한국영화	B-FLD
+세일즈	O
+및	O
+투자	O
+/	O
+제작	O
+사업	O
+및	O
+부가판권사업을	O
+전담하는	O
+콘텐츠	O
+유통사이다	O
+.	O
+
+넥스트엔터테인먼트월드
+=== STUDIO&NEW ===
+=	B-ORG
+=	B-ORG
+=	B-ORG
+STUDIO	B-ORG
+&	O
+NEW	O
+=	O
+=	B-ORG
+=	O
+
+넥스트엔터테인먼트월드
+* 스튜디오앤뉴()는 콘텐츠제작/매니지먼트사업 계열사로 영화, 드라마 등 엔터테인먼트 분야 전반을 아우르는 미디어 콘텐츠 제작사.
+*	O
+스튜디오앤뉴	B-TRM
+(	B-TRM
+)	O
+는	O
+콘텐츠제작	O
+/	O
+매니지먼트사업	O
+계열사로	O
+영화	B-FLD
+,	O
+드라마	B-FLD
+등	O
+엔터테인먼트	O
+분야	O
+전반을	O
+아우르는	O
+미디어	O
+콘텐츠	O
+제작사	O
+.	O
+
+넥스트엔터테인먼트월드
+=== BRAVO&NEW ===
+=	B-ORG
+=	B-ORG
+=	B-ORG
+BRAVO	B-ORG
+&	O
+NEW	O
+=	B-ORG
+=	B-ORG
+=	B-ORG
+
+넥스트엔터테인먼트월드
+*브라보앤뉴()는 스포츠사업 계열사로 선수 매니지먼트와 스포츠 중계권, 스포츠마케팅과 라이선싱, 광고대행까지 사업영역을 확장하는 종합 마케팅 커뮤니케이션 전문기업.
+*	B-ORG
+브라보앤뉴	B-CVL
+(	B-ORG
+)	O
+는	O
+스포츠사업	O
+계열사로	O
+선수	B-CVL
+매니지먼트와	O
+스포츠	O
+중계권	O
+,	O
+스포츠마케팅과	O
+라이선싱	O
+,	O
+광고대행까지	O
+사업영역을	O
+확장하는	O
+종합	O
+마케팅	O
+커뮤니케이션	O
+전문기업	O
+.	O
+
+넥스트엔터테인먼트월드
+2019년 프로당구협회 PBA를 출범한 바 있다.
+2019년	B-DAT
+프로당구협회	B-ORG
+PBA를	I-ORG
+출범한	O
+바	O
+있다	O
+.	O
+
+넥스트엔터테인먼트월드
+=== eNgine ===
+=	B-TRM
+=	B-TRM
+=	B-TRM
+eNgine	B-TRM
+=	B-TRM
+=	B-TRM
+=	B-TRM
+
+넥스트엔터테인먼트월드
+*엔진()은 VFX사업 계열사로 기술력의 제약 없이 콘텐츠 본질을 즐길 수 있는 미래형 콘텐츠를 선보여 상상력의 한계를 뛰어넘는 즐거움을 제공.
+*	B-TRM
+엔진	B-TRM
+(	B-TRM
+)	O
+은	O
+VFX사업	B-TRM
+계열사로	O
+기술력의	O
+제약	O
+없이	O
+콘텐츠	O
+본질을	O
+즐길	O
+수	O
+있는	O
+미래형	O
+콘텐츠를	O
+선보여	O
+상상력의	O
+한계를	O
+뛰어넘는	O
+즐거움을	O
+제공	O
+.	O
+
+넥스트엔터테인먼트월드
+=== NEW ID ===
+=	O
+=	O
+=	O
+NEW	O
+ID	O
+=	O
+=	O
+=	O
+
+넥스트엔터테인먼트월드
+*아이디()은 디지털사업 계열사로 차세대 디지털 콘텐츠를 개발하고 글로벌 플랫폼 시장을 개척하기 위해 2019년 10월 출범.
+*	B-TRM
+아이디	B-TRM
+(	B-TRM
+)	O
+은	O
+디지털사업	O
+계열사로	O
+차세대	O
+디지털	O
+콘텐츠를	O
+개발하고	O
+글로벌	O
+플랫폼	O
+시장을	O
+개척하기	O
+위해	O
+2019년	B-DAT
+10월	I-DAT
+출범	O
+.	O
+
+태광산업
+태광산업(泰光産業)은 석유화학 부문과 섬유 사업을 영위하는 코스피 상장 기업이다.
+태광산업	B-ORG
+(	B-TRM
+泰	O
+光	O
+産	O
+業	O
+)	O
+은	O
+석유화학	O
+부문과	O
+섬유	O
+사업을	O
+영위하는	O
+코스피	B-ORG
+상장	O
+기업이다	O
+.	O
+
+태광산업
+석유화학 부문에서는 PTA, 프로필렌, AN 등을 생산하며 섬유 부문에서는 원사 및 직물 등을 생산한다.
+석유화학	B-FLD
+부문에서는	O
+PTA	B-ORG
+,	O
+프로필렌	B-TRM
+,	O
+AN	B-TRM
+등을	O
+생산하며	O
+섬유	O
+부문에서는	O
+원사	O
+및	O
+직물	O
+등을	O
+생산한다	O
+.	O
+
+태광산업
+부수적으로 임대사업도 하고 있으며 종속회사를 통하여 방송통신사업도 영위한다.
+부수적으로	O
+임대사업도	O
+하고	O
+있으며	O
+종속회사를	O
+통하여	O
+방송통신사업도	O
+영위한다	O
+.	O
+
+태광산업
+매출구성은 제조 및 임대 73%, 방송통신 36%, 연결조정 -9% 등으로 이루어진다.
+매출구성은	O
+제조	O
+및	O
+임대	O
+73	B-NUM
+%	O
+,	O
+방송통신	O
+36	B-NUM
+%	O
+,	O
+연결조정	O
+-	O
+9	B-NUM
+%	O
+등으로	O
+이루어진다	O
+.	O
+
+태광산업
+섬유와 석유화학공장 등이 수직계열화를 구축하여 일괄생산이 가능한 기업이다.
+섬유와	O
+석유화학공장	O
+등이	O
+수직계열화를	O
+구축하여	O
+일괄생산이	O
+가능한	O
+기업이다	O
+.	O
+
+태광산업
+매출 구성은 화학 및 섬유 제조업과 임대에서 70% 가량이, 그리고 방송통신사업에서 30% 가량이 나온다.
+매출	O
+구성은	O
+화학	B-FLD
+및	O
+섬유	O
+제조업과	O
+임대에서	O
+70	O
+%	O
+가량이	O
+,	O
+그리고	O
+방송통신사업에서	O
+30	B-NUM
+%	O
+가량이	O
+나온다	O
+.	O
+
+태광산업
+매출액은 매분기 7,000억대에서 8,000억대에 달하며, 순이익 규모도 매출액 대비 크지는 않으나 평균 200억 이상으로 매분기 흑자를 기록하는 기업이다.
+매출액은	O
+매분기	O
+7	B-NUM
+,	B-NUM
+000억대에서	I-NUM
+8	B-NUM
+,	I-NUM
+000억대에	I-NUM
+달하며	O
+,	O
+순이익	O
+규모도	O
+매출액	O
+대비	O
+크지는	O
+않으나	O
+평균	O
+200억	B-NUM
+이상으로	I-NUM
+매분기	O
+흑자를	O
+기록하는	O
+기업이다	O
+.	O
+
+태광산업
+다만 매출액은 점차 줄어드는 추세이다.
+다만	O
+매출액은	O
+점차	O
+줄어드는	O
+추세이다	O
+.	O
+
+태광산업
+특히 2015년도에는 경기가 좋지 못하여 PTA, PX 등의 수요가 줄어 사업에 어려움을 겪고 있으며 중국 회사들과의 경쟁 역시 사업의 위험 요소로 부각되고 있다.
+특히	O
+2015년도에는	B-NUM
+경기가	O
+좋지	O
+못하여	O
+PTA	B-TRM
+,	O
+PX	B-TRM
+등의	O
+수요가	O
+줄어	O
+사업에	O
+어려움을	O
+겪고	O
+있으며	O
+중국	B-LOC
+회사들과의	O
+경쟁	O
+역시	O
+사업의	O
+위험	O
+요소로	O
+부각되고	O
+있다	O
+.	O
+
+태광산업
+증시에서는 주가가 100만원을 넘는 소위 '황제주' 중의 하나로, 그에 따른 거래 위축에 대한 논란이 있다.
+증시에서는	O
+주가가	O
+100만원을	B-NUM
+넘는	O
+소위	O
+'	B-CVL
+황제주	B-CVL
+'	O
+중의	O
+하나로	B-NUM
+,	O
+그에	O
+따른	O
+거래	O
+위축에	O
+대한	O
+논란이	O
+있다	O
+.	O
+
+태광산업
+실제 태광산업의 하루 평균 거래대금은 시가총액 1조 5천억에 달하는 대기업에 걸맞지 않게 5억원 남짓한 아주 적은 수준이다.
+실제	O
+태광산업의	B-ORG
+하루	B-DAT
+평균	O
+거래대금은	O
+시가총액	O
+1조	B-NUM
+5천억에	I-NUM
+달하는	O
+대기업에	O
+걸맞지	O
+않게	O
+5억원	B-NUM
+남짓한	O
+아주	O
+적은	O
+수준이다	O
+.	O
+
+태광산업
+1950년 10월 동양실업을 인수하여 1954년 7월 태광산업사로 창립한 뒤 1961년 9월 지금의 상호로 법인전환하였다.
+1950년	B-TIM
+10월	I-DAT
+동양실업을	B-ORG
+인수하여	O
+1954년	B-TIM
+7월	I-DAT
+태광산업사로	B-ORG
+창립한	O
+뒤	O
+1961년	B-TIM
+9월	I-DAT
+지금의	O
+상호로	O
+법인전환하였다	O
+.	O
+
+태광산업
+1969년 8월 동래공장을 준공하였고, 1971년 8월 동양합섬(주)을 흡수합병하였으며, 1975년 12월 증권거래소에 주식을 상장하였다.
+1969년	B-TIM
+8월	I-DAT
+동래공장을	B-AFW
+준공하였고	O
+,	O
+1971년	B-TIM
+8월	I-DAT
+동양합섬	B-ORG
+(	B-ORG
+주	I-ORG
+)	O
+을	O
+흡수합병하였으며	O
+,	O
+1975년	B-DAT
+12월	I-DAT
+증권거래소에	B-ORG
+주식을	O
+상장하였다	O
+.	O
+
+태광산업
+1978년에 천일사를 인수하였다가 1983년 12월 태광전자(주)를 흡수합병하였고, 1991~1993년에는 경주·신평 등지에 공장을 신설한 데 이어 광진섬유공업(주)을 흡수합병하였다.
+1978년에	B-DAT
+천일사를	B-ORG
+인수하였다가	O
+1983년	B-NUM
+12월	I-DAT
+태광전자	B-ORG
+(	I-ORG
+주	I-ORG
+)	O
+를	O
+흡수합병하였고	O
+,	O
+1991	B-DAT
+~	B-DAT
+1993년에는	I-DAT
+경주	B-LOC
+·	O
+신평	B-LOC
+등지에	O
+공장을	O
+신설한	O
+데	O
+이어	O
+광진섬유공업	B-ORG
+(	B-ORG
+주	I-ORG
+)	O
+을	O
+흡수합병하였다	O
+.	O
+
+태광산업
+1995년부터는 석유화학공장을 준공하여 화학섬유산업에 주력하였다.
+1995년부터는	B-DAT
+석유화학공장을	B-AFW
+준공하여	O
+화학섬유산업에	O
+주력하였다	O
+.	O
+
+태광산업
+2003년 4월 중국에 태광화섬(성숙)유한공사, 2004년에 사후관리 위탁 업체인 에이에스텍을 잇따라 설립하였다.
+2003년	B-DAT
+4월	I-DAT
+중국에	B-LOC
+태광화섬	B-ORG
+(	B-ORG
+성숙	B-ORG
+)	O
+유한공사	B-ORG
+,	O
+2004년에	B-DAT
+사후관리	O
+위탁	O
+업체인	O
+에이에스텍을	B-ORG
+잇따라	O
+설립하였다	O
+.	O
+
+태광산업
+2005년 12월에는 사업성 악화로 인하여 전자사업을 중단하고 사후관리체계로 전환함과 함께 안양공장을 매각하였으며, 2008년 11월에는 종합유선 방송사업자인 티브로드홀딩스를 출범시켰다.
+2005년	B-DAT
+12월에는	I-DAT
+사업성	O
+악화로	O
+인하여	O
+전자사업을	O
+중단하고	O
+사후관리체계로	O
+전환함과	O
+함께	O
+안양공장을	B-AFW
+매각하였으며	O
+,	O
+2008년	B-DAT
+11월에는	I-DAT
+종합유선	O
+방송사업자인	O
+티브로드홀딩스를	B-ORG
+출범시켰다	O
+.	O
+
+태광산업
+주요 사업은 나일론·아크릴·면방사·직물 등의 합성섬유 제품, 화학섬유의 핵심 원료인 PTA(고순도 테레프탈산)·AN(아크릴로나이트릴) 등 석유화학 제품의 제조 및 판매업, 기타 임대업이다.
+주요	O
+사업은	O
+나일론	B-FLD
+·	O
+아크릴	B-TRM
+·	O
+면방사	O
+·	O
+직물	O
+등의	O
+합성섬유	O
+제품	O
+,	O
+화학섬유의	O
+핵심	O
+원료인	O
+PTA	B-TRM
+(	B-TRM
+고순도	B-TRM
+테레프탈산	B-TRM
+)	O
+·	O
+AN	B-TRM
+(	B-TRM
+아크릴로나이트릴	B-TRM
+)	O
+등	O
+석유화학	B-FLD
+제품의	O
+제조	O
+및	O
+판매업	O
+,	O
+기타	O
+임대업이다	O
+.	O
+
+태광산업
+태광그룹의 모기업으로서 대한화섬(주), (주)세광패션, 서한물산(주), 태광관광개발(주), 흥국화재해상보험(주), 흥국생명보험(주), 흥국증권(주), (주)티시스, (주)에스티임, (주)메르뱅 등 30여개의 계열회사가 있다.
+태광그룹의	B-ORG
+모기업으로서	O
+대한화섬	B-ORG
+(	B-ORG
+주	I-ORG
+)	O
+,	O
+(	B-ORG
+주	I-ORG
+)	O
+세광패션	B-ORG
+,	O
+서한물산	B-ORG
+(	I-ORG
+주	I-ORG
+)	O
+,	O
+태광관광개발	B-ORG
+(	I-ORG
+주	I-ORG
+)	O
+,	O
+흥국화재해상보험	B-ORG
+(	I-ORG
+주	I-ORG
+)	O
+,	O
+흥국생명보험	B-ORG
+(	I-ORG
+주	I-ORG
+)	O
+,	O
+흥국증권	B-ORG
+(	I-ORG
+주	I-ORG
+)	O
+,	O
+(	B-ORG
+주	I-ORG
+)	O
+티시스	B-ORG
+,	O
+(	B-ORG
+주	B-ORG
+)	O
+에스티임	B-ORG
+,	O
+(	B-ORG
+주	B-ORG
+)	O
+메르뱅	B-ORG
+등	O
+30여개의	B-NUM
+계열회사가	O
+있다	O
+.	O
+
+태광산업
+반여공장은 3조3교대 근무 시스템을 7조 3교대로 변경, 신규 인력을 채용했다.
+반여공장은	B-ORG
+3조3교대	B-NUM
+근무	O
+시스템을	O
+7조	B-NUM
+3교대로	I-NUM
+변경	O
+,	O
+신규	O
+인력을	O
+채용했다	O
+.	O
+
+태광산업
+== 역대 CEO ==
+=	O
+=	O
+역대	O
+CEO	B-CVL
+=	O
+=	O
+
+태광산업
+* 1대 이임용 (창업주 ; 1961 ~ 1996년).
+*	B-NUM
+1대	B-NUM
+이임용	B-PER
+(	B-CVL
+창업주	B-CVL
+;	O
+1961	B-DAT
+~	O
+1996년	I-DAT
+)	O
+.	O
+
+태광산업
+* 2대 이기화 (1997 ~ 2004년).
+*	B-NUM
+2대	B-NUM
+이기화	B-PER
+(	B-DAT
+1997	B-TIM
+~	O
+2004년	I-DAT
+)	O
+.	O
+
+태광산업
+* 3대 이호진 (2004 ~ 2012년).
+*	B-NUM
+3대	B-NUM
+이호진	B-PER
+(	B-DAT
+2004	B-TIM
+~	I-DAT
+2012년	I-DAT
+)	O
+.	O
+
+태광산업
+* 이식진 - 부회장 (故 이임용 창업주 장남, 1997 ~ 2004년).
+*	B-PER
+이식진	B-PER
+-	O
+부회장	B-CVL
+(	B-PER
+故	O
+이임용	B-PER
+창업주	B-CVL
+장남	B-CVL
+,	O
+1997	B-TIM
+~	O
+2004년	I-DAT
+)	O
+.	O
+
+동성제약
+동성제약주식회사(东星制药株式会社, Dong Sung Bio Pharm.
+동성제약주식회사	B-ORG
+(	I-ORG
+[UNK]	I-ORG
+星	I-ORG
+制	I-ORG
+[UNK]	I-ORG
+株	I-ORG
+式	I-ORG
+会	I-ORG
+社	I-ORG
+,	O
+Dong	B-TRM
+Sung	I-TRM
+Bio	I-TRM
+Pharm	I-TRM
+.	O
+
+동성제약
+Co.,Ltd.)은 대한민국의 1957년에 설립된 의약품과 화장품 사업을 영위하는 중견 제약업체이다.
+Co	B-ORG
+.	I-ORG
+,	O
+Ltd	B-ORG
+.	O
+)	O
+은	O
+대한민국의	B-LOC
+1957년에	B-NUM
+설립된	O
+의약품과	O
+화장품	O
+사업을	O
+영위하는	O
+중견	O
+제약업체이다	O
+.	O
+
+동성제약
+대표적인 의약품으로는 정로환, 비오킬, 그린큐, 파파민, 토스롱, 미녹시딜 등이 있으며, 화장품 및 기타 제품으로는 세븐에이트, 허브, 훼미닌, 이지엔, 에이씨케어, 바이오가이아 등이 있다.
+대표적인	O
+의약품으로는	O
+정로환	B-TRM
+,	O
+비오킬	B-ORG
+,	O
+그린큐	B-ORG
+,	O
+파파민	B-TRM
+,	O
+토스롱	B-TRM
+,	O
+미녹시딜	B-TRM
+등이	O
+있으며	O
+,	O
+화장품	O
+및	O
+기타	O
+제품으로는	O
+세븐에이트	B-ORG
+,	O
+허브	B-AFW
+,	O
+훼미닌	B-TRM
+,	O
+이지엔	B-ORG
+,	O
+에이씨케어	B-ORG
+,	O
+바이오가이아	B-ORG
+등이	O
+있다	O
+.	O
+
+동성제약
+* 본사: 서울특별시 도봉구 도봉로 683 (방학동).
+*	O
+본사	B-CVL
+:	O
+서울특별시	B-LOC
+도봉구	B-LOC
+도봉로	B-AFW
+683	I-AFW
+(	B-LOC
+방학동	B-LOC
+)	O
+.	O
+
+동성제약
+* 아산공장: 충청남도 아산시 둔포면 관대안길 45.
+*	O
+아산공장	B-AFW
+:	O
+충청남도	B-LOC
+아산시	B-LOC
+둔포면	B-LOC
+관대안길	B-LOC
+45	B-NUM
+.	O
+
+동성제약
+* 대구암센터 : 대구광역시 동구 첨복로 85 (동내동) 동성제약연구소 대구암센터.
+*	O
+대구암센터	B-AFW
+:	O
+대구광역시	B-LOC
+동구	B-LOC
+첨복로	B-AFW
+85	I-NUM
+(	B-LOC
+동내동	B-LOC
+)	O
+동성제약연구소	B-ORG
+대구암센터	B-AFW
+.	O
+
+국순당
+국순당(麴醇堂, KOOK SOON DANG)은 대한민국의 주류 전문 기업이다.
+국순당	B-ORG
+(	O
+[UNK]	B-PER
+[UNK]	O
+堂	O
+,	O
+KOOK	B-ORG
+SOON	I-ORG
+DANG	I-ORG
+)	O
+은	O
+대한민국의	B-LOC
+주류	O
+전문	O
+기업이다	O
+.	O
+
+국순당
+창업자는 배상면, 대표는 배중호(2013년 기준)이다.
+창업자는	B-CVL
+배상면	B-PER
+,	O
+대표는	B-CVL
+배중호	B-PER
+(	B-DAT
+2013년	B-NUM
+기준	O
+)	O
+이다	O
+.	O
+
+국순당
+* 1952년 11월 기린 주조장 설립.
+*	B-DAT
+1952년	B-TIM
+11월	I-DAT
+기린	B-LOC
+주조장	O
+설립	O
+.	O
+
+국순당
+* 1983년 2월 기존 상호명을 기린 주조장에서 (주)배한산업으로 변경.
+*	B-DAT
+1983년	B-NUM
+2월	I-DAT
+기존	O
+상호명을	O
+기린	B-LOC
+주조장에서	B-CVL
+(	B-ORG
+주	B-ORG
+)	I-ORG
+배한산업으로	B-ORG
+변경	O
+.	O
+
+국순당
+* 1992년 12월 (주)배한산업에서 현재 상호를 (주)국순당으로 바꿨다.
+*	B-DAT
+1992년	I-DAT
+12월	I-DAT
+(	B-ORG
+주	I-ORG
+)	I-ORG
+배한산업에서	B-ORG
+현재	O
+상호를	B-PER
+(	B-ORG
+주	I-ORG
+)	O
+국순당으로	B-ORG
+바꿨다	O
+.	O
+
+국순당
+모체는 창업자 배상면이 1952년에 대구에 설립한 '기린 주조장'이다.
+모체는	O
+창업자	B-CVL
+배상면이	B-PER
+1952년에	B-TIM
+대구에	B-LOC
+설립한	O
+'	B-AFW
+기린	B-LOC
+주조장	I-AFW
+'	O
+이다	O
+.	O
+
+국순당
+국순당은 "누룩(麴)으로 좋은 술(醇)을 빚는 집(堂)"이라는 뜻을 담고 있다.
+국순당은	B-ORG
+"	O
+누룩	O
+(	O
+[UNK]	O
+)	O
+으로	O
+좋은	O
+술	B-CVL
+(	O
+[UNK]	O
+)	O
+을	O
+빚는	O
+집	O
+(	O
+堂	O
+)	O
+"	O
+이라는	O
+뜻을	O
+담고	O
+있다	O
+.	O
+
+국순당
+* 1992년 12월 전통 누룩 기술을 바탕으로 백세주 등 전통주를 만들고 있다.
+*	B-DAT
+1992년	I-DAT
+12월	I-DAT
+전통	O
+누룩	O
+기술을	O
+바탕으로	O
+백세주	O
+등	O
+전통주를	O
+만들고	O
+있다	O
+.	O
+
+국순당
+* 1993년 12월 국순당이 94국악의 해 공식전통술로 지정을 하였다.
+*	B-DAT
+1993년	I-DAT
+12월	I-DAT
+국순당이	B-ORG
+94국악의	B-NUM
+해	O
+공식전통술로	B-CVL
+지정을	O
+하였다	O
+.	O
+
+국순당
+* 2000년 8월 코스닥에 등록했다.
+*	B-DAT
+2000년	I-DAT
+8월	I-DAT
+코스닥에	B-ORG
+등록했다	O
+.	O
+
+국순당
+* 2003년 2월 해태앤컴퍼니 인수 및 자회사 편입.
+*	B-DAT
+2003년	B-DAT
+2월	I-DAT
+해태앤컴퍼니	B-ORG
+인수	O
+및	O
+자회사	O
+편입	O
+.	O
+
+국순당
+* 2004년 9월 국순당 횡성 제2공장 준공.
+*	B-DAT
+2004년	I-DAT
+9월	I-DAT
+국순당	B-AFW
+횡성	B-LOC
+제2공장	B-AFW
+준공	O
+.	O
+
+국순당
+* 2006년 3월 자회사 해태앤컴퍼니를 국순당L&B로 사명변경.
+*	B-DAT
+2006년	B-DAT
+3월	I-DAT
+자회사	O
+해태앤컴퍼니를	B-ORG
+국순당L	B-ORG
+&	O
+B로	O
+사명변경	O
+.	O
+
+국순당
+* 2010년 8월 국순당L&B 흡수합병.
+*	B-DAT
+2010년	B-DAT
+8월	I-DAT
+국순당L	B-ORG
+&	O
+B	O
+흡수합병	O
+.	O
+
+국순당
+* 2018년 5월 유산균 막걸리 1000억 유산균 막걸리 출시.
+*	B-DAT
+2018년	I-DAT
+5월	I-DAT
+유산균	O
+막걸리	B-CVL
+1000억	B-NUM
+유산균	O
+막걸리	B-CVL
+출시	O
+.	O
+
+국순당
+* 2020년 4월 유산균 막걸리 1000억 프리바이오틱스 막걸리 출시.
+*	B-DAT
+2020년	B-DAT
+4월	I-DAT
+유산균	O
+막걸리	B-CVL
+1000억	B-NUM
+프리바이오틱스	O
+막걸리	O
+출시	O
+.	O
+
+국순당
+* 2020년 7월 유산균 막걸리 1000억 프리바이오틱스 캔 막걸리 출시.
+*	B-DAT
+2020년	B-DAT
+7월	I-DAT
+유산균	O
+막걸리	B-CVL
+1000억	B-NUM
+프리바이오틱스	O
+캔	O
+막걸리	O
+출시	O
+.	O
+
+몬스터 베버리지
+몬스터 베버리지 주식회사(Monster Beverage Corporation)는 블루 스카이 음료, 한센 소다, 몬스터 에너지를 포함한 과일 주스, 에너지 음료, 청량 음료 제조 회사이다.
+몬스터	B-ORG
+베버리지	I-ORG
+주식회사	I-ORG
+(	I-ORG
+Monster	I-ORG
+Beverage	I-ORG
+Corporation	I-ORG
+)	O
+는	O
+블루	B-TRM
+스카이	I-TRM
+음료	I-TRM
+,	O
+한센	B-PER
+소다	B-CVL
+,	O
+몬스터	O
+에너지를	O
+포함한	O
+과일	B-CVL
+주스	I-CVL
+,	O
+에너지	O
+음료	I-TRM
+,	O
+청량	O
+음료	O
+제조	O
+회사이다	O
+.	O
+
+몬스터 베버리지
+1935년 처음 창립할 때에는 '한센'(Hansen's)라는 이름이었다가 2012년 몬스터 베버리지로 기업명을 바꾸었다.
+1935년	B-TIM
+처음	O
+창립할	O
+때에는	O
+'	B-PER
+한센	I-PER
+'	B-TRM
+(	B-TRM
+Hansen	B-TRM
+'	I-TRM
+s	I-TRM
+)	O
+라는	O
+이름이었다가	O
+2012년	B-NUM
+몬스터	B-TRM
+베버리지로	I-TRM
+기업명을	O
+바꾸었다	O
+.	O
+
+몬스터 베버리지
+2015년에는 에너지 음료를 제외한 모든 주스, 청량 음료 브랜드가 코카콜라 컴퍼니에 인수되었다.
+2015년에는	B-NUM
+에너지	O
+음료를	O
+제외한	O
+모든	O
+주스	B-CVL
+,	O
+청량	O
+음료	O
+브랜드가	O
+코카콜라	B-ORG
+컴퍼니에	I-ORG
+인수되었다	O
+.	O
+
+몬스터 베버리지
+2012년 5월 기준으로, 몬스터 베버리지는 에너지 음료 시장의 35%인 310억 9000만 달러를 차지하고 있다.
+2012년	B-DAT
+5월	I-DAT
+기준으로	O
+,	O
+몬스터	B-TRM
+베버리지는	I-TRM
+에너지	O
+음료	O
+시장의	O
+35	B-NUM
+%	O
+인	O
+310억	B-NUM
+9000만	I-NUM
+달러를	I-NUM
+차지하고	O
+있다	O
+.	O
+

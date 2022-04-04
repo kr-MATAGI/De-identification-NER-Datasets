@@ -62,8 +62,6 @@ def parse_kor_wiki_xml(src_path: str, file_idx: int, save_dir: str):
             person_doc_list.append((doc_title, doc_text))
         elif is_company_category(doc_text):
             company_doc_list.append((doc_title, doc_text))
-            if "삼성전자" == doc_title:
-                print(doc_text)
     
     # 저장
     person_save_path = save_dir + "/person_" + str(file_idx) + ".pkl"
@@ -78,18 +76,21 @@ def parse_kor_wiki_xml(src_path: str, file_idx: int, save_dir: str):
     print(f"[parser_wikipedia][parse_kor_wiki_xml] Save - {file_idx}")
     print(f"global count - [person: {g_person_doc_cnt}, company: {g_company_doc_cnt}]")
 
+
 if "__main__" == __name__:
     print("[parser_wikipedia][main] ---START !")
 
-    src_dir = "../data"
-    save_dir = "../data/classify"
+    is_parse_kor_wiki = False
+    if is_parse_kor_wiki:
+        src_dir = "../data"
+        save_dir = "../data/classify"
 
-    procs = []
-    src_file_list = list(filter(lambda x: True if ".xml" in x else False, os.listdir(src_dir)))
-    for f_idx, file_name in enumerate(src_file_list):
-        src_path = src_dir + "/" + file_name
-        proc = Process(target=parse_kor_wiki_xml, args=(src_path, f_idx + 1, save_dir))
-        procs.append(proc)
-        proc.start()
-    for proc in procs:
-        proc.join()
+        procs = []
+        src_file_list = list(filter(lambda x: True if ".xml" in x else False, os.listdir(src_dir)))
+        for f_idx, file_name in enumerate(src_file_list):
+            src_path = src_dir + "/" + file_name
+            proc = Process(target=parse_kor_wiki_xml, args=(src_path, f_idx + 1, save_dir))
+            procs.append(proc)
+            proc.start()
+        for proc in procs:
+            proc.join()

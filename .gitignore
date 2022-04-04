@@ -1,7 +1,6 @@
 # dataset
 *.xml
 *.bin
-*.txt
 
 # ide
 .idea/

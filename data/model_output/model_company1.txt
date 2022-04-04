@@ -1,0 +1,7619 @@
+애플
+애플()은 미국 캘리포니아의 아이폰, 아이패드, 애플 워치, 에어팟, 아이맥, 맥북, 맥 스튜디오와 맥 프로, 홈팟  등의 하드웨어와 iOS, iPadOS, macOS 등의 소프트웨어를 설계, 디자인하는 기업이다.
+애플	B-ORG
+(	B-ORG
+)	O
+은	O
+미국	B-LOC
+캘리포니아의	B-LOC
+아이폰	B-TRM
+,	O
+아이패드	B-TRM
+,	O
+애플	B-ORG
+워치	I-TRM
+,	O
+에어팟	B-TRM
+,	O
+아이맥	B-TRM
+,	O
+맥북	B-TRM
+,	O
+맥	B-TRM
+스튜디오와	I-TRM
+맥	B-TRM
+프로	I-TRM
+,	O
+홈팟	B-TRM
+등의	O
+하드웨어와	B-TRM
+iOS	B-TRM
+,	O
+iPadOS	B-TRM
+,	O
+macOS	B-TRM
+등의	O
+소프트웨어를	B-TRM
+설계	O
+,	O
+디자인하는	O
+기업이다	O
+.	O
+
+애플
+2011년부터 팀 쿡이 CEO를 맡고 있다.
+2011년부터	B-DAT
+팀	B-ORG
+쿡이	I-ORG
+CEO를	B-CVL
+맡고	O
+있다	O
+.	O
+
+애플
+또한 그 소프트웨어에 애플 앱 스토어, 뮤직, 뉴스, 아케이드, tv, 피트니스, 페이, 저장 클라우드 등의 서비스를 제공한다.
+또한	O
+그	O
+소프트웨어에	B-TRM
+애플	B-TRM
+앱	I-TRM
+스토어	I-TRM
+,	O
+뮤직	B-TRM
+,	O
+뉴스	B-TRM
+,	O
+아케이드	B-TRM
+,	O
+tv	B-TRM
+,	O
+피트니스	B-TRM
+,	O
+페이	B-TRM
+,	O
+저장	B-TRM
+클라우드	I-TRM
+등의	O
+서비스를	O
+제공한다	O
+.	O
+
+애플
+애플의 이전 명칭은 애플 컴퓨터 주식회사()였는데, 스티브 잡스가 아이팟, 아이폰을 발표하면서 간단하게 '애플'이라고 기업 이름을 바꾸었다.
+애플의	B-ORG
+이전	O
+명칭은	O
+애플	B-ORG
+컴퓨터	B-TRM
+주식회사	O
+(	O
+)	O
+였는데	O
+,	O
+스티브	B-PER
+잡스가	I-PER
+아이팟	B-TRM
+,	O
+아이폰을	B-TRM
+발표하면서	O
+간단하게	O
+'	B-ORG
+애플	B-ORG
+'	O
+이라고	O
+기업	O
+이름을	O
+바꾸었다	O
+.	O
+
+애플
+본사는 애플 캠퍼스와 애플 파크에 두고 있으며, 미국 캘리포니아주 쿠퍼티노에 소재하고 있다.
+본사는	O
+애플	B-ORG
+캠퍼스와	I-AFW
+애플	B-ORG
+파크에	I-AFW
+두고	O
+있으며	O
+,	O
+미국	B-LOC
+캘리포니아주	B-LOC
+쿠퍼티노에	B-LOC
+소재하고	O
+있다	O
+.	O
+
+애플
+최고경영자는 팀 쿡이다.
+최고경영자는	B-CVL
+팀	B-PER
+쿡이다	B-PER
+.	O
+
+애플
+2015년 2월 11일 세계 최초로 시가총액이 7000억 달러를 넘은 기업이 되었다.
+2015년	B-DAT
+2월	I-DAT
+11일	I-DAT
+세계	O
+최초로	O
+시가총액이	O
+7000억	B-NUM
+달러를	I-NUM
+넘은	O
+기업이	O
+되었다	O
+.	O
+
+애플
+애플의 사업가치는 이제 2.14조 달러(2021년 7월 기준)가 되었다.
+애플의	B-ORG
+사업가치는	O
+이제	O
+2	B-NUM
+.	I-NUM
+14조	I-NUM
+달러	I-NUM
+(	B-NUM
+2021년	B-NUM
+7월	I-DAT
+기준	O
+)	O
+가	O
+되었다	O
+.	O
+
+애플
+애플 파크.
+애플	B-ORG
+파크	O
+.	O
+
+애플
+시카고에 있는 애플 스토어.
+시카고에	B-LOC
+있는	O
+애플	B-ORG
+스토어	O
+.	O
+
+애플
+가로수길에 있는 애플 스토어.
+가로수길에	B-LOC
+있는	O
+애플	B-ORG
+스토어	O
+.	O
+
+애플
+* 1976년 4월 1일: 애플 컴퓨터 주식회사(APPLE COMPUTER, INC)를 설립함.
+*	B-DAT
+1976년	B-DAT
+4월	I-DAT
+1일	I-DAT
+:	O
+애플	B-ORG
+컴퓨터	B-TRM
+주식회사	I-ORG
+(	B-ORG
+APPLE	B-ORG
+COMPUTER	I-ORG
+,	O
+INC	B-ORG
+)	O
+를	O
+설립함	O
+.	O
+
+애플
+** 스티브 워즈니악과 스티브 잡스, 론 웨인이 잡스의 부모님의 차고에서 컴퓨터 조립 키트인 '애플 I'을 만들며 애플이 시작되었다.
+*	B-PER
+*	B-PER
+스티브	B-PER
+워즈니악과	I-PER
+스티브	B-PER
+잡스	I-PER
+,	O
+론	B-PER
+웨인이	I-PER
+잡스의	B-PER
+부모님의	B-CVL
+차고에서	O
+컴퓨터	B-TRM
+조립	O
+키트인	O
+'	B-ORG
+애플	I-ORG
+I	I-ORG
+'	O
+을	O
+만들며	O
+애플이	B-ORG
+시작되었다	O
+.	O
+
+애플
+* 1977년 4월 17일: 애플 II가 출시되었다.
+*	B-DAT
+1977년	B-DAT
+4월	I-DAT
+17일	I-DAT
+:	O
+애플	B-ORG
+II가	I-ORG
+출시되었다	O
+.	O
+
+애플
+* 1979년 1월 3일: 애플 컴퓨터 주식회사가 주식 상장을 하였다.
+*	B-DAT
+1979년	B-DAT
+1월	I-DAT
+3일	I-DAT
+:	O
+애플	B-ORG
+컴퓨터	B-TRM
+주식회사가	O
+주식	O
+상장을	O
+하였다	O
+.	O
+
+애플
+* 1983년 1월 19일: 애플 리사가 출시되었다.
+*	B-DAT
+1983년	B-NUM
+1월	I-DAT
+19일	I-DAT
+:	O
+애플	B-ORG
+리사가	O
+출시되었다	O
+.	O
+
+애플
+* 1984년 1월 24일: 매킨토시가 처음 공개되었다.
+*	B-DAT
+1984년	B-NUM
+1월	I-DAT
+24일	I-DAT
+:	O
+매킨토시가	B-LOC
+처음	O
+공개되었다	O
+.	O
+
+애플
+'1984년 광고'가 방영되었다.
+'	B-DAT
+1984년	I-DAT
+광고	O
+'	O
+가	O
+방영되었다	O
+.	O
+
+애플
+* 1985년: 스티브 잡스가 존 스컬리에 의해 애플에서 해고되었다.
+*	B-DAT
+1985년	B-NUM
+:	O
+스티브	B-PER
+잡스가	I-PER
+존	B-PER
+스컬리에	I-PER
+의해	O
+애플에서	B-ORG
+해고되었다	O
+.	O
+
+애플
+* 1993년: 세계 최초의 PDA이자 태블릿 플랫폼인 애플 뉴턴을 출시했다.
+*	B-DAT
+1993년	B-NUM
+:	O
+세계	O
+최초의	O
+PDA이자	B-TRM
+태블릿	B-TRM
+플랫폼인	O
+애플	B-ORG
+뉴턴을	I-ORG
+출시했다	O
+.	O
+
+애플
+* 1997년: 스티브 잡스가 12년만에 다시 애플로 돌아와  다시 애플의 CEO가 되었다.
+*	B-DAT
+1997년	B-DAT
+:	O
+스티브	B-PER
+잡스가	I-PER
+12년만에	B-DAT
+다시	O
+애플로	B-ORG
+돌아와	O
+다시	O
+애플의	B-ORG
+CEO가	B-CVL
+되었다	O
+.	O
+
+애플
+* 1998년 8월 15일: 아이맥이 공개되었다.
+*	B-DAT
+1998년	B-DAT
+8월	I-DAT
+15일	I-DAT
+:	O
+아이맥이	B-TRM
+공개되었다	O
+.	O
+
+애플
+* 2001년 3월 24일: 맥 OS X가 공개되었다.
+*	B-DAT
+2001년	B-DAT
+3월	I-DAT
+24일	I-DAT
+:	O
+맥	B-ORG
+OS	I-TRM
+X가	I-TRM
+공개되었다	O
+.	O
+
+애플
+* 2001년 10월 23일: 아이팟이 공개되었다.
+*	B-DAT
+2001년	B-DAT
+10월	I-DAT
+23일	I-DAT
+:	O
+아이팟이	B-ORG
+공개되었다	O
+.	O
+
+애플
+* 2007년 1월 9일: 아이폰과 애플 TV가 공개되고, 기업의 명칭을 애플 컴퓨터(Apple Computer, Inc.)에서 '애플'(Apple Inc.)로 변경되었다.
+*	B-DAT
+2007년	B-DAT
+1월	I-DAT
+9일	I-DAT
+:	O
+아이폰과	B-TRM
+애플	B-TRM
+TV가	I-TRM
+공개되고	O
+,	O
+기업의	O
+명칭을	O
+애플	B-TRM
+컴퓨터	I-TRM
+(	I-TRM
+Apple	I-TRM
+Computer	I-TRM
+,	O
+Inc	O
+.	O
+)	O
+에서	O
+'	B-TRM
+애플	B-TRM
+'	B-TRM
+(	B-TRM
+Apple	B-TRM
+Inc	I-TRM
+.	O
+)	O
+로	O
+변경되었다	O
+.	O
+
+애플
+* 2010년 1월 27일: 아이패드가 공개되었다.
+*	B-DAT
+2010년	B-DAT
+1월	I-DAT
+27일	I-DAT
+:	O
+아이패드가	B-TRM
+공개되었다	O
+.	O
+
+애플
+* 2010년 6월 7일: 아이폰 4가 발표 및 공개되었다.
+*	B-DAT
+2010년	B-DAT
+6월	I-DAT
+7일	I-DAT
+:	O
+아이폰	B-TRM
+4가	I-TRM
+발표	O
+및	O
+공개되었다	O
+.	O
+
+애플
+* 2010년 6월 24일:  아이폰 4 판매가 시작되었다.
+*	B-DAT
+2010년	B-DAT
+6월	I-DAT
+24일	I-DAT
+:	O
+아이폰	B-TRM
+4	I-TRM
+판매가	O
+시작되었다	O
+.	O
+
+애플
+* 2011년 8월 9일: 미국 증시에서 장중 엑손모빌을 누르고 시가총액 1위가 되었다.
+*	B-DAT
+2011년	B-DAT
+8월	I-DAT
+9일	I-DAT
+:	O
+미국	B-LOC
+증시에서	O
+장중	O
+엑손모빌을	B-ORG
+누르고	O
+시가총액	O
+1위가	B-NUM
+되었다	O
+.	O
+
+애플
+* 2011년 8월 10일: 미국 증시 종가에서도 시가총액 1위가 되었다.
+*	B-DAT
+2011년	B-DAT
+8월	I-DAT
+10일	I-DAT
+:	O
+미국	B-LOC
+증시	O
+종가에서도	O
+시가총액	O
+1위가	B-NUM
+되었다	O
+.	O
+
+애플
+* 2011년 8월 24일: 스티브 잡스가 CEO 자리에서 물러나고 팀 쿡이 애플의 새로운 CEO가 되었다.
+*	B-DAT
+2011년	B-DAT
+8월	I-DAT
+24일	I-DAT
+:	O
+스티브	B-PER
+잡스가	I-PER
+CEO	B-CVL
+자리에서	O
+물러나고	O
+팀	B-PER
+쿡이	I-PER
+애플의	B-ORG
+새로운	O
+CEO가	B-CVL
+되었다	O
+.	O
+
+애플
+* 2011년 10월 5일: 스티브 잡스가 만 56세의 나이에 췌장암으로 사망하였다.
+*	B-DAT
+2011년	B-DAT
+10월	I-DAT
+5일	I-DAT
+:	O
+스티브	B-PER
+잡스가	I-PER
+만	B-NUM
+56세의	I-NUM
+나이에	O
+췌장암으로	B-TRM
+사망하였다	O
+.	O
+
+애플
+* 2012년 1월 19일: 뉴욕에서 아이북스 2와 iBooks Author, 그리고 iTunes U 앱을 발표하면서 교육시장에 진출한다.
+*	B-DAT
+2012년	B-DAT
+1월	I-DAT
+19일	I-DAT
+:	O
+뉴욕에서	B-LOC
+아이북스	B-ORG
+2와	I-ORG
+iBooks	B-TRM
+Author	I-TRM
+,	O
+그리고	O
+iTunes	B-TRM
+U	I-TRM
+앱을	I-TRM
+발표하면서	O
+교육시장에	O
+진출한다	O
+.	O
+
+애플
+* 2012년 9월 12일: 아이폰 5가 출시되었다.
+*	B-DAT
+2012년	B-DAT
+9월	I-DAT
+12일	I-DAT
+:	O
+아이폰	B-TRM
+5가	I-TRM
+출시되었다	O
+.	O
+
+애플
+* 2013년 9월 10일: 아이폰 5s와 아이폰 5C가 공개되었다.
+*	B-DAT
+2013년	B-DAT
+9월	I-DAT
+10일	I-DAT
+:	O
+아이폰	B-TRM
+5s와	I-TRM
+아이폰	B-TRM
+5C가	I-TRM
+공개되었다	O
+.	O
+
+애플
+* 2014년 9월 9일: 아이폰 6와 아이폰 6 플러스 그리고 애플 워치가 공개되었다.
+*	B-DAT
+2014년	B-DAT
+9월	I-DAT
+9일	I-DAT
+:	O
+아이폰	B-TRM
+6와	I-TRM
+아이폰	B-TRM
+6	I-TRM
+플러스	I-TRM
+그리고	O
+애플	B-ORG
+워치가	I-ORG
+공개되었다	O
+.	O
+
+애플
+* 2015년 4월 24일: 애플의 새로운 제품인 애플 워치의 발매가 시작되었다.
+*	B-DAT
+2015년	B-DAT
+4월	I-DAT
+24일	I-DAT
+:	O
+애플의	B-ORG
+새로운	O
+제품인	O
+애플	B-ORG
+워치의	I-ORG
+발매가	O
+시작되었다	O
+.	O
+
+애플
+팀 쿡 체제의 첫 접두사 i를 뗀 제품이다.
+팀	B-ORG
+쿡	I-ORG
+체제의	O
+첫	B-NUM
+접두사	I-NUM
+i를	B-TRM
+뗀	O
+제품이다	O
+.	O
+
+애플
+* 2015년 9월 25일: 아이폰 6S와 아이폰 6S 플러스 발매가 시작되었다.
+*	B-DAT
+2015년	B-DAT
+9월	I-DAT
+25일	I-DAT
+:	O
+아이폰	B-TRM
+6S와	I-TRM
+아이폰	B-TRM
+6S	I-TRM
+플러스	O
+발매가	O
+시작되었다	O
+.	O
+
+애플
+* 2016년 3월 31일: 아이폰 SE 발매가 시작되었다.
+*	B-DAT
+2016년	B-DAT
+3월	I-DAT
+31일	I-DAT
+:	O
+아이폰	B-TRM
+SE	I-TRM
+발매가	O
+시작되었다	O
+.	O
+
+애플
+* 2016년 9월 8일: 아이폰 7, 아이폰 7 플러스, 애플워치 시리즈 2, 그리고 애플의 무선 이어폰인 에어팟이 공개되었다.
+*	B-DAT
+2016년	B-DAT
+9월	I-DAT
+8일	I-DAT
+:	O
+아이폰	B-TRM
+7	I-TRM
+,	O
+아이폰	B-TRM
+7	I-TRM
+플러스	I-TRM
+,	O
+애플워치	B-ORG
+시리즈	O
+2	B-NUM
+,	O
+그리고	O
+애플의	B-ORG
+무선	B-TRM
+이어폰인	I-TRM
+에어팟이	B-TRM
+공개되었다	O
+.	O
+
+애플
+* 2016년 11월: 2016년형 맥북프로가 출시되었다.
+*	B-DAT
+2016년	B-DAT
+11월	I-DAT
+:	O
+2016년형	B-NUM
+맥북프로가	B-ORG
+출시되었다	O
+.	O
+
+애플
+* 2017년 6월: 맥북 시리즈 및 아이맥이 모두 성능이 업그레이드 되었고(맥북에어 11인치, 맥미니, 맥프로 제외), 아이맥 프로가 새로 출시 되었으며 아이패드 프로가 새로 업그레이드 되었다.
+*	B-DAT
+2017년	B-DAT
+6월	I-DAT
+:	O
+맥북	B-TRM
+시리즈	O
+및	O
+아이맥이	B-TRM
+모두	O
+성능이	O
+업그레이드	O
+되었고	O
+(	B-TRM
+맥북에어	B-TRM
+11인치	B-NUM
+,	O
+맥미니	B-TRM
+,	O
+맥프로	B-TRM
+제외	O
+)	O
+,	O
+아이맥	B-TRM
+프로가	I-TRM
+새로	O
+출시	O
+되었으며	O
+아이패드	B-TRM
+프로가	I-TRM
+새로	O
+업그레이드	O
+되었다	O
+.	O
+
+애플
+* 2017년 9월: 아이폰 8과 아이폰 8 플러스, 애플의 10주년 아이폰인 아이폰 X가 공개 및 출시되었다.
+*	B-DAT
+2017년	B-DAT
+9월	I-DAT
+:	O
+아이폰	B-TRM
+8과	I-TRM
+아이폰	B-TRM
+8	I-TRM
+플러스	I-TRM
+,	O
+애플의	B-ORG
+10주년	B-DAT
+아이폰인	B-TRM
+아이폰	B-TRM
+X가	I-TRM
+공개	O
+및	O
+출시되었다	O
+.	O
+
+애플
+* 2018년 3월: 2018년형 아이패드가 출시되었다.
+*	B-DAT
+2018년	B-DAT
+3월	I-DAT
+:	O
+2018년형	B-NUM
+아이패드가	B-TRM
+출시되었다	O
+.	O
+
+애플
+* 2018년 7월: 2018년형 뉴 맥북 프로가 출시되었다.
+*	B-DAT
+2018년	B-DAT
+7월	I-DAT
+:	O
+2018년형	B-NUM
+뉴	B-TRM
+맥북	I-TRM
+프로가	I-TRM
+출시되었다	O
+.	O
+
+애플
+* 2018년 11월 : 아이폰 XR과 아이폰 XS가 한국에 공식 출시되었다.
+*	B-DAT
+2018년	B-DAT
+11월	I-DAT
+:	O
+아이폰	B-TRM
+XR과	I-TRM
+아이폰	B-TRM
+XS가	I-TRM
+한국에	B-LOC
+공식	O
+출시되었다	O
+.	O
+
+애플
+* 2019년 9월 : 아이폰 11, 아이폰 11 프로, 아이폰 11 프로 맥스, 그리고 애플의 새로운 무선 이어폰인 에어팟 프로가 출시되었다.
+*	B-DAT
+2019년	B-DAT
+9월	I-DAT
+:	O
+아이폰	B-TRM
+11	I-NUM
+,	O
+아이폰	B-TRM
+11	I-NUM
+프로	I-NUM
+,	O
+아이폰	B-TRM
+11	B-NUM
+프로	I-NUM
+맥스	I-NUM
+,	O
+그리고	O
+애플의	B-ORG
+새로운	O
+무선	O
+이어폰인	B-TRM
+에어팟	B-TRM
+프로가	I-TRM
+출시되었다	O
+.	O
+
+애플
+* 2020년 3월 17일: 4세대 아이패드 프로가 출시되었다.
+*	B-DAT
+2020년	B-DAT
+3월	I-DAT
+17일	I-DAT
+:	O
+4세대	B-NUM
+아이패드	B-TRM
+프로가	I-TRM
+출시되었다	O
+.	O
+
+애플
+* 2020년 4월 29일 : 2세대 아이폰 SE가 출시되었다.
+*	B-DAT
+2020년	B-DAT
+4월	I-DAT
+29일	I-DAT
+:	O
+2세대	B-NUM
+아이폰	B-TRM
+SE가	B-TRM
+출시되었다	O
+.	O
+
+애플
+* 2020년 9월 15일 : 4세대 아이패드 에어, 애플워치 시리즈 6, 애플워치 SE가 출시되었다.
+*	B-DAT
+2020년	B-DAT
+9월	I-DAT
+15일	I-DAT
+:	O
+4세대	B-NUM
+아이패드	B-TRM
+에어	I-TRM
+,	O
+애플워치	O
+시리즈	O
+6	B-NUM
+,	O
+애플워치	B-TRM
+SE가	I-TRM
+출시되었다	O
+.	O
+
+애플
+* 2020년 10월 14일 : 아이폰 12, 아이폰 12 미니, 아이폰 12 프로, 아이폰 12 프로 맥스, 그리고 홈팟이 공개되었다.
+*	B-DAT
+2020년	B-DAT
+10월	I-DAT
+14일	I-DAT
+:	O
+아이폰	B-TRM
+12	I-NUM
+,	O
+아이폰	B-TRM
+12	I-TRM
+미니	I-NUM
+,	O
+아이폰	B-TRM
+12	I-TRM
+프로	I-NUM
+,	O
+아이폰	B-TRM
+12	B-DAT
+프로	I-NUM
+맥스	I-TRM
+,	O
+그리고	O
+홈팟이	B-TRM
+공개되었다	O
+.	O
+
+애플
+* 2021년 4월 20일 : 아이패드 프로가 발표되었다.
+*	B-DAT
+2021년	B-DAT
+4월	I-DAT
+20일	I-DAT
+:	O
+아이패드	B-TRM
+프로가	I-TRM
+발표되었다	O
+.	O
+
+틀:나스닥
+==사용방법==
+=	B-TRM
+=	O
+사용방법	O
+=	O
+=	O
+
+틀:나스닥
+*.
+*	O
+.	O
+
+틀:나스닥
+</noinclude>.
+<	O
+/	O
+noinclude	O
+>	O
+.	O
+
+아시아나항공
+아시아나항공()은 대한민국의 민간 항공사이자 대한항공에 이은 대한민국 2위 규모의 민간 항공사로 인천국제공항과 김포국제공항을 허브 공항으로 하고 있으며, 항공사 동맹체인 스타얼라이언스의 가맹사이다.
+아시아나항공	B-ORG
+(	B-NUM
+)	O
+은	O
+대한민국의	B-LOC
+민간	O
+항공사이자	O
+대한항공에	B-ORG
+이은	O
+대한민국	B-LOC
+2위	B-NUM
+규모의	O
+민간	O
+항공사로	O
+인천국제공항과	B-LOC
+김포국제공항을	B-LOC
+허브	O
+공항으로	O
+하고	O
+있으며	O
+,	O
+항공사	O
+동맹체인	O
+스타얼라이언스의	B-ORG
+가맹사이다	O
+.	O
+
+아시아나항공
+대한민국 정부에서 추진한 제2의 민간정기항공운송사업자로 금호그룹이 선정되어 1988년 2월 17일에 서울항공()으로 설립되었으며, 이후 1988년 8월 11일 사명을 '아시아나항공'으로 변경하였다.
+대한민국	B-LOC
+정부에서	O
+추진한	O
+제2의	B-NUM
+민간정기항공운송사업자로	O
+금호그룹이	B-ORG
+선정되어	O
+1988년	B-DAT
+2월	I-DAT
+17일에	I-DAT
+서울항공	B-ORG
+(	B-ORG
+)	O
+으로	O
+설립되었으며	O
+,	O
+이후	O
+1988년	B-DAT
+8월	I-DAT
+11일	I-DAT
+사명을	O
+'	B-ORG
+아시아나항공	B-ORG
+'	O
+으로	O
+변경하였다	O
+.	O
+
+아시아나항공
+1988년 12월 10일 B737-400 기종을 도입하여 12월 23일 김포 - 광주 노선과 김포 - 부산 노선에 처음 취항하였다.
+1988년	B-DAT
+12월	I-DAT
+10일	I-DAT
+B737	B-TRM
+-	I-TRM
+400	B-TRM
+기종을	O
+도입하여	O
+12월	B-DAT
+23일	I-DAT
+김포	B-LOC
+-	O
+광주	B-LOC
+노선과	O
+김포	B-LOC
+-	O
+부산	B-LOC
+노선에	O
+처음	O
+취항하였다	O
+.	O
+
+아시아나항공
+1989년 1월 10일 김포 - 제주 노선에 취항하였고, 1월 13일 부산 - 제주 노선, 2월 19일 광주 - 제주 노선에 각각 취항하였다.
+1989년	B-NUM
+1월	I-DAT
+10일	I-DAT
+김포	B-LOC
+-	O
+제주	B-LOC
+노선에	O
+취항하였고	O
+,	O
+1월	B-DAT
+13일	I-DAT
+부산	B-ORG
+-	O
+제주	B-LOC
+노선	O
+,	O
+2월	B-DAT
+19일	I-DAT
+광주	B-LOC
+-	O
+제주	B-LOC
+노선에	O
+각각	O
+취항하였다	O
+.	O
+
+아시아나항공
+8월 3일 광주 - 부산 노선, 10월 20일 김포 - 대구, 대구 - 제주 노선, 12월 16일 김포 - 예천 노선에 취항하였다.
+8월	B-DAT
+3일	I-DAT
+광주	B-ORG
+-	O
+부산	B-LOC
+노선	O
+,	O
+10월	B-DAT
+20일	I-DAT
+김포	B-ORG
+-	O
+대구	B-ORG
+,	O
+대구	B-ORG
+-	O
+제주	B-LOC
+노선	O
+,	O
+12월	B-DAT
+16일	I-DAT
+김포	B-LOC
+-	O
+예천	B-LOC
+노선에	O
+취항하였다	O
+.	O
+
+아시아나항공
+최초의 전세 여객기는 1989년 12월 23일 김포 - 센다이 구간을 운항하였으며, 이어 1990년 1월 10일 김포 - 도쿄(나리타) 구간을 운항함으로써 최초로 국제선 노선을 취항하게 되었다.
+최초의	O
+전세	O
+여객기는	O
+1989년	B-DAT
+12월	I-DAT
+23일	I-DAT
+김포	B-LOC
+-	O
+센다이	B-LOC
+구간을	O
+운항하였으며	O
+,	O
+이어	O
+1990년	B-DAT
+1월	I-DAT
+10일	I-DAT
+김포	B-LOC
+-	O
+도쿄	B-LOC
+(	B-LOC
+나리타	B-LOC
+)	O
+구간을	O
+운항함으로써	O
+최초로	O
+국제선	O
+노선을	O
+취항하게	O
+되었다	O
+.	O
+
+아시아나항공
+또한 2월 8일 김포 - 나고야, 3월 6일 김포 - 후쿠오카, 4월 6일 김포 - 센다이 간 노선에 각각 취항하였으며, 12월 17일 최초의 동남아 노선인 김포 - 홍콩 노선에 취항하였다.
+또한	O
+2월	B-DAT
+8일	I-DAT
+김포	B-LOC
+-	O
+나고야	B-LOC
+,	O
+3월	B-DAT
+6일	I-DAT
+김포	B-LOC
+-	O
+후쿠오카	B-LOC
+,	O
+4월	B-DAT
+6일	I-DAT
+김포	B-LOC
+-	O
+센다이	B-LOC
+간	O
+노선에	O
+각각	O
+취항하였으며	O
+,	O
+12월	B-DAT
+17일	I-DAT
+최초의	O
+동남아	B-LOC
+노선인	O
+김포	B-LOC
+-	O
+홍콩	B-LOC
+노선에	O
+취항하였다	O
+.	O
+
+아시아나항공
+1991년 1월 2일 박삼구 사장이 취임한 후 김포 - 방콕 - 싱가포르 노선에 취항하였으며, 같은 해 3월 김포국제공항에 격납고가 준공되었다.
+1991년	B-TIM
+1월	I-DAT
+2일	I-DAT
+박삼구	B-PER
+사장이	B-CVL
+취임한	O
+후	O
+김포	B-LOC
+-	O
+방콕	B-LOC
+-	O
+싱가포르	B-LOC
+노선에	O
+취항하였으며	O
+,	O
+같은	O
+해	I-DAT
+3월	I-DAT
+김포국제공항에	B-LOC
+격납고가	O
+준공되었다	O
+.	O
+
+아시아나항공
+이어 5월에 제주 - 후쿠오카 노선을 취항하였고, 6월에는 운항 승무원 훈련원을 개설하였으며 김포 - 히로시마 노선에 취항하였다.
+이어	O
+5월에	B-DAT
+제주	B-LOC
+-	O
+후쿠오카	B-LOC
+노선을	O
+취항하였고	O
+,	O
+6월에는	B-DAT
+운항	O
+승무원	B-CVL
+훈련원을	O
+개설하였으며	O
+김포	B-LOC
+-	O
+히로시마	B-LOC
+노선에	O
+취항하였다	O
+.	O
+
+아시아나항공
+1991년 7월 3일에는 아시아나 아바카스 정보 주식회사를 설립하였으며, 11월 1일 부산 - 후쿠오카 노선에 취항하였다.
+1991년	B-DAT
+7월	I-DAT
+3일에는	I-DAT
+아시아나	B-ORG
+아바카스	I-ORG
+정보	I-ORG
+주식회사를	I-ORG
+설립하였으며	O
+,	O
+11월	B-DAT
+1일	I-DAT
+부산	B-ORG
+-	O
+후쿠오카	B-LOC
+노선에	O
+취항하였다	O
+.	O
+
+아시아나항공
+같은 해 11월 15일 김포 - LA 노선을 운항함으로써 미주 지역에 첫 취항하게 되었으며, 12월 2일 제주 - 부산 - 센다이 노선에 취항하였다.
+같은	B-DAT
+해	I-DAT
+11월	I-DAT
+15일	I-DAT
+김포	B-LOC
+-	O
+LA	B-ORG
+노선을	O
+운항함으로써	O
+미주	B-LOC
+지역에	O
+첫	B-NUM
+취항하게	O
+되었으며	O
+,	O
+12월	B-DAT
+2일	I-DAT
+제주	B-ORG
+-	O
+부산	B-ORG
+-	O
+센다이	B-LOC
+노선에	O
+취항하였다	O
+.	O
+
+아시아나항공
+이후 1993년 2월 17일 미국 시애틀 등 여러 서부지역 또한 운항을 개시하였다.
+이후	O
+1993년	B-DAT
+2월	I-DAT
+17일	I-DAT
+미국	B-LOC
+시애틀	B-LOC
+등	O
+여러	O
+서부지역	B-LOC
+또한	O
+운항을	O
+개시하였다	O
+.	O
+
+아시아나항공
+1995년에는 세계 최초로 전 노선 기내 금연을 실시하였으며, 현재는 아에로플로트를 마지막으로 전 세계 모든 여객기 내에서는 금연이 되었다.
+1995년에는	B-DAT
+세계	O
+최초로	O
+전	O
+노선	O
+기내	O
+금연을	O
+실시하였으며	O
+,	O
+현재는	O
+아에로플로트를	B-LOC
+마지막으로	O
+전	O
+세계	O
+모든	O
+여객기	B-AFW
+내에서는	O
+금연이	O
+되었다	O
+.	O
+
+아시아나항공
+1999년 12월 24일 코스닥에 상장되었다.
+1999년	B-DAT
+12월	I-DAT
+24일	I-DAT
+코스닥에	B-ORG
+상장되었다	O
+.	O
+
+아시아나항공
+2003년, 아시아나항공은 세계적 항공 동맹체인 스타얼라이언스에 가입했다.
+2003년	B-DAT
+,	O
+아시아나항공은	B-ORG
+세계적	O
+항공	O
+동맹체인	O
+스타얼라이언스에	B-ORG
+가입했다	O
+.	O
+
+아시아나항공
+이후 금호그룹이 금호아시아나그룹으로 사명을 변경하였고 2006년 2월 1일 모회사인 금호아시아나그룹의 CI 통일 작업의 일환으로 CI를 변경하였다.
+이후	O
+금호그룹이	B-ORG
+금호아시아나그룹으로	B-ORG
+사명을	O
+변경하였고	O
+2006년	B-DAT
+2월	I-DAT
+1일	I-DAT
+모회사인	O
+금호아시아나그룹의	B-ORG
+CI	O
+통일	O
+작업의	O
+일환으로	O
+CI를	O
+변경하였다	O
+.	O
+
+아시아나항공
+또한 2008년 창사 20주년을 맞이하여 항공기의 도색 디자인을 현재와 같이 변경하였다.
+또한	O
+2008년	B-DAT
+창사	O
+20주년을	B-NUM
+맞이하여	O
+항공기의	B-AFW
+도색	O
+디자인을	O
+현재와	O
+같이	O
+변경하였다	O
+.	O
+
+아시아나항공
+세계 최대의 공항 및 항공사 서비스 평가 사이트인 스카이트랙스()로부터 2007년부터 2013년까지 7년 연속 5성 항공사 인증을 받았다.
+세계	O
+최대의	O
+공항	O
+및	O
+항공사	O
+서비스	O
+평가	O
+사이트인	O
+스카이트랙스	B-ORG
+(	B-ORG
+)	O
+로부터	O
+2007년부터	B-DAT
+2013년까지	I-DAT
+7년	B-DAT
+연속	O
+5성	B-NUM
+항공사	O
+인증을	O
+받았다	O
+.	O
+
+아시아나항공
+2007년 8월 31일에는 금호아시아나그룹과 부산경남지역 기업들이 출자하여 저비용 항공사인 에어부산을 설립하였다.
+2007년	B-DAT
+8월	I-DAT
+31일에는	I-DAT
+금호아시아나그룹과	B-ORG
+부산경남지역	B-LOC
+기업들이	O
+출자하여	O
+저비용	O
+항공사인	O
+에어부산을	B-ORG
+설립하였다	O
+.	O
+
+아시아나항공
+2013년 인천공항 제2격납고를 준공하였으며, 다음해인 2014년 에어버스 A380-800을 도입하였다.
+2013년	B-DAT
+인천공항	B-LOC
+제2격납고를	B-AFW
+준공하였으며	O
+,	O
+다음해인	B-DAT
+2014년	B-DAT
+에어버스	B-AFW
+A380	B-TRM
+-	I-TRM
+800을	I-TRM
+도입하였다	O
+.	O
+
+아시아나항공
+2017년 4월 에어버스 A350-900을 도입하였고 같은 해 6월 아시아나항공은 금호아시아나그룹과 외교부가 체결한 해외 대형 재난시 우리 국민 긴급대피 지원을 위한 업무협력 약정을 체결하였다.
+2017년	B-DAT
+4월	I-DAT
+에어버스	B-AFW
+A350	B-TRM
+-	I-TRM
+900을	I-TRM
+도입하였고	O
+같은	O
+해	O
+6월	B-DAT
+아시아나항공은	B-ORG
+금호아시아나그룹과	B-ORG
+외교부가	B-ORG
+체결한	O
+해외	O
+대형	O
+재난시	O
+우리	O
+국민	O
+긴급대피	O
+지원을	O
+위한	O
+업무협력	O
+약정을	O
+체결하였다	O
+.	O
+
+아시아나항공
+11월, 한국신용평가는 수시평가를 통해 아시아나항공 무보증사채 신용등급을 기존 'BBB(부정적)'에서 'BBB-(안정적)'로 하향 조정했다.
+11월	B-DAT
+,	O
+한국신용평가는	B-ORG
+수시평가를	O
+통해	O
+아시아나항공	B-ORG
+무보증사채	B-CVL
+신용등급을	O
+기존	O
+'	B-TRM
+BBB	B-TRM
+(	O
+부정적	O
+)	O
+'	O
+에서	O
+'	B-TRM
+BBB	B-TRM
+-	O
+(	O
+안정적	O
+)	O
+'	O
+로	O
+하향	O
+조정했다	O
+.	O
+
+아시아나항공
+그 영향으로 아시아나항공의 영업이익은 2736억 600만원으로 6년만에 최대 실적(전년 대비 매출 8.1% 증가, 영업이익 6.7% 증가)을 기록하였다.
+그	O
+영향으로	O
+아시아나항공의	B-ORG
+영업이익은	O
+2736억	B-NUM
+600만원으로	I-NUM
+6년만에	B-DAT
+최대	O
+실적	B-DAT
+(	B-DAT
+전년	B-DAT
+대비	O
+매출	O
+8	B-NUM
+.	O
+1	B-NUM
+%	O
+증가	O
+,	O
+영업이익	O
+6	B-NUM
+.	O
+7	B-NUM
+%	O
+증가	O
+)	O
+을	O
+기록하였다	O
+.	O
+
+아시아나항공
+중국의 한한령 조치와 북핵 리스크가 지속되었지만 공급조정을 통해 손실을 최소화하고 국내선과 유럽·미주·대양주 등 장거리 노선 마케팅 강화해 전략적으로 매출을 올리는데 도움을 주었다.
+중국의	B-LOC
+한한령	B-LOC
+조치와	O
+북핵	O
+리스크가	O
+지속되었지만	O
+공급조정을	O
+통해	O
+손실을	O
+최소화하고	O
+국내선과	O
+유럽	B-LOC
+·	O
+미주	B-LOC
+·	O
+대양주	B-LOC
+등	O
+장거리	O
+노선	O
+마케팅	O
+강화해	O
+전략적으로	O
+매출을	O
+올리는데	O
+도움을	O
+주었다	O
+.	O
+
+아시아나항공
+또한 화물 수송 부문에서는 업황 호조세가 계속 이어지며 LCD, 휴대폰, 반도체 등 IT 품목과 바이오, 신선식품, 특수화물 등 고부가가치 화물 수송이 증가하면서 실적 향상에 기여했다.
+또한	O
+화물	O
+수송	O
+부문에서는	O
+업황	O
+호조세가	O
+계속	O
+이어지며	O
+LCD	B-TRM
+,	O
+휴대폰	B-TRM
+,	O
+반도체	B-TRM
+등	O
+IT	B-TRM
+품목과	O
+바이오	O
+,	O
+신선식품	O
+,	O
+특수화물	O
+등	O
+고부가가치	O
+화물	O
+수송이	O
+증가하면서	O
+실적	O
+향상에	O
+기여했다	O
+.	O
+
+아시아나항공
+2015년 이후 모기업 금호아시아나그룹의 경영난으로 아시아나항공도 그 여파를 받았으며 그 영향에 따라 강남 도심공항터미널에 있던 영업소의 폐쇄 조치와 지방 국내선 공항에 있던 라운지의 철수 계획을 가졌었다.
+2015년	B-NUM
+이후	O
+모기업	O
+금호아시아나그룹의	B-ORG
+경영난으로	O
+아시아나항공도	B-ORG
+그	O
+여파를	O
+받았으며	O
+그	O
+영향에	O
+따라	O
+강남	B-LOC
+도심공항터미널에	B-AFW
+있던	O
+영업소의	O
+폐쇄	O
+조치와	O
+지방	O
+국내선	O
+공항에	O
+있던	O
+라운지의	O
+철수	O
+계획을	O
+가졌었다	O
+.	O
+
+아시아나항공
+또한 비용이 많이 소모되는 하드웨어적인 서비스를 줄이는 작업을 통해 비용을 절감하는 조치를 시행하였다.
+또한	O
+비용이	O
+많이	O
+소모되는	O
+하드웨어적인	O
+서비스를	O
+줄이는	O
+작업을	O
+통해	O
+비용을	O
+절감하는	O
+조치를	O
+시행하였다	O
+.	O
+
+아시아나항공
+2016년 금호아시아나그룹의 제2 저비용 항공사로 에어서울을 설립하였으며 저비용항공사의 약진으로 인해 단거리 노선의 경쟁이 치열해지고 항공기 리스료가 커지는 등 수익성이 악화되어 2016년 항공사에서 구조조정을 하게되었다.
+2016년	B-DAT
+금호아시아나그룹의	B-ORG
+제2	B-NUM
+저비용	I-NUM
+항공사로	O
+에어서울을	B-ORG
+설립하였으며	O
+저비용항공사의	O
+약진으로	O
+인해	O
+단거리	O
+노선의	O
+경쟁이	O
+치열해지고	O
+항공기	O
+리스료가	O
+커지는	O
+등	O
+수익성이	O
+악화되어	O
+2016년	B-NUM
+항공사에서	O
+구조조정을	O
+하게되었다	O
+.	O
+
+아시아나항공
+이에 따라 노선단항과 조직단순화로 지점축소,일부업무 위탁을 실시하고 희망휴직, 퇴직을 실시하여 연간 1600억 원의 손익 개선 효과를 보았다.
+이에	O
+따라	O
+노선단항과	O
+조직단순화로	O
+지점축소	O
+,	O
+일부업무	O
+위탁을	O
+실시하고	O
+희망휴직	O
+,	O
+퇴직을	O
+실시하여	O
+연간	B-DAT
+1600억	B-NUM
+원의	I-NUM
+손익	O
+개선	O
+효과를	O
+보았다	O
+.	O
+
+아시아나항공
+2018년 2월 14일 창립 30주년을 맞이하여 그동안 진행돼 온 경영 정상화 작업을 올해 마무리하겠다고 밝혔고 또한 아름다운 사람들이라는 슬로건을 세계로 나가는 아름다운 동행으로 변경하였다.
+2018년	B-DAT
+2월	I-DAT
+14일	I-DAT
+창립	O
+30주년을	B-NUM
+맞이하여	O
+그동안	O
+진행돼	O
+온	O
+경영	O
+정상화	O
+작업을	O
+올해	B-DAT
+마무리하겠다고	O
+밝혔고	O
+또한	O
+아름다운	O
+사람들이라는	O
+슬로건을	O
+세계로	O
+나가는	O
+아름다운	O
+동행으로	O
+변경하였다	O
+.	O
+
+아시아나항공
+10월 1일 인천국제공항 탑승 수속 카운터를 KㆍLㆍM 카운터에서 AㆍBㆍC 카운터로 이전하고, 43번과 28번 게이트 근처에 있던 퍼스트ㆍ비즈니스 클래스 라운지를 각각 11번과 26번 게이트 근처로 이전하였다.
+10월	B-DAT
+1일	I-DAT
+인천국제공항	B-LOC
+탑승	O
+수속	O
+카운터를	O
+KㆍLㆍM	B-ORG
+카운터에서	O
+AㆍBㆍC	B-ORG
+카운터로	O
+이전하고	O
+,	O
+43번과	B-NUM
+28번	B-NUM
+게이트	O
+근처에	O
+있던	O
+퍼스트ㆍ비즈니스	B-EVT
+클래스	O
+라운지를	O
+각각	O
+11번과	B-NUM
+26번	B-NUM
+게이트	O
+근처로	O
+이전하였다	O
+.	O
+
+아시아나항공
+2019년 4월 15일 모기업인 금호아시아나그룹의 심각한 자금난의 자구책의 일환 중 하나로 아시아나항공의 매각이 결정되었다.
+2019년	B-NUM
+4월	I-DAT
+15일	I-DAT
+모기업인	O
+금호아시아나그룹의	B-ORG
+심각한	O
+자금난의	O
+자구책의	O
+일환	O
+중	O
+하나로	B-NUM
+아시아나항공의	B-ORG
+매각이	O
+결정되었다	O
+.	O
+
+아시아나항공
+매각에 대한 인수/합병(M&A)의 후보 기업으로 SK그룹, 한화그룹, CJ그룹 등이 거론되었으며 매각 발표에 따른 1조원의 산업은행과 채권단의 지원에 따라 강경한 구조조정을 실행하기로 하였는데 현존하는 39 부서/224 팀 경영체제를 38부서/221 팀 체제로 축소하며 비수익 노선인 서울(인천) - 델리, 사할린, 시카고(오헤어), 하바롭스크 노선을 중단하기로 하여 수익성을 개선할 방침이다.
+매각에	O
+대한	O
+인수	O
+/	O
+합병	O
+(	O
+M	O
+&	O
+A	O
+)	O
+의	O
+후보	O
+기업으로	O
+SK그룹	B-ORG
+,	O
+한화그룹	B-ORG
+,	O
+CJ그룹	B-ORG
+등이	O
+거론되었으며	O
+매각	O
+발표에	O
+따른	O
+1조원의	B-NUM
+산업은행과	B-ORG
+채권단의	O
+지원에	O
+따라	O
+강경한	O
+구조조정을	O
+실행하기로	O
+하였는데	O
+현존하는	O
+39	B-NUM
+부서	I-NUM
+/	B-NUM
+224	I-NUM
+팀	O
+경영체제를	O
+38부서	B-NUM
+/	B-NUM
+221	I-NUM
+팀	O
+체제로	O
+축소하며	O
+비수익	O
+노선인	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+델리	B-LOC
+,	O
+사할린	B-LOC
+,	O
+시카고	B-ORG
+(	B-ORG
+오헤어	I-ORG
+)	O
+,	O
+하바롭스크	B-LOC
+노선을	O
+중단하기로	O
+하여	O
+수익성을	O
+개선할	O
+방침이다	O
+.	O
+
+아시아나항공
+그리고 11월 7일, 아시아나항공의 매각 본입찰이 진행되고 제주항공-스톤브릿지 컨소시엄과 HDC현대산업개발-미래에셋 컨소시엄 그리고 KGCI에서 각각 약 1조5000억, 2조4000억, 1조원 초반 정도에 금액을 인수금액으로 입찰하였고 이에따라 금호산업과 아시아나 매각 주간사인 크레디트스위스(CS)는 인수 우선협상대상자를 선정하였지만 아시아나항공 매각 협상 주체인 금호아시아나그룹과 HDC현대산업개발-미래에셋대우 컨소시엄(현산 컨소시엄)과의 이견이 돌출하였지만 우발채무 등으로 인한 손해배상 한도에 대해 구주 가격의 10%(약 320억원),구주 매각 가격은 3200억원대로 정리되어 사실상 협상에 타결하여 2019년 12월 27일 오전 금호산업은 이사회를 열어 SPA체결을 의결함에 따라 HDC현대산업개발-미래에셋 컨소시엄이 아시아나항공을 인수하기로 하였다.
+그리고	O
+11월	B-DAT
+7일	I-DAT
+,	O
+아시아나항공의	B-ORG
+매각	O
+본입찰이	O
+진행되고	O
+제주항공	B-ORG
+-	O
+스톤브릿지	B-ORG
+컨소시엄과	O
+HDC현대산업개발	B-ORG
+-	O
+미래에셋	B-ORG
+컨소시엄	O
+그리고	O
+KGCI에서	B-ORG
+각각	O
+약	B-NUM
+1조5000억	B-NUM
+,	O
+2조4000억	B-NUM
+,	O
+1조원	B-NUM
+초반	O
+정도에	O
+금액을	O
+인수금액으로	O
+입찰하였고	O
+이에따라	O
+금호산업과	B-ORG
+아시아나	B-ORG
+매각	O
+주간사인	O
+크레디트스위스	B-ORG
+(	B-ORG
+CS	B-ORG
+)	O
+는	O
+인수	O
+우선협상대상자를	O
+선정하였지만	O
+아시아나항공	B-ORG
+매각	O
+협상	O
+주체인	O
+금호아시아나그룹과	B-ORG
+HDC현대산업개발	B-ORG
+-	O
+미래에셋대우	B-ORG
+컨소시엄	O
+(	O
+현산	O
+컨소시엄	O
+)	O
+과의	O
+이견이	O
+돌출하였지만	O
+우발채무	O
+등으로	O
+인한	O
+손해배상	O
+한도에	O
+대해	O
+구주	O
+가격의	O
+10	B-NUM
+%	I-NUM
+(	O
+약	O
+320억원	B-NUM
+)	O
+,	O
+구주	O
+매각	O
+가격은	O
+3200억원대로	B-NUM
+정리되어	O
+사실상	O
+협상에	O
+타결하여	O
+2019년	B-DAT
+12월	I-DAT
+27일	I-DAT
+오전	B-TIM
+금호산업은	B-ORG
+이사회를	O
+열어	O
+SPA체결을	O
+의결함에	O
+따라	O
+HDC현대산업개발	B-ORG
+-	O
+미래에셋	B-ORG
+컨소시엄이	O
+아시아나항공을	B-ORG
+인수하기로	O
+하였다	O
+.	O
+
+아시아나항공
+2020년 3월, HDC현대산업개발-미래에셋 컨소시엄은 아시아나항공의 주주총회를 연 후  국내기업결합 신고 등 법적 절차를 진행하고 3월 2일 유상증자를 발행하였다.
+2020년	B-DAT
+3월	I-DAT
+,	O
+HDC현대산업개발	B-ORG
+-	O
+미래에셋	B-ORG
+컨소시엄은	O
+아시아나항공의	B-ORG
+주주총회를	B-EVT
+연	O
+후	O
+국내기업결합	O
+신고	O
+등	O
+법적	O
+절차를	O
+진행하고	O
+3월	B-DAT
+2일	I-DAT
+유상증자를	O
+발행하였다	O
+.	O
+
+아시아나항공
+12월 14일 임시 주주총회에서 3대1 무상감자 안건이 통과되어 거래정지 종목으로 분류돼 2021년 1월 15일 재상장했다.
+12월	B-DAT
+14일	I-DAT
+임시	O
+주주총회에서	B-EVT
+3대1	B-CVL
+무상감자	I-CVL
+안건이	O
+통과되어	O
+거래정지	B-CVL
+종목으로	O
+분류돼	O
+2021년	B-DAT
+1월	I-DAT
+15일	I-DAT
+재상장했다	B-CVL
+.	O
+
+아시아나항공
+2021년 11월 5일 18년만에 국내선 비지니스석을 재운영한다.
+2021년	B-DAT
+11월	I-DAT
+5일	I-DAT
+18년만에	B-NUM
+국내선	O
+비지니스석을	B-CVL
+재운영한다	O
+.	O
+
+삼성SDS
+삼성SDS타워.
+삼성SDS타워	B-AFW
+.	O
+
+삼성SDS
+삼성SDS()는 1985년 설립된 삼성그룹 계열의 대한민국 ICT 기업이다.
+삼성SDS	B-ORG
+(	B-ORG
+)	O
+는	O
+1985년	B-TIM
+설립된	O
+삼성그룹	B-ORG
+계열의	O
+대한민국	B-LOC
+ICT	B-TRM
+기업이다	O
+.	O
+
+삼성SDS
+삼성그룹의 IT서비스를 담당하는 회사로 출발하여 대외SI 및 IT Outsourcing과 물류사업으로 확장하였으며, 최근엔 IT 솔루션 서비스 기업으로 발돋움 하고 있다.
+삼성그룹의	B-ORG
+IT서비스를	B-TRM
+담당하는	O
+회사로	O
+출발하여	O
+대외SI	B-TRM
+및	O
+IT	B-TRM
+Outsourcing과	I-TRM
+물류사업으로	O
+확장하였으며	O
+,	O
+최근엔	O
+IT	B-TRM
+솔루션	I-TRM
+서비스	I-TRM
+기업으로	O
+발돋움	O
+하고	O
+있다	O
+.	O
+
+삼성SDS
+2014년 11월 14일 한국거래소에 상장하였다.
+2014년	B-DAT
+11월	I-DAT
+14일	I-DAT
+한국거래소에	B-ORG
+상장하였다	O
+.	O
+
+삼성SDS
+삼성SDS의 주요사업은 크게 IT서비스와 물류BPO(Business Process Outsourcing)로 구분된다.
+삼성SDS의	B-ORG
+주요사업은	O
+크게	O
+IT서비스와	B-TRM
+물류BPO	B-TRM
+(	B-TRM
+Business	I-TRM
+Process	I-TRM
+Outsourcing	I-TRM
+)	O
+로	O
+구분된다	O
+.	O
+
+삼성SDS
+=== IT 서비스 ===
+=	B-TRM
+=	B-TRM
+=	B-TRM
+IT	B-TRM
+서비스	I-TRM
+=	B-TRM
+=	B-TRM
+=	B-TRM
+
+삼성SDS
+고객사의 수주를 받아 IT시스템을 구축하는 컨설팅/SI(System Integration)과 구축한 시스템과 인프라를 운영하는 아웃소싱으로 구분된다.
+고객사의	O
+수주를	O
+받아	O
+IT시스템을	B-TRM
+구축하는	O
+컨설팅	O
+/	O
+SI	O
+(	O
+System	O
+Integration	O
+)	O
+과	O
+구축한	O
+시스템과	O
+인프라를	O
+운영하는	O
+아웃소싱으로	O
+구분된다	O
+.	O
+
+삼성SDS
+컨설팅/SI의 경우 주로 수주에 기반해 프로젝트 단위로 진행되기 때문에 매출과 수익성의 변동성이 존재하나, 안정적이고 수익성이 높은 아웃소싱 업무를 확보하기 위한 사전 단계라 할 수 있다.
+컨설팅	O
+/	O
+SI의	O
+경우	O
+주로	O
+수주에	O
+기반해	O
+프로젝트	O
+단위로	O
+진행되기	O
+때문에	O
+매출과	O
+수익성의	O
+변동성이	O
+존재하나	O
+,	O
+안정적이고	O
+수익성이	O
+높은	O
+아웃소싱	O
+업무를	O
+확보하기	O
+위한	O
+사전	O
+단계라	O
+할	O
+수	O
+있다	O
+.	O
+
+삼성SDS
+고객사의 IT투자지출과 인프라 수요가 매출의 주요 변수이며, 아웃소싱 비중이 확대되면서 수익성 개선이 나타나고 있다.
+고객사의	O
+IT투자지출과	B-TRM
+인프라	O
+수요가	O
+매출의	O
+주요	O
+변수이며	O
+,	O
+아웃소싱	O
+비중이	O
+확대되면서	O
+수익성	O
+개선이	O
+나타나고	O
+있다	O
+.	O
+
+삼성SDS
+* Consulting – IT Master plan, Process Innovation, Information Strategy Planning, Agile 및 CX 등을 통해 비즈니스 현안을 분석하고 해결방안을 제시하여 비즈니스 경쟁력 강화를 지원하고 있다.
+*	O
+Consulting	O
+–	O
+IT	B-TRM
+Master	O
+plan	O
+,	O
+Process	O
+Innovation	O
+,	O
+Information	O
+Strategy	O
+Planning	O
+,	O
+Agile	O
+및	O
+CX	O
+등을	O
+통해	O
+비즈니스	O
+현안을	O
+분석하고	O
+해결방안을	O
+제시하여	O
+비즈니스	O
+경쟁력	O
+강화를	O
+지원하고	O
+있다	O
+.	O
+
+삼성SDS
+* System Integration - 경영관리(ERP), 공급망관리(SCM), 고객관리(CRM), 제조실행(MES) 등 업종별 Application 분석, 설계 및 개발 서비스를 제공하고 있다.
+*	B-TRM
+System	B-TRM
+Integration	O
+-	O
+경영관리	B-TRM
+(	B-TRM
+ERP	B-TRM
+)	O
+,	O
+공급망관리	B-TRM
+(	B-TRM
+SCM	B-TRM
+)	O
+,	O
+고객관리	B-TRM
+(	B-TRM
+CRM	B-TRM
+)	O
+,	O
+제조실행	B-TRM
+(	B-TRM
+MES	B-TRM
+)	O
+등	O
+업종별	O
+Application	O
+분석	O
+,	O
+설계	O
+및	O
+개발	O
+서비스를	O
+제공하고	O
+있다	O
+.	O
+
+삼성SDS
+* Application Outsourcing – 전자, 제조, 서비스, 금융 및 의료 업종 등의 비즈니스 지원을 위한 안정적인 Application 운영 서비스를 제공하고 있다.
+*	B-TRM
+Application	B-TRM
+Outsourcing	I-TRM
+–	O
+전자	O
+,	O
+제조	O
+,	O
+서비스	O
+,	O
+금융	O
+및	O
+의료	O
+업종	O
+등의	O
+비즈니스	O
+지원을	O
+위한	O
+안정적인	O
+Application	B-TRM
+운영	O
+서비스를	O
+제공하고	O
+있다	O
+.	O
+
+삼성SDS
+=== 물류BPO (Business Process Outsourcing) ===
+=	B-TRM
+=	B-TRM
+=	B-TRM
+물류BPO	B-ORG
+(	O
+Business	O
+Process	O
+Outsourcing	O
+)	O
+=	B-TRM
+=	B-TRM
+=	O
+
+삼성SDS
+2011년부터 삼성전자 글로벌 사업장 중심으로 통합 물류 서비스를 제공하고 있다.
+2011년부터	B-DAT
+삼성전자	B-ORG
+글로벌	O
+사업장	O
+중심으로	O
+통합	O
+물류	B-TRM
+서비스를	I-TRM
+제공하고	O
+있다	O
+.	O
+
+삼성SDS
+자체 개발한 솔루션 ‘Cello’에 기반해 물류 실행을 최적화하여 원가절감과 효율성 증대를 통해 가치를 창출하는 서비스이다.
+자체	O
+개발한	O
+솔루션	O
+‘	B-TRM
+Cello	B-TRM
+’	O
+에	O
+기반해	O
+물류	O
+실행을	O
+최적화하여	O
+원가절감과	O
+효율성	O
+증대를	O
+통해	O
+가치를	O
+창출하는	O
+서비스이다	O
+.	O
+
+삼성SDS
+선박·물류창고와 같은 물류 서비스를 위한 자체 자산은 보유하지 않으며, 최적 업체 선정과 실행을 대행하는 4PL(4th Party Logistics)에 해당한다.
+선박	O
+·	O
+물류창고와	O
+같은	O
+물류	O
+서비스를	O
+위한	O
+자체	O
+자산은	O
+보유하지	O
+않으며	O
+,	O
+최적	O
+업체	O
+선정과	O
+실행을	O
+대행하는	O
+4PL	B-TRM
+(	I-TRM
+4th	I-TRM
+Party	I-TRM
+Logistics	I-CVL
+)	O
+에	O
+해당한다	O
+.	O
+
+삼성SDS
+삼성전자 물량 대부분을 확보한 상황으로, 삼성전자 제품 판매가 호조를 보일 경우 물동량 상승으로 매출과 마진이 개선되는 구조이다.
+삼성전자	B-ORG
+물량	O
+대부분을	O
+확보한	O
+상황으로	O
+,	O
+삼성전자	B-ORG
+제품	O
+판매가	O
+호조를	O
+보일	O
+경우	O
+물동량	O
+상승으로	O
+매출과	O
+마진이	O
+개선되는	O
+구조이다	O
+.	O
+
+삼성SDS
+현재 삼성 계열사와 대외고객으로 사업영역 확대를 계획하고 있다.
+현재	O
+삼성	B-ORG
+계열사와	O
+대외고객으로	O
+사업영역	O
+확대를	O
+계획하고	O
+있다	O
+.	O
+
+삼성SDS
+=== Captive 대상 SI 및 Outsourcing 수행 [1985~2010] ===
+=	O
+=	O
+=	O
+Captive	O
+대상	O
+SI	O
+및	O
+Outsourcing	O
+수행	B-DAT
+[	B-DAT
+1985	B-TIM
+~	I-DAT
+2010	I-DAT
+]	B-DAT
+=	B-DAT
+=	B-DAT
+=	B-DAT
+
+삼성SDS
+* 1985년 5월: 초기 자본금 2억 원, 비상장 IT 업체로 삼성데이타시스템 설립.
+*	B-DAT
+1985년	B-NUM
+5월	I-DAT
+:	O
+초기	O
+자본금	O
+2억	B-NUM
+원	I-NUM
+,	O
+비상장	O
+IT	B-TRM
+업체로	O
+삼성데이타시스템	B-ORG
+설립	O
+.	O
+
+삼성SDS
+* 1985년 7월: 계열사 삼성물산 전산시설 인수.
+*	B-DAT
+1985년	B-NUM
+7월	I-DAT
+:	O
+계열사	O
+삼성물산	B-ORG
+전산시설	O
+인수	O
+.	O
+
+삼성SDS
+* 1986년 6월: 계열사 동방생명(현 삼성생명) 전산 시설 인수.
+*	B-DAT
+1986년	B-DAT
+6월	I-DAT
+:	O
+계열사	O
+동방생명	B-ORG
+(	O
+현	O
+삼성생명	B-ORG
+)	O
+전산	O
+시설	O
+인수	O
+.	O
+
+삼성SDS
+* 1987년: 한국 IBM과 합작 계약을 체결.
+*	B-DAT
+1987년	B-NUM
+:	O
+한국	B-LOC
+IBM과	B-ORG
+합작	O
+계약을	O
+체결	O
+.	O
+
+삼성SDS
+* 1989년 8월: 삼성정보교육센터(SITEC)를 설립.
+*	B-DAT
+1989년	B-DAT
+8월	I-DAT
+:	O
+삼성정보교육센터	B-ORG
+(	B-ORG
+SITEC	B-ORG
+)	O
+를	O
+설립	O
+.	O
+
+삼성SDS
+* 1989년 9월: 삼성네트워크서비스(SNS) 사업을 시작.
+*	B-DAT
+1989년	B-DAT
+9월	I-DAT
+:	O
+삼성네트워크서비스	B-TRM
+(	B-TRM
+SNS	B-TRM
+)	O
+사업을	O
+시작	O
+.	O
+
+삼성SDS
+* 1997년 4월: 삼성SDS로 상호 변경.
+*	B-DAT
+1997년	B-DAT
+4월	I-DAT
+:	O
+삼성SDS로	B-ORG
+상호	O
+변경	O
+.	O
+
+삼성SDS
+* 1997년 5월: 미국법인 ‘SDSA’ 및 합작법인 ‘CSP’ 설립.
+*	B-DAT
+1997년	B-DAT
+5월	I-DAT
+:	O
+미국법인	B-LOC
+‘	B-ORG
+SDSA	B-ORG
+’	O
+및	O
+합작법인	O
+‘	B-ORG
+CSP	B-ORG
+’	O
+설립	O
+.	O
+
+삼성SDS
+* 1997년 10월: 삼성멀티캠퍼스 개관.
+*	B-DAT
+1997년	B-DAT
+10월	I-DAT
+:	O
+삼성멀티캠퍼스	B-AFW
+개관	O
+.	O
+
+삼성SDS
+* 1997년 11월: 미국 마이크로소프트 사와 '전략적 제휴관계'를 체결.
+*	B-DAT
+1997년	B-DAT
+11월	I-DAT
+:	O
+미국	B-LOC
+마이크로소프트	B-ORG
+사와	O
+'	O
+전략적	O
+제휴관계	O
+'	O
+를	O
+체결	O
+.	O
+
+삼성SDS
+* 1998년 5월: 유니텔「유니원98」서비스 개시.
+*	B-DAT
+1998년	B-DAT
+5월	I-DAT
+:	O
+유니텔	B-ORG
+「	B-TRM
+유니원98	B-TRM
+」	O
+서비스	O
+개시	O
+.	O
+
+삼성SDS
+* 1998년 6월: 미국 HP사, SGI사와 전략적 제휴체결.
+*	B-DAT
+1998년	B-DAT
+6월	I-DAT
+:	O
+미국	B-LOC
+HP사	B-ORG
+,	O
+SGI사와	B-ORG
+전략적	O
+제휴체결	O
+.	O
+
+삼성SDS
+* 1998년 11월: 미국 CA (Computer Associates)사와 전략적 제휴.
+*	B-DAT
+1998년	B-DAT
+11월	I-DAT
+:	O
+미국	B-LOC
+CA	B-ORG
+(	B-ORG
+Computer	I-ORG
+Associates	I-ORG
+)	O
+사와	O
+전략적	O
+제휴	O
+.	O
+
+삼성SDS
+* 1999년 11월: 국내 SI업계 최초 매출 1조원 달성.
+*	B-DAT
+1999년	B-DAT
+11월	I-DAT
+:	O
+국내	O
+SI업계	B-TRM
+최초	B-NUM
+매출	O
+1조원	B-NUM
+달성	O
+.	O
+
+삼성SDS
+* 1999년 12월: 중국법인설립.
+*	B-DAT
+1999년	B-DAT
+12월	I-DAT
+:	O
+중국법인설립	B-ORG
+.	O
+
+삼성SDS
+* 2000년 3월: 정보통신본부를 유니텔로 사업분할(분할비율- SDS 1: 유니텔 2).
+*	B-DAT
+2000년	B-DAT
+3월	I-DAT
+:	O
+정보통신본부를	B-ORG
+유니텔로	B-ORG
+사업분할	O
+(	O
+분할비율	O
+-	O
+SDS	B-ORG
+1	B-NUM
+:	O
+유니텔	B-ORG
+2	B-NUM
+)	O
+.	O
+
+삼성SDS
+* 2000년 7월: 주식을 액면분할(주당 5000원→500원),자본금 28억 증자(우리사주 56만주, 자본금 228억 원).
+*	B-DAT
+2000년	B-DAT
+7월	I-DAT
+:	O
+주식을	O
+액면분할	O
+(	O
+주당	O
+5000원→500원	B-NUM
+)	O
+,	O
+자본금	O
+28억	B-NUM
+증자	I-NUM
+(	O
+우리사주	O
+56만주	B-NUM
+,	O
+자본금	O
+228억	B-NUM
+원	I-NUM
+)	O
+.	O
+
+삼성SDS
+* 2000년 9월: 유럽법인설립.
+*	B-DAT
+2000년	B-DAT
+9월	I-DAT
+:	O
+유럽법인설립	B-ORG
+.	O
+
+삼성SDS
+* 2001년 8월: 멕시코 티후아나 데이터센터 오픈.
+*	B-DAT
+2001년	B-DAT
+8월	I-DAT
+:	O
+멕시코	B-LOC
+티후아나	B-LOC
+데이터센터	O
+오픈	O
+.	O
+
+삼성SDS
+* 2002년 5월: 분당 하이테크 개관.
+*	B-DAT
+2002년	B-DAT
+5월	I-DAT
+:	O
+분당	B-LOC
+하이테크	B-TRM
+개관	O
+.	O
+
+삼성SDS
+* 2003년 12월: 국내최초 ITIL(IT Infrastructure Library) 최고등급 ‘마스터’ 레벨을 획득.
+*	B-DAT
+2003년	B-DAT
+12월	I-DAT
+:	O
+국내최초	O
+ITIL	B-CVL
+(	B-CVL
+IT	I-CVL
+Infrastructure	I-CVL
+Library	I-CVL
+)	O
+최고등급	O
+‘	B-CVL
+마스터	B-CVL
+’	O
+레벨을	O
+획득	O
+.	O
+
+삼성SDS
+* 2004년 5월: 마이크로소프트사와 전략적 제휴(닷넷사업 공동추진)를 체결.
+*	B-DAT
+2004년	B-DAT
+5월	I-DAT
+:	O
+마이크로소프트사와	B-ORG
+전략적	O
+제휴	O
+(	B-TRM
+닷넷사업	B-TRM
+공동추진	O
+)	O
+를	O
+체결	O
+.	O
+
+삼성SDS
+* 2004년 6월: 영국표준협회로부터 IT 서비스 관리에 대한 국제 표준인 BS 15000 인증을 획득.
+*	B-DAT
+2004년	B-DAT
+6월	I-DAT
+:	O
+영국표준협회로부터	B-ORG
+IT	B-TRM
+서비스	O
+관리에	O
+대한	O
+국제	O
+표준인	O
+BS	B-TRM
+15000	I-TRM
+인증을	O
+획득	O
+.	O
+
+삼성SDS
+* 2005년 11월: P-CMM (People Capability Maturity Model) Level3 획득 (카네기 멜론대 소프트웨어 공학연구소).
+*	B-DAT
+2005년	B-DAT
+11월	I-DAT
+:	O
+P	B-TRM
+-	O
+CMM	B-TRM
+(	O
+People	O
+Capability	O
+Maturity	O
+Model	O
+)	O
+Level3	B-EVT
+획득	B-DAT
+(	B-ORG
+카네기	B-ORG
+멜론대	I-ORG
+소프트웨어	B-ORG
+공학연구소	I-ORG
+)	O
+.	O
+
+삼성SDS
+* 2006년 10월: SDS Asia Pacific (SDSAP) 법인 설립 (싱가포르).
+*	B-DAT
+2006년	B-DAT
+10월	I-DAT
+:	O
+SDS	B-ORG
+Asia	I-ORG
+Pacific	I-ORG
+(	I-ORG
+SDSAP	I-ORG
+)	O
+법인	O
+설립	B-LOC
+(	B-LOC
+싱가포르	B-LOC
+)	O
+.	O
+
+삼성SDS
+* 2007년 4월: SDS Latin America (SDSLA) 법인 설립 (브라질).
+*	B-DAT
+2007년	B-DAT
+4월	I-DAT
+:	O
+SDS	B-ORG
+Latin	I-ORG
+America	I-ORG
+(	I-ORG
+SDSLA	I-ORG
+)	O
+법인	O
+설립	B-LOC
+(	B-LOC
+브라질	B-LOC
+)	O
+.	O
+
+삼성SDS
+* 2007년 7월: 전자태그(RFID) 솔루션 국제인증 획득 (EPCglobal).
+*	B-DAT
+2007년	B-DAT
+7월	I-DAT
+:	O
+전자태그	B-TRM
+(	B-TRM
+RFID	B-TRM
+)	O
+솔루션	O
+국제인증	O
+획득	O
+(	B-TRM
+EPCglobal	B-TRM
+)	O
+.	O
+
+삼성SDS
+* 2007년 10월: 프랑스 캡제미나이(Capgemini) 社와 공동사업전개 제휴.
+*	B-DAT
+2007년	B-DAT
+10월	I-DAT
+:	O
+프랑스	B-LOC
+캡제미나이	B-ORG
+(	B-ORG
+Capgemini	B-ORG
+)	O
+社	I-ORG
+와	O
+공동사업전개	O
+제휴	O
+.	O
+
+삼성SDS
+* 2008년 3월: SAP APJ 社와 공동사업전개 제휴.
+*	B-DAT
+2008년	B-DAT
+3월	I-DAT
+:	O
+SAP	B-ORG
+APJ	I-ORG
+社	I-ORG
+와	O
+공동사업전개	O
+제휴	O
+.	O
+
+삼성SDS
+* 2008년 6월: 오픈소스 기반의 자바SW 프레임워크 'AnyFrame' 공개.
+*	B-DAT
+2008년	B-DAT
+6월	I-DAT
+:	O
+오픈소스	O
+기반의	O
+자바SW	B-TRM
+프레임워크	I-TRM
+'	B-TRM
+AnyFrame	B-TRM
+'	O
+공개	O
+.	O
+
+삼성SDS
+* 2009년 1월: SDS India(SDSI)법인 설립 (인도).
+*	B-DAT
+2009년	B-DAT
+1월	I-DAT
+:	O
+SDS	B-ORG
+India	I-ORG
+(	B-ORG
+SDSI	I-ORG
+)	O
+법인	O
+설립	O
+(	O
+인도	O
+)	O
+.	O
+
+삼성SDS
+* 2009년 3월: 독일 TechniData 통합 환경솔루션 사업협력 MOU.
+*	B-DAT
+2009년	B-DAT
+3월	I-DAT
+:	O
+독일	B-LOC
+TechniData	B-TRM
+통합	O
+환경솔루션	O
+사업협력	O
+MOU	B-ORG
+.	O
+
+삼성SDS
+* 2009년 10월: 국내 최초 클라우드 컴퓨팅 센터 개관.
+*	B-DAT
+2009년	B-DAT
+10월	I-DAT
+:	O
+국내	O
+최초	O
+클라우드	O
+컴퓨팅	O
+센터	O
+개관	O
+.	O
+
+삼성SDS
+=== 물류BPO 및 제조 IT 기반 성장 [2010~2012] ===
+=	B-TRM
+=	B-TRM
+=	O
+물류BPO	B-TRM
+및	O
+제조	O
+IT	B-TRM
+기반	O
+성장	B-DAT
+[	B-DAT
+2010	B-NUM
+~	I-DAT
+2012	I-NUM
+]	B-DAT
+=	B-DAT
+=	B-ORG
+=	O
+
+삼성SDS
+* 2010년 1월: 삼성네트웍스를 흡수 합병.
+*	B-DAT
+2010년	B-DAT
+1월	I-DAT
+:	O
+삼성네트웍스를	B-ORG
+흡수	O
+합병	O
+.	O
+
+삼성SDS
+* 2010년 9월: IT서비스 경영 시스템 (ISO/IEC 20000) 인증 획득: BSI(영국표준협회).
+*	B-DAT
+2010년	B-DAT
+9월	I-DAT
+:	O
+IT서비스	B-TRM
+경영	O
+시스템	I-TRM
+(	B-TRM
+ISO	B-ORG
+/	O
+IEC	B-ORG
+20000	I-TRM
+)	O
+인증	O
+획득	O
+:	O
+BSI	B-ORG
+(	B-ORG
+영국표준협회	I-ORG
+)	O
+.	O
+
+삼성SDS
+* 2010년 10월: 자회사형 표준사업장 오픈핸즈(주) 설립.
+*	B-DAT
+2010년	B-DAT
+10월	I-DAT
+:	O
+자회사형	O
+표준사업장	O
+오픈핸즈	B-ORG
+(	B-ORG
+주	I-ORG
+)	O
+설립	O
+.	O
+
+삼성SDS
+* 2011년 11월: 미국 eMeter 社와 전략적 제휴 체결.
+*	B-DAT
+2011년	B-DAT
+11월	I-DAT
+:	O
+미국	B-LOC
+eMeter	B-ORG
+社	O
+와	O
+전략적	O
+제휴	O
+체결	O
+.	O
+
+삼성SDS
+* 2011년 12월: 러시아 지점 개소.
+*	B-DAT
+2011년	B-DAT
+12월	I-DAT
+:	O
+러시아	B-LOC
+지점	O
+개소	O
+.	O
+
+삼성SDS
+* 2012년 7월: 스타트업(벤처) 발굴 육성 프로그램 'sGen Eco Network' 개시.
+*	B-DAT
+2012년	B-DAT
+7월	I-DAT
+:	O
+스타트업	O
+(	O
+벤처	O
+)	O
+발굴	O
+육성	O
+프로그램	O
+'	B-TRM
+sGen	B-TRM
+Eco	I-TRM
+Network	I-TRM
+'	O
+개시	O
+.	O
+
+삼성SDS
+* 2013년 3월: 신사업 아이디어 공모전 'sGen Global' 개최.
+*	B-DAT
+2013년	B-DAT
+3월	I-DAT
+:	O
+신사업	B-EVT
+아이디어	I-EVT
+공모전	I-EVT
+'	B-EVT
+sGen	B-EVT
+Global	I-EVT
+'	O
+개최	O
+.	O
+
+삼성SDS
+* 2013년 4월: 서울 송파구 삼성SDS타워(동관) 입주.
+*	B-DAT
+2013년	B-DAT
+4월	I-DAT
+:	O
+서울	B-LOC
+송파구	B-LOC
+삼성SDS타워	B-AFW
+(	B-AFW
+동관	B-AFW
+)	O
+입주	O
+.	O
+
+삼성SDS
+* 2013년 12월: 삼성SNS를 흡수 합병.
+*	B-DAT
+2013년	B-DAT
+12월	I-DAT
+:	O
+삼성SNS를	B-ORG
+흡수	O
+합병	O
+.	O
+
+삼성SDS
+* 2014년 7월: 서울 송파구 삼성SDS타워(서관) 본관 이전 완료.
+*	B-DAT
+2014년	B-DAT
+7월	I-DAT
+:	O
+서울	B-LOC
+송파구	B-LOC
+삼성SDS타워	B-AFW
+(	B-AFW
+서관	B-AFW
+)	O
+본관	O
+이전	O
+완료	O
+.	O
+
+삼성SDS
+* 2014년 10월: 전략물자 자율준수무역거래자 ‘AAA’ 최고등급 획득(산업통상자원부).
+*	B-DAT
+2014년	B-DAT
+10월	I-DAT
+:	O
+전략물자	B-CVL
+자율준수무역거래자	I-CVL
+‘	O
+AAA	O
+’	O
+최고등급	O
+획득	B-ORG
+(	B-ORG
+산업통상자원부	B-ORG
+)	O
+.	O
+
+삼성SDS
+* 2014년 11월: 한국거래소 유가증권시장 주권 상장.
+*	B-DAT
+2014년	B-DAT
+11월	I-DAT
+:	O
+한국거래소	B-ORG
+유가증권시장	O
+주권	O
+상장	O
+.	O
+
+삼성SDS
+* 2015년 6월: 상암IT센터 개관.
+*	B-DAT
+2015년	B-DAT
+6월	I-DAT
+:	O
+상암IT센터	B-AFW
+개관	O
+.	O
+
+삼성SDS
+* 2015년 11월: 교육컨텐츠 사업 크레듀(現 멀티캠퍼스)로 양도.
+*	B-DAT
+2015년	B-DAT
+11월	I-DAT
+:	O
+교육컨텐츠	O
+사업	O
+크레듀	B-ORG
+(	O
+現	O
+멀티캠퍼스	O
+)	O
+로	O
+양도	O
+.	O
+
+삼성SDS
+* 2016년 5월: 글로벌 뱅킹 솔루션 업체 EdgeVerve사와 전략적 파트너십 체결.
+*	B-DAT
+2016년	B-DAT
+5월	I-DAT
+:	O
+글로벌	O
+뱅킹	O
+솔루션	O
+업체	O
+EdgeVerve사와	B-ORG
+전략적	O
+파트너십	O
+체결	O
+.	O
+
+삼성SDS
+* 2016년 6월: SAP와 엔터프라이즈 클라우드 사업협력에 대한 MoU 체결.
+*	B-DAT
+2016년	B-DAT
+6월	I-DAT
+:	O
+SAP와	B-ORG
+엔터프라이즈	O
+클라우드	O
+사업협력에	O
+대한	O
+MoU	B-ORG
+체결	O
+.	O
+
+삼성SDS
+* 2016년 9월: 레드닷(Red Dot) 디자인상 3개 부문 수상 (Smart Home App, Cello Square, Samsung SDS Enterprise Conferencing).
+*	B-DAT
+2016년	B-DAT
+9월	I-DAT
+:	O
+레드닷	B-ORG
+(	B-TRM
+Red	I-TRM
+Dot	I-TRM
+)	O
+디자인상	B-CVL
+3개	B-NUM
+부문	O
+수상	B-CVL
+(	B-TRM
+Smart	O
+Home	O
+App	O
+,	O
+Cello	B-TRM
+Square	I-TRM
+,	O
+Samsung	O
+SDS	O
+Enterprise	O
+Conferencing	O
+)	O
+.	O
+
+삼성SDS
+* 2017년 2월: Samsung Mobile Security Management Suite, 국내 IT서비스/솔루션 업계 최초 글로모 어워즈(Global Mobile Awards) 2017 수상.
+*	B-DAT
+2017년	B-DAT
+2월	I-DAT
+:	O
+Samsung	B-TRM
+Mobile	I-TRM
+Security	O
+Management	O
+Suite	O
+,	O
+국내	O
+IT서비스	B-TRM
+/	O
+솔루션	O
+업계	O
+최초	O
+글로모	B-EVT
+어워즈	I-EVT
+(	I-EVT
+Global	I-EVT
+Mobile	I-EVT
+Awards	I-EVT
+)	B-DAT
+2017	B-NUM
+수상	O
+.	O
+
+삼성SDS
+* 2017년 3월: 독일 iF 디자인상 수상 (Knox Meeting, Cello Square, sHome).
+*	B-DAT
+2017년	B-DAT
+3월	I-DAT
+:	O
+독일	B-LOC
+iF	B-CVL
+디자인상	B-CVL
+수상	O
+(	O
+Knox	O
+Meeting	O
+,	O
+Cello	O
+Square	O
+,	O
+sHome	O
+)	O
+.	O
+
+삼성SDS
+* 2017년 5월: 미국 IDEA 디자인상 수상 (Matcher, Angel Talk, Brightics).
+*	B-DAT
+2017년	B-DAT
+5월	I-DAT
+:	O
+미국	B-LOC
+IDEA	B-EVT
+디자인상	B-CVL
+수상	O
+(	O
+Matcher	O
+,	O
+Angel	B-ORG
+Talk	O
+,	O
+Brightics	B-FLD
+)	O
+.	O
+
+삼성SDS
+* 2017년 11월: 홍원표 대표 취임.
+*	B-DAT
+2017년	B-DAT
+11월	I-DAT
+:	O
+홍원표	B-PER
+대표	B-CVL
+취임	O
+.	O
+
+삼성SDS
+* 2018년 1월: 삼성SDS 'Data-driven Digital Transformation Leader' 새 비전 선포.
+*	B-DAT
+2018년	B-DAT
+1월	I-DAT
+:	O
+삼성SDS	B-ORG
+'	B-CVL
+Data	B-TRM
+-	O
+driven	I-TRM
+Digital	I-TRM
+Transformation	I-CVL
+Leader	I-CVL
+'	O
+새	O
+비전	O
+선포	O
+.	O
+
+삼성SDS
+* 2018년 3월: 독일 iF 디자인상 수상 (UX 표준시스템 OPUS).
+*	B-DAT
+2018년	B-DAT
+3월	I-DAT
+:	O
+독일	B-LOC
+iF	B-CVL
+디자인상	B-CVL
+수상	O
+(	O
+UX	O
+표준시스템	O
+OPUS	O
+)	O
+.	O
+
+삼성SDS
+* 2018년 5월: EY사와 블록체인 사업협력에 대한 MoU 체결.
+*	B-DAT
+2018년	B-DAT
+5월	I-DAT
+:	O
+EY사와	B-ORG
+블록체인	O
+사업협력에	O
+대한	O
+MoU	B-ORG
+체결	O
+.	O
+
+삼성SDS
+* 2018년 6월: 삼성SDS–베트남 CMC社, 스마트팩토리 사업추진을 위한 전략적 협약 체결.
+*	B-DAT
+2018년	B-DAT
+6월	I-DAT
+:	O
+삼성SDS	B-ORG
+–	O
+베트남	B-LOC
+CMC	B-ORG
+社	O
+,	O
+스마트팩토리	B-TRM
+사업추진을	O
+위한	O
+전략적	O
+협약	O
+체결	O
+.	O
+
+삼성SDS
+* 2018년 7월: 블록체인 플랫폼 Nexledger, 대한민국 디지털경영혁신대상 국무총리상 수상.
+*	B-DAT
+2018년	B-DAT
+7월	I-DAT
+:	O
+블록체인	O
+플랫폼	O
+Nexledger	O
+,	O
+대한민국	B-EVT
+디지털경영혁신대상	I-EVT
+국무총리상	I-CVL
+수상	O
+.	O
+
+삼성SDS
+* 2018년 9월: 美 포브스(Forbes) '세계 100대 IT 기업'에 선정.
+*	B-DAT
+2018년	B-DAT
+9월	I-DAT
+:	O
+美	B-LOC
+포브스	B-ORG
+(	B-ORG
+Forbes	I-ORG
+)	O
+'	O
+세계	O
+100대	B-NUM
+IT	B-TRM
+기업	O
+'	O
+에	O
+선정	O
+.	O
+
+삼성SDS
+* 2018년 10월: 물류부문, 수출입안전관리우수업체(AEO) 인증 획득.
+*	B-DAT
+2018년	B-DAT
+10월	I-DAT
+:	O
+물류부문	O
+,	O
+수출입안전관리우수업체	B-ORG
+(	B-ORG
+AEO	B-ORG
+)	O
+인증	O
+획득	O
+.	O
+
+삼성SDS
+* 2018년 11월: 삼성SDS, 세계 스타크래프트(StarCraft®) AI 대회 우승.
+*	B-DAT
+2018년	B-DAT
+11월	I-DAT
+:	O
+삼성SDS	B-ORG
+,	O
+세계	B-EVT
+스타크래프트	I-EVT
+(	B-EVT
+[UNK]	I-EVT
+)	I-EVT
+AI	I-EVT
+대회	I-EVT
+우승	B-CVL
+.	O
+
+삼성SDS
+* 2019년 2월: 삼성SDS-VMware, 디지털 업무환경 혁신 사업 공동 추진.
+*	B-DAT
+2019년	B-DAT
+2월	I-DAT
+:	O
+삼성SDS	B-ORG
+-	O
+VMware	B-TRM
+,	O
+디지털	O
+업무환경	O
+혁신	O
+사업	O
+공동	O
+추진	O
+.	O
+
+삼성SDS
+* 2019년 3월: 삼성SDS, 글로벌 Serverless 컴퓨팅 이스라엘 기업, 이과지오(Iguazio)에 투자.
+*	B-DAT
+2019년	B-DAT
+3월	I-DAT
+:	O
+삼성SDS	B-ORG
+,	O
+글로벌	O
+Serverless	O
+컴퓨팅	O
+이스라엘	B-LOC
+기업	O
+,	O
+이과지오	B-ORG
+(	B-ORG
+Iguazio	B-ORG
+)	O
+에	O
+투자	O
+.	O
+
+삼성SDS
+* 2019년 4월: 포브스(Forbes) '글로벌 블록체인 50 기업'에 선정.
+*	B-DAT
+2019년	B-DAT
+4월	I-DAT
+:	O
+포브스	B-ORG
+(	B-ORG
+Forbes	I-ORG
+)	O
+'	O
+글로벌	O
+블록체인	I-EVT
+50	I-EVT
+기업	I-EVT
+'	O
+에	O
+선정	O
+.	O
+
+삼성SDS
+* 2019년 4월: 가트너(Gartner) '글로벌 IT 서비스 시장 2018'에 선정 (22위).
+*	B-DAT
+2019년	B-DAT
+4월	I-DAT
+:	O
+가트너	B-ORG
+(	B-ORG
+Gartner	I-ORG
+)	O
+'	B-EVT
+글로벌	I-EVT
+IT	I-EVT
+서비스	I-EVT
+시장	I-EVT
+2018	I-EVT
+'	O
+에	O
+선정	B-NUM
+(	B-NUM
+22위	B-NUM
+)	O
+.	O
+
+삼성SDS
+* 2019년 4월: 삼성SDS-포르투갈 글린트(Glintt), Nexmed Cardio 공동마케팅 위한 업무 협약 체결.
+*	B-DAT
+2019년	B-DAT
+4월	I-DAT
+:	O
+삼성SDS	B-ORG
+-	O
+포르투갈	B-LOC
+글린트	B-ORG
+(	B-ORG
+Glintt	B-ORG
+)	O
+,	O
+Nexmed	B-TRM
+Cardio	I-TRM
+공동마케팅	O
+위한	O
+업무	O
+협약	O
+체결	O
+.	O
+
+삼성SDS
+* 2019년 4월: 삼성SDS-테크 마힌드라社, 기업형 블록체인 플랫폼 넥스레저(Nexledger)의 확산 위한 블록체인 업무 협약 체결.
+*	B-DAT
+2019년	B-DAT
+4월	I-DAT
+:	O
+삼성SDS	B-ORG
+-	O
+테크	B-ORG
+마힌드라	I-ORG
+社	I-ORG
+,	O
+기업형	B-TRM
+블록체인	I-TRM
+플랫폼	O
+넥스레저	B-ORG
+(	B-ORG
+Nexledger	I-ORG
+)	O
+의	O
+확산	O
+위한	O
+블록체인	B-TRM
+업무	O
+협약	O
+체결	O
+.	O
+
+삼성SDS
+* 2019년 5월: 미국 솔루션 기업, 지터빗(Jitterbit)에 투자.
+*	B-DAT
+2019년	B-DAT
+5월	I-DAT
+:	O
+미국	B-LOC
+솔루션	O
+기업	O
+,	O
+지터빗	B-ORG
+(	B-ORG
+Jitterbit	I-ORG
+)	O
+에	O
+투자	O
+.	O
+
+삼성SDS
+* 2019년 5월: 베트남 IT서비스 기업, CMC와 전략적 파트너십 체결.
+*	B-DAT
+2019년	B-DAT
+5월	I-DAT
+:	O
+베트남	B-LOC
+IT서비스	B-TRM
+기업	O
+,	O
+CMC와	B-ORG
+전략적	O
+파트너십	O
+체결	O
+.	O
+
+삼성SDS
+* 2019년 5월: Realize your vision through Digital Transformation' 주제로 REAL 2019 개최.
+*	B-DAT
+2019년	B-DAT
+5월	I-DAT
+:	O
+Realize	O
+your	O
+vision	O
+through	O
+Digital	O
+Transformation	O
+'	O
+주제로	O
+REAL	B-EVT
+2019	I-EVT
+개최	O
+.	O
+
+삼성SDS
+* 2019년 5월: 스마트시티 인프라 구축과 데이터 솔루션 사업 위해 영국 애플리케이션 업체, 텔렌사(Telensa)와 파트너십 체결.
+*	B-DAT
+2019년	B-DAT
+5월	I-DAT
+:	O
+스마트시티	O
+인프라	O
+구축과	O
+데이터	O
+솔루션	O
+사업	O
+위해	O
+영국	B-LOC
+애플리케이션	O
+업체	O
+,	O
+텔렌사	B-ORG
+(	B-ORG
+Telensa	B-ORG
+)	O
+와	O
+파트너십	O
+체결	O
+.	O
+
+삼성SDS
+* 2019년 6월: 단말기 위협 탐지·대응(EDR) 솔루션을 보유한 미국 센티넬원(SentinelOne)에 투자.
+*	B-DAT
+2019년	B-DAT
+6월	I-DAT
+:	O
+단말기	B-TRM
+위협	O
+탐지	O
+·	O
+대응	B-TRM
+(	B-TRM
+EDR	B-TRM
+)	O
+솔루션을	O
+보유한	O
+미국	B-LOC
+센티넬원	B-ORG
+(	B-ORG
+SentinelOne	I-ORG
+)	O
+에	O
+투자	O
+.	O
+
+삼성SDS
+* 2019년 7월: 글로벌IT서비스 Top 15 중 12위로 선정(글로벌브랜드 컨설팅업체 브랜드파이낸스).
+*	B-DAT
+2019년	B-DAT
+7월	I-DAT
+:	O
+글로벌IT서비스	O
+Top	O
+15	I-NUM
+중	O
+12위로	B-NUM
+선정	O
+(	O
+글로벌브랜드	O
+컨설팅업체	O
+브랜드파이낸스	B-ORG
+)	O
+.	O
+
+삼성SDS
+* 2019년 9월: 2019 레드닷 디자인 어워드 최고 디자인상 수상(녹스 포털 협업 솔루션 '가상 개인비서').
+*	B-DAT
+2019년	B-DAT
+9월	I-DAT
+:	O
+2019	B-NUM
+레드닷	B-EVT
+디자인	I-EVT
+어워드	I-EVT
+최고	O
+디자인상	I-CVL
+수상	O
+(	B-TRM
+녹스	B-TRM
+포털	O
+협업	O
+솔루션	O
+'	B-CVL
+가상	O
+개인비서	I-CVL
+'	O
+)	O
+.	O
+
+삼성SDS
+* 2019년 10월: 디지털차이나와 IT서비스 사업 확대 위한 MOU 체결.
+*	B-DAT
+2019년	B-DAT
+10월	I-DAT
+:	O
+디지털차이나와	B-ORG
+IT서비스	B-TRM
+사업	O
+확대	O
+위한	O
+MOU	B-ORG
+체결	O
+.	O
+
+삼성SDS
+* 2019년 10월: 아시아 태평양 지역 블록체인 대표 사업자로 선정(포레스터).
+*	B-DAT
+2019년	B-DAT
+10월	I-DAT
+:	O
+아시아	B-LOC
+태평양	B-LOC
+지역	O
+블록체인	B-TRM
+대표	O
+사업자로	O
+선정	O
+(	O
+포레스터	B-LOC
+)	O
+.	O
+
+삼성SDS
+* 2019년 11월: 이탈리아 피에라 밀라노와 디지털 트랜스포메이션 추진을 위한 전략적 파트너십 체결.
+*	B-DAT
+2019년	B-DAT
+11월	I-DAT
+:	O
+이탈리아	B-LOC
+피에라	B-LOC
+밀라노와	B-LOC
+디지털	O
+트랜스포메이션	O
+추진을	O
+위한	O
+전략적	O
+파트너십	O
+체결	O
+.	O
+
+삼성SDS
+* 2019년 12월: 베트남 소비코 그룹과 디지털 트랜스포메이션 지원 및 물류 혁신을 위한 MOU 체결.
+*	B-DAT
+2019년	B-DAT
+12월	I-DAT
+:	O
+베트남	B-LOC
+소비코	B-ORG
+그룹과	I-ORG
+디지털	O
+트랜스포메이션	O
+지원	O
+및	O
+물류	O
+혁신을	O
+위한	O
+MOU	B-ORG
+체결	O
+.	O
+
+삼성SDS
+* 2019년 12월: Xeedlab(신사업 아이디어 공모전) 4기 Top 3 최종 선정.
+*	B-DAT
+2019년	B-DAT
+12월	I-DAT
+:	O
+Xeedlab	B-EVT
+(	B-EVT
+신사업	I-EVT
+아이디어	I-EVT
+공모전	I-EVT
+)	O
+4기	B-NUM
+Top	O
+3	I-NUM
+최종	O
+선정	O
+.	O
+
+삼성SDS
+* 2020년 1월: 글로벌 IT서비스 기업 브랜드 가치 11위 선정 (英 글로벌브랜드 컨설팅업체 브랜드파이낸스).
+*	O
+2020년	B-DAT
+1월	I-DAT
+:	O
+글로벌	O
+IT서비스	B-TRM
+기업	O
+브랜드	O
+가치	O
+11위	B-NUM
+선정	B-LOC
+(	B-LOC
+英	B-LOC
+글로벌브랜드	O
+컨설팅업체	O
+브랜드파이낸스	B-ORG
+)	O
+.	O
+
+삼성SDS
+* 2020년 1월: EMM(모바일 보안 솔루션), 미국 국가안보국 산하 국가정보보증협회로부터 세계 최초로 최신 보안 인증(CC) 획득.
+*	B-DAT
+2020년	B-DAT
+1월	I-DAT
+:	O
+EMM	B-TRM
+(	B-TRM
+모바일	B-TRM
+보안	O
+솔루션	O
+)	O
+,	O
+미국	B-LOC
+국가안보국	B-ORG
+산하	O
+국가정보보증협회로부터	B-ORG
+세계	O
+최초로	O
+최신	O
+보안	O
+인증	O
+(	B-TRM
+CC	O
+)	O
+획득	O
+.	O
+
+삼성SDS
+* 2020년 2월: PwC컨설팅과 AI 기반 업무혁신 사업 확대 위한 MoU 체결.
+*	O
+2020년	B-DAT
+2월	I-DAT
+:	O
+PwC컨설팅과	B-ORG
+AI	B-TRM
+기반	O
+업무혁신	O
+사업	O
+확대	O
+위한	O
+MoU	B-ORG
+체결	O
+.	O
+
+삼성SDS
+* 2020년 2월: 포브스(Forbes) '글로벌 블록체인 50 기업'에 2년 연속 선정.
+*	B-DAT
+2020년	B-DAT
+2월	I-DAT
+:	O
+포브스	B-ORG
+(	B-ORG
+Forbes	I-ORG
+)	O
+'	O
+글로벌	I-EVT
+블록체인	I-TRM
+50	I-EVT
+기업	I-EVT
+'	O
+에	O
+2년	B-DAT
+연속	O
+선정	O
+.	O
+
+삼성SDS
+* 2020년 3월: 글로벌 기업 크레도락스와 블록체인 및 RPA 솔루션 기반 지급결제 플랫폼 사업 협력.
+*	B-DAT
+2020년	B-DAT
+3월	I-DAT
+:	O
+글로벌	O
+기업	O
+크레도락스와	B-ORG
+블록체인	B-TRM
+및	O
+RPA	B-TRM
+솔루션	O
+기반	O
+지급결제	B-TRM
+플랫폼	O
+사업	O
+협력	O
+.	O
+
+삼성SDS
+삼성SDS에서 운영하고 있는 대한민국 내 위치는 다음과 같다.
+삼성SDS에서	B-ORG
+운영하고	O
+있는	O
+대한민국	B-LOC
+내	O
+위치는	O
+다음과	O
+같다	O
+.	O
+
+삼성SDS
+* 본사(잠실 캠퍼스): 서울특별시 송파구 올림픽로 35길 125, 123 (신천동).
+*	O
+본사	B-LOC
+(	B-LOC
+잠실	B-LOC
+캠퍼스	I-AFW
+)	O
+:	O
+서울특별시	B-LOC
+송파구	B-LOC
+올림픽로	B-AFW
+35길	I-AFW
+125	I-NUM
+,	I-NUM
+123	I-NUM
+(	B-LOC
+신천동	B-LOC
+)	O
+.	O
+
+삼성SDS
+* 판교 캠퍼스: 경기도 성남시 분당구 판교역로 145 알파리움 타워 1동.
+*	O
+판교	B-AFW
+캠퍼스	O
+:	O
+경기도	B-LOC
+성남시	B-LOC
+분당구	B-LOC
+판교역로	B-AFW
+145	I-NUM
+알파리움	B-AFW
+타워	I-AFW
+1동	B-NUM
+.	O
+
+삼성SDS
+* 서울R&D 캠퍼스: 서울시 서초구 성촌길 56 (성촌동) E타워.
+*	O
+서울R	B-AFW
+&	O
+D	O
+캠퍼스	O
+:	O
+서울시	B-LOC
+서초구	B-LOC
+성촌길	B-AFW
+56	B-NUM
+(	B-LOC
+성촌동	B-LOC
+)	O
+E타워	B-AFW
+.	O
+
+삼성SDS
+* 상암IT센터: 서울 특별시 마포구 월드컵북로 60길 24.
+*	O
+상암IT센터	B-AFW
+:	O
+서울	B-LOC
+특별시	B-LOC
+마포구	B-LOC
+월드컵북로	B-AFW
+60길	I-AFW
+24	B-NUM
+.	O
+
+삼성SDS
+* ICT수원센터: 경기도 수원시 영통구 삼성로 168번길 10 (매탄3동).
+*	O
+ICT수원센터	B-ORG
+:	O
+경기도	B-LOC
+수원시	B-LOC
+영통구	B-LOC
+삼성로	B-AFW
+168번길	B-NUM
+10	B-NUM
+(	B-NUM
+매탄3동	B-LOC
+)	O
+.	O
+
+삼성SDS
+* ICT과천센터: 경기도 과천시 별양상가3로 8 (별양동).
+*	O
+ICT과천센터	B-ORG
+:	O
+경기도	B-LOC
+과천시	B-LOC
+별양상가3로	B-AFW
+8	B-NUM
+(	B-LOC
+별양동	B-LOC
+)	O
+.	O
+
+삼성SDS
+* ICT구미센터: 경상북도 구미시 3공단3로 302 (임수동).
+*	O
+ICT구미센터	B-ORG
+:	O
+경상북도	B-LOC
+구미시	B-LOC
+3공단3로	B-AFW
+302	I-AFW
+(	B-AFW
+임수동	B-LOC
+)	O
+.	O
+
+제주항공
+제주항공(濟州航空, )은 대한민국의 저비용 항공사이다.
+제주항공	B-ORG
+(	B-LOC
+濟	B-LOC
+州	B-LOC
+航	O
+空	O
+,	O
+)	O
+은	O
+대한민국의	B-LOC
+저비용	O
+항공사이다	O
+.	O
+
+제주항공
+아시아나항공에 이은 대한민국 3위 규모의 민간 LCC 항공사이며 아시아 LCC 항공동맹인 밸류얼라이언스의 창립 멤버이다.
+아시아나항공에	B-ORG
+이은	O
+대한민국	B-LOC
+3위	B-NUM
+규모의	O
+민간	O
+LCC	O
+항공사이며	O
+아시아	B-LOC
+LCC	O
+항공동맹인	O
+밸류얼라이언스의	B-ORG
+창립	O
+멤버이다	O
+.	O
+
+제주항공
+* 1월 25일: 애경그룹(75%)과 제주특별자치도(25%)의 공동출자로 민관 합작법인 형태의 (주) 제주에어 법인설립.
+*	B-DAT
+1월	B-DAT
+25일	I-DAT
+:	O
+애경그룹	B-ORG
+(	B-NUM
+75	B-NUM
+%	O
+)	O
+과	O
+제주특별자치도	B-LOC
+(	B-NUM
+25	B-NUM
+%	O
+)	O
+의	O
+공동출자로	O
+민관	O
+합작법인	O
+형태의	O
+(	B-ORG
+주	B-ORG
+)	B-ORG
+제주에어	B-ORG
+법인설립	O
+.	O
+
+제주항공
+* 8월 25일: 정기항공운항사업면허 및 노선면허 취득.
+*	O
+8월	B-DAT
+25일	I-DAT
+:	O
+정기항공운항사업면허	O
+및	O
+노선면허	O
+취득	O
+.	O
+
+제주항공
+* 9월 12일: 상호를 (주) 제주항공으로 변경.
+*	O
+9월	B-DAT
+12일	I-DAT
+:	O
+상호를	B-LOC
+(	B-ORG
+주	B-ORG
+)	O
+제주항공으로	B-ORG
+변경	O
+.	O
+
+제주항공
+* 4월 26일: 봄바디어 Q400 1호기 도입 (HL5251).
+*	O
+4월	B-DAT
+26일	I-DAT
+:	O
+봄바디어	B-TRM
+Q400	B-TRM
+1호기	I-TRM
+도입	B-TRM
+(	B-TRM
+HL5251	B-TRM
+)	O
+.	O
+
+제주항공
+* 6월 5일: 서울(김포) - 제주 취항.
+*	O
+6월	B-DAT
+5일	I-DAT
+:	O
+서울	B-ORG
+(	B-LOC
+김포	B-LOC
+)	O
+-	O
+제주	B-LOC
+취항	O
+.	O
+
+제주항공
+* 6월 12일: 봄바디어 Q400 2호기 도입 (HL5252).
+*	O
+6월	B-DAT
+12일	I-DAT
+:	O
+봄바디어	B-TRM
+Q400	B-TRM
+2호기	I-TRM
+도입	B-TRM
+(	B-TRM
+HL5252	B-TRM
+)	O
+.	O
+
+제주항공
+* 6월 29일.
+*	B-DAT
+6월	B-DAT
+29일	I-DAT
+.	O
+
+제주항공
+** 봄바디어 Q400 3호기 도입 (HL5254).
+*	B-TRM
+*	B-TRM
+봄바디어	B-TRM
+Q400	B-TRM
+3호기	I-TRM
+도입	B-TRM
+(	B-TRM
+HL5254	B-TRM
+)	O
+.	O
+
+제주항공
+** 서울(김포) - 부산 취항.
+*	B-LOC
+*	B-LOC
+서울	B-LOC
+(	B-LOC
+김포	B-LOC
+)	O
+-	O
+부산	B-LOC
+취항	O
+.	O
+
+제주항공
+* 8월 7일: 서울(김포) - 양양 취항.
+*	O
+8월	B-DAT
+7일	I-DAT
+:	O
+서울	B-ORG
+(	B-LOC
+김포	B-LOC
+)	O
+-	O
+양양	B-LOC
+취항	O
+.	O
+
+제주항공
+* 8월 25일: 제주 - 부산 취항.
+*	O
+8월	B-DAT
+25일	I-DAT
+:	O
+제주	B-ORG
+-	O
+부산	B-ORG
+취항	O
+.	O
+
+제주항공
+* 11월 15일: 봄바디어 Q400 4호기 도입 (HL5255).
+*	O
+11월	B-DAT
+15일	I-DAT
+:	O
+봄바디어	B-TRM
+Q400	B-TRM
+4호기	I-TRM
+도입	B-TRM
+(	B-TRM
+HL5255	B-TRM
+)	O
+.	O
+
+제주항공
+* 12월 27일: 봄바디어 Q400 5호기 도입 (HL5256).
+*	O
+12월	B-DAT
+27일	I-DAT
+:	O
+봄바디어	B-TRM
+Q400	B-TRM
+5호기	I-TRM
+도입	B-TRM
+(	B-TRM
+HL5256	B-TRM
+)	O
+.	O
+
+제주항공
+* 1월 28일: 서울(김포) - 부산 단항.
+*	B-DAT
+1월	B-DAT
+28일	I-DAT
+:	O
+서울	B-ORG
+(	B-LOC
+김포	B-LOC
+)	O
+-	O
+부산	B-ORG
+단항	B-LOC
+.	O
+
+제주항공
+* 7월 8일: 서울(김포) - 양양 단항.
+*	O
+7월	B-DAT
+8일	I-DAT
+:	O
+서울	B-ORG
+(	B-LOC
+김포	B-LOC
+)	O
+-	O
+양양	B-LOC
+단항	B-LOC
+.	O
+
+제주항공
+* 11월 5일: 제주 - 평양 최초 전세기 취항.
+*	O
+11월	B-DAT
+5일	I-DAT
+:	O
+제주	B-LOC
+-	O
+평양	B-LOC
+최초	O
+전세기	O
+취항	O
+.	O
+
+제주항공
+* 5월 21일: 보잉 737-800 1호기 도입 (HL7779).
+*	O
+5월	B-DAT
+21일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+1호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL7779	B-TRM
+)	O
+.	O
+
+제주항공
+* 6월 13일: 청주 - 제주 취항.
+*	O
+6월	B-DAT
+13일	I-DAT
+:	O
+청주	B-ORG
+-	O
+제주	B-LOC
+취항	O
+.	O
+
+제주항공
+* 7월 11일: 제주 - 히로시마 전세편 취항.
+*	O
+7월	B-DAT
+11일	I-DAT
+:	O
+제주	B-ORG
+-	O
+히로시마	B-LOC
+전세편	O
+취항	O
+.	O
+
+제주항공
+* 7월 18일: 서울(인천) - 기타큐슈 전세편 취항.
+*	O
+7월	B-DAT
+18일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+기타큐슈	B-ORG
+전세편	O
+취항	O
+.	O
+
+제주항공
+* 7월 22일: 보잉 737-800 2호기 도입 (HL7780).
+*	O
+7월	B-DAT
+22일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+2호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL7780	B-TRM
+)	O
+.	O
+
+제주항공
+* 10월 10일: 청주 - 오사카(간사이) 전세편 취항.
+*	O
+10월	B-DAT
+10일	I-DAT
+:	O
+청주	B-ORG
+-	O
+오사카	B-ORG
+(	B-ORG
+간사이	B-LOC
+)	O
+전세편	O
+취항	O
+.	O
+
+제주항공
+* 1월 28일: 국제항공운송협회(IATA) 국제항공안전인증(IOSA) 국내 항공사 3번째, 국내 저비용 항공사 최초 획득.
+*	B-DAT
+1월	B-DAT
+28일	I-DAT
+:	O
+국제항공운송협회	B-ORG
+(	B-ORG
+IATA	I-ORG
+)	O
+국제항공안전인증	B-ORG
+(	B-ORG
+IOSA	B-ORG
+)	O
+국내	O
+항공사	O
+3번째	B-NUM
+,	O
+국내	O
+저비용	O
+항공사	O
+최초	O
+획득	O
+.	O
+
+제주항공
+* 3월 20일.
+*	B-DAT
+3월	B-DAT
+20일	I-DAT
+.	O
+
+제주항공
+** 서울(인천) - 기타큐슈 신규취항.
+*	B-ORG
+*	B-ORG
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+기타큐슈	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+** 서울(인천) - 오사카(간사이) 신규취항.
+*	B-ORG
+*	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+오사카	B-LOC
+(	B-CVL
+간사이	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 4월 7일: 보잉 737-800 3호기 도입 (HL7796).
+*	O
+4월	B-DAT
+7일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+3호기	B-NUM
+도입	B-DAT
+(	B-TRM
+HL7796	B-TRM
+)	O
+.	O
+
+제주항공
+* 4월 10일: 서울(인천) - 방콕(수완나품) 신규취항.
+*	O
+4월	B-DAT
+10일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+방콕	B-LOC
+(	B-ORG
+수완나품	B-ORG
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 10월 21일.
+*	O
+10월	B-DAT
+21일	I-DAT
+.	O
+
+제주항공
+** 청주 - 방콕(수완나품) 신규취항.
+*	B-LOC
+*	B-LOC
+청주	B-LOC
+-	O
+방콕	B-LOC
+(	B-LOC
+수완나품	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+** 제주 - 방콕(수완나품) 전세편 취항.
+*	B-LOC
+*	B-LOC
+제주	B-LOC
+-	O
+방콕	B-LOC
+(	B-ORG
+수완나품	B-ORG
+)	O
+전세편	O
+취항	O
+.	O
+
+제주항공
+* 11월 27일: 서울(김포) - 오사카(간사이) 신규취항.
+*	O
+11월	B-DAT
+27일	I-DAT
+:	O
+서울	B-ORG
+(	B-LOC
+김포	B-LOC
+)	O
+-	O
+오사카	B-ORG
+(	B-ORG
+간사이	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 2월 10일: 보잉 737-800 4호기 도입 (HL8214).
+*	O
+2월	B-DAT
+10일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+4호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8214	B-TRM
+)	O
+.	O
+
+제주항공
+* 3월 28일: 서울(인천) - 방콕(수완나품) 주 7회로 증편.
+*	O
+3월	B-DAT
+28일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+방콕	B-LOC
+(	B-ORG
+수완나품	B-ORG
+)	O
+주	O
+7회로	B-NUM
+증편	O
+.	O
+
+제주항공
+* 3월 29일: 서울(김포) - 나고야(주부) 신규취항.
+*	O
+3월	B-DAT
+29일	I-DAT
+:	O
+서울	B-LOC
+(	B-LOC
+김포	B-LOC
+)	O
+-	O
+나고야	B-LOC
+(	O
+주부	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 6월 16일: 봄바디어 Q400 항공기 매각 전 고별 비행.
+*	O
+6월	B-DAT
+16일	I-DAT
+:	O
+봄바디어	B-AFW
+Q400	B-TRM
+항공기	I-AFW
+매각	O
+전	O
+고별	O
+비행	O
+.	O
+
+제주항공
+* 10월 20일: 보잉 737-800 5호기 도입 (HL8233).
+*	O
+10월	B-DAT
+20일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+5호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8233	B-TRM
+)	O
+.	O
+
+제주항공
+* 11월 1일: 서울(인천) - 홍콩(첵랍콕) 신규취항.
+*	O
+11월	B-DAT
+1일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+홍콩	B-LOC
+(	B-ORG
+첵랍콕	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 11월 24일.
+*	O
+11월	B-DAT
+24일	I-DAT
+.	O
+
+제주항공
+** 서울(인천) - 마닐라 신규취항.
+*	B-ORG
+*	O
+서울	B-ORG
+(	B-LOC
+인천	B-LOC
+)	O
+-	O
+마닐라	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+** 부산 - 세부 신규취항.
+*	B-ORG
+*	O
+부산	B-ORG
+-	O
+세부	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 11월 29일: 보잉 737-800 6호기 도입 (HL8234).
+*	O
+11월	B-DAT
+29일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+6호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8234	B-TRM
+)	O
+.	O
+
+제주항공
+* 1월 19일: 국제항공운송협회(IATA) 국제항공안전인증(IOSA) '3rd Edition' 무결점 통과 (국내 항공사 최초).
+*	B-DAT
+1월	B-DAT
+19일	I-DAT
+:	O
+국제항공운송협회	B-ORG
+(	B-ORG
+IATA	I-ORG
+)	O
+국제항공안전인증	B-ORG
+(	B-TRM
+IOSA	B-TRM
+)	O
+'	B-TRM
+3rd	B-TRM
+Edition	I-TRM
+'	O
+무결점	O
+통과	O
+(	O
+국내	O
+항공사	O
+최초	O
+)	O
+.	O
+
+제주항공
+* 4월 4일: 서울(인천) - 홍콩(첵랍콕) 주 7회로 증편.
+*	O
+4월	B-DAT
+4일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+홍콩	B-LOC
+(	B-ORG
+첵랍콕	B-LOC
+)	O
+주	O
+7회로	B-NUM
+증편	O
+.	O
+
+제주항공
+* 5월 2일: 부산 - 홍콩(첵랍콕) 신규취항.
+*	O
+5월	B-DAT
+2일	I-DAT
+:	O
+부산	B-LOC
+-	O
+홍콩	B-LOC
+(	B-LOC
+첵랍콕	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 6월 16일: 보잉 737-800 7호기 도입 (HL8239).
+*	O
+6월	B-DAT
+16일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+7호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8239	B-TRM
+)	O
+.	O
+
+제주항공
+* 6월 22일: 제주 - 오사카(간사이) 신규취항.
+*	O
+6월	B-DAT
+22일	I-DAT
+:	O
+제주	B-ORG
+-	O
+오사카	B-ORG
+(	B-ORG
+간사이	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 7월 1일: 부산 - 방콕(수완나품) 신규취항.
+*	O
+7월	B-DAT
+1일	I-DAT
+:	O
+부산	B-LOC
+-	O
+방콕	B-LOC
+(	B-ORG
+수완나품	B-ORG
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 12월 19일: 부산 - 방콕(수완나품) 주 7회로 증편.
+*	O
+12월	B-DAT
+19일	I-DAT
+:	O
+부산	B-ORG
+-	O
+방콕	B-LOC
+(	B-ORG
+수완나품	B-ORG
+)	O
+주	O
+7회로	B-NUM
+증편	O
+.	O
+
+제주항공
+* 3월 1일.
+*	B-DAT
+3월	B-DAT
+1일	I-DAT
+.	O
+
+제주항공
+** 부산 - 세부 단항.
+*	B-ORG
+*	B-ORG
+부산	B-ORG
+-	O
+세부	O
+단항	O
+.	O
+
+제주항공
+** 서울(인천) ~ 마닐라 주 7회로 증편.
+*	B-ORG
+*	B-ORG
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+~	O
+마닐라	B-LOC
+주	O
+7회로	B-NUM
+증편	O
+.	O
+
+제주항공
+* 3월 16일: 보잉 737-800 8호기 도입 (HL8260).
+*	O
+3월	B-DAT
+16일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+8호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8260	B-TRM
+)	O
+.	O
+
+제주항공
+* 3월 22일: 보잉 737-800 9호기 도입 (HL8262).
+*	O
+3월	B-DAT
+22일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+9호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8262	B-TRM
+)	O
+.	O
+
+제주항공
+* 3월 23일: 서울(인천) - 나고야(주부) 신규취항.
+*	O
+3월	B-DAT
+23일	I-DAT
+:	O
+서울	B-ORG
+(	B-LOC
+인천	B-ORG
+)	O
+-	O
+나고야	B-LOC
+(	B-CVL
+주부	B-CVL
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 3월 30일: 서울(인천) - 후쿠오카 신규취항.
+*	O
+3월	B-DAT
+30일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+후쿠오카	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 4월 5일: 서울(인천) - 호치민 시 신규취항.
+*	O
+4월	B-DAT
+5일	I-DAT
+:	O
+서울	B-ORG
+(	B-LOC
+인천	B-ORG
+)	O
+-	O
+호치민	B-LOC
+시	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 6월 22일: 서울(인천) - 칭다오 신규취항.
+*	O
+6월	B-DAT
+22일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+칭다오	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 8월 31일.
+*	O
+8월	B-DAT
+31일	I-DAT
+.	O
+
+제주항공
+** 부산 - 홍콩(첵랍콕) 단항.
+*	B-LOC
+*	B-LOC
+부산	B-LOC
+-	O
+홍콩	B-LOC
+(	B-LOC
+첵랍콕	B-LOC
+)	O
+단항	O
+.	O
+
+제주항공
+** 부산 ~ 방콕(수완나품) 주 4회로 감편.
+*	B-LOC
+*	B-ORG
+부산	B-ORG
+~	O
+방콕	B-LOC
+(	B-ORG
+수완나품	B-ORG
+)	O
+주	O
+4회로	B-NUM
+감편	O
+.	O
+
+제주항공
+* 9월 14일: 보잉 737-800 10호기 도입 (HL8261).
+*	O
+9월	B-DAT
+14일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+10호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8261	B-TRM
+)	O
+.	O
+
+제주항공
+* 9월 27일: 서울(인천) - 괌 신규취항.
+*	O
+9월	B-DAT
+27일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+괌	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 10월 22일.
+*	O
+10월	B-DAT
+22일	I-DAT
+.	O
+
+제주항공
+** 서울(인천) - 괌 주 11회로 증편.
+*	B-ORG
+*	B-ORG
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+괌	B-LOC
+주	O
+11회로	B-NUM
+증편	O
+.	O
+
+제주항공
+** 부산 - 방콕(수완나품) 주 7회로 증편.
+*	B-ORG
+*	B-ORG
+부산	B-ORG
+-	O
+방콕	B-LOC
+(	B-ORG
+수완나품	B-ORG
+)	O
+주	O
+7회로	B-NUM
+증편	O
+.	O
+
+제주항공
+* 11월 24일: 보잉 737-800 11호기 도입 (HL8263).
+*	O
+11월	B-DAT
+24일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+11호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8263	B-TRM
+)	O
+.	O
+
+제주항공
+* 11월 29일: 서울(인천) - 세부 신규취항.
+*	O
+11월	B-DAT
+29일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+세부	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 12월 17일: 부산 - 홍콩(첵랍콕) 재취항.
+*	O
+12월	B-DAT
+17일	I-DAT
+:	O
+부산	B-LOC
+-	O
+홍콩	B-LOC
+(	B-LOC
+첵랍콕	B-LOC
+)	O
+재취항	B-LOC
+.	O
+
+제주항공
+* 1월 1일: 제주 - 오사카(간사이) 단항.
+*	B-DAT
+1월	B-DAT
+1일	I-DAT
+:	O
+제주	B-ORG
+-	O
+오사카	B-ORG
+(	O
+간사이	B-PER
+)	O
+단항	O
+.	O
+
+제주항공
+* 1월 6일: IOSA 6th Edition Renewal (3차 Renewal).
+*	O
+1월	B-DAT
+6일	I-DAT
+:	O
+IOSA	B-EVT
+6th	I-EVT
+Edition	I-EVT
+Renewal	I-EVT
+(	B-NUM
+3차	B-NUM
+Renewal	I-EVT
+)	O
+.	O
+
+제주항공
+* 1월 8일: 대한민국 저비용 항공사 최초 국내선 누적 탑승객 1000만명 돌파.
+*	O
+1월	B-DAT
+8일	I-DAT
+:	O
+대한민국	B-LOC
+저비용	O
+항공사	O
+최초	O
+국내선	O
+누적	O
+탑승객	O
+1000만명	B-NUM
+돌파	O
+.	O
+
+제주항공
+* 2월 24일: 서울(인천) - 호치민 시 단항.
+*	O
+2월	B-DAT
+24일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+호치민	B-LOC
+시	O
+단항	O
+.	O
+
+제주항공
+* 4월 1일: 부산 - 홍콩(첵랍콕) 계절편 운항.
+*	O
+4월	B-DAT
+1일	I-DAT
+:	O
+부산	B-ORG
+-	O
+홍콩	B-LOC
+(	B-ORG
+첵랍콕	B-ORG
+)	O
+계절편	O
+운항	O
+.	O
+
+제주항공
+* 6월 3일: 보잉 737-800 12호기 도입 (HL8287).
+*	O
+6월	B-DAT
+3일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+12호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8287	B-TRM
+)	O
+.	O
+
+제주항공
+* 7월 4일: 서울(인천) - 도쿄(나리타) 신규취항.
+*	O
+7월	B-DAT
+4일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+도쿄	B-LOC
+(	B-LOC
+나리타	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 2월 10일: 보잉 737-800 13호기 도입 (HL8295).
+*	O
+2월	B-DAT
+10일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+13호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8295	B-TRM
+)	O
+.	O
+
+제주항공
+* 4월 7일: 보잉 737-800 14호기 도입 (HL8296).
+*	O
+4월	B-DAT
+7일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+14호기	B-NUM
+도입	B-DAT
+(	B-TRM
+HL8296	B-TRM
+)	O
+.	O
+
+제주항공
+* 6월 30일: 보잉 737-800 15호기 도입 (HL8297).
+*	O
+6월	B-DAT
+30일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+15호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8297	B-TRM
+)	O
+.	O
+
+제주항공
+* 7월 3일: 대구 - 제주 신규취항.
+*	O
+7월	B-DAT
+3일	I-DAT
+:	O
+대구	B-ORG
+-	O
+제주	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 8월 9일: 서울(인천) - 자무쓰 신규취항.
+*	O
+8월	B-DAT
+9일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+자무쓰	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 8월 22일: 서울(인천) - 스자좡 신규취항.
+*	O
+8월	B-DAT
+22일	I-DAT
+:	O
+서울	B-ORG
+(	B-LOC
+인천	B-ORG
+)	O
+-	O
+스자좡	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 9월 25일: 대구 - 방콕(수완나품) 신규취항.
+*	O
+9월	B-DAT
+25일	I-DAT
+:	O
+대구	B-LOC
+-	O
+방콕	B-LOC
+(	B-ORG
+수완나품	B-ORG
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 10월 6일: 서울(인천) - 사이판 신규취항.
+*	O
+10월	B-DAT
+6일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+사이판	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 10월 26일: 서울(인천) - 자무쓰 주 2회로 증편.
+*	O
+10월	B-DAT
+26일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+자무쓰	B-LOC
+주	O
+2회로	B-NUM
+증편	O
+.	O
+
+제주항공
+* 12월 1일: 보잉 737-800 16호기 도입 (HL8020).
+*	O
+12월	B-DAT
+1일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+16호기	B-NUM
+도입	B-NUM
+(	B-NUM
+HL8020	B-TRM
+)	O
+.	O
+
+제주항공
+* 12월 19일: 서울(인천) - 하노이 신규취항.
+*	O
+12월	B-DAT
+19일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+하노이	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 1월 8일: 부산 - 괌 신규취항.
+*	B-DAT
+1월	B-DAT
+8일	I-DAT
+:	O
+부산	B-LOC
+-	O
+괌	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 2월 13일: 대구 - 베이징(서우두) 신규취항.
+*	O
+2월	B-DAT
+13일	I-DAT
+:	O
+대구	B-ORG
+-	O
+베이징	B-LOC
+(	B-LOC
+서우두	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 2월 16일: 보잉 737-800 17호기 도입 (HL8031).
+*	O
+2월	B-DAT
+16일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+17호기	B-NUM
+도입	B-DAT
+(	B-TRM
+HL8031	B-TRM
+)	O
+.	O
+
+제주항공
+* 4월 1일: 보잉 737-800 18호기 도입 (HL8032).
+*	O
+4월	B-DAT
+1일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+18호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8032	B-TRM
+)	O
+.	O
+
+제주항공
+* 4월 3일.
+*	B-DAT
+4월	B-DAT
+3일	I-DAT
+.	O
+
+제주항공
+** 부산 - 오사카(간사이) 신규취항.
+*	B-ORG
+*	B-ORG
+부산	B-ORG
+-	O
+오사카	B-LOC
+(	B-LOC
+간사이	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+** 부산 - 후쿠오카 신규취항.
+*	B-LOC
+*	B-LOC
+부산	B-LOC
+-	O
+후쿠오카	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 4월 10일: 보잉 737-800 19호기 도입 (HL8034).
+*	O
+4월	B-DAT
+10일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+19호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8034	B-TRM
+)	O
+.	O
+
+제주항공
+* 5월 20일: 보잉 737-800 20호기 도입 (HL8033).
+*	O
+5월	B-DAT
+20일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+20호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8033	B-TRM
+)	O
+.	O
+
+제주항공
+* 10월 27일: 부산 - 오키나와 신규취항.
+*	O
+10월	B-DAT
+27일	I-DAT
+:	O
+부산	B-LOC
+-	O
+오키나와	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 11월 6일: 유가증권 상장.
+*	O
+11월	B-DAT
+6일	I-DAT
+:	O
+유가증권	O
+상장	O
+.	O
+
+제주항공
+* 11월 16일: 보잉 737-800 21호기 도입 (HL8049).
+*	O
+11월	B-DAT
+16일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+21호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8049	B-TRM
+)	O
+.	O
+
+제주항공
+* 11월 30일: 보잉 737-800 22호기 도입 (HL8050).
+*	O
+11월	B-DAT
+30일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+22호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8050	B-TRM
+)	O
+.	O
+
+제주항공
+* 12월 2일: 서울(인천) - 다낭 신규취항.
+*	O
+12월	B-DAT
+2일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+다낭	B-AFW
+신규취항	I-LOC
+.	O
+
+제주항공
+* 12월 14일: 보잉 737-800 23호기 도입 (HL8051).
+*	O
+12월	B-DAT
+14일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+23호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8051	B-TRM
+)	O
+.	O
+
+제주항공
+* 2월 11일: 보잉 737-800 24호기 도입 (HL8061).
+*	O
+2월	B-DAT
+11일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+24호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8061	B-TRM
+)	O
+.	O
+
+제주항공
+* 4월 18일.
+*	B-DAT
+4월	B-DAT
+18일	I-DAT
+.	O
+
+제주항공
+** 보잉 737-800 25호기 도입 (HL8062).
+*	O
+*	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+25호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8062	B-TRM
+)	O
+.	O
+
+제주항공
+** 보잉 737-800 26호기 도입 (HL8063).
+*	O
+*	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+26호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8063	B-TRM
+)	O
+.	O
+
+제주항공
+* 5월 16일: 세계 최초 저가항공사 동맹체 밸류 얼라이언스 설립, 가입.
+*	O
+5월	B-DAT
+16일	I-DAT
+:	O
+세계	O
+최초	O
+저가항공사	O
+동맹체	O
+밸류	O
+얼라이언스	O
+설립	O
+,	O
+가입	O
+.	O
+
+제주항공
+* 5월 30일: 보잉 737-800 27호기 도입 (HL8064).
+*	O
+5월	B-DAT
+30일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+27호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8064	B-TRM
+)	O
+.	O
+
+제주항공
+* 7월 20일.
+*	B-DAT
+7월	B-DAT
+20일	I-DAT
+.	O
+
+제주항공
+** 서울(인천) - 삿포로 신규취항.
+*	B-ORG
+*	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+삿포로	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+** 서울(인천) - 코타키나발루 신규취항.
+*	B-ORG
+*	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+코타키나발루	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 10월 3일: 서울(인천) - 마카오 신규취항.
+*	O
+10월	B-DAT
+3일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+마카오	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 11월 28일: 서울(인천) - 싼야 신규취항.
+*	O
+11월	B-DAT
+28일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+싼야	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 12월 9일: 보잉 737-800 28호기 도입 (HL8087).
+*	O
+12월	B-DAT
+9일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+28호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8087	B-TRM
+)	O
+.	O
+
+제주항공
+* 12월 15일.
+*	O
+12월	B-DAT
+15일	I-DAT
+.	O
+
+제주항공
+** 부산 - 도쿄(나리타) 신규취항.
+*	B-LOC
+*	B-LOC
+부산	B-ORG
+-	O
+도쿄	B-LOC
+(	B-LOC
+나리타	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+** 부산 - 사이판 신규취항.
+*	B-ORG
+*	O
+부산	B-ORG
+-	O
+사이판	B-LOC
+신규취항	O
+.	O
+
+제주항공
+* 2월 6일: 보잉 737-800 29호기 도입 (HL8088).
+*	O
+2월	B-DAT
+6일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+29호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8088	B-TRM
+)	O
+.	O
+
+제주항공
+* 2월 23일: 누적탑승객 4000만명 돌파.
+*	O
+2월	B-DAT
+23일	I-DAT
+:	O
+누적탑승객	O
+4000만명	B-NUM
+돌파	O
+.	O
+
+제주항공
+* 3월 24일: 보잉 737-800 30호기 도입 (HL8090).
+*	O
+3월	B-DAT
+24일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+30호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8090	B-TRM
+)	O
+.	O
+
+제주항공
+* 3월 28일: 광주 - 제주 신규취항.
+*	O
+3월	B-DAT
+28일	I-DAT
+:	O
+광주	B-ORG
+-	O
+제주	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 4월 21일: 보잉 737-800 31호기 도입 (HL8089).
+*	O
+4월	B-DAT
+21일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+31호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8089	B-TRM
+)	O
+.	O
+
+제주항공
+* 6월 12일: 밸류얼라이언스 개시.
+*	O
+6월	B-DAT
+12일	I-DAT
+:	O
+밸류얼라이언스	B-ORG
+개시	O
+.	O
+
+제주항공
+* 7월 3일: 서울(인천) - 가오슝 신규취항.
+*	O
+7월	B-DAT
+3일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+가오슝	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 7월 26일: 서울(인천) - 나트랑 정기 전세편 신규취항.
+*	O
+7월	B-DAT
+26일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+나트랑	B-LOC
+정기	O
+전세편	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 9월 20일.
+*	O
+9월	B-DAT
+20일	I-DAT
+.	O
+
+제주항공
+** 보잉 737-800 32호기 도입 (HL7213).
+*	B-ORG
+*	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+32호기	B-NUM
+도입	B-NUM
+(	B-TRM
+HL7213	B-TRM
+)	O
+.	O
+
+제주항공
+** 보잉 737-800 항공기 30대 보유.
+*	B-ORG
+*	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-TRM
+항공기	O
+30대	B-NUM
+보유	O
+.	O
+
+제주항공
+* 9월 23일: 청주 - 울란바토르 정기 전세편 신규취항.
+*	O
+9월	B-DAT
+23일	I-DAT
+:	O
+청주	B-LOC
+-	O
+울란바토르	B-LOC
+정기	O
+전세편	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 10월 16일.
+*	O
+10월	B-DAT
+16일	I-DAT
+.	O
+
+제주항공
+** 울산 - 제주 부정기편 취항.
+*	B-ORG
+*	B-ORG
+울산	B-ORG
+-	O
+제주	B-LOC
+부정기편	O
+취항	O
+.	O
+
+제주항공
+** 울산 - 서울(김포) 부정기편 취항.
+*	B-ORG
+*	O
+울산	B-ORG
+-	O
+서울	B-ORG
+(	B-LOC
+김포	B-LOC
+)	O
+부정기편	O
+취항	O
+.	O
+
+제주항공
+* 11월 2일: 서울(인천) - 마쓰야마 신규취항.
+*	O
+11월	B-DAT
+2일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+마쓰야마	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 12월 20일: 보잉 737-800 33호기 도입 (HL8301).
+*	O
+12월	B-DAT
+20일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+33호기	B-NUM
+도입	B-NUM
+(	B-NUM
+HL8301	B-AFW
+)	O
+.	O
+
+제주항공
+* 12월 26일: 서울(인천) - 나트랑 정기편으로 전환.
+*	O
+12월	B-DAT
+26일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+나트랑	B-LOC
+정기편으로	O
+전환	O
+.	O
+
+제주항공
+* 12월 27일: 서울(인천) - 호치민 시 재취항.
+*	O
+12월	B-DAT
+27일	I-DAT
+:	O
+서울	B-ORG
+(	B-LOC
+인천	B-ORG
+)	O
+-	O
+호치민	B-LOC
+시	O
+재취항	B-LOC
+.	O
+
+제주항공
+* 1월 1일: 서울(인천) - 가고시마 신규취항.
+*	B-DAT
+1월	B-DAT
+1일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+가고시마	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 1월 17일: 광명역 도심공항터미널 탑승수속 서비스 개시.
+*	O
+1월	B-DAT
+17일	I-DAT
+:	O
+광명역	B-LOC
+도심공항터미널	B-AFW
+탑승수속	O
+서비스	O
+개시	O
+.	O
+
+제주항공
+* 2월 12일: 부산 - 세부 주 7회 재취항.
+*	O
+2월	B-DAT
+12일	I-DAT
+:	O
+부산	B-LOC
+-	O
+세부	B-LOC
+주	O
+7회	B-NUM
+재취항	O
+.	O
+
+제주항공
+* 2월 26일: 보잉 737-800 34호기 도입 (HL8304).
+*	O
+2월	B-DAT
+26일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+34호기	B-NUM
+도입	B-NUM
+(	B-NUM
+HL8304	B-EVT
+)	O
+.	O
+
+제주항공
+* 4월 2일: 보잉 737-800 35호기 도입 (HL8303).
+*	O
+4월	B-DAT
+2일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+35호기	B-NUM
+도입	B-NUM
+(	B-NUM
+HL8303	B-AFW
+)	O
+.	O
+
+제주항공
+* 4월 5일: 서울(인천) - 옌타이 신규취항.
+*	O
+4월	B-DAT
+5일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+옌타이	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 4월 30일.
+*	B-DAT
+4월	B-DAT
+30일	I-DAT
+.	O
+
+제주항공
+** 대구 - 베이징(수도) 재취항.
+*	B-LOC
+*	B-LOC
+대구	B-LOC
+-	O
+베이징	B-LOC
+(	B-LOC
+수도	B-LOC
+)	O
+재취항	B-LOC
+.	O
+
+제주항공
+** 무안 - 다낭 신규취항.
+*	B-LOC
+*	O
+무안	B-LOC
+-	O
+다낭	B-LOC
+신규취항	O
+.	O
+
+제주항공
+** 무안 - 방콕(수완나품) 신규취항.
+*	B-LOC
+*	B-LOC
+무안	B-LOC
+-	O
+방콕	B-LOC
+(	B-LOC
+수완나품	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+** 무안 - 오사카(간사이) 신규취항.
+*	B-LOC
+*	B-LOC
+무안	B-LOC
+-	O
+오사카	B-LOC
+(	B-LOC
+간사이	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 5월 8일: 보잉 737-800 36호기 도입 (HL8302).
+*	O
+5월	B-DAT
+8일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+36호기	B-NUM
+도입	B-NUM
+(	B-NUM
+HL8302	B-AFW
+)	O
+.	O
+
+제주항공
+* 7월 19일: 보잉 737-800 37호기 도입 (HL8316).
+*	O
+7월	B-DAT
+19일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+37호기	B-NUM
+도입	B-DAT
+(	B-TRM
+HL8316	B-TRM
+)	O
+.	O
+
+제주항공
+* 7월 21일: 청주 - 오사카(간사이) 신규취항.
+*	O
+7월	B-DAT
+21일	I-DAT
+:	O
+청주	B-LOC
+-	O
+오사카	B-ORG
+(	O
+간사이	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 7월 27일: 무안 - 타이베이(도원) 신규취항.
+*	O
+7월	B-DAT
+27일	I-DAT
+:	O
+무안	B-LOC
+-	O
+타이베이	B-LOC
+(	B-LOC
+도원	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 7월 30일: 보잉 737-800 38호기 도입 (HL8305).
+*	O
+7월	B-DAT
+30일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+38호기	B-NUM
+도입	B-NUM
+(	B-NUM
+HL8305	B-AFW
+)	O
+.	O
+
+제주항공
+* 8월 27일: 보잉 737-800 39호기 도입 (HL8317).
+*	O
+8월	B-DAT
+27일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+39호기	B-NUM
+도입	B-NUM
+(	B-NUM
+HL8317	B-TRM
+)	O
+.	O
+
+제주항공
+* 9월 17일: 제주 - 후쿠오카 정기 전세편 신규취항.
+*	O
+9월	B-DAT
+17일	I-DAT
+:	O
+제주	B-LOC
+-	O
+후쿠오카	B-LOC
+정기	O
+전세편	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 9월 19일: 서울(인천) - 하이커우 신규취항.
+*	O
+9월	B-DAT
+19일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+하이커우	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 10월 22일: 보잉 737-800 40호기 도입 (HL8318).
+*	O
+10월	B-DAT
+22일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+40호기	B-NUM
+도입	B-NUM
+(	B-NUM
+HL8318	B-TRM
+)	O
+.	O
+
+제주항공
+* 10월 28일: 대구 - 도쿄(나리타) 신규취항.
+*	O
+10월	B-DAT
+28일	I-DAT
+:	O
+대구	B-ORG
+-	O
+도쿄	B-LOC
+(	B-LOC
+나리타	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 10월 29일: 부산 - 옌타이 신규취항.
+*	O
+10월	B-DAT
+29일	I-DAT
+:	O
+부산	B-LOC
+-	O
+옌타이	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 10월 30일: 대구 - 가고시마 신규취항.
+*	O
+10월	B-DAT
+30일	I-DAT
+:	O
+대구	B-LOC
+-	O
+가고시마	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 11월 12일: 보잉 737-800 41호기 도입 (HL8331).
+*	O
+11월	B-DAT
+12일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+41호기	B-NUM
+도입	B-NUM
+(	B-NUM
+HL8331	B-TRM
+)	O
+.	O
+
+제주항공
+* 12월 3일.
+*	O
+12월	B-DAT
+3일	I-DAT
+.	O
+
+제주항공
+** 대구 - 나트랑 신규취항.
+*	B-LOC
+*	B-LOC
+대구	B-LOC
+-	O
+나트랑	B-LOC
+신규취항	O
+.	O
+
+제주항공
+** 대구 - 마카오 신규취항.
+*	B-LOC
+*	B-LOC
+대구	B-LOC
+-	O
+마카오	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 12월 14일: 제주 - 홍콩(첵랍콕) 신규취항.
+*	O
+12월	B-DAT
+14일	I-DAT
+:	O
+제주	B-LOC
+-	O
+홍콩	B-LOC
+(	B-LOC
+첵랍콕	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 12월 19일: 서울(인천) - 치앙마이 신규취항.
+*	O
+12월	B-DAT
+19일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+치앙마이	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 12월 21일.
+*	B-DAT
+12월	B-DAT
+21일	I-DAT
+.	O
+
+제주항공
+** 무안 - 세부 신규취항.
+*	B-LOC
+*	O
+무안	B-LOC
+-	O
+세부	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+** 무안 - 코타키나발루 신규취항.
+*	B-LOC
+*	B-LOC
+무안	B-LOC
+-	O
+코타키나발루	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 12월 22일.
+*	O
+12월	B-DAT
+22일	I-DAT
+.	O
+
+제주항공
+** 대구 - 다낭 신규취항.
+*	B-ORG
+*	O
+대구	B-ORG
+-	O
+다낭	B-TRM
+신규취항	O
+.	O
+
+제주항공
+** 대구 - 타이베이(도원) 신규취항.
+*	B-LOC
+*	O
+대구	B-LOC
+-	O
+타이베이	B-LOC
+(	B-LOC
+도원	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+** 서울(인천) - 클라크 신규취항.
+*	B-ORG
+*	O
+서울	B-ORG
+(	B-ORG
+인천	I-ORG
+)	O
+-	O
+클라크	B-PER
+신규취항	B-CVL
+.	O
+
+제주항공
+** 청주 - 타이베이(도원) 신규취항.
+*	B-LOC
+*	O
+청주	B-LOC
+-	O
+타이베이	B-LOC
+(	B-LOC
+도원	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+* 12월 29일: 보잉 737-800 42호기 도입 (HL8321).
+*	O
+12월	B-DAT
+29일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+42호기	B-NUM
+도입	B-NUM
+(	B-NUM
+HL8321	B-TRM
+)	O
+.	O
+
+제주항공
+* 1월 28일: 보잉 737-800 43호기 도입 (HL8332).
+*	O
+1월	B-DAT
+28일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+43호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8332	B-TRM
+)	O
+.	O
+
+제주항공
+* 2월 11일: 보잉 737-800 44호기 도입 (HL8322).
+*	O
+2월	B-DAT
+11일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+44호기	B-NUM
+도입	B-NUM
+(	B-NUM
+HL8322	B-TRM
+)	O
+.	O
+
+제주항공
+* 4월 1일.
+*	B-DAT
+4월	B-DAT
+1일	I-DAT
+.	O
+
+제주항공
+** 무안 - 도쿄(나리타) 신규취항.
+*	B-LOC
+*	B-LOC
+무안	B-LOC
+-	O
+도쿄	B-LOC
+(	B-LOC
+나리타	B-LOC
+)	O
+신규취항	B-LOC
+.	O
+
+제주항공
+** 무안 - 마카오 신규취항.
+*	B-LOC
+*	B-LOC
+무안	B-LOC
+-	O
+마카오	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 무안 - 블라디보스토크 신규취항.
+*	O
+무안	B-LOC
+-	O
+블라디보스토크	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 4월 17일: 보잉 737-800 45호기 도입 (HL8333).
+*	O
+4월	B-DAT
+17일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+45호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8333	B-TRM
+)	O
+.	O
+
+제주항공
+* 5월 4일: 보잉 737-800 46호기 도입 (HL8344).
+*	O
+5월	B-DAT
+4일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+46호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8344	B-TRM
+)	O
+.	O
+
+제주항공
+* 6월 3일: 보잉 737-800 47호기 도입 (HL8335).
+*	O
+6월	B-DAT
+3일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+47호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8335	B-TRM
+)	O
+.	O
+
+제주항공
+* 6월 6일: 보잉 737-800 48호기 도입 (HL8337).
+*	O
+6월	B-DAT
+6일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+48호기	B-NUM
+도입	B-TRM
+(	B-TRM
+HL8337	B-TRM
+)	O
+.	O
+
+제주항공
+* 7월 1일: 무안 - 후쿠오카 신규취항.
+*	O
+7월	B-DAT
+1일	I-DAT
+:	O
+무안	B-LOC
+-	O
+후쿠오카	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 7월 4일: 부산 - 싱가포르 신규취항.
+*	O
+7월	B-DAT
+4일	I-DAT
+:	O
+부산	B-LOC
+-	O
+싱가포르	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 7월 27일: 보잉 737-800 49호기 도입 (HL8339).
+*	O
+7월	B-DAT
+27일	I-DAT
+:	O
+보잉	B-ORG
+737	B-NUM
+-	B-NUM
+800	B-NUM
+49호기	B-NUM
+도입	B-NUM
+(	B-TRM
+HL8339	B-TRM
+)	O
+.	O
+
+제주항공
+* 8월 12일: 서울(인천) - 난퉁 신규취항.
+*	O
+8월	B-DAT
+12일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+난퉁	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 8월 19일: 서울(인천) - 옌지 신규취항.
+*	O
+8월	B-DAT
+19일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+옌지	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 8월 20일: 부산 - 장자제 신규취항.
+*	O
+8월	B-DAT
+20일	I-DAT
+:	O
+부산	B-LOC
+-	O
+장자제	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 8월 21일.
+*	O
+8월	B-DAT
+21일	I-DAT
+.	O
+
+제주항공
+** 서울(인천) - 하얼빈 신규취항.
+*	B-ORG
+*	B-ORG
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+하얼빈	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+** 무안 - 옌지 신규취항.
+*	B-LOC
+*	B-LOC
+무안	B-LOC
+-	O
+옌지	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 8월 22일: 무안 - 장자제 신규취항.
+*	O
+8월	B-DAT
+22일	I-DAT
+:	O
+무안	B-LOC
+-	O
+장자제	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 1월 27일: 무안 - 싼야 단항.
+*	O
+1월	B-DAT
+27일	I-DAT
+:	O
+무안	B-LOC
+-	O
+싼야	B-LOC
+단항	O
+.	O
+
+제주항공
+* 무안 - 장자제 단항.
+*	O
+무안	B-LOC
+-	O
+장자제	B-PER
+단항	O
+.	O
+
+제주항공
+* 2월 2일.
+*	B-DAT
+2월	B-DAT
+2일	I-DAT
+.	O
+
+제주항공
+** 서울(인천) - 난퉁 단항.
+*	B-ORG
+*	B-ORG
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+난퉁	B-LOC
+단항	O
+.	O
+
+제주항공
+** 서울(인천) - 하이커우 단항.
+*	B-ORG
+*	B-ORG
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+하이커우	B-ORG
+단항	O
+.	O
+
+제주항공
+** 부산 - 장자제 단항.
+*	B-ORG
+*	O
+부산	B-ORG
+-	O
+장자제	B-PER
+단항	O
+.	O
+
+제주항공
+* 2월 2일: 서울(인천) - 싼야 단항.
+*	B-DAT
+2월	B-DAT
+2일	I-DAT
+:	O
+서울	B-ORG
+(	B-ORG
+인천	B-ORG
+)	O
+-	O
+싼야	B-LOC
+단항	O
+.	O
+
+제주항공
+* 3월 2일: 이스타항공과의 주식양수도계약 체결.
+*	O
+3월	B-DAT
+2일	I-DAT
+:	O
+이스타항공과의	B-ORG
+주식양수도계약	O
+체결	O
+.	O
+
+제주항공
+* 5월 4일.
+*	B-DAT
+5월	B-DAT
+4일	I-DAT
+.	O
+
+제주항공
+** 서울(김포) - 여수 신규취항.
+*	B-LOC
+*	B-LOC
+서울	B-ORG
+(	B-LOC
+김포	B-LOC
+)	O
+-	O
+여수	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+** 제주 - 여수 신규취항.
+*	B-LOC
+*	B-LOC
+제주	B-LOC
+-	O
+여수	B-LOC
+신규취항	B-LOC
+.	O
+
+제주항공
+* 7월 23일: 이스타항공의 인수·합병 공식포기.
+*	O
+7월	B-DAT
+23일	I-DAT
+:	O
+이스타항공의	B-ORG
+인수	O
+·	O
+합병	O
+공식포기	O
+.	O
+
+SM 엔터테인먼트
+SM 엔터테인먼트()는 가수 겸 방송 진행자 출신의 이수만이 설립한 대한민국의 연예기획사이다.
+SM	B-ORG
+엔터테인먼트	I-ORG
+(	B-ORG
+)	O
+는	O
+가수	B-CVL
+겸	O
+방송	O
+진행자	B-CVL
+출신의	O
+이수만이	B-PER
+설립한	O
+대한민국의	B-LOC
+연예기획사이다	O
+.	O
+
+SM 엔터테인먼트
+본사는 서울특별시 성동구 왕십리로 83-21 (성수동1가)에 있다.
+본사는	O
+서울특별시	B-LOC
+성동구	B-LOC
+왕십리로	B-AFW
+83	I-NUM
+-	B-NUM
+21	I-NUM
+(	B-LOC
+성수동1가	B-LOC
+)	O
+에	O
+있다	O
+.	O
+
+SM 엔터테인먼트
+연예 매니지먼트, 음반 사업을 주력으로 하며, TV프로그램 제작 등으로 사업 영역을 넓히고 있다.
+연예	O
+매니지먼트	O
+,	O
+음반	O
+사업을	O
+주력으로	O
+하며	O
+,	O
+TV프로그램	B-TRM
+제작	O
+등으로	O
+사업	O
+영역을	O
+넓히고	O
+있다	O
+.	O
+
+SM 엔터테인먼트
+2017년 3월, SM 엔터테인먼트는 전략적 투자를 통해 미스틱 엔터테인먼트의 지분 28%를 취득하며, 최대주주가 됐다.
+2017년	B-DAT
+3월	I-DAT
+,	O
+SM	B-FLD
+엔터테인먼트는	O
+전략적	O
+투자를	O
+통해	O
+미스틱	O
+엔터테인먼트의	O
+지분	O
+28	B-NUM
+%	I-NUM
+를	O
+취득하며	O
+,	O
+최대주주가	O
+됐다	O
+.	O
+
+SM 엔터테인먼트
+이외에도 SM 엔터테인먼트는 드라마·예능제작사 FNC 애드컬쳐 주식 750만 주를 인수하고 유상증자에 100억원을 출자해 총 1348만주(30.51%)를 확보한다고 공시했다.
+이외에도	O
+SM	B-ORG
+엔터테인먼트는	I-ORG
+드라마	B-FLD
+·	O
+예능제작사	O
+FNC	B-ORG
+애드컬쳐	I-ORG
+주식	O
+750만	B-NUM
+주를	I-NUM
+인수하고	O
+유상증자에	O
+100억원을	B-NUM
+출자해	O
+총	O
+1348만주	B-NUM
+(	B-NUM
+30	B-NUM
+.	O
+51	I-NUM
+%	I-NUM
+)	O
+를	O
+확보한다고	O
+공시했다	O
+.	O
+
+SM 엔터테인먼트
+아울러 FNC 애드컬쳐의 2대 주주(지분율 18%)인 FNC 엔터테인먼트와는 전략적 제휴 관계를 맺는다고 발표했다.
+아울러	O
+FNC	B-ORG
+애드컬쳐의	I-ORG
+2대	B-NUM
+주주	I-CVL
+(	O
+지분율	O
+18	B-NUM
+%	I-NUM
+)	O
+인	O
+FNC	B-ORG
+엔터테인먼트와는	O
+전략적	O
+제휴	O
+관계를	O
+맺는다고	O
+발표했다	O
+.	O
+
+SM 엔터테인먼트
+2021년, 엔터테인먼트 및 투자은행(IB)업계에 따르면 SM엔터테인먼트(에스엠) 창립자이자 최대 주주인 이수만 총괄 프로듀서는 자신이 보유하고 있는 지분(18.73%)의 일부 또는 전부 매각을 추진 중이라고 한다.
+2021년	B-NUM
+,	O
+엔터테인먼트	O
+및	O
+투자은행	B-ORG
+(	B-ORG
+IB	O
+)	O
+업계에	O
+따르면	O
+SM엔터테인먼트	B-ORG
+(	B-ORG
+에스엠	I-ORG
+)	O
+창립자이자	B-CVL
+최대	O
+주주인	B-CVL
+이수만	B-PER
+총괄	O
+프로듀서는	B-CVL
+자신이	O
+보유하고	O
+있는	O
+지분	B-NUM
+(	B-NUM
+18	B-NUM
+.	O
+73	I-NUM
+%	I-NUM
+)	O
+의	O
+일부	O
+또는	O
+전부	O
+매각을	O
+추진	O
+중이라고	O
+한다	O
+.	O
+
+SM 엔터테인먼트
+아직까지 공식적으로 발표가 된 인수가 결정된 기업은 없으나 CJ 엔터테인먼트가 가장 유력한 후보로 올랐다.
+아직까지	O
+공식적으로	O
+발표가	O
+된	O
+인수가	O
+결정된	O
+기업은	O
+없으나	O
+CJ	B-ORG
+엔터테인먼트가	I-ORG
+가장	O
+유력한	O
+후보로	B-CVL
+올랐다	O
+.	O
+
+SM 엔터테인먼트
+2001년 H.O.T.의 멤버 장우혁, 토니 안, 이재원이 이른바 노예 계약을 주장하며 회사를 나와 jtL을 결성했다.
+2001년	B-DAT
+H	B-PER
+.	B-PER
+O	B-PER
+.	B-PER
+T	I-PER
+.	O
+의	O
+멤버	O
+장우혁	B-PER
+,	O
+토니	B-PER
+안	I-PER
+,	O
+이재원이	B-PER
+이른바	O
+노예	B-CVL
+계약을	O
+주장하며	O
+회사를	O
+나와	O
+jtL을	B-TRM
+결성했다	O
+.	O
+
+SM 엔터테인먼트
+또, 2009년 7월 말 동방신기의 멤버이던 영웅재중, 믹키유천, 시아준수는 회사를 상대로 서울중앙지방법원에 전속 계약 효력 중지 가처분 신청을, 12월 말에는 슈퍼주니어의 유일한 중국인 멤버였던 한경이 전속 계약 효력 부존재 가처분 신청을 제기했다.
+또	O
+,	O
+2009년	B-DAT
+7월	I-DAT
+말	I-DAT
+동방신기의	B-PER
+멤버이던	B-CVL
+영웅재중	B-PER
+,	O
+믹키유천	B-PER
+,	O
+시아준수는	B-PER
+회사를	O
+상대로	O
+서울중앙지방법원에	B-ORG
+전속	O
+계약	O
+효력	O
+중지	O
+가처분	O
+신청을	O
+,	O
+12월	B-DAT
+말에는	I-DAT
+슈퍼주니어의	B-PER
+유일한	O
+중국인	B-CVL
+멤버였던	B-CVL
+한경이	B-PER
+전속	O
+계약	O
+효력	O
+부존재	O
+가처분	O
+신청을	O
+제기했다	O
+.	O
+
+SM 엔터테인먼트
+동방신기 3인은 13년이라는 전속 계약 기간은 사실상 종신 계약을 의미하며, 계약 기간에 음반 수익 배분 등 회사로부터 합당한 대우를 받지 못했다며 불공정한 계약 조건임을 주장하였다.
+동방신기	O
+3인은	B-NUM
+13년이라는	B-DAT
+전속	O
+계약	O
+기간은	O
+사실상	O
+종신	O
+계약을	O
+의미하며	O
+,	O
+계약	O
+기간에	O
+음반	O
+수익	O
+배분	O
+등	O
+회사로부터	O
+합당한	O
+대우를	O
+받지	O
+못했다며	O
+불공정한	O
+계약	O
+조건임을	O
+주장하였다	O
+.	O
+
+SM 엔터테인먼트
+법원은 이를 받아들여 SM에 세 멤버의 독자적인 연예 활동을 방해하지 말라고 지시하였으나 이후 SM은 한국 대중문화 예술 산업 총연합회(문산연) 명의로 각 방송사에 동방신기 3인 섭외 자제를 요청하는 공문을 발송하는 등 지속적인 방송, 연예 활동을 방해해 수차례 법원과 대한민국 공정거래위원회(공정위)의 지적을 받았다.
+법원은	O
+이를	O
+받아들여	O
+SM에	B-ORG
+세	B-NUM
+멤버의	B-CVL
+독자적인	O
+연예	O
+활동을	O
+방해하지	O
+말라고	O
+지시하였으나	O
+이후	O
+SM은	B-ORG
+한국	B-LOC
+대중문화	I-ORG
+예술	I-ORG
+산업	I-ORG
+총연합회	I-ORG
+(	B-ORG
+문산연	B-ORG
+)	O
+명의로	O
+각	O
+방송사에	O
+동방신기	O
+3인	B-NUM
+섭외	O
+자제를	O
+요청하는	O
+공문을	O
+발송하는	O
+등	O
+지속적인	O
+방송	O
+,	O
+연예	O
+활동을	O
+방해해	O
+수차례	O
+법원과	B-ORG
+대한민국	B-LOC
+공정거래위원회	B-ORG
+(	B-ORG
+공정위	B-ORG
+)	O
+의	O
+지적을	O
+받았다	O
+.	O
+
+SM 엔터테인먼트
+2009년 소송 시작 이후 지루한 법정 공방을 이어오던 4인과 SM은 2010년 12월 21일 한경이 1심 승소 판결을 받고 이에 불복해 항소하려던 SM이 2011년 9월 항소를 취하해 한경 소송 건이 먼저 종결되고, 2012년 11월 28일에는 동방신기 3인과 SM이 합의에 성공해 2009년 7월 31일자로 전속 계약을 종료시키고 향후 상호 제반 활동을 간섭하지 않기로 하였다.
+2009년	B-DAT
+소송	O
+시작	O
+이후	O
+지루한	O
+법정	O
+공방을	O
+이어오던	O
+4인과	B-NUM
+SM은	B-ORG
+2010년	B-DAT
+12월	I-DAT
+21일	I-DAT
+한경이	B-ORG
+1심	B-NUM
+승소	O
+판결을	O
+받고	O
+이에	O
+불복해	O
+항소하려던	O
+SM이	B-ORG
+2011년	B-DAT
+9월	I-DAT
+항소를	O
+취하해	O
+한경	B-ORG
+소송	O
+건이	O
+먼저	O
+종결되고	O
+,	O
+2012년	B-DAT
+11월	I-DAT
+28일에는	I-DAT
+동방신기	B-ORG
+3인과	B-NUM
+SM이	B-ORG
+합의에	O
+성공해	O
+2009년	B-DAT
+7월	I-DAT
+31일자로	I-DAT
+전속	O
+계약을	O
+종료시키고	O
+향후	O
+상호	O
+제반	O
+활동을	O
+간섭하지	O
+않기로	O
+하였다	O
+.	O
+
+SM 엔터테인먼트
+그러나 동방신기 3인의 경우 소송의 주요 내용이 전속계약의 유·무효에 있었기 때문에 이름만 합의일 뿐 한경과 더불어 사실상 3인의 승소라는 의견이 우세하다.
+그러나	O
+동방신기	O
+3인의	B-NUM
+경우	O
+소송의	O
+주요	O
+내용이	O
+전속계약의	O
+유	O
+·	O
+무효에	O
+있었기	O
+때문에	O
+이름만	O
+합의일	O
+뿐	O
+한경과	B-ORG
+더불어	O
+사실상	O
+3인의	B-NUM
+승소라는	O
+의견이	O
+우세하다	O
+.	O
+
+SM 엔터테인먼트
+또한, 3인의 활동을 방해한 적이 없다고 주장함과 달리 합의문에서 이후 연예 활동을 방해하지 않는다는 조항이 있어 이제껏 3인의 방송 활동을 방해한 것을 시인한 셈이 아니냐는 지적을 받았다.
+또한	O
+,	O
+3인의	B-NUM
+활동을	O
+방해한	O
+적이	O
+없다고	O
+주장함과	O
+달리	O
+합의문에서	O
+이후	O
+연예	O
+활동을	O
+방해하지	O
+않는다는	O
+조항이	O
+있어	O
+이제껏	O
+3인의	B-NUM
+방송	O
+활동을	O
+방해한	O
+것을	O
+시인한	O
+셈이	O
+아니냐는	O
+지적을	O
+받았다	O
+.	O
+
+SM 엔터테인먼트
+현재 한경은 중국에서 개인 활동 중이며, 동방신기 3인은 JYJ라는 그룹을 결성해 박유천이 마약 문제로 그룹을 탈퇴할 때까지 그룹 활동과 개인 활동을 병행하였고 박유천 탈퇴 후에는 김재중과 김준수 모두 개인 활동을 하고 있다.
+현재	O
+한경은	B-PER
+중국에서	B-LOC
+개인	O
+활동	O
+중이며	O
+,	O
+동방신기	O
+3인은	B-NUM
+JYJ라는	B-PER
+그룹을	O
+결성해	O
+박유천이	B-PER
+마약	B-TRM
+문제로	O
+그룹을	O
+탈퇴할	O
+때까지	O
+그룹	O
+활동과	O
+개인	O
+활동을	O
+병행하였고	O
+박유천	B-PER
+탈퇴	O
+후에는	O
+김재중과	B-PER
+김준수	B-PER
+모두	O
+개인	O
+활동을	O
+하고	O
+있다	O
+.	O
+
+SM 엔터테인먼트
+한편 슈퍼주니어는 한경에 이어 기범과 강인까지 탈퇴하고 성민이 그룹 활동을 멈추면서 현재 9인조로 활동하고 있으며, 동방신기는 남은 두 멤버 유노윤호와 최강창민 2인조로 활동 중이다.
+한편	O
+슈퍼주니어는	B-PER
+한경에	B-PER
+이어	O
+기범과	B-PER
+강인까지	B-PER
+탈퇴하고	O
+성민이	B-PER
+그룹	O
+활동을	O
+멈추면서	O
+현재	O
+9인조로	B-NUM
+활동하고	O
+있으며	O
+,	O
+동방신기는	B-PER
+남은	O
+두	B-NUM
+멤버	I-NUM
+유노윤호와	B-PER
+최강창민	B-PER
+2인조로	B-NUM
+활동	O
+중이다	O
+.	O
+
+SM 엔터테인먼트
+2014년 5월과 10월에도 EXO의 중국인 멤버 크리스와 루한이 각각 회사를 상대로 전속 계약 효력 부존재 확인 소송을 제기하였다.
+2014년	B-NUM
+5월과	I-DAT
+10월에도	B-DAT
+EXO의	B-ORG
+중국인	B-CVL
+멤버	B-CVL
+크리스와	B-PER
+루한이	B-PER
+각각	O
+회사를	O
+상대로	O
+전속	O
+계약	O
+효력	O
+부존재	O
+확인	O
+소송을	O
+제기하였다	O
+.	O
+
+SM 엔터테인먼트
+크리스는 부속품이나 통제의 대상으로 취급했다고 주장했지만,.
+크리스는	B-PER
+부속품이나	O
+통제의	O
+대상으로	O
+취급했다고	O
+주장했지만	O
+,	O
+.	O
+
+SM 엔터테인먼트
+2015년 8월에도 EXO에서 무단 이탈을 했던 중국인 멤버 타오도 역시 같은 소송을 제기했지만 2017년 4월에 법원에서 1심 재판부는 타오가 전속 계약기간 10년은 기본권을 침해할 정도의 부당한 기간으로 보이지 않는다고 하여 타오의 패소 판결을 내렸다.
+2015년	B-DAT
+8월에도	I-DAT
+EXO에서	B-ORG
+무단	O
+이탈을	O
+했던	O
+중국인	B-CVL
+멤버	B-CVL
+타오도	B-PER
+역시	O
+같은	O
+소송을	O
+제기했지만	O
+2017년	B-NUM
+4월에	I-DAT
+법원에서	O
+1심	B-NUM
+재판부는	O
+타오가	O
+전속	O
+계약기간	O
+10년은	B-DAT
+기본권을	O
+침해할	O
+정도의	O
+부당한	O
+기간으로	O
+보이지	O
+않는다고	O
+하여	O
+타오의	O
+패소	O
+판결을	O
+내렸다	O
+.	O
+
+SM 엔터테인먼트
+이후 타오가 항소를 했지만 6개월 후 그해 10월에는 2심에서 같은 이유로 또 다시 한번 타오는 패소하고 만다.
+이후	O
+타오가	O
+항소를	O
+했지만	O
+6개월	B-DAT
+후	I-DAT
+그해	B-DAT
+10월에는	I-DAT
+2심에서	B-NUM
+같은	O
+이유로	O
+또	O
+다시	O
+한번	B-NUM
+타오는	O
+패소하고	O
+만다	O
+.	O
+
+SM 엔터테인먼트
+SM은 성명서를 통하여 공정거래위원회가 제시한 표준계약서를 토대로 맺은 계약이기 때문에 문제될 게 없다고 하였다.
+SM은	B-ORG
+성명서를	O
+통하여	O
+공정거래위원회가	B-ORG
+제시한	O
+표준계약서를	O
+토대로	O
+맺은	O
+계약이기	O
+때문에	O
+문제될	O
+게	O
+없다고	O
+하였다	O
+.	O
+
+SM 엔터테인먼트
+타오는 두 차례에 걸친 패소 이후 현재 중화권에서 독자적인 활동을 하고 있지만 2018년 3월에는 대법원에서의 마지막 항소심에서 황쯔타오가 패소했다.
+타오는	B-PER
+두	B-NUM
+차례에	I-NUM
+걸친	O
+패소	O
+이후	O
+현재	O
+중화권에서	B-LOC
+독자적인	O
+활동을	O
+하고	O
+있지만	O
+2018년	B-DAT
+3월에는	I-DAT
+대법원에서의	B-ORG
+마지막	O
+항소심에서	O
+황쯔타오가	B-PER
+패소했다	O
+.	O
+
+SM 엔터테인먼트
+재판부는 황쯔타오의 해외진출 계획 등을 고려할 때 전속계약에서 정한 계약기간 10년은 부당하지 않다며, 공정거래위원회 표준전속계약서에 따라 계약해 불공정하지 않다며 SM 측 손을 들어줬다.
+재판부는	B-ORG
+황쯔타오의	B-PER
+해외진출	O
+계획	O
+등을	O
+고려할	O
+때	O
+전속계약에서	O
+정한	O
+계약기간	O
+10년은	B-DAT
+부당하지	O
+않다며	O
+,	O
+공정거래위원회	B-ORG
+표준전속계약서에	O
+따라	O
+계약해	O
+불공정하지	O
+않다며	O
+SM	B-ORG
+측	O
+손을	O
+들어줬다	O
+.	O
+
+SM 엔터테인먼트
+SM은 “사법부의 현명한 판결에 대해서 환영한다”며 말했다.
+SM은	B-ORG
+“	B-ORG
+사법부의	B-ORG
+현명한	O
+판결에	O
+대해서	O
+환영한다	O
+”	O
+며	O
+말했다	O
+.	O
+
+SM 엔터테인먼트
+현재 EXO는 9인조로 활동 중이다.
+현재	O
+EXO는	B-ORG
+9인조로	B-NUM
+활동	O
+중이다	O
+.	O
+
+SM 엔터테인먼트
+한편, 이수만은 2009년 4월 서울대학교 초청 강연에서 노예계약 문제와 관련해 사람이 죽으니까 프로덕션은 다 연예인들을 착취하고 악한 것처럼 얘기하는데 그렇지 않다고 항변하며 언제나 일부 악덕업자는 있는데 항상 싸잡아서 비판한다고 강연하였다.
+한편	O
+,	O
+이수만은	B-PER
+2009년	B-DAT
+4월	I-DAT
+서울대학교	B-ORG
+초청	O
+강연에서	O
+노예계약	O
+문제와	O
+관련해	O
+사람이	O
+죽으니까	O
+프로덕션은	B-CVL
+다	O
+연예인들을	B-CVL
+착취하고	O
+악한	O
+것처럼	O
+얘기하는데	O
+그렇지	O
+않다고	O
+항변하며	O
+언제나	O
+일부	O
+악덕업자는	B-CVL
+있는데	O
+항상	O
+싸잡아서	O
+비판한다고	O
+강연하였다	O
+.	O
+

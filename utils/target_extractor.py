@@ -5,6 +5,7 @@ import re
 
 ### Regex
 from wiki_syntax import WIKI_RE
+from parser_wikipedia import read_kor_wiki_xml
 
 RE_paragraph_head = r"={2}\s[^a-zA-Z]+\s={2}"
 RE_infobox_open = r"\{\{"
@@ -169,22 +170,52 @@ def extract_person_doc(src_path: str, pkl_idx: int, save_dir: str, mode: str):
 
     save_file.close()
 
-def extract_company_doc(src_path: str, pkl_idx: int):
-    pass
+def extract_specific_target_sent(src_path: str, file_idx: int, save_dir: str, target_word: str):
+    print(f"[extract_specific_target_sent] {file_idx} Start - {src_path}")
+    # 분류
+    save_list = []
+    save_path = save_dir + "/" + target_word + str(file_idx) + ".txt"
+    save_file = open(save_path, mode="w", encoding="utf-8")
+    for doc_title, doc_text in read_kor_wiki_xml(src_path):
+        if (None == doc_text) or (0 >= len(doc_text)):
+            continue
+
+        split_doc_text = doc_text.split("\n")
+        filter_list = list(filter(lambda x: True if target_word in x else False, split_doc_text))
+        if 0 < len(filter_list):
+            valid_text = [extract_valid_text(x) for x in filter_list]
+            save_file.write(doc_title + "\n")
+            for save_text in valid_text:
+                save_file.write(save_text + "\n")
+            save_file.write("\n")
+    save_file.close()
+    print(f"[extract_specific_target_sent] {file_idx} Saved, {save_path}")
+
 
 #### Main
 if "__main__" == __name__:
     print("[semi_auto_maker][main] ----START ")
 
-    classify_path = "../data/classify"
-    filter_dir = "../data/filter"
-    target = "person" # use person / company
-    pkl_file_list = list(filter(lambda x: True if target in x else False, os.listdir(classify_path)))
+    is_classify_file = False
+    if is_classify_file:
+        classify_path = "../data/classify"
+        filter_dir = "../data/filter"
+        target = "person" # use person / company
+        pkl_file_list = list(filter(lambda x: True if target in x else False, os.listdir(classify_path)))
 
-    # Multi process
-    for pkl_idx, pkl_name in enumerate(pkl_file_list):
-        src_path = classify_path + "/" + pkl_name
+        # Multi process
+        for pkl_idx, pkl_name in enumerate(pkl_file_list):
+            src_path = classify_path + "/" + pkl_name
 
-        print(f"[START] {pkl_name}")
-        extract_person_doc(src_path=src_path, pkl_idx=(pkl_idx+1), save_dir=filter_dir, mode=target)
-        print(f"[END] {pkl_name}")
+            print(f"[START] {pkl_name}")
+            extract_person_doc(src_path=src_path, pkl_idx=(pkl_idx+1), save_dir=filter_dir, mode=target)
+            print(f"[END] {pkl_name}")
+
+    is_extract_target = True
+    if is_extract_target:
+        src_dir = "../data"
+        save_dir = "../data/specific"
+        src_file_list = list(filter(lambda x: True if ".xml" in x else False, os.listdir(src_dir)))
+        for f_idx, file_name in enumerate(src_file_list):
+            src_path = src_dir + "/" + file_name
+            extract_specific_target_sent(src_path, f_idx + 1, save_dir, target_word="행사")

@@ -2,6 +2,7 @@ import os
 import re
 
 import torch
+import copy
 import numpy as np
 
 from transformers import AutoTokenizer, AutoModelForTokenClassification
@@ -98,17 +99,82 @@ def do_semi_auto_tagging(model, tokenizer, src_path: str, save_dir: str):
     src_file.close()
     save_file.close()
 
+def do_semi_auto_specific_word(model, tokenizer, src_path: str, save_path: str):
+    src_file = open(src_path, mode="r", encoding="utf-8")
+    save_file = open(save_path, mode="w", encoding="utf-8")
+
+    id2label = {v: k for k, v in NAVER_NE_MAP.items()}
+    src_iter = iter(src_file.readlines())
+    while True:
+        line = next(src_iter, None)
+        if line is None:
+            break
+        if "\n" == line:
+            continue
+        title = copy.deepcopy(line.strip().replace("\n", ""))
+        split_text = copy.deepcopy(next(src_iter, None).strip().replace("\n", "").split(". "))
+
+        if (0 >= len(title)) or (0 >= len(split_text)):
+            continue
+
+        for text in split_text:
+            text += "."
+            text = text.strip()
+            inputs = tokenizer(text, return_tensors="pt", truncation=True)
+            input_ids = inputs["input_ids"][0]
+            tokens = tokenizer.convert_ids_to_tokens(input_ids)
+
+            outputs = model(**inputs)
+            logits = outputs.logits
+            preds = logits.detach().cpu().numpy()
+            preds = np.argmax(preds, axis=2)[0]
+
+            conv_preds = list(id2label[x] for x in preds)
+            tokens = tokens[1:-1]
+            conv_preds = conv_preds[1:-1]
+
+            new_tokens = []
+            new_preds = []
+            for tok, prd in zip(tokens, conv_preds):
+                if "##" in tok:
+                    back_word = new_tokens[-1]
+                    back_word += tok.replace("##", "")
+                    new_tokens[-1] = back_word
+                else:
+                    new_tokens.append(tok)
+                    if "TIM" == prd.split("-")[-1]:
+                        prd = prd.split("-")[0]
+                        prd += "-DAT"
+                    new_preds.append(prd if prd.split("-")[-1] not in NOT_NEED_TAGS else "O")
+            assert len(new_tokens) == len(new_preds)
+
+            save_file.write(title + "\n")
+            save_file.write(text + "\n")
+            for tok, prd in zip(new_tokens, new_preds):
+                save_file.write(tok + "\t" + prd + "\n")
+            save_file.write("\n")
+
+
+
 if "__main__" == __name__:
     # model
     tokenizer, model = trained_model_load(tokenizer_name="monologg/koelectra-base-v3-discriminator",
                                           model_dir="../model")
     model.eval()
 
-    # semi-auto tagging using by model
-    target_dir = "../data/filter"
-    save_dir = "../data/model_output"
-    target_file_list = os.listdir(target_dir)
+    do_semi_auto_filter_data = False
+    if do_semi_auto_filter_data:
+        # semi-auto tagging using by model
+        target_dir = "../data/filter"
+        save_dir = "../data/model_output"
+        target_file_list = os.listdir(target_dir)
 
-    for f_idx, file_name in enumerate(target_file_list):
-        src_path = target_dir + "/" + file_name
-        do_semi_auto_tagging(model, tokenizer, src_path=src_path, save_dir=save_dir)
+        for f_idx, file_name in enumerate(target_file_list):
+            src_path = target_dir + "/" + file_name
+            do_semi_auto_tagging(model, tokenizer, src_path=src_path, save_dir=save_dir)
+
+    is_do_semi_auto_specific_word = True
+    if is_do_semi_auto_specific_word:
+        src_path = "../data/specific/merge_email.txt"
+        save_path = "../data/specific/model_email.txt"
+        do_semi_auto_specific_word(model, tokenizer, src_path=src_path, save_path=save_path)

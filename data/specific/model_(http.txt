@@ -1,0 +1,1810 @@
+서울특별시
+* 인천국제공항철도(AREX)는 한국의 관문인 인천공항에서 서울도심을 가장 빠르게 연결해 주는 교통수단이며, 인천국제공항 교통센터 지하 1층 승강장에서 서울역행 직통, 일반열차 탑승이 가능하다.
+*	B-AFW
+인천국제공항철도	B-AFW
+(	B-AFW
+AREX	B-AFW
+)	O
+는	O
+한국의	B-LOC
+관문인	O
+인천공항에서	B-LOC
+서울도심을	B-LOC
+가장	O
+빠르게	O
+연결해	O
+주는	O
+교통수단이며	O
+,	O
+인천국제공항	B-LOC
+교통센터	O
+지하	O
+1층	B-NUM
+승강장에서	O
+서울역행	B-LOC
+직통	O
+,	O
+일반열차	O
+탑승이	O
+가능하다	O
+.	O
+
+서울특별시
+공항철도를 이용하여 명동, 홍대입구, 동대문, DMC 등 주요 관광지에 빠르게 접근할 수 있다.
+공항철도를	B-AFW
+이용하여	O
+명동	B-LOC
+,	O
+홍대입구	B-LOC
+,	O
+동대문	B-LOC
+,	O
+DMC	B-AFW
+등	O
+주요	O
+관광지에	O
+빠르게	O
+접근할	O
+수	O
+있다	O
+.	O
+
+서울특별시
+인천공항에서 서울역까지 43분 소요되는 직통열차는 4인 이상 이용 시 그룹할인(6,000원/1인)이 가능하고, 항공사 이용객(대한항공, 아시아나, 제주항공), 국제학생증소지자 등 다양한 할인제도(6900원/명)를 시행하고 있다.
+인천공항에서	B-LOC
+서울역까지	B-LOC
+43분	B-DAT
+소요되는	O
+직통열차는	B-AFW
+4인	B-NUM
+이상	O
+이용	O
+시	O
+그룹할인	B-NUM
+(	B-NUM
+6	B-NUM
+,	I-NUM
+000원	I-NUM
+/	O
+1인	B-NUM
+)	O
+이	O
+가능하고	O
+,	O
+항공사	O
+이용객	B-CVL
+(	B-ORG
+대한항공	B-ORG
+,	O
+아시아나	B-ORG
+,	O
+제주항공	B-ORG
+)	O
+,	O
+국제학생증소지자	B-CVL
+등	O
+다양한	O
+할인제도	B-NUM
+(	B-NUM
+6900원	B-NUM
+/	O
+명	I-NUM
+)	O
+를	O
+시행하고	O
+있다	O
+.	O
+
+서울특별시
+(https://web.archive.org/web/20200428235346/https://www.arex.or.kr/) 현재 공항철도는 입국장 45번 부스 안내센터 및 교통센터 지하 1 층에서 트레블 센터를 운영 중에 있으며, 다양한 서비스를 제공 중에 있다.
+(	B-TRM
+https	B-TRM
+:	O
+/	O
+/	O
+web	B-TRM
+.	O
+archive	B-TRM
+.	O
+org	B-TRM
+/	O
+web	B-TRM
+/	B-NUM
+20200428235346	B-NUM
+/	O
+https	B-TRM
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+arex	B-TRM
+.	O
+or	B-TRM
+.	O
+kr	O
+/	O
+)	O
+현재	O
+공항철도는	B-AFW
+입국장	O
+45번	B-NUM
+부스	O
+안내센터	O
+및	O
+교통센터	O
+지하	O
+1	B-NUM
+층에서	I-NUM
+트레블	B-AFW
+센터를	O
+운영	O
+중에	O
+있으며	O
+,	O
+다양한	O
+서비스를	O
+제공	O
+중에	O
+있다	O
+.	O
+
+서울특별시
+특히 주요 호텔까지의 Door to Door 서비스인 직통열차 + 인터내셔널 택시와 직통열차 + 티머니 카드 상품은 트래블 센터가 제공하는 인기 상품이다..
+특히	O
+주요	O
+호텔까지의	O
+Door	B-TRM
+to	I-TRM
+Door	I-TRM
+서비스인	I-TRM
+직통열차	B-AFW
++	O
+인터내셔널	B-AFW
+택시와	I-AFW
+직통열차	B-AFW
++	O
+티머니	B-TRM
+카드	O
+상품은	O
+트래블	B-AFW
+센터가	O
+제공하는	O
+인기	O
+상품이다	O
+.	O
+.	O
+
+서울특별시
+* 공항철도 열차는 서울역∼인천공항1터미널역을 무정차로 43분에 운행하는 고급형 열차인 직통열차와 모든 역에 정차하는 일반열차(56분 소요)로 이원화 운영되고 있다.
+*	B-AFW
+공항철도	B-AFW
+열차는	I-AFW
+서울역∼인천공항1터미널역을	B-LOC
+무정차로	O
+43분에	B-DAT
+운행하는	O
+고급형	O
+열차인	O
+직통열차와	B-AFW
+모든	O
+역에	O
+정차하는	O
+일반열차	B-AFW
+(	B-DAT
+56분	B-DAT
+소요	I-DAT
+)	O
+로	O
+이원화	O
+운영되고	O
+있다	O
+.	O
+
+서울특별시
+운임은 인천공항1터미널역 ~ 서울역 구간의 경우 직통열차는 8,000원, 일반열차는 3,950원이다.
+운임은	O
+인천공항1터미널역	B-AFW
+~	O
+서울역	B-AFW
+구간의	O
+경우	O
+직통열차는	O
+8	B-NUM
+,	I-NUM
+000원	I-NUM
+,	O
+일반열차는	O
+3	B-NUM
+,	B-NUM
+950원이다	I-NUM
+.	O
+
+서울특별시
+일반열차의 경우 수도권 대중교통 통합요금제에는 포함되어 있으나 영종도 구간 (운서역 ~ 인천공항2터미널역)에서는 별도의 요금제를 적용한다.
+일반열차의	O
+경우	O
+수도권	B-LOC
+대중교통	O
+통합요금제에는	O
+포함되어	O
+있으나	O
+영종도	B-LOC
+구간	B-LOC
+(	B-LOC
+운서역	B-LOC
+~	O
+인천공항2터미널역	B-LOC
+)	O
+에서는	O
+별도의	O
+요금제를	O
+적용한다	O
+.	O
+
+서울특별시
+직통열차 이용객은 4인 이상 이용 시 그룹할인(6,000원/1인), 항공사 이용객(대한항공, 아시아나항공, 제주항공), 국제학생증소지자 등 다양한 할인제도(6900원/명)를 시행하고 있다.
+직통열차	B-AFW
+이용객은	B-CVL
+4인	B-NUM
+이상	O
+이용	O
+시	O
+그룹할인	B-NUM
+(	B-NUM
+6	B-NUM
+,	I-NUM
+000원	I-NUM
+/	O
+1인	B-NUM
+)	O
+,	O
+항공사	O
+이용객	B-CVL
+(	B-ORG
+대한항공	B-ORG
+,	O
+아시아나항공	B-ORG
+,	O
+제주항공	B-ORG
+)	O
+,	O
+국제학생증소지자	B-CVL
+등	O
+다양한	O
+할인제도	B-NUM
+(	B-NUM
+6900원	B-NUM
+/	O
+명	I-NUM
+)	O
+를	O
+시행하고	O
+있다	O
+.	O
+
+서울특별시
+(https://web.archive.org/web/20200428235346/https://www.arex.or.kr/) 또한 서울역에서는 도심공항터미널의 탑승수속 및 수하물 탁송(대한항공, 아시아나항공, 제주항공), 출입국관리사무소의 출국심사 서비스가 무료로 제공된다.
+(	B-TRM
+https	B-TRM
+:	O
+/	O
+/	O
+web	B-TRM
+.	O
+archive	B-TRM
+.	O
+org	B-TRM
+/	B-DAT
+web	B-TRM
+/	B-NUM
+20200428235346	B-NUM
+/	O
+https	B-TRM
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+arex	B-TRM
+.	O
+or	B-TRM
+.	O
+kr	O
+/	O
+)	O
+또한	O
+서울역에서는	B-LOC
+도심공항터미널의	B-AFW
+탑승수속	O
+및	O
+수하물	O
+탁송	B-ORG
+(	B-ORG
+대한항공	B-ORG
+,	O
+아시아나항공	B-ORG
+,	O
+제주항공	B-ORG
+)	O
+,	O
+출입국관리사무소의	B-ORG
+출국심사	O
+서비스가	O
+무료로	O
+제공된다	O
+.	O
+
+대구광역시
+두드리소는 경상도 사투리의 정감이 느껴지면서, 민원을 두드리면 언제든지 들어주고 해결해 주는 공간이라는 의미의 대구광역시의 민원 서비스이다.
+두드리소는	O
+경상도	B-LOC
+사투리의	O
+정감이	O
+느껴지면서	O
+,	O
+민원을	O
+두드리면	O
+언제든지	O
+들어주고	O
+해결해	O
+주는	O
+공간이라는	O
+의미의	O
+대구광역시의	B-LOC
+민원	O
+서비스이다	O
+.	O
+
+대구광역시
+두드리소((http://dudeuriso.daegu.go.kr ) 인터넷, 모바일, 콜센터, SNS로 신청한 모든 민원과 제안의 처리과정을 신청방법과 상관없이 한 곳에서 상세하게 확인할 수 있다.
+두드리소	B-TRM
+(	B-TRM
+(	B-TRM
+http	B-TRM
+:	B-TRM
+/	B-TRM
+/	B-TRM
+dudeuriso	B-TRM
+.	O
+daegu	B-TRM
+.	I-TRM
+go	B-TRM
+.	O
+kr	B-TRM
+)	O
+인터넷	B-TRM
+,	O
+모바일	B-TRM
+,	O
+콜센터	O
+,	O
+SNS로	B-TRM
+신청한	O
+모든	O
+민원과	O
+제안의	O
+처리과정을	O
+신청방법과	O
+상관없이	O
+한	B-NUM
+곳에서	I-NUM
+상세하게	O
+확인할	O
+수	O
+있다	O
+.	O
+
+문화방송
+* 2005년 2월 - MBC 글로벌 사이트(http://content.mbc.co.kr)를 오픈 및 운영에 들어감.
+*	B-DAT
+2005년	B-DAT
+2월	I-DAT
+-	O
+MBC	B-ORG
+글로벌	O
+사이트	O
+(	O
+http	O
+:	O
+/	O
+/	O
+content	B-TRM
+.	O
+mbc	B-TRM
+.	O
+co	B-TRM
+.	O
+kr	O
+)	O
+를	O
+오픈	O
+및	O
+운영에	O
+들어감	O
+.	O
+
+레드 스페셜
+길드사는 1983년부터 85년 그리고 1993년부터 95년 사이에 레플리카 모델들을 제작, 생산하였고 번스사는 2001년 이후 레플리카 모델을 제작, 생산하였으나 현재는 두 회사 모두 제작하지 않고 있다.
+길드사는	B-ORG
+1983년부터	B-DAT
+85년	I-DAT
+그리고	O
+1993년부터	B-DAT
+95년	I-DAT
+사이에	O
+레플리카	O
+모델들을	O
+제작	O
+,	O
+생산하였고	O
+번스사는	B-ORG
+2001년	B-DAT
+이후	O
+레플리카	B-TRM
+모델을	O
+제작	O
+,	O
+생산하였으나	O
+현재는	O
+두	B-NUM
+회사	I-NUM
+모두	O
+제작하지	O
+않고	O
+있다	O
+.	O
+
+레드 스페셜
+번스 모델의 경우에는 제작 과정에 브라이언이 직접 참여하기도 하였으며 2001년에 Guitarist Magazine에서 최고의 전기기타로 뽑히기도 하였다.
+번스	B-LOC
+모델의	O
+경우에는	O
+제작	O
+과정에	O
+브라이언이	B-PER
+직접	O
+참여하기도	O
+하였으며	O
+2001년에	B-DAT
+Guitarist	B-AFW
+Magazine에서	I-AFW
+최고의	O
+전기기타로	B-CVL
+뽑히기도	O
+하였다	O
+.	O
+
+레드 스페셜
+현재 공식적으로 레드스페셜 레플리카를 제작 및 생산하고 판매하는 회사는 Brian May Guitars (http://www.brianmayguitars.co.uk)이며 여기서 제작되는 기타는 번스 모델과 외양 및 스펙 면에서 거의 동일하다..
+현재	O
+공식적으로	O
+레드스페셜	B-TRM
+레플리카를	I-TRM
+제작	O
+및	O
+생산하고	O
+판매하는	O
+회사는	O
+Brian	B-TRM
+May	I-TRM
+Guitars	I-TRM
+(	B-TRM
+http	O
+:	O
+/	O
+/	O
+www	B-TRM
+.	B-TRM
+brianmayguitars	B-TRM
+.	O
+co	B-TRM
+.	O
+uk	B-TRM
+)	O
+이며	O
+여기서	O
+제작되는	O
+기타는	O
+번스	B-LOC
+모델과	O
+외양	O
+및	O
+스펙	O
+면에서	O
+거의	O
+동일하다	O
+.	O
+.	O
+
+SK그룹
+* 2018.05.14 23:36분경 SK네트웍스 최신원 회장에 대한 갑질 및 미투 사건 게시글이 네이트판(http://pann.nate.com)에 게재되었다..
+*	B-DAT
+2018	B-DAT
+.	B-DAT
+05	I-DAT
+.	I-DAT
+14	I-DAT
+23	B-DAT
+:	I-DAT
+36분경	B-DAT
+SK네트웍스	B-ORG
+최신원	B-PER
+회장에	B-CVL
+대한	O
+갑질	O
+및	O
+미투	O
+사건	O
+게시글이	O
+네이트판	B-TRM
+(	B-TRM
+http	O
+:	O
+/	O
+/	O
+pann	B-TRM
+.	B-TRM
+nate	B-TRM
+.	O
+com	B-TRM
+)	O
+에	O
+게재되었다	O
+.	O
+.	O
+
+SK그룹
+* 2018.05.16 10:00시경 SK워커힐호텔 최신원 회장 성추행 갑질 비리와 그의 수족들(윤 가&박 가)의 만행이란 게시글이 네이트판(http://pann.nate.com)에 추가 게재되었다..
+*	B-DAT
+2018	B-DAT
+.	I-DAT
+05	I-DAT
+.	I-DAT
+16	I-DAT
+10	I-DAT
+:	B-DAT
+00시경	I-DAT
+SK워커힐호텔	B-ORG
+최신원	B-PER
+회장	B-CVL
+성추행	O
+갑질	O
+비리와	O
+그의	O
+수족들	O
+(	B-PER
+윤	B-PER
+가	I-PER
+&	O
+박	B-PER
+가	O
+)	O
+의	O
+만행이란	O
+게시글이	O
+네이트판	B-TRM
+(	B-TRM
+http	O
+:	O
+/	O
+/	O
+pann	B-TRM
+.	B-TRM
+nate	B-TRM
+.	O
+com	B-TRM
+)	O
+에	O
+추가	O
+게재되었다	O
+.	O
+.	O
+
+SK그룹
+* 2018.05.16 대한민국 청와대 홈페이지(http://www.president.go.kr)에 “최신원 회장의 이중성”이라는 최신원 회장의 성추행, 갑질 등을 고발하는 국민청원이 발생하였다.
+*	B-DAT
+2018	B-DAT
+.	I-DAT
+05	I-DAT
+.	I-DAT
+16	I-DAT
+대한민국	B-LOC
+청와대	B-ORG
+홈페이지	O
+(	O
+http	O
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+president	B-TRM
+.	O
+go	B-TRM
+.	O
+kr	O
+)	O
+에	O
+“	B-PER
+최신원	B-PER
+회장의	B-CVL
+이중성	O
+”	O
+이라는	O
+최신원	B-PER
+회장의	B-CVL
+성추행	B-CVL
+,	O
+갑질	O
+등을	O
+고발하는	O
+국민청원이	B-CVL
+발생하였다	O
+.	O
+
+바이올린
+비브라토(vibrato: 진동)은 현대 바이올린 연주의 특색 가운데 하나이다.
+비브라토	B-PER
+(	O
+vibrato	O
+:	O
+진동	O
+)	O
+은	O
+현대	O
+바이올린	B-CVL
+연주의	O
+특색	O
+가운데	O
+하나이다	B-NUM
+.	O
+
+바이올린
+현을 누른 손가락을 가볍게 아래 위로 움직이면 비브라토로 음이 강렬해진다.
+현을	O
+누른	O
+손가락을	O
+가볍게	O
+아래	B-TRM
+위로	O
+움직이면	O
+비브라토로	B-TRM
+음이	O
+강렬해진다	O
+.	O
+
+바이올린
+18세기와 19세기에 비브라토는 단순한 장식음으로 여겼다.
+18세기와	B-NUM
+19세기에	B-NUM
+비브라토는	O
+단순한	O
+장식음으로	O
+여겼다	O
+.	O
+
+바이올린
+20세기 이전 음악에서는 비브라토가 필요한 곳에 따로 표시하였으나, 오늘날에는 일반적으로 비브라토가 필요없는 곳에 별도로 표시하는 것이 관행이다.
+20세기	B-NUM
+이전	O
+음악에서는	B-FLD
+비브라토가	O
+필요한	O
+곳에	O
+따로	O
+표시하였으나	O
+,	O
+오늘날에는	O
+일반적으로	O
+비브라토가	O
+필요없는	O
+곳에	O
+별도로	O
+표시하는	O
+것이	O
+관행이다	O
+.	O
+
+바이올린
+비브라토는 프리츠 크라이슬러, 야사 하이페츠와 같은 연주자의 영향을 받아 1930년대에 유행하였다.
+비브라토는	B-ORG
+프리츠	B-ORG
+크라이슬러	I-ORG
+,	O
+야사	B-LOC
+하이페츠와	I-ORG
+같은	O
+연주자의	B-CVL
+영향을	O
+받아	O
+1930년대에	B-DAT
+유행하였다	O
+.	O
+
+바이올린
+비브라토를 잘 구사하기 위한 핵심은 손가락의 첫째 관절을 유연하게 움직이는 것이다 (http://violins.tistory.com/58)..
+비브라토를	B-TRM
+잘	O
+구사하기	O
+위한	O
+핵심은	O
+손가락의	O
+첫째	B-TRM
+관절을	B-TRM
+유연하게	O
+움직이는	O
+것이다	O
+(	B-TRM
+http	B-TRM
+:	O
+/	B-TRM
+/	O
+violins	B-TRM
+.	O
+tistory	B-TRM
+.	O
+com	B-TRM
+/	O
+58	O
+)	O
+.	O
+.	O
+
+인하대학교
+* 인하대학교 총동창회(http://www.inhain.com/) : 인하대학교 출신 교우들의 모임인 인하대학교 총동창회는 1959년 11월에 창립되었다.
+*	O
+인하대학교	B-ORG
+총동창회	I-ORG
+(	B-NUM
+http	O
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+inhain	B-TRM
+.	O
+com	O
+/	O
+)	O
+:	O
+인하대학교	B-ORG
+출신	O
+교우들의	B-CVL
+모임인	O
+인하대학교	B-ORG
+총동창회는	I-ORG
+1959년	B-DAT
+11월에	I-DAT
+창립되었다	O
+.	O
+
+인하대학교
+초대 총동창회장에 김우경(전기·54)회장이 선출되었으며 현재는 한진우(건축·78)회장이 맡고 있다.
+초대	B-CVL
+총동창회장에	I-CVL
+김우경	B-PER
+(	B-CVL
+전기	B-CVL
+·	O
+54	B-NUM
+)	O
+회장이	B-CVL
+선출되었으며	O
+현재는	O
+한진우	B-PER
+(	B-CVL
+건축	B-CVL
+·	O
+78	B-NUM
+)	O
+회장이	B-CVL
+맡고	O
+있다	O
+.	O
+
+인하대학교
+개교 이래로 산업계, 재계를 중심으로 대거 포진돼 있다.
+개교	O
+이래로	O
+산업계	O
+,	O
+재계를	O
+중심으로	O
+대거	O
+포진돼	O
+있다	O
+.	O
+
+인하대학교
+아울러 사회 다방면에 걸쳐 수많은 인재를 배출하고 있다..
+아울러	O
+사회	O
+다방면에	O
+걸쳐	O
+수많은	O
+인재를	O
+배출하고	O
+있다	O
+.	O
+.	O
+
+유패스
+** 할인 카드 : 청소년(중, 고등학생) 카드를 판매한다.
+*	O
+*	O
+할인	O
+카드	O
+:	O
+청소년	B-CVL
+(	B-CVL
+중	B-CVL
+,	O
+고등학생	B-CVL
+)	O
+카드를	O
+판매한다	O
+.	O
+
+유패스
+청소년(중, 고등학생) 할인을 계속 적용받기 위하여는 구입 후 10일이내에 인터넷 홈페이지(http://www.u-pass.kr) 에 반드시 등록하여야 하며,등록 3일 이후부터 할인혜택을 받을 수 있다.(미등록시 일반요금 차감)
+청소년	B-CVL
+(	B-CVL
+중	B-CVL
+,	I-CVL
+고등학생	I-CVL
+)	O
+할인을	O
+계속	O
+적용받기	O
+위하여는	O
+구입	O
+후	O
+10일이내에	B-DAT
+인터넷	O
+홈페이지	B-TRM
+(	B-TRM
+http	O
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+u	B-TRM
+-	O
+pass	B-TRM
+.	O
+kr	O
+)	O
+에	O
+반드시	O
+등록하여야	O
+하며	O
+,	O
+등록	O
+3일	B-DAT
+이후부터	I-DAT
+할인혜택을	O
+받을	O
+수	O
+있다	O
+.	O
+(	O
+미등록시	O
+일반요금	O
+차감	O
+)	O
+
+미쓰비시 랜서 에볼루션
+미쓰비시 자동차의 국내 공식 수입사인 MMSK 주식회사(http://www.mmsk.co.kr) 2008년 9월 22일 한국 공식판매를 시작했다.
+미쓰비시	B-ORG
+자동차의	I-AFW
+국내	O
+공식	O
+수입사인	O
+MMSK	B-ORG
+주식회사	I-ORG
+(	B-TRM
+http	B-TRM
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+mmsk	B-TRM
+.	B-NUM
+co	B-TRM
+.	B-NUM
+kr	B-TRM
+)	B-DAT
+2008년	B-DAT
+9월	I-DAT
+22일	I-DAT
+한국	B-LOC
+공식판매를	O
+시작했다	O
+.	O
+
+미쓰비시 랜서 에볼루션
+그러나 내비게이션을 제외한 거의 모든 사양이 포함된 풀 옵션 사양을 들여오면서, 예상을 벗어난 6,200만원의 높은 가격에 출시.
+그러나	O
+내비게이션을	B-TRM
+제외한	O
+거의	O
+모든	O
+사양이	O
+포함된	O
+풀	O
+옵션	O
+사양을	O
+들여오면서	O
+,	O
+예상을	O
+벗어난	O
+6	B-NUM
+,	I-NUM
+200만원의	I-NUM
+높은	O
+가격에	O
+출시	O
+.	O
+
+미쓰비시 랜서 에볼루션
+초기에는 계약이 몰리면서 높은 가격에도 불구하고 판매 호조가 예상되었으나, 이내 거품이 꺼지면서 극악의 판매량을 기록하기 시작했다.
+초기에는	O
+계약이	O
+몰리면서	O
+높은	O
+가격에도	O
+불구하고	O
+판매	O
+호조가	O
+예상되었으나	O
+,	O
+이내	O
+거품이	O
+꺼지면서	O
+극악의	B-LOC
+판매량을	O
+기록하기	O
+시작했다	O
+.	O
+
+미쓰비시 랜서 에볼루션
+이러한 판매 부진에 엔고 현상이라는 악재까지 겹쳐 가격이 6,620만원까지 높아졌다가 2010년 10월에 5,950만원까지 낮아졌다.
+이러한	O
+판매	O
+부진에	O
+엔고	O
+현상이라는	O
+악재까지	O
+겹쳐	O
+가격이	O
+6	B-NUM
+,	I-NUM
+620만원까지	I-NUM
+높아졌다가	O
+2010년	B-DAT
+10월에	I-DAT
+5	B-NUM
+,	I-NUM
+950만원까지	I-NUM
+낮아졌다	O
+.	O
+
+미쓰비시 랜서 에볼루션
+그러나 MMSK가 심각한 판매 부진으로 기업 청산 절차에 들어가면서 결국 대한민국 공식 수입이 중단되었다..
+그러나	O
+MMSK가	B-ORG
+심각한	O
+판매	O
+부진으로	O
+기업	O
+청산	O
+절차에	O
+들어가면서	O
+결국	O
+대한민국	B-LOC
+공식	O
+수입이	O
+중단되었다	O
+.	O
+.	O
+
+CAPTCHA
+1999년 11월, Slashdot(http://www.slashdot.org/)은 어떤 학교에서 컴퓨터 공학을 전공하는 것이 가장 좋은지를 묻는 온라인 투표를 실시했다.
+1999년	B-DAT
+11월	I-DAT
+,	I-DAT
+Slashdot	B-ORG
+(	B-TRM
+http	O
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+slashdot	B-TRM
+.	O
+org	B-TRM
+/	O
+)	O
+은	O
+어떤	O
+학교에서	O
+컴퓨터	B-TRM
+공학을	I-TRM
+전공하는	O
+것이	O
+가장	O
+좋은지를	O
+묻는	O
+온라인	O
+투표를	O
+실시했다	O
+.	O
+
+CAPTCHA
+대부분의 온라인 투표처럼 한 사용자가 여러번 투표하는 것을 막기 위해 투표자의 아이피 주소가 기록되었다.
+대부분의	O
+온라인	O
+투표처럼	O
+한	O
+사용자가	B-CVL
+여러번	O
+투표하는	O
+것을	O
+막기	O
+위해	O
+투표자의	B-CVL
+아이피	B-TRM
+주소가	O
+기록되었다	O
+.	O
+
+CAPTCHA
+그러나 카네기 멜론 대학의 한 학생이 카네기 멜론 대학에 중복 투표할 수 있는 프로그램을 만들어 카네기 멜론 댓글의 순위가 급속도로 상승했고, 다음날 매사추세츠 공과대학 학생들도 다중 투표 프로그램을 만들어 투표하기 시작했다.
+그러나	O
+카네기	B-ORG
+멜론	I-ORG
+대학의	I-ORG
+한	B-NUM
+학생이	B-CVL
+카네기	B-ORG
+멜론	I-ORG
+대학에	I-ORG
+중복	O
+투표할	O
+수	O
+있는	O
+프로그램을	O
+만들어	O
+카네기	B-TRM
+멜론	I-TRM
+댓글의	O
+순위가	O
+급속도로	O
+상승했고	O
+,	O
+다음날	B-DAT
+매사추세츠	B-ORG
+공과대학	I-ORG
+학생들도	B-CVL
+다중	O
+투표	O
+프로그램을	O
+만들어	O
+투표하기	O
+시작했다	O
+.	O
+
+CAPTCHA
+결국 투표는 봇들의 투표경쟁이 되어 매사추세츠 공과대학이 21156표, 카네기 멜론 대학이 21032표로 투표를 마감했고 나머지 학교들은 1000표도 넘지 못했다.
+결국	O
+투표는	O
+봇들의	O
+투표경쟁이	O
+되어	O
+매사추세츠	B-ORG
+공과대학이	I-ORG
+21156표	B-NUM
+,	O
+카네기	B-ORG
+멜론	I-ORG
+대학이	I-ORG
+21032표로	B-NUM
+투표를	O
+마감했고	O
+나머지	O
+학교들은	O
+1000표도	B-NUM
+넘지	O
+못했다	O
+.	O
+
+CAPTCHA
+이러한 투표결과는 신뢰성이 떨어져 의미가 없다..
+이러한	O
+투표결과는	O
+신뢰성이	O
+떨어져	O
+의미가	O
+없다	O
+.	O
+.	O
+
+일심회 사건
+2006년 10월 27일 김승규 전 국정원장은 일심회 사건 수사가 이루어지던 중 돌연 사의를 표명했다.
+2006년	B-DAT
+10월	I-DAT
+27일	I-DAT
+김승규	B-PER
+전	O
+국정원장은	B-CVL
+일심회	B-EVT
+사건	O
+수사가	O
+이루어지던	O
+중	O
+돌연	O
+사의를	O
+표명했다	O
+.	O
+
+일심회 사건
+버시바우 전 대사에 따르면 이는 청와대의 압력 행사를 했다는 입부비판론자의 의견이 있었다.
+버시바우	B-PER
+전	O
+대사에	B-CVL
+따르면	O
+이는	O
+청와대의	B-ORG
+압력	O
+행사를	O
+했다는	O
+입부비판론자의	B-CVL
+의견이	O
+있었다	O
+.	O
+
+일심회 사건
+외교전문이 없어서 버시바우 조선일보에서 인터뷰 결과 전 주한대사 버시바우는 2006년 10월 25일 청와대 내부회의에서 노무현 대통령이 사퇴를 요구했다는 비판론자의 전언을 들었다고 말했다.비판론자에 유명한 정치가가있다.이내용은 조선tv팩트체크(https://www.youtube.com/watch?v=rPrhX1plq0A)..
+외교전문이	O
+없어서	O
+버시바우	B-LOC
+조선일보에서	B-ORG
+인터뷰	O
+결과	O
+전	O
+주한대사	B-CVL
+버시바우는	B-PER
+2006년	B-DAT
+10월	I-DAT
+25일	I-DAT
+청와대	B-AFW
+내부회의에서	O
+노무현	B-PER
+대통령이	B-CVL
+사퇴를	O
+요구했다는	O
+비판론자의	O
+전언을	O
+들었다고	O
+말했다	O
+.	O
+비판론자에	O
+유명한	O
+정치가가있다	B-CVL
+.	O
+이내용은	B-PER
+조선tv팩트체크	B-ORG
+(	B-TRM
+https	B-TRM
+:	O
+/	B-TRM
+/	O
+www	B-TRM
+.	O
+youtube	B-TRM
+.	O
+com	B-TRM
+/	B-TRM
+watch	B-TRM
+?	O
+v	O
+=	O
+rPrhX1plq0A	B-TRM
+)	O
+.	O
+.	O
+
+김선혜 (성우)
+* 희망방송의 두여자의 톡톡수다(http://www.hmn.or.kr/audio/talkwowan_board.asp) - 성우 문남숙과 DJ로 활동하고 있다.
+*	O
+희망방송의	O
+두여자의	B-NUM
+톡톡수다	B-TRM
+(	B-TRM
+http	O
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+hmn	B-TRM
+.	O
+or	B-TRM
+.	O
+kr	B-TRM
+/	O
+audio	B-TRM
+/	O
+talkwowan	B-TRM
+_	O
+board	B-TRM
+.	O
+asp	B-TRM
+)	O
+-	B-CVL
+성우	B-CVL
+문남숙과	B-PER
+DJ로	B-CVL
+활동하고	O
+있다	O
+.	O
+
+농식품수출정보
+* KATI(http://www.kati.net) : 한국농수산식품유통공사에서 운영하는 농식품수출정보사이트로 농식품 해외시장개척 시 필요한 정보를 제공한다.
+*	O
+KATI	B-ORG
+(	O
+http	O
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+kati	B-TRM
+.	O
+net	O
+)	O
+:	O
+한국농수산식품유통공사에서	B-ORG
+운영하는	O
+농식품수출정보사이트로	O
+농식품	B-ORG
+해외시장개척	O
+시	O
+필요한	O
+정보를	O
+제공한다	O
+.	O
+
+위클리자동차신문
+신문 대판으로 인쇄되며 인터넷(http://www.atweekly.com) 으로도 배포된다.
+신문	O
+대판으로	O
+인쇄되며	O
+인터넷	B-TRM
+(	B-TRM
+http	B-TRM
+:	O
+/	B-TRM
+/	O
+www	B-TRM
+.	O
+atweekly	B-TRM
+.	O
+com	B-TRM
+)	O
+으로도	O
+배포된다	O
+.	O
+
+위클리자동차신문
+2010년 현재 부당 1000원으로 판매되고 있다.
+2010년	B-DAT
+현재	O
+부당	O
+1000원으로	B-NUM
+판매되고	O
+있다	O
+.	O
+
+위클리자동차신문
+홈페이지에서는 실시간 온라인 뉴스 및 과거기사 검색이 가능하다..
+홈페이지에서는	O
+실시간	O
+온라인	O
+뉴스	O
+및	O
+과거기사	O
+검색이	O
+가능하다	O
+.	O
+.	O
+
+7·7 DDoS 공격
+안철수연구소는 1차공격 직후 바로 전용백신을 공급하였고 이어서 여러 백신 기업이 전용백신을 출시 하였다.
+안철수연구소는	B-ORG
+1차공격	O
+직후	O
+바로	O
+전용백신을	O
+공급하였고	O
+이어서	O
+여러	O
+백신	O
+기업이	O
+전용백신을	O
+출시	O
+하였다	O
+.	O
+
+7·7 DDoS 공격
+특히 안철수 연구소는 하드디스크의 파괴, 2,3차 공격까지 정확히 파악하여 여러 언론에게 알렸다.
+특히	O
+안철수	B-ORG
+연구소는	I-ORG
+하드디스크의	B-TRM
+파괴	O
+,	O
+2	B-EVT
+,	O
+3차	I-EVT
+공격까지	O
+정확히	O
+파악하여	O
+여러	O
+언론에게	O
+알렸다	O
+.	O
+
+7·7 DDoS 공격
+공격을 받은 포털들도 대응이 빨랐다.
+공격을	O
+받은	O
+포털들도	O
+대응이	O
+빨랐다	O
+.	O
+
+7·7 DDoS 공격
+예를 들어 네이버의 메일 서비스 홈페이지 서버(http://mail.naver.com) 가 공격을 받은 경우 즉시 서버를 바꿔(http://mail2.naver.com) 서비스 하는 등이 있었다..
+예를	O
+들어	O
+네이버의	B-ORG
+메일	B-TRM
+서비스	I-TRM
+홈페이지	O
+서버	B-TRM
+(	B-TRM
+http	B-TRM
+:	O
+/	B-TRM
+/	B-TRM
+mail	B-TRM
+.	O
+naver	B-TRM
+.	O
+com	O
+)	O
+가	O
+공격을	O
+받은	O
+경우	O
+즉시	O
+서버를	O
+바꿔	O
+(	B-TRM
+http	O
+:	O
+/	O
+/	O
+mail2	B-TRM
+.	O
+naver	B-TRM
+.	O
+com	O
+)	O
+서비스	O
+하는	O
+등이	O
+있었다	O
+.	O
+.	O
+
+다문화가족 음악방송
+* 방송 채널: 다문화가족 음악 방송은 Skylfe 위성 방송, 디지털 케이블 TV, IPTV QOOK TV 등 다양한 매체의 오디오 채널을 통해 방송되고 있다.
+*	O
+방송	O
+채널	O
+:	O
+다문화가족	B-CVL
+음악	B-FLD
+방송은	O
+Skylfe	B-TRM
+위성	I-TRM
+방송	O
+,	O
+디지털	O
+케이블	O
+TV	I-TRM
+,	O
+IPTV	B-TRM
+QOOK	I-TRM
+TV	I-TRM
+등	O
+다양한	O
+매체의	O
+오디오	B-TRM
+채널을	O
+통해	O
+방송되고	O
+있다	O
+.	O
+
+다문화가족 음악방송
+홈페이지(http://www.wjf.kr)를 통해서도 실시간 청취 및 다시듣기가 가능하다..
+홈페이지	O
+(	O
+http	O
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+wjf	B-TRM
+.	O
+kr	O
+)	O
+를	O
+통해서도	O
+실시간	O
+청취	O
+및	O
+다시듣기가	O
+가능하다	O
+.	O
+.	O
+
+식약일보
+2013년 기준으로, 1개월 구독료 10,000원으로 판매되고 있다.
+2013년	B-NUM
+기준으로	O
+,	O
+1개월	B-DAT
+구독료	O
+10	B-NUM
+,	I-NUM
+000원으로	I-NUM
+판매되고	O
+있다	O
+.	O
+
+식약일보
+실시간 인터넷뉴스(http://www..kfdn.co.kr ) 도 운영되며, 식품과 의료 관련 위법 사항 적발 관련 소식을 특화하여 제공되고 있다.
+실시간	O
+인터넷뉴스	O
+(	O
+http	O
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+.	O
+kfdn	B-TRM
+.	O
+co	B-TRM
+.	O
+kr	O
+)	O
+도	O
+운영되며	O
+,	O
+식품과	O
+의료	O
+관련	O
+위법	O
+사항	O
+적발	O
+관련	O
+소식을	O
+특화하여	O
+제공되고	O
+있다	O
+.	O
+
+식약일보
+과거기사 검색도 가능하다..
+과거기사	B-CVL
+검색도	O
+가능하다	O
+.	O
+.	O
+
+자매지로는 ‘소비자를위한신문(http://www.consumertimes.kr) ’이 있다. 본사는 서울특별시 강남구 역삼동에 있다.
+.
+.	O
+
+지역화폐
+경기지역화폐(https://www.gmoney.or.kr/ <nowiki/>)는 경기도에서 발행하여 경기 지역의 소비 활성화 차원에서 위해 출시한 화폐이다.
+경기지역화폐	B-ORG
+(	B-TRM
+https	B-TRM
+:	B-TRM
+/	B-TRM
+/	B-TRM
+www	B-TRM
+.	O
+gmoney	B-TRM
+.	O
+or	B-TRM
+.	O
+kr	B-TRM
+/	O
+<	O
+nowiki	B-TRM
+/	O
+>	O
+)	O
+는	O
+경기도에서	B-LOC
+발행하여	O
+경기	O
+지역의	O
+소비	O
+활성화	O
+차원에서	O
+위해	O
+출시한	O
+화폐이다	O
+.	O
+
+지역화폐
+대행사는 코나아이이다.
+대행사는	O
+코나아이이다	B-ORG
+.	O
+
+인천 e음카드(https://incheoneum.or.kr/<nowiki/>)는 인천광역시에서 발행하여 인천 지역의 소비 활성화 차원에서 2019년에 출시한 스마트 IC 화폐이다. 대행사는 코나아이이다.
+.
+.	O
+
+코세라
+2016년 3월 31일 현재 강의를 이 사이트를 통해 제공하고 있는 대학은 맨체스터대, 듀크대, 스탠포트대, 런던대, 캘리포니아대(어바인), 연세대, 브라운대, 펜실베니아주립대, 취히리대, 상파울루대, 칼텍, 북경대, 라이스대, 예일대, 시드니대, 존스홉킨스대, 보코니대 등이 있다.
+2016년	B-NUM
+3월	I-DAT
+31일	I-DAT
+현재	O
+강의를	O
+이	O
+사이트를	O
+통해	O
+제공하고	O
+있는	O
+대학은	O
+맨체스터대	B-ORG
+,	O
+듀크대	B-ORG
+,	O
+스탠포트대	B-ORG
+,	O
+런던대	B-ORG
+,	O
+캘리포니아대	B-ORG
+(	B-ORG
+어바인	B-ORG
+)	O
+,	O
+연세대	B-ORG
+,	O
+브라운대	B-ORG
+,	O
+펜실베니아주립대	B-ORG
+,	O
+취히리대	B-ORG
+,	O
+상파울루대	B-ORG
+,	O
+칼텍	B-ORG
+,	O
+북경대	B-ORG
+,	O
+라이스대	B-ORG
+,	O
+예일대	B-ORG
+,	O
+시드니대	B-ORG
+,	O
+존스홉킨스대	B-ORG
+,	O
+보코니대	B-ORG
+등이	O
+있다	O
+.	O
+
+코세라
+(https://www.coursera.org/about/partners).
+(	B-TRM
+https	B-TRM
+:	O
+/	B-TRM
+/	O
+www	B-TRM
+.	O
+coursera	B-TRM
+.	O
+org	B-TRM
+/	O
+about	B-TRM
+/	O
+partners	B-TRM
+)	O
+.	O
+
+세종학당재단
+세종학당은 외국어 또는 제2언어로서 한국어를 배우고자 하는 자를 대상으로 한국어와 한국 문화를 알리고 교육하는 기관이다.
+세종학당은	B-ORG
+외국어	O
+또는	O
+제2언어로서	B-NUM
+한국어를	B-CVL
+배우고자	O
+하는	O
+자를	O
+대상으로	O
+한국어와	B-CVL
+한국	B-LOC
+문화를	O
+알리고	O
+교육하는	O
+기관이다	O
+.	O
+
+세종학당재단
+문화 상호주의에 입각한 문화 교류 활성화, 외국어 또는 제2언어로서 한국어를 배우고자 하는 자를 대상으로 하는 실용 한국어 교육, 한국어 교육 대표 브랜드 육성 및 확산을 목적으로 하며, 2015년 말 기준 전 세계 54개국 138개(https://web.archive.org/web/20150419200248/http://www.ksif.or.kr/business/locSejong.do) 가 개설되어 있다..
+문화	O
+상호주의에	O
+입각한	O
+문화	O
+교류	O
+활성화	O
+,	O
+외국어	O
+또는	O
+제2언어로서	B-NUM
+한국어를	B-CVL
+배우고자	O
+하는	O
+자를	O
+대상으로	O
+하는	O
+실용	O
+한국어	O
+교육	O
+,	O
+한국어	O
+교육	O
+대표	O
+브랜드	O
+육성	O
+및	O
+확산을	O
+목적으로	O
+하며	O
+,	O
+2015년	B-NUM
+말	I-DAT
+기준	O
+전	O
+세계	O
+54개국	B-NUM
+138개	B-NUM
+(	O
+https	B-TRM
+:	O
+/	B-NUM
+/	B-NUM
+web	B-TRM
+.	B-DAT
+archive	B-TRM
+.	B-DAT
+org	I-TRM
+/	I-TRM
+web	I-TRM
+/	B-NUM
+20150419200248	B-NUM
+/	O
+http	B-NUM
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+ksif	B-TRM
+.	O
+or	B-TRM
+.	B-TRM
+kr	B-TRM
+/	B-TRM
+business	B-TRM
+/	B-TRM
+locSejong	B-TRM
+.	O
+do	B-TRM
+)	O
+가	O
+개설되어	O
+있다	O
+.	O
+.	O
+
+쿤달리니
+출처 : 요가저널코리아(http://www.yogajournal.kr).
+출처	O
+:	O
+요가저널코리아	B-ORG
+(	O
+http	O
+:	O
+/	O
+/	O
+www	B-TRM
+.	O
+yogajournal	B-TRM
+.	O
+kr	O
+)	O
+.	O
+
+중앙경제뉴스
+실시간 인터넷뉴스(https://web.archive.org/web/20160109160320/http://ehnews.co.kr/) 도 운영되며, 경제계 관련 일반 뉴스를 제공한다.
+실시간	O
+인터넷뉴스	O
+(	B-TRM
+https	B-TRM
+:	O
+/	B-TRM
+/	B-TRM
+web	B-TRM
+.	O
+archive	B-TRM
+.	I-TRM
+org	B-TRM
+/	B-TRM
+web	B-TRM
+/	B-TRM
+20160109160320	B-NUM
+/	O
+http	B-TRM
+:	B-TRM
+/	B-TRM
+/	B-TRM
+ehnews	B-TRM
+.	O
+co	B-TRM
+.	O
+kr	B-TRM
+/	O
+)	O
+도	O
+운영되며	O
+,	O
+경제계	O
+관련	O
+일반	O
+뉴스를	O
+제공한다	O
+.	O
+
+중앙경제뉴스
+과거기사 검색도 가능하다..
+과거기사	B-CVL
+검색도	O
+가능하다	O
+.	O
+.	O
+

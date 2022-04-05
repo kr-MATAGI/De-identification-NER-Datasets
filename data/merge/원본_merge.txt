@@ -5657,7 +5657,7 @@ SBS	B-ORG
 .	O
 
 문희준
-* 크레용팝 멤버 당시에는 소율(1991년 ~ )과 2016년 4월부터 교제하였으며딸 이름은 문희율(잼잼이) 양이다.
+* 크레용팝 멤버 당시에는 소율(1991년 ~ )과 2016년 4월부터 교제하였으며 딸 이름은 문희율(잼잼이) 양이다.
 *	B-FLD
 크레용팝	B-FLD
 멤버	O
@@ -5670,7 +5670,8 @@ SBS	B-ORG
 과	O
 2016년	B-DAT
 4월부터	I-DAT
-교제하였으며딸	O
+교제하였으며	O
+딸	O
 이름은	O
 문희율	B-PER
 (	I-PER
@@ -18333,4 +18334,1548 @@ OST로	B-FLD
 상위권에	O
 이름을	O
 올렸다	O
+.	O
+
+대우전자부품
+주요 사업은 전압조정기(voltage regulator)를 비롯한 자동차 전장부품과 콘덴서 등의 제조와 판매이다.
+주요	O
+사업은	O
+전압조정기	B-TRM
+(	O
+voltage	I-TRM
+regulator	I-TRM
+)	O
+를	O
+비롯한	O
+자동차	B-AFW
+전장부품과	O
+콘덴서	B-AFW
+등의	O
+제조와	O
+판매이다	O
+.	O
+
+대우전자부품
+대우전자부품은 알루미늄 전해콘덴서, 필름콘덴서를 생산하는 종합전자부품회사로, 2010년 기준 매출액 비중은 콘덴서 부문이 23.5%, 자동차 부문이 72.3%를 차지하고 있다.
+대우전자부품은	B-ORG
+알루미늄	O
+전해콘덴서	O
+,	O
+필름콘덴서를	O
+생산하는	O
+종합전자부품회사로	O
+,	O
+2010년	B-DAT
+기준	O
+매출액	O
+비중은	O
+콘덴서	O
+부문이	O
+23	B-NUM
+.	O
+5	B-NUM
+%	O
+,	O
+자동차	B-AFW
+부문이	O
+72	B-NUM
+.	O
+3	B-NUM
+%	I-NUM
+를	O
+차지하고	O
+있다	O
+.	O
+
+아진산업
+아진산업(AJIN Industrial Co., Ltd.)는 대한민국의 코스닥상장 자동차부품 기업이다.
+아진산업	B-ORG
+(	B-TRM
+AJIN	B-ORG
+Industrial	I-ORG
+Co	I-ORG
+.	I-ORG
+,	O
+Ltd	I-ORG
+.	I-ORG
+)	O
+는	O
+대한민국의	B-LOC
+코스닥상장	B-ORG
+자동차부품	B-TRM
+기업이다	O
+.	O
+
+아진산업
+차체 부품뿐만 아니라 자동차 전장 부품인 차량용 블랙박스, 어라운드 뷰(AVM) 등 자동차 IT부품 기술력을 자체적으로 보유하고 있다.
+차체	O
+부품뿐만	O
+아니라	O
+자동차	B-AFW
+전장	O
+부품인	O
+차량용	B-AFW
+블랙박스	B-AFW
+,	O
+어라운드	B-TRM
+뷰	I-TRM
+(	I-TRM
+AVM	I-TRM
+)	O
+등	O
+자동차	B-AFW
+IT부품	B-TRM
+기술력을	O
+자체적으로	O
+보유하고	O
+있다	O
+.	O
+
+펄어비스
+펄어비스의 인재상은 집요, 야성, 신뢰로 알려져 있다.
+펄어비스의	B-ORG
+인재상은	O
+집요	O
+,	O
+야성	O
+,	O
+신뢰로	O
+알려져	O
+있다	O
+.	O
+
+펄어비스
+2018년 2월, 대한민국에 검은사막 모바일을 출시했다.
+2018년	B-DAT
+2월	I-DAT
+,	O
+대한민국에	B-LOC
+검은사막	B-TRM
+모바일을	B-TRM
+출시했다	O
+.	O
+
+시어스 홀딩스
+소매점 브랜드 시어스와 케이마트를 소유하고 있으며 2005년 후자가 전자를 인수한 이후 설립되었다.
+소매점	O
+브랜드	O
+시어스와	B-ORG
+케이마트를	B-ORG
+소유하고	O
+있으며	O
+2005년	B-NUM
+후자가	O
+전자를	B-ORG
+인수한	O
+이후	O
+설립되었다	O
+.	O
+
+시어스 홀딩스
+시어스 홀딩스는 또한 켄모어와 다이하드라는 브랜드도 소유하고 있다.
+시어스	B-ORG
+홀딩스는	I-ORG
+또한	O
+켄모어와	B-ORG
+다이하드라는	B-ORG
+브랜드도	O
+소유하고	O
+있다	O
+.	O
+
+시어스 홀딩스
+2015년 기준으로 미국에서 20번째로 큰 소매 기업이다.
+2015년	B-NUM
+기준으로	O
+미국에서	B-LOC
+20번째로	B-NUM
+큰	O
+소매	O
+기업이다	O
+.	O
+
+머니그램
+머니그램 인터내셔널(MoneyGram International Inc.)은 미국의 자금 이체 기업으로, 텍사스 주 댈러스에 본사를 두고 있다.
+머니그램	B-ORG
+인터내셔널	I-ORG
+(	B-ORG
+MoneyGram	I-ORG
+International	I-ORG
+Inc	I-ORG
+.	O
+)	O
+은	O
+미국의	B-LOC
+자금	O
+이체	O
+기업으로	O
+,	O
+텍사스	B-LOC
+주	O
+댈러스에	B-LOC
+본사를	O
+두고	O
+있다	O
+.	O
+
+머니그램
+이 기업은 대리와 금융 기관망을 통해 개인과 사업체에 서비스를 제공한다.
+이	O
+기업은	O
+대리와	B-CVL
+금융	O
+기관망을	O
+통해	O
+개인과	O
+사업체에	O
+서비스를	O
+제공한다	O
+.	O
+
+머니그램
+머니그램은 세계에서 2번째로 큰 자금 이체 제공자이다.
+머니그램은	B-TRM
+세계에서	O
+2번째로	B-NUM
+큰	O
+자금	O
+이체	O
+제공자이다	O
+.	O
+
+머니그램
+이 기업은 약 347,000개의 대리 사무소 글로벌 네트워크에 200개 이상의 국가에서 운영되고 있다.
+이	O
+기업은	O
+약	B-NUM
+347	I-NUM
+,	I-NUM
+000개의	I-NUM
+대리	O
+사무소	O
+글로벌	O
+네트워크에	O
+200개	B-NUM
+이상의	O
+국가에서	O
+운영되고	O
+있다	O
+.	O
+
+AK홀딩스
+AK홀딩스는 대한민국의 지주회사로 주요종속회사로 애경산업, 애경유화, 애경유지공업, 제주항공이 있다.
+AK홀딩스는	B-ORG
+대한민국의	B-LOC
+지주회사로	O
+주요종속회사로	O
+애경산업	B-ORG
+,	O
+애경유화	B-ORG
+,	O
+애경유지공업	B-ORG
+,	O
+제주항공이	B-ORG
+있다	O
+.	O
+
+크록스
+크록스()는 미국의 신발 회사로, 주로 고무신 제품을 제조 및 판매한다.
+크록스	B-ORG
+(	B-ORG
+)	O
+는	O
+미국의	B-LOC
+신발	O
+회사로	O
+,	O
+주로	O
+고무신	O
+제품을	O
+제조	O
+및	O
+판매한다	O
+.	O
+
+F5 네트웍스
+F5 네트웍스는 애플리케이션 서비스를 전문으로하는 글로벌 기업이다.
+F5	B-ORG
+네트웍스는	I-ORG
+애플리케이션	O
+서비스를	O
+전문으로하는	O
+글로벌	O
+기업이다	O
+.	O
+
+F5 네트웍스
+F5는 워싱턴 시애틀에 본사를두고 있으며 전 세계적으로 개발, 제조, 영업, 마케팅 지점이 있다.
+F5는	B-ORG
+워싱턴	B-LOC
+시애틀에	B-LOC
+본사를두고	O
+있으며	O
+전	O
+세계적으로	O
+개발	O
+,	O
+제조	O
+,	O
+영업	O
+,	O
+마케팅	O
+지점이	O
+있다	O
+.	O
+
+CJ ENM
+주로 영화를 수입하고 있으며, 배급은 CJ 엔터테인먼트에서 배급하고 있다.
+주로	O
+영화를	B-FLD
+수입하고	O
+있으며	O
+,	O
+배급은	O
+CJ	B-ORG
+엔터테인먼트에서	O
+배급하고	O
+있다	O
+.	O
+
+CJ ENM
+CJ ENM의 전신인 39쇼핑은 1994년 10월 홈쇼핑 사업자로 선정되어 1995년 8월 1일 대한민국에서 최초로 홈쇼핑 채널을 개국하였다.
+CJ	B-ORG
+ENM의	I-ORG
+전신인	O
+39쇼핑은	B-NUM
+1994년	B-DAT
+10월	I-DAT
+홈쇼핑	O
+사업자로	O
+선정되어	O
+1995년	B-DAT
+8월	I-DAT
+1일	I-DAT
+대한민국에서	B-LOC
+최초로	O
+홈쇼핑	O
+채널을	O
+개국하였다	O
+.	O
+
+실리콘 이미지
+실리콘 이미지는 다른 기업들과 협력하여 DVI, HDMI, MHL, WirelessHD 등의 일부 글로벌 산업 표준을 만들어나가는 일을 추진하고 있다.
+실리콘	B-TRM
+이미지는	I-TRM
+다른	O
+기업들과	O
+협력하여	O
+DVI	B-TRM
+,	O
+HDMI	B-TRM
+,	O
+MHL	B-TRM
+,	O
+WirelessHD	B-TRM
+등의	O
+일부	O
+글로벌	O
+산업	O
+표준을	O
+만들어나가는	O
+일을	O
+추진하고	O
+있다	O
+.	O
+
+실리콘 이미지
+본사는 서니베일에 있으며 직원 수는 전 세계적으로 대략 600명 정도이고 인도, 중국, 일본, 한국, 타이완에 지역 사무소를 두고 있다.
+본사는	O
+서니베일에	B-LOC
+있으며	O
+직원	O
+수는	O
+전	O
+세계적으로	O
+대략	O
+600명	B-NUM
+정도이고	O
+인도	B-LOC
+,	O
+중국	B-LOC
+,	O
+일본	B-LOC
+,	O
+한국	B-LOC
+,	O
+타이완에	B-LOC
+지역	O
+사무소를	O
+두고	O
+있다	O
+.	O
+
+케링
+1988년 파리의 유로넥스트에 상장되었다.
+1988년	B-TIM
+파리의	B-LOC
+유로넥스트에	B-ORG
+상장되었다	O
+.	O
+
+케링
+1985년부터 프랑수아 피노 명예회장의 아들인 프랑수아 앙리 피노가 그룹 회장을 맡고 있다.
+1985년부터	B-TIM
+프랑수아	B-PER
+피노	I-PER
+명예회장의	B-CVL
+아들인	B-CVL
+프랑수아	B-PER
+앙리	I-PER
+피노가	I-PER
+그룹	O
+회장을	B-CVL
+맡고	O
+있다	O
+.	O
+
+케링
+1999년 이탈리아 명품 브랜드 구찌를 인수했다.
+1999년	B-DAT
+이탈리아	B-LOC
+명품	O
+브랜드	O
+구찌를	B-ORG
+인수했다	O
+.	O
+
+케링
+2017년 케링 그룹의 구찌는 에르메스를 제치고 루이비통에 이어 매출 기준 세계 2위 명품 브랜드로 떠올랐다.
+2017년	B-NUM
+케링	B-ORG
+그룹의	I-ORG
+구찌는	B-CVL
+에르메스를	B-ORG
+제치고	O
+루이비통에	B-ORG
+이어	O
+매출	O
+기준	O
+세계	O
+2위	B-NUM
+명품	O
+브랜드로	O
+떠올랐다	O
+.	O
+
+케링
+그룹의 주요 브랜드인 구찌의 매출액은 2017년 42%, 2018년 33% 성장했으며, 영업이익은 2017, 2018년 각각 69%, 54% 증가했다.
+그룹의	O
+주요	O
+브랜드인	O
+구찌의	B-ORG
+매출액은	O
+2017년	B-DAT
+42	B-NUM
+%	I-NUM
+,	O
+2018년	B-DAT
+33	B-NUM
+%	O
+성장했으며	O
+,	O
+영업이익은	O
+2017	B-DAT
+,	O
+2018년	I-DAT
+각각	O
+69	B-NUM
+%	O
+,	O
+54	B-NUM
+%	O
+증가했다	O
+.	O
+
+케링
+구찌는 2015년 무명 디자이너인 알렌산드로 미켈레를 크리에이티브 디렉터로 임명하면서 기하급수적인 성장을 했다.
+구찌는	B-PER
+2015년	B-NUM
+무명	O
+디자이너인	B-CVL
+알렌산드로	B-PER
+미켈레를	I-PER
+크리에이티브	O
+디렉터로	O
+임명하면서	O
+기하급수적인	O
+성장을	O
+했다	O
+.	O
+
+케링
+2019년 노트르담 대성당 화재가 발생하자, 케링 그룹 프랑수아 앙리 피노 회장이 복구비용으로 1억 유로(약 1280억원)를 기부했다.
+2019년	B-DAT
+노트르담	B-AFW
+대성당	B-AFW
+화재가	O
+발생하자	O
+,	O
+케링	B-ORG
+그룹	I-ORG
+프랑수아	B-PER
+앙리	I-PER
+피노	I-PER
+회장이	B-CVL
+복구비용으로	O
+1억	B-NUM
+유로	I-NUM
+(	O
+약	O
+1280억원	B-NUM
+)	O
+를	O
+기부했다	O
+.	O
+
+흥아해운
+흥아해운(Heung-A Shipping Co., Ltd., 興亞海運)은 대한민국의 해운 전문 회사이다.
+흥아해운	B-ORG
+(	O
+Heung	B-AFW
+-	O
+A	O
+Shipping	I-AFW
+Co	I-ORG
+.	O
+,	O
+Ltd	B-ORG
+.	O
+,	O
+興	B-LOC
+亞	B-AFW
+海	B-AFW
+運	I-AFW
+)	O
+은	O
+대한민국의	B-LOC
+해운	O
+전문	O
+회사이다	O
+.	O
+
+흥아해운
+이 회사는 1961년 12월 8일 부산광역시(당시 시의 명칭은 경상남도 부산시)에서 설립된 기업이다.
+이	O
+회사는	O
+1961년	B-NUM
+12월	I-DAT
+8일	I-DAT
+부산광역시	B-LOC
+(	O
+당시	O
+시의	O
+명칭은	O
+경상남도	B-LOC
+부산시	B-LOC
+)	O
+에서	O
+설립된	O
+기업이다	O
+.	O
+
+흥아해운
+현재 흥아해운의 본사는 서울특별시 중구 남대문로9길 39, 8층 (을지로1가, 부림빌딩)에 있다.
+현재	O
+흥아해운의	B-ORG
+본사는	O
+서울특별시	B-LOC
+중구	B-LOC
+남대문로9길	B-AFW
+39	B-NUM
+,	I-NUM
+8층	I-NUM
+(	B-AFW
+을지로1가	B-AFW
+,	O
+부림빌딩	B-AFW
+)	O
+에	O
+있다	O
+.	O
+
+AXA
+AXA는 프랑스의 보험 금융 그룹이다.
+AXA는	B-ORG
+프랑스의	B-LOC
+보험	O
+금융	O
+그룹이다	O
+.	O
+
+루이싱커피
+루이싱커피(, )는 중국의 커피 전문점이다.
+루이싱커피	B-ORG
+(	O
+,	O
+)	O
+는	O
+중국의	B-LOC
+커피	O
+전문점이다	O
+.	O
+
+루이싱커피
+2017년 12월까지 루이싱커피 매장이 문을 열었고 2019년 말까지 중국 내에 설치된 스타벅스 매장을 추월하는 고속 성장 전략을 시작했다.
+2017년	B-DAT
+12월까지	I-DAT
+루이싱커피	B-ORG
+매장이	O
+문을	O
+열었고	O
+2019년	B-NUM
+말까지	I-DAT
+중국	B-LOC
+내에	O
+설치된	O
+스타벅스	B-AFW
+매장을	O
+추월하는	O
+고속	O
+성장	O
+전략을	O
+시작했다	O
+.	O
+
+루이싱커피
+2018년 1월 1일에는 베이징시, 상하이시에 점포를 설립했고 2018년 5월 8일에는 525개 매장이 문을 열었다.
+2018년	B-DAT
+1월	I-DAT
+1일에는	I-DAT
+베이징시	B-LOC
+,	O
+상하이시에	B-LOC
+점포를	O
+설립했고	O
+2018년	B-DAT
+5월	I-DAT
+8일에는	I-DAT
+525개	B-NUM
+매장이	I-NUM
+문을	O
+열었다	O
+.	O
+
+루이싱커피
+2018년 8월에는 809개 점포가 문을 열었다.
+2018년	B-DAT
+8월에는	I-DAT
+809개	B-NUM
+점포가	O
+문을	O
+열었다	O
+.	O
+
+루이싱커피
+2018년 9월 6일에는 텐센트와 전략적 협정을 체결하고 자금성 내에 설치된 유일한 커피 전문점을 개설했다.
+2018년	B-DAT
+9월	I-DAT
+6일에는	I-DAT
+텐센트와	B-ORG
+전략적	O
+협정을	O
+체결하고	O
+자금성	B-LOC
+내에	O
+설치된	O
+유일한	O
+커피	O
+전문점을	O
+개설했다	O
+.	O
+
+루이싱커피
+2019년 5월 16일에는 나스닥에 상장되면서 거래를 시작했다.
+2019년	B-NUM
+5월	I-DAT
+16일에는	I-DAT
+나스닥에	B-ORG
+상장되면서	O
+거래를	O
+시작했다	O
+.	O
+
+게놈 헬스
+게놈 헬스(Genomic Health)는 미국 캘리포니아주 레드우드시티에 본사가 있는 기업이다.
+게놈	B-ORG
+헬스	I-ORG
+(	I-ORG
+Genomic	I-ORG
+Health	I-ORG
+)	I-ORG
+는	O
+미국	B-LOC
+캘리포니아주	B-LOC
+레드우드시티에	B-LOC
+본사가	O
+있는	O
+기업이다	O
+.	O
+
+게놈 헬스
+암 검진의 유전학적 분석을 전문으로 하고 있다.
+암	B-TRM
+검진의	O
+유전학적	O
+분석을	O
+전문으로	O
+하고	O
+있다	O
+.	O
+
+게놈 헬스
+랜디 스콧은 친한 친구가 암 진단을 받은 후 암의 특정 유전자에 따른 치료에 대한 아이디어를 기반으로 회사를 설립하였다.
+랜디	B-PER
+스콧은	I-PER
+친한	O
+친구가	B-CVL
+암	B-TRM
+진단을	O
+받은	O
+후	O
+암의	B-TRM
+특정	O
+유전자에	B-TRM
+따른	O
+치료에	O
+대한	O
+아이디어를	O
+기반으로	O
+회사를	O
+설립하였다	O
+.	O
+
+게놈 헬스
+2003년까지 게놈 헬스는 유방암 재발의 가능성을 정량화한 게놈 분석인 Oncotype DX를 개발했다.
+2003년까지	B-DAT
+게놈	B-TRM
+헬스는	I-TRM
+유방암	B-TRM
+재발의	O
+가능성을	O
+정량화한	O
+게놈	O
+분석인	O
+Oncotype	B-TRM
+DX를	I-TRM
+개발했다	O
+.	O
+
+게놈 헬스
+게놈 헬스는 암 진단 외에도 여러 유전학 테스트를 종합하는 목적으로 2010년에 자회사 Invitae를 창설했다.
+게놈	B-TRM
+헬스는	I-TRM
+암	B-TRM
+진단	O
+외에도	O
+여러	O
+유전학	O
+테스트를	O
+종합하는	O
+목적으로	O
+2010년에	B-DAT
+자회사	O
+Invitae를	B-ORG
+창설했다	O
+.	O
+
+이그젝트 사이언스
+이그젝트 사이언스(Exact Sciences Corp.)는 대장암 조기발견 및 예방에 초점을 둔 분자진단 회사이다.
+이그젝트	B-TRM
+사이언스	I-TRM
+(	O
+Exact	I-ORG
+Sciences	I-ORG
+Corp	I-ORG
+.	O
+)	O
+는	O
+대장암	B-TRM
+조기발견	O
+및	O
+예방에	O
+초점을	O
+둔	O
+분자진단	O
+회사이다	O
+.	O
+
+이그젝트 사이언스
+Exact Sciences Corp.은 대변을 이용하여 대장암을 진단하는 DNA 검사인 Cologuard를 2014년에 출시했다.
+Exact	O
+Sciences	O
+Corp	O
+.	O
+은	O
+대변을	O
+이용하여	O
+대장암을	B-TRM
+진단하는	O
+DNA	B-TRM
+검사인	O
+Cologuard를	B-TRM
+2014년에	B-NUM
+출시했다	O
+.	O
+
+이그젝트 사이언스
+2001년 1월, 이 회사는 NASDAQ에서 상장되었다.
+2001년	B-DAT
+1월	I-DAT
+,	O
+이	O
+회사는	O
+NASDAQ에서	B-ORG
+상장되었다	O
+.	O
+
+이그젝트 사이언스
+2009년 3월 Kevin Conroy는 Exact Sciences에 CEO 겸 사장으로 취임하였다.
+2009년	B-DAT
+3월	I-DAT
+Kevin	B-ORG
+Conroy는	I-ORG
+Exact	B-ORG
+Sciences에	I-ORG
+CEO	B-CVL
+겸	O
+사장으로	B-CVL
+취임하였다	O
+.	O
+
+이그젝트 사이언스
+2018년 1월 J.P Morgan Healthcare Conference에서 Exact Sciences는 미시간 주 칼라 마주와 앤아버에 기반을 둔 암 진단 개발 업체 인 Armune Bioscience를 인수했다고 발표하였다 [17].
+2018년	B-DAT
+1월	I-DAT
+J	B-ORG
+.	I-ORG
+P	I-ORG
+Morgan	I-ORG
+Healthcare	I-ORG
+Conference에서	I-ORG
+Exact	B-ORG
+Sciences는	I-ORG
+미시간	B-LOC
+주	B-LOC
+칼라	B-ORG
+마주와	I-ORG
+앤아버에	B-ORG
+기반을	O
+둔	O
+암	B-TRM
+진단	I-TRM
+개발	O
+업체	O
+인	O
+Armune	B-ORG
+Bioscience를	I-ORG
+인수했다고	O
+발표하였다	O
+[	B-NUM
+17	B-NUM
+]	O
+.	O
+
+이그젝트 사이언스
+2019년 7월, 최대 인수인 Exact Sciences는 캘리포니아 주 레드 우드 시티에 기반을 둔 유전자 암 탐지 회사 인 Genomic Health를 28억 달러에 인수하겠다고 발표하였다 [24] [25] [26].
+2019년	B-NUM
+7월	I-DAT
+,	O
+최대	O
+인수인	O
+Exact	B-ORG
+Sciences는	I-ORG
+캘리포니아	B-LOC
+주	B-LOC
+레드	B-LOC
+우드	I-LOC
+시티에	I-AFW
+기반을	O
+둔	O
+유전자	B-TRM
+암	I-TRM
+탐지	I-TRM
+회사	O
+인	O
+Genomic	B-ORG
+Health를	I-ORG
+28억	B-NUM
+달러에	I-NUM
+인수하겠다고	O
+발표하였다	O
+[	B-NUM
+24	B-NUM
+]	B-NUM
+[	B-NUM
+25	B-NUM
+]	B-NUM
+[	B-NUM
+26	B-NUM
+]	O
+.	O
+
+이그젝트 사이언스
+2020년 10월 Exact Sciences는 혈액 기반 암 검진을 전문으로하는 회사 Thrive Earlier Detection Corp.
+2020년	B-DAT
+10월	I-DAT
+Exact	B-ORG
+Sciences는	I-ORG
+혈액	B-TRM
+기반	O
+암	B-TRM
+검진을	O
+전문으로하는	O
+회사	O
+Thrive	B-TRM
+Earlier	I-TRM
+Detection	I-TRM
+Corp	I-ORG
+.	O
+
+이그젝트 사이언스
+2014년 8월 미국 식품의약국 (US FDA)은 대장암과 조기대장암 의 발견을 위해 Cologuard 라고 불리는 회사의 다대상 대변 DNA 스크리닝 검사 (multitarget stool DNA screening test)를 승인했다.
+2014년	B-NUM
+8월	I-DAT
+미국	B-LOC
+식품의약국	B-ORG
+(	B-ORG
+US	B-ORG
+FDA	I-ORG
+)	O
+은	O
+대장암과	B-TRM
+조기대장암	I-TRM
+의	O
+발견을	O
+위해	O
+Cologuard	B-TRM
+라고	O
+불리는	O
+회사의	O
+다대상	O
+대변	I-TRM
+DNA	B-TRM
+스크리닝	I-TRM
+검사	I-TRM
+(	B-TRM
+multitarget	I-TRM
+stool	I-TRM
+DNA	I-TRM
+screening	I-TRM
+test	I-TRM
+)	O
+를	O
+승인했다	O
+.	O
+
+라온피플
+2010년 1월 18일 설립 후 지속적 성장을 이어가며 2019년 10월 18일 대한민국 주식시장 코스닥에 상장하였다.
+2010년	B-DAT
+1월	I-DAT
+18일	I-DAT
+설립	O
+후	O
+지속적	O
+성장을	O
+이어가며	O
+2019년	B-DAT
+10월	I-DAT
+18일	I-DAT
+대한민국	B-LOC
+주식시장	O
+코스닥에	B-ORG
+상장하였다	O
+.	O
+
+라온피플
+본사는 경기도 분당시 판교로 723 에 있다.
+본사는	O
+경기도	B-LOC
+분당시	B-LOC
+판교로	B-AFW
+723	I-AFW
+에	O
+있다	O
+.	O
+
+라온피플
+응용 소프트웨어 개발 및 공급업으로 업종 분류되어 있다.<br>.
+응용	O
+소프트웨어	O
+개발	O
+및	O
+공급업으로	O
+업종	O
+분류되어	O
+있다	O
+.	O
+<	O
+br	O
+>	O
+.	O
+
+비오메리유
+이 제품은 전염병 진단, 암 검진 및 모니터링, 그리고 응급 상황에서의 심혈관 진단에 사용된다.
+이	O
+제품은	O
+전염병	B-TRM
+진단	O
+,	O
+암	B-TRM
+검진	O
+및	O
+모니터링	O
+,	O
+그리고	O
+응급	O
+상황에서의	O
+심혈관	B-TRM
+진단에	O
+사용된다	O
+.	O
+
+비오메리유
+Alexandre Mérieux는 총괄 이사이다.
+Alexandre	B-ORG
+Mérieux는	I-CVL
+총괄	B-CVL
+이사이다	I-CVL
+.	O
+
+줌 비디오 커뮤니케이션
+전 시스코시스템 엔지니어이자 임원이었던 에릭 유안은 2011년에 줌을 설립하고 2013년에 소프트웨어를 출시했다.
+전	O
+시스코시스템	B-ORG
+엔지니어이자	B-CVL
+임원이었던	B-CVL
+에릭	B-PER
+유안은	I-PER
+2011년에	B-DAT
+줌을	B-ORG
+설립하고	O
+2013년에	B-NUM
+소프트웨어를	B-TRM
+출시했다	O
+.	O
+
+줌 비디오 커뮤니케이션
+2019년 12월 이후 코로나19 범유행으로 온라인 개학을 실시한 학생들이 늘어남에 따라 이용자가 급증했다.
+2019년	B-NUM
+12월	I-DAT
+이후	I-DAT
+코로나19	B-ORG
+범유행으로	O
+온라인	O
+개학을	O
+실시한	O
+학생들이	B-CVL
+늘어남에	O
+따라	O
+이용자가	O
+급증했다	O
+.	O
+
+줌 비디오 커뮤니케이션
+이 회사는 거래 첫날이 끝날 무렵 미화 160억 달러.
+이	O
+회사는	O
+거래	O
+첫날이	B-DAT
+끝날	O
+무렵	O
+미화	B-NUM
+160억	I-NUM
+달러	I-NUM
+.	O
+
+줌 비디오 커뮤니케이션
+COVID-19 유행 기간 동안 Zoom은 원격 근무, 원격 교육 및 온라인 사회 관계에 대한 사용이 크게 증가했다.
+COVID	B-ORG
+-	B-NUM
+19	I-NUM
+유행	O
+기간	O
+동안	O
+Zoom은	B-TRM
+원격	O
+근무	O
+,	O
+원격	O
+교육	O
+및	O
+온라인	O
+사회	O
+관계에	O
+대한	O
+사용이	O
+크게	O
+증가했다	O
+.	O
+
+줌 비디오 커뮤니케이션
+2020년에 635% 증가한 후 Zoom은 COVID-19 대유행 기간에 사용 된 가장 유명한 화상 회의 앱이 되었다.
+2020년에	B-DAT
+635	B-NUM
+%	O
+증가한	O
+후	O
+Zoom은	B-TRM
+COVID	B-TRM
+-	O
+19	I-NUM
+대유행	O
+기간에	O
+사용	O
+된	O
+가장	O
+유명한	O
+화상	B-TRM
+회의	I-TRM
+앱이	O
+되었다	O
+.	O
+
+줌 비디오 커뮤니케이션
+2020년 10월 Zoom의 시가 총액은 1,400억 달러를 넘어서 130년이 넘는 역사의 ExxonMobil이 평가했다.
+2020년	B-DAT
+10월	I-DAT
+Zoom의	B-ORG
+시가	O
+총액은	O
+1	B-NUM
+,	I-NUM
+400억	I-NUM
+달러를	I-NUM
+넘어서	O
+130년이	B-DAT
+넘는	O
+역사의	O
+ExxonMobil이	O
+평가했다	O
+.	O
+
+씨젠
+바이러스성 호흡기 질환의 하나인 코로나바이러스감염증-19의 진단 키트를 개발해낸 회사로 잘 알려져 있다.
+바이러스성	O
+호흡기	O
+질환의	O
+하나인	B-NUM
+코로나바이러스감염증	B-TRM
+-	B-NUM
+19의	B-NUM
+진단	O
+키트를	O
+개발해낸	O
+회사로	O
+잘	O
+알려져	O
+있다	O
+.	O
+
+씨젠
+( 2020.08 기준 )[https://pubmed.ncbi.nlm.nih.gov/?term=SEEGENE].
+(	B-NUM
+2020	B-NUM
+.	O
+08	O
+기준	O
+)	O
+[	O
+https	O
+:	O
+/	O
+/	O
+pubmed	O
+.	O
+ncbi	O
+.	O
+nlm	O
+.	O
+nih	O
+.	O
+gov	O
+/	O
+?	O
+term	O
+=	O
+SEEGENE	B-ORG
+]	O
+.	O
+
+씨젠
+코로나 진단 장비, 키트 뿐만 아니라 RSV·HPV 외 분자진단시장 관련돼서는 많은 활용 이 된다.
+코로나	B-LOC
+진단	O
+장비	O
+,	O
+키트	O
+뿐만	O
+아니라	O
+RSV	B-TRM
+·	O
+HPV	B-TRM
+외	O
+분자진단시장	B-TRM
+관련돼서는	O
+많은	O
+활용	O
+이	O
+된다	O
+.	O
+
+SBS콘텐츠허브
+주식회사 SBS콘텐츠허브()는 서울특별시 마포구 상암산로 82에 본사를 둔 영화, 비디오물, 방송프로그램 제작 및 배급업이다.
+주식회사	O
+SBS콘텐츠허브	B-ORG
+(	I-ORG
+)	O
+는	O
+서울특별시	B-LOC
+마포구	B-LOC
+상암산로	B-AFW
+82에	I-AFW
+본사를	O
+둔	O
+영화	B-FLD
+,	O
+비디오물	B-FLD
+,	O
+방송프로그램	O
+제작	O
+및	O
+배급업이다	O
+.	O
+
+텍사스 로드하우스
+음식점은 미국 외에도 사우디아라비아, 쿠웨이트, 바레인, 아랍에미리트, 카타르, 필리핀, 멕시코, 타이완, 대한민국에 지점이 있다.
+음식점은	O
+미국	B-LOC
+외에도	O
+사우디아라비아	B-LOC
+,	O
+쿠웨이트	B-LOC
+,	O
+바레인	B-LOC
+,	O
+아랍에미리트	B-LOC
+,	O
+카타르	B-LOC
+,	O
+필리핀	B-LOC
+,	O
+멕시코	B-LOC
+,	O
+타이완	B-LOC
+,	O
+대한민국에	B-LOC
+지점이	O
+있다	O
+.	O
+
+메타 (기업)
+설립자 마크 저커버그의 모습.
+설립자	B-CVL
+마크	B-PER
+저커버그의	I-PER
+모습	O
+.	O
+
+메타 (기업)
+캘리포니아 멘로파크에 있는 메타 본사 단지 입구.
+캘리포니아	B-LOC
+멘로파크에	B-LOC
+있는	O
+메타	B-ORG
+본사	O
+단지	O
+입구	O
+.	O
+
+메타 (기업)
+메타 플랫폼스(Meta Platforms, Inc.)는 미국 캘리포니아주 멘로파크에 본사를 둔 미국 정보기술 대기업이다.
+메타	B-TRM
+플랫폼스	I-TRM
+(	B-TRM
+Meta	I-TRM
+Platforms	I-TRM
+,	O
+Inc	B-ORG
+.	O
+)	O
+는	O
+미국	B-LOC
+캘리포니아주	B-LOC
+멘로파크에	B-LOC
+본사를	O
+둔	O
+미국	B-LOC
+정보기술	B-TRM
+대기업이다	O
+.	O
+
+메타 (기업)
+2004년 '페이스북'(Facebook Inc.)으로 설립되어, 2021년 10월 28일 현재의 사명으로 변경되었다.
+2004년	B-DAT
+'	B-ORG
+페이스북	B-ORG
+'	O
+(	B-TRM
+Facebook	B-TRM
+Inc	I-ORG
+.	O
+)	O
+으로	O
+설립되어	O
+,	O
+2021년	B-DAT
+10월	I-DAT
+28일	I-DAT
+현재의	O
+사명으로	O
+변경되었다	O
+.	O
+
+루시드 모터스
+2020년 현재 첫 번째 자동차인 루시드 에어가 개발하고 있다.
+2020년	B-TIM
+현재	O
+첫	B-NUM
+번째	I-NUM
+자동차인	B-AFW
+루시드	B-AFW
+에어가	I-AFW
+개발하고	O
+있다	O
+.	O
+
+루시드 모터스
+Tsing Capital, Mitsui, Venrock, JAFCO 등으로부터 2016년까지 약 1억 3천 1백만 달러를 투자했습니다.
+Tsing	O
+Capital	O
+,	O
+Mitsui	O
+,	O
+Venrock	O
+,	O
+JAFCO	B-ORG
+등으로부터	O
+2016년까지	B-NUM
+약	O
+1억	B-NUM
+3천	I-NUM
+1백만	I-NUM
+달러를	I-NUM
+투자했습니다	O
+.	O
+
+루시드 모터스
+CEO Rawlinson은 2023년까지 Project Gravity SUV를 생산하고, 2024년 또는 2025년까지 Tesla의 모델 3에 경쟁업체를 제공하겠다는 Lucid의 의사를 밝혔다.
+CEO	B-CVL
+Rawlinson은	B-PER
+2023년까지	B-DAT
+Project	B-AFW
+Gravity	I-AFW
+SUV를	I-AFW
+생산하고	O
+,	O
+2024년	B-NUM
+또는	O
+2025년까지	I-DAT
+Tesla의	B-ORG
+모델	O
+3에	B-NUM
+경쟁업체를	O
+제공하겠다는	O
+Lucid의	B-ORG
+의사를	O
+밝혔다	O
+.	O
+
+SK바이오사이언스
+L하우스는 CEPI(세계감염병연합)의 차세대 코로나19 백신 지원 프로그램인 Wave2 프로젝트 최초 피선별자이며 백신 개발이 완료되면 코백스 퍼실리티(COVAX facility)를 통해 수억회 접종 물량을 전세계에 공급할 수 있는 가동능력을 보유한 곳이다.
+L하우스는	B-ORG
+CEPI	B-ORG
+(	B-ORG
+세계감염병연합	B-ORG
+)	O
+의	O
+차세대	O
+코로나19	B-TRM
+백신	I-TRM
+지원	O
+프로그램인	O
+Wave2	B-TRM
+프로젝트	I-TRM
+최초	O
+피선별자이며	B-CVL
+백신	O
+개발이	O
+완료되면	O
+코백스	B-TRM
+퍼실리티	I-TRM
+(	B-TRM
+COVAX	B-TRM
+facility	I-TRM
+)	O
+를	O
+통해	O
+수억회	B-NUM
+접종	O
+물량을	O
+전세계에	O
+공급할	O
+수	O
+있는	O
+가동능력을	O
+보유한	O
+곳이다	O
+.	O
+
+SK바이오사이언스
+SK바이오사이언스는 현재 아스트라제네카사의 코로나19 백신 1종을 위탁생산, 1종은 기술이전을 받아 생산하고 있다.
+SK바이오사이언스는	B-ORG
+현재	O
+아스트라제네카사의	B-ORG
+코로나19	B-TRM
+백신	I-NUM
+1종을	B-NUM
+위탁생산	O
+,	O
+1종은	B-NUM
+기술이전을	O
+받아	O
+생산하고	O
+있다	O
+.	O
+
+Glu 모바일
+2005년 캘리포니아에 설립된 Glu는 자바 플랫폼을 기반으로 하는 구글 크롬, 윈도우 폰, 안드로이드와 아마존 등에 제품을 제공한다.
+2005년	B-DAT
+캘리포니아에	B-LOC
+설립된	O
+Glu는	B-ORG
+자바	B-TRM
+플랫폼을	O
+기반으로	O
+하는	O
+구글	B-ORG
+크롬	B-TRM
+,	O
+윈도우	B-TRM
+폰	I-TRM
+,	O
+안드로이드와	B-ORG
+아마존	B-ORG
+등에	O
+제품을	O
+제공한다	O
+.	O
+
+리비안
+R1(원래 이름은 Avera)은 디자인 디렉터 Peter Stevens가 디자인한 미국 시장을 위한 2+2 좌석이 있는 미드 엔진 하이브리드 쿠페였다.
+R1	B-CVL
+(	O
+원래	O
+이름은	O
+Avera	O
+)	O
+은	O
+디자인	O
+디렉터	O
+Peter	B-PER
+Stevens가	I-PER
+디자인한	O
+미국	B-LOC
+시장을	O
+위한	O
+2	B-TRM
++	I-TRM
+2	I-TRM
+좌석이	O
+있는	O
+미드	B-AFW
+엔진	I-AFW
+하이브리드	I-AFW
+쿠페였다	I-AFW
+.	O
+
+리비안
+본체와 쉽게 교체할 수 있는 본체 패널에 새로운 모듈식 캡슐 구조를 사용했다.
+본체와	O
+쉽게	O
+교체할	O
+수	O
+있는	O
+본체	O
+패널에	O
+새로운	O
+모듈식	O
+캡슐	O
+구조를	O
+사용했다	O
+.	O
+
+리비안
+생산은 2013년 말에서 2014년 초 사이에 시작될 것으로 예상되었으며 잠재적인 디젤 하이브리드 버전과 브라질 원메이크 시리즈의 R1 GT라는 레이싱 버전이 있다.
+생산은	O
+2013년	B-DAT
+말에서	I-DAT
+2014년	B-NUM
+초	I-DAT
+사이에	O
+시작될	O
+것으로	O
+예상되었으며	O
+잠재적인	O
+디젤	B-TRM
+하이브리드	I-TRM
+버전과	O
+브라질	B-LOC
+원메이크	B-TRM
+시리즈의	O
+R1	B-TRM
+GT라는	I-TRM
+레이싱	O
+버전이	O
+있다	O
+.	O
+
+리비안
+리비안은 2021년 10월 첫 번째 양산 차량인 R1T 트럭을 고객에게 인도하기 시작했다.
+리비안은	B-PER
+2021년	B-DAT
+10월	I-DAT
+첫	B-NUM
+번째	I-NUM
+양산	O
+차량인	O
+R1T	B-AFW
+트럭을	I-AFW
+고객에게	B-CVL
+인도하기	O
+시작했다	O
+.	O
+
+바이오솔루션
+바이오솔루션은 현재 비뇨기과 전문의 장송선이 경영을 맡고 있는 세포치료제 연구 기업이다.
+바이오솔루션은	B-TRM
+현재	O
+비뇨기과	B-ORG
+전문의	O
+장송선이	B-PER
+경영을	O
+맡고	O
+있는	O
+세포치료제	B-TRM
+연구	O
+기업이다	O
 .	O

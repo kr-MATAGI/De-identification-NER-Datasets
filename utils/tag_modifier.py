@@ -42,11 +42,8 @@ def convert_tag(src_path: str, save_path: str):
 #### Main
 if "__main__" == __name__:
     target_category = "person"
-    src_dir = "../data/model_output"
-    save_dir = "../data/tag_conv"
-    src_file_list = list(filter(lambda x: True if target_category in x else False, os.listdir(src_dir)))
+    src_path = "../data/merge/test_merge.txt"
+    save_path = "../data/test_conv_merge.txt"
 
-    for src_idx, src_file in enumerate(src_file_list):
-        src_path = src_dir + "/" + src_file
-        save_path = save_dir + "/conv_" + target_category + str(src_idx+1) + ".txt"
-        convert_tag(src_path, save_path)
+    convert_tag(src_path, save_path)
+

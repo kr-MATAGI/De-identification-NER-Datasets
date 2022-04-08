@@ -238,7 +238,7 @@
 미스터	I-EVT
 올림피아를	I-EVT
 7번이나	B-NUM
-우승했고	
+우승했고	O
 ,	O
 전성기는	O
 <	O
@@ -857,7 +857,7 @@ Times	I-ORG
 2003	B-DAT
 .	I-DAT
 11	I-DAT
-~	I
+~	I-DAT
 2011	I-DAT
 .	I-DAT
 1	I-DAT
@@ -1171,7 +1171,7 @@ WWE	B-ORG
 저서	O
 《	O
 이기적	B-AFW
-유전자	I-TRM
+유전자	I-AFW
 》	O
 로	O
 널리	O
@@ -3662,7 +3662,7 @@ B형	B-HEC
 그는	O
 서울에서	B-LOC
 태어나	O
-개그콘서트	O
+개그콘서트	B-AFW
 《	O
 '	O
 풀하우스	B-AFW
@@ -6229,7 +6229,7 @@ NYU	B-ORG
 대학에	I-ORG
 유학	O
 중이던	O
-1992년에	B-DATG
+1992년에	B-DAT
 세계	B-EVT
 아마추어	I-EVT
 선수권에서	I-EVT
@@ -8082,7 +8082,7 @@ Moglen	I-PER
 또한 그는 자유 소프트웨어 재단을 포함한 수많은 프로 보노 고객들을 변호하는 소프트웨어 자유 법률센터(Software Freedom Law Center)의 설립자 겸 회장이다.
 또한	O
 그는	O
-자유	B-TRM
+자유	B-ORG
 소프트웨어	I-ORG
 재단을	I-ORG
 포함한	O
@@ -12991,17 +12991,17 @@ MBC	B-ORG
 글로벌	O
 사이트	O
 (	O
-http	O
-:	O
-/	O
-/	O
-content	B-TRM
-.	O
-mbc	B-TRM
-.	O
-co	B-TRM
-.	O
-kr	O
+http	B-INF
+:	I-INF
+/	I-INF
+/	I-INF
+content	I-INF
+.	I-INF
+mbc	I-INF
+.	I-INF
+co	I-INF
+.	I-INF
+kr	I-INF
 )	O
 를	O
 오픈	O
@@ -13351,7 +13351,7 @@ or	I-INF
 kr	I-INF
 /	I-INF
 <	O
-nowiki	B-TRM
+nowiki	O
 /	O
 >	O
 )	O
@@ -13443,7 +13443,7 @@ Peter	B-PER
 웨더 리포트의 Black Market이나 자코 파스토리우스와 같은 음악을 하고싶어서 재즈를 연주하기 시작했다.
 웨더	B-PER
 리포트의	I-PER
-Black	B-AFWE
+Black	B-AFW
 Market이나	I-AFW
 자코	B-PER
 파스토리우스와	I-PER
@@ -16088,9 +16088,8 @@ wikimedia	I-INF
 org	I-INF
 )	O
 
-
 겟백
-세윤 작가 이메일은: diffkfl168@naver.com이다.	세윤 작가 이메일은: diffkfl168@naver.com이다.
+세윤 작가 이메일은: diffkfl168@naver.com이다.
 세윤	B-PER
 작가	B-POS
 이메일은	O
@@ -16682,7 +16681,7 @@ AGIPI	B-EVT
 ,	O
 2012년	B-DAT
 터키	B-LOC
-월드컵	P-EVT
+월드컵	B-EVT
 대회에서도	I-EVT
 우승했다	O
 .	O
@@ -17102,7 +17101,7 @@ AV	O
 웹사이트	O
 "	O
 I	O
-Don	B-TRM
+Don	O
 '	O
 t	O
 Mind	O
@@ -18876,7 +18875,7 @@ Health	I-ORG
 후	O
 암의	B-HEC
 특정	O
-유전자에	B-TRM
+유전자에	O
 따른	O
 치료에	O
 대한	O
@@ -20610,7 +20609,7 @@ drum	O
 전무한	O
 20대후반	B-NUM
 30초대	B-NUM
-초반의	I-TIM
+초반의	I-NUM
 젊은이를	O
 최고위	O
 임원을	B-POS
@@ -20660,7 +20659,7 @@ drum	O
 
 우리들휴브레인
 교육프랜차이즈 업체인 (주)휴브레인을 인수한 후로는 현재 80% 이상이 교육서비스 분야에서 나온다.
-교육프랜차이즈	B-TRM
+교육프랜차이즈	O
 업체인	O
 (	B-ORG
 주	I-ORG
@@ -20730,7 +20729,7 @@ drum	O
 품목을	O
 생산ㆍ판매하고	O
 있다	O
-.	
+.	O
 
 대성미생물
 가축의 설사, 폐렴 치료제, 양식어류 종합영양제, 돼지 호흡기질병 치료제 등이 주요 제품이다.
@@ -22605,7 +22604,7 @@ Tavares	I-PER
 웨이보 (기업)
 중국 인터넷 유저의 30% 정도가 사용하는 것으로 알려져 있다.
 중국	B-LOC
-인터넷	B-TRM
+인터넷	O
 유저의	O
 30	B-NUM
 %	I-NUM

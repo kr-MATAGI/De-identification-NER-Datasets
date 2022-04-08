@@ -25,4 +25,4 @@ def check_sentences_count(src_path: str):
 
 ### MAIN ###
 if "__main__" == __name__:
-    check_sentences_count(src_path="../data/merge/원본_merge.txt")
+    check_sentences_count(src_path="../data/merge/test_regex_merge.txt")

@@ -43,7 +43,7 @@ def convert_tag(src_path: str, save_path: str):
 if "__main__" == __name__:
     target_category = "person"
     src_path = "../data/merge/test_merge.txt"
-    save_path = "../data/test_conv_merge.txt"
+    save_path = "../data/merge/test_conv_merge.txt"
 
     convert_tag(src_path, save_path)
 

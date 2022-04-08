@@ -5,14 +5,19 @@ from typing import List
 
 '''
     Rule 1
-    POS - [가-힣]+학과 -> B-POS
+    POS 
+        - [가-힣]+학과 -> B-POS
+        - 문장에 '전공' 이 있고, [가-힣]+학
 '''
-def do_rule_1(lhs: str, rhs: str):
+def do_rule_1(sent: str, lhs: str, rhs: str):
     ret_lhs = copy.deepcopy(lhs)
     ret_rhs = copy.deepcopy(rhs)
     ret_is_conv = False
 
     if re.search(r"[ㄱ-힣]+학과", ret_lhs):
+        ret_is_conv = True
+        ret_rhs = "B-POS"
+    elif ("전공" in sent) and re.search(r"[$가-힣]+학$", ret_lhs) and ("대학" not in ret_lhs):
         ret_is_conv = True
         ret_rhs = "B-POS"
 
@@ -29,7 +34,7 @@ def do_rule_2(lhs: str, rhs: str):
     ret_rhs = copy.deepcopy(rhs)
     ret_is_conv = False
 
-    target_word = ["졸업", "재학", "전학", "휴학", "복학", "제적"]
+    target_word = ["졸업", "재학", "전학", "휴학", "복학", "제적", "학사", "석사", "박사"]
     target_filter = list(filter(lambda x: True if x in ret_lhs else False, target_word))
     if 0 < len(target_filter) and "EVT" not in ret_rhs: # except '졸업식'
         ret_is_conv = True
@@ -112,15 +117,21 @@ def do_rule_6(lhs: str, rhs: str):
     ret_rhs = copy.deepcopy(rhs)
     ret_is_conv = False
 
-    target_re = [r"[ㄱ-힣]*아버지", r"[ㄱ-힣]+머니", r"[ㄱ-힣]*아들", r"[ㄱ-힣]*딸"]
+    target_re = [r"[가-힣]*아버지", r"[가-힣]+머니", r"[가-힣]*아들", r"[가-힣]*딸"]
     target_re_filter = list(filter(lambda x: True if re.search(x, ret_lhs) else False, target_re))
-    target_word = ["장남", "장녀", "차남", "차녀", "막내", "결혼", "이혼", "파혼"]
+    target_word = ["장남", "장녀", "차남", "차녀", "막내", "결혼", "이혼", "파혼",
+                   "동생", "오빠", "언니", "삼촌", "자녀", "손자", "손녀"]
     target_word_filter = list(filter(lambda x: True if x in ret_lhs else False, target_word))
+    target_rel_re = [r"[0-9]+(남|녀)"]
+    target_rel_filter = list(filter(lambda x: True if re.search(x, ret_lhs) else False, target_rel_re))
 
     if 0 < len(target_re_filter): # regex
         ret_is_conv = True
         ret_rhs = "B-PIV"
     elif 0 < len(target_word_filter): # search word
+        ret_is_conv = True
+        ret_rhs = "B-PIV"
+    elif 0 < len(target_rel_filter):
         ret_is_conv = True
         ret_rhs = "B-PIV"
 
@@ -175,6 +186,21 @@ def do_rule_9(lhs: str, rhs: str):
 
     return ret_lhs, ret_rhs
 
+'''
+    Rule 10
+        - "~장애"
+'''
+def do_rule_10(lhs: str, rhs: str):
+    ret_lhs = copy.deepcopy(lhs)
+    ret_rhs = copy.deepcopy(rhs)
+    ret_is_conv = False
+
+    if re.search(r"[가-힣]+장애", ret_lhs):
+        ret_is_conv = True
+        ret_rhs = "B-HEC"
+
+    return ret_lhs, ret_rhs, ret_is_conv
+
 def convert_tag_use_regex(src_path: str, save_path: str):
     print(f"[convert_tag_use_regex] START - Path: {src_path}")
 
@@ -210,7 +236,7 @@ def convert_tag_use_regex(src_path: str, save_path: str):
             rhs = token.split("\t")[-1]
 
             is_conv = False
-            lhs, rhs, is_conv = do_rule_1(lhs, rhs)
+            lhs, rhs, is_conv = do_rule_1(sent, lhs, rhs)
             if not is_conv:
                 lhs, rhs, is_conv = do_rule_2(lhs, rhs)
             if not is_conv:
@@ -223,6 +249,8 @@ def convert_tag_use_regex(src_path: str, save_path: str):
                 lhs, rhs, is_conv = do_rule_6(lhs, rhs)
             if not is_conv:
                 lhs, rhs, is_conv = do_rule_7(lhs, rhs)
+            if not is_conv:
+                lhs, rhs, is_conv = do_rule_10(lhs, rhs)
 
             lhs, rhs = do_rule_8(token_list, t_idx, lhs, rhs)
             if 0 == t_idx:

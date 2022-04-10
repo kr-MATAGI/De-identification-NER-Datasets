@@ -86,7 +86,7 @@ class CRF(nn.Module):
         # jaehoon custom
         # replace -100 to 0
         copy_tags = copy.deepcopy(tags)
-        tags = torch.where(-100 == copy_tags, 29, copy_tags)
+        tags = torch.where(-100 == copy_tags, 0, copy_tags)
 
         self._validate(emissions, tags=tags, mask=mask)
         if reduction not in ('none', 'sum', 'mean', 'token_mean'):

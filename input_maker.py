@@ -170,10 +170,29 @@ def split_npy_input(src_dir: str):
     np.save(test_dir+"/token_type_ids", test_token_type_ids)
     np.save(test_dir+"/attention_mask", test_attention_mask)
 
+def check_tag_count(src_path: str):
+    check_dict = {}
+
+    id2label = {v:k for k, v in DE_IDENT_TAG.items()}
+    labels_np = np.load(src_path)
+    print(f"[check_tag_count] labels.shape: {labels_np.shape}")
+    for dim_0 in labels_np:
+        for dim_1 in dim_0:
+            if -100 == dim_1:
+                continue
+            conv_tag = id2label[dim_1]
+            if "B-" in conv_tag:
+                rhs = conv_tag.split("-")[-1]
+                if rhs in check_dict.keys():
+                    check_dict[rhs] += 1
+                else:
+                    check_dict[rhs] = 0
+    print(f"[check_tag_count] total_count: {sum([v for k, v in check_dict.items()])}")
+    print(f"[check_tag_count] tag_dict : {check_dict}")
+
 ### MAIN ###
 if "__main__" == __name__:
-
-    do_make_all_input = True
+    do_make_all_input = False
     if do_make_all_input:
         src_path = "./data/merge/test_regex_merge_프로토타입.txt"
         save_path = "./npy"
@@ -182,7 +201,12 @@ if "__main__" == __name__:
                  model_name="monologg/koelectra-base-v3-discriminator",
                  max_len=512)
 
-    do_split_made_input = True
+    do_split_made_input = False
     if do_split_made_input:
         src_dir = "./npy"
         split_npy_input(src_dir=src_dir)
+
+    do_check_count = True
+    if do_check_count:
+        src_path = "./npy/labels.npy"
+        check_tag_count(src_path)

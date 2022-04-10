@@ -21,7 +21,7 @@ from tqdm import tqdm
 from seqeval import metrics as seqeval_metrics
 from sklearn import metrics as sklearn_metrics
 
-from tag_def import DE_IDENT_TAG, DE_IDENT_ZIP
+from tag_def import DE_IDENT_TAG
 
 
 ################################################################################################################

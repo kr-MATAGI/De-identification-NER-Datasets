@@ -5,3 +5,7 @@
 # ide
 .idea/
 __pycache__
+
+# data
+/logs
+/ckpt

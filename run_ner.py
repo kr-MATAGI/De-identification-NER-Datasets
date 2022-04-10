@@ -14,6 +14,7 @@ import torch
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader, Dataset
 from torch.utils.tensorboard import SummaryWriter
 from transformers import ElectraConfig, get_linear_schedule_with_warmup, ElectraForTokenClassification
+from electra_crf import ElectraCRF_NER
 
 from tqdm import tqdm
 
@@ -343,7 +344,11 @@ def main(cli_args):
                                            label2id={label: i for i, label in enumerate(DE_IDENT_TAG.keys())})
 
     # Model
-    model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path, config=config)
+    # Model
+    if args.is_crf:
+        model = ElectraCRF_NER(config=config)
+    else:
+        model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path, config=config)
 
     # GPU or CPU
     if 1 < torch.cuda.device_count():
@@ -376,7 +381,10 @@ def main(cli_args):
 
         for checkpoint in checkpoints:
             global_step = checkpoint.split("-")[-1]
-            model = ElectraForTokenClassification.from_pretrained(checkpoint)
+            if args.is_crf:
+                model = ElectraCRF_NER.from_pretrained(checkpoint)
+            else:
+                model = ElectraForTokenClassification.from_pretrained(checkpoint)
             model.to(args.device)
             result = evaluate(args, model, test_dataset, mode="test", global_step=global_step)
             result = dict((k + "_{}".format(global_step), v) for k, v in result.items())

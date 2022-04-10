@@ -77,17 +77,15 @@ def make_npy(src_path: str, save_path: str, model_name: str, max_len: int):
         valid_seq_len = len(input_ids)
         if max_len-1 > valid_seq_len:
             pad_list = [0 for x in range(max_len-valid_seq_len-1)]
-            x_list = [-100 for _ in range(max_len-valid_seq_len-1)]
-            input_ids.extend(pad_list)
+            x_list = [-100 for _ in range(max_len-valid_seq_len)]
+            input_ids.append(3)  # [SEP]
+            input_ids.extend(pad_list[:max_len-1])
             labels.extend(x_list)
             token_type_ids.extend(pad_list)
             attention_mask.append(1)
             attention_mask.extend(pad_list[:max_len-1])
 
-        input_ids.append(3) # [SEP]
-        labels.append(-100)
         token_type_ids.append(0)
-
         assert len(input_ids) == len(labels)
         assert len(input_ids) == len(token_type_ids)
         assert len(input_ids) == len(attention_mask)

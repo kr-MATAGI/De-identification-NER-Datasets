@@ -1,5 +1,6 @@
 import numpy as np
 import copy
+import os
 from tag_def import DE_IDENT_TAG, DE_IDENT_ZIP
 
 import torch
@@ -108,11 +109,80 @@ def make_npy(src_path: str, save_path: str, model_name: str, max_len: int):
     np.save(save_path + "/token_type_ids", npy_dict["token_type_ids"])
     np.save(save_path + "/attention_mask", npy_dict["attention_mask"])
 
+
+def split_npy_input(src_dir: str):
+    print(f"[split_npy_input] src_dir: {src_dir}")
+
+    train_dir = src_dir + "/train"
+    test_dir = src_dir + "/test"
+
+    if not os.path.exists(train_dir):
+        os.mkdir(train_dir)
+    if not os.path.exists(test_dir):
+        os.mkdir(test_dir)
+
+    # load src_*.npy
+    src_input_ids = np.load(src_dir+"/input_ids.npy")
+    src_labels = np.load(src_dir+"/labels.npy")
+    src_attention_mask = np.load(src_dir+"/attention_mask.npy")
+    src_token_type_ids = np.load(src_dir+"/token_type_ids.npy")
+
+    total_sent_size = src_input_ids.shape[0]
+    train_idx_list = np.random.choice(total_sent_size, 1200, False)
+    test_idx_list = []
+    for idx in range(total_sent_size):
+        if idx not in train_idx_list:
+            test_idx_list.append(idx)
+    print(f"train_idx_list.size: {len(train_idx_list)}")
+    print(f"test_idx_list.size: {len(test_idx_list)}")
+
+    # make train/test *.npy dataset
+    train_input_ids = [src_input_ids[idx] for idx in range(total_sent_size) if idx in train_idx_list]
+    train_labels = [src_labels[idx] for idx in range(total_sent_size) if idx in train_idx_list]
+    train_token_type_ids = [src_token_type_ids[idx] for idx in range(total_sent_size) if idx in train_idx_list]
+    train_attention_mask = [src_attention_mask[idx] for idx in range(total_sent_size) if idx in train_idx_list]
+
+    test_input_ids = [src_input_ids[idx] for idx in range(total_sent_size) if idx in test_idx_list]
+    test_labels = [src_labels[idx] for idx in range(total_sent_size) if idx in test_idx_list]
+    test_token_type_ids = [src_token_type_ids[idx] for idx in range(total_sent_size) if idx in test_idx_list]
+    test_attention_mask = [src_attention_mask[idx] for idx in range(total_sent_size) if idx in test_idx_list]
+
+    train_input_ids = np.array(train_input_ids)
+    train_labels = np.array(train_labels)
+    train_token_type_ids = np.array(train_token_type_ids)
+    train_attention_mask = np.array(train_attention_mask)
+
+    test_input_ids = np.array(test_input_ids)
+    test_labels = np.array(test_labels)
+    test_token_type_ids = np.array(test_token_type_ids)
+    test_attention_mask = np.array(test_attention_mask)
+
+    print(f"np.shape - train: {train_input_ids.shape}, test: {test_input_ids.shape}")
+
+    # save train/test *.npy
+    np.save(train_dir+"/input_ids", train_input_ids)
+    np.save(train_dir+"/labels", train_labels)
+    np.save(train_dir+"/token_type_ids", train_token_type_ids)
+    np.save(train_dir+"/attention_mask", train_attention_mask)
+
+    np.save(test_dir+"/input_ids", test_input_ids)
+    np.save(test_dir+"/labels", test_labels)
+    np.save(test_dir+"/token_type_ids", test_token_type_ids)
+    np.save(test_dir+"/attention_mask", test_attention_mask)
+
 ### MAIN ###
 if "__main__" == __name__:
-    src_path = "./data/merge/test_regex_merge_프로토타입.txt"
-    save_path = "./npy"
-    make_npy(src_path=src_path,
-             save_path=save_path,
-             model_name="monologg/koelectra-base-v3-discriminator",
-             max_len=128)
+
+    do_make_all_input = False
+    if do_make_all_input:
+        src_path = "./data/merge/test_regex_merge_프로토타입.txt"
+        save_path = "./npy"
+        make_npy(src_path=src_path,
+                 save_path=save_path,
+                 model_name="monologg/koelectra-base-v3-discriminator",
+                 max_len=128)
+
+    do_split_made_input = True
+    if do_split_made_input:
+        src_dir = "./npy"
+        split_npy_input(src_dir=src_dir)

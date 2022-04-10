@@ -2,9 +2,9 @@
   "task": "naver-ner",
   "data_dir": "data",
   "ckpt_dir": "ckpt",
-  "train_file": "train.tsv",
+  "train_file": "./npy/train",
   "dev_file": "",
-  "test_file": "test.tsv",
+  "test_file": "./npy/test",
   "evaluate_test_during_training": true,
   "eval_all_checkpoints": true,
   "save_optimizer": false,
@@ -28,5 +28,7 @@
   "eval_batch_size": 128,
   "logging_steps": 1000,
   "save_steps": 1000,
-  "learning_rate": 5e-5
+  "learning_rate": 5e-5,
+  "n_gpu": 1,
+  "is_crf": true
 }

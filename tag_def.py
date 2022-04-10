@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 from typing import List
 
 DE_IDENT_TAG = {
-    "X": -100, "O": 1,
+    "X": 0, "O": 1,
     "B-PER": 2, "I-PER": 3, # Person
     "B-ORG": 4, "I-ORG": 5, # Organization
     "B-NUM": 6, "I-NUM": 7, # Number / Numeric

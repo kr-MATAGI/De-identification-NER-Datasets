@@ -76,7 +76,7 @@ def make_npy(src_path: str, save_path: str, model_name: str, max_len: int):
 
         if max_len-1 > len(input_ids):
             pad_list = [0 for x in range(max_len-len(input_ids)-1)]
-            x_list = [DE_IDENT_TAG["X"] for _ in range(max_len-len(input_ids)-1)]
+            x_list = [-100 for _ in range(max_len-len(input_ids)-1)]
             input_ids.extend(pad_list)
             labels.extend(x_list)
             token_type_ids.extend(pad_list)
@@ -173,14 +173,14 @@ def split_npy_input(src_dir: str):
 ### MAIN ###
 if "__main__" == __name__:
 
-    do_make_all_input = False
+    do_make_all_input = True
     if do_make_all_input:
         src_path = "./data/merge/test_regex_merge_프로토타입.txt"
         save_path = "./npy"
         make_npy(src_path=src_path,
                  save_path=save_path,
                  model_name="monologg/koelectra-base-v3-discriminator",
-                 max_len=128)
+                 max_len=512)
 
     do_split_made_input = True
     if do_split_made_input:

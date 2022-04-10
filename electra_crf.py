@@ -87,7 +87,6 @@ class CRF(nn.Module):
         # replace -100 to 0
         copy_tags = copy.deepcopy(tags)
         tags = torch.where(-100 == copy_tags, 0, copy_tags)
-        print("aa", mask)
 
         self._validate(emissions, tags=tags, mask=mask)
         if reduction not in ('none', 'sum', 'mean', 'token_mean'):

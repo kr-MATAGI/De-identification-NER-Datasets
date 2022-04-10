@@ -72,20 +72,21 @@ def make_npy(src_path: str, save_path: str, model_name: str, max_len: int):
         input_ids.insert(0, 2) # [CLS]
         labels.insert(0, -100)
         token_type_ids.insert(0, 0)
-        attention_mask.insert(0, 0)
+        attention_mask.insert(0, 1)
 
-        if max_len-1 > len(input_ids):
-            pad_list = [0 for x in range(max_len-len(input_ids)-1)]
-            x_list = [-100 for _ in range(max_len-len(input_ids)-1)]
+        valid_seq_len = len(input_ids)
+        if max_len-1 > valid_seq_len:
+            pad_list = [0 for x in range(max_len-valid_seq_len-1)]
+            x_list = [-100 for _ in range(max_len-valid_seq_len-1)]
             input_ids.extend(pad_list)
             labels.extend(x_list)
             token_type_ids.extend(pad_list)
-            attention_mask.extend(pad_list)
+            attention_mask.append(1)
+            attention_mask.extend(pad_list[:max_len-1])
 
         input_ids.append(3) # [SEP]
         labels.append(-100)
         token_type_ids.append(0)
-        attention_mask.append(0)
 
         assert len(input_ids) == len(labels)
         assert len(input_ids) == len(token_type_ids)
@@ -192,7 +193,7 @@ def check_tag_count(src_path: str):
 
 ### MAIN ###
 if "__main__" == __name__:
-    do_make_all_input = False
+    do_make_all_input = True
     if do_make_all_input:
         src_path = "./data/merge/test_regex_merge_프로토타입.txt"
         save_path = "./npy"
@@ -201,12 +202,12 @@ if "__main__" == __name__:
                  model_name="monologg/koelectra-base-v3-discriminator",
                  max_len=512)
 
-    do_split_made_input = False
+    do_split_made_input = True
     if do_split_made_input:
         src_dir = "./npy"
         split_npy_input(src_dir=src_dir)
 
-    do_check_count = True
+    do_check_count = False
     if do_check_count:
         src_path = "./npy/labels.npy"
         check_tag_count(src_path)

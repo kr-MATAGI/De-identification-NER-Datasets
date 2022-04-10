@@ -904,7 +904,7 @@ Times	I-ORG
 시절	O
 민주당과	B-ORG
 연대하여	O
-친환경주의	I-PIV
+친환경주의	O
 정책들을	O
 기용하기도	O
 했고	O

@@ -28,7 +28,7 @@
   "eval_batch_size": 128,
   "logging_steps": 38,
   "save_steps": 190,
-  "learning_rate": 1e-5,
+  "learning_rate": 5e-5,
   "n_gpu": 1,
-  "is_crf": false
+  "is_crf": true
 }

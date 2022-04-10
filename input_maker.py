@@ -205,7 +205,7 @@ if "__main__" == __name__:
         src_dir = "./npy"
         split_npy_input(src_dir=src_dir)
 
-    do_check_count = False
+    do_check_count = True
     if do_check_count:
         src_path = "./npy/labels.npy"
         check_tag_count(src_path)

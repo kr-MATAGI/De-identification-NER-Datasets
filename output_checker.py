@@ -72,6 +72,9 @@ if "__main__" == __name__:
                 new_preds.append(prd)
 
         for tok, la, prd in zip(new_tokens, new_labels, new_preds):
-            save_file.write(tok + "\t" + la + "\t" + prd + "\n")
+            if la != prd:
+                save_file.write(tok + "\t" + la + "\t" + prd + "<!>" + "\n")
+            else:
+                save_file.write(tok + "\t" + la + "\t" + prd + "\n")
         save_file.write("\n")
     save_file.close()

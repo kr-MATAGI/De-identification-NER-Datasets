@@ -2555,7 +2555,7 @@ yul	I-PER
 송두율
 본관은 여산이며 독일식 이름은 '''Du-yul Song'''(두율 송)이다.
 본관은	O
-여산	B-PER
+여산	B-LOC
 이며	O
 독일식	O
 이름은	O
@@ -5522,8 +5522,8 @@ MBC	B-EVT
 Mnet	B-EVT
 뮤직비디오	I-EVT
 페스티벌	I-EVT
-네티즌	O
-인기상	B-PRI
+네티즌	B-PRI
+인기상	I-PRI
 .	O
 
 문희준
@@ -7504,8 +7504,8 @@ TBC	B-ORG
 
 보아
 SM 엔터테인먼트는 보아의 데뷔 프로젝트를 "신비 프로젝트"라 이름을 붙이고 보아의 데뷔를 진행해 나갔다.
-SM	O
-엔터테인먼트는	O
+SM	B-ORG
+엔터테인먼트는	I-ORG
 보아의	B-PER
 데뷔	O
 프로젝트를	O
@@ -12422,7 +12422,7 @@ TV	O
 젊은	O
 나이에	O
 60대	B-NUM
-노모인	B-POS
+노모인	B-PIV
 '	O
 일용네	B-PER
 '	O
@@ -13157,7 +13157,7 @@ kr	I-INF
 미쓰비시 랜서 에볼루션
 미쓰비시 자동차의 국내 공식 수입사인 MMSK 주식회사(http://www.mmsk.co.kr) 2008년 9월 22일 한국 공식판매를 시작했다.
 미쓰비시	B-ORG
-자동차의	O
+자동차의	I-ORG
 국내	O
 공식	O
 수입사인	O
@@ -22570,7 +22570,7 @@ FCA	B-ORG
 ,	O
 현	O
 PSA의	B-ORG
-대표인	O
+대표인	B-POS
 카를루스	B-PER
 타바르스	I-PER
 (	O

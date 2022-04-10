@@ -87,7 +87,7 @@ class CRF(nn.Module):
         # replace -100 to 0
         copy_tags = copy.deepcopy(tags)
         tags = torch.where(-100 == copy_tags, 0, copy_tags)
-        print("aa", tags)
+        print("aa", mask)
 
         self._validate(emissions, tags=tags, mask=mask)
         if reduction not in ('none', 'sum', 'mean', 'token_mean'):
@@ -350,7 +350,6 @@ class ElectraCRF_NER(ElectraPreTrainedModel):
         sequence_output = outputs[0]
         sequence_output = self.dropout(sequence_output)
         emissions = self.classifier(sequence_output)
-        print("bb", attention_mask)
 
         if labels is not None:
             log_likelihood, sequence_of_tags = self.crf(emissions=emissions, tags=labels, mask=attention_mask.bool(),

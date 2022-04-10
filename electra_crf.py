@@ -350,6 +350,7 @@ class ElectraCRF_NER(ElectraPreTrainedModel):
         sequence_output = outputs[0]
         sequence_output = self.dropout(sequence_output)
         emissions = self.classifier(sequence_output)
+        print("bb", attention_mask)
 
         if labels is not None:
             log_likelihood, sequence_of_tags = self.crf(emissions=emissions, tags=labels, mask=attention_mask.bool(),

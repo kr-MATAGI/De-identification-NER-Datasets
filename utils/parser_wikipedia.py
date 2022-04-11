@@ -33,15 +33,16 @@ def read_kor_wiki_xml(src_path: str= ""):
 
 def is_person_category(doc_text):
     # [[분류:살아있는 사람]]
-    person_re = r"\[\[분류:[가-힣]+ 사람\]\]"
+    person_re_1 = r"\[\[분류:[가-힣]+ 사람\]\]"
+    person_re_2 = r"\[\[분류:[가-힣0-9]+ 사망\]\]"
     for t_line in doc_text.split("\n"):
-        if "[[분류:살아있는 사람]]" in t_line:
+        if re.search(person_re_1, t_line) or re.search(person_re_2, t_line):
             return True
     return False
 
 def is_company_category(doc_text):
     # [[분류:한국 증권거래소 상장 기업]]
-    company_re = r"\[\[분류:[가-힣]+ 상장 기업\]\]"
+    company_re = r"\[\[분류:[가-힣0-9]+ 기업\]\]"
     for t_line in doc_text.split("\n"):
         if re.findall(company_re, t_line):
             return True

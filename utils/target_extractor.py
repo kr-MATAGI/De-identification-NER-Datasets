@@ -15,12 +15,17 @@ RE_table_close = r"\|\}"
 
 #### 문단 제목 - 첫 문단의 문단은 사용
 person_paragraph_target = [
-    "생애", "생활", "성장", "가족", "경력"
+    # 1차 필터링 - 1500문장
+    #"생애", "생활", "성장", "가족", "경력", 
+    
+    "평판", "개요", "학력", "데뷔", "기타", "에피소드",
+    "시절", "평가", "이슈", "논란", "사건"
 ]
 
 company_paragraph_target = [
-    "개요", "역사", "사업", "규모", "실적",
-    "인수", "합병", "기본 정보"
+    # 1차 필터링 - 1500문장
+    #"개요", "역사", "사업", "규모", "실적",
+    #"인수", "합병", "기본 정보"
 ]
 
 #### Method
@@ -98,7 +103,7 @@ def extract_valid_text(text: str):
 
     return ret_text
 
-def extract_person_doc(src_path: str, pkl_idx: int, save_dir: str, mode: str):
+def extract_paragraph_from_doc(src_path: str, pkl_idx: int, save_dir: str, mode: str):
     load_list = []
     with open(src_path, mode="rb") as src_file:
         load_list = pickle.load(src_file)
@@ -167,7 +172,6 @@ def extract_person_doc(src_path: str, pkl_idx: int, save_dir: str, mode: str):
                 else:
                     save_file.write(split_text.strip() + "\n")
         save_file.write("\n")
-
     save_file.close()
 
 def extract_specific_target_sent(src_path: str, file_idx: int, save_dir: str, target_word: str):
@@ -196,7 +200,7 @@ def extract_specific_target_sent(src_path: str, file_idx: int, save_dir: str, ta
 if "__main__" == __name__:
     print("[semi_auto_maker][main] ----START ")
 
-    is_classify_file = False
+    is_classify_file = True
     if is_classify_file:
         classify_path = "../data/classify"
         filter_dir = "../data/filter"
@@ -208,10 +212,10 @@ if "__main__" == __name__:
             src_path = classify_path + "/" + pkl_name
 
             print(f"[START] {pkl_name}")
-            extract_person_doc(src_path=src_path, pkl_idx=(pkl_idx+1), save_dir=filter_dir, mode=target)
+            extract_paragraph_from_doc(src_path=src_path, pkl_idx=(pkl_idx + 1), save_dir=filter_dir, mode=target)
             print(f"[END] {pkl_name}")
 
-    is_extract_target = True
+    is_extract_target = False
     if is_extract_target:
         src_dir = "../data"
         save_dir = "../data/specific"

@@ -36,7 +36,7 @@ NOT_NEED_TAGS = ["ANM", "PLT", "MAT"]
 #### Method
 def trained_model_load(tokenizer_name: str, model_dir: str):
     tokenizer = AutoTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
-    model = AutoModelForTokenClassification.from_pretrained("../model")
+    model = AutoModelForTokenClassification.from_pretrained(model_dir)
 
     return tokenizer, model
 
@@ -154,26 +154,24 @@ def do_semi_auto_specific_word(model, tokenizer, src_path: str, save_path: str):
                 save_file.write(tok + "\t" + prd + "\n")
             save_file.write("\n")
 
-
-
 if "__main__" == __name__:
     # model
     tokenizer, model = trained_model_load(tokenizer_name="monologg/koelectra-base-v3-discriminator",
                                           model_dir="../model")
     model.eval()
 
-    do_semi_auto_filter_data = False
+    do_semi_auto_filter_data = True
     if do_semi_auto_filter_data:
         # semi-auto tagging using by model
         target_dir = "../data/filter"
-        save_dir = "../data/model_output"
+        save_dir = "../data/additional/model_output"
         target_file_list = os.listdir(target_dir)
 
         for f_idx, file_name in enumerate(target_file_list):
             src_path = target_dir + "/" + file_name
             do_semi_auto_tagging(model, tokenizer, src_path=src_path, save_dir=save_dir)
 
-    is_do_semi_auto_specific_word = True
+    is_do_semi_auto_specific_word = False
     if is_do_semi_auto_specific_word:
         src_path = "../data/specific/merge_email.txt"
         save_path = "../data/specific/model_email.txt"

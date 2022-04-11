@@ -1,0 +1,16 @@
+지미 카터
+그는 2002년 말 인권과 중재 역할에 대한 공로를 인정받아 노벨 평화상을 받게 되었다.
+그는	B-PER
+2002년	I-CVL
+말	B-DAT
+인권과	B-PER
+중재	B-PER
+역할에	B-PER
+대한	B-PER
+공로를	B-PER
+인정받아	B-PER
+노벨	I-EVT
+평화상을	O
+받게	B-PER
+되었다	B-PER
+.	B-PER

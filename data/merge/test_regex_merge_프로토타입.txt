@@ -1647,7 +1647,7 @@ F	I-PER
 전	O
 국무장관인	B-POS
 힐러리	B-PER
-여사	O
+여사	B-PIV
 사이에	O
 1980년생의	B-DAT
 외동딸	B-PIV
@@ -2341,7 +2341,7 @@ Cloud	I-AFW
 ,	O
 마약이나	O
 문란한	O
-여성	O
+여성	B-PIV
 관계	O
 등과도	O
 거리가	O
@@ -2992,7 +2992,7 @@ A형이다	B-HEC
 김현정은	B-PER
 혈액형	O
 B형인	B-HEC
-남성들로부터	O
+남성들로부터	B-PIV
 노래가	O
 B형을	B-HEC
 나쁜	O
@@ -3195,7 +3195,7 @@ A형이다	B-HEC
 * 혈액형 남자(아카바네 히비키/B형).
 *	O
 혈액형	O
-남자	O
+남자	B-PIV
 (	O
 아카바네	B-PER
 히비키	I-PER
@@ -3559,7 +3559,7 @@ A형	B-HEC
 )	O
 는	O
 일본의	B-LOC
-여성	O
+여성	B-PIV
 성우이다	B-POS
 .	O
 혈액형은	O
@@ -4205,7 +4205,7 @@ A형이다	B-HEC
 효고현	B-LOC
 아시야시	B-LOC
 출신의	O
-남성이고	O
+남성이고	B-PIV
 ,	O
 혈액형은	O
 AB형이다	B-HEC
@@ -4291,7 +4291,7 @@ A형이다	B-HEC
 나가노현	B-LOC
 나가노시	B-LOC
 출신의	O
-남성	O
+남성	B-PIV
 만화가이다	B-POS
 .	O
 혈액형은	O
@@ -4864,7 +4864,7 @@ B형	B-HEC
 )	O
 은	O
 대한민국의	B-LOC
-남자	O
+남자	B-PIV
 배우이자	B-POS
 모델이고	B-POS
 ,	O
@@ -6197,7 +6197,7 @@ NYU	B-ORG
 )	O
 은	O
 스웨덴의	B-LOC
-여자	O
+여자	B-PIV
 골프	B-POS
 선수로	I-POS
 ,	O
@@ -8528,7 +8528,7 @@ UC	B-ORG
 9월	I-DAT
 2일	I-DAT
 두번째	B-NUM
-남편	O
+남편	B-PIV
 채드	B-PER
 크로거와	I-PER
 정식	O
@@ -9111,7 +9111,7 @@ K는	O
 중인	O
 9살	B-NUM
 꼬마	O
-여자아이의	O
+여자아이의	B-PIV
 이름	O
 케이트	B-PER
 (	O
@@ -16756,7 +16756,7 @@ FIFA	B-ORG
 제16회	B-NUM
 광저우	B-EVT
 아시안게임	I-EVT
-남자	O
+남자	B-PIV
 당구	B-POS
 국가대표	I-POS
 .	O
@@ -24280,7 +24280,7 @@ SM	B-ORG
 )	O
 은	O
 대한민국의	B-LOC
-남자	O
+남자	B-PIV
 가수이자	B-POS
 음악감독이고	B-POS
 여행스케치	B-PER
@@ -24657,7 +24657,7 @@ Show	I-AFW
 )	O
 는	O
 일본의	B-LOC
-여성	O
+여성	B-PIV
 성우	B-POS
 .	O
 
@@ -25661,8 +25661,8 @@ TV	O
 아내는 WWE 여자 프로레슬링선수 디바인 젤리나 베가다.
 아내는	B-PIV
 WWE	B-ORG
-여자	B-POS
-프로레슬링선수	I-POS
+여자	B-PIV
+프로레슬링선수	B-POS
 디바인	B-PER
 젤리나	I-PER
 베가다	I-PER

@@ -268,7 +268,7 @@ def convert_tag_use_regex(src_path: str, save_path: str):
 if "__main__" == __name__:
     print("[tag_regerx.py] START !")
 
-    src_path = "./data/merge/test_conv_merge.txt"
-    save_path = "./data/merge/test_regex_merge.txt"
+    src_path = "./data/additional/tag_conv/conv_model_person1.txt"
+    save_path = "./data/additional/regex/re_model_person1.txt"
 
     convert_tag_use_regex(src_path, save_path)

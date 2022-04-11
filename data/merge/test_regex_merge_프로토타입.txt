@@ -16356,7 +16356,7 @@ AKB48의	B-PER
 대장염의	I-HEC
 재발을	O
 이유로	O
-사임할	B-POS
+사임할	O
 것을	O
 발표하자	O
 2년	B-DAT

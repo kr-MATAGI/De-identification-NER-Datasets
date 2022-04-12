@@ -1,48 +1,48 @@
 지미 카터
 그는 2002년 말 인권과 중재 역할에 대한 공로를 인정받아 노벨 평화상을 받게 되었다.
-그는	B-PER
-2002년	I-CVL
-말	B-DAT
-인권과	B-PER
-중재	B-PER
-역할에	B-PER
-대한	B-PER
-공로를	B-PER
-인정받아	B-PER
-노벨	I-EVT
-평화상을	O
-받게	B-PER
-되었다	B-PER
-.	B-PER
+그는	O
+2002년	B-DAT
+말	I-DAT
+인권과 O
+중재	O
+역할에	O
+대한	O
+공로를	O
+인정받아	O
+노벨	B-PRI
+평화상을	I-PRI
+받게	O
+되었다	O
+.	O
 
 함석헌
 함석헌(咸錫憲, 1901년 3월 13일 ~ 1989년 2월 4일)은 대한민국의 독립운동가, 종교인, 언론인, 출판인이며 기독교운동가, 시민사회운동가였다.
 함석헌	B-PER
-(	B-PER
-咸	B-PER
-錫	B-PER
-憲	B-PER
+(	O
+咸	I-PER
+錫	I-PER
+憲	I-PER
 ,	O
-1901년	B-NUM
+1901년	B-DAT
 3월	I-DAT
 13일	I-DAT
-~	O
+~	I-DAT
 1989년	I-DAT
 2월	I-DAT
 4일	I-DAT
 )	O
 은	O
 대한민국의	B-LOC
-독립운동가	B-CVL
+독립운동가	B-POS
 ,	O
-종교인	B-CVL
+종교인	B-POS
 ,	O
-언론인	B-CVL
+언론인	B-POS
 ,	O
-출판인이며	B-CVL
-기독교운동가	B-CVL
+출판인이며	B-POS
+기독교운동가	B-POS
 ,	O
-시민사회운동가였다	B-CVL
+시민사회운동가였다	B-POS
 .	O
 
 함석헌
@@ -66,16 +66,16 @@
 *	O
 평안남도	B-LOC
 평양고등보통학교	B-ORG
-중퇴	B-DAT
-(	B-NUM
-1955년	B-NUM
+중퇴	O
+(	O
+1955년	B-DAT
 명예	O
 졸업	O
 )	O
 
 함석헌
 * 평안북도 정주 오산고등보통학교 졸업.
-*	B-LOC
+*	O
 평안북도	B-LOC
 정주	B-LOC
 오산고등보통학교	B-ORG
@@ -83,12 +83,12 @@
 
 함석헌
 * 일본 도쿄 고등사범학교 역사교육학과 전문학사
-*	B-LOC
+*	O
 일본	B-LOC
 도쿄	B-LOC
 고등사범학교	B-ORG
-역사교육학과	B-ORG
-전문학사	B-CVL
+역사교육학과	B-POS
+전문학사	B-POS
 
 함석헌
 이후 1938년 3월까지 오산학교의 교사로 있다가 사임하였다.
@@ -96,49 +96,45 @@
 1938년	B-DAT
 3월까지	I-DAT
 오산학교의	B-ORG
-교사로	B-CVL
+교사로	B-POS
 있다가	O
 사임하였다	O
 .	O
 
 함석헌
 《성서조선》 창간호 멤버.
-《	B-AFW
-성서조선	I-AFW
+《	O
+성서조선	B-AFW
 》	O
 창간호	O
 멤버	O
 .	O
 
 함석헌
-1940년 평안남도 송산(松山)에서 김혁(金赫)이 운영하는 송산학원의 이사로 참여하여 활동하다가 계우회 사건(鷄友會事件)에 연루되어 평안남도 대동경찰서에 체포, 유치장에서 1년간 수감 생활을 하다가 1942년 초 풀려났다.
+1940년 평안남도 송산(松山)에서 김혁이 운영하는 송산학원의 이사로 참여하여 활동하다가 계우회 사건(鷄友會事件)에 연루되어 평안남도 대동경찰서에 체포, 유치장에서 1년간 수감 생활을 하다가 1942년 초 풀려났다.
 1940년	B-DAT
 평안남도	B-LOC
 송산	B-LOC
-(	B-LOC
+(	O
 松	B-LOC
-山	B-LOC
+山	I-LOC
 )	O
 에서	O
 김혁	B-PER
-(	B-PER
-金	B-PER
-[UNK]	I-PER
-)	O
 이	O
 운영하는	O
 송산학원의	B-ORG
-이사로	B-CVL
+이사로	B-POS
 참여하여	O
 활동하다가	O
-계우회	O
-사건	O
+계우회	B-EVT
+사건	I-EVT
 (	O
-鷄	O
-友	O
-會	O
-事	O
-件	O
+鷄	B-EVT
+友	I-EVT
+會	I-EVT
+事	I-EVT
+件	I-EVT
 )	O
 에	O
 연루되어	O
@@ -157,14 +153,14 @@
 .	O
 
 함석헌
-그러나 1942년 5월 《성서조선》(聖書朝鮮) 제 158호(폐간호)에 실린, 김교신의 〈조와〉(弔蛙)라는 우화로 관련자가 모두 투옥되는 성서조선 사건이 발생했다.
+그러나 1942년 5월 《성서조선》(聖書朝鮮) 제 158호(폐간호)에 실린, 김교신의 〈조와〉라는 우화로 관련자가 모두 투옥되는 성서조선 사건이 발생했다.
 그러나	O
 1942년	B-DAT
 5월	I-DAT
-《	B-AFW
+《	O
 성서조선	B-AFW
-》	B-AFW
-(	B-AFW
+》	O
+(	O
 聖	B-AFW
 書	I-AFW
 朝	I-AFW
@@ -180,12 +176,8 @@
 ,	O
 김교신의	B-PER
 〈	O
-조와	O
+조와	B-AFW
 〉	O
-(	O
-弔	O
-[UNK]	O
-)	O
 라는	O
 우화로	O
 관련자가	O
@@ -200,7 +192,7 @@
 이로 인해 성서조선은 폐간되고, 함석헌은 서대문형무소에 미결수로 1943년 4월 1일까지 1년간 복역하였다(수형번호1588번).
 이로	O
 인해	O
-성서조선은	B-LOC
+성서조선은	B-AFW
 폐간되고	O
 ,	O
 함석헌은	B-PER
@@ -211,20 +203,20 @@
 1일까지	I-DAT
 1년간	B-DAT
 복역하였다	O
-(	B-NUM
-수형번호1588번	O
+(	0
+수형번호1588번	B-NUM
 )	O
 .	O
 
 함석헌
 1945년 혈맹의 친구였던, 김교신이 흥남에서 장티푸스로 별세하고, 그 해 8월 15일 해방을 맞이한다.
-1945년	B-NUM
+1945년	B-DAT
 혈맹의	O
-친구였던	O
+친구였던	B-PIV
 ,	O
 김교신이	B-PER
 흥남에서	B-LOC
-장티푸스로	B-TRM
+장티푸스로	B-HEC
 별세하고	O
 ,	O
 그	O
@@ -270,7 +262,7 @@
 소련군에게서	B-ORG
 풀려난	O
 후	O
-1947년	B-NUM
+1947년	B-DAT
 3월	I-DAT
 17일	I-DAT
 월남하였다	O
@@ -320,9 +312,9 @@ YMCA에서	B-ORG
 1950년 한국 전쟁 때는 대전을 거쳐 부산으로 피난갔다가 휴전 후 상경하였다.
 1950년	B-DAT
 한국	B-EVT
-전쟁	O
+전쟁	I-EVT
 때는	O
-대전을	O
+대전을	B-LOC
 거쳐	O
 부산으로	B-LOC
 피난갔다가	O
@@ -339,19 +331,19 @@ YMCA에서	B-ORG
 등의	O
 천거로	O
 《	O
-사상계	O
+사상계	B-AFW
 》	O
 를	O
 통해	O
-논객으로	B-CVL
+논객으로	O
 활약하였다	O
 .	O
 
 함석헌
 1958년 '생각하는 백성이라야 산다'는 견해를 발표하면서 정부의 정책에 비평을 가하기 시작하였고, 1958년 5월 잡지 <사상계>에 발표한 칼럼 하나는 화제가 되었다.
 1958년	B-DAT
-'	B-AFW
-생각하는	I-AFW
+'	O
+생각하는	B-AFW
 백성이라야	I-AFW
 산다	I-AFW
 '	O
@@ -368,12 +360,12 @@ YMCA에서	B-ORG
 5월	I-DAT
 잡지	O
 <	O
-사상계	O
+사상계	B-AFW
 >	O
 에	O
 발표한	O
 칼럼	O
-하나는	B-NUM
+하나는	O
 화제가	O
 되었다	O
 .	O
@@ -383,7 +375,7 @@ YMCA에서	B-ORG
 이	O
 일로	O
 그는	O
-우익	O
+우익	B-PIV
 인사들로부터	O
 비판을	O
 받았다	O
@@ -398,14 +390,14 @@ YMCA에서	B-ORG
 .	I-EVT
 25	I-EVT
 전쟁	I-EVT
-관련자들에	B-CVL
+관련자들에	O
 대한	O
 훈장	O
 서훈	O
 이야기가	O
 나오자	O
-"	B-CVL
-형제를	B-CVL
+"	O
+형제를	B-PIV
 죽이고도	O
 무슨	O
 훈장이냐	O
@@ -419,7 +411,7 @@ YMCA에서	B-ORG
 이	O
 사건을	O
 계기로	O
-국가보안법	B-CVL
+국가보안법	O
 위반으로	O
 수감되었다가	O
 풀려났다	O
@@ -436,17 +428,17 @@ YMCA에서	B-ORG
 함석헌
 1961년 장면이 국토건설단을 창설하고 강사를 초빙할 때, 국토건설요원 정신교육 담당 강사로 초빙되었다.
 1961년	B-DAT
-장면이	B-ORG
+장면이	B-PER
 국토건설단을	B-ORG
 창설하고	O
-강사를	B-CVL
+강사를	B-POS
 초빙할	O
 때	O
 ,	O
-국토건설요원	B-CVL
+국토건설요원	B-POS
 정신교육	O
 담당	O
-강사로	B-CVL
+강사로	B-POS
 초빙되었다	O
 .	O
 
@@ -456,12 +448,12 @@ YMCA에서	B-ORG
 5	B-EVT
 ·	I-EVT
 16	I-EVT
-군사	O
-정변으로	O
-제2공화국이	B-NUM
+군사	I-EVT
+정변으로	I-EVT
+제2공화국이	O
 붕괴되자	O
 다시	O
-야인으로	B-CVL
+야인으로	O
 되돌아갔다	O
 .	O
 
@@ -471,18 +463,18 @@ YMCA에서	B-ORG
 5	B-EVT
 ·	I-EVT
 16	I-EVT
-군사	O
-정변이	O
+군사	I-EVT
+정변이	I-EVT
 있자	O
 모두가	O
 침묵하고	O
 있는	O
 그해	O
-7월	I-DAT
+7월	B-DAT
 사상계에	O
 발표한	O
 정치평론인	O
-'	B-EVT
+'	O
 5	B-EVT
 ·	I-EVT
 16을	I-EVT
@@ -507,9 +499,9 @@ YMCA에서	B-ORG
 1962년	B-DAT
 미국	B-LOC
 국무성내	O
-기독교	O
+기독교	B-PIV
 신자	O
-정치인들의	B-CVL
+정치인들의	B-POS
 특별	O
 초청으로	O
 미국을	B-LOC
@@ -521,11 +513,11 @@ YMCA에서	B-ORG
 방미하였을 때 퀘이커교파(Quaker敎派) 인사들과 만나 친분관계를 형성하고 돌아왔다.
 방미하였을	O
 때	O
-퀘이커교파	B-ORG
-(	B-ORG
-Quaker	B-ORG
-敎	I-ORG
-派	I-ORG
+퀘이커교파	B-PIV
+(	O
+Quaker	B-PIV
+敎	I-PIV
+派	I-PIV
 )	O
 인사들과	O
 만나	O
@@ -541,7 +533,7 @@ Quaker	B-ORG
 매년	O
 미국	B-LOC
 정계의	O
-기독교인사들의	B-CVL
+기독교인사들의	B-POS
 초청을	O
 받고	O
 미국을	B-LOC
@@ -554,11 +546,11 @@ Quaker	B-ORG
 제3공화국	B-ORG
 출범	O
 후에는	O
-종교인으로서	B-CVL
-한일회담에	B-ORG
+종교인으로서	B-POS
+한일회담에	B-EVT
 반대하는	O
 등	O
-사회운동에	O
+사회운동에	B-EVT
 참여했다	O
 .	O
 
@@ -567,10 +559,10 @@ Quaker	B-ORG
 1969년	B-DAT
 4월	I-DAT
 19일에는	I-DAT
-4	B-DAT
-.	I-DAT
-19	I-NUM
-10주년	I-NUM
+4	B-EVT
+.	I-EVT
+19	I-EVT
+10주년	B-DAT
 기념	O
 강연을	O
 마친	O
@@ -589,10 +581,10 @@ Quaker	B-ORG
 시사평론을	O
 실은	O
 월간잡지	O
-《	B-AFW
-씨알의	I-AFW
+《	O
+씨알의	B-AFW
 소리	I-AFW
-》	I-AFW
+》	O
 를	O
 창간하였으나	O
 정권의	O
@@ -605,8 +597,8 @@ Quaker	B-ORG
 1974년 7월 인혁당 사건 관련자에 대한 탄원서에 서명하였다.
 1974년	B-DAT
 7월	I-DAT
-인혁당	B-ORG
-사건	O
+인혁당	B-EVT
+사건	I-EVT
 관련자에	O
 대한	O
 탄원서에	O
@@ -618,16 +610,16 @@ Quaker	B-ORG
 10	B-DAT
 ·	I-DAT
 26	I-DAT
-사건	O
+사건	I-EVT
 이후	O
 통일주체국민회의에서	B-ORG
-대통령	B-CVL
+대통령	B-POS
 간선제를	O
 고수하자	O
 윤보선	B-PER
 등과	O
 함께	O
-대통령	B-CVL
+대통령	B-POS
 직선제를	O
 요구하기도	O
 했다	O
@@ -653,8 +645,8 @@ YWCA	B-ORG
 1980년 1월 YWCA 위장결혼식 사건 선고 공판에 출석하였다.
 1980년	B-DAT
 1월	I-DAT
-YWCA	B-EVT
-위장결혼식	I-EVT
+YWCA	B-ORG
+위장결혼식	O
 사건	O
 선고	O
 공판에	O
@@ -666,8 +658,8 @@ YWCA	B-EVT
 1980년	B-DAT
 1월	I-DAT
 25일	I-DAT
-수경사	B-CVL
-보통군법회의의	B-CVL
+수경사	B-ORG
+보통군법회의의	O
 최종상고심에서	O
 윤보선은	B-PER
 징역	O
@@ -689,10 +681,10 @@ YWCA	B-EVT
 전두환	B-PER
 정권의	O
 탄압으로	O
-《	B-AFW
-씨알의	I-AFW
+《	O
+씨알의	B-AFW
 소리	I-AFW
-》	I-AFW
+》	O
 는	O
 강제	O
 폐간되었다가	O
@@ -710,14 +702,14 @@ YWCA	B-EVT
 
 함석헌
 제5공화국을 거치면서도 민주화운동을 계속하다가 1984년에는 민주통일 국민회의 고문을 지냈다.
-제5공화국을	B-NUM
+제5공화국을	O
 거치면서도	O
 민주화운동을	O
 계속하다가	O
-1984년에는	B-NUM
+1984년에는	B-DAT
 민주통일	B-ORG
 국민회의	I-ORG
-고문을	B-CVL
+고문을	B-POS
 지냈다	O
 .	O
 
@@ -726,7 +718,7 @@ YWCA	B-EVT
 1985년	B-DAT
 민주쟁취	B-ORG
 국민운동본부	I-ORG
-고문이	B-CVL
+고문이	B-POS
 되었다	O
 .	O
 

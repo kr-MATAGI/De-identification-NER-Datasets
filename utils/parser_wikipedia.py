@@ -81,7 +81,7 @@ def parse_kor_wiki_xml(src_path: str, file_idx: int, save_dir: str):
 if "__main__" == __name__:
     print("[parser_wikipedia][main] ---START !")
 
-    is_parse_kor_wiki = False
+    is_parse_kor_wiki = True
     if is_parse_kor_wiki:
         src_dir = "../data"
         save_dir = "../data/classify"

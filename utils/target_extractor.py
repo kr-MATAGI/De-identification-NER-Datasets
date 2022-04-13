@@ -17,7 +17,8 @@ RE_table_close = r"\|\}"
 person_paragraph_target = [
     # 1차 필터링 - 1500문장
     #"생애", "생활", "성장", "가족", "경력", 
-    
+
+    # 2차 필터링 - 1000 문장
     "평판", "개요", "학력", "데뷔", "기타", "에피소드",
     "시절", "평가", "이슈", "논란", "사건"
 ]
@@ -26,6 +27,9 @@ company_paragraph_target = [
     # 1차 필터링 - 1500문장
     #"개요", "역사", "사업", "규모", "실적",
     #"인수", "합병", "기본 정보"
+
+    # 2차 핕터링 - 500문장
+    "실적", "분야", "제품", "현황", "사건", "비판", "브랜드", "논란", "소개"
 ]
 
 #### Method
@@ -204,7 +208,7 @@ if "__main__" == __name__:
     if is_classify_file:
         classify_path = "../data/classify"
         filter_dir = "../data/filter"
-        target = "person" # use person / company
+        target = "company" # use person / company
         pkl_file_list = list(filter(lambda x: True if target in x else False, os.listdir(classify_path)))
 
         # Multi process

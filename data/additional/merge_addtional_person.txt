@@ -725,15 +725,15 @@ YWCA	B-ORG
 함석헌
 그는 국가주의와 민족주의에 반대하였다.
 그는	O
-국가주의와	O
-민족주의에	O
+국가주의와	B-PIV
+민족주의에	B-PIV
 반대하였다	O
 .	O
 
 함석헌
 한 인터뷰에서 그는 '민족통합을 참으로 하려면 우리의 대적이 누군가부터 분명히 알아야 합니다.
-한	B-NUM
-인터뷰에서	I-NUM
+한   O
+인터뷰에서	O
 그는	O
 '	O
 민족통합을	O
@@ -751,7 +751,7 @@ YWCA	B-ORG
 우리를 분열시킨 도둑이 누구입니까? 일본? 미국? 소련? 중공? 아닙니다.
 우리를	O
 분열시킨	O
-도둑이	B-CVL
+도둑이	O
 누구입니까	O
 ?	O
 일본	B-LOC
@@ -780,7 +780,7 @@ YWCA	B-ORG
 국민을	O
 종으로	O
 만드는	O
-국가지상주의	O
+국가지상주의	B-PIV
 때문입니다	O
 .	O
 
@@ -801,7 +801,7 @@ YWCA	B-ORG
 
 함석헌
 군국주의 시대에조차 군림은 하지만 통치는 아니한다는 말이 있었습니다.
-군국주의	O
+군국주의	B-PIV
 시대에조차	O
 군림은	O
 하지만	O
@@ -815,7 +815,7 @@ YWCA	B-ORG
 참 좋은 군주는 그래야 한다 말입니다.
 참	O
 좋은	O
-군주는	B-CVL
+군주는	B-POS
 그래야	O
 한다	O
 말입니다	O
@@ -825,7 +825,7 @@ YWCA	B-ORG
 그런데 이 민주주의 시대에, 나라의 주인이 민중이라면서 민중을 다스리려해서 되겠습니까? 분명히 말합니다.
 그런데	O
 이	O
-민주주의	O
+민주주의	B-PIV
 시대에	O
 ,	O
 나라의	O
@@ -841,8 +841,8 @@ YWCA	B-ORG
 
 함석헌
 국가주의와 민족지상주의는 개인으로 하여금 권리와 자유를 스스로 반납하는 주요한 근거가 된다는 것이 그의 견해였다.
-국가주의와	O
-민족지상주의는	B-FLD
+국가주의와	B-PIV
+민족지상주의는	B-PIV
 개인으로	O
 하여금	O
 권리와	O
@@ -859,9 +859,9 @@ YWCA	B-ORG
 
 함석헌
 1984년 민주쟁취국민운동본부 고문에 위촉됐다.
-1984년	B-NUM
+1984년	B-DAT
 민주쟁취국민운동본부	B-ORG
-고문에	B-CVL
+고문에	B-POS
 위촉됐다	O
 .	O
 
@@ -870,18 +870,18 @@ YWCA	B-ORG
 또한	O
 동아일보로부터	B-ORG
 제1회	B-NUM
-인촌상을	B-CVL
+인촌상을	B-PRI
 수여받았다	O
 .	O
 
 함석헌
 비폭력주의 신조로 말미암아 “한국의 간디”라는 별명을 가지고 있기도 하다.
-비폭력주의	B-TRM
+비폭력주의	B-PIV
 신조로	O
 말미암아	O
-“	B-LOC
-한국의	B-LOC
-간디	B-PER
+“	O
+한국의	B-PER
+간디	I-PER
 ”	O
 라는	O
 별명을	O
@@ -895,18 +895,18 @@ YWCA	B-ORG
 사회	O
 평론뿐만	O
 아니라	O
-《	B-AFW
-도덕경	I-AFW
-》	I-AFW
+《	O
+도덕경	B-AFW
+》	O
 등의	O
 각종	O
-동양	B-LOC
+동양	O
 고전	O
 주해도	O
 행하였고	O
 ,	O
 그리고	O
-시를	B-FLD
+시를	O
 창작하기도	O
 했다	O
 .	O
@@ -915,15 +915,15 @@ YWCA	B-ORG
 1989년 서울대학교 병원에서 입원, 그해 서울대 병원에서 별세하였다(향년 87세).
 1989년	B-DAT
 서울대학교	B-ORG
-병원에서	O
+병원에서	I-ORG
 입원	O
 ,	O
 그해	O
 서울대	B-ORG
-병원에서	O
+병원에서	I-ORG
 별세하였다	O
 (	O
-향년	B-DAT
+향년	O
 87세	B-NUM
 )	O
 .	O
@@ -934,8 +934,8 @@ YWCA	B-ORG
 유학	O
 시절	O
 우치무라	B-PER
-간조의	B-CVL
-제자였던	B-CVL
+간조의	I-PER
+제자였던	O
 함석헌은	B-PER
 김교신	B-PER
 ,	O
@@ -944,48 +944,48 @@ YWCA	B-ORG
 함께	O
 초창기	O
 한국	B-LOC
-무교회주의	I-TRM
+무교회주의	B-PIV
 기독교	O
 운동을	O
 하였고	O
 ,	O
-퀘이커	B-EVT
-모임	I-EVT
-(	B-NUM
-1961년과	B-NUM
-1967년	B-DAT
+퀘이커	B-ORG
+모임	I-ORG
+(	O
+1961년과	B-DAT
+1967년	I-DAT
 )	O
 을	O
 계기로	O
-퀘이커	B-LOC
-신자가	B-CVL
+퀘이커	B-PIV
+신자가	I-PIV
 되었다	O
 .	O
 
 함석헌
 상훈으로 1987년 제1회 인촌상과 2002년 건국포장을 받았다.
 상훈으로	O
-1987년	B-NUM
+1987년	B-DAT
 제1회	B-NUM
-인촌상과	B-EVT
+인촌상과	B-PRI
 2002년	B-DAT
-건국포장을	B-EVT
+건국포장을	B-PRI
 받았다	O
 .	O
 
 함석헌
 일대기로 《내가 본 함석헌》, 《함석헌 평전》이 있다.
 일대기로	O
-《	B-AFW
-내가	I-AFW
+《	O
+내가	B-AFW
 본	I-AFW
 함석헌	I-AFW
-》	I-AFW
+》	O
 ,	O
-《	B-AFW
-함석헌	I-AFW
+《	O
+함석헌	B-AFW
 평전	I-AFW
-》	I-AFW
+》	O
 이	O
 있다	O
 .	O
@@ -994,8 +994,8 @@ YWCA	B-ORG
 2010년 함석헌이 사회진화론 추종자인가 아닌가 하는 내용을 두고 관련 학계에서 논란이 일고 있다.
 2010년	B-DAT
 함석헌이	B-PER
-사회진화론	B-FLD
-추종자인가	B-CVL
+사회진화론	B-PIV
+추종자인가	O
 아닌가	O
 하는	O
 내용을	O
@@ -1012,30 +1012,30 @@ YWCA	B-ORG
 2009년	B-DAT
 3월	I-DAT
 함석헌평화포럼	B-ORG
-공동대표인	B-CVL
+공동대표인	B-POS
 김영호	B-PER
 인하대	B-ORG
-명예교수는	B-CVL
+명예교수는	B-POS
 한길사에서	B-ORG
 30권으로	B-NUM
 발간한	O
-’	B-AFW
+’	O
 함석헌	B-AFW
 저작집	I-AFW
-’	I-AFW
+’	O
 에	O
 실은	O
 글	O
-'	B-AFW
+'	O
 함석헌	B-AFW
-저작집	O
+저작집	I-AFW
 발간에	I-AFW
 부치는	I-AFW
 말	I-AFW
 '	I-AFW
 에서	O
 그가	O
-사회진화론자라고	B-CVL
+사회진화론자라고	B-PIV
 주장했다	O
 .	O
 
@@ -1050,7 +1050,7 @@ YWCA	B-ORG
 남을	O
 구별하지	O
 않는	O
-하나	B-NUM
+하나	O
 ’	O
 라고	O
 지적하였다	O
@@ -1064,10 +1064,10 @@ YWCA	B-ORG
 16일	I-DAT
 열린	O
 함석헌학회	B-ORG
-창립총회	O
+창립총회	I-ORG
 기념	O
 학술발표에서	O
-’	B-AFW
+’	O
 함석헌과	B-AFW
 사회진화론	I-AFW
 ’	O
@@ -1086,15 +1086,15 @@ YWCA	B-ORG
 그에 따르면 ’사회진화론’에는 김상봉 교수가 받아들인 '사회다윈주의' 말고도 여러 가지 다른 일반론이 있다고 하였다.
 그에	O
 따르면	O
-’	B-AFW
-사회진화론	I-AFW
-’	I-AFW
+’	O
+사회진화론	B-PIV
+’	O
 에는	O
 김상봉	B-PER
 교수가	B-POS
-받아들인	B-PIV
-'	B-HEC
-사회다윈주의	B-HEC
+받아들인	O
+'	O
+사회다윈주의	B-PIV
 '	O
 말고도	O
 여러	O
@@ -1137,15 +1137,15 @@ YWCA	B-ORG
 백남준	B-PER
 (	O
 白	B-PER
-南	B-PER
-準	B-PER
+南	I-PER
+準	I-PER
 ,	O
-,	B-DAT
+,	O
 1932년	B-DAT
 7월	I-DAT
 20일	I-DAT
-~	B-DAT
-2006년	B-DAT
+~	I-DAT
+2006년	I-DAT
 1월	I-DAT
 29일	I-DAT
 )	O
@@ -1166,15 +1166,15 @@ YWCA	B-ORG
 백남준
 본관은 수원(水原)이고, 출신지는 서울이다.
 본관은	O
-수원	B-ORG
+수원	B-LOC
 (	O
-水	B-ORG
-原	I-ORG
+水	B-LOC
+原	I-LOC
 )	O
 이고	O
 ,	O
 출신지는	O
-서울이다	B-ORG
+서울이다	B-LOC
 .	O
 
 백남준
@@ -1202,7 +1202,7 @@ YWCA	B-ORG
 백남준
 특히 비디오 아트라는 새로운 예술의 범주를 발전시켰다는 평가를 받는 예술가로서 '비디오 아트의 창시자'로 알려져 있다.
 특히	O
-비디오	B-HEC
+비디오	O
 아트라는	O
 새로운	O
 예술의	O
@@ -1212,7 +1212,7 @@ YWCA	B-ORG
 받는	O
 예술가로서	B-POS
 '	B-HEC
-비디오	B-HEC
+비디오	O
 아트의	O
 창시자	O
 '	O
@@ -1233,7 +1233,7 @@ YWCA	B-ORG
 * 경성제1고등보통학교 수료.
 *	O
 경성제1고등보통학교	B-ORG
-수료	O
+수료	B-POS
 .	O
 
 백남준
@@ -1254,11 +1254,11 @@ Royden	B-ORG
 *	O
 일본	B-LOC
 도쿄	B-LOC
-대학교	B-ORG
+대학교	I-ORG
 미술사학과	B-POS
 졸업	B-POS
 (	O
-부전공	B-POS
+부전공	O
 :	O
 음악사학	B-POS
 )	O
@@ -1268,8 +1268,8 @@ Royden	B-ORG
 * 서독 프라이부르크 고등음악원 졸업.
 *	O
 서독	B-LOC
-프라이부르크	B-LOC
-고등음악원	B-ORG
+프라이부르크	B-ORG
+고등음악원	I-ORG
 졸업	B-POS
 .	O
 
@@ -1278,10 +1278,10 @@ Royden	B-ORG
 *	O
 서독	B-LOC
 뮌헨	B-LOC
-루트비히	B-PER
-막시밀리안	I-PER
-대학교	B-ORG
-인문대학원	B-ORG
+루트비히	B-ORG
+막시밀리안	I-ORG
+대학교	I-ORG
+인문대학원	I-ORG
 철학과	B-POS
 졸업	B-POS
 (	O
@@ -1294,14 +1294,14 @@ Royden	B-ORG
 *	O
 서독	B-LOC
 뮌헨	B-LOC
-루트비히	B-PER
-막시밀리안	I-PER
-대학교	O
-대학원	O
+루트비히	B-ORG
+막시밀리안	I-ORG
+대학교	I-ORG
+대학원	I-ORG
 음악사학과	B-POS
 졸업	B-POS
 (	O
-음악학	O
+음악학	B-POS
 석사	B-POS
 )	O
 .	O
@@ -1310,11 +1310,11 @@ Royden	B-ORG
 * 명예 박사 학위 미국 프랫 대학교 명예 미술학 박사.
 *	O
 명예	B-POS
-박사	B-POS
+박사	I-POS
 학위	O
 미국	B-LOC
-프랫	B-LOC
-대학교	O
+프랫	B-ORG
+대학교	I-ORG
 명예	O
 미술학	O
 박사	B-POS
@@ -1325,12 +1325,12 @@ Royden	B-ORG
 귄터	B-PER
 그라스	I-PER
 (	O
-,	B-DAT
-1927년	I-DAT
+,	O
+1927년	B-DAT
 10월	I-DAT
 16일	I-DAT
-~	O
-2015년	B-DAT
+~	I-DAT
+2015년	I-DAT
 4월	I-DAT
 13일	I-DAT
 )	O
@@ -1346,8 +1346,8 @@ Royden	B-ORG
 매캘리스터	I-PER
 리치	I-PER
 (	O
-,	B-DAT
-1941년	B-NUM
+,	O
+1941년	B-DAT
 9월	I-DAT
 9일	I-DAT
 ~	I-DAT
@@ -1360,14 +1360,14 @@ Royden	B-ORG
 저명한	O
 전산학자이자	B-POS
 현대	O
-컴퓨터의	B-HEC
+컴퓨터의	O
 선구자이다	O
 .	O
 
 데니스 리치
 C와 유닉스의 개발자로 알려져 있다.
-C와	B-ORG
-유닉스의	B-ORG
+C와	B-INF
+유닉스의	B-INF
 개발자로	B-POS
 알려져	O
 있다	O
@@ -1378,19 +1378,19 @@ C와	B-ORG
 토마스	B-PER
 만	I-PER
 (	O
-,	B-DAT
+,	O
 1875년	B-DAT
 6월	I-DAT
 6일	I-DAT
-~	O
-1955년	B-DAT
+~	I-DAT
+1955년	I-DAT
 8월	I-DAT
 12일	I-DAT
 )	O
 은	O
 독일의	B-LOC
 평론가이자	B-POS
-소설가이다	O
+소설가이다	B-POS
 .	O
 
 토마스 만
@@ -1410,23 +1410,23 @@ C와	B-ORG
 구성	O
 등에	O
 있어서	O
-20세기	B-NUM
+20세기	B-DAT
 독일	B-LOC
 제일의	O
-작가로	O
+작가로	B-POS
 알려져	O
 있다	O
 .	O
 
 토마스 만
 1929년 노벨 문학상을 비롯, 괴테 상 등 많은 상을 받았다.
-1929년	B-NUM
-노벨	B-EVT
-문학상을	O
+1929년	B-DAT
+노벨	B-PRI
+문학상을	I-PRI
 비롯	O
 ,	O
-괴테	B-PER
-상	O
+괴테	B-PRI
+상	I-PRI
 등	O
 많은	O
 상을	O
@@ -1437,11 +1437,11 @@ C와	B-ORG
 토마스 만의 형은 급진적인 작가 하인리히 만이다.
 토마스	B-PER
 만의	O
-형은	B-POS
+형은	B-PIV
 급진적인	O
 작가	B-POS
 하인리히	B-PER
-만이다	O
+만이다	I-PER
 .	O
 
 토마스 만
@@ -1451,14 +1451,14 @@ C와	B-ORG
 자식	O
 중	O
 3명인	B-NUM
-Erika	O
-Mann	O
+Erika	B-PER
+Mann	I-PER
 ,	O
 클라우스	B-PER
-만	O
+만	I-PER
 ,	O
-Golo	O
-Mann들도	O
+Golo	B-PER
+Mann들도	I-PER
 또한	O
 독일의	B-LOC
 중요한	O
@@ -1468,12 +1468,12 @@ Mann들도	O
 
 토마스 만
 제1차 세계 대전이 일어나자 <프리드리히와 대동맹> <비정치적 인간의 고찰> <독일 공화국에 대하여> 등 정치적 논설을 발표하고, 점차 구낭만주의적인 반지성주의를 벗어나, 새로운 휴머니즘을 품기 시작하였다.
-제1차	B-NUM
+제1차	B-EVT
 세계	I-EVT
 대전이	I-EVT
 일어나자	O
 <	O
-프리드리히와	B-LOC
+프리드리히와	B-AFW
 대동맹	I-AFW
 >	O
 <	O
@@ -1482,9 +1482,9 @@ Mann들도	O
 고찰	O
 >	O
 <	O
-독일	B-LOC
-공화국에	O
-대하여	O
+독일	B-AFW
+공화국에	I-AFW
+대하여	I-AFW
 >	O
 등	O
 정치적	O
@@ -1492,8 +1492,8 @@ Mann들도	O
 발표하고	O
 ,	O
 점차	O
-구낭만주의적인	O
-반지성주의를	O
+구낭만주의적인	B-PIV
+반지성주의를	B-PIV
 벗어나	O
 ,	O
 새로운	O
@@ -1510,8 +1510,8 @@ Mann들도	O
 결정인	O
 장편소설	O
 <	O
-마의	O
-산	B-AFW
+마의	B-AFW
+산	I-AFW
 >	O
 을	O
 발표하였는데	O
@@ -1522,7 +1522,7 @@ Mann들도	O
 발전	O
 소설로서	O
 독일	B-LOC
-문학사상	B-POS
+문학사상	O
 중요한	O
 위치를	O
 차지하고	O
@@ -1559,15 +1559,15 @@ Nida	B-LOC
 1930년에서	B-NUM
 1932년	B-DAT
 여름에는	I-DAT
-"	B-PER
-요셉과	B-PER
-그의	O
-형제들	B-POS
+"	O
+요셉과	B-AFW
+그의	I-AFW
+형제들	I-AFW
 (	O
-Joseph	B-PER
-and	O
-his	O
-Brothers	O
+Joseph  B-AFW
+and	I-AFW
+his	I-AFW
+Brothers	I-AFW
 )	O
 "	O
 을	O
@@ -1583,7 +1583,7 @@ Brothers	O
 전시를	O
 하면서	O
 토마스	B-PER
-만에	O
+만에	I-PER
 대한	O
 문화적인	O
 중심이	O
@@ -1593,7 +1593,7 @@ Brothers	O
 토마스 만
 1933년 나치스 정권 성립으로 조국을 떠나, 남프랑스·스위스 등을 거쳐, 1938년 미국에 이르렀다.
 1933년	B-DAT
-나치스	B-ORG
+나치스	B-PIV
 정권	O
 성립으로	O
 조국을	O
@@ -1629,7 +1629,7 @@ Brothers	O
 높은	O
 휴머니즘의	B-PIV
 입장에서	O
-민주주의	O
+민주주의	B-PIV
 옹호를	O
 위해	O
 싸웠다	O
@@ -1639,12 +1639,12 @@ Brothers	O
 1942년 그의 가족들은 캘리포니아 로스엔젤레스에 있는 Pacific Palisades로 이사를 한다.
 1942년	B-DAT
 그의	O
-가족들은	B-POS
+가족들은	O
 캘리포니아	B-LOC
 로스엔젤레스에	B-LOC
 있는	O
-Pacific	B-ORG
-Palisades로	B-ORG
+Pacific	B-LOC
+Palisades로	I-LOC
 이사를	O
 한다	O
 .	O
@@ -1653,7 +1653,7 @@ Palisades로	B-ORG
 그 곳에서 제2차 세계 대전이 끝날 때까지 살게 된다.
 그	O
 곳에서	O
-제2차	B-NUM
+제2차	B-EVT
 세계	I-EVT
 대전이	I-EVT
 끝날	O
@@ -1664,7 +1664,7 @@ Palisades로	B-ORG
 
 토마스 만
 1944년 6월 23일, 토마스 만은 미국 시민권을 받게 된다.
-1944년	B-NUM
+1944년	B-DAT
 6월	I-DAT
 23일	I-DAT
 ,	O
@@ -1678,7 +1678,7 @@ Palisades로	B-ORG
 
 토마스 만
 1952년에 스위스, 취리히 근처에 있는 Kilchberg에서 살게 된다.
-1952년에	B-NUM
+1952년에	B-DAT
 스위스	B-LOC
 ,	O
 취리히	B-LOC
@@ -1709,11 +1709,11 @@ Kilchberg에서	B-ORG
 유명한	O
 독일	B-LOC
 방문은	O
-1949년	B-NUM
+1949년	B-DAT
 요한	B-PER
 볼프강	I-PER
-폰	O
-괴테의	B-PER
+폰	I-PER
+괴테의	I-PER
 200주년이다	B-DAT
 .	O
 
@@ -1722,14 +1722,14 @@ Kilchberg에서	B-ORG
 1955년	B-DAT
 취리히에	B-LOC
 있는	O
-한	B-NUM
-병원에서	I-NUM
+한	O
+병원에서	O
 아테롬선	B-HEC
-동맥	B-HEC
+동맥	I-HEC
 경화증으로	I-HEC
 죽고	O
 ,	O
-Kilchberg에	B-AFW
+Kilchberg에	B-LOC
 묻힌다	O
 .	O
 
@@ -1739,13 +1739,13 @@ Kilchberg에	B-AFW
 만의	O
 작품은	O
 처음으로	O
-H	O
-.	O
-T	O
-.	O
-Lowe	B-ORG
--	O
-Porter가	B-PER
+H	B-PER
+.	I-PER
+T	I-PER
+.	I-PER
+Lowe    I-PER
+-	I-PER
+Porter가	I-PER
 번역했다	O
 .	O
 
@@ -1754,12 +1754,12 @@ Porter가	B-PER
 하인리히	B-PER
 뵐	I-PER
 (	O
-Heinrich	B-ORG
-Böll	I-ORG
+Heinrich	B-PER
+Böll	I-PER
 ,	O
 쾰른	B-LOC
 ,	O
-1917년	B-NUM
+1917년	B-DAT
 12월	I-DAT
 21일	I-DAT
 -	O
@@ -1767,14 +1767,14 @@ Böll	I-ORG
 (	O
 Langenbroich	B-LOC
 )	O
-1985년	B-NUM
+1985년	B-DAT
 7월	I-DAT
 16일	I-DAT
 )	O
 은	O
 독일의	B-LOC
-남성	O
-소설가다	O
+남성	B-PIV
+소설가다	B-POS
 .	O
 
 노무현
@@ -1782,8 +1782,8 @@ Langenbroich	B-LOC
 노무현	B-PER
 (	O
 盧	B-PER
-武	B-LOC
-鉉	B-LOC
+武	I-PER
+鉉	I-PER
 부산에서	B-LOC
 인권변호사로	B-POS
 활동한	O
@@ -1817,7 +1817,7 @@ Langenbroich	B-LOC
 광주	B-LOC
 (	O
 光	B-LOC
-州	B-LOC
+州	I-LOC
 )	O
 이며	O
 경상남도	B-LOC
@@ -1832,7 +1832,7 @@ Langenbroich	B-LOC
 막노동에	O
 뛰어들었다가	O
 독학으로	O
-1975년	B-NUM
+1975년	B-DAT
 3월	I-DAT
 30세에	B-NUM
 제17회	B-NUM
@@ -1848,7 +1848,7 @@ Langenbroich	B-LOC
 재직하다가	O
 그만두고	O
 부산에서	B-LOC
-변호사	O
+변호사	B-POS
 사무실을	O
 개업하여	O
 여러	O
@@ -1890,8 +1890,8 @@ Langenbroich	B-LOC
 중	O
 경제성장률은	O
 4	B-NUM
-.	O
-42	B-NUM
+.	I-NUM
+42	I-NUM
 %	I-NUM
 로	O
 OECD	B-ORG
@@ -1905,7 +1905,7 @@ OECD	B-ORG
 OECD의	B-ORG
 성장률을	O
 하회한	O
-정부는	O
+정부는	B-ORG
 존재하지	O
 않는다	O
 .	O
@@ -1917,7 +1917,7 @@ OECD의	B-ORG
 입장	O
 ,	O
 편협한	O
-국수주의	O
+국수주의	B-PIV
 ,	O
 친북적	O
 정책으로	O
@@ -1978,12 +1978,12 @@ OECD의	B-ORG
 17일	I-DAT
 ,	O
 한국	B-LOC
-정치학회와의	I-ORG
+정치학회와의	B-ORG
 인터뷰에서	O
 자신에게	O
 위협이	O
 되는	O
-보수주의를	O
+보수주의를	B-PIV
 비판하였다	O
 .	O
 
@@ -2002,7 +2002,7 @@ OECD의	B-ORG
 노무현의	B-PER
 자살로	O
 인하여	O
-검찰에서	O
+검찰에서	B-ORG
 불기소	O
 종결했다	O
 .	O
@@ -2021,7 +2021,7 @@ OECD의	B-ORG
 수수한	O
 혐의가	O
 드러나	O
-검찰	O
+검찰	B-ORG
 수사를	O
 받게	O
 되었다	O
@@ -2031,7 +2031,7 @@ OECD의	B-ORG
 이때 이명박의 친형 이상득 의원이 로비 상대로 거론되었다.
 이때	O
 이명박의	B-PER
-친형	B-POS
+친형	B-PIV
 이상득	B-PER
 의원이	B-POS
 로비	O
@@ -2084,7 +2084,7 @@ OECD의	B-ORG
 )	O
 을	O
 노무현의	B-PER
-부인	O
+부인	B-PIV
 권양숙에게	B-PER
 전달한	O
 사실을	O
@@ -2117,9 +2117,9 @@ OECD의	B-ORG
 관련	O
 혐의로	O
 그의	O
-부인인	B-POS
+부인인	B-PIV
 권양숙이	B-PER
-검찰	O
+검찰	B-ORG
 소환	O
 조사를	O
 받았다	O
@@ -2138,7 +2138,7 @@ OECD의	B-ORG
 당시 권양숙 여사가 정상문 비서관에게 말해 박연차로부터 돈을 빌렸다고 진술했다.
 당시	O
 권양숙	B-PER
-여사가	B-POS
+여사가	O
 정상문	B-PER
 비서관에게	B-POS
 말해	O
@@ -2170,7 +2170,7 @@ OECD의	B-ORG
 진술조서를	O
 검토한	O
 뒤	O
-익일	B-DAT
+익일	O
 오전	B-DAT
 2시	I-DAT
 10분쯤	I-DAT
@@ -2197,7 +2197,7 @@ OECD의	B-ORG
 2008년	B-DAT
 2월	I-DAT
 말	I-DAT
-조카사위	B-POS
+조카사위	B-PIV
 연철호를	B-PER
 통해	O
 500만	B-NUM
@@ -2286,7 +2286,7 @@ OECD의	B-ORG
 사실이며	O
 ,	O
 호의적인	O
-투자일	B-POS
+투자일	O
 뿐	O
 자신과는	O
 무관하다고	O
@@ -2307,8 +2307,8 @@ OECD의	B-ORG
 노무현
 이에 "부인·아들에 딸까지 돈을 받고 이제는 증거 인멸 시도까지 하느냐"며 강하게 비판하는 여론이 형성되었다.
 이에	O
-"	B-POS
-부인	O
+"	O
+부인	B-PIV
 ·	O
 아들에	B-PIV
 딸까지	B-PIV
@@ -2337,7 +2337,7 @@ OECD의	B-ORG
 자살함으로써	O
 노무현에	B-PER
 대한	O
-검찰	O
+검찰	B-ORG
 수사를	O
 종료하였다	O
 .	O
@@ -2348,7 +2348,7 @@ OECD의	B-ORG
 6월	I-DAT
 12일	I-DAT
 ,	O
-검찰은	O
+검찰은	B-ORG
 23일	B-DAT
 박연차	B-PER
 사건과	O
@@ -2414,18 +2414,18 @@ OECD의	B-ORG
 여론	O
 조사	O
 결과	O
-"	B-NUM
+"	O
 56	B-NUM
-.	O
-3	B-NUM
-%	O
+.	I-NUM
+3	I-NUM
+%	I-NUM
 는	O
 검찰	B-ORG
 ,	O
 49	B-NUM
-.	O
-1	B-NUM
-%	O
+.	I-NUM
+1	I-NUM
+%	I-NUM
 는	O
 언론을	O
 꼽았다	O
@@ -2474,13 +2474,13 @@ OECD의	B-ORG
 사망을	O
 애도하는	O
 메시지를	O
-장례위원회에	O
+장례위원회에	B-ORG
 보냈다	O
 .	O
 
 노무현
 정부에서 세운 공식 분향소는 서울역사박물관을 비롯해 102개소에 마련되었으며 총 조문인원은 5월 29일 18시까지 98만 5331명에 달하였다.
-정부에서	O
+정부에서	B-ORG
 세운	O
 공식	O
 분향소는	O
@@ -2492,7 +2492,7 @@ OECD의	B-ORG
 조문인원은	O
 5월	B-DAT
 29일	I-DAT
-18시까지	B-DAT
+18시까지	I-DAT
 98만	B-NUM
 5331명에	I-NUM
 달하였다	O
@@ -2503,19 +2503,19 @@ OECD의	B-ORG
 아쿠타가와	B-PER
 류노스케	I-PER
 (	O
-,	B-DAT
-1892년	B-NUM
+,	O
+1892년	B-DAT
 3월	I-DAT
 1일	I-DAT
-~	O
-1927년	B-DAT
+~	I-DAT
+1927년	I-DAT
 7월	I-DAT
 24일	I-DAT
 )	O
 는	O
 일본의	B-LOC
 근대	O
-소설가이다	O
+소설가이다	B-POS
 .	O
 
 아쿠타가와 류노스케
@@ -2531,14 +2531,14 @@ OECD의	B-ORG
 장국영(, , , 1956년 9월 12일 ~ 2003년 4월 1일)은 홍콩의 배우이자 가수이다.
 장국영	B-PER
 (	O
-,	B-DAT
-,	B-DAT
-,	B-DAT
+,	O
+,	O
+,	O
 1956년	B-DAT
 9월	I-DAT
 12일	I-DAT
-~	B-DAT
-2003년	B-DAT
+~	I-DAT
+2003년	I-DAT
 4월	I-DAT
 1일	I-DAT
 )	O
@@ -2550,7 +2550,7 @@ OECD의	B-ORG
 
 장국영
 하카계의 중산층 집안에서 10남매 중 막내로 홍콩에서 출생하였으며, 한때 중국 광둥성 메이저우 시에서 잠시 유아기를 보낸 적도 있다.
-하카계의	B-LOC
+하카계의	O
 중산층	O
 집안에서	O
 10남매	B-PIV
@@ -2562,8 +2562,8 @@ OECD의	B-ORG
 한때	O
 중국	B-LOC
 광둥성	B-LOC
-메이저우	B-ORG
-시에서	O
+메이저우	B-LOC
+시에서	I-LOC
 잠시	O
 유아기를	O
 보낸	O
@@ -2574,10 +2574,10 @@ OECD의	B-ORG
 장국영
 영국 북부의 리즈 대학교에서 섬유직물관리학을 공부했으나 졸업하지는 못했다.
 영국	B-LOC
-북부의	B-LOC
+북부의	O
 리즈	B-ORG
 대학교에서	I-ORG
-섬유직물관리학을	O
+섬유직물관리학을	B-POS
 공부했으나	O
 졸업하지는	B-POS
 못했다	O
@@ -2592,9 +2592,9 @@ OECD의	B-ORG
 나간	O
 노래	O
 콘테스트에서	O
-〈	B-ORG
-AMERICAN	B-ORG
-PIE	I-ORG
+〈	O
+AMERICAN    B-AFW
+PIE	I-AFW
 〉	O
 를	O
 불러	O
@@ -2610,35 +2610,35 @@ PIE	I-ORG
 발행된	O
 빅토르	B-PER
 초이	I-PER
-추모우표	I-AFW
+추모우표	O
 (	O
-Michel	B-ORG
-762	I-HEC
+Michel	O
+762	O
 ,	O
-Scott	B-AFW
-6548	I-HEC
+Scott	O
+6548	O
 )	O
 .	O
 
 빅토르 초이
-빅토르 로베르토비치 초이(, 1962년 6월 21일 ~ 1990년 8월 15일)는 소련의 록 가수이자, 싱어송라이터 겸 영화배우이며, 소련 록 음악 밴드 키노(КИНО)의 리더였다.
+빅토르 로베르토비치 초이(, 1962년 6월 21일 ~ 1990년 8월 15일)는 소련의 록 가수이자, 싱어송라이터 겸 영화배우이며, 소련 록 음악 밴드 키노의 리더였다.
 빅토르	B-PER
 로베르토비치	I-PER
 초이	I-PER
 (	O
-,	B-DAT
-1962년	B-NUM
+,	O
+1962년	B-DAT
 6월	I-DAT
 21일	I-DAT
-~	O
-1990년	B-DAT
+~	I-DAT
+1990년	I-DAT
 8월	I-DAT
 15일	I-DAT
 )	O
 는	O
 소련의	B-LOC
-록	O
-가수이자	B-POS
+록	B-POS
+가수이자	I-POS
 ,	O
 싱어송라이터	B-POS
 겸	O
@@ -2649,9 +2649,6 @@ Scott	B-AFW
 음악	O
 밴드	O
 키노	B-PER
-(	O
-[UNK]	B-PER
-)	O
 의	O
 리더였다	B-POS
 .	O
@@ -2685,7 +2682,7 @@ Scott	B-AFW
 빌헬름	I-ORG
 협회	I-ORG
 (	O
-플랑크가	I-ORG
+플랑크가	B-PER
 두	B-NUM
 번	I-NUM
 회장을	B-POS
@@ -2763,12 +2760,12 @@ MPG	B-ORG
 막스 플랑크
 1926년 플랑크는 네덜란드 왕립 예술 과학 아카데미의 외국인 회원이 되었다.
 1926년	B-DAT
-플랑크는	B-ORG
+플랑크는	B-PER
 네덜란드	B-LOC
-왕립	O
-예술	O
-과학	O
-아카데미의	O
+왕립	B-ORG
+예술	I-ORG
+과학	I-ORG
+아카데미의	I-ORG
 외국인	B-POS
 회원이	B-POS
 되었다	O
@@ -2793,7 +2790,7 @@ MPG	B-ORG
 초대한	O
 만찬에서	O
 ,	O
-베를린	B-EVT
+베를린	B-LOC
 1931년	B-DAT
 11월	I-DAT
 11일	I-DAT
@@ -2809,7 +2806,7 @@ MPG	B-ORG
 파울리는	B-PER
 양자역학에	O
 대한	O
-코펜하겐	B-LOC
+코펜하겐	O
 해석을	O
 수행했지만	O
 플랑크와	B-PER
@@ -2832,8 +2829,8 @@ MPG	B-ORG
 더	O
 이상의	O
 작업은	O
-양자	B-HEC
-이론을	I-HEC
+양자	O
+이론을	O
 확고히	O
 했을	O
 뿐이다	O
@@ -2845,7 +2842,7 @@ MPG	B-ORG
 나치가	B-ORG
 집권했을	O
 때	O
-플랑크는	B-ORG
+플랑크는	B-PER
 74세였다	B-NUM
 .	O
 
@@ -2875,7 +2872,7 @@ MPG	B-ORG
 그럼에도	O
 불구하고	O
 그는	O
-조카인	B-POS
+조카인	B-PIV
 경제학자	B-POS
 헤르만	B-PER
 크라놀트가	I-PER
@@ -2889,9 +2886,9 @@ MPG	B-ORG
 
 막스 플랑크
 괴팅겐에 있는 플랑크의 묘지.
-괴팅겐에	O
+괴팅겐에    B-LOC
 있는	O
-플랑크의	O
+플랑크의	B-PER
 묘지	O
 .	O
 
@@ -2914,7 +2911,7 @@ MPG	B-ORG
 
 막스 플랑크
 제2차 세계대전 중에 베를린에 대한 연합군의 폭격 임무가 늘어나면서 플랑크와 그의 아내는 일시적으로 도시를 떠나 시골에 살게 되었다.
-제2차	B-NUM
+제2차	B-EVT
 세계대전	I-EVT
 중에	O
 베를린에	B-LOC
@@ -2925,7 +2922,7 @@ MPG	B-ORG
 늘어나면서	O
 플랑크와	B-PER
 그의	O
-아내는	B-POS
+아내는	B-PIV
 일시적으로	O
 도시를	O
 떠나	O
@@ -2964,10 +2961,10 @@ MPG	B-ORG
 히틀러	B-PER
 암살을	O
 시도한	O
-7	B-NUM
-·	I-NUM
-20	I-NUM
-음모로	O
+7	B-EVT
+·	I-EVT
+20	I-EVT
+음모로	I-EVT
 게슈타포에	B-PER
 의해	O
 체포되어	O
@@ -2975,7 +2972,7 @@ MPG	B-ORG
 받고	O
 1944년	B-DAT
 10월	I-DAT
-인민법정에서	O
+인민법정에서	B-ORG
 사형을	O
 선고받았다	O
 .	O
@@ -3001,12 +2998,12 @@ MPG	B-ORG
 플랑크의	B-PER
 두	B-NUM
 번째	I-NUM
-아내와	B-POS
+아내와	B-PIV
 그의	O
 아들은	B-PIV
 괴팅겐에	B-LOC
 있는	O
-친척에게	O
+친척에게	B-PIV
 갔는데	O
 플랑크는	B-PER
 1947년	B-DAT
@@ -3035,20 +3032,20 @@ MPG	B-ORG
 창안에	O
 대한	O
 공로로	O
-"	B-POS
-노벨	B-POS
-물리학상을	I-POS
+"	O
+노벨	B-PRI
+물리학상을	I-PRI
 받았다	O
 .	O
 
 베르너 하이젠베르크
 그는 제2차 세게대전 동안 독일의 핵무기 프로그램의 대표 과학자였다.
 그는	O
-제2차	B-NUM
+제2차	B-EVT
 세게대전	I-EVT
 동안	O
 독일의	B-LOC
-핵무기	B-AFW
+핵무기	O
 프로그램의	O
 대표	O
 과학자였다	B-POS
@@ -3062,12 +3059,12 @@ MPG	B-ORG
 시스템에서	O
 중세와	O
 현대	O
-그리스어	B-AFW
+그리스어	O
 연구에	O
 대한	O
 독일의	B-LOC
 유일한	O
-오르덴틀리헤르	B-LOC
+오르덴틀리헤르	O
 교수	B-POS
 (	O
 일반	O
@@ -3084,19 +3081,19 @@ MPG	B-ORG
 베르너 하이젠베르크
 하이젠베르크는 루터교 기독교인으로 자랐다.
 하이젠베르크는	B-LOC
-루터교	B-ORG
-기독교인으로	B-POS
+루터교	B-PIV
+기독교인으로	B-PIV
 자랐다	O
 .	O
 
 베르너 하이젠베르크
 하이젠베르크는 십대 후반에 바이에른 알프스에서 하이킹을 하면서 플라톤의 《티마이오스》를 읽었다.
 하이젠베르크는	B-LOC
-십대	B-DAT
-후반에	I-DAT
+십대	B-NUM
+후반에	I-NUM
 바이에른	B-LOC
 알프스에서	B-LOC
-하이킹을	B-POS
+하이킹을	O
 하면서	O
 플라톤의	B-PER
 《	O
@@ -3118,7 +3115,7 @@ MPG	B-ORG
 교육을	O
 받는	O
 동안	O
-동료	B-POS
+동료	O
 학생	B-POS
 및	O
 교사와	B-POS
@@ -3138,10 +3135,10 @@ MPG	B-ORG
 수립된	O
 바이에른	B-LOC
 평의회	I-ORG
-공화국과	O
+공화국과	I-ORG
 싸우기	O
 위해	O
-1919년	B-NUM
+1919년	B-DAT
 자유군단의	B-ORG
 일원으로	O
 뮌헨에	B-LOC
@@ -3152,7 +3149,7 @@ MPG	B-ORG
 1923년 뮌헨에서 좀머펠트 밑에서 박사학위를 받았다.
 1923년	B-DAT
 뮌헨에서	B-LOC
-좀머펠트	B-POS
+좀머펠트	B-PER
 밑에서	O
 박사학위를	B-POS
 받았다	O
@@ -3164,32 +3161,30 @@ MPG	B-ORG
 젊은	O
 시절에	O
 독일	B-LOC
-스카우트	O
-협회이자	O
+스카우트	B-ORG
+협회이자	I-ORG
 독일	B-LOC
-청년	O
-운동의	O
+청년	B-EVT
+운동의	I-EVT
 일원인	O
 '	B-PER
-노이파드핀데르	I-PER
+노이파드핀데르	B-ORG
 (	O
-Neupfadfinder	I-AFW
+Neupfadfinder	B-ORG
 )	O
 '	O
 의	O
 회원이자	B-POS
-스카우트	B-POS
+스카우트	O
 리더였다	B-POS
 .	O
 
 베르너 하이젠베르크
-1923년 8월 로베르트 혼젤<sub>Robert Honsell과 하이젠베르크는 뮌헨에서 이 협회의 스카우트 그룹과 함께 핀란드 여행을 계획했다.
+1923년 8월 로베르트 혼젤과 하이젠베르크는 뮌헨에서 이 협회의 스카우트 그룹과 함께 핀란드 여행을 계획했다.
 1923년	B-DAT
 8월	I-DAT
 로베르트	B-PER
-혼젤	I-PER
-Robert	B-PER
-Honsell	I-PER
+혼젤	I-PER7
 과	O
 하이젠베르크는	B-LOC
 뮌헨에서	B-LOC
@@ -3220,14 +3215,14 @@ Honsell	I-PER
 그의	O
 관심은	O
 미래의	O
-아내를	B-POS
+아내를	B-PIV
 만나는	O
 것으로	O
 이어졌다	O
 .	O
 
 베르너 하이젠베르크
-1937년 1월, 하이젠베르크는 개인 음악 발표회에서 엘리자베스 슈마허<sub>Elisabeth Schumacher</sub> (1914–1998)를 만났다.
+1937년 1월, 하이젠베르크는 개인 음악 발표회에서 엘리자베스 슈마허 (1914–1998)를 만났다.
 1937년	B-DAT
 1월	I-DAT
 ,	O
@@ -3237,19 +3232,10 @@ Honsell	I-PER
 발표회에서	I-EVT
 엘리자베스	B-PER
 슈마허	I-PER
-<	O
-sub	O
->	O
-Elisabeth	B-PER
-Schumacher	I-AFW
-<	O
-/	B-DAT
-sub	B-DAT
->	O
 (	O
 1914	B-DAT
-–	O
-1998	B-DAT
+–	I-DAT
+1998	I-DAT
 )	O
 를	O
 만났다	O
@@ -3289,8 +3275,8 @@ sub	B-DAT
 1906년	B-DAT
 12월	I-DAT
 5일	I-DAT
-~	O
-1965년	B-DAT
+~	I-DAT
+1965년	I-DAT
 9월	I-DAT
 16일	I-DAT
 )	O
@@ -3316,10 +3302,10 @@ sub	B-DAT
 號	O
 )	O
 는	O
-산남	B-LOC
+산남	B-PER
 (	O
-山	B-LOC
-南	O
+山	B-PER
+南	I-PER
 )	O
 이다	O
 .	O
@@ -3327,11 +3313,11 @@ sub	B-DAT
 안익태
 1945년 8.15 조선 광복 이후 대한민국 서울의 숭실중학교와 숭실고등학교에서 각각 명예 졸업장을 수여받기도 한 그는 대한민국의 국가(國歌)인 애국가를 작곡했으며, 대표 작품으로 한국환상곡이 있다.
 1945년	B-DAT
-8	B-DAT
-.	O
-15	B-DAT
-조선	B-LOC
-광복	O
+8   B-DAT
+.	I-DAT
+15  I-DAT
+조선	B-EVT
+광복	I-EVT
 이후	O
 대한민국	B-LOC
 서울의	B-LOC
@@ -3339,7 +3325,7 @@ sub	B-DAT
 숭실고등학교에서	B-ORG
 각각	O
 명예	O
-졸업장을	B-POS
+졸업장을	O
 수여받기도	O
 한	O
 그는	O
@@ -3350,12 +3336,12 @@ sub	B-DAT
 歌	O
 )	O
 인	O
-애국가를	O
+애국가를	B-AFW
 작곡했으며	O
 ,	O
 대표	O
 작품으로	O
-한국환상곡이	O
+한국환상곡이  B-AFW
 있다	O
 .	O
 
@@ -3364,7 +3350,7 @@ sub	B-DAT
 그래서	O
 대한민국의	B-LOC
 국가를	O
-애국가	O
+애국가	B-AFW
 말고	O
 다른	O
 걸로	O
@@ -3379,12 +3365,12 @@ sub	B-DAT
 도모나가	B-PER
 신이치로	I-PER
 (	O
-,	B-DAT
+,	O
 1906년	B-DAT
 3월	I-DAT
 31일	I-DAT
-~	O
-1979년	B-DAT
+~	I-DAT
+1979년	I-DAT
 7월	I-DAT
 8일	I-DAT
 )	O
@@ -3407,8 +3393,8 @@ sub	B-DAT
 파인먼과	I-PER
 줄리언	B-PER
 슈윙거와	I-PER
-노벨	B-EVT
-물리학상을	I-POS
+노벨	B-PRI
+물리학상을	I-PRI
 수상했다	O
 .	O
 
@@ -3417,12 +3403,12 @@ sub	B-DAT
 유카와	B-PER
 히데키	I-PER
 (	O
-,	B-DAT
+,	O
 1907년	B-DAT
 1월	I-DAT
 23일	I-DAT
-~	O
-1981년	B-DAT
+~	I-DAT
+1981년	I-DAT
 9월	I-DAT
 8일	I-DAT
 )	O
@@ -3433,7 +3419,7 @@ sub	B-DAT
 
 유카와 히데키
 교토부 교토시 출신이다.
-교토부	B-ORG
+교토부	B-LOC
 교토시	B-LOC
 출신이다	O
 .	O
@@ -3442,13 +3428,13 @@ sub	B-DAT
 교토 대학·오사카 대학 명예교수, 교토시 명예시민이었다.
 교토	B-ORG
 대학	I-ORG
-·	I-ORG
+·	O
 오사카	B-ORG
 대학	I-ORG
 명예교수	B-POS
 ,	O
 교토시	B-LOC
-명예시민이었다	B-POS
+명예시민이었다	O
 .	O
 
 유카와 히데키
@@ -3462,8 +3448,8 @@ sub	B-DAT
 않는	O
 존재였는데	O
 별명은	O
-‘	B-PER
-곤베에	I-PER
+‘	O
+곤베에	B-PER
 ’	I-PER
 였다	O
 .	O
@@ -3471,15 +3457,15 @@ sub	B-DAT
 유카와 히데키
 1929년에 교토 제국대학 이학부 물리학과를 졸업했고 같은 대학의 다마키 가주로 연구실의 조수가 됐다.
 1929년에	B-DAT
-교토	B-LOC
-제국대학	B-ORG
+교토	B-ORG
+제국대학	I-ORG
 이학부	B-ORG
 물리학과를	B-POS
 졸업했고	B-POS
 같은	O
 대학의	O
-다마키	B-LOC
-가주로	O
+다마키	B-PER
+가주로	I-PER
 연구실의	O
 조수가	B-POS
 됐다	O
@@ -3488,7 +3474,7 @@ sub	B-DAT
 유카와 히데키
 1932년에는 교토 제국대학 강사로 활동했다.
 1932년에는	B-DAT
-교토	B-LOC
+교토	B-ORG
 제국대학	I-ORG
 강사로	B-POS
 활동했다	O
@@ -3510,14 +3496,14 @@ sub	B-DAT
 이 즈음에 오사카 위장 병원(1950년에 유카와 위장 병원이라고 개칭)의 원장인 유카와 겐요의 둘째 딸 유카와 스미(본명은 스미코)와 결혼해 유카와가의 데릴사위가 되면서 성을 ‘오가와’에서 ‘유카와’가 됐다.
 이	O
 즈음에	O
-오사카	B-LOC
-위장	I-AFW
-병원	I-AFW
+오사카	B-ORG
+위장	I-ORG
+병원	I-ORG
 (	O
 1950년에	B-DAT
-유카와	B-PER
-위장	I-HEC
-병원이라고	I-HEC
+유카와	B-ORG
+위장	I-ORG
+병원이라고	I-ORG
 개칭	O
 )	O
 의	O
@@ -3535,15 +3521,15 @@ sub	B-DAT
 와	O
 결혼해	B-PIV
 유카와가의	B-PER
-데릴사위가	B-POS
+데릴사위가	B-PIV
 되면서	O
 성을	O
-‘	B-PER
-오가와	I-PER
+‘	O
+오가와	B-PER
 ’	O
 에서	O
-‘	B-PER
-유카와	I-PER
+‘	O
+유카와	B-PER
 ’	O
 가	O
 됐다	O
@@ -3551,15 +3537,15 @@ sub	B-DAT
 
 유카와 히데키
 중일 전쟁 격화에 따른 서방 국가들로부터 고립되고 있던 일본인 과학자에 대한 해외에서의 평가는 그리 좋진 않았다.
-중일	O
-전쟁	O
+중일	B-EVT
+전쟁	I-EVT
 격화에	O
 따른	O
 서방	O
 국가들로부터	O
 고립되고	O
 있던	O
-일본인	B-POS
+일본인	O
 과학자에	B-POS
 대한	O
 해외에서의	O
@@ -3571,11 +3557,11 @@ sub	B-DAT
 
 유카와 히데키
 1939년, 유카와는 솔베 회의에 초청됐다.
-1939년	B-NUM
+1939년	B-DAT
 ,	O
 유카와는	B-PER
-솔베	B-LOC
-회의에	O
+솔베	B-ORG
+회의에	I-ORG
 초청됐다	O
 .	O
 
@@ -3583,7 +3569,7 @@ sub	B-DAT
 회의 자체는 제2차 세계 대전 발발로 중단됐지만 알베르트 아인슈타인이나 로버트 오펜하이머 등과 친분을 가졌다.
 회의	O
 자체는	O
-제2차	B-NUM
+제2차	B-EVT
 세계	I-EVT
 대전	I-EVT
 발발로	O
@@ -3605,14 +3591,14 @@ sub	B-DAT
 같이	O
 전쟁	O
 중에는	O
-아라카쓰	B-LOC
+아라카쓰	B-PER
 분사쿠가	I-PER
 이끄는	O
 교토	B-ORG
 대학	I-ORG
 그룹에서	I-ORG
 일본의	B-LOC
-원자폭탄	B-HEC
+원자폭탄	O
 개발에	O
 관여했다는	O
 사실이	O
@@ -3621,10 +3607,10 @@ sub	B-DAT
 
 유카와 히데키
 부인 유카와 스미와 함께(1954년).
-부인	O
+부인	B-PIV
 유카와	B-PER
-스미와	B-PER
-함께	B-NUM
+스미와	I-PER
+함께	O
 (	O
 1954년	B-DAT
 )	O
@@ -3670,16 +3656,16 @@ sub	B-DAT
 2002년	B-DAT
 9월부터	I-DAT
 대북	B-EVT
-불법송금	O
-사건	O
+불법송금	I-EVT
+사건	I-EVT
 관련	O
 조사를	O
 받던	O
 도중	O
-2003년	B-NUM
+2003년	B-DAT
 8월	I-DAT
 4일	I-DAT
-현대계동사옥	B-AFW
+현대계동사옥	B-ORG
 12층에서	B-NUM
 갑자기	O
 투신자살하였다	O
@@ -3760,7 +3746,7 @@ sub	B-DAT
 현장	O
 지문감식을	O
 실시한	O
-경찰도	B-POS
+경찰도	B-ORG
 그의	O
 지문을	O
 확보하지	O
@@ -3788,7 +3774,7 @@ sub	B-DAT
 고향	O
 마을	O
 이름이자	O
-아호였다	B-AFW
+아호였다	O
 .	O
 
 정몽헌
@@ -3812,13 +3798,13 @@ sub	B-DAT
 로마노비치	I-PER
 프리고진	I-PER
 (	O
-,	B-DAT
-,	B-DAT
-1917년	I-DAT
+,	O
+,	O
+1917년	B-DAT
 1월	I-DAT
 25일	I-DAT
--	B-DAT
-2003년	B-DAT
+-	I-DAT
+2003년	I-DAT
 3월	I-DAT
 28일	I-DAT
 )	O
@@ -3843,14 +3829,14 @@ sub	B-DAT
 공헌한	O
 점을	O
 인정받아	O
-노벨	B-EVT
-화학상을	I-POS
+노벨	B-PRI
+화학상을	I-PRI
 수상했다	O
 .	O
 
 일리야 프리고진
 1989년에는 벨기에의 보두앵 1세 국왕으로부터 자작 작위를 받았다.
-1989년에는	B-NUM
+1989년에는	B-DAT
 벨기에의	B-LOC
 보두앵	B-PER
 1세	I-PER
@@ -3866,13 +3852,13 @@ sub	B-DAT
 (	O
 鄭	B-PER
 周	I-PER
-永	B-PER
+永	I-PER
 ,	O
-1915년	B-NUM
+1915년	B-DAT
 11월	I-DAT
 25일	I-DAT
-~	O
-2001년	B-DAT
+~	I-DAT
+2001년	I-DAT
 3월	I-DAT
 21일	I-DAT
 )	O
@@ -3892,8 +3878,8 @@ sub	B-DAT
 기업경영능력으로써	O
 현대그룹을	B-ORG
 일군	O
-자수성가형	B-POS
-기업인이라고	I-POS
+자수성가형	O
+기업인이라고	B-POS
 할	O
 수	O
 있다	O
@@ -3902,8 +3888,8 @@ sub	B-DAT
 정주영
 이듬해 2월에 의원직을 사퇴하고 통일국민당을 탈당하였다.
 이듬해	B-DAT
-2월에	I-DAT
-의원직을	O
+2월에	B-DAT
+의원직을	B-POS
 사퇴하고	O
 통일국민당을	B-ORG
 탈당하였다	O
@@ -3927,13 +3913,13 @@ sub	B-DAT
 16일을	I-DAT
 기하여	O
 1차	B-NUM
-소	B-NUM
+소	O
 500마리	B-NUM
 ,	O
 10월	B-DAT
 27일	I-DAT
 2차	B-NUM
-소	B-NUM
+소	O
 501마리를	B-NUM
 이끌고	O
 판문점을	B-LOC
@@ -3944,7 +3930,7 @@ sub	B-DAT
 
 정주영
 1995년에 조사한 세계 부자 순위에서 9위를 차지했다.
-1995년에	B-NUM
+1995년에	B-DAT
 조사한	O
 세계	O
 부자	O
@@ -3983,7 +3969,7 @@ sub	B-DAT
 아침	B-DAT
 6시에	B-DAT
 온	O
-가족이	B-POS
+가족이	O
 한자리에	B-NUM
 모두	O
 모여	O
@@ -3995,12 +3981,12 @@ sub	B-DAT
 정주영
 주로 미역국을 준비했으며 이 때문에 현대가 며느리들은 새벽부터 일찍 일어나 식사 준비를 하였다고 한다.
 주로	O
-미역국을	B-POS
+미역국을	O
 준비했으며	O
 이	O
 때문에	O
 현대가	B-ORG
-며느리들은	B-POS
+며느리들은	B-PIV
 새벽부터	B-DAT
 일찍	O
 일어나	O
@@ -4032,11 +4018,11 @@ sub	B-DAT
 Martin	B-PER
 Gardner	I-PER
 ,	O
-1914년	B-NUM
+1914년	B-DAT
 10월	I-DAT
 21일	I-DAT
-~	O
-2010년	B-DAT
+~	I-DAT
+2010년	I-DAT
 5월	I-DAT
 22일	I-DAT
 )	O
@@ -4052,12 +4038,12 @@ Gardner	I-PER
 존	I-PER
 다이슨	I-PER
 (	O
-,	B-DAT
-1923년	B-NUM
+,	O
+1923년	B-DAT
 12월	I-DAT
 15일	I-DAT
-~	O
-2020년	B-DAT
+~	I-DAT
+2020년	I-DAT
 2월	I-DAT
 28일	I-DAT
 )	O
@@ -4088,12 +4074,12 @@ Gardner	I-PER
 만프레트	B-PER
 아이겐	I-PER
 (	O
-,	B-DAT
+,	O
 1927년	B-DAT
 5월	I-DAT
 9일	I-DAT
-~	O
-2019년	B-DAT
+~	I-DAT
+2019년	I-DAT
 2월	I-DAT
 6일	I-DAT
 )	O
@@ -4110,7 +4096,7 @@ Gardner	I-PER
 세이건의	I-PER
 첫	B-NUM
 번째	I-NUM
-부인이었으며	I-NUM
+부인이었으며	B-PIV
 ,	O
 도리언	B-PER
 세이건의	I-PER
@@ -4149,15 +4135,15 @@ Gardner	I-PER
 회장을	B-POS
 지낸	O
 방우영의	B-PER
-형이다	B-POS
+형이다	B-PIV
 .	O
 
 방일영
 첫째 아들 방상훈은 2006년 기준으로 조선일보 사장이며, 둘째 아들 방용훈은 코리아나 호텔 대표이사이다., 밤의 황제이라는 별칭이 있다.
-첫째	B-POS
+첫째	B-NUM
 아들	B-PIV
 방상훈은	B-PER
-2006년	B-NUM
+2006년	B-DAT
 기준으로	O
 조선일보	B-ORG
 사장이며	B-POS
@@ -4170,8 +4156,8 @@ Gardner	I-PER
 대표이사이다	B-POS
 .	O
 ,	O
-밤의	B-DAT
-황제이라는	B-POS
+밤의	B-PER
+황제이라는	I-PER
 별칭이	O
 있다	O
 .	O
@@ -4180,7 +4166,7 @@ Gardner	I-PER
 그 밖에 안티조선 운동을 자초했다는 비판도 있다.
 그	O
 밖에	O
-안티조선	B-ORG
+안티조선	O
 운동을	O
 자초했다는	O
 비판도	O
@@ -4191,9 +4177,9 @@ Gardner	I-PER
 2001년 9월 숙부 방재선으로부터 호주상속권 소송을 당했다.
 2001년	B-DAT
 9월	I-DAT
-숙부	B-POS
+숙부	B-PIV
 방재선으로부터	B-PER
-호주상속권	B-POS
+호주상속권	O
 소송을	O
 당했다	O
 .	O
@@ -4202,12 +4188,12 @@ Gardner	I-PER
 그러나 법원은 서자와 양손자가 있을 경우 양손자에게 호주상속권이 적용된다며 방일영의 손을 들어주었다.
 그러나	O
 법원은	O
-서자와	B-POS
+서자와	B-PIV
 양손자가	B-PIV
 있을	O
 경우	O
 양손자에게	B-PIV
-호주상속권이	B-POS
+호주상속권이	O
 적용된다며	O
 방일영의	B-PER
 손을	O
@@ -4220,20 +4206,20 @@ Gardner	I-PER
 올리버	I-PER
 하인즈	I-PER
 (	O
-Gregory	B-ORG
-Oliver	I-ORG
-Hines	I-ORG
+Gregory	B-PER
+Oliver	I-PER
+Hines	I-PER
 ,	O
 1946년	B-DAT
 2월	I-DAT
 14일	I-DAT
-~	B-DAT
+~	I-DAT
 2003년	I-DAT
 8월	I-DAT
 9일	I-DAT
 )	O
 는	O
-미국인	B-POS
+미국인	O
 배우이자	B-POS
 춤꾼이다	B-POS
 .	O
@@ -4261,7 +4247,7 @@ Hines	I-ORG
 걷기	O
 시작하면서부터	O
 그의	O
-형에게서	B-POS
+형에게서	B-PIV
 탭댄싱을	O
 배웠다	O
 .	O
@@ -4271,7 +4257,7 @@ Hines	I-ORG
 5살이	B-NUM
 되었을	O
 때부터	O
-형과	B-POS
+형과	B-PIV
 춤으로	O
 돈을	O
 벌었으며	O
@@ -4279,9 +4265,9 @@ Hines	I-ORG
 유명한	O
 활동	O
 무대는	O
-할렘의	B-PER
-아폴로	B-AFW
-극장이었다	I-AFW
+할렘의	B-LOC
+아폴로	I-LOC
+극장이었다	I-LOC
 .	O
 
 그레고리 하인스
@@ -4289,22 +4275,22 @@ Hines	I-ORG
 그는	O
 여러	O
 번	O
-토니상	B-POS
+토니상	B-PRI
 후보에	O
 올랐었고	O
 ,	O
 1992년	B-DAT
 뮤지컬	O
-"	B-AFW
-Jelly	O
-'	O
-s	O
-Last	O
-Jam	O
-.	O
+"	O
+Jelly	B-AFW
+'	I-AFW
+s	I-AFW
+Last	I-AFW
+Jam	I-AFW
+.	I-AFW
 "	O
 으로	O
-토니상을	B-POS
+토니상을	B-PRI
 수상한다	O
 .	O
 
@@ -4313,7 +4299,7 @@ Jam	O
 하인즈는	B-PER
 암으로	B-HEC
 캘리포니아	B-LOC
-주	O
+주	I-LOC
 로스앤젤레스에서	B-LOC
 57년의	B-DAT
 생을	O
@@ -4324,7 +4310,7 @@ Jam	O
 그녀는 미국의 남부 조지아주 애틀랜타에서 태어났다.
 그녀는	O
 미국의	B-LOC
-남부	B-LOC
+남부	O
 조지아주	B-LOC
 애틀랜타에서	B-LOC
 태어났다	O
@@ -4335,10 +4321,10 @@ Jam	O
 어린시절을	O
 애틀랜타에서	B-LOC
 보내며	O
-남부의	B-LOC
+남부의	O
 역사와	O
-남북	O
-전쟁	O
+남북	B-EVT
+전쟁	I-EVT
 시기의	O
 일화를	O
 들으며	O
@@ -4348,7 +4334,7 @@ Jam	O
 마거릿 미첼
 3년 뒤인 1939년 비비언 리 주연의 영화로 출시되게 되면서 더욱 유명해졌다.
 3년	B-DAT
-뒤인	I-DAT
+뒤인	O
 1939년	B-DAT
 비비언	B-PER
 리	I-PER
@@ -4373,8 +4359,8 @@ Jam	O
 그래디	B-ORG
 병원	I-ORG
 (	O
-Grady	B-AFW
-Hospital	I-AFW
+Grady	B-ORG
+Hospital	I-ORG
 )	O
 에서	O
 48세로	B-NUM
@@ -4394,17 +4380,17 @@ Hospital	I-AFW
 1925년	B-DAT
 혹은	O
 1928년	B-DAT
-~	B-DAT
+~	I-DAT
 2003년	I-DAT
 8월	I-DAT
 16일	I-DAT
 )	O
 은	O
 우간다의	B-LOC
-군인	O
+군인	B-POS
 출신	O
 정치인으로	B-POS
-1971년	B-NUM
+1971년	B-DAT
 군사	O
 쿠데타로	O
 대통령에	B-POS
@@ -4418,9 +4404,9 @@ Hospital	I-AFW
 재능을	O
 보여	O
 ,	O
-1766년에는	B-NUM
+1766년에는	B-DAT
 빈	B-LOC
-궁정으로부터	O
+궁정으로부터	B-ORG
 초청을	O
 받는다	O
 .	O
@@ -4432,13 +4418,13 @@ Hospital	I-AFW
 빈에	B-LOC
 머무르며	O
 ,	O
-1788년에는	B-NUM
+1788년에는	B-DAT
 궁정작곡가로	B-POS
 임명되며	O
 ,	O
 사망	O
 직전인	O
-1824년까지	B-NUM
+1824년까지	B-DAT
 그	O
 지위에	O
 있는다	O
@@ -4455,17 +4441,17 @@ Hospital	I-AFW
 것으론	O
 ,	O
 《	O
-Danaides	I-AFW
+Danaides	B-AFW
 》	O
 (	O
-1784	B-NUM
+1784	B-DAT
 )	O
 과	O
 《	O
 Tarare	B-AFW
 》	O
 (	O
-1787	B-NUM
+1787	B-DAT
 )	O
 을	O
 꼽을	O
@@ -4510,10 +4496,10 @@ Tarare	B-AFW
 중	O
 유명한	O
 것이	O
-1984년작	B-NUM
+1984년작	B-DAT
 영화	O
 《	O
-아마데우스	I-AFW
+아마데우스	B-AFW
 》	O
 이며	O
 ,	O
@@ -4529,13 +4515,13 @@ Tarare	B-AFW
 
 라이너스 폴링
 1962년에는 지표 핵실험을 반대한 공로로 노벨 평화상을 받았다.
-1962년에는	B-NUM
+1962년에는	B-DAT
 지표	O
 핵실험을	O
 반대한	O
 공로로	O
-노벨	B-EVT
-평화상을	O
+노벨	B-PRI
+평화상을	I-PRI
 받았다	O
 .	O
 
@@ -4543,8 +4529,8 @@ Tarare	B-AFW
 그는 지금까지 혼자서 노벨상을 두 번 받은 유일한 사람이다.
 그는	O
 지금까지	O
-혼자서	B-NUM
-노벨상을	B-POS
+혼자서	O
+노벨상을	B-PRI
 두	B-NUM
 번	I-NUM
 받은	O
@@ -4582,7 +4568,7 @@ Tarare	B-AFW
 가난한	O
 이들을	O
 대변하는	O
-인도주의자로	B-POS
+인도주의자로	B-PIV
 널리	O
 알려졌다	O
 .	O
@@ -4590,20 +4576,20 @@ Tarare	B-AFW
 테레사 수녀
 1979년 노벨 평화상을 수상하였고 1980년 인도의 가장 높은 시민 훈장인 바라트 라트나(Bharat Ratna)를 받았다.
 1979년	B-DAT
-노벨	B-EVT
-평화상을	I-EVT
+노벨	B-PRI
+평화상을	I-PRI
 수상하였고	O
 1980년	B-DAT
 인도의	B-LOC
 가장	O
 높은	O
-시민	B-POS
+시민	O
 훈장인	O
-바라트	B-LOC
-라트나	I-PER
+바라트	B-PRI
+라트나	I-PRI
 (	O
-Bharat	B-LOC
-Ratna	I-AFW
+Bharat	B-PRI
+Ratna	I-PRI
 )	O
 를	O
 받았다	O
@@ -4614,26 +4600,22 @@ Ratna	I-AFW
 마더	B-PER
 테레사	I-PER
 (	O
-Mother	O
-Teresa	B-PER
+Mother	B-PER
+Teresa	I-PER
 )	O
 라고도	O
 불린다	O
 .	O
 
 윤보선
-윤보선(尹潽善, 1897년 8월 26일~1990년 7월 18일)은 대한민국의 제4대 대통령을 역임한 정치인이다.
+윤보선(1897년 8월 26일~1990년 7월 18일)은 대한민국의 제4대 대통령을 역임한 정치인이다.
 윤보선	B-PER
 (	O
-尹	B-PER
-[UNK]	I-PER
-善	I-PER
-,	O
 1897년	B-DAT
 8월	I-DAT
 26일	I-DAT
-~	O
-1990년	B-DAT
+~   I-DAT
+1990년	I-DAT
 7월	I-DAT
 18일	I-DAT
 )	O
@@ -4656,7 +4638,7 @@ Teresa	B-PER
 청년	O
 시절	O
 대한민국	B-LOC
-임시의정원에	B-LOC
+임시의정원에	B-ORG
 일시적으로	O
 참여하였고	O
 ,	O
@@ -4674,10 +4656,10 @@ Teresa	B-PER
 윤보선
 1961년 5·16 군사정변 이후 대통령 사퇴성명을 발표했다.
 1961년	B-DAT
-5	B-EVT
-·	I-EVT
-16	I-EVT
-군사정변	O
+5	B-DAT
+·	I-DAT
+16	I-DAT
+군사정변	B-EVT
 이후	O
 대통령	B-POS
 사퇴성명을	O
@@ -4706,14 +4688,14 @@ Teresa	B-PER
 ,	O
 윤치창은	B-PER
 그의	O
-당숙이었고	O
+당숙이었고	B-PIV
 ,	O
 윤치영은	B-PER
 그의	O
-숙부였으며	B-POS
+숙부였으며	B-PIV
 ,	O
 영선군의	B-PER
-사위	O
+사위	B-PIV
 윤원선은	B-PER
 그의	O
 동생이었다	B-PIV
@@ -4726,13 +4708,13 @@ Teresa	B-PER
 윤영선	B-PER
 등은	O
 그의	O
-사촌이었다	B-POS
+사촌이었다	B-PIV
 .	O
 
 윤보선
 그는 임시의정원의 최연소 의원이기도 했고, 허정, 이갑성과 함께 3.1절과 광복절 기념식 때 늦게까지 초대된 독립운동가 중의 한 사람이기도 하다.
 그는	O
-임시의정원의	B-AFW
+임시의정원의	B-ORG
 최연소	O
 의원이기도	B-POS
 했고	O
@@ -4765,7 +4747,7 @@ Teresa	B-PER
 전까지	O
 야당을	O
 이끌었으며	O
-'	B-ORG
+'	O
 선명야당	B-ORG
 '	O
 을	O
@@ -4775,8 +4757,8 @@ Teresa	B-PER
 윤보선
 그해 이승만박사기념사업회 이사를 지내기도 했다.
 그해	B-DAT
-이승만박사기념사업회	B-POS
-이사를	O
+이승만박사기념사업회	B-ORG
+이사를	B-POS
 지내기도	O
 했다	O
 .	O
@@ -4803,8 +4785,8 @@ Teresa	B-PER
 6대	B-NUM
 대선에서도	O
 박정희의	B-PER
-공산주의사상과	O
-남로당	O
+공산주의사상과	B-PIV
+남로당	B-ORG
 경력에	O
 대한	O
 비난이	O
@@ -4825,25 +4807,25 @@ Teresa	B-PER
 나도향 (羅稻香) (1902년 3월 30일 한성부 ~ 1926년 8월 26일)은 일제 강점기의 한국 소설가이다.
 나도향	B-PER
 (	O
-羅	B-AFW
-稻	I-AFW
-香	I-AFW
+羅	B-PER
+稻	I-PER
+香	I-PER
 )	O
 (	O
-1902년	B-NUM
+1902년	B-DAT
 3월	I-DAT
 30일	I-DAT
 한성부	B-ORG
-~	B-DAT
-1926년	I-DAT
+~	O
+1926년	B-DAT
 8월	I-DAT
 26일	I-DAT
 )	O
 은	O
-일제	B-DAT
+일제  O
 강점기의	O
 한국	B-LOC
-소설가이다	O
+소설가이다	B-POS
 .	O
 
 나도향
@@ -4855,7 +4837,7 @@ Teresa	B-PER
 박종화	B-PER
 등과	O
 함께	O
-백조파라는	B-ORG
+백조파라는	O
 낭만파를	O
 이루었다	O
 .	O
@@ -4871,7 +4853,7 @@ Teresa	B-PER
 천재	O
 작가로	O
 알려졌으나	O
-폐병으로	O
+폐병으로	B-HEC
 인해	O
 25세의	B-NUM
 젊은	O
@@ -4882,7 +4864,7 @@ Teresa	B-PER
 
 헤르만 민코프스키
 1909년 괴팅겐에서 사망하였다.
-1909년	B-NUM
+1909년	B-DAT
 괴팅겐에서	B-LOC
 사망하였다	O
 .	O
@@ -4892,11 +4874,11 @@ Teresa	B-PER
 헤르만	B-PER
 민코프스키	I-PER
 (	O
-,	B-DAT
-1864년	B-NUM
+,	O
+1864년	B-DAT
 6월	I-DAT
 22일	I-DAT
--	B-DAT
+-	I-DAT
 1909년	I-DAT
 1월	I-DAT
 12일	I-DAT
@@ -4911,10 +4893,10 @@ Teresa	B-PER
 
 다비트 힐베르트
 19세기 말 및 20세기 초에 가장 위대한 수학자 중 하나로 손꼽힌다.
-19세기	B-NUM
+19세기	B-DAT
 말	O
 및	O
-20세기	B-NUM
+20세기	B-DAT
 초에	O
 가장	O
 위대한	O
@@ -4973,8 +4955,8 @@ Teresa	B-PER
 태생이며	O
 ,	O
 1982년	B-NUM
-웁살라	B-LOC
-대학의	O
+웁살라	B-ORG
+대학의	I-ORG
 법학부를	B-ORG
 졸업했다	B-POS
 .	O
@@ -4984,8 +4966,8 @@ Teresa	B-PER
 1998년	B-DAT
 총선	O
 이후에	O
-예란	B-LOC
-페르손	B-LOC
+예란	B-PER
+페르손	I-PER
 내각에서	O
 외교부	B-ORG
 장관을	B-POS
@@ -4995,9 +4977,9 @@ Teresa	B-PER
 
 에드워드 텔러
 ‘수소폭탄의 아버지’로도 불린다.
-‘	B-HEC
-수소폭탄의	O
-아버지	B-PIV
+‘	O
+수소폭탄의	B-PER
+아버지	I-PER
 ’	O
 로도	O
 불린다	O
@@ -5008,7 +4990,7 @@ Teresa	B-PER
 *	O
 1998년에	B-DAT
 38개	B-NUM
-홈런과	I-NUM
+홈런과	O
 102타점을	B-NUM
 기록하여	O
 당시	O
@@ -5029,19 +5011,19 @@ Teresa	B-PER
 도조	B-PER
 히데키	I-PER
 (	O
-,	B-DAT
-1884년	B-NUM
+,	O
+1884년	B-DAT
 12월	I-DAT
 30일	I-DAT
-~	O
-1948년	B-NUM
+~	I-DAT
+1948년	I-DAT
 12월	I-DAT
 23일	I-DAT
 )	O
 는	O
 일본	B-LOC
 제국의	O
-쇼와	O
+쇼와	B-PER
 황제	B-POS
 재위기에	O
 활동한	O
@@ -5051,7 +5033,7 @@ Teresa	B-PER
 전쟁을	I-EVT
 일으킨	O
 A급	O
-전쟁범죄자이다	B-POS
+전쟁범죄자이다	O
 .	O
 
 도조 히데키
@@ -5062,8 +5044,8 @@ A급	O
 없다는	O
 의견을	O
 무시하고	O
-태평양	B-LOC
-전쟁을	O
+태평양	B-EVT
+전쟁을	I-EVT
 일으켰다	O
 .	O
 
@@ -5073,7 +5055,7 @@ A급	O
 그의	O
 저서	O
 《	O
-사무라이	I-AFW
+사무라이	B-AFW
 정신은	I-AFW
 없다	I-AFW
 》	O
@@ -5095,10 +5077,10 @@ A급	O
 47년	I-DAT
 )	O
 에	O
-만	B-NUM
-72세	I-NUM
+만	O
+72세	B-NUM
 (	O
-향년74세	B-DAT
+향년74세	B-NUM
 )	O
 로	O
 사망하였다	O
@@ -5106,13 +5088,13 @@ A급	O
 
 안토니우 카를루스 조빙
 '통 조빔'(Tom Jobim)이란 이름으로도 유명하다.
-'	B-PER
+'	O
 통	B-PER
 조빔	I-PER
 '	O
 (	O
-Tom	B-POS
-Jobim	I-POS
+Tom	B-PER
+Jobim	I-PER
 )	O
 이란	O
 이름으로도	O
@@ -5130,7 +5112,7 @@ Jobim	I-POS
 있었고	O
 ,	O
 둘은	B-NUM
-전화를	B-HEC
+전화를	O
 통해서	O
 단지	O
 3개의	B-NUM
@@ -5145,18 +5127,18 @@ Jobim	I-POS
 만들어진	O
 곡이	O
 〈	O
-A	O
-Felicidade	B-AFW
-〉	O
-,	O
-〈	B-AFW
-Frevo	O
+A	B-AFW
+Felicidade	I-AFW
 〉	O
 ,	O
 〈	O
-O	O
-Nosso	O
-Amor	O
+Frevo	B-AFW
+〉	O
+,	O
+〈	O
+O	B-AFW
+Nosso	I-AFW
+Amor	I-AFW
 〉	O
 이다	O
 .	O
@@ -5171,7 +5153,7 @@ Amor	O
 오거만	I-PER
 (	O
 Claus	B-PER
-Ogerman	I-AFW
+Ogerman	I-PER
 )	O
 은	O
 조빙의	B-PER
@@ -5182,9 +5164,9 @@ Ogerman	I-AFW
 .	O
 
 안토니우 카를루스 조빙
-조빙은 그래미상을 수상한 1963년 《게츠/질베르투》GETZ/GILBERTO 앨범으로 세계적으로 이름을 알리게 된다.
+조빙은 그래미상을 수상한 1963년 《게츠/질베르투》 앨범으로 세계적으로 이름을 알리게 된다.
 조빙은	B-PER
-그래미상을	B-POS
+그래미상을	B-PRI
 수상한	O
 1963년	B-DAT
 《	O
@@ -5192,9 +5174,6 @@ Ogerman	I-AFW
 /	I-AFW
 질베르투	I-AFW
 》	O
-GETZ	B-ORG
-/	I-ORG
-GILBERTO	I-ORG
 앨범으로	O
 세계적으로	O
 이름을	O
@@ -5210,12 +5189,12 @@ GILBERTO	I-ORG
 질베르투가	I-PER
 부른	O
 대히트곡	O
-〈	B-AFW
+〈	O
 The	B-AFW
 Girl	I-AFW
 from	I-AFW
 Ipanema	B-AFW
-〉	I-AFW
+〉	O
 가	O
 수록되어	O
 있다	O
@@ -5248,7 +5227,7 @@ Ipanema	B-AFW
 조빙은 세계적으로 20세기 음악에 가장 큰 영향을 끼친 사람 중의 한 사람으로 여겨지고 있다.
 조빙은	B-PER
 세계적으로	O
-20세기	B-NUM
+20세기	B-DAT
 음악에	O
 가장	O
 큰	O
@@ -5278,7 +5257,7 @@ Ipanema	B-AFW
 마지막	O
 앨범인	O
 《	O
-Antonio	I-AFW
+Antonio	B-AFW
 Brasileiro	I-AFW
 》	O
 은	O
@@ -5289,8 +5268,8 @@ Brasileiro	I-AFW
 안토니우 카를루스 조빙
 2016년 리우데자네이루 하계 패럴림픽 마스코트인 통은 여기서 유래된 이름이다.
 2016년	B-EVT
-리우데자네이루	B-EVT
-하계	I-EVT
+리우데자네이루	B-LOC
+하계	B-EVT
 패럴림픽	I-EVT
 마스코트인	O
 통은	O
@@ -5305,12 +5284,12 @@ Brasileiro	I-AFW
 (	O
 金	B-PER
 性	I-PER
-洙	O
+洙	I-PER
 ,	O
-1891년	B-NUM
+1891년	B-DAT
 10월	I-DAT
 11일	I-DAT
-~	B-DAT
+~	I-DAT
 1955년	I-DAT
 2월	I-DAT
 18일	I-DAT
@@ -5321,9 +5300,9 @@ Brasileiro	I-AFW
 ,	O
 언론인	B-POS
 ·	O
-기업인	O
+기업인	B-POS
 ·	O
-근대주의	O
+근대주의	B-PIV
 운동가이고	B-POS
 ,	O
 대한민국	B-LOC
@@ -5345,7 +5324,7 @@ Brasileiro	I-AFW
 ,	O
 지난날	O
 한때	O
-한성부에서	O
+한성부에서	B-LOC
 잠시	O
 유아기를	O
 보낸	O
@@ -5360,15 +5339,15 @@ Brasileiro	I-AFW
 김성수 (언론인)
 본관은 울산이며 조선조 성리학자 하서 김인후(金麟厚)의 13대손이다.
 본관은	O
-울산이며	B-ORG
-조선조	B-DAT
+울산이며	B-LOC
+조선조	O
 성리학자	B-POS
 하서	B-PER
 김인후	B-PER
 (	O
 金	B-PER
-麟	B-PER
-厚	B-POS
+麟	I-PER
+厚	I-PER
 )	O
 의	O
 13대손이다	B-NUM
@@ -5376,9 +5355,9 @@ Brasileiro	I-AFW
 
 김성수 (언론인)
 1914년 와세다 대학교 정치경제학부에서 학사 학위를 취득하였다.
-1914년	B-NUM
-와세다	B-LOC
-대학교	B-ORG
+1914년	B-DAT
+와세다	B-ORG
+대학교	I-ORG
 정치경제학부에서	B-ORG
 학사	B-POS
 학위를	O
@@ -5389,7 +5368,7 @@ Brasileiro	I-AFW
 귀국 후 1915년 중앙고등보통학교를 인수하여 학교장을 지내는 등 교육 활동을 하였다.
 귀국	O
 후	O
-1915년	B-NUM
+1915년	B-DAT
 중앙고등보통학교를	B-ORG
 인수하여	O
 학교장을	B-POS
@@ -5403,7 +5382,7 @@ Brasileiro	I-AFW
 김성수 (언론인)
 1919년 3·1 운동 준비에 참여하여 자신의 집을 회합 장소로 제공하였다.
 1919년	B-DAT
-3	B-EVT
+3	B-DAT
 ·	I-EVT
 1	I-EVT
 운동	I-EVT
@@ -5440,9 +5419,9 @@ Brasileiro	I-AFW
 김성수 (언론인)
 김성수는 경성방직을 운영하며 물산장려운동에 참여하였고, 1920년에는 양기탁, 유근, 장덕수 등과 동아일보를 설립하였다.
 김성수는	B-PER
-경성방직을	O
+경성방직을	B-ORG
 운영하며	O
-물산장려운동에	B-EVT
+물산장려운동에	O
 참여하였고	O
 ,	O
 1920년에는	B-DAT
@@ -5481,8 +5460,8 @@ Brasileiro	I-AFW
 5	B-DAT
 .	I-DAT
 10	I-DAT
-단독	O
-총선거에	B-EVT
+단독	B-EVT
+총선거에	I-EVT
 찬성하였다	O
 .	O
 
@@ -5494,9 +5473,9 @@ Brasileiro	I-AFW
 되었고	O
 ,	O
 한국	B-EVT
-전쟁	O
+전쟁	I-EVT
 기간인	O
-1951년	B-NUM
+1951년	B-DATG
 5월부터	I-DAT
 1952년	I-DAT
 8월까지	I-DAT
@@ -5525,7 +5504,7 @@ Brasileiro	I-AFW
 김성수 (언론인)
 * 1914년 귀국 직후 고향과 경성을 오가며 송진우, 백관수, 장덕수, 최두선, 안재홍 등과 교류하며 정치담론을 토론하였다.
 *	O
-1914년	B-NUM
+1914년	B-DAT
 귀국	O
 직후	O
 고향과	O
@@ -5552,7 +5531,7 @@ Brasileiro	I-AFW
 1917년	B-DAT
 3월	I-DAT
 30일	I-DAT
-~	B-DAT
+~	I-DAT
 1918년	I-DAT
 3월	I-DAT
 중앙중학교	B-ORG
@@ -5562,9 +5541,9 @@ Brasileiro	I-AFW
 김성수 (언론인)
 * 1924년 양어머니 전주 이씨 사망.
 *	O
-1924년	B-NUM
+1924년	B-DAT
 양어머니	B-PIV
-전주	B-DAT
+전주	B-LOC
 이씨	B-PER
 사망	O
 .	O
@@ -5574,11 +5553,11 @@ Brasileiro	I-AFW
 *	O
 1926년	B-DAT
 러시아	B-EVT
-혁명	O
-10주년	B-NUM
+혁명	I-EVT
+10주년	B-DAT
 기념	O
 논문	O
-필화사건으로	O
+필화사건으로	B-EVT
 서무부장	B-POS
 김철중	B-PER
 (	O
@@ -5600,10 +5579,10 @@ Brasileiro	I-AFW
 *	O
 1926년	B-DAT
 6월	I-DAT
-6	I-DAT
-.	O
-10	B-DAT
-만세운동	O
+6	B-EVT
+.	I-EVT
+10	I-EVT
+만세운동	I-EVT
 직후	O
 송진우와	B-PER
 함께	O
@@ -5619,14 +5598,14 @@ Brasileiro	I-AFW
 1928년	B-DAT
 3월	I-DAT
 경성방직주식회사	B-ORG
-사장직	O
+사장직	B-POS
 사퇴	O
 .	O
 
 김성수 (언론인)
 * 1929년 39세에 늑막염으로 한동안 입원하기도 했다.
 *	O
-1929년	B-NUM
+1929년	B-DAT
 39세에	B-NUM
 늑막염으로	B-HEC
 한동안	O
@@ -5651,7 +5630,7 @@ Brasileiro	I-AFW
 1993년부터 그의 건국공로훈장을 치탈해야 한다는 주장이 나오기도 했다.
 1993년부터	B-DAT
 그의	O
-건국공로훈장을	B-POS
+건국공로훈장을	B-PRI
 치탈해야	O
 한다는	O
 주장이	O
@@ -5667,7 +5646,7 @@ Brasileiro	I-AFW
 (	O
 )	O
 나	O
-‘	B-PER
+‘	O
 소로카쿠슈진	B-PER
 ’	O
 (	O
@@ -5675,9 +5654,9 @@ Brasileiro	I-AFW
 등이라고	O
 불렸으므로	O
 ,	O
-‘	B-PER
+‘	O
 슌보	B-PER
-공	B-POS
+공	I-PER
 ’	O
 (	O
 )	O
@@ -5690,7 +5669,7 @@ Brasileiro	I-AFW
 이토 히로부미
 또한 초대·제3대·제8대·제10대 추밀원 의장, 조선통감부 초대 통감, 귀족원 의장, 관선 효고현 지사 등을 지냈다.
 또한	O
-초대	O
+초대	B-NUM
 ·	O
 제3대	B-NUM
 ·	O
@@ -5707,7 +5686,7 @@ Brasileiro	I-AFW
 귀족원	B-ORG
 의장	B-POS
 ,	O
-관선	B-PER
+관선	O
 효고현	B-LOC
 지사	B-POS
 등을	O
@@ -5725,10 +5704,10 @@ Brasileiro	I-AFW
 이토 히로부미
 영국 런던 대학교 유니버시티 칼리지 런던으로 유학하였다.
 영국	B-LOC
-런던	B-LOC
-대학교	O
+런던	B-ORG
+대학교	I-ORG
 유니버시티	B-ORG
-칼리지	O
+칼리지	I-ORG
 런던으로	B-LOC
 유학하였다	O
 .	O
@@ -5736,21 +5715,21 @@ Brasileiro	I-AFW
 이토 히로부미
 전공은 화학으로 미국 예일 대학교에서 명예 법학박사를 수여받았다.
 전공은	O
-화학으로	O
+화학으로	B-POS
 미국	B-LOC
 예일	B-ORG
 대학교에서	I-ORG
 명예	B-POS
-법학박사를	B-POS
+법학박사를	I-POS
 수여받았다	O
 .	O
 
 이토 히로부미
 존왕양이 운동을 전개하다가 개화파로 전향하였고, 개국론·부국강병론을 전개했다.
-존왕양이	O
+존왕양이	B-PER
 운동을	O
 전개하다가	O
-개화파로	O
+개화파로	B-PIV
 전향하였고	O
 ,	O
 개국론	O
@@ -5763,15 +5742,15 @@ Brasileiro	I-AFW
 일본 제국이 러일 전쟁에서 승리한 이후에 조선통감부의 통감을 역임했으며, 1909년에 만주 하얼빈에서 안중근의사가 쏜 총탄에 맞아 암살당했다.
 일본	B-LOC
 제국이	O
-러일	B-LOC
-전쟁에서	O
+러일	B-EVT
+전쟁에서	I-EVT
 승리한	O
 이후에	O
 조선통감부의	B-ORG
 통감을	B-POS
 역임했으며	O
 ,	O
-1909년에	B-NUM
+1909년에	B-DAT
 만주	B-LOC
 하얼빈에서	B-LOC
 안중근의사가	B-PER
@@ -5783,7 +5762,7 @@ Brasileiro	I-AFW
 
 이토 히로부미
 을사늑약 체결 이후, 그는 대한제국의 황태자 이은의 스승을 자처한다.
-을사늑약	O
+을사늑약	B-EVT
 체결	O
 이후	O
 ,	O
@@ -5844,7 +5823,7 @@ Brasileiro	I-AFW
 이후	O
 이완용은	B-PER
 고종에게	B-PER
-순종의	O
+순종의	B-PER
 황제	B-POS
 대리청정을	O
 진언하였고	O
@@ -5905,7 +5884,7 @@ Brasileiro	I-AFW
 1909년	B-DAT
 6월	I-DAT
 14일에	I-DAT
-통감직을	O
+통감직을	B-POS
 사임하면서	O
 같은	O
 날	O
@@ -5921,8 +5900,8 @@ Brasileiro	I-AFW
 11월	I-DAT
 4일에	I-DAT
 히비야	B-LOC
-공원에서	I-AFW
-국장으로	B-POS
+공원에서	I-LOC
+국장으로	O
 치러졌다	O
 .	O
 
@@ -5934,7 +5913,7 @@ Brasileiro	I-AFW
 대한제국의	B-LOC
 안중근은	B-PER
 이토를	B-PER
-동양평화의	B-LOC
+동양평화의	O
 파괴	O
 원흉으로	O
 규정하고	O
@@ -5949,9 +5928,9 @@ Brasileiro	I-AFW
 이토 히로부미
 이는 20세기 초반의 한국인들이 이토를 어떠한 시각으로 바라 보았는지를 알리는 자료이다.
 이는	O
-20세기	B-NUM
+20세기	B-DAT
 초반의	O
-한국인들이	B-POS
+한국인들이	O
 이토를	B-PER
 어떠한	O
 시각으로	O
@@ -5973,14 +5952,14 @@ Brasileiro	I-AFW
 대표작으로는	O
 <	O
 바이올린	B-AFW
-협주곡	O
-제1번	B-NUM
+협주곡	I-AFW
+제1번	I-AFW
 >	O
 ,	O
 무반주	B-NUM
 <	O
-24의	B-NUM
-카프리치오	O
+24의	B-AFW
+카프리치오	I-AFW
 >	O
 를	O
 들	O
@@ -6020,12 +5999,12 @@ Brasileiro	I-AFW
 없이	O
 고개를	O
 끄덕였으나	O
-구리하라	B-PER
-전옥은	I-PER
+구리하라	O
+전옥은	O
 다시	O
 한	B-NUM
 번	I-NUM
-안에게	O
+안에게	B-PER
 “	O
 뭔가	O
 남길	O
@@ -6044,10 +6023,10 @@ Brasileiro	I-AFW
 가톨릭교회에서는	I-ORG
 안중근을	B-PER
 한국의	B-LOC
-모세	O
+모세	B-PER
 ,	O
 한국의	B-LOC
-사도	B-POS
+사도	O
 바오로라고	B-PER
 부른다	O
 .	O
@@ -6056,7 +6035,7 @@ Brasileiro	I-AFW
 그래서 《동양 평화론》은 미완성으로 남아 있다.
 그래서	O
 《	O
-동양	I-AFW
+동양	B-AFW
 평화론	I-AFW
 》	O
 은	O
@@ -6068,7 +6047,7 @@ Brasileiro	I-AFW
 안중근
 * 고려대학교 사회학과 노길명 교수는 안중근을 독실한 천주교 신앙과 애국심을 조화시킨 인물로 평하였다.
 *	O
-고려대학교	B-PIV
+고려대학교	B-ORG
 사회학과	B-POS
 노길명	B-PER
 교수는	B-POS
@@ -6085,8 +6064,8 @@ Brasileiro	I-AFW
 안중근
 * 청산리 전투주역 김좌진은 안중근의 의거에 영향을 받았다고 한다.
 *	O
-청산리	B-LOC
-전투주역	O
+청산리	B-EVT
+전투주역	I-EVT
 김좌진은	B-PER
 안중근의	B-PER
 의거에	O
@@ -6132,7 +6111,7 @@ Brasileiro	I-AFW
 등	O
 만주	B-LOC
 지역에서	O
-'	B-ORG
+'	O
 조선인민회	B-ORG
 '	O
 주요	O
@@ -6181,9 +6160,9 @@ Brasileiro	I-AFW
 ,	O
 안공근은	B-PER
 김구의	B-PER
-부하가	O
+부하가	B-POS
 되어	O
-한인애국단과	O
+한인애국단과	B-ORG
 한국독립당특무대를	B-ORG
 조직하는데	O
 동참한다	O
@@ -6204,15 +6183,15 @@ Brasileiro	I-AFW
 -	O
 안중근	B-PER
 의사	B-POS
-국제	O
-평화상이	O
+국제	B-PRI
+평화상이	I-PRI
 제정되었다	O
 .	O
 
 프리드리히 니체
 관념론과 기독교는, 세계를 두 개로 구분짓는다.
 관념론과	O
-기독교는	O
+기독교는	B-PIV
 ,	O
 세계를	O
 두	B-NUM
@@ -6223,7 +6202,7 @@ Brasileiro	I-AFW
 프리드리히 니체
 이를테면 기독교는 이승 이외에도 하늘나라가 있다고 가르친다.
 이를테면	O
-기독교는	O
+기독교는	B-PIV
 이승	O
 이외에도	O
 하늘나라가	O
@@ -6234,13 +6213,13 @@ Brasileiro	I-AFW
 프리드리히 니체
 니체는 전체주의, 민족주의, 국가주의, 반유대주의 등을 비판했다.
 니체는	B-PER
-전체주의	O
+전체주의	B-PIV
 ,	O
-민족주의	O
+민족주의	B-PIV
 ,	O
-국가주의	O
+국가주의	B-PIV
 ,	O
-반유대주의	O
+반유대주의	B-PIV
 등을	O
 비판했다	O
 .	O
@@ -6252,7 +6231,7 @@ Brasileiro	I-AFW
 한	O
 니체는	B-PER
 ,	O
-기독교에	O
+기독교에	B-PIV
 대해	O
 다음과	O
 같은	O
@@ -6268,8 +6247,8 @@ Brasileiro	I-AFW
 에서	O
 ,	O
 니체는	B-PER
-기독교와	O
-불교를	O
+기독교와	B-PIV
+불교를	B-PIV
 비판적으로	O
 검토한다	O
 .	O
@@ -6316,7 +6295,7 @@ Brasileiro	I-AFW
 이 사상은 1881년 실스마리아에서 니체를 압도적인 영감으로 덮친 사상이다.
 이	O
 사상은	O
-1881년	B-NUM
+1881년	B-DAT
 실스마리아에서	B-LOC
 니체를	B-PER
 압도적인	O
@@ -6328,7 +6307,7 @@ Brasileiro	I-AFW
 프리드리히 니체
 현재에는 19세기 최고의 철학자 가운데 한 명으로 간주된다.
 현재에는	O
-19세기	B-NUM
+19세기	B-DAT
 최고의	O
 철학자	B-POS
 가운데	O
@@ -6374,10 +6353,10 @@ Brasileiro	I-AFW
 니체는 가끔 나치즘과 반유대주의, 인종주의의 시초라고 불린다.
 니체는	B-PER
 가끔	O
-나치즘과	O
-반유대주의	O
+나치즘과	B-PIV
+반유대주의	B-PIV
 ,	O
-인종주의의	O
+인종주의의	B-PIV
 시초라고	O
 불린다	O
 .	O
@@ -6386,7 +6365,7 @@ Brasileiro	I-AFW
 그러나 이는 나치정권과 니체의 여동생이 공동으로 니체의 사상을 왜곡한 결과 확산된 인식에 불과하다.
 그러나	O
 이는	O
-나치정권과	B-LOC
+나치정권과	O
 니체의	B-PER
 여동생이	B-PIV
 공동으로	O
@@ -6407,7 +6386,7 @@ Brasileiro	I-AFW
 독일을	B-LOC
 매우	O
 싫어했고	O
-민족주의	O
+민족주의	B-PIV
 또한	O
 매우	O
 혐오했다	O
@@ -6426,7 +6405,7 @@ J. R. R. 톨킨
 집필을	O
 정리하여	O
 《	O
-실마릴리온	I-AFW
+실마릴리온	B-AFW
 》	O
 을	O
 비롯해	O
@@ -6436,7 +6415,7 @@ J. R. R. 톨킨
 .	O
 
 J. R. R. 톨킨
-또 톨킨은 더 타임스에서는 2008년 영국의 위대한 작가 6위로 그를 선정하였고,.
+또 톨킨은 더 타임스에서는 2008년 영국의 위대한 작가 6위로 그를 선정하였고,
 또	O
 톨킨은	B-PER
 더	B-ORG
@@ -6444,25 +6423,22 @@ J. R. R. 톨킨
 2008년	B-DAT
 영국의	B-LOC
 위대한	O
-작가	O
+작가	B-POS
 6위로	B-NUM
 그를	O
 선정하였고	O
 ,	O
-.	O
 
 알베르트 아인슈타인
-알베르트 아인슈타인(, , 1879년 3월 14일 ~ 1955년 4월 18일)은 독일 태생의 이론물리학자로서.
+알베르트 아인슈타인(1879년 3월 14일 ~ 1955년 4월 18일)은 독일 태생의 이론물리학자로서
 알베르트	B-PER
 아인슈타인	I-PER
 (	O
-,	B-DAT
-,	B-DAT
 1879년	B-NUM
 3월	I-DAT
 14일	I-DAT
-~	O
-1955년	B-DAT
+~	I-DAT
+1955년	I-DAT
 4월	I-DAT
 18일	I-DAT
 )	O
@@ -6470,14 +6446,13 @@ J. R. R. 톨킨
 독일	B-LOC
 태생의	O
 이론물리학자로서	B-POS
-.	O
 
 알베르트 아인슈타인
 1905년에, 그는 취리히 대학교에서 박사학위를 받았다.
-1905년에	B-NUM
+1905년에	B-DAT
 ,	O
 그는	O
-취리히	B-LOC
+취리히	B-ORG
 대학교에서	I-ORG
 박사학위를	B-POS
 받았다	O
@@ -6487,7 +6462,7 @@ J. R. R. 톨킨
 기원전 57년 로마로 돌아온 키케로는 폼페이와 카이사르가 주름잡은 정계에서 더이상 주요 역할을 수행하지 않았다.
 기원전	B-DAT
 57년	I-DAT
-로마로	B-ORG
+로마로	B-LOC
 돌아온	O
 키케로는	B-PER
 폼페이와	B-PER
@@ -6523,7 +6498,7 @@ J. R. R. 톨킨
 (	O
 )	O
 는	O
-1871년	B-NUM
+1871년	B-DAT
 7월	I-DAT
 10일	I-DAT
 파리에서	B-LOC
@@ -6541,12 +6516,12 @@ J. R. R. 톨킨
 프루스트의	B-PER
 주요	O
 작품으로는	O
-1913년부터	B-NUM
+1913년부터	B-DAT
 1927년까지	I-DAT
 출판된	O
 연작소설	O
 《	O
-잃어버린	I-AFW
+잃어버린	B-AFW
 시간을	I-AFW
 찾아서	I-AFW
 》	O
@@ -6598,9 +6573,9 @@ J. R. R. 톨킨
 다니엘	B-PER
 알레비	I-PER
 (	O
-자크	I-PER
+자크	B-PER
 비제의	I-PER
-6촌	B-NUM
+6촌	B-PIV
 )	O
 와	O
 교우관계를	O
@@ -6648,7 +6623,7 @@ J. R. R. 톨킨
 로베르	B-PER
 드	I-PER
 빌리와	I-PER
-친구가	O
+친구가	B-PIV
 되었다	O
 .	O
 
@@ -6659,14 +6634,14 @@ J. R. R. 톨킨
 절친한	O
 친구가	O
 된	O
-가스통	O
-아르망	B-PER
-드	O
-케야베와	B-PER
+가스통	B-PER
+아르망	I-PER
+드	I-PER
+케야베와	I-PER
 프루스트가	B-PER
 반한	O
 그의	O
-약혼녀	O
+약혼녀	B-PIV
 잔	O
 푸케를	B-PER
 알게	O
@@ -6684,7 +6659,7 @@ J. R. R. 톨킨
 나와서	O
 그는	O
 사립정치학교의	B-ORG
-남편인	B-POS
+남편인	B-PIV
 앙리	B-PER
 베르그송의	I-PER
 수업을	O
@@ -6694,17 +6669,17 @@ J. R. R. 톨킨
 마르셀 프루스트
 그는 1894년 봄에 샹송 그리스를 부른 쥘 마스네의 제자이자 레이날도 안의 부인인 르메르와 만났다.
 그는	O
-1894년	B-NUM
+1894년	B-DAT
 봄에	B-DAT
 샹송	O
-그리스를	B-LOC
+그리스를	B-AFW
 부른	O
 쥘	B-PER
 마스네의	I-PER
 제자이자	B-POS
 레이날도	B-PER
-안의	O
-부인인	O
+안의	I-PER
+부인인	B-PIV
 르메르와	B-PER
 만났다	O
 .	O
@@ -6714,19 +6689,19 @@ J. R. R. 톨킨
 존	B-PER
 러스킨의	I-PER
 <	O
-아미앵의	I-AFW
+아미앵의	B-AFW
 성서	I-AFW
 >	O
 와	O
 <	O
-참깨와	B-POS
-백합	O
+참깨와	B-AFW
+백합	I-AFW
 >	O
 을	O
 번역하였다	O
 (	O
 1904	B-DAT
-,	B-DAT
+,	O
 1906	I-DAT
 )	O
 .	O
@@ -6734,35 +6709,35 @@ J. R. R. 톨킨
 마르셀 프루스트
 <잃어버린 시간을 찾아서>의 첫 문장은 1907년 쓰였다.
 <	O
-잃어버린	O
-시간을	O
-찾아서	O
+잃어버린	B-AFW
+시간을	I-AFW
+찾아서	I-AFW
 >	O
 의	O
 첫	B-NUM
 문장은	I-NUM
-1907년	B-NUM
+1907년	B-DAT
 쓰였다	O
 .	O
 
 마르셀 프루스트
 프루스트는 부모의 사망 이후(아버지는 1903년, 어머니는 1905년), 1906년 12월 27일부터 1919년 떠날 때까지 이곳에서 거주하였다.
 프루스트는	B-PER
-부모의	B-POS
+부모의	B-PIV
 사망	O
 이후	O
 (	O
 아버지는	B-PIV
-1903년	B-NUM
+1903년	B-DAT
 ,	O
 어머니는	B-PIV
-1905년	B-NUM
+1905년	B-DAT
 )	O
 ,	O
 1906년	B-DAT
 12월	I-DAT
 27일부터	I-DAT
-1919년	B-NUM
+1919년	B-DAT
 떠날	O
 때까지	O
 이곳에서	O
@@ -6782,21 +6757,21 @@ J. R. R. 톨킨
 ,	O
 프루스트는	B-PER
 신경	B-HEC
-쇠약으로	O
+쇠약으로	I-HEC
 인하여	O
-의사	O
+의사	B-POS
 알리스와	B-PER
-폴	O
-솔리에가	B-PER
+폴	B-PER
+솔리에가	I-PER
 있던	O
-빌랑쿠르의	B-PER
+빌랑쿠르의	B-LOC
 요양소에	O
 머물렀다	O
 .	O
 
 마르셀 프루스트
 부모의 사망 이후 프루스트의 건강은 천식으로 인하여 더욱 나빠졌다.
-부모의	B-POS
+부모의	B-PIV
 사망	O
 이후	O
 프루스트의	B-POS
@@ -6810,18 +6785,18 @@ J. R. R. 톨킨
 유리 가가린
 가가린은 1934년 3월 9일 소비에트 연방 스몰렌스크주의 크루시노 마을에서 3남 1녀 중 셋째로 태어났다.
 가가린은	B-PER
-1934년	B-NUM
+1934년	B-DAT
 3월	I-DAT
 9일	I-DAT
 소비에트	B-LOC
-연방	O
+연방	I-LOC
 스몰렌스크주의	B-LOC
 크루시노	B-LOC
 마을에서	O
 3남	B-PIV
 1녀	B-PIV
 중	O
-셋째로	B-NUM
+셋째로	B-PIV
 태어났다	O
 .	O
 
@@ -6837,7 +6812,7 @@ J. R. R. 톨킨
 안나	B-PER
 티모페예브나는	I-PER
 낙농업자로	B-POS
-부모님	B-POS
+부모님	B-PIV
 모두	O
 집단	O
 농장에서	O
@@ -6851,13 +6826,13 @@ J. R. R. 톨킨
 마을에	O
 한	O
 젊은	O
-여성이	O
+여성이	B-PIV
 자원해	O
 세워진	O
 조잡한	O
 학교를	O
 다녔는데	O
-수학과	B-POS
+수학과	O
 과학을	O
 가르치기	O
 위해	O
@@ -6870,33 +6845,32 @@ J. R. R. 톨킨
 .	O
 
 알브레히트 뒤러
-알브레히트 뒤러(, 1471년 5월 21일 - 1528년 4월 6일)는 독일의 화가, 판화가, 조각가다.
+알브레히트 뒤러(1471년 5월 21일 - 1528년 4월 6일)는 독일의 화가, 판화가, 조각가다.
 알브레히트	B-PER
 뒤러	I-PER
 (	O
-,	B-DAT
-1471년	B-NUM
+1471년	B-DAT
 5월	I-DAT
 21일	I-DAT
--	O
-1528년	B-NUM
+-	I-DAT
+1528년	B-DAT
 4월	I-DAT
 6일	I-DAT
 )	O
 는	O
 독일의	B-LOC
-화가	O
+화가	B-POS
 ,	O
 판화가	B-POS
 ,	O
-조각가다	O
+조각가다	B-POS
 .	O
 
 알브레히트 뒤러
 르네상스의 대표적 화가이며, 특히 목판화, 동판화 및 수채화에서 독창적 재질을 보였다.
-르네상스의	B-LOC
+르네상스의	B-EVT
 대표적	O
-화가이며	O
+화가이며	B-POS
 ,	O
 특히	O
 목판화	O
@@ -6911,12 +6885,12 @@ J. R. R. 톨킨
 
 프랜시스 크릭
 1962년 노벨 생리학·의학상 수상자이다.
-1962년	B-NUM
-노벨	O
-생리학	O
+1962년	B-DAT
+노벨	B-PRI
+생리학	I-PRI
 ·	O
-의학상	B-POS
-수상자이다	B-POS
+의학상	B-PRI
+수상자이다	O
 .	O
 
 프랜시스 크릭
@@ -6925,7 +6899,7 @@ J. R. R. 톨킨
 그	O
 다음에	O
 크릭에게	B-PER
-교수직을	O
+교수직을	B-POS
 제안하자	O
 ,	O
 그도	O
@@ -6936,7 +6910,7 @@ J. R. R. 톨킨
 프랜시스 크릭
 그는 캘리포니아 대학교 샌디에이고의 교수를 겸했다.
 그는	O
-캘리포니아	B-LOC
+캘리포니아	B-ORG
 대학교	I-ORG
 샌디에이고의	B-LOC
 교수를	B-POS
@@ -6947,7 +6921,7 @@ J. R. R. 톨킨
 더 타임스는 "다윈은 아마도 자폐증의 한 종류인 아스퍼거 증후군을 앓았던 것 같다.
 더	B-ORG
 타임스는	I-ORG
-"	B-PER
+"	O
 다윈은	B-PER
 아마도	O
 자폐증의	B-HEC
@@ -6988,7 +6962,7 @@ J. R. R. 톨킨
 피츠제럴드 교수는 "아스퍼거 증후군의 증상으로 다윈은 놀라운 집중력, 보통 사람 이상의 집요함, 다른 사람들이 못 보는 미세한 부분을 보는 엄청난 능력, 한 과제에 평생 매달리는 끝없는 열정, 독창적 연구를 하는 독립적인 정신 등을 보유했다."고 설명했다.
 피츠제럴드	B-PER
 교수는	B-POS
-"	B-HEC
+"	O
 아스퍼거	B-HEC
 증후군의	I-HEC
 증상으로	O
@@ -7036,9 +7010,9 @@ J. R. R. 톨킨
 2018년	B-DAT
 6월	I-DAT
 23일에	I-DAT
-숙환으로	O
+숙환으로	B-HEC
 인해	O
-향년	B-DAT
+향년	O
 93세의	B-NUM
 나이로	O
 사망하였다	O
@@ -7127,7 +7101,7 @@ J. R. R. 톨킨
 8월에는	I-DAT
 하버드대학교	B-ORG
 정치경제학과를	B-POS
-수료하였다	O
+수료하였다	B-POS
 .	O
 
 김종필
@@ -7163,10 +7137,10 @@ J. R. R. 톨킨
 군사	O
 정권	O
 출신이며	O
-5	B-NUM
-.	I-DAT
-16	I-DAT
-군사	O
+5	B-EVT
+.	I-EVT
+16	I-EVT
+군사	I-EVT
 정변의	O
 주동자의	B-POS
 한	B-NUM
@@ -7185,14 +7159,14 @@ J. R. R. 톨킨
 루이	B-PER
 파스퇴르	I-PER
 (	O
-Louis	O
-Pasteur	B-ORG
+Louis	B-PER
+Pasteur	I-PER
 ,	O
-1822년	B-NUM
+1822년	B-DAT
 12월	I-DAT
 27일	I-DAT
-~	O
-1895년	B-NUM
+~	I-DAT
+1895년	I-DAT
 9월	I-DAT
 28일	I-DAT
 )	O
@@ -7208,17 +7182,16 @@ Pasteur	B-ORG
 .	O
 
 마리 퀴리
-마리아 스크워도프스카 퀴리(, 1867년 11월 7일 ~ 1934년 7월 4일)는 폴란드 출신의 프랑스 과학자이다.
+마리아 스크워도프스카 퀴리(1867년 11월 7일 ~ 1934년 7월 4일)는 폴란드 출신의 프랑스 과학자이다.
 마리아	B-PER
 스크워도프스카	I-PER
 퀴리	I-PER
 (	O
-,	B-DAT
-1867년	B-NUM
+1867년	B-DAT
 11월	I-DAT
 7일	I-DAT
-~	O
-1934년	B-NUM
+~	I-DAT
+1934년	B-DAT
 7월	I-DAT
 4일	I-DAT
 )	O
@@ -7231,13 +7204,13 @@ Pasteur	B-ORG
 
 마리 퀴리
 여성 최초의 노벨상 수상자로, 물리학상과 화학상을 동시에 받은 유일한 인물이다.
-여성	O
+여성	B-PIV
 최초의	O
-노벨상	B-POS
-수상자로	O
+노벨상	B-PRI
+수상자로	I-PRI
 ,	O
-물리학상과	B-POS
-화학상을	B-POS
+물리학상과	B-PRI
+화학상을	B-PRI
 동시에	O
 받은	O
 유일한	O
@@ -7259,18 +7232,18 @@ Pasteur	B-ORG
 피에르 퀴리
 1903년 부인 마리와 함께 노벨 물리학상을 공동 수상하는 영광을 누렸지만, 1906년 직장인 소르본대학교에 가던 중 마차에 치이는 교통사고로 숨을 거두었다.
 1903년	B-DAT
-부인	O
+부인	B-PIV
 마리와	B-PER
 함께	O
-노벨	B-POS
-물리학상을	I-POS
+노벨	B-PRI
+물리학상을	I-PRI
 공동	O
 수상하는	O
 영광을	O
 누렸지만	O
 ,	O
-1906년	B-NUM
-직장인	B-POS
+1906년	B-DAT
+직장인	O
 소르본대학교에	B-ORG
 가던	O
 중	O
@@ -7286,8 +7259,8 @@ Pasteur	B-ORG
 오늘날	O
 모차르트는	B-PER
 “	O
-음악의	O
-신동	O
+음악의	B-PER
+신동	I-PER
 ”	O
 이라는	O
 별칭으로	O
@@ -7298,17 +7271,16 @@ Pasteur	B-ORG
 .	O
 
 요한 제바스티안 바흐
-요한 제바스티안 바흐(, 1685년 3월 21일 ~ 1750년 7월 28일)는 독일의 작곡가이자 오르가니스트, 쳄발로 연주자이며, 개신교회의 교회 음악가이다.
+요한 제바스티안 바흐(1685년 3월 21일 ~ 1750년 7월 28일)는 독일의 작곡가이자 오르가니스트, 개신교회의 교회 음악가이다.
 요한	B-PER
 제바스티안	B-PER
 바흐	I-PER
 (	O
-,	B-DAT
-1685년	B-NUM
+1685년	B-DAT
 3월	I-DAT
 21일	I-DAT
-~	O
-1750년	B-DAT
+~	I-DAT
+1750년	I-DAT
 7월	I-DAT
 28일	I-DAT
 )	O
@@ -7317,24 +7289,21 @@ Pasteur	B-ORG
 작곡가이자	B-POS
 오르가니스트	B-POS
 ,	O
-[UNK]	B-PER
-연주자이며	B-POS
-,	O
 개신교회의	B-ORG
-교회	I-ORG
-음악가이다	B-POS
+교회	B-POS
+음악가이다	I-POS
 .	O
 
 요한 제바스티안 바흐
 바흐 집안의 음악가들은 대대로 개신교회인 루터교회의 경건한 신자들이었고, 교회음악가로도 활동하였다.
-바흐	B-ORG
+바흐	B-PER
 집안의	O
 음악가들은	B-POS
 대대로	O
-개신교회인	B-PIV
-루터교회의	B-PIV
+개신교회인	B-ORG
+루터교회의	B-ORG
 경건한	O
-신자들이었고	O
+신자들이었고	B-POS
 ,	O
 교회음악가로도	B-POS
 활동하였다	O
@@ -7355,18 +7324,16 @@ Pasteur	B-ORG
 .	O
 
 프레데리크 쇼팽
-프레데리크 프랑수아 쇼팽(, , 1810년 3월 1일 ~ 1849년 10월 17일)은 폴란드의 피아니스트·작곡가이다.
+프레데리크 프랑수아 쇼팽(1810년 3월 1일 ~ 1849년 10월 17일)은 폴란드의 피아니스트·작곡가이다.
 프레데리크	B-PER
 프랑수아	I-PER
 쇼팽	I-PER
 (	O
-,	B-DAT
-,	B-DAT
-1810년	B-NUM
+1810년	B-DAT
 3월	I-DAT
 1일	I-DAT
-~	O
-1849년	B-DAT
+~	I-DAT
+1849년	I-DAT
 10월	I-DAT
 17일	I-DAT
 )	O
@@ -7378,15 +7345,12 @@ Pasteur	B-ORG
 .	O
 
 프레데리크 쇼팽
-원래 이름은 프리데리크 프란치셰크 쇼펜(, )이다.
+원래 이름은 프리데리크 프란치셰크 쇼펜이다.
 원래	O
 이름은	O
 프리데리크	B-PER
 프란치셰크	I-PER
 쇼펜	I-PER
-(	O
-,	O
-)	O
 이다	O
 .	O
 
@@ -7395,11 +7359,11 @@ Pasteur	B-ORG
 그의	O
 아버지	B-PIV
 헨리	B-PER
-7세의	B-NUM
+7세의	I-PER
 뒤를	O
 이어	O
-튜더	B-LOC
-왕가	O
+튜더	B-ORG
+왕가	I-ORG
 출신으로는	O
 두	B-NUM
 번째로	I-NUM
@@ -7409,10 +7373,10 @@ Pasteur	B-ORG
 헨리 8세
 헨리 7세의 둘째 아들로 형 아서 튜더가 요절하여 왕세자가 되었다.
 헨리	B-PER
-7세의	B-NUM
+7세의	I-PER
 둘째	B-NUM
 아들로	B-PIV
-형	O
+형	B-PIV
 아서	B-PER
 튜더가	I-PER
 요절하여	O
@@ -7422,18 +7386,18 @@ Pasteur	B-ORG
 
 헨리 8세
 형수인 왕비 캐서린과 결혼하여 딸 메리 튜더를 두었지만 아들이 없어서 결혼한지 20년만에 별거하였다.
-형수인	B-POS
+형수인	B-PIV
 왕비	B-POS
 캐서린과	B-PER
 결혼하여	B-PIV
 딸	B-PIV
-메리	O
-튜더를	B-PER
+메리	B-PER
+튜더를	I-PER
 두었지만	O
 아들이	B-PIV
 없어서	O
 결혼한지	B-PIV
-20년만에	B-NUM
+20년만에	B-DAT
 별거하였다	O
 .	O
 
@@ -7443,14 +7407,14 @@ Pasteur	B-ORG
 엘리자베스	B-PER
 블런트와	I-PER
 메리	B-PER
-불린	O
+불린	I-PER
 이	O
 두	B-NUM
 사람을	I-NUM
 헨리의	B-PER
-정부	B-POS
+정부	B-PIV
 (	O
-애인	O
+애인	B-PIV
 )	O
 로	O
 확신하고	O
@@ -7459,14 +7423,14 @@ Pasteur	B-ORG
 
 헨리 8세
 1533년에 그는 메리 하워드(앤 불린의 사촌)과 결혼하였으나, 3년 후에 후계자를 남기지 못한 채 죽었다.
-1533년에	B-NUM
+1533년에	B-DAT
 그는	O
 메리	B-PER
 하워드	I-PER
 (	O
 앤	B-PER
-불린의	O
-사촌	B-POS
+불린의	I-PER
+사촌	B-PIV
 )	O
 과	O
 결혼하였으나	B-PIV
@@ -7485,12 +7449,12 @@ Pasteur	B-ORG
 메리	B-PER
 불린은	I-PER
 앤	B-PER
-불린의	O
-누이로	B-POS
+불린의	I-PER
+누이로	B-PIV
 여겨지며	O
 ,	O
-1519년과	B-NUM
-1526년	B-NUM
+1519년과	B-DAT
+1526년	I-DAT
 동안	O
 관계가	O
 유지되었던	O
@@ -7512,7 +7476,7 @@ Pasteur	B-ORG
 캐리가	I-PER
 사실은	O
 헨리	B-PER
-8세가	B-NUM
+8세가	I-PER
 진짜	O
 아버지라는	B-PIV
 의혹이	O
@@ -7531,7 +7495,7 @@ Pasteur	B-ORG
 레이프와	B-PER
 달리	O
 기독교	B-PIV
-신자가	O
+신자가	B-POS
 아니었다	O
 .	O
 
@@ -7539,14 +7503,14 @@ Pasteur	B-ORG
 세종(世宗, 1397년 5월 7일 ~ 1450년 3월 30일)은 조선의 제4대 국왕(재위 : 1418년 9월 9일 ~ 1450년 3월 30일)이다.
 세종	B-PER
 (	O
-世	B-ORG
-宗	O
+世	B-PER
+宗	I-PER
 ,	O
-1397년	B-NUM
+1397년	B-DAT
 5월	I-DAT
 7일	I-DAT
-~	B-DAT
-1450년	B-DAT
+~	I-DAT
+1450년	I-DAT
 3월	I-DAT
 30일	I-DAT
 )	O
@@ -7557,11 +7521,11 @@ Pasteur	B-ORG
 (	O
 재위	O
 :	O
-1418년	B-NUM
+1418년	B-DAT
 9월	I-DAT
 9일	I-DAT
-~	O
-1450년	B-DAT
+~	I-DAT
+1450년	I-DAT
 3월	I-DAT
 30일	I-DAT
 )	O
@@ -7576,14 +7540,14 @@ Pasteur	B-ORG
 존경의	O
 의미를	O
 담아	O
-'	B-PER
+'	O
 세종대왕	B-PER
 '	O
 (	O
 世	B-PER
-宗	B-POS
-大	B-POS
-王	B-POS
+宗	I-PER
+大	I-PER
+王	I-PER
 )	O
 으로	O
 일컬어진다	O
@@ -7612,7 +7576,7 @@ Pasteur	B-ORG
 고속	O
 성장을	O
 유지하면서도	O
-지니계수도	B-LOC
+지니계수도	O
 동아시아	B-LOC
 국가	O
 중에서는	O
@@ -7620,8 +7584,8 @@ Pasteur	B-ORG
 편이었고	O
 ,	O
 1997년	B-DAT
-외환	O
-위기	O
+외환	B-EVT
+위기	I-EVT
 이전까지는	O
 소득	O
 분배가	O
@@ -7631,20 +7595,20 @@ Pasteur	B-ORG
 노태우
 게다가 1989년 갤럽조사에서는 전체 국민의 75%가 중산층이라고 응답했고, 1992년에는 76.3%이 중산층으로 조사되어서 역대 최고 수치를 기록했다.
 게다가	O
-1989년	B-NUM
+1989년	B-DAT
 갤럽조사에서는	O
 전체	O
-국민의	B-POS
+국민의	O
 75	B-NUM
-%	O
+%	I-NUM
 가	O
 중산층이라고	O
 응답했고	O
 ,	O
 1992년에는	B-DAT
 76	B-NUM
-.	O
-3	B-NUM
+.	I-NUM
+3	I-NUM
 %	I-NUM
 이	O
 중산층으로	O
@@ -7662,7 +7626,7 @@ Pasteur	B-ORG
 4대	B-NUM
 국책은행은	B-ORG
 50	B-NUM
-%	O
+%	I-NUM
 이상	O
 채용토록	O
 했다	O
@@ -7687,7 +7651,7 @@ Pasteur	B-ORG
 경험은	O
 소설	O
 《	O
-무기여	I-AFW
+무기여	B-AFW
 잘	I-AFW
 있거라	I-AFW
 》	O
@@ -7704,7 +7668,7 @@ Pasteur	B-ORG
 그의	O
 첫	B-NUM
 번째	I-NUM
-아내인	B-POS
+아내인	B-PIV
 해들리	B-PER
 리처드슨과	I-PER
 결혼하였다	B-PIV
@@ -7712,7 +7676,7 @@ Pasteur	B-ORG
 
 어니스트 헤밍웨이
 부부는 헤밍웨이가 해외 특파원으로 근무한 곳인 파리로 이사를 가게 된다.
-부부는	B-POS
+부부는	B-PIV
 헤밍웨이가	B-PER
 해외	O
 특파원으로	B-POS
@@ -7731,7 +7695,7 @@ Pasteur	B-ORG
 첫	B-NUM
 소설인	I-NUM
 《	O
-해는	I-AFW
+해는	B-AFW
 또다시	I-AFW
 떠오른다	I-AFW
 》	O
@@ -7750,7 +7714,7 @@ Pasteur	B-ORG
 헤밍웨이는	B-PER
 폴린	B-PER
 파이퍼와	I-PER
-재혼을	O
+재혼을	B-PIV
 한다	O
 .	O
 
@@ -7761,12 +7725,12 @@ Pasteur	B-ORG
 헤밍웨이는	B-PER
 세	B-NUM
 번째	I-NUM
-아내인	B-POS
+아내인	B-PIV
 마사	B-PER
 겔혼을	I-PER
 만나지만	O
 ,	O
-제2차	B-NUM
+제2차	B-EVT
 세계	I-EVT
 대전	O
 도중	O
@@ -7782,12 +7746,12 @@ Pasteur	B-ORG
 어니스트 헤밍웨이
 헤밍웨이는 노르망디 상륙 작전과 파리 해방 전투에 참여한다.
 헤밍웨이는	B-PER
-노르망디	B-LOC
-상륙	O
-작전과	O
+노르망디	B-EVT
+상륙	I-EVT
+작전과	I-EVT
 파리	B-EVT
-해방	O
-전투에	O
+해방	I-EVT
+전투에	I-EVT
 참여한다	O
 .	O
 
@@ -7795,7 +7759,7 @@ Pasteur	B-ORG
 1952년에 《노인과 바다》를 출판하고 난 이후에, 헤밍웨이는 아프리카의 사파리로 떠난다.
 1952년에	B-DAT
 《	O
-노인과	I-AFW
+노인과	B-AFW
 바다	I-AFW
 》	O
 를	O
@@ -7817,7 +7781,7 @@ Pasteur	B-ORG
 ,	O
 이전에는	O
 자신을	O
-자유주의자라	B-POS
+자유주의자라	B-PIV
 칭한	O
 적이	O
 있다	O
@@ -7826,7 +7790,7 @@ Pasteur	B-ORG
 오노레 드 발자크
 《계모》는 1906년 영화화되었다.
 《	O
-계모	I-AFW
+계모	B-AFW
 》	O
 는	O
 1906년	B-DAT
@@ -7842,7 +7806,7 @@ Pasteur	B-ORG
 귀국을	O
 종용하자	O
 상하이에서	B-LOC
-독립운동을	O
+독립운동을	B-EVT
 접고	O
 1921년	B-DAT
 3월	I-DAT
@@ -7855,7 +7819,7 @@ Pasteur	B-ORG
 해방 이후 백범일지의 교정, 윤문과 안창호의 일대기 집필을 직접 맡아 주관하기도 했다.
 해방	O
 이후	O
-백범일지의	B-PER
+백범일지의	B-AFW
 교정	O
 ,	O
 윤문과	B-PER
@@ -7871,14 +7835,14 @@ Pasteur	B-ORG
 이광수
 그에게는 이복형제들이 여러 명 있었고, 친형제로는 위로 친형 세 명이 요절하였고, 여동생 두 명이 있었다.
 그에게는	O
-이복형제들이	B-POS
+이복형제들이	B-PIV
 여러	O
 명	O
 있었고	O
 ,	O
-친형제로는	B-POS
+친형제로는	B-PIV
 위로	O
-친형	B-POS
+친형	B-PIV
 세	B-NUM
 명이	I-NUM
 요절하였고	O
@@ -7891,15 +7855,15 @@ Pasteur	B-ORG
 
 이광수
 부모를 잃은 뒤 이복형제들과는 연락이 끊겼고, 친 여동생 중 3년 연하인 애경은 만주 영구에 사는 사람과 결혼해서 살다가 1936년에 사망했고, 여동생 애란은 부모를 잃은 뒤 어떤 집의 민며느리로 들어갔다가 결혼 이듬해에 죽었다.
-부모를	B-POS
+부모를	B-PIV
 잃은	O
 뒤	O
-이복형제들과는	B-POS
+이복형제들과는,	B-PIV
 연락이	O
 끊겼고	O
 ,	O
-친	O
-여동생	B-PIV
+친	B-PIV
+여동생	I-PIV
 중	O
 3년	B-DAT
 연하인	O
@@ -7910,17 +7874,17 @@ Pasteur	B-ORG
 사람과	O
 결혼해서	B-PIV
 살다가	O
-1936년에	B-NUM
+1936년에	B-DAT
 사망했고	O
 ,	O
 여동생	B-PIV
 애란은	B-PER
-부모를	B-POS
+부모를	B-PIV
 잃은	O
 뒤	O
 어떤	O
 집의	O
-민며느리로	B-POS
+민며느리로	B-PIV
 들어갔다가	O
 결혼	B-PIV
 이듬해에	B-DAT
@@ -7935,7 +7899,7 @@ Pasteur	B-ORG
 고아가	O
 되어	O
 외가와	O
-재당숙	B-PER
+재당숙	B-PIV
 할아버지	B-PIV
 집을	O
 오가며	O
@@ -7965,10 +7929,10 @@ Pasteur	B-ORG
 뒤	O
 재능을	O
 인정받아	O
-천도교의	B-ORG
+천도교의	B-PIV
 서기일을	B-POS
 맡아	O
-보기도	B-HEC
+보기도	O
 했다	O
 .	O
 
@@ -7980,7 +7944,7 @@ Pasteur	B-ORG
 일본	B-LOC
 도쿄시내에	B-LOC
 있던	O
-개신교	O
+개신교	B-PIV
 목사의	B-POS
 집을	O
 알려주었다	O
@@ -7993,7 +7957,7 @@ Pasteur	B-ORG
 일본에	B-LOC
 건너간	O
 뒤	O
-개신교	O
+개신교	B-PIV
 목사댁에서	B-POS
 지냈다	O
 .	O
@@ -8004,7 +7968,7 @@ Pasteur	B-ORG
 그는	O
 죽을	O
 때까지	O
-기독교를	O
+기독교를	B-PIV
 믿지	O
 않았다	O
 .	O
@@ -8013,7 +7977,7 @@ Pasteur	B-ORG
 1909년에는 '방랑'이라는 소설을 썼다.
 1909년에는	B-NUM
 '	O
-방랑	O
+방랑	B-AFW
 '	O
 이라는	O
 소설을	O
@@ -8022,14 +7986,14 @@ Pasteur	B-ORG
 
 이광수
 연인의 한사람인 나혜석(그가 한때 사귀던 연인이기도 했다.)
-연인의	B-POS
+연인의	B-PIV
 한사람인	B-NUM
 나혜석	B-PER
 (	O
 그가	O
 한때	O
 사귀던	O
-연인이기도	O
+연인이기도	B-PIV
 했다	O
 .	O
 )	O
@@ -8043,7 +8007,7 @@ Pasteur	B-ORG
 이보경	B-PER
 (	O
 李	B-PER
-寶	B-PER
+寶	I-PER
 境	I-PER
 )	O
 이라는	O
@@ -8062,17 +8026,17 @@ Pasteur	B-ORG
 그리고 2년 간 독일 바덴뷔르템베르크주 하이델베르크 하이델베르크 대학에서 교수직을 역임한 후, 1818년 독일 베를린 베를린 대학의 정교수로 취임했다.
 그리고	O
 2년	B-DAT
-간	I-DAT
+간	O
 독일	B-LOC
 바덴뷔르템베르크주	B-LOC
 하이델베르크	B-LOC
-하이델베르크	B-LOC
+하이델베르크	B-ORG
 대학에서	I-ORG
-교수직을	O
+교수직을	B-POS
 역임한	O
 후	O
 ,	O
-1818년	B-NUM
+1818년	B-DAT
 독일	B-LOC
 베를린	B-LOC
 베를린	B-ORG
@@ -8082,24 +8046,22 @@ Pasteur	B-ORG
 .	O
 
 폴 세잔
-폴 세잔(, , 1839년 1월 19일 ~ 1906년 10월 22일)은 프랑스의 대표적 화가로서 현대 미술의 아버지이다.
+폴 세잔(1839년 1월 19일 ~ 1906년 10월 22일)은 프랑스의 대표적 화가로서 현대 미술의 아버지이다.
 폴	B-PER
 세잔	I-PER
 (	O
-,	B-DAT
-,	B-DAT
-1839년	B-NUM
+1839년	B-DAT
 1월	I-DAT
 19일	I-DAT
-~	O
-1906년	B-DAT
+~	I-DAT
+1906년	I-DAT
 10월	I-DAT
 22일	I-DAT
 )	O
 은	O
 프랑스의	B-LOC
 대표적	O
-화가로서	O
+화가로서	B-POS
 현대	O
 미술의	O
 아버지이다	B-PIV
@@ -8109,26 +8071,26 @@ Pasteur	B-ORG
 마사초(Masaccio, 1401년 12월 21일 ~ 1428년)는 초기 르네상스 시대의 이탈리아의 화가이다.
 마사초	B-LOC
 (	O
-Masaccio	B-AFW
+Masaccio	B-PER
 ,	O
-1401년	B-NUM
+1401년	B-DAT
 12월	I-DAT
 21일	I-DAT
-~	O
-1428년	B-NUM
+~	I-DAT
+1428년	I-DAT
 )	O
 는	O
-초기	B-DAT
+초기	O
 르네상스	B-DAT
 시대의	I-DAT
 이탈리아의	B-LOC
-화가이다	O
+화가이다	B-POS
 .	O
 
 에드문트 후설
 그는 유대교를 믿는다.
 그는	O
-유대교를	B-ORG
+유대교를	B-PIV
 믿는다	O
 .	O
 
@@ -8136,16 +8098,16 @@ Masaccio	B-AFW
 이후 모든 로마 황제들이 그의 황제명인 ‘아우구스투스’와 ‘카이사르’를 이름으로 썼다.
 이후	O
 모든	O
-로마	B-ORG
+로마	B-LOC
 황제들이	B-POS
 그의	O
 황제명인	O
-‘	B-PER
-아우구스투스	I-PER
+‘	O
+아우구스투스	B-PER
 ’	O
 와	O
-‘	B-PER
-카이사르	I-PER
+‘	O
+카이사르	B-PER
 ’	O
 를	O
 이름으로	O
@@ -8156,7 +8118,7 @@ Masaccio	B-AFW
 그의 황위는 양자인 티베리우스가 물려받았다.
 그의	O
 황위는	B-POS
-양자인	B-POS
+양자인	B-PIV
 티베리우스가	B-PER
 물려받았다	O
 .	O
@@ -8167,7 +8129,7 @@ Masaccio	B-AFW
 모습과	O
 달리	O
 취미가	O
-도박이었다	O
+도박이었다	B-POS
 .	O
 
 아우구스투스
@@ -8185,7 +8147,7 @@ Masaccio	B-AFW
 하지만 셋째 아내인 리비아로부터 영향을 받아서 지혜와 결단력이 있고 통찰력이 있는 정치가였다.
 하지만	O
 셋째	B-NUM
-아내인	B-POS
+아내인	B-PIV
 리비아로부터	B-LOC
 영향을	O
 받아서	O
@@ -8201,14 +8163,14 @@ Masaccio	B-AFW
 하지만 이는 13세기의 학자였던 사크로보스코의 요한네스(Johannes de Sacrobosco)가 지어낸 이야기이다.
 하지만	O
 이는	O
-13세기의	B-NUM
+13세기의	B-DAT
 학자였던	O
 사크로보스코의	B-PER
-요한네스	B-PER
+요한네스	I-PER
 (	O
-Johannes	I-PER
-de	O
-Sacrobosco	B-PER
+Johannes	B-PER
+de  I-PER
+Sacrobosco	I-PER
 )	O
 가	O
 지어낸	O
@@ -8220,7 +8182,7 @@ Sacrobosco	B-PER
 실제로	O
 8월은	B-DAT
 이름이	O
-'	B-PER
+'	O
 아우구스투스	B-PER
 '	O
 로	O
@@ -8278,7 +8240,7 @@ Sacrobosco	B-PER
 걸린	O
 그의	O
 어머니가	B-PIV
-혼수상태에	O
+혼수상태에	B-HEC
 빠지자	O
 30세의	B-NUM
 나이로	O
@@ -8290,7 +8252,7 @@ Sacrobosco	B-PER
 2007년	B-DAT
 11월에	I-DAT
 네이처	B-ORG
-지가	O
+지가	I-OEG
 선정한	O
 인류역사를	O
 바꾼	O
@@ -8315,7 +8277,7 @@ Sacrobosco	B-PER
 가장	O
 유명한	O
 것은	O
-모나리자이다	B-PER
+모나리자이다	B-AFW
 .	O
 
 레오나르도 다 빈치
@@ -8323,8 +8285,8 @@ Sacrobosco	B-PER
 그	O
 외에도	O
 '	O
-최후의	O
-만찬	O
+최후의	B-AFW
+만찬	I-AFW
 '	O
 은	O
 그의	O
@@ -8337,28 +8299,25 @@ Sacrobosco	B-PER
 .	O
 
 안톤 체호프
-안톤 파블로비치 체호프(, , , 1860년 1월 29일 ~ 1904년 7월 15일)는 러시아의 의사, 단편 소설가, 극작가이다.
+안톤 파블로비치 체호프(1860년 1월 29일 ~ 1904년 7월 15일)는 러시아의 의사, 단편 소설가, 극작가이다.
 안톤	B-LOC
 파블로비치	I-PER
 체호프	I-PER
 (	O
-,	O
-,	O
-,	B-DAT
 1860년	B-DAT
 1월	I-DAT
 29일	I-DAT
-~	O
-1904년	B-NUM
+~	I-DAT
+1904년	I-DAT
 7월	I-DAT
 15일	I-DAT
 )	O
 는	O
 러시아의	B-LOC
-의사	O
+의사	B-POS
 ,	O
-단편	O
-소설가	O
+단편	B-POS
+소설가	I-POS
 ,	O
 극작가이다	B-POS
 .	O
@@ -8369,7 +8328,7 @@ Sacrobosco	B-PER
 잭	B-PER
 버틀러	I-PER
 예이츠의	I-PER
-형이며	B-POS
+형이며	B-PIV
 존	B-PER
 버틀러	I-PER
 예이츠의	I-PER
@@ -8398,11 +8357,11 @@ Sacrobosco	B-PER
 윌리엄 버틀러 예이츠
 《오이진의 방랑기》는 예이츠가 남긴 유일한 장편시이다.
 《	O
-오이진의	I-AFW
+오이진의	B-AFW
 방랑기	I-AFW
 》	O
 는	O
-예이츠가	B-ORG
+예이츠가	B-PER
 남긴	O
 유일한	O
 장편시이다	O
@@ -8415,17 +8374,17 @@ Sacrobosco	B-PER
 자신의	O
 1집	B-NUM
 앨범이자	O
-마지막	B-NUM
+마지막	O
 앨범인	O
 《	O
-사랑하기	I-AFW
+사랑하기	B-AFW
 때문에	I-AFW
 》	O
 를	O
 발표	O
 ,	O
-같은	O
-해	O
+같은	B-DAT
+해	I-DAT
 11월	B-DAT
 1일	I-DAT
 25세의	B-NUM
@@ -8435,23 +8394,22 @@ Sacrobosco	B-PER
 .	O
 
 귀스타브 모로
-귀스타브 모로(, 1826년 4월 6일 ~ 1898년 4월 18일)는 프랑스의 상징주의 화가이다.
+귀스타브 모로(1826년 4월 6일 ~ 1898년 4월 18일)는 프랑스의 상징주의 화가이다.
 귀스타브	B-PER
 모로	I-PER
 (	O
-,	B-DAT
-1826년	B-NUM
+1826년	B-DAT
 4월	I-DAT
 6일	I-DAT
-~	O
-1898년	B-DAT
+~	I-DAT
+1898년	I-DAT
 4월	I-DAT
 18일	I-DAT
 )	O
 는	O
 프랑스의	B-LOC
-상징주의	O
-화가이다	O
+상징주의	B-PIV
+화가이다	B-POS
 .	O
 
 강금실
@@ -8459,9 +8417,9 @@ Sacrobosco	B-PER
 서울	B-LOC
 지역	O
 첫	B-NUM
-여성	I-NUM
-형사	O
-단독판사였다	O
+여성	B-PIV
+형사	B-POS
+단독판사였다	B-POS
 .	O
 
 애덤 스미스
@@ -8473,21 +8431,21 @@ Sacrobosco	B-PER
 영향을	O
 미친	O
 《	O
-국부론	I-AFW
+국부론	B-AFW
 》	O
 (	O
-An	O
-Inquiry	O
-into	O
-the	O
-Nature	O
-and	O
-Causes	O
-of	O
-the	O
-Wealth	O
-of	O
-Nations	O
+An	B-AFW
+Inquiry	I-AFW
+into	I-AFW
+the	I-AFW
+Nature	I-AFW
+and	I-AFW
+Causes	I-AFW
+of	I-AFW
+the	I-AFW
+Wealth	I-AFW
+of	I-AFW
+Nations	I-AFW
 )	O
 의	O
 저자이다	O
@@ -8503,7 +8461,7 @@ Nations	O
 경제학의	O
 아버지로	B-PIV
 여겨지며	O
-자본주의와	O
+자본주의와	B-PIV
 자유무역에	O
 대한	O
 이론적	O
@@ -8525,10 +8483,10 @@ Nations	O
 죽은	O
 후	O
 ,	O
-1599년에는	B-NUM
-신성	O
-로마	B-ORG
-제국	O
+1599년에는	B-DAT
+신성	B-LOC
+로마	I-LOC
+제국	I-LOC
 황제	B-POS
 루돌프	B-PER
 2세	I-PER
@@ -8543,24 +8501,24 @@ Nations	O
 그 이후로는 레닌주의 사상을 가진 당대 좌파와
 그	O
 이후로는	O
-레닌주의	O
+레닌주의	B-PIV
 사상을	O
 가진	O
 당대	O
-좌파와	O
+좌파와	B-PIV
 
 미야자키 하야오
 또한, 《마녀 배달부 키키》와 《붉은 돼지》는 상영된 그해 일본 최고의 흥행성적을 기록하였고, 컴퓨터그래픽을 이용하여 만든 《모노노케 히메》(1997년)는 제작비 20억 엔을 투자하여 1400만 명 이상의 관객을 동원하였다.
 또한	O
 ,	O
 《	O
-마녀	B-POS
+마녀	B-AFW
 배달부	I-AFW
 키키	I-AFW
 》	O
 와	O
 《	O
-붉은	I-AFW
+붉은	B-AFW
 돼지	I-AFW
 》	O
 는	O
@@ -8575,7 +8533,7 @@ Nations	O
 이용하여	O
 만든	O
 《	O
-모노노케	I-AFW
+모노노케	B-AFW
 히메	I-AFW
 》	O
 (	O
@@ -8589,7 +8547,7 @@ Nations	O
 1400만	B-NUM
 명	I-NUM
 이상의	O
-관객을	B-POS
+관객을	O
 동원하였다	O
 .	O
 
@@ -8691,7 +8649,7 @@ H. P. 러브크래프트
 그는 재위 23년, 나이 62세에 죽고 그의 아들 성왕이 즉위하였다.
 그는	O
 재위	O
-23년	B-NUM
+23년	B-DAT
 ,	O
 나이	O
 62세에	B-NUM
@@ -8706,7 +8664,7 @@ H. P. 러브크래프트
 데뷔 3개월 후 서태지는 결국 매니저와 결별 선언했다.
 데뷔	O
 3개월	B-DAT
-후	I-DAT
+후	O
 서태지는	B-PER
 결국	O
 매니저와	B-POS
@@ -8716,7 +8674,7 @@ H. P. 러브크래프트
 
 막스 베버
 제1차 세계 대전 동안 베버는 하이델베르크의 군 병원에서 원장으로 잠시 복무하였다.
-제1차	B-NUM
+제1차	B-EVT
 세계	I-EVT
 대전	I-EVT
 동안	O
@@ -8739,11 +8697,11 @@ H. P. 러브크래프트
 되었는데	O
 ,	O
 처음에는	O
-빈	B-LOC
-대학교에서	O
+빈	B-ORG
+대학교에서	I-ORG
 ,	O
 나중에	O
-1919년에는	B-NUM
+1919년에는	B-DAT
 뮌헨	B-ORG
 대학교에서	I-ORG
 일하였다	O
@@ -8752,9 +8710,9 @@ H. P. 러브크래프트
 막스 베버
 베버는 1919년과 1920년에 우파의 선동 때문에 정계를 떠났다.
 베버는	B-PER
-1919년과	B-NUM
-1920년에	B-DAT
-우파의	O
+1919년과	B-DAT
+1920년에	I-DAT
+우파의	B-PIV
 선동	O
 때문에	O
 정계를	O
@@ -8765,25 +8723,25 @@ H. P. 러브크래프트
 뮌헨의 여러 동료와 학생들은 1918년과 1919년 독일 혁명 당시 그의 연설과 좌파적 태도에 반대하였으며, 일부 우파 학생들은 그의 집 앞에서 시위를 벌이기도 하였다.
 뮌헨의	B-LOC
 여러	O
-동료와	B-POS
+동료와	O
 학생들은	B-POS
-1918년과	B-NUM
-1919년	B-NUM
-독일	B-LOC
-혁명	O
+1918년과	B-DAT
+1919년	I-DAT
+독일	B-EVT
+혁명	I-EVT
 당시	O
 그의	O
 연설과	O
-좌파적	O
+좌파적	B-PIV
 태도에	O
 반대하였으며	O
 ,	O
 일부	O
-우파	O
+우파	B-PIV
 학생들은	B-POS
 그의	O
 집	O
-앞에서	B-HEC
+앞에서	O
 시위를	O
 벌이기도	O
 하였다	O
@@ -8793,8 +8751,8 @@ H. P. 러브크래프트
 막스 베버는 에스파냐 독감에 걸렸으며, 1920년 6월 14일 뮌헨에서 폐렴으로 세상을 떠났다.
 막스	B-PER
 베버는	I-PER
-에스파냐	B-LOC
-독감에	O
+에스파냐	B-HEC
+독감에	I-HEC
 걸렸으며	O
 ,	O
 1920년	B-DAT
@@ -8808,12 +8766,12 @@ H. P. 러브크래프트
 
 게오르크 지멜
 1858년 베를린에서 가톨릭으로로 개종한 부유한 유대인 상인의 아들로 태어나 1918년 슈트라스부르크에서 사망했다.
-1858년	B-NUM
+1858년	B-DAT
 베를린에서	B-LOC
-가톨릭으로로	O
+가톨릭으로로	B-PIV
 개종한	O
 부유한	O
-유대인	B-POS
+유대인	O
 상인의	B-POS
 아들로	B-PIV
 태어나	O
@@ -8832,7 +8790,7 @@ H. P. 러브크래프트
 의	O
 인구가	O
 80	B-NUM
-%	O
+%	I-NUM
 의	O
 부를	O
 소유한다는	O
@@ -8846,7 +8804,7 @@ H. P. 러브크래프트
 빌프레도 파레토
 이탈리아 파시즘과 관련하여 그에게 흔히 던져지는 비난에 관하여는 학자들의 여러 입장들이 서로 갈린다.
 이탈리아	B-LOC
-파시즘과	O
+파시즘과	B-PIV
 관련하여	O
 그에게	O
 흔히	O
@@ -8879,7 +8837,7 @@ H. P. 러브크래프트
 세	B-NUM
 왕국의	I-NUM
 왕위는	O
-조카	B-POS
+조카	B-PIV
 크리스토프	B-PER
 폰	I-PER
 팔츠노이마르크트	I-PER
@@ -8897,7 +8855,7 @@ H. P. 러브크래프트
 
 이진경
 마르크스주의와 근대성에 대한 저술 활동을 하였다.
-마르크스주의와	O
+마르크스주의와	B-PIV
 근대성에	O
 대한	O
 저술	O
@@ -8909,7 +8867,7 @@ H. P. 러브크래프트
 다음날(4월 18일) 루터는 황제 앞에서 담대히 대답했다.
 다음날	B-DAT
 (	O
-4월	I-DAT
+4월	B-DAT
 18일	I-DAT
 )	O
 루터는	B-PER
@@ -8922,7 +8880,7 @@ H. P. 러브크래프트
 트라야누스
 117년 말에, 로마로 돌아가는 배를 타던 중, 트라야누스는 병에 걸려 셀리누스라는 도시에서 뇌졸중으로 사망했다.
 117년	B-DAT
-말에	I-DAT
+말에	O
 ,	O
 로마로	B-LOC
 돌아가는	O
@@ -8933,7 +8891,7 @@ H. P. 러브크래프트
 트라야누스는	B-PER
 병에	O
 걸려	O
-셀리누스라는	B-ORG
+셀리누스라는	B-LOC
 도시에서	O
 뇌졸중으로	B-HEC
 사망했다	O
@@ -8946,10 +8904,10 @@ H. P. 러브크래프트
 추정상	O
 트라야누스가	B-PER
 병상에서	O
-양자로	B-POS
-받아들인	B-PIV
+양자로	B-PIV
+받아들인	O
 그의	O
-조카	B-POS
+조카	B-PIV
 하드리아누스가	B-PER
 계승했다	O
 .	O
@@ -8960,7 +8918,7 @@ H. P. 러브크래프트
 161년에	B-DAT
 지병으로	O
 사망했고	O
-양자들인	B-POS
+양자들인	B-PIV
 마르쿠스	B-PER
 아우렐리우스와	I-PER
 루키우스	B-PER
@@ -8974,12 +8932,12 @@ H. P. 러브크래프트
 안토니누스 피우스
 케이오니아의 형제 루키우스 콤모두스에 대한 파우스티나의 약혼 역시도 취소되어야 했다.
 케이오니아의	B-PER
-형제	B-POS
+형제	B-PIV
 루키우스	B-PER
 콤모두스에	I-PER
 대한	O
 파우스티나의	B-PER
-약혼	O
+약혼	B-PIV
 역시도	O
 취소되어야	O
 했다	O
@@ -8988,11 +8946,11 @@ H. P. 러브크래프트
 마르쿠스 아우렐리우스
 그는 140년, 145년, 161년에 집정관직을 수행하기도 했다.
 그는	O
-140년	B-NUM
+140년	B-DAT
 ,	O
-145년	B-NUM
+145년	B-DAT
 ,	O
-161년에	B-NUM
+161년에	B-DAT
 집정관직을	B-POS
 수행하기도	O
 했다	O
@@ -9004,7 +8962,7 @@ H. P. 러브크래프트
 하드리아누스	B-PER
 치세에	O
 하드리아누스의	B-PER
-조카이자	B-POS
+조카이자	B-PIV
 법무관인	B-POS
 마르쿠스	B-PER
 안니우스	B-PER
@@ -9027,7 +8985,7 @@ H. P. 러브크래프트
 ,	O
 그의	O
 어머니와	B-PIV
-조부가	B-POS
+조부가	B-PIV
 그를	O
 길렀다	O
 .	O
@@ -9035,10 +8993,10 @@ H. P. 러브크래프트
 마르쿠스 아우렐리우스
 하드리아누스의 양자 아일리우스 카이사르가 138년에 사망한 뒤, 하드리아누스는 마르쿠스의 삼촌인 안토니누스 피우스를 새로운 후계자로 받아들였다.
 하드리아누스의	B-PER
-양자	B-POS
+양자	B-PIV
 아일리우스	B-PER
 카이사르가	I-PER
-138년에	B-NUM
+138년에	B-DAT
 사망한	O
 뒤	O
 ,	O
@@ -9049,7 +9007,7 @@ H. P. 러브크래프트
 피우스를	I-PER
 새로운	O
 후계자로	B-POS
-받아들였다	B-PIV
+받아들였다	O
 .	O
 
 마르쿠스 아우렐리우스
@@ -9063,24 +9021,24 @@ H. P. 러브크래프트
 아일리우스의	B-PER
 아들인	B-PIV
 베루스를	B-PER
-양자로	B-POS
-받아들였다	B-PIV
+양자로	B-PIV
+받아들였다	O
 .	O
 
 마르쿠스 아우렐리우스
 그는 145년에 안토니누스의 딸인 파우스티나와 혼인했다.
 그는	O
-145년에	B-NUM
+145년에	B-DAT
 안토니누스의	B-PER
 딸인	B-PIV
 파우스티나와	B-PER
-혼인했다	O
+혼인했다	B-PIV
 .	O
 
 마르쿠스 아우렐리우스
 안토니누스가 161년에 죽은 뒤, 마르쿠스는 루키우스 베루스라는 이름으로 황제 자리에 오른 양형제와 같이 황제가 되었다.
 안토니누스가	B-PER
-161년에	B-NUM
+161년에	B-DAT
 죽은	O
 뒤	O
 ,	O
@@ -9088,10 +9046,10 @@ H. P. 러브크래프트
 루키우스	B-PER
 베루스라는	I-PER
 이름으로	O
-황제	O
+황제	B-POS
 자리에	O
 오른	O
-양형제와	B-PER
+양형제와	B-PIV
 같이	O
 황제가	B-POS
 되었다	O
@@ -9101,10 +9059,10 @@ H. P. 러브크래프트
 초기에 그레이트브리튼 왕국은 프랑스를 7년 전쟁에서 격파해 북아메리카와 인도에서 우위를 점하는 유럽 국가가 되었다.
 초기에	O
 그레이트브리튼	B-LOC
-왕국은	O
+왕국은	I-LOC
 프랑스를	B-LOC
-7년	B-DAT
-전쟁에서	O
+7년	B-EVT
+전쟁에서	I-EVT
 격파해	O
 북아메리카와	B-LOC
 인도에서	B-LOC
@@ -9118,13 +9076,13 @@ H. P. 러브크래프트
 조지 3세
 이후 1793년부터 1815년까지 프랑스 혁명 전쟁과 나폴레옹 전쟁에 개입한 영국은 프랑스의 나폴레옹을 패배시켰다.
 이후	O
-1793년부터	B-NUM
-1815년까지	B-NUM
-프랑스	B-LOC
-혁명	O
-전쟁과	O
-나폴레옹	O
-전쟁에	O
+1793년부터	B-DAT
+1815년까지	I-DAT
+프랑스	B-EVT
+혁명	I-EVT
+전쟁과	I-EVT
+나폴레옹	B-EVT
+전쟁에	I-EVT
 개입한	O
 영국은	B-LOC
 프랑스의	B-LOC
@@ -9177,21 +9135,21 @@ H. P. 러브크래프트
 마크리누스 (165년 - 218년)는 로마 제국의 22대 황제로 황제에 올랐음에도 단 한번도 수도 로마에 들어가지 못한 유일한 황제이다.
 마크리누스	B-PER
 (	O
-165년	B-NUM
--	B-DAT
-218년	B-NUM
+165년	B-DAT
+-	I-DAT
+218년	B-DAT
 )	O
 는	O
-로마	B-ORG
-제국의	O
+로마	B-LOC
+제국의	I-LOC
 22대	B-NUM
 황제로	B-POS
-황제에	O
+황제에	B-POS
 올랐음에도	O
 단	O
 한번도	B-NUM
 수도	O
-로마에	B-ORG
+로마에	B-LOC
 들어가지	O
 못한	O
 유일한	O
@@ -9199,17 +9157,16 @@ H. P. 러브크래프트
 .	O
 
 거스테이브 홀스트
-거스테이브 시어도어 홀스트(, 1874년 9월 21일 ~ 1934년 5월 25일)는 영국의 작곡가이다.
+거스테이브 시어도어 홀스트(1874년 9월 21일 ~ 1934년 5월 25일)는 영국의 작곡가이다.
 거스테이브	B-PER
 시어도어	I-PER
 홀스트	I-PER
 (	O
-,	B-DAT
-1874년	B-NUM
+1874년	B-DAT
 9월	I-DAT
 21일	I-DAT
-~	O
-1934년	B-DAT
+~	I-DAT
+1934년	I-DAT
 5월	I-DAT
 25일	I-DAT
 )	O
@@ -9221,24 +9178,24 @@ H. P. 러브크래프트
 영국 왕녀 엘리자베스
 영국의 엘리자베스(Elizabeth of United Kingdom, 1770년 5월 22일 ~ 1840년 1월 10일)는 영국 왕 조지 3세의 7번째 자녀이자 3번째 딸이다.
 영국의	B-LOC
-엘리자베스	B-LOC
+엘리자베스	B-PER
 (	O
-Elizabeth	I-EVT
+Elizabeth	I-PER
 of	O
-United	B-ORG
-Kingdom	I-ORG
+United	B-LOC
+Kingdom	I-LOC
 ,	O
-1770년	B-NUM
+1770년	B-DAT
 5월	I-DAT
 22일	I-DAT
-~	O
-1840년	B-DAT
+~	I-DAT
+1840년	I-DAT
 1월	I-DAT
 10일	I-DAT
 )	O
 는	O
 영국	B-LOC
-왕	O
+왕	B-POS
 조지	B-PER
 3세의	I-PER
 7번째	B-NUM
@@ -9250,7 +9207,7 @@ Kingdom	I-ORG
 전태일
 동아일보의 1983년 뉴스에도 그가 조사한 조사자료와 비슷한 기록이 전한다.
 동아일보의	B-ORG
-1983년	B-NUM
+1983년	B-DAT
 뉴스에도	O
 그가	O
 조사한	O
@@ -9277,7 +9234,7 @@ Kingdom	I-ORG
 전태일
 《전태일 평전》을 처음 집필한 조영래는 전태일의 몸에 불을 붙였다는 그의 친구의 이름을 알지 못하여 김개남이라는 가명을 사용하였다.
 《	O
-전태일	B-PER
+전태일	B-AFW
 평전	I-AFW
 》	O
 을	O
@@ -9289,7 +9246,7 @@ Kingdom	I-ORG
 불을	O
 붙였다는	O
 그의	O
-친구의	B-POS
+친구의	B-PIV
 이름을	O
 알지	O
 못하여	O
@@ -9311,7 +9268,7 @@ Kingdom	I-ORG
 ,	O
 이	O
 책은	O
-휴고상을	B-POS
+휴고상을	B-PRI
 수상했다	O
 .	O
 
@@ -9320,7 +9277,7 @@ Kingdom	I-ORG
 이승만과	B-PER
 김구	B-PER
 모두	O
-기독교인이었다	B-POS
+기독교인이었다	B-PIV
 .	O
 
 이승만
@@ -9328,13 +9285,13 @@ Kingdom	I-ORG
 이승만과	B-PER
 김구	B-PER
 모두	O
-우파였다	O
+우파였다	B-PIV
 .	O
 
 이승만
 이승만은 부인 프란체스카와 함께 수시로 경마장에 들렀다.
 이승만은	B-PER
-부인	O
+부인	B-PIV
 프란체스카와	B-PER
 함께	O
 수시로	O
@@ -9369,13 +9326,13 @@ Kingdom	I-ORG
 양곡자급률은	O
 1970년의	B-DAT
 86	B-NUM
-%	O
+%	I-NUM
 에서	O
-1985년에는	B-NUM
+1985년에는	B-DAT
 48	B-NUM
-.	O
-4	B-NUM
-%	O
+.	I-NUM
+4	I-NUM
+%	I-NUM
 로	O
 낮아졌다	O
 .	O
@@ -9383,14 +9340,14 @@ Kingdom	I-ORG
 흥선대원군
 직접 며느리 명성 황후를 간택.
 직접	O
-며느리	B-POS
-명성	O
-황후를	B-POS
+며느리	B-PIV
+명성	B-PER
+황후를	I-PER
 간택	O
 
 흥선대원군
 1864년 1월부터 1873년 11월까지 조선의 국정을 이끌었었다.
-1864년	B-NUM
+1864년	B-DAT
 1월부터	I-DAT
 1873년	I-DAT
 11월까지	I-DAT
@@ -9420,7 +9377,7 @@ Kingdom	I-ORG
 명성황후는 시어머니 부대부인 민씨와 언니 동생뻘의 같은 항렬이며
 명성황후는	B-PER
 시어머니	B-PIV
-부대부인	B-POS
+부대부인	O
 민씨와	B-PER
 언니	B-PIV
 동생뻘의	B-PIV
@@ -9430,7 +9387,7 @@ Kingdom	I-ORG
 흥선대원군
 대원군이 가톨릭을 탄압한 일로 인해 프랑스가 쳐들어왔다.
 대원군이	B-PER
-가톨릭을	O
+가톨릭을	B-PIV
 탄압한	O
 일로	O
 인해	O
@@ -9464,7 +9421,7 @@ Kingdom	I-ORG
 류상태	B-PER
 목사와	B-POS
 그의	O
-부모가	B-POS
+부모가	B-PIV
 그를	O
 찾아다녔다	O
 .	O
@@ -9474,19 +9431,19 @@ Kingdom	I-ORG
 2008년	B-DAT
 9월	I-DAT
 30일과	I-DAT
-10월	B-DAT
+10월	I-DAT
 1일의	I-DAT
 서울	B-LOC
-테헤란로	B-AFW
-군대	I-EVT
+테헤란로	B-LOC
+군대	O
 반대	O
 퍼포먼스	O
 당시	O
 그는	O
 손수	O
 제작한	O
-쿠키를	B-POS
-시민들에게	B-POS
+쿠키를	O
+시민들에게	O
 나눠주었다	O
 .	O
 
@@ -9504,10 +9461,10 @@ Kingdom	I-ORG
 로마	B-ORG
 가톨릭교회에	B-PIV
 귀의하여	O
-올라프라는	B-POS
+올라프라는	B-PER
 세례명을	O
 받고	O
-신자가	O
+신자가	B-POS
 되었다	O
 .	O
 
@@ -9517,7 +9474,7 @@ Kingdom	I-ORG
 판사로	B-POS
 재직	O
 중	O
-선배	B-POS
+선배	B-PIV
 판사의	B-POS
 소개로	O
 한인옥과	B-PER
@@ -9540,7 +9497,7 @@ Kingdom	I-ORG
 * 1962년 ~ 1963년 국방대학교 행정학사 8기.
 *	O
 1962년	B-DAT
-~	B-DAT
+~	I-DAT
 1963년	I-DAT
 국방대학교	B-ORG
 행정학사	B-POS
@@ -9549,7 +9506,7 @@ Kingdom	I-ORG
 
 이회창
 군사정권 재직 중 박정희·전두환 정부의 청탁과 압력에 굴하지 않고 소신 판결을 내린 것을 높이 평가하기도 한다.
-군사정권	B-POS
+군사정권	O
 재직	O
 중	O
 박정희	B-PER
@@ -9573,11 +9530,11 @@ Kingdom	I-ORG
 신성일(1937년 5월 8일 ~ 2018년 11월 4일)은 대한민국의 배우이며, 계명대학교 특임교수였고, 제16대 국회의원을 지냈다.
 신성일	B-PER
 (	O
-1937년	B-NUM
+1937년	B-DAT
 5월	I-DAT
 8일	I-DAT
-~	O
-2018년	B-DAT
+~	I-DAT
+2018년	I-DAT
 11월	I-DAT
 4일	I-DAT
 )	O
@@ -9594,14 +9551,12 @@ Kingdom	I-ORG
 .	O
 
 김현철 (1959년)
-김현철(金賢哲,  ~ )은 대한민국 제14대 대통령 김영삼의 차남이다.
+김현철(金賢哲)은 대한민국 제14대 대통령 김영삼의 차남이다.
 김현철	B-PER
 (	O
 金	B-PER
-賢	B-PER
+賢	I-PER
 哲	I-PER
-,	O
-~	O
 )	O
 은	O
 대한민국	B-LOC
@@ -9639,15 +9594,14 @@ Kingdom	I-ORG
 .	O
 
 크리스티나 김
-크리스티나 김(Christina Kim, , 1984년 3월 15일 ~ )은 미국 LPGA에서 활동하고 있는 한국계 미국인 여성 골프 선수이다.
+크리스티나 김(Christina Kim, 1984년 3월 15일 ~ )은 미국 LPGA에서 활동하고 있는 한국계 미국인 여성 골프 선수이다.
 크리스티나	B-PER
 김	I-PER
 (	O
 Christina	B-PER
 Kim	I-PER
 ,	O
-,	O
-1984년	B-NUM
+1984년	B-DAT
 3월	I-DAT
 15일	I-DAT
 ~	I-DAT
@@ -9657,11 +9611,11 @@ Kim	I-PER
 LPGA에서	B-ORG
 활동하고	O
 있는	O
-한국계	B-LOC
-미국인	B-POS
-여성	O
+한국계	O
+미국인	O
+여성	B-PIV
 골프	B-POS
-선수이다	B-POS
+선수이다	I-POS
 .	O
 
 크리스티나 김
@@ -9675,11 +9629,11 @@ LPGA에서	B-ORG
 시즌	O
 후	O
 일본	B-LOC
-야구계의	B-POS
+야구계의	O
 최고	O
-상인	B-POS
-쇼리키	B-PER
-마쓰타로상을	B-POS
+상인	O
+쇼리키	B-PRI
+마쓰타로상을	I-PRI
 2년	B-DAT
 연속	O
 수상했다	O
@@ -9695,49 +9649,49 @@ LPGA에서	B-ORG
 1944년부터	B-DAT
 1945년까지	I-DAT
 미국	B-LOC
-해군으로	O
+해군으로	B-ORG
 복무했다	O
 .	O
 
 마빈 민스키
 1970년에 튜링상, 1990년에 일본국제상, 2001년 벤자민 플랭클린 메달을 비롯한 다양한 상을 수상했으며, 미국 국립 공학 학술원(National Academy of Engineering)과 국립 과학 학술원(National Academy of Sciences)의 회원이다.
 1970년에	B-DAT
-튜링상	B-POS
+튜링상	B-PRI
 ,	O
 1990년에	B-DAT
-일본국제상	B-POS
+일본국제상	B-PRI
 ,	O
 2001년	B-DAT
 벤자민	B-PER
-플랭클린	B-POS
-메달을	O
+플랭클린	I-PER
+메달을	B-PRI
 비롯한	O
 다양한	O
 상을	O
 수상했으며	O
 ,	O
 미국	B-LOC
-국립	O
-공학	O
-학술원	B-ORG
+국립	B-ORG
+공학	I-ORG
+학술원	I-ORG
 (	O
-National	I-ORG
+National	B-ORG
 Academy	I-ORG
 of	I-ORG
 Engineering	I-ORG
 )	O
 과	O
-국립	O
-과학	B-ORG
+국립	B-ORG
+과학	I-ORG
 학술원	I-ORG
 (	O
-National	I-ORG
+National	B-ORG
 Academy	I-ORG
 of	I-ORG
 Sciences	I-ORG
 )	O
 의	O
-회원이다	O
+회원이다	B-POS
 .	O
 
 케빈 미트닉
@@ -9765,7 +9719,7 @@ Sciences	I-ORG
 국가기록보관소에	B-ORG
 보관하고	O
 있던	O
-두개골을	B-HEC
+두개골을	O
 공개하였다	O
 .	O
 
@@ -9777,14 +9731,14 @@ Sciences	I-ORG
 교수는	B-POS
 러시아	B-LOC
 측이	O
-'	B-PER
+'	O
 히틀러	B-PER
 '	O
 의	O
 것이라고	O
 주장하는	O
-두개골의	B-HEC
-DNA를	B-HEC
+두개골의	O
+DNA를	O
 분석하였는데	O
 ,	O
 분석	O
@@ -9792,9 +9746,9 @@ DNA를	B-HEC
 이	O
 두개골은	O
 20대에서	B-NUM
-40대	B-NUM
+40대	I-NUM
 사이	O
-여성의	O
+여성의	B-PIV
 것으로	O
 판명됐다고	O
 밝혔다	O
@@ -9808,7 +9762,7 @@ DNA를	B-HEC
 히틀러는	B-PER
 피신하여	O
 빨라도	O
-1960년대까지는	B-NUM
+1960년대까지는	B-DAT
 생존했다는	O
 것이다	O
 .	O
@@ -9838,14 +9792,14 @@ DNA를	B-HEC
 찾아내서	O
 제거하라는	O
 명령을	O
-NKVD에	O
+NKVD에	B-ORG
 내렸다	O
 .	O
 
 아돌프 히틀러
 그 의사는 가난했던 히틀러의 어머니의 치료비를 많이 삭감해주었다.
 그	O
-의사는	O
+의사는	B-POS
 가난했던	O
 히틀러의	B-PER
 어머니의	B-PIV
@@ -9856,15 +9810,15 @@ NKVD에	O
 
 달러 멘디
 가족으로는 달러 멘디가 6형제 중 한 명으로 그의 형인 한스 랏 한스 싱과 그의 막내 동생인 미카 싱이 있다.
-가족으로는	B-POS
-달러	B-POS
-멘디가	B-PER
-6형제	B-NUM
+가족으로는	O
+달러	B-PER
+멘디가	I-PER
+6형제	B-PIV
 중	O
 한	B-NUM
 명으로	I-NUM
 그의	O
-형인	O
+형인	B-PIV
 한스	B-PER
 랏	I-PER
 한스	I-PER
@@ -9903,16 +9857,16 @@ MBC	B-ORG
 브론테가의 살아남은 네남매 가운데 셋째였던 그녀는 언니인 샬럿 브론테와 막내여동생 앤 브론테와 함께 시집을 출판하기도 했다.
 브론테가의	O
 살아남은	O
-네남매	O
+네남매	B-PIV
 가운데	O
-셋째였던	B-NUM
+셋째였던	B-PIV
 그녀는	O
 언니인	B-PIV
 샬럿	B-PER
 브론테와	I-PER
 막내여동생	B-PIV
 앤	B-PER
-브론테와	B-PER
+브론테와	I-PER
 함께	O
 시집을	O
 출판하기도	O
@@ -9935,8 +9889,8 @@ MBC	B-ORG
 논증	O
 등의	O
 업적으로	O
-노벨	B-EVT
-경제학상을	I-POS
+노벨	B-PRI
+경제학상을	I-PRI
 수상하였다	O
 .	O
 
@@ -9947,10 +9901,10 @@ MBC	B-ORG
 시리즈의	O
 내용은	O
 자신의	O
-아내	O
+아내	B-PIV
 로즈	B-PER
 프리드먼과	I-PER
-공동저자로	B-POS
+공동저자로	O
 책으로도	O
 출판되었다	O
 .	O
@@ -9960,7 +9914,7 @@ MBC	B-ORG
 스스로를	O
 더욱	O
 고전적인	O
-자유주의자로	B-POS
+자유주의자로	B-PIV
 생각했던	O
 프리드먼은	B-PER
 시장의	O
@@ -9974,7 +9928,7 @@ MBC	B-ORG
 밀턴 프리드먼
 프리드먼은 1912년 7월 31일 뉴욕 브루클린에서 태어났다.
 프리드먼은	B-PER
-1912년	B-NUM
+1912년	B-dAT
 7월	I-DAT
 31일	I-DAT
 뉴욕	B-LOC
@@ -9985,14 +9939,14 @@ MBC	B-ORG
 프리드리히 하이에크
 그는 신자유주의 아버지로 불린다.
 그는	O
-신자유주의	B-POS
+신자유주의	B-PIV
 아버지로	B-PIV
 불린다	O
 .	O
 
 프리드리히 하이에크
 신자유주의의 사상적 아버지로 불리고 있다.
-신자유주의의	O
+신자유주의의	B-PIV
 사상적	O
 아버지로	B-PIV
 불리고	O
@@ -10003,12 +9957,12 @@ MBC	B-ORG
 2007년 기준으로 성우활동 이외에도 비만 관리 전문점 '쥬비스'를 2년 정도 운영하였다.
 2007년	B-DAT
 기준으로	O
-성우활동	O
+성우활동	B-POS
 이외에도	O
 비만	O
 관리	O
 전문점	O
-'	B-ORG
+'	O
 쥬비스	B-ORG
 '	O
 를	O
@@ -10022,7 +9976,7 @@ MBC	B-ORG
 1988년	B-DAT
 연극배우	B-POS
 첫	B-NUM
-데뷔하였고	I-NUM
+데뷔하였고	O
 1991년	B-DAT
 MBC	B-ORG
 공채	O
@@ -10038,7 +9992,7 @@ MBC	B-ORG
 정형외과	O
 의사와	B-POS
 2년간의	B-DAT
-열애	O
+열애	B-PIV
 끝에	O
 1998년	B-DAT
 결혼했으나	B-PIV
@@ -10051,9 +10005,9 @@ MBC	B-ORG
 파블로 카살스
 1936년 에스파냐내란으로 수립된 프랑코 정권을 피하여 조국을 떠나, 1950년부터 남프랑스의 프라도에서 살면서 매년 카살스 음악제를 열었다.
 1936년	B-NUM
-에스파냐내란으로	B-LOC
+에스파냐내란으로	B-EVT
 수립된	O
-프랑코	B-LOC
+프랑코	B-PER
 정권을	O
 피하여	O
 조국을	O
@@ -10070,17 +10024,15 @@ MBC	B-ORG
 .	O
 
 김성모
-김성모(金城模, ギムソンモ)(1969년 8월 16일 - ) 는 대한민국의 만화가이다.
+김성모(金城模)(1969년 8월 16일 - ) 는 대한민국의 만화가이다.
 김성모	B-PER
 (	O
 金	B-PER
-城	B-PER
-模	B-PER
-,	O
-[UNK]	B-PER
+城	I-PER
+模	I-PER
 )	O
 (	O
-1969년	B-NUM
+1969년	B-DAT
 8월	I-DAT
 16일	I-DAT
 -	O
@@ -10093,8 +10045,8 @@ MBC	B-ORG
 김성모
 김성모는 '럭키짱'을 연재한 이래 대단히 많은 만화를 그렸다.
 김성모는	B-PER
-'	B-AFW
-럭키짱	O
+'	O
+럭키짱	B-AFW
 '	O
 을	O
 연재한	O
@@ -10156,7 +10108,7 @@ MBC	B-ORG
 동생	B-PIV
 김충모	B-PER
 역시	O
-'	B-PER
+'	O
 야맹장	B-POS
 '	O
 이라는	O
@@ -10192,20 +10144,18 @@ MBC	B-ORG
 작화를	O
 각각	O
 담당해서	O
-쇼미더	B-POS
-럭키짱을	O
+쇼미더	B-AFW
+럭키짱을	I-AFW
 공동	O
 연재했다	O
 .	O
 
 칼레다 지아
 베굼 칼레다 지아(, '베굼'의 뜻은 '여사', 1945년 8월 15일 ~ )는 방글라데시의 총리를 지낸 정치인이다.
-베굼	B-PER
+베굼	O
 칼레다	B-PER
-지아	B-POS
+지아	I-PER
 (	O
-,	O
-'	B-PER
 베굼	O
 '	O
 의	O
@@ -10214,7 +10164,7 @@ MBC	B-ORG
 여사	B-POS
 '	O
 ,	O
-1945년	B-NUM
+1945년	B-DAT
 8월	I-DAT
 15일	I-DAT
 ~	O
@@ -10242,7 +10192,7 @@ IRA의	B-ORG
 
 카헐 브루
 1918년에 그는 워터포드에서 출마하여 아일랜드 의회 의원에 당선되었고 곧 국방부장관이 되었다.
-1918년에	B-NUM
+1918년에	B-DAT
 그는	O
 워터포드에서	B-LOC
 출마하여	O
@@ -10278,9 +10228,9 @@ IRA의	B-ORG
 
 아시아 카레라
 독일인 어머니와 일본인 아버지 사이에서 태어나 뉴저지주에서 자랐다.
-독일인	B-POS
+독일인	O
 어머니와	B-PIV
-일본인	B-POS
+일본인	O
 아버지	B-PIV
 사이에서	O
 태어나	O
@@ -10296,8 +10246,8 @@ IRA의	B-ORG
 15세가	B-NUM
 되기	O
 전에	O
-카네기	B-AFW
-홀에서	I-AFW
+카네기	B-LOC
+홀에서	I-LOC
 두	B-NUM
 번이나	I-NUM
 공연을	O
@@ -10310,7 +10260,7 @@ IRA의	B-ORG
 되었을	O
 때	O
 ,	O
-부모가	B-POS
+부모가	B-PIV
 학업에	O
 대해	O
 과도하게	O
@@ -10326,9 +10276,9 @@ IRA의	B-ORG
 피델 카스트로는 쿠바 혁명으로 바티스타 독재정권을 전복시킨 이후 쿠바의 총리가 되었다.
 피델	B-PER
 카스트로는	I-PER
-쿠바	B-LOC
-혁명으로	O
-바티스타	B-LOC
+쿠바	B-EVT
+혁명으로	I-EVT
+바티스타	B-PER
 독재정권을	O
 전복시킨	O
 이후	O
@@ -10342,16 +10292,16 @@ IRA의	B-ORG
 1965년	B-DAT
 그는	O
 쿠바	B-LOC
-공산당	O
-제	B-NUM
-1서기가	I-NUM
+공산당	B-ORG
+제	O
+1서기가	B-POS
 되었으며	O
 이와	O
 함께	O
 쿠바는	B-LOC
 라틴아메리카	B-LOC
 최초의	O
-공산주의	O
+공산주의	B-PIV
 국가가	O
 되었다	O
 .	O
@@ -10361,7 +10311,7 @@ IRA의	B-ORG
 *	O
 1960년	B-DAT
 유엔	B-ORG
-총회에	O
+총회에	I-ORG
 처음으로	O
 참석해	O
 4시간	B-DAT
@@ -10376,11 +10326,11 @@ IRA의	B-ORG
 알리셰르 나보이
 최초로 우즈베크어로 씌여진 문학을 쓴 작가라서 우즈베키스탄에서는 그의 이름을 딴 극장과 기념비가 있는 등 그를 민족의 정신적 지도자로 여긴다.
 최초로	O
-우즈베크어로	B-POS
+우즈베크어로	O
 씌여진	O
 문학을	O
 쓴	O
-작가라서	O
+작가라서	B-POS
 우즈베키스탄에서는	B-LOC
 그의	O
 이름을	O
@@ -10404,7 +10354,7 @@ IRA의	B-ORG
 풍경을	O
 다루고	O
 있으나	O
-1936년	B-NUM
+1936년	B-DAT
 무렵부터는	O
 패턴과	O
 공간의	O
@@ -10416,14 +10366,14 @@ IRA의	B-ORG
 
 더글러스 호프스태터
 노벨 물리학상을 수상한 물리학자 로버트 호프스태터의 아들로 1945년 뉴욕 시에서 태어났다.
-노벨	B-EVT
-물리학상을	I-POS
+노벨	B-PRI
+물리학상을	I-PRI
 수상한	O
 물리학자	B-POS
 로버트	B-PER
 호프스태터의	I-PER
 아들로	B-PIV
-1945년	B-NUM
+1945년	B-DAT
 뉴욕	B-LOC
 시에서	O
 태어났다	O
@@ -10466,7 +10416,7 @@ IRA의	B-ORG
 데뷔	O
 싱글	O
 "	O
-Complicated	O
+Complicated	B-AFW
 "	O
 세계	O
 여러	O
@@ -10485,12 +10435,12 @@ Complicated	O
 번째	I-NUM
 정규	O
 음반	O
-'	B-AFW
-'	B-AFW
-Under	I-AFW
+'	O
+'	O
+Under	B-AFW
 My	I-AFW
 Skin	I-AFW
-'	I-AFW
+'	O
 '	O
 는	O
 2004년	B-DAT
@@ -10538,11 +10488,11 @@ Skin	I-AFW
 에이브릴 라빈
 같은 해, 영화 《패스트 푸드 네이션》에 출연하며 배우 데뷔를 했다.
 같은	B-DAT
-해	O
+해	I-DAT
 ,	O
 영화	O
 《	O
-패스트	I-AFW
+패스트	B-AFW
 푸드	I-AFW
 네이션	I-AFW
 》	O
@@ -10557,9 +10507,9 @@ Skin	I-AFW
 2009년에는 첫 향수 블랙 스타를 론칭했다.
 2009년에는	B-DAT
 첫	B-NUM
-향수	B-POS
-블랙	B-HEC
-스타를	I-POS
+향수	O
+블랙	B-INF
+스타를	I-INF
 론칭했다	O
 .	O
 
@@ -10570,15 +10520,15 @@ Skin	I-AFW
 두	B-NUM
 번째	I-NUM
 향수	O
-포비든	B-PER
-로즈를	I-PER
+포비든	B-INF
+로즈를	I-INF
 ,	O
 2011년에는	B-DAT
 세	B-NUM
 번째	I-NUM
 향수	O
-윌드	B-PER
-로즈를	I-PER
+윌드	B-INF
+로즈를	I-INF
 론칭했다	O
 .	O
 
@@ -10589,9 +10539,9 @@ Skin	I-AFW
 ,	O
 라빈은	B-PER
 2년간	B-DAT
-연애를	O
+연애를	B-PIV
 해왔던	O
-썸41의	B-ORG
+썸41의	B-PER
 리드	B-POS
 보컬이자	I-POS
 기타리스트	B-POS
@@ -10621,14 +10571,14 @@ Skin	I-AFW
 아버지 진-클루드 조셉 라빈은 프랑스어로 4월을 뜻하는 "에이브릴"을 딸의 이름으로 지어줬다.
 아버지	B-PIV
 진	B-PER
--	B-PER
-클루드	B-PER
+-	I-PER
+클루드	I-PER
 조셉	I-PER
 라빈은	I-PER
-프랑스어로	B-POS
+프랑스어로	O
 4월을	B-DAT
 뜻하는	O
-"	B-PER
+"	O
 에이브릴	B-PER
 "	O
 을	O
@@ -10640,24 +10590,24 @@ Skin	I-AFW
 루이 18세
 루이 15세의 왕태자인 루이 페르디낭의 아들로 루이 16세의 남동생이다.
 루이	B-PER
-15세의	B-NUM
+15세의	I-PER
 왕태자인	B-POS
 루이	B-PER
 페르디낭의	I-PER
 아들로	B-PIV
 루이	B-PER
-16세의	B-NUM
+16세의	I-PER
 남동생이다	B-PIV
 .	O
 
 루이 18세
 본명은 '루이 스타니슬라스 그자비에'(Louis Stanaslas Xavier)이다.
 본명은	O
-'	B-PER
+'	O
 루이	B-PER
 스타니슬라스	I-PER
 그자비에	I-PER
-'	B-PER
+'	O
 (	O
 Louis	B-PER
 Stanaslas	I-PER
@@ -10674,25 +10624,25 @@ Xavier	I-PER
 Charles	B-PER
 X	I-PER
 ,	O
-1757년	B-NUM
+1757년	B-DAT
 10월	I-DAT
 9일	I-DAT
-~	B-DAT
-1836년	B-DAT
+~	I-DAT
+1836년	I-DAT
 11월	I-DAT
 6일	I-DAT
 )	O
 는	O
 루이	B-PER
-16세와	I-NUM
+16세와	I-PER
 루이	B-PER
-18세의	B-NUM
+18세의	I-PER
 남동생으로	B-PIV
 ,	O
 자녀가	B-PIV
 없었던	O
 루이	B-PER
-18세	B-NUM
+18세	I-PER
 사후	O
 즉위하게	O
 된다	O
@@ -10702,7 +10652,7 @@ X	I-PER
 즉위 이전에는 '아르투아 백작'이라는 칭호로 불리었다.
 즉위	O
 이전에는	O
-'	B-PER
+'	O
 아르투아	B-PER
 백작	I-PER
 '	O
@@ -10713,8 +10663,8 @@ X	I-PER
 
 에드워드 워티스
 “애비”(Avi)라는 필명도 있다.
-“	B-POS
-애비	B-POS
+“	O
+애비	B-PER
 ”	O
 (	O
 Avi	B-PER
@@ -10726,14 +10676,14 @@ Avi	B-PER
 
 에드워드 워티스
 뉴베리 상과 보스톤 글로브-호른 북스 어워드를 수상하였다.
-뉴베리	B-LOC
-상과	O
-보스톤	B-EVT
-글로브	I-EVT
--	I-EVT
-호른	I-EVT
-북스	I-EVT
-어워드를	O
+뉴베리	B-PRI
+상과	I-PRI
+보스톤	B-PRI
+글로브	I-PRI
+-	I-PRI
+호른	I-PRI
+북스	I-PRI
+어워드를	I-PRI
 수상하였다	O
 .	O
 
@@ -10742,7 +10692,7 @@ Avi	B-PER
 수많은	O
 편곡의	O
 공로로	O
-편곡상을	B-POS
+편곡상을	B-PRI
 수상했다	O
 .	O
 
@@ -10754,7 +10704,7 @@ Avi	B-PER
 베르누이는	I-PER
 니콜라스와요한	B-PER
 베르누이의	I-PER
-형이자	B-POS
+형이자	B-PIV
 다니엘	B-PER
 베르누이의	I-PER
 삼촌이다	B-PIV
@@ -10768,11 +10718,11 @@ Avi	B-PER
 33세의	B-NUM
 나이에	O
 세르파	O
-텐징	O
-노르가이와	B-POS
+텐징	B-PER
+노르가이와   I-PER
 함께	O
 에베레스트	B-LOC
-산을	O
+산을	I-LOC
 최초로	O
 등정한	O
 인물로	O
@@ -10793,7 +10743,7 @@ Avi	B-PER
 힐러리와	I-PER
 함께	O
 에베레스트	B-LOC
-산	O
+산	I-LOC
 정상을	O
 세계	O
 최초로	O
@@ -10802,7 +10752,7 @@ Avi	B-PER
 
 텐징 노르가이
 '셰르파 텐징'으로 자주 인용된다.
-'	B-PER
+'	O
 셰르파	B-PER
 텐징	I-PER
 '	O
@@ -10818,7 +10768,7 @@ Avi	B-PER
 세계	O
 최초로	O
 에베레스트	B-LOC
-산을	O
+산을	I-LOC
 등정한	O
 5월	B-DAT
 29일을	I-DAT
@@ -10849,7 +10799,7 @@ Avi	B-PER
 그는 그의 아내이자 공동저자인 하이디 토플러와 함께 활동하였으며, 말년에는 미국의 로스앤젤레스에 거주하였다.
 그는	O
 그의	O
-아내이자	B-POS
+아내이자	B-PIV
 공동저자인	B-POS
 하이디	B-PER
 토플러와	I-PER
@@ -10864,7 +10814,7 @@ Avi	B-PER
 
 윤찬 (1972년)
 1972년 1월 3일 서울에서 2남 1녀 중 막내로 태어났다.
-1972년	B-NUM
+1972년	B-DAT
 1월	I-DAT
 3일	I-DAT
 서울에서	B-LOC
@@ -10879,10 +10829,10 @@ Avi	B-PER
 당시 《타임》지는 ‘오손 웰스 이후 가장 상상력이 풍부한 각본과 촬영을 보여준 감독’이라고 격찬했다.
 당시	O
 《	O
-타임	B-ORG
+타임	B-AFW
 》	O
 지는	O
-‘	B-PER
+‘	O
 오손	B-PER
 웰스	I-PER
 이후	O
@@ -10900,7 +10850,7 @@ Avi	B-PER
 
 파블로 피카소
 피카소는 1만 3,500여 점의 그림과 700여 점의 조각품을 창작했다.
-피카소는	B-ORG
+피카소는	B-PER
 1만	B-NUM
 3	I-NUM
 ,	I-NUM
@@ -10931,7 +10881,7 @@ Avi	B-PER
 시기의	O
 작품들	O
 역시	O
-피카소가	B-ORG
+피카소가	B-PER
 파리에	B-LOC
 머물	O
 때	O
@@ -10955,17 +10905,13 @@ Avi	B-PER
 .	O
 
 안선미
-안선미(安宣灖, 1972년 8월 2일 ~ )는 대한민국의 농구 선수로 포지션은 포워드이다.
+안선미(1972년 8월 2일 ~ )는 대한민국의 농구 선수로 포지션은 포워드이다.
 안선미	B-PER
 (	O
-安	B-PER
-宣	I-PER
-[UNK]	I-PER
-,	O
-1972년	B-NUM
+1972년	B-DAT
 8월	I-DAT
 2일	I-DAT
-~	I-DAT
+~	O
 )	O
 는	O
 대한민국의	B-LOC
@@ -10977,9 +10923,9 @@ Avi	B-PER
 
 안선미
 1996년 애틀랜타 올림픽에 국가대표로 출전했다.
-1996년	B-EVT
-애틀랜타	B-EVT
-올림픽에	I-EVT
+1996년	B-DAT
+애틀랜타	B-LOC
+올림픽에	B-EVT
 국가대표로	B-POS
 출전했다	O
 .	O
@@ -10994,7 +10940,7 @@ Avi	B-PER
 김윤진과	B-PER
 함께	O
 출연해	O
-한국인	B-POS
+한국인	O
 권진수역으로	B-PER
 출연하였다	O
 .	O
@@ -11023,15 +10969,15 @@ Avi	B-PER
 ,	O
 2006년	B-DAT
 현재의	O
-남편은	B-POS
+남편은	B-PIV
 방글라데시	B-LOC
-영화	O
-배우이다	B-POS
+영화	B-POS
+배우이다	I-POS
 .	O
 
 루나 라일라
 남편은 방글라데시 알람기르 지역에서 특히 유명하다.
-남편은	B-POS
+남편은	B-PIV
 방글라데시	B-LOC
 알람기르	B-LOC
 지역에서	O
@@ -11044,10 +10990,10 @@ KBS 2TV 《해피선데이-1박 2일》은 5인 체제로 바뀌었고 김승우
 KBS	B-ORG
 2TV	I-ORG
 《	O
-해피선데이	B-EVT
+해피선데이	B-AFW
 -	I-AFW
 1박	I-AFW
-2일	I-EVT
+2일	I-aFW
 》	O
 은	O
 5인	B-NUM
@@ -11060,7 +11006,7 @@ KBS	B-ORG
 주원	B-PER
 ,	O
 차태현이	B-PER
-새멤버로	B-POS
+새멤버로	O
 영입하였다	O
 .	O
 
@@ -11068,11 +11014,11 @@ KBS	B-ORG
 SBS《강심장》은 이승기 단독체제로 바뀌었으나 하차하고, 신동엽, 이동욱 체제로 바뀌었다.
 SBS	B-ORG
 《	O
-강심장	I-AFW
+강심장	B-AFW
 》	O
 은	O
 이승기	B-PER
-단독체제로	B-POS
+단독체제로	O
 바뀌었으나	O
 하차하고	O
 ,	O
@@ -11087,17 +11033,17 @@ SBS	B-ORG
 SBS《놀라운 대회 스타킹》은 붐과 이특, 박미선 3인 MC 체제로 바뀌었다.
 SBS	B-ORG
 《	O
-놀라운	I-AFW
+놀라운	B-AFW
 대회	I-AFW
 스타킹	I-AFW
 》	O
 은	O
-붐과	O
+붐과	B-PER
 이특	B-PER
 ,	O
 박미선	B-PER
 3인	B-NUM
-MC	B-ORG
+MC	B-POS
 체제로	O
 바뀌었다	O
 .	O
@@ -11120,7 +11066,7 @@ C와	I-ORG
 강호동
 평창은 2018년 동계 올림픽이 치뤄진 곳으로 땅 값이 급등하며, 투기 논란이 불거졌다.
 평창은	B-LOC
-2018년	B-EVT
+2018년	B-DAT
 동계	B-EVT
 올림픽이	I-EVT
 치뤄진	O
@@ -11174,13 +11120,13 @@ C와	I-ORG
 최홍만	B-PER
 (	O
 崔	B-PER
-洪	B-PER
+洪	I-PER
 萬	I-PER
 ,	O
 1980년	B-DAT
 10월	I-DAT
 30일	I-DAT
-~	I-DAT
+~	O
 )	O
 은	O
 한국의	B-LOC
@@ -11198,8 +11144,8 @@ C와	I-ORG
 정미경 (농구인)
 포지션은 포인트 가드이나 여러 포지션을 소화할 수 있는 만능 선수로서 올라운드 플레이어에 가까웠다.
 포지션은	O
-포인트	O
-가드이나	B-POS
+포인트	B-POS
+가드이나	I-POS
 여러	O
 포지션을	O
 소화할	O
@@ -11216,8 +11162,8 @@ C와	I-ORG
 홍영순은 대한민국 여자 농구 국가대표팀 선수였다.
 홍영순은	B-PER
 대한민국	B-LOC
-여자	I-ORG
-농구	I-ORG
+여자	B-PIV
+농구	B-ORG
 국가대표팀	I-ORG
 선수였다	B-POS
 .	O
@@ -11260,7 +11206,7 @@ C와	I-ORG
 박연수 (농구 선수)
 대한민국 여자 농구 국가대표팀 선수였던 홍영순의 딸이다.
 대한민국	B-LOC
-여자	O
+여자	B-PIV
 농구	B-ORG
 국가대표팀	I-ORG
 선수였던	B-POS
@@ -11294,16 +11240,16 @@ KT	I-ORG
 선수로	B-POS
 뛰고	O
 있는	O
-농구	B-POS
-가족이다	I-POS
+농구	O
+가족이다	O
 .	O
 
 모리 요시로
 일각에서는 '7%의 사나이'로 불리고 있다.
 일각에서는	O
-'	B-NUM
-7	B-NUM
-%	I-NUM
+'	O
+7	O
+%	O
 의	O
 사나이	O
 '	O
@@ -11319,7 +11265,7 @@ KT	I-ORG
 ·	I-EVT
 16	I-EVT
 군사	I-EVT
-정변	O
+정변	I-EVT
 직후에는	O
 외무부	B-ORG
 장관을	B-POS
@@ -11331,9 +11277,9 @@ KT	I-ORG
 4월	B-DAT
 14일	I-DAT
 포드	B-LOC
-극장에서	I-AFW
-에이브러햄	B-ORG
-링컨을	B-PER
+극장에서	I-LOC
+에이브러햄	B-PER
+링컨을	I-PER
 암살하였고	O
 ,	O
 12일	B-DAT
@@ -11373,7 +11319,7 @@ KT	I-ORG
 김정수와	B-PER
 결혼하였으며	B-PIV
 ,	O
-이듬해	B-DAT
+이듬해	O
 아들이	B-PIV
 출산하였다	O
 .	O
@@ -11382,7 +11328,7 @@ KT	I-ORG
 드라마 《욕망의 불꽃》에서 주인공 윤나영 역을 맡아 연기했으며, 이 작품으로 2010년 MBC 연기대상 여자 최우수연기상을 수상했다.
 드라마	O
 《	O
-욕망의	I-AFW
+욕망의	B-AFW
 불꽃	I-AFW
 》	O
 에서	O
@@ -11395,20 +11341,20 @@ KT	I-ORG
 이	O
 작품으로	O
 2010년	B-DAT
-MBC	B-ORG
-연기대상	B-POS
-여자	O
-최우수연기상을	B-POS
+MBC	B-EVT
+연기대상	I-EVT
+여자	B-PIV
+최우수연기상을	B-PRI
 수상했다	O
 .	O
 
 신은경 (배우)
 선친은 예비역 대한민국 육군 상사 출신이며 베트남 전쟁에 참전한 국가유공자이다.
-선친은	B-POS
-예비역	O
+선친은	B-PIV
+예비역	B-POS
 대한민국	B-LOC
 육군	B-ORG
-상사	O
+상사	B-POS
 출신이며	O
 베트남	B-EVT
 전쟁에	I-EVT
@@ -11424,7 +11370,7 @@ MBC	B-ORG
 기타리스트로	B-POS
 여겨지며	O
 ,	O
-20세기의	B-NUM
+20세기의	B-DAT
 가장	O
 유명한	O
 뮤지션	B-POS
@@ -11437,7 +11383,7 @@ MBC	B-ORG
 
 황런위
 1918년 중화민국 후난성 창샤에서 출생한 뒤, 톈진의 난카이 대학 전기공학과를 졸업했다.
-1918년	B-NUM
+1918년	B-DAT
 중화민국	B-LOC
 후난성	B-LOC
 창샤에서	B-LOC
@@ -11445,8 +11391,8 @@ MBC	B-ORG
 뒤	O
 ,	O
 톈진의	B-LOC
-난카이	B-LOC
-대학	O
+난카이	B-ORG
+대학	I-ORG
 전기공학과를	B-POS
 졸업했다	B-POS
 .	O
@@ -11463,7 +11409,7 @@ MBC	B-ORG
 
 레니에 3세
 배우자는 미국의 영화배우 그레이스 켈리이다.
-배우자는	B-POS
+배우자는	B-PIV
 미국의	B-LOC
 영화배우	B-POS
 그레이스	B-PER
@@ -11473,20 +11419,20 @@ MBC	B-ORG
 우치무라 간조
 서구적인 기독교가 아닌, 일본인들에게 말씀하시는 하나님의 가르침 즉, 일본적인 기독교를 찾고자 한 사상가로 평가받는다.
 서구적인	O
-기독교가	O
+기독교가	B-PIV
 아닌	O
 ,	O
-일본인들에게	B-POS
+일본인들에게	O
 말씀하시는	O
 하나님의	O
 가르침	O
 즉	O
 ,	O
-일본적인	B-LOC
-기독교를	O
+일본적인	O
+기독교를	B-PIV
 찾고자	O
 한	O
-사상가로	O
+사상가로	B-POS
 평가받는다	O
 .	O
 
@@ -11495,10 +11441,10 @@ MBC	B-ORG
 염기훈	B-PER
 (	O
 廉	B-PER
-基	B-PER
-勳	B-PER
+基	I-PER
+勳	I-PER
 ,	O
-1983년	B-NUM
+1983년	B-DAT
 3월	I-DAT
 30일	I-DAT
 ~	O
@@ -11524,14 +11470,14 @@ MBC	B-ORG
 축구	B-POS
 선수	I-POS
 권혁진과	B-PER
-동서	B-POS
-지간이다	O
+동서	B-PIV
+지간이다	I-PIV
 .	O
 
 염기훈
 둘의 장인 김성기 또한 축구 선수 출신으로 현재 강경상업고등학교 축구부 감독을 맡고 있다.
 둘의	B-NUM
-장인	B-POS
+장인	B-PIV
 김성기	B-PER
 또한	O
 축구	B-POS
@@ -11539,7 +11485,7 @@ MBC	B-ORG
 출신으로	O
 현재	O
 강경상업고등학교	B-ORG
-축구부	I-ORG
+축구부	B-ORG
 감독을	B-POS
 맡고	O
 있다	O
@@ -11549,17 +11495,17 @@ MBC	B-ORG
 혹은 그의 양자라는 설도 있다.
 혹은	O
 그의	O
-양자라는	O
+양자라는	B-PIV
 설도	O
 있다	O
 .	O
 
 로도비코 페라리
 스승(혹은 양부)인 지롤라모 카르다노는 친아들 2명의 불행한 삶을 보상받기 위해 페라리를 수학자로 키웠으며 또 그에게 많은 도움을 받기도 했다.
-스승	B-POS
+스승	B-PIV
 (	O
 혹은	O
-양부	B-POS
+양부	B-PIV
 )	O
 인	O
 지롤라모	B-PER
@@ -11570,7 +11516,7 @@ MBC	B-ORG
 삶을	O
 보상받기	O
 위해	O
-페라리를	B-AFW
+페라리를	B-PER
 수학자로	B-POS
 키웠으며	O
 또	O
@@ -11584,15 +11530,15 @@ MBC	B-ORG
 아시시의 프란치스코
 프란치스코의 부친은 당시 이탈리아에서 매우 번영한 상인이었던 피에트로 디 베르나르도네였다.
 프란치스코의	B-PER
-부친은	B-POS
+부친은	B-PIV
 당시	O
 이탈리아에서	B-LOC
 매우	O
 번영한	O
 상인이었던	B-POS
 피에트로	B-PER
-디	O
-베르나르도네였다	B-PER
+디	I-PER
+베르나르도네였다	I-PER
 .	O
 
 에리히 호네커
@@ -11613,8 +11559,8 @@ MBC	B-ORG
 1919년	B-DAT
 1월에	I-DAT
 일어난	O
-스파르타쿠스	B-LOC
-봉기	O
+스파르타쿠스	B-EVT
+봉기	I-EVT
 중	O
 자유군단	B-ORG
 (	O
@@ -11634,7 +11580,7 @@ MBC	B-ORG
 농구선수였던	B-POS
 이왕돈과	B-PER
 대한민국	B-ORG
-여자	O
+여자	B-PIV
 농구	B-ORG
 국가대표팀	I-ORG
 선수였던	B-POS
@@ -11701,13 +11647,13 @@ MBC	B-ORG
 우편대회	B-EVT
 비행에	O
 참가하여	O
-최우수상을	B-POS
+최우수상을	B-PRI
 받았다	O
 .	O
 
 오르한 파무크
 노벨상을 받은 가장 젊은 작가 2명 중 한명이다.
-노벨상을	B-POS
+노벨상을	B-PRI
 받은	O
 가장	O
 젊은	O
@@ -11729,7 +11675,7 @@ MBC	B-ORG
 
 현주엽
 1975년 7월 27일 서울에서 의류제조업을 하는 아버지 현진구(玄晉具)와 대한민국 여자 대표팀에서 활약한 농구 선수 출신인 어머니 홍성화(洪性華) 사이에서 슬하 3남 중 막내로 출생하였다.
-1975년	B-NUM
+1975년	B-DAT
 7월	I-DAT
 27일	I-DAT
 서울에서	B-LOC
@@ -11743,12 +11689,12 @@ MBC	B-ORG
 具	I-PER
 )	O
 와	O
-대한민국	B-ORG
-여자	I-ORG
-대표팀에서	I-ORG
+대한민국	B-LOC
+여자	B-PIV
+대표팀에서	B-ORG
 활약한	O
 농구	B-POS
-선수	B-POS
+선수	I-POS
 출신인	O
 어머니	B-PIV
 홍성화	B-PER
@@ -11773,8 +11719,8 @@ MBC	B-ORG
 살	I-NUM
 위의	O
 두	B-NUM
-쌍둥이	I-NUM
-형이	B-POS
+쌍둥이	B-PIV
+형이	B-PIV
 있다	O
 .	O
 
@@ -11830,12 +11776,12 @@ MBC	B-ORG
 (	O
 朴	B-PER
 吉	I-PER
-聲	B-PER
+聲	I-PER
 ,	O
-1957년	B-NUM
+1957년	B-DAT
 5월	I-DAT
 9일	I-DAT
-~	I-DAT
+~	O
 )	O
 은	O
 강원도	B-LOC
@@ -11851,7 +11797,7 @@ MBC	B-ORG
 중에	O
 있으며	O
 ,	O
-2019년도	B-NUM
+2019년도	B-DAT
 한국사회학회	B-ORG
 회장으로	B-POS
 활동하고	O
@@ -11861,7 +11807,7 @@ MBC	B-ORG
 파트리스 루뭄바
 어린이로서 루뭄바는 처음에 자신들의 교회를 대표하여 종교적 혹은 자선 사업을 하는 데 보내진 백인 선교사들에 의하여 운영된 개신교, 그러고나서 로마 가톨릭 학교들을 다녔다.
 어린이로서	O
-루뭄바는	B-LOC
+루뭄바는	B-PER
 처음에	O
 자신들의	O
 교회를	O
@@ -11873,7 +11819,7 @@ MBC	B-ORG
 하는	O
 데	O
 보내진	O
-백인	B-POS
+백인	O
 선교사들에	B-PIV
 의하여	O
 운영된	O
@@ -11881,8 +11827,8 @@ MBC	B-ORG
 ,	O
 그러고나서	O
 로마	B-ORG
-가톨릭	O
-학교들을	B-PIV
+가톨릭	I-ORG
+학교들을	I-ORG
 다녔다	O
 .	O
 
@@ -11951,7 +11897,7 @@ MBC	B-ORG
 양천	B-LOC
 (	O
 陽	B-LOC
-川	B-LOC
+川	I-LOC
 )	O
 이다	O
 .	O
@@ -11977,8 +11923,8 @@ MBC	B-ORG
 182cm의	B-NUM
 슈터로	B-POS
 포지션은	O
-슈팅	O
-가드였으며	B-POS
+슈팅	B-POS
+가드였으며	I-POS
 ,	O
 높은	O
 슛	O
@@ -11988,8 +11934,8 @@ MBC	B-ORG
 소속팀	O
 이미지와	O
 연관되어	O
-'	B-POS
-전자슈터	B-POS
+'	O
+전자슈터	B-PER
 '	O
 라는	O
 별명으로	O
@@ -12013,8 +11959,8 @@ MBC	B-ORG
 발전소	O
 시찰	O
 도중	O
-헬리콥터	B-AFW
-사고로	O
+헬리콥터	B-EVT
+사고로	I-EVT
 인해	O
 사망하였다	O
 .	O
@@ -12048,10 +11994,10 @@ CBS	B-ORG
 널리	O
 알려진	O
 〈	O
-I	O
-Shot	O
-the	O
-Sheriff	O
+I	B-AFW
+Shot	I-AFW
+the	I-AFW
+Sheriff	I-AFW
 〉	O
 ,	O
 그를	O
@@ -12060,11 +12006,11 @@ Sheriff	O
 만들어	O
 준	O
 〈	O
-No	O
-Woman	O
-,	O
-No	O
-Cry	O
+No	B-AFW
+Woman	I-AFW
+,	I-AFW
+No	I-AFW
+Cry	I-AFW
 〉	O
 등이	O
 있다	O
@@ -12077,14 +12023,14 @@ Cry	O
 관한	O
 곡으로는	O
 〈	O
-Exodus	O
+Exodus	B-AFW
 〉	O
 ,	O
 〈	O
-Zimbabwe	O
+Zimbabwe	B-AFW
 〉	O
 ,	O
-〈	B-AFW
+〈	O
 Rebel	B-AFW
 Music	I-AFW
 〉	O
@@ -12094,7 +12040,7 @@ Music	I-AFW
 
 밥 말리
 1984년 발매한 음반 《Legend》는 전 세계적으로 1200만장 이상의 판매고를 올렸으며, 이는 가장 많이 팔린 레게 음악 음반이기도 하다.
-1984년	B-NUM
+1984년	B-DAT
 발매한	O
 음반	O
 《	O
@@ -12125,8 +12071,8 @@ Legend	B-AFW
 1981년	B-DAT
 2월	I-DAT
 자메이카	B-LOC
-메리트	B-POS
-훈장을	O
+메리트	B-PRI
+훈장을	I-PRI
 받았고	O
 ,	O
 그해	O
@@ -12143,7 +12089,7 @@ Legend	B-AFW
 모로코 마라케시에서 유대교 정통파 가문의 아들로 태어났다.
 모로코	B-LOC
 마라케시에서	B-LOC
-유대교	B-ORG
+유대교	B-PIV
 정통파	O
 가문의	O
 아들로	B-PIV
@@ -12158,8 +12104,8 @@ Legend	B-AFW
 성향을	O
 가진	O
 이스라엘	B-LOC
-국민들로부터	B-POS
-매국노라는	B-POS
+국민들로부터	O
+매국노라는	O
 비난을	O
 받는	O
 등	O
@@ -12199,7 +12145,7 @@ Legend	B-AFW
 1953년부터	B-DAT
 1991년까지	I-DAT
 매사추세츠	B-ORG
-공과대학교의	B-ORG
+공과대학교의	I-ORG
 교수로	B-POS
 재직했다	O
 .	O
@@ -12212,9 +12158,9 @@ Legend	B-AFW
 ,	O
 사후인	O
 2002년에는	B-DAT
-리처드	B-PER
-해밍	I-PER
-메달을	O
+리처드	B-PRI
+해밍	I-PRI
+메달을	I-PRI
 받았다	O
 .	O
 
@@ -12222,8 +12168,8 @@ Legend	B-AFW
 별명은 “파이팅 조”였다.
 별명은	O
 “	O
-파이팅	O
-조	O
+파이팅	B-PER
+조	I-PER
 ”	O
 였다	O
 .	O
@@ -12231,7 +12177,7 @@ Legend	B-AFW
 김책
 한국 전쟁 당시 조선인민군의 고위 지휘관의 한 사람이었으며 1951년 한국전쟁 중 과로와 심근경색으로 전사하였다.
 한국	B-EVT
-전쟁	O
+전쟁	I-EVT
 당시	O
 조선인민군의	B-ORG
 고위	O
@@ -12241,14 +12187,14 @@ Legend	B-AFW
 1951년	B-DAT
 한국전쟁	B-EVT
 중	O
-과로와	B-POS
+과로와	O
 심근경색으로	B-HEC
 전사하였다	O
 .	O
 
 주세혁
 2012년 4월과 5월 사이에 주세혁은 베체트병을 앓았다.
-2012년	B-NUM
+2012년	B-DAT
 4월과	I-DAT
 5월	B-DAT
 사이에	O
@@ -12264,7 +12210,7 @@ Legend	B-AFW
 주세혁은	B-PER
 ,	O
 그의	O
-질병을	B-HEC
+질병을	O
 관리하기	O
 위해	O
 글루코콜르티코이드에	B-HEC
@@ -12291,27 +12237,25 @@ Legend	B-AFW
 독립운동가로	B-POS
 인정받아	O
 2007년	B-DAT
-건국훈장이	B-POS
+건국훈장이	B-PRI
 추서되었다	O
 .	O
 
 찰리 채플린
-찰스 스펜서 "찰리" 채플린 경(, , 1889년 4월 16일 ~ 1977년 12월 25일)은 영국의 배우, 코미디언, 영화 감독이자 음악가로 무성 영화 시기에 크게 활약한 인물이다.
+찰스 스펜서 "찰리" 채플린 경(1889년 4월 16일 ~ 1977년 12월 25일)은 영국의 배우, 코미디언, 영화 감독이자 음악가로 무성 영화 시기에 크게 활약한 인물이다.
 찰스	B-PER
 스펜서	I-PER
-"	B-PER
-찰리	I-PER
-"	B-PER
+"	O
+찰리	B-PER
+"	O
 채플린	B-PER
 경	I-PER
 (	O
-,	B-DAT
-,	B-DAT
-1889년	B-NUM
+1889년	B-DAT
 4월	I-DAT
 16일	I-DAT
-~	O
-1977년	B-NUM
+~	I-DAT
+1977년	I-DAT
 12월	I-DAT
 25일	I-DAT
 )	O
@@ -12321,8 +12265,8 @@ Legend	B-AFW
 ,	O
 코미디언	B-POS
 ,	O
-영화	O
-감독이자	B-POS
+영화	B-POS
+감독이자	I-POS
 음악가로	B-POS
 무성	O
 영화	O
@@ -12359,7 +12303,7 @@ Legend	B-AFW
 카노의	I-PER
 극단에	O
 들어갔으며	O
-1912년	B-NUM
+1912년	B-DAT
 (	O
 23살	B-NUM
 )	O
@@ -12383,19 +12327,19 @@ Legend	B-AFW
 그는	O
 이어	O
 《	O
-시티	I-AFW
+시티	B-AFW
 라이트	I-AFW
 》	O
 (	O
-1931	B-NUM
+1931	B-DAT
 )	O
 ,	O
 《	O
-모던	I-AFW
+모던	B-AFW
 타임스	I-AFW
 》	O
 (	O
-1936	B-NUM
+1936	B-DAT
 )	O
 을	O
 무성	O
@@ -12415,7 +12359,7 @@ Legend	B-AFW
 추락하게	O
 되었고	O
 채플린은	B-PER
-공산주의자의	B-POS
+공산주의자의	B-PIV
 사상을	O
 동의하였다는	O
 의심을	O
@@ -12426,10 +12370,10 @@ Legend	B-AFW
 찰리 채플린
 1972년에 아카데미상은 "지난 세기동안 그가 만든 헤아릴 수 없는 기법들이 이후 영화 예술에 영향을 끼쳤다"는 이유로 그에게 공로상을 수여하였다.
 1972년에	B-NUM
-아카데미상은	B-POS
-"	B-DAT
-지난	B-DAT
-세기동안	I-DAT
+아카데미상은	B-EVT
+"	O
+지난	O
+세기동안	O
 그가	O
 만든	O
 헤아릴	O
@@ -12445,24 +12389,24 @@ Legend	B-AFW
 는	O
 이유로	O
 그에게	O
-공로상을	B-POS
+공로상을	B-PRI
 수여하였다	O
 .	O
 
 데이비드 리카도
 1819년 이후 종신 하원 의원이 되었다.
-1819년	B-NUM
-이후	I-DAT
+1819년	B-DAT
+이후	O
 종신	O
-하원	O
-의원이	B-POS
+하원	B-POS
+의원이	I-POS
 되었다	O
 .	O
 
 장 르노
 대한민국에서는 1994년에 개봉된 영화 《레옹》의 흥행을 통해 널리 알려지게 되었다.
 대한민국에서는	B-LOC
-1994년에	B-NUM
+1994년에	B-DAT
 개봉된	O
 영화	O
 《	O
@@ -12486,7 +12430,7 @@ Legend	B-AFW
 그의	O
 영화	O
 《	O
-로닌	I-AFW
+로닌	B-AFW
 》	O
 의	O
 홍보를	O
@@ -12499,7 +12443,7 @@ Legend	B-AFW
 내한	O
 때에는	O
 《	O
-크림슨	I-AFW
+크림슨	B-AFW
 리버	I-AFW
 》	O
 의	O
@@ -12523,21 +12467,21 @@ Legend	B-AFW
 프란체스코	B-PER
 레디	I-PER
 (	O
-Francesco	B-LOC
-Redi	I-ORG
-1626년	B-NUM
+Francesco	B-PER
+Redi	I-PER
+1626년	B-DAT
 2월	I-DAT
 18일	I-DAT
-/	B-DAT
-19일	I-DAT
--	B-DAT
-1697년	B-NUM
+/	O
+19일	B-DAT
+-	O
+1697년	B-DAT
 3월	I-DAT
 1일	I-DAT
 )	O
 는	O
 이탈리아의	B-LOC
-의사이다	O
+의사이다	B-POS
 .	O
 
 바츨라프 니진스키
@@ -12545,7 +12489,7 @@ Redi	I-ORG
 한편	O
 ,	O
 니진스키가	B-PER
-여성	O
+여성	B-PIV
 무용수와	B-POS
 만족스러울	O
 만한	O
@@ -12623,9 +12567,9 @@ LG	B-ORG
 중	O
 과한	O
 액션으로	O
-'	B-PER
-헐리웃	O
-리	O
+'	O
+헐리웃	B-PER
+리	I-PER
 '	O
 라는	O
 별명이	O
@@ -12659,9 +12603,9 @@ LG	B-ORG
 
 빌리 조엘
 독일인 아버지와 미국인 어머니 사이에서 태어났다.
-독일인	B-POS
+독일인	O
 아버지와	B-PIV
-미국인	B-POS
+미국인	O
 어머니	B-PIV
 사이에서	O
 태어났다	O
@@ -12672,16 +12616,16 @@ LG	B-ORG
 흔히	O
 그의	O
 첫	B-NUM
-히트	I-NUM
-싱글의	I-NUM
+히트	O
+싱글의	O
 이름을	O
 따	O
-'	B-AFW
-피아노	B-AFW
-맨	I-AFW
+'	O
+피아노	B-PER
+맨	I-PER
 (	O
-Piano	I-AFW
-Man	I-AFW
+Piano	B-PER
+Man	I-PER
 )	O
 '	O
 으로	O
@@ -12693,13 +12637,13 @@ Man	I-AFW
 그는 6회의 그래미 수상경력을 가지고 있으며 23개의 그래미 상 후보로 지명되었다.
 그는	O
 6회의	B-NUM
-그래미	O
+그래미	B-PRI
 수상경력을	O
 가지고	O
 있으며	O
 23개의	B-NUM
-그래미	B-POS
-상	O
+그래미	B-PRI
+상	I-PRI
 후보로	O
 지명되었다	O
 .	O
@@ -12717,14 +12661,14 @@ Man	I-AFW
 전당	O
 ,	O
 1999년	B-DAT
-로큰롤	B-POS
+로큰롤	O
 명예의	O
 전당	O
 ,	O
 그리고	O
 2006년	B-DAT
 롱	B-LOC
-아일랜드	I-AFW
+아일랜드	I-LOC
 뮤직	O
 홀	O
 명예의	O
@@ -12738,16 +12682,16 @@ Man	I-AFW
 작곡가	B-POS
 명예의	O
 전당에서	O
-조니	B-PER
-머서	I-PER
-어워드를	O
+조니	B-PRI
+머서	I-PRI
+어워드를	I-PRI
 받았고	O
 ,	O
-2013년에는	B-NUM
-케네디	B-PER
-센터	B-POS
-명예	O
-훈장을	O
+2013년에는	B-DAT
+케네디	B-PRI
+센터	I-PRI
+명예	I-PRI
+훈장을	I-PRI
 받았다	O
 .	O
 
@@ -12756,8 +12700,8 @@ Man	I-AFW
 이후	O
 그는	O
 9개의	B-NUM
-빌보드	O
-차트	O
+빌보드	B-ORG
+차트	I-ORG
 1위	B-NUM
 곡들을	O
 발표하는	O
@@ -12778,11 +12722,11 @@ Man	I-AFW
 초등	O
 학교	O
 1학년부터	B-NUM
-고교	I-NUM
-2학년까지	I-NUM
+고교	O
+2학년까지	B-NUM
 11년간	B-DAT
-마쓰야마	B-LOC
-발레단에서	O
+마쓰야마	B-ORG
+발레단에서	I-ORG
 클래식	O
 발레를	O
 배웠고	O
@@ -12799,8 +12743,8 @@ Man	I-AFW
 졸업 시에는 "학장상"을 수상했다.
 졸업	B-POS
 시에는	O
-"	B-POS
-학장상	B-POS
+"	O
+학장상	B-PRI
 "	O
 을	O
 수상했다	O
@@ -12810,20 +12754,20 @@ Man	I-AFW
 그는 1986년 대안적 노벨상이라 불리는 바른 생활상(Right Livelihood Award)를 받았으며 현재 에콜로지 및 문화를 위한 국제협회의 대표로서 생태 다양성을 유지하기 위한 노력을 펼치고 있다.
 그는	O
 1986년	B-DAT
-대안적	B-POS
-노벨상이라	I-POS
+대안적	O
+노벨상이라	I-PRI
 불리는	O
 바른	O
-생활상	O
+생활상	B-PRI
 (	O
-Right	I-POS
-Livelihood	I-POS
-Award	I-POS
+Right	B-PRI
+Livelihood	I-PRI
+Award	I-PRI
 )	O
 를	O
 받았으며	O
 현재	O
-에콜로지	B-ORG
+에콜로지	O
 및	O
 문화를	O
 위한	O
@@ -12842,11 +12786,11 @@ Award	I-POS
 인도의 첫 여성 총리로, 현재까지도 여성으로서는 유일하다.
 인도의	B-LOC
 첫	B-NUM
-여성	I-NUM
+여성  B-PIV
 총리로	B-POS
 ,	O
 현재까지도	O
-여성으로서는	O
+여성으로서는	B-PIV
 유일하다	O
 .	O
 
@@ -12854,7 +12798,7 @@ Award	I-POS
 그녀는 조국의 여성 지도자으로서 자신을 내보였으며, 여러모로 헌시했다.
 그녀는	O
 조국의	O
-여성	O
+여성	B-PIV
 지도자으로서	B-POS
 자신을	O
 내보였으며	O
@@ -12871,7 +12815,7 @@ Award	I-POS
 노력은	O
 어쩌다	O
 그녀가	O
-민주주의를	O
+민주주의를	B-PIV
 유보하는	O
 것으로	O
 보이게	O
@@ -12883,7 +12827,7 @@ Award	I-POS
 서울대학교	B-ORG
 법과대학을	B-ORG
 졸업하고	B-POS
-1955년	B-NUM
+1955년	B-DAT
 제7회	B-NUM
 고등고시	O
 사법과에	B-ORG
@@ -12895,7 +12839,7 @@ Award	I-POS
 가수	B-POS
 생활	O
 중인	O
-1979년	B-NUM
+1979년	B-DAT
 ,	O
 영화	O
 데뷔를	O
@@ -12914,13 +12858,13 @@ Award	I-POS
 》	O
 에	O
 출연해	O
-골든	B-EVT
-글로브상	I-EVT
+골든	B-PRI
+글로브상	I-PRI
 뮤지컬	O
 -	O
 코미디	O
 부문에서	O
-여우주연상을	B-POS
+여우주연상을	B-PRI
 수상하였다	O
 .	O
 
@@ -12930,7 +12874,7 @@ Award	I-POS
 ,	O
 마돈나는	B-PER
 《	O
-그들만의	I-AFW
+그들만의	B-AFW
 리그	I-AFW
 》	O
 에서	O
@@ -12944,7 +12888,7 @@ Award	I-POS
 1996년에	B-DAT
 마돈나는	B-PER
 《	O
-에비타	I-AFW
+에비타	B-AFW
 》	O
 의	O
 에바	B-PER
@@ -12980,8 +12924,8 @@ Award	I-POS
 한	O
 뒤	O
 ,	O
-신비주의	O
-카발라에	B-PER
+신비주의	B-PIV
+카발라에	B-PIV
 심취했다	O
 .	O
 
@@ -12992,8 +12936,8 @@ Award	I-POS
 여배우	B-POS
 산드라	B-PER
 베른하드에게	I-PER
-유대교	B-ORG
-신비주의	O
+유대교	B-PIV
+신비주의	B-PIV
 교파를	O
 소개받았다	O
 .	O
@@ -13025,24 +12969,24 @@ KBS	B-ORG
 성완경 (성우)
 일반인 여성과 재혼해서 아들을 두고싶다.그리고 2014년경 재혼하였다.
 일반인	B-POS
-여성과	O
-재혼해서	O
+여성과	B-PIV
+재혼해서	B-PIV
 아들을	B-PIV
 두고싶다	O
 .	O
 그리고	O
 2014년경	B-NUM
-재혼하였다	O
+재혼하였다	B-PIV
 .	O
 
 성완경 (성우)
 연극배우로도 활동하여 2004년에 뮤지컬 《가시고기》의 아버지으로 출연하였다.
 연극배우로도	B-POS
 활동하여	O
-2004년에	B-NUM
+2004년에	B-DAT
 뮤지컬	O
 《	O
-가시고기	I-AFW
+가시고기	B-AFW
 》	O
 의	O
 아버지으로	B-PIV
@@ -13050,14 +12994,10 @@ KBS	B-ORG
 .	O
 
 이규혁
-이규혁(李奎爀, 1978년 3월 16일~)은 대한민국의 스피드 스케이팅 선수로 활약하였다.
+이규혁(1978년 3월 16일~)은 대한민국의 스피드 스케이팅 선수로 활약하였다.
 이규혁	B-PER
 (	O
-李	B-PER
-奎	I-PER
-[UNK]	I-PER
-,	O
-1978년	B-NUM
+1978년	B-DAT
 3월	I-DAT
 16일	I-DAT
 ~	O
@@ -13075,7 +13015,7 @@ KBS	B-ORG
 그의	O
 아버지	B-PIV
 자크도	B-PER
-제2차	B-NUM
+제2차	B-EVT
 세계대전	I-EVT
 당시	O
 앙드레	B-PER
@@ -13092,15 +13032,15 @@ KBS	B-ORG
 쿠르트	B-PER
 볼트와	I-PER
 함께	O
-판테온	B-LOC
-출판사를	O
+판테온	B-ORG
+출판사를	I-ORG
 설립했다	O
 .	O
 
 앙드레 쉬프랭
 1962년에서 1989년까지 판테온의 편집장을 역임하였다.
-1962년에서	B-NUM
-1989년까지	B-NUM
+1962년에서	B-DAT
+1989년까지	I-DAT
 판테온의	B-ORG
 편집장을	B-POS
 역임하였다	O
@@ -13122,25 +13062,25 @@ KBS	B-ORG
 2008년	B-DAT
 ,	O
 첫	B-NUM
-발롱도르	I-NUM
+발롱도르	B-PRI
 ,	O
 FIFA	B-ORG
 올해의	B-DAT
-선수상	B-POS
+선수상	B-PRI
 석권을	O
 시작으로	O
 2013년과	B-DAT
-2014년에도	B-DAT
+2014년에도	I-DAT
 FIFA	B-ORG
-발롱도르를	I-AFW
+발롱도르를	B-PRI
 수상했으며	O
 ,	O
-2016년과	B-NUM
-2017년에도	B-NUM
-발롱도르와	B-AFW
+2016년과	B-DAT
+2017년에도	I-DAT
+발롱도르와	B-PRI
 FIFA	B-ORG
 올해의	B-DAT
-선수상을	B-POS
+선수상을	B-PRI
 차지하며	O
 7회	B-NUM
 수상자인	B-POS
@@ -13148,7 +13088,7 @@ FIFA	B-ORG
 메시의	I-PER
 뒤를	O
 이어	O
-발롱도르를	B-HEC
+발롱도르를	B-PRI
 5회	B-NUM
 수상한	O
 선수이다	B-POS
@@ -13161,8 +13101,8 @@ FIFA	B-ORG
 함께	O
 네	B-NUM
 차례	I-NUM
-유러피언	B-POS
-골든슈를	B-POS
+유러피언	B-PRI
+골든슈를	I-PRI
 차지한	O
 유일무일한	O
 선수이다	B-POS
@@ -13179,7 +13119,7 @@ FIFA	B-ORG
 중	O
 하나로	B-NUM
 ,	O
-2016년에는	B-NUM
+2016년에는	B-DAT
 포브스지는	B-ORG
 호날두를	B-PER
 최고의	O
@@ -13196,7 +13136,7 @@ FIFA	B-ORG
 때	O
 ,	O
 그는	O
-발롱도르를	O
+발롱도르를	B-PRI
 받고	O
 FIFA	B-ORG
 올해의	B-DAT
@@ -13222,15 +13162,14 @@ FIFA	B-ORG
 .	O
 
 헤이든 크리스텐슨
-헤이든 크리스텐슨(, 1981년 4월 19일 ~ )은 캐나다의 배우이다.
+헤이든 크리스텐슨(1981년 4월 19일 ~ )은 캐나다의 배우이다.
 헤이든	B-PER
 크리스텐슨	I-PER
 (	O
-,	B-DAT
-1981년	B-NUM
+1981년	B-DAT
 4월	I-DAT
 19일	I-DAT
-~	I-DAT
+~	O
 )	O
 은	O
 캐나다의	B-LOC
@@ -13238,15 +13177,14 @@ FIFA	B-ORG
 .	O
 
 내털리 포트먼
-내털리 포트먼(, 1981년 6월 9일 ~ )은 이스라엘 출신의 미국의 배우, 영화 감독, 영화 제작자이다.
+내털리 포트먼(1981년 6월 9일 ~ )은 이스라엘 출신의 미국의 배우, 영화 감독, 영화 제작자이다.
 내털리	B-PER
 포트먼	I-PER
 (	O
-,	B-DAT
-1981년	B-NUM
+1981년	B-DAT
 6월	I-DAT
 9일	I-DAT
-~	I-DAT
+~	O
 )	O
 은	O
 이스라엘	B-LOC
@@ -13254,20 +13192,20 @@ FIFA	B-ORG
 미국의	B-LOC
 배우	B-POS
 ,	O
-영화	O
-감독	B-POS
+영화	B-POS
+감독	I-POS
 ,	O
-영화	O
-제작자이다	B-POS
+영화	B-POS
+제작자이다	I-POS
 .	O
 
 내털리 포트먼
 본명은 '네타리 헤르슐라그', 2003년에 학사 학위를 취득했다.
 본명은	O
-'	B-PER
-네타리	I-PER
+'	O
+네타리 B-PER
 헤르슐라그	I-PER
-'	B-DAT
+'	O
 2003년에	B-DAT
 학사	B-POS
 학위를	O
@@ -13281,10 +13219,10 @@ FIFA	B-ORG
 이래	O
 MSL	B-EVT
 3회	B-NUM
-우승	B-POS
+우승	O
 ,	O
 1회	B-NUM
-준우승	B-POS
+준우승	O
 등	O
 역대	O
 프로토스	O
@@ -13311,17 +13249,17 @@ MSL	B-EVT
 특히	O
 마재윤의	B-PER
 2006	B-DAT
-시즌	B-EVT
-프로토스전	B-EVT
+시즌	I-DAT
+프로토스전	O
 성적은	O
 21승	B-NUM
 3패	B-NUM
 ,	O
-승률	B-NUM
-87	I-NUM
-.	O
-5	B-NUM
-%	O
+승률	O
+87	B-NUM
+.	I-NUM
+5	I-NUM
+%	I-NUM
 에	O
 달했다	O
 .	O
@@ -13333,7 +13271,7 @@ MSL	B-EVT
 로드	O
 영화	O
 《	O
-델마와	I-AFW
+델마와	B-AFW
 루이스	I-AFW
 》	O
 에	O
@@ -13347,7 +13285,7 @@ MSL	B-EVT
 2008년에는 《벤자민 버튼의 시간은 거꾸로 간다》와 2011년 《머니볼》으로 미국 아카데미상, 골든 글로브상 남우주연상 후보에 지명되었다.
 2008년에는	B-DAT
 《	O
-벤자민	I-AFW
+벤자민	B-AFW
 버튼의	I-AFW
 시간은	I-AFW
 거꾸로	I-AFW
@@ -13356,15 +13294,15 @@ MSL	B-EVT
 와	O
 2011년	B-DAT
 《	O
-머니볼	I-AFW
+머니볼	B-AFW
 》	O
 으로	O
 미국	B-LOC
-아카데미상	B-POS
+아카데미상	B-PRI
 ,	O
-골든	B-POS
-글로브상	I-POS
-남우주연상	B-POS
+골든	B-PRI
+글로브상	I-PRI
+남우주연상	B-PRO
 후보에	O
 지명되었다	O
 .	O
@@ -13374,7 +13312,7 @@ MSL	B-EVT
 기네스	B-PER
 팰트로와의	I-PER
 3년간의	B-DAT
-연애	O
+연애	B-PIV
 ,	O
 그리고	O
 2000년	B-DAT
@@ -13400,13 +13338,13 @@ MSL	B-EVT
 동거중에	O
 있다가	O
 ,	O
-2014년	B-NUM
+2014년	B-DAT
 결혼하였다	B-PIV
 .	O
 
 브래드 피트
 가족은 곧 미주리주 스프링필드로 이사를 갔고, 그에게는 두 명의 동생 더그(1966년생), 줄리 닐(1969년생)이 있다.
-가족은	B-POS
+가족은	O
 곧	O
 미주리주	B-LOC
 스프링필드로	B-LOC
@@ -13419,13 +13357,13 @@ MSL	B-EVT
 동생	B-PIV
 더그	B-PER
 (	O
-1966년생	B-NUM
+1966년생	B-DAT
 )	O
 ,	O
 줄리	B-PER
 닐	I-PER
 (	O
-1969년생	B-NUM
+1969년생	B-DAT
 )	O
 이	O
 있다	O
@@ -13436,7 +13374,7 @@ MSL	B-EVT
 이	O
 영화에서	O
 피트의	B-PER
-아내역을	O
+아내역을	B-PIV
 맡은	O
 안젤리나	B-PER
 졸리와의	I-PER
@@ -13475,13 +13413,13 @@ CM	O
 해리슨	B-PER
 포드	I-PER
 (	O
-Harrison	B-AFW
-Ford	I-AFW
+Harrison	B-PER
+Ford	I-PER
 ,	O
 1942년	B-DAT
 7월	I-DAT
 13일	I-DAT
-~	I-DAT
+~	O
 )	O
 는	O
 미국의	B-LOC
@@ -13498,10 +13436,10 @@ Ford	I-AFW
 독일	B-LOC
 라이프치히시가	B-LOC
 수여하는	O
-‘	B-DAT
-2007	B-EVT
-구텐베르크상	B-POS
-수상자	I-POS
+‘	O
+2007	B-DAT
+구텐베르크상	B-PRI
+수상자	B-POS
 ’	O
 로	O
 선정됐다	O
@@ -13510,45 +13448,45 @@ Ford	I-AFW
 안상수 (디자이너)
 홍익대학교 시각디자인과와 동 대학원을 졸업하였으며 한양대학교 대학원에서 '이상 시에 대한 타이포그래피 연구'[http://www.megapass.co.kr/~saulbass/ssahn/thesis/thesis.html]  로 응용미술학 박사학위와 영국 킹스턴대학교에서 명예박사학위를 받았다.
 홍익대학교	B-ORG
-시각디자인과와	B-ORG
+시각디자인과와	B-POS
 동	O
-대학원을	O
+대학원을	B-ORG
 졸업하였으며	B-POS
 한양대학교	B-ORG
-대학원에서	O
+대학원에서	B-ORG
 '	O
 이상	O
 시에	O
 대한	O
-타이포그래피	B-HEC
+타이포그래피	O
 연구	O
 '	O
-[	B-HEC
-http	O
-:	O
-/	O
-/	O
-www	B-HEC
-.	O
-megapass	B-HEC
-.	O
-co	B-HEC
-.	O
-kr	O
-/	O
-~	O
-saulbass	B-HEC
-/	O
-ssahn	B-HEC
-/	O
-thesis	B-HEC
-/	O
-thesis	B-HEC
-.	O
-html	B-HEC
+[	O
+http	B-INF
+:	I-INF
+/	I-INF
+/	I-INF
+www	I-INF
+.	I-INF
+megapass	I-INF
+.	I-INF
+co	I-INF
+.	I-INF
+kr	I-INF
+/	I-INF
+~	I-INF
+saulbass    I-INF
+/	I-INF
+ssahn	I-INF
+/	I-INF
+thesis	I-INF
+/	I-INF
+thesis	I-INF
+.	I-INF
+html	I-INF
 ]	O
 로	O
-응용미술학	O
+응용미술학	B-POS
 박사학위와	B-POS
 영국	B-LOC
 킹스턴대학교에서	B-ORG
@@ -13559,7 +13497,7 @@ html	B-HEC
 레이 브래드버리
 2012년 노환으로 세상을 떠났다.
 2012년	B-DAT
-노환으로	O
+노환으로	B-HEC
 세상을	O
 떠났다	O
 .	O
@@ -13579,7 +13517,7 @@ NBC	B-ORG
 뉴스에	I-ORG
 사진	O
 ,	O
-디지털	B-HEC
+디지털	O
 비디오	O
 파일	O
 ,	O
@@ -13600,7 +13538,7 @@ NBC	B-ORG
 ,	O
 같은	O
 사격	B-POS
-선수	B-POS
+선수	I-POS
 출신의	O
 김세호와	B-PER
 결혼하여	B-PIV
@@ -13615,11 +13553,11 @@ NBC	B-ORG
 2008년	B-DAT
 베이징	B-EVT
 올림픽	I-EVT
-대한민국	I-EVT
-국가대표	I-EVT
+대한민국	B-LOC
+국가대표	B-EVT
 선발전에서	I-EVT
 한때	O
-선두를	B-POS
+선두를	O
 달렸으나	O
 ,	O
 선발되지	O
@@ -13645,14 +13583,10 @@ NBC	B-ORG
 .	O
 
 이은철
-이은철(李垠澈, 1967년 1월 3일~)은 대한민국의 올림픽 사격 금메달리스트이다.
+이은철(1967년 1월 3일~)은 대한민국의 올림픽 사격 금메달리스트이다.
 이은철	B-PER
 (	O
-李	B-PER
-[UNK]	I-PER
-[UNK]	I-PER
-,	O
-1967년	B-NUM
+1967년	B-DAT
 1월	I-DAT
 3일	I-DAT
 ~	O
@@ -13660,15 +13594,15 @@ NBC	B-ORG
 은	O
 대한민국의	B-LOC
 올림픽	B-EVT
-사격	B-POS
-금메달리스트이다	B-POS
+사격	O
+금메달리스트이다	B-PRI
 .	O
 
 강초현
 주 종목은 공기소총이며, 고등학교 2학년 때인 2000년에 시드니에서 열린 올림픽에서 은메달을 획득하였다.
 주	O
 종목은	O
-공기소총이며	B-POS
+공기소총이며	O
 ,	O
 고등학교	O
 2학년	B-NUM
@@ -13677,20 +13611,27 @@ NBC	B-ORG
 시드니에서	B-LOC
 열린	O
 올림픽에서	B-EVT
-은메달을	B-POS
+은메달을	B-PRI
 획득하였다	O
 .	O
 
-요비아누스
-섬네일.
-섬네일	O
+구두회
+경상남도 진주군 지수면 승내리에서 출생하였으며 고려대학교 상학과를 졸업하였다.
+경상남도	B-LOC
+진주군	B-LOC
+지수면	B-LOC
+승내리에서	B-LOC
+출생하였으며	O
+고려대학교	B-ORG
+상학과를	B-POS
+졸업하였다	B-POS
 .	O
 
 이세돌
 이세돌은 신경이 마비된 것인데 어린 나이에 그 사실을 몰랐다.
 이세돌은	B-PER
-신경이	O
-마비된	O
+신경이	B-HEC
+마비된	I-HEC
 것인데	O
 어린	O
 나이에	O
@@ -13724,7 +13665,7 @@ NBC	B-ORG
 감독이었던	B-POS
 서정환과의	B-PER
 불화로	O
-2005년	B-NUM
+2005년	B-DAT
 11월에	I-DAT
 LG	B-ORG
 트윈스로	I-ORG
@@ -13746,25 +13687,21 @@ LG	B-ORG
 오쿠자바의	B-PER
 노래와	O
 시는	O
-1980년도에	B-NUM
+1980년도에	B-DAT
 들어	O
 와서와	O
 공식적으로	O
 출판되었으며	O
-1991년	B-NUM
-Prize상을	B-POS
+1991년	B-DAT
+Prize상을	B-PRI
 수상하였다	O
 .	O
 
 차영철
-차영철(車榮澈, 1959년 7월 28일~)은 대한민국의 올림픽 사격 은메달리스트이다.
+차영철(1959년 7월 28일~)은 대한민국의 올림픽 사격 은메달리스트이다.
 차영철	B-PER
 (	O
-車	B-PER
-榮	I-PER
-[UNK]	I-PER
-,	O
-1959년	B-NUM
+1959년	B-DAT
 7월	I-DAT
 28일	I-DAT
 ~	O
@@ -13772,17 +13709,17 @@ Prize상을	B-POS
 은	O
 대한민국의	B-LOC
 올림픽	B-EVT
-사격	B-POS
-은메달리스트이다	B-POS
+사격	O
+은메달리스트이다	B-PRI
 .	O
 
 존 밀턴
 기독교 성격의 서사시인《실낙원》의 작가로 유명하다.
-기독교	O
+기독교	B-PIV
 성격의	O
 서사시인	O
 《	O
-실낙원	I-AFW
+실낙원	B-AFW
 》	O
 의	O
 작가로	B-POS
@@ -13803,7 +13740,7 @@ Prize상을	B-POS
 블라디미르 비소츠키
 비소츠키는 1938년 1월 25일 모스크바에서 태어났다.
 비소츠키는	B-PER
-1938년	B-NUM
+1938년	B-DAT
 1월	I-DAT
 25일	I-DAT
 모스크바에서	B-LOC
@@ -13816,11 +13753,11 @@ Prize상을	B-POS
 군장교였으며	B-POS
 어머니는	B-PIV
 독일어	B-POS
-번역사였는데	B-POS
+번역사였는데	I-POS
 그의	O
 출생직후	O
 이혼하여	B-PIV
-계모의	B-POS
+계모의	B-PIV
 손에서	O
 컸다	O
 .	O
@@ -13834,15 +13771,15 @@ Prize상을	B-POS
 
 김민우 (피겨스케이팅 선수)
 누나인 김혜민 또한 피겨 스케이팅 선수이며, 서로 파트너를 이루어 활동하였다.
-누나인	B-POS
+누나인	B-PIV
 김혜민	B-PER
 또한	O
 피겨	B-POS
 스케이팅	I-POS
-선수이며	B-POS
+선수이며	I-POS
 ,	O
 서로	O
-파트너를	B-POS
+파트너를	B-PIV
 이루어	O
 활동하였다	O
 .	O
@@ -13853,12 +13790,12 @@ Prize상을	B-POS
 (	O
 姜	B-PER
 貴	I-PER
-太	B-PER
+太	I-PER
 ,	O
-1979년	B-NUM
+1979년	B-DAT
 8월	I-DAT
 12일	I-DAT
-~	I-DAT
+~	O
 )	O
 는	O
 전	O
@@ -13870,17 +13807,13 @@ KIA	B-ORG
 .	O
 
 정용진
-정용진(鄭溶鎭, 1968년 9월 19일 ~ )은 신세계그룹 부회장을 맡고 있는 대한민국의 기업인이다.
+정용진(1968년 9월 19일 ~ )은 신세계그룹 부회장을 맡고 있는 대한민국의 기업인이다.
 정용진	B-PER
 (	O
-鄭	B-PER
-[UNK]	I-PER
-鎭	I-PER
-,	O
 1968년	B-DAT
 9월	I-DAT
 19일	I-DAT
-~	I-DAT
+~	O
 )	O
 은	O
 신세계그룹	B-ORG
@@ -13922,7 +13855,7 @@ KBO에서	B-ORG
 3월	I-DAT
 23일	I-DAT
 ,	O
-해외파	B-POS
+해외파	O
 특별	O
 지명	O
 때	O
@@ -13991,7 +13924,7 @@ KBO에서	B-ORG
 재직중	O
 국제철강협회	B-ORG
 (	O
-World	I-ORG
+World	B-ORG
 Steel	I-ORG
 Association	I-ORG
 )	O
@@ -14024,11 +13957,11 @@ Association	I-ORG
 한국농구연맹(KBL) 1, 2대 회장을 지냈고, 대한골프협회 14대, 15대 회장을 역임했다.
 한국농구연맹	B-ORG
 (	O
-KBL	I-ORG
+KBL	B-ORG
 )	O
-1	B-EVT
-,	I-EVT
-2대	I-ORG
+1	B-NUM
+,	I-NUM
+2대	I-NUM
 회장을	B-POS
 지냈고	O
 ,	O
@@ -14047,14 +13980,14 @@ KBL	I-ORG
 해에	O
 학업을	O
 접고	O
-기계공이	O
+기계공이	B-POS
 되어	O
 최고의	O
 발명가	B-POS
 에디슨이	B-PER
 세운	O
-에디슨	O
-회사에서	O
+에디슨	B-ORG
+회사에서	I-ORG
 기술	O
 책임자로까지	B-POS
 일을	O
@@ -14066,10 +13999,10 @@ KBL	I-ORG
 그의	O
 나이	O
 40세에	B-NUM
-자동차를	B-AFW
+자동차를	O
 만드는	O
 회사	O
-'	B-ORG
+'	O
 포드	B-ORG
 '	O
 를	O
@@ -14079,20 +14012,20 @@ KBL	I-ORG
 
 홍수희
 1995년 문예지 한국시에서 신인상을 수상하면서 등단하였다.
-1995년	B-NUM
+1995년	B-DAT
 문예지	O
-한국시에서	O
-신인상을	B-POS
+한국시에서	B-ORG
+신인상을	B-PRI
 수상하면서	O
 등단하였다	O
 .	O
 
 우루시바라 유키
 1974년 1월 23일생이고 여성이다.
-1974년	B-NUM
+1974년	B-DAT
 1월	I-DAT
 23일생이고	I-NUM
-여성이다	O
+여성이다	B-PIV
 .	O
 
 민병덕 (1894년)
@@ -14107,7 +14040,7 @@ KBL	I-ORG
 등	O
 기업인으로	B-POS
 활동하면서	O
-1954년까지	B-NUM
+1954년까지	B-DAT
 생존해	O
 있었다	O
 .	O
@@ -14120,14 +14053,14 @@ KBL	I-ORG
 :	O
 안소연	B-PER
 ,	O
-1973년	B-NUM
+1973년	B-DAT
 12월	I-DAT
 10일	I-DAT
 ~	O
 )	O
 은	O
 한국의	B-LOC
-여자	O
+여자	B-PIV
 성우다	B-POS
 .	O
 
@@ -14144,7 +14077,7 @@ KBS	B-ORG
 소연 (성우)
 동기 여자들 중 나이가 가장 많으며, 슬하에 딸을 두고 있다.
 동기	B-POS
-여자들	O
+여자들	B-PIV
 중	O
 나이가	O
 가장	O
@@ -14242,11 +14175,9 @@ JJ모터스의	B-ORG
 .	O
 
 아나 라옙스카
-라파엘 아마야()는 그녀의 남자친구이다.
+라파엘 아마야는 그녀의 남자친구이다.
 라파엘	B-PER
 아마야	I-PER
-(	O
-)	O
 는	O
 그녀의	O
 남자친구이다	B-POS
@@ -14257,7 +14188,7 @@ JJ모터스의	B-ORG
 그는	O
 1981년	B-DAT
 10월	I-DAT
-국무총리표창을	B-EVT
+국무총리표창을	B-PRI
 수상하였으며	O
 ,	O
 1996년	B-DAT
@@ -14265,7 +14196,7 @@ JJ모터스의	B-ORG
 한국	B-ORG
 능률협회에서	I-ORG
 주관하는	O
-경영TPM상을	B-POS
+경영TPM상을	B-PRI
 수상하였다	O
 .	O
 
@@ -14273,7 +14204,7 @@ JJ모터스의	B-ORG
 초등학교 시절부터 유도를 시작했으며, 각종 대회에서 입상하며 이름을 알렸고, 진량고등학교를 졸업하고, 용인대학교를 학사로 졸업하였다.
 초등학교	O
 시절부터	O
-유도를	B-POS
+유도를	O
 시작했으며	O
 ,	O
 각종	O
@@ -14297,16 +14228,16 @@ JJ모터스의	B-ORG
 오픈	I-EVT
 유도	I-EVT
 대회	I-EVT
-60kg급에서	B-POS
-우승하였다	B-POS
+60kg급에서	B-NUM
+우승하였다	O
 .	O
 
 최민호 (유도 선수)
 남자 유도 최경량급인 60kg급에서 대한민국의 대표 선수로 자리매김한 그는, 2007년 브라질 리우데자네이루에서 열린 세계 선수권 대회에서 동메달을 획득하는 등 국제무대에서 계속 좋은 성적을 거두었다.
-남자	O
-유도	B-POS
+남자	B-PIV
+유도	O
 최경량급인	O
-60kg급에서	B-POS
+60kg급에서	B-NUM
 대한민국의	B-LOC
 대표	B-POS
 선수로	I-POS
@@ -14320,7 +14251,7 @@ JJ모터스의	B-ORG
 세계	B-EVT
 선수권	I-EVT
 대회에서	I-EVT
-동메달을	B-POS
+동메달을	B-PRI
 획득하는	O
 등	O
 국제무대에서	O
@@ -14341,17 +14272,17 @@ JJ모터스의	B-ORG
 올림픽	I-EVT
 대회에서	I-EVT
 오스트리아의	B-LOC
-루트비히	B-LOC
+루트비히	B-PER
 파이셔를	I-PER
 꺾고	O
-우승하였으며	B-POS
+우승하였으며	O
 ,	O
 대한민국의	B-LOC
 이	O
 대회	O
 첫	B-NUM
 번째	I-NUM
-금메달의	B-POS
+금메달의	B-PRI
 주인공이	B-POS
 되었다	O
 .	O
@@ -14361,8 +14292,8 @@ JJ모터스의	B-ORG
 2012년	B-DAT
 송대남과	B-PER
 함께	O
-남자	O
-유도	B-POS
+남자	B-PIV
+유도	O
 국가대표팀	B-ORG
 코치로	B-POS
 선임되었다	O
@@ -14371,7 +14302,7 @@ JJ모터스의	B-ORG
 송민도
 1960년대 후반에 장남이 베트남 전쟁에 참전한 것을 계기로 사이공에 식당을 차리고 머물렀다.
 1960년대	B-DAT
-후반에	B-DAT
+후반에 O
 장남이	B-PIV
 베트남	B-EVT
 전쟁에	I-EVT
@@ -14480,7 +14411,7 @@ EBS	B-EVT
 )	O
 은	O
 한국의	B-LOC
-여자	O
+여자	B-PIV
 성우다	B-POS
 .	O
 
@@ -14495,7 +14426,7 @@ EBS	B-EVT
 
 니콜라이 프레이처
 친척은 5명이고, 모두 방이 2개짜리 아파트에 살고 있다.
-친척은	B-POS
+친척은	B-PIV
 5명이고	B-NUM
 ,	O
 모두	O
@@ -14509,7 +14440,7 @@ EBS	B-EVT
 박노준
 그의 조카는 현 KIA 타이거즈의 투수인 박건우이다.
 그의	O
-조카는	B-POS
+조카는	B-PIV
 현	O
 KIA	B-ORG
 타이거즈의	I-ORG
@@ -14524,7 +14455,7 @@ KIA	B-ORG
 이정재와	B-PER
 2003년부터	B-DAT
 2006년까지	I-DAT
-연인	O
+연인	B-PIV
 관계였다	O
 .	O
 
@@ -14543,7 +14474,7 @@ KIA	B-ORG
 고부군	B-ORG
 출신으로	O
 김성수의	B-PER
-생부이며	B-POS
+생부이며	B-PIV
 ,	O
 기업인	B-POS
 김연수의	B-PER
@@ -14554,7 +14485,7 @@ KIA	B-ORG
 노무현의 둘째 형 노건평과 더불어 농협의 세종증권 인수 관련 뇌물을 건넨 혐의로 징역 2년 6개월을 선고받고 복역하였다.
 노무현의	B-PER
 둘째	B-NUM
-형	O
+형	B-PIV
 노건평과	B-PER
 더불어	O
 농협의	B-ORG
@@ -14578,8 +14509,8 @@ KIA	B-ORG
 ,	O
 탤런트	B-POS
 등	O
-여성	O
-연예인	O
+여성	B-PIV
+연예인	B-POS
 수명과	O
 함께	O
 필로폰을	B-HEC
@@ -14596,15 +14527,15 @@ KIA	B-ORG
 에티엔 질송
 또한 질송은 레지옹 도뇌르 그랑도피시에 훈장과 1914-1918 전쟁십자장을 수여받았다.
 또한	O
-질송은	O
-레지옹	B-LOC
-도뇌르	B-LOC
-그랑도피시에	B-LOC
+질송은	B-PER
+레지옹	B-PRI
+도뇌르	I-PRI
+그랑도피시에	I-PRI
 훈장과	O
-1914	B-NUM
--	O
-1918	B-DAT
-전쟁십자장을	O
+1914	B-DAT
+-	I-DAT
+1918	I-DAT
+전쟁십자장을	B-PRI
 수여받았다	O
 .	O
 
@@ -14616,18 +14547,18 @@ KIA	B-ORG
 2007년	B-DAT
 2군	B-NUM
 북부리그	B-EVT
-홈런왕에	B-POS
+홈런왕에	B-PRI
 올랐다	O
 .	O
 
 프랭크 스탠턴
 1946년부터 1971년까지 CBS의 사장을 역임하였고 1973년까지 부회장 자리에 있었다.
-1946년부터	B-NUM
+1946년부터	B-DAT
 1971년까지	I-DAT
 CBS의	B-ORG
 사장을	B-POS
 역임하였고	O
-1973년까지	B-NUM
+1973년까지	B-DAT
 부회장	B-POS
 자리에	O
 있었다	O
@@ -14642,7 +14573,7 @@ CBS의	B-ORG
 랜드	B-ORG
 코포레이션	I-ORG
 (	O
-Rand	I-ORG
+Rand	B-ORG
 Corporation	I-ORG
 )	O
 의	O
@@ -14657,13 +14588,13 @@ Corporation	I-ORG
 대한	O
 공로로	O
 그는	O
-라디오	B-HEC
-텔레비전	I-HEC
+라디오	O
+텔레비전	O
 방송계의	O
-상인	B-POS
-피바디	B-POS
-상	O
-개인상	O
+상인	O
+피바디	B-PRI
+상	I-PRI
+개인상	B-PRI
 부문을	O
 수상하였다	O
 .	O
@@ -14690,24 +14621,24 @@ Corporation	I-ORG
 프란코	B-PER
 모디글리아니	I-PER
 (	O
-Franco	B-LOC
-Modigliani	I-AFW
+Franco	B-PER
+Modigliani	I-PER
 ,	O
 1918년	B-DAT
 6월	I-DAT
 18일	I-DAT
-~	B-DAT
-2003년	I-DAT
+~	I-DAT
+2003년	B-DAT
 9월	I-DAT
 25일	I-DAT
 )	O
 는	O
-이탈리아계	B-LOC
-미국인	B-POS
-경제학자로서	I-POS
-1985년	B-NUM
-노벨	B-EVT
-경제학상	I-EVT
+이탈리아계	O
+미국인	O
+경제학자로서	B-POS
+1985년	B-DAT
+노벨	B-PRI
+경제학상	I-PRI
 수상자이다	B-POS
 .	O
 
@@ -14724,7 +14655,7 @@ Modigliani	I-AFW
 천주교이며	B-PIV
 ,	O
 세례명은	O
-요한이다	O
+요한이다	B-PER
 .	O
 
 루이자 메이 올컷
@@ -14736,8 +14667,8 @@ Modigliani	I-AFW
 때까지	O
 생애의	O
 대부분을	O
-보스턴과	B-ORG
-콩코드에서	O
+보스턴과	B-LOC
+콩코드에서	B-LOC
 보냈다	O
 .	O
 
@@ -14747,13 +14678,13 @@ Modigliani	I-AFW
 남미로	B-LOC
 여행가기	O
 며칠	O
-전	B-DAT
-송별회에서	B-ORG
-이쑤시개에	B-AFW
+전	O
+송별회에서	O
+이쑤시개에	O
 꽂힌	O
 올리브가	O
 담긴	O
-마티니를	B-PER
+마티니를	O
 마시고	O
 여행	O
 중	O
@@ -14766,7 +14697,7 @@ Modigliani	I-AFW
 
 셔우드 앤더슨
 사인은 삼켜진 이쑤시개가 결장에 구멍을 내서 장내 박테리아가 복강에 감염되어 유발된 복막염.
-사인은	B-POS
+사인은	O
 삼켜진	O
 이쑤시개가	O
 결장에	O
@@ -14777,13 +14708,13 @@ Modigliani	I-AFW
 복강에	O
 감염되어	O
 유발된	O
-복막염	O
+복막염	B-HEC
 .	O
 
 기타노 마사지
 군의관으로서 육군 중장이며, 의학박사이다.
 군의관으로서	B-POS
-육군	O
+육군	B-ORG
 중장이며	B-POS
 ,	O
 의학박사이다	B-POS
@@ -14794,13 +14725,13 @@ Modigliani	I-AFW
 2020년	B-DAT
 11월	I-DAT
 7일	I-DAT
-,	B-DAT
+,	O
 오후	B-DAT
 6시	I-DAT
 경에	I-DAT
 숙환	B-HEC
 (	O
-지병	B-HEC
+지병	O
 )	O
 으로	O
 투병	O
@@ -14822,7 +14753,7 @@ Modigliani	I-AFW
 시작도	O
 하지	O
 못하고	O
-2005년	B-NUM
+2005년	B-DAT
 4월	I-DAT
 25일	I-DAT
 지병인	O
@@ -14837,7 +14768,7 @@ Modigliani	I-AFW
 4월	I-DAT
 25일	I-DAT
 ,	O
-향년	B-DAT
+향년	O
 68세에	B-NUM
 지병인	O
 대장암	B-HEC
@@ -14857,7 +14788,7 @@ Modigliani	I-AFW
 치루어졌고	O
 ,	O
 유해는	O
-자유로	O
+자유로	B-LOC
 청아공원에	B-LOC
 안치되었다	O
 .	O
@@ -14865,7 +14796,7 @@ Modigliani	I-AFW
 고우영
 2005년 은관문화훈장이 추서되었다.
 2005년	B-DAT
-은관문화훈장이	B-POS
+은관문화훈장이	B-PRI
 추서되었다	O
 .	O
 
@@ -14877,9 +14808,9 @@ Modigliani	I-AFW
 Josiah	B-PER
 Franklin	I-PER
 ,	O
-1657년	B-NUM
-~	B-NUM
-1744년	B-NUM
+1657년	B-DAT
+~	I-DAT
+1744년	I-DAT
 )	O
 은	O
 벤저민	B-PER
@@ -14889,11 +14820,11 @@ Franklin	I-PER
 
 조사이어 프랭클린
 아이 셋과 아내를 데리고 1682년경에 뉴잉글랜드로 이주하였다.
-아이	O
+아이	B-PIV
 셋과	B-NUM
-아내를	B-POS
+아내를	B-PIV
 데리고	O
-1682년경에	B-NUM
+1682년경에	B-DAT
 뉴잉글랜드로	B-LOC
 이주하였다	O
 .	O
@@ -14901,12 +14832,12 @@ Franklin	I-PER
 조사이어 프랭클린
 벤저민 프랭클린은 조사이어와 그의 후처인 어바이어 폴저 사이의 막내 아들이다.
 벤저민	B-PER
-프랭클린은	B-PER
+프랭클린은	I-PER
 조사이어와	B-PER
 그의	O
-후처인	B-POS
-어바이어	B-ORG
-폴저	O
+후처인	B-PIV
+어바이어	B-PER
+폴저	I-PER
 사이의	O
 막내	B-PIV
 아들이다	B-PIV
@@ -14936,16 +14867,16 @@ Franklin	I-PER
 최동희
 1990년 건국훈장 애국장이 수여되었다.
 1990년	B-DAT
-건국훈장	B-POS
-애국장이	B-POS
+건국훈장	B-PRI
+애국장이	B-PRI
 수여되었다	O
 .	O
 
 김봉국
 천도교 신도로 1919년 3.1 운동에 참가했다.
-천도교	O
+천도교	B-PIV
 신도로	O
-1919년	B-NUM
+1919년	B-DAT
 3	B-EVT
 .	I-EVT
 1	I-EVT
@@ -14988,12 +14919,12 @@ Franklin	I-PER
 2010년	B-DAT
 아시안	B-EVT
 게임	I-EVT
-금메달을	B-POS
+금메달을	B-PRI
 획득하고	O
 귀국하여	O
 아버지와	B-PIV
 함께	O
-은사	B-POS
+은사	O
 조성옥	B-PER
 감독의	B-POS
 장지를	O
@@ -15008,7 +14939,7 @@ Franklin	I-PER
 25일	I-DAT
 모스크바에서	B-LOC
 지병으로	O
-향년	B-DAT
+향년	O
 96세를	B-NUM
 일기로	O
 서거했다	O
@@ -15049,7 +14980,7 @@ Franklin	I-PER
 라도미르 푸트니크
 그는 제1차 세계 대전에 참가하여, 프랑스의 니스에서 군사 작전을 벌이던 중, 지병인 폐기종으로 사망했다.
 그는	O
-제1차	B-NUM
+제1차	B-EVT
 세계	I-EVT
 대전에	I-EVT
 참가하여	O
@@ -15071,14 +15002,14 @@ Franklin	I-PER
 그러나	O
 평소	O
 지병인	O
-중풍	O
+중풍	B-HEC
 (	O
-中	O
-風	O
+中	B-HEC
+風	I-HEC
 )	O
 의	O
-마비	O
-증세로	O
+마비	B-HEC
+증세로	I-HEC
 인하여	O
 휴가를	O
 주었으나	O
@@ -15099,13 +15030,13 @@ Franklin	I-PER
 나카노 미나코
 1999년 미스 게이오로 뽑혔으며, 영어 검정 2급을 가지고 있다.
 1999년	B-DAT
-미스	B-POS
-게이오로	B-POS
+미스	B-PRI
+게이오로	B-PRI
 뽑혔으며	O
 ,	O
-영어	B-POS
-검정	B-NUM
-2급을	B-NUM
+영어	B-PRI
+검정	I-PRI
+2급을	I-PRI
 가지고	O
 있다	O
 .	O
@@ -15113,17 +15044,17 @@ Franklin	I-PER
 게르하르트 도마크
 킬 대학교 의학과에 재학 중이던 1914년 제1차 세계 대전이 일어나면서 입대했지만 1915년 부상으로 인해 학업에 복귀하게 된다.
 킬	B-ORG
-대학교	O
+대학교	I-ORG
 의학과에	B-POS
 재학	B-POS
 중이던	O
-1914년	B-NUM
-제1차	B-NUM
-세계	O
-대전이	O
+1914년	B-DAT
+제1차	B-EVT
+세계	I-EVT
+대전이	I-EVT
 일어나면서	O
 입대했지만	O
-1915년	B-NUM
+1915년	B-DAT
 부상으로	O
 인해	O
 학업에	O
@@ -15133,23 +15064,23 @@ Franklin	I-PER
 
 게르하르트 도마크
 프론토실의 항균 작용에 대한 발견에 대한 공로로 1939년 노벨 생리학·의학상을 받았지만 나치 독일이 독일인의 노벨상 수상을 금지하고 있었기 때문에 1947년에야 상을 받을 수 있었다.
-프론토실의	B-ORG
+프론토실의	B-HEC
 항균	O
 작용에	O
 대한	O
 발견에	O
 대한	O
 공로로	O
-1939년	B-NUM
-노벨	O
-생리학	O
+1939년	B-DAT
+노벨	B-PRI
+생리학	I-PRI
 ·	O
-의학상을	O
+의학상을	B-PRI
 받았지만	O
-나치	B-LOC
+나치	B-ORG
 독일이	B-LOC
-독일인의	B-POS
-노벨상	B-POS
+독일인의	O
+노벨상	B-PRI
 수상을	O
 금지하고	O
 있었기	O
@@ -15165,24 +15096,24 @@ Franklin	I-PER
 배성룡('裵成龍', 1896년 10월 28일~1964년 12월 8일)은 일제강점기 한국의 사회주의계열 독립운동가, 언론인, 경제평론가, 정치인이다.
 배성룡	B-PER
 (	O
-'	B-PER
+'	O
 裵	B-PER
 成	I-PER
 龍	I-PER
 '	O
 ,	O
-1896년	B-NUM
+1896년	B-DAT
 10월	I-DAT
 28일	I-DAT
-~	O
-1964년	B-DAT
+~	I-DAT
+1964년	I-DAT
 12월	I-DAT
 8일	I-DAT
 )	O
 은	O
-일제강점기	B-DAT
+일제강점기	O
 한국의	B-LOC
-사회주의계열	O
+사회주의계열	B-PIV
 독립운동가	B-POS
 ,	O
 언론인	B-POS
@@ -15194,8 +15125,8 @@ Franklin	I-PER
 
 서진용
 부산 대동중학교 시절 3루수로 활동하다가, 경남고등학교에 입학했다.
-부산	B-ORG
-대동중학교	I-ORG
+부산	B-LOC
+대동중학교	B-ORG
 시절	O
 3루수로	B-POS
 활동하다가	O
@@ -15219,8 +15150,8 @@ Franklin	I-PER
 투수로	B-POS
 전향해	O
 최고	O
-구속	B-NUM
-147km	I-NUM
+구속	O
+147km	B-NUM
 /	I-NUM
 h를	I-NUM
 기록했으며	O
@@ -15229,7 +15160,7 @@ h를	I-NUM
 팔	O
 스윙이	O
 빠르고	O
-볼을	B-POS
+볼을	O
 때리는	O
 손목	O
 힘이	O
@@ -15240,8 +15171,8 @@ h를	I-NUM
 구속은 155km/h를 기록했다.
 구속은	O
 155km	B-NUM
-/	O
-h를	B-HEC
+/	I-NUM
+h를	I-NUM
 기록했다	O
 .	O
 
@@ -15258,13 +15189,13 @@ h를	B-HEC
 엑토르 트루히요
 도미니카 공화국의 37대, 39대 대통령을 지내며 31년 동안 독재자로 군림하던 라파엘 트루히요의 막내 동생으로 1930년 군에 입대하면서 정치적 영향력을 키우기 시작했고 장관에 오르기 전 소령이 되어 육군과 해군 양성에 힘썼다.
 도미니카	B-LOC
-공화국의	B-LOC
+공화국의	I-LOC
 37대	B-NUM
-,	I-NUM
+,	O
 39대	B-NUM
 대통령을	B-POS
 지내며	O
-31년	B-NUM
+31년	B-DAT
 동안	O
 독재자로	B-POS
 군림하던	O
@@ -15297,13 +15228,13 @@ h를	B-HEC
 남동생중	B-PIV
 막내동생인	B-PIV
 故	O
-우마가가	B-POS
+우마가가	B-PER
 있으며	O
 아들들은	B-PIV
 현재	O
 WWE에서	B-ORG
-디	O
-우소즈라는	B-PER
+디	B-PER
+우소즈라는	I-PER
 태그팀으로	O
 활약하고	O
 있다	O
@@ -15318,7 +15249,7 @@ KIA	B-EVT
 타이거즈전에서	I-EVT
 데뷔	O
 첫	B-NUM
-홈런을	I-NUM
+홈런을	O
 기록했다	O
 .	O
 
@@ -15339,15 +15270,15 @@ KIA	B-EVT
 손택수
 첫 시집인 『호랑이 발자국』으로 2004년 제22회 신동엽창작상을 받았다.
 첫	B-NUM
-시집인	I-NUM
-『	B-AFW
-호랑이	I-AFW
+시집인	O
+『	O
+호랑이	B-AFW
 발자국	I-AFW
 』	O
 으로	O
-2004년	B-NUM
+2004년	B-DAT
 제22회	B-NUM
-신동엽창작상을	B-EVT
+신동엽창작상을	B-PRI
 받았다	O
 .	O
 
@@ -15355,25 +15286,25 @@ KIA	B-EVT
 2005년에는 제2회 육사시문학상 신인상, 제3회 애지문학상을 수상했다.
 2005년에는	B-DAT
 제2회	B-NUM
-육사시문학상	B-EVT
-신인상	B-POS
+육사시문학상	B-PRI
+신인상	B-PRI
 ,	O
 제3회	B-NUM
-애지문학상을	B-POS
+애지문학상을	B-PRI
 수상했다	O
 .	O
 
 밥 호스킨스
 그는 칸 영화제 남우주연상, 영국 아카데미 영화상 남우주연상을 수상하였다.
 그는	O
-칸	O
-영화제	O
-남우주연상	O
+칸	B-EVT
+영화제	I-EVT
+남우주연상	B-PRI
 ,	O
 영국	B-LOC
 아카데미	B-EVT
 영화상	I-EVT
-남우주연상을	O
+남우주연상을	B-PRI
 수상하였다	O
 .	O
 
@@ -15394,7 +15325,7 @@ KIA	B-EVT
 폐렴이	B-HEC
 악화되어	O
 병원에서	O
-가족들이	B-POS
+가족들이	O
 지켜보는	O
 가운데	O
 숨을	O
@@ -15435,14 +15366,14 @@ KIA	B-EVT
 2007년	B-DAT
 수필	O
 《	O
-미의	I-AFW
+미의	B-AFW
 초월	I-AFW
 》	O
 로	O
 제	B-NUM
 4회	I-NUM
-뿌리문학상	B-EVT
-대상을	I-EVT
+뿌리문학상	B-PRI
+대상을	I-PRI
 수상하면서	O
 등단했다	O
 .	O
@@ -15500,7 +15431,7 @@ CINTRAFOR	B-ORG
 이후	O
 현재까지	O
 국립산림과학원	B-ORG
-국제임업	B-HEC
+국제임업	O
 분야	O
 연구원으로	B-POS
 활동	O
@@ -15523,14 +15454,14 @@ CINTRAFOR	B-ORG
 
 쉴레이만 데미렐
 2015년 6월 17일, 심장마비와 호흡기 감염으로 향년 92세의 나이로 사망하였다.
-2015년	B-NUM
+2015년	B-DAT
 6월	I-DAT
 17일	I-DAT
 ,	O
 심장마비와	B-HEC
-호흡기	O
-감염으로	O
-향년	B-DAT
+호흡기	B-HEC
+감염으로	I-HEC
+향년	O
 92세의	B-NUM
 나이로	O
 사망하였다	O
@@ -15538,20 +15469,20 @@ CINTRAFOR	B-ORG
 
 하나다 히카루
 하나다 히카루(1958년 9월 12일 ~ )는 일본의 남성 성우 및 남성 배우이다.
-하나다	B-LOC
+하나다	B-PER
 히카루	I-PER
 (	O
 1958년	B-DAT
 9월	I-DAT
 12일	I-DAT
-~	I-DAT
+~	O
 )	O
 는	O
 일본의	B-LOC
-남성	O
+남성	B-PIV
 성우	B-POS
 및	O
-남성	O
+남성	B-PIV
 배우이다	B-POS
 .	O
 
@@ -15561,9 +15492,9 @@ CINTRAFOR	B-ORG
 2010년	B-DAT
 11월	I-DAT
 13일	I-DAT
-유도	B-POS
+유도	O
 남자	O
-100kg	B-POS
+100kg	B-NUM
 이상급	O
 경기에서	O
 상대	O
@@ -15576,36 +15507,35 @@ CINTRAFOR	B-ORG
 시작	O
 56초	B-DAT
 만에	O
-한판승으로	B-HEC
+한판승으로	O
 제압하고	O
-금메달을	B-POS
+금메달을	B-PRI
 획득했다	O
 .	O
 
 키우치 히데노부
-키우치 히데노부(, 2월 5일 ~ )는 일본의 남자 성우다.
+키우치 히데노부(2월 5일 ~ )는 일본의 남자 성우다.
 키우치	B-PER
 히데노부	I-PER
 (	O
-,	B-DAT
 2월	B-DAT
 5일	I-DAT
-~	I-DAT
+~	O
 )	O
 는	O
 일본의	B-LOC
-남자	O
+남자	B-PIV
 성우다	B-POS
 .	O
 
 조 충
 2020년 하계 올림픽 남자 개인전 금메달을 획득했다.
-2020년	B-EVT
+2020년	B-DAT
 하계	B-EVT
 올림픽	I-EVT
-남자	I-EVT
-개인전	I-EVT
-금메달을	B-POS
+남자	B-PIV
+개인전	O
+금메달을	B-PRI
 획득했다	O
 .	O
 
@@ -15616,17 +15546,17 @@ CINTRAFOR	B-ORG
 황후	B-POS
 샤를로트의	B-PER
 오빠이자	B-PIV
-빅토리아	B-LOC
+빅토리아	B-PER
 여왕에게	B-POS
-사촌이었다	B-POS
+사촌이었다	B-PIV
 .	O
 
 레오폴 2세
 투표하는 데 여성과 남성들의 권리들에 관하여 본국에서 이야기하여 근무 시간에 입법을 본 산업적 착취를 대항하는 보호를 위하여 어린이 노동과 고용 상태들이 소개되었고, 어떤이들은 또한 정부의 책임을 위한 이들이 해외에 권리들을 소유한 것을 알았다.
 투표하는	O
 데	O
-여성과	O
-남성들의	O
+여성과	B-PIV
+남성들의	B-PIV
 권리들에	O
 관하여	O
 본국에서	O
@@ -15663,7 +15593,7 @@ CINTRAFOR	B-ORG
 * 취미는 낚시이며, 한 번씩 집에 돌아가면 계류 낚시를 즐기는 편이다.
 *	O
 취미는	O
-낚시이며	B-POS
+낚시이며	B-PIV
 ,	O
 한	B-NUM
 번씩	I-NUM
@@ -15678,44 +15608,44 @@ CINTRAFOR	B-ORG
 마츠무로 마이
 히노데 고등학교 출신으로 열광적인 야구 팬이며 특기는 피아노로 취미는 사진 촬영이다.
 히노데	B-ORG
-고등학교	O
+고등학교	I-ORG
 출신으로	O
 열광적인	O
-야구	B-POS
+야구	O
 팬이며	O
 특기는	O
-피아노로	O
+피아노로	B-PIV
 취미는	O
-사진	O
-촬영이다	O
+사진	B-PIV
+촬영이다	I-PIV
 .	O
 
 구리 (바둑 기사)
 * 취미는 축구로 호나우디뉴 선수의 팬이다.
 *	O
 취미는	O
-축구로	B-POS
+축구로	B-PIV
 호나우디뉴	B-PER
 선수의	B-POS
-팬이다	B-POS
+팬이다	O
 .	O
 
 마크 핑커스
 이후, 펜실베니아 대학교 와튼 스쿨에서 경제학 학사과정을 밟고, 하버드 비즈니스 스쿨의 MBA과정을 수료했다.
 이후	O
 ,	O
-펜실베니아	B-LOC
+펜실베니아	B-ORG
 대학교	I-ORG
 와튼	I-ORG
 스쿨에서	I-ORG
-경제학	O
+경제학	B-POS
 학사과정을	B-POS
 밟고	O
 ,	O
 하버드	B-ORG
 비즈니스	I-ORG
 스쿨의	I-ORG
-MBA과정을	O
+MBA과정을	B-POS
 수료했다	O
 .	O
 
@@ -15725,14 +15655,14 @@ MBA과정을	O
 사망한	O
 2년	B-DAT
 후에	I-DAT
-육상	B-POS
+육상	O
 전문가들에	B-POS
 의하여	O
 그	O
 세기의	O
 최고	O
-아시아인	B-POS
-남성	O
+아시아인	O
+남성	B-PIV
 선수로	B-POS
 선택되었다	O
 .	O
@@ -15743,7 +15673,7 @@ MBA과정을	O
 네덜란드의	B-LOC
 라디오	O
 인터뷰에서	O
-동성애를	O
+동성애를	B-PIV
 정신적인	O
 병이라고	O
 말하기도	O
@@ -15769,7 +15699,7 @@ MBA과정을	O
 활약했으나	O
 2012년	B-DAT
 급성	B-HEC
-백혈병	B-HEC
+백혈병	I-HEC
 진단을	O
 받았다	O
 .	O
@@ -15801,15 +15731,15 @@ MBA과정을	O
 1987년	B-DAT
 1월	I-DAT
 17일	I-DAT
-~	O
-2011년	B-DAT
+~	I-DAT
+2011년	I-DAT
 6월	I-DAT
 19일	I-DAT
 )	O
 는	O
 2011년에	B-DAT
 해체된	O
-여성	O
+여성	B-PIV
 트로트	O
 그룹	O
 아이리스의	B-PER
@@ -15831,8 +15761,8 @@ Pasqua	I-PER
 은	O
 프랑스	B-LOC
 출신	O
-조각가이자	O
-화가이다	O
+조각가이자	B-POS
+화가이다	B-POS
 .	O
 
 아딜 라미
@@ -15844,14 +15774,14 @@ Pasqua	I-PER
 ,	O
 피지컬	O
 ,	O
-프리킥	B-HEC
+프리킥	O
 ,	O
 큰	O
-신장	B-NUM
+신장	O
 (	O
 1	B-NUM
-.	O
-90m	B-NUM
+.	I-NUM
+90m	I-NUM
 )	O
 등의	O
 장점을	O
@@ -15863,25 +15793,24 @@ Pasqua	I-PER
 그의 별명은 "슈렉"으로 팬들이 처음 불렀다.
 그의	O
 별명은	O
-"	B-PER
+"	O
 슈렉	B-PER
 "	O
 으로	O
-팬들이	B-POS
+팬들이	O
 처음	O
 불렀다	O
 .	O
 
 고바야시 사토미
-고바야시 사토미(, 1965년 5월 24일 ~ )는 일본 도쿄도 가쓰시카구 다카사고 출신의 여성 배우이다.
+고바야시 사토미(1965년 5월 24일 ~ )는 일본 도쿄도 가쓰시카구 다카사고 출신의 여성 배우이다.
 고바야시	B-PER
 사토미	I-PER
 (	O
-,	B-DAT
 1965년	B-DAT
 5월	I-DAT
 24일	I-DAT
-~	I-DAT
+~	O
 )	O
 는	O
 일본	B-LOC
@@ -15889,7 +15818,7 @@ Pasqua	I-PER
 가쓰시카구	B-LOC
 다카사고	B-LOC
 출신의	O
-여성	O
+여성	B-PIV
 배우이다	B-POS
 .	O
 
@@ -15899,7 +15828,7 @@ Pasqua	I-PER
 5월	I-DAT
 23일	I-DAT
 ,	O
-남편	B-POS
+남편	B-PIV
 미타니	B-PER
 고키와의	I-PER
 이혼을	B-PIV
@@ -15941,11 +15870,11 @@ Pasqua	I-PER
 박실
 * 1939 전북 정읍시 수성동 735번지.
 *	O
-1939	B-NUM
+1939	B-DAT
 전북	B-LOC
 정읍시	B-LOC
 수성동	B-LOC
-735번지	B-NUM
+735번지	I-LOC
 .	O
 
 박실
@@ -15953,7 +15882,7 @@ Pasqua	I-PER
 서울특별시	B-LOC
 동작구	B-LOC
 사당동	B-LOC
-우성아파트	B-ORG
+우성아파트	B-LOC
 .	O
 
 피파 미들턴
@@ -15999,14 +15928,14 @@ Pasqua	I-PER
 후	O
 서울대학교에	B-ORG
 진학하여	O
-법과대학과	B-POS
-대학원을	O
+법과대학과	B-ORG
+대학원을	B-ORG
 졸업하였으며	B-POS
 ,	O
-법무법인	O
-중앙과	O
-법무법인	O
-태평양에서	B-ORG
+법무법인	B-ORG
+중앙과	I-ORG
+법무법인	B-ORG
+태평양에서	I-ORG
 변호사로	B-POS
 활동하였다	O
 .	O
@@ -16018,7 +15947,7 @@ Pasqua	I-PER
 첫	B-NUM
 영화	O
 《	O
-미인	O
+미인	B-AFW
 》	O
 으로	O
 주목을	O
@@ -16027,9 +15956,9 @@ Pasqua	I-PER
 이	O
 작품으로	O
 그해	O
-춘사영화예술상	B-POS
-새얼굴	B-POS
-여자연기상을	B-POS
+춘사영화예술상	B-EVT
+새얼굴	B-PRI
+여자연기상을	I-PRI
 수상했다	O
 .	O
 
@@ -16056,15 +15985,15 @@ Pasqua	I-PER
 청소년 시절에 스키, 체조, 권투를 하다가 육군에 입대하면서 육상을 시작하였다.
 청소년	O
 시절에	O
-스키	B-POS
+스키	O
 ,	O
-체조	B-POS
+체조	O
 ,	O
-권투를	B-POS
+권투를	O
 하다가	O
-육군에	O
+육군에	B-ORG
 입대하면서	O
-육상을	B-POS
+육상을	O
 시작하였다	O
 .	O
 
@@ -16072,19 +16001,19 @@ Pasqua	I-PER
 이소홀로의 첫 금메달은 1932년 로스앤젤레스 올림픽에서 3000m 장애물경주였다.
 이소홀로의	B-PER
 첫	B-NUM
-금메달은	B-POS
-1932년	B-NUM
+금메달은	B-PRI
+1932년	B-DAT
 로스앤젤레스	B-EVT
 올림픽에서	I-EVT
-3000m	B-POS
-장애물경주였다	I-POS
+3000m	B-NUM
+장애물경주였다	O
 .	O
 
 볼마리 이소홀로
 거기서 3000m 장애물경주의 세계 기록 9분 03.8초로 2연승을 하고, 10,000m 3위를 하였다.
 거기서	O
-3000m	B-POS
-장애물경주의	I-POS
+3000m	B-NUM
+장애물경주의	O
 세계	O
 기록	O
 9분	B-DAT
@@ -16109,7 +16038,7 @@ Pasqua	I-PER
 ,	O
 류머티즘에	B-HEC
 걸렸으나	O
-1945년까지	B-NUM
+1945년까지	B-DAT
 계속	O
 경기에	O
 나갔다	O
@@ -16119,12 +16048,12 @@ Pasqua	I-PER
 로테르담 출신으로 1928년 암스테르담 올림픽에서 100m 배영 금메달을 획득하였다.
 로테르담	B-LOC
 출신으로	O
-1928년	B-NUM
+1928년	B-DAT
 암스테르담	B-EVT
 올림픽에서	I-EVT
-100m	B-POS
-배영	I-POS
-금메달을	I-POS
+100m	B-NUM
+배영	O
+금메달을	I-PRI
 획득하였다	O
 .	O
 
@@ -16132,7 +16061,7 @@ Pasqua	I-PER
 뉴욕주 나소 카운티에서 태어나 시러큐스 대학교에서 수학하였다.
 뉴욕주	B-LOC
 나소	B-LOC
-카운티에서	O
+카운티에서	I-LOC
 태어나	O
 시러큐스	B-ORG
 대학교에서	I-ORG
@@ -16162,14 +16091,14 @@ LG	B-ORG
 탄탄한	O
 체격	O
 조건의	O
-거포형	B-POS
-유망주로	I-POS
+거포형	O
+유망주로	O
 한	B-NUM
 방이	I-NUM
 있어	O
 2군에서도	B-NUM
 4번	B-POS
-타자로	I-POS
+타자로	B-POS
 나오며	O
 기대를	O
 한	O
@@ -16181,20 +16110,20 @@ LG	B-ORG
 베이징 올림픽에서 1500m를 우승하면서, 800m 우승자 파멜라 젤리모에 이어 케냐 여성 선수로서 두 번째 금메달리스트였다.
 베이징	B-EVT
 올림픽에서	I-EVT
-1500m를	B-POS
-우승하면서	B-POS
+1500m를	B-NUM
+우승하면서	O
 ,	O
-800m	B-POS
-우승자	B-POS
+800m	B-NUM
+우승자	O
 파멜라	B-PER
 젤리모에	I-PER
 이어	O
 케냐	B-LOC
-여성	B-POS
+여성	B-PIV
 선수로서	B-POS
 두	B-NUM
 번째	I-NUM
-금메달리스트였다	B-POS
+금메달리스트였다	B-PRI
 .	O
 
 낸시 랑가트
@@ -16202,12 +16131,12 @@ LG	B-ORG
 그녀는	O
 나이로비	B-LOC
 모이	B-LOC
-공군	O
+공군	B-ORG
 부대에	O
 기지를	O
 둔	O
 케냐	B-LOC
-공군에	O
+공군에	B-ORG
 입군되어	O
 있다	O
 .	O
@@ -16217,7 +16146,7 @@ LG	B-ORG
 그녀의	O
 아버지	B-PIV
 조지프는	B-PER
-국제적	B-POS
+국제적	O
 레벨의	O
 장거리	O
 육상	B-POS
@@ -16227,24 +16156,24 @@ LG	B-ORG
 낸시 랑가트
 2010년에 랑가트는 1500m의 다이아몬드 리그를 우승하였다.
 2010년에	B-DAT
-랑가트는	B-LOC
+랑가트는	B-PER
 1500m의	B-NUM
 다이아몬드	B-EVT
 리그를	I-EVT
-우승하였다	B-POS
+우승하였다	O
 .	O
 
 조니 카슨
 카슨은 거버너상, 1985 피버디상을 포함하여 여섯 개의 에미상을 받았다.
 카슨은	B-PER
-거버너상	B-POS
+거버너상	B-PRI
 ,	O
-1985	B-NUM
-피버디상을	B-POS
+1985	B-DAT
+피버디상을	B-PRI
 포함하여	O
 여섯	B-NUM
 개의	I-NUM
-에미상을	B-POS
+에미상을	B-PRI
 받았다	O
 .	O
 
@@ -16257,7 +16186,7 @@ LG	B-ORG
 일요일	B-DAT
 새벽	B-DAT
 캘리포니아	B-LOC
-주에서	O
+주에서	I-LOC
 사망했다	O
 .	O
 
@@ -16265,27 +16194,27 @@ LG	B-ORG
 이 영화로 BAFTA에서 남우주연상을 수상했다.
 이	O
 영화로	O
-BAFTA에서	B-ORG
-남우주연상을	B-POS
+BAFTA에서	B-EVT
+남우주연상을	B-PRI
 수상했다	O
 .	O
 
 로버트 듀발
 그는 아카데미상, 영국 아카데미상, 두 개의 에미상, 네 개의 골든 글로브상을 받았다.
 그는	O
-아카데미상	B-POS
+아카데미상	B-PRI
 ,	O
 영국	B-LOC
-아카데미상	B-POS
+아카데미상	B-PRI
 ,	O
 두	B-NUM
 개의	I-NUM
-에미상	B-POS
+에미상	B-PRI
 ,	O
 네	B-NUM
 개의	I-NUM
-골든	O
-글로브상을	O
+골든	B-PRI
+글로브상을	I-PRI
 받았다	O
 .	O
 
@@ -16293,24 +16222,24 @@ BAFTA에서	B-ORG
 특히 《텐더 머시스》에서의 연기로 1983년 아카데미 최우수 남우주연상을 수상하였다.
 특히	O
 《	O
-텐더	I-AFW
+텐더	B-AFW
 머시스	I-AFW
 》	O
 에서의	O
 연기로	O
-1983년	B-NUM
+1983년	B-DAT
 아카데미	B-EVT
-최우수	O
-남우주연상을	B-POS
+최우수	B-PRI
+남우주연상을	I-PRI
 수상하였다	O
 .	O
 
 문현아
 문현아는 2016년 그룹 나인뮤지스에서 탈퇴한 뒤, 얼마 지나지 않아 싱글 《대한극장》을 발매하고 두 번째 에세이 《스위트 리메디》를 발간하였다.
 문현아는	B-PER
-2016년	B-NUM
+2016년	B-DAT
 그룹	O
-나인뮤지스에서	B-ORG
+나인뮤지스에서	B-PER
 탈퇴한	O
 뒤	O
 ,	O
@@ -16319,7 +16248,7 @@ BAFTA에서	B-ORG
 않아	O
 싱글	O
 《	O
-대한극장	I-AFW
+대한극장	B-AFW
 》	O
 을	O
 발매하고	O
@@ -16327,7 +16256,7 @@ BAFTA에서	B-ORG
 번째	I-NUM
 에세이	O
 《	O
-스위트	I-AFW
+스위트	B-AFW
 리메디	I-AFW
 》	O
 를	O
@@ -16340,11 +16269,11 @@ BAFTA에서	B-ORG
 한국시리즈	B-EVT
 5차전에서는	I-EVT
 6	B-NUM
-.	O
-1이닝	B-NUM
-무실점으로	B-NUM
+.	I-NUM
+1이닝	I-NUM
+무실점으로	O
 호투하며	O
-승리	B-POS
+승리	O
 투수	B-POS
 요건을	O
 갖췄으나	O
@@ -16354,7 +16283,7 @@ BAFTA에서	B-ORG
 강정호의	B-PER
 실책과	O
 손승락의	B-PER
-블론세이브로	B-HEC
+블론세이브로	O
 역전	O
 패했다	O
 .	O
@@ -16364,7 +16293,7 @@ BAFTA에서	B-ORG
 이에	O
 한대화	B-PER
 감독은	B-POS
-"	B-PER
+"	O
 션	B-PER
 헨은	I-PER
 선발도	O
@@ -16415,7 +16344,7 @@ BAFTA에서	B-ORG
 레즈와의	I-ORG
 원정	B-EVT
 경기에서	I-EVT
-연장	B-NUM
+연장	O
 10회	B-NUM
 등판해	O
 추신수에게	B-PER
@@ -16430,7 +16359,7 @@ BAFTA에서	B-ORG
 
 블레스 브리지
 80년대에 암을 극복하고 활동을 이어나갔으나, 2000년 3월 24일에 교통 사고로 지금은 고인이 되었다.
-80년대에	O
+80년대에	B-DAT
 암을	B-HEC
 극복하고	O
 활동을	O
@@ -16456,8 +16385,8 @@ BAFTA에서	B-ORG
 ,	O
 켄터키주에서	B-LOC
 미국	B-LOC
-하원의	O
-일원으로	B-POS
+하원의	B-POS
+일원으로	I-POS
 당선이	O
 되었다	O
 .	O
@@ -16472,12 +16401,12 @@ BAFTA에서	B-ORG
 문라이트	B-AFW
 》	O
 로	O
-남우조연상을	B-POS
+남우조연상을	B-PRI
 수상하였고	O
 ,	O
 이후	O
 《	O
-그린	I-AFW
+그린	B-AFW
 북	I-AFW
 》	O
 의	O
@@ -16486,7 +16415,7 @@ BAFTA에서	B-ORG
 역으로	O
 두	B-NUM
 번째	I-NUM
-남우조연상을	B-POS
+남우조연상을	B-PRI
 수상했다	O
 .	O
 
@@ -16495,8 +16424,8 @@ BAFTA에서	B-ORG
 인크레더블	B-ORG
 미라클에	I-ORG
 입단하여	O
-스타크래프트	B-EVT
-II	I-EVT
+스타크래프트	B-INF
+II	I-INF
 프로게이머로	B-POS
 활동하기	O
 시작했다	O
@@ -16526,7 +16455,7 @@ II	I-EVT
 건너가	O
 미국	B-LOC
 평화	B-ORG
-봉사단의	O
+봉사단의	I-ORG
 자원봉사자로	B-POS
 일했다	O
 .	O
@@ -16536,7 +16465,7 @@ II	I-EVT
 비셀의	B-PER
 아버지는	B-PIV
 베트남	B-EVT
-전쟁	O
+전쟁	I-EVT
 기간	O
 동안	O
 저널리스트	B-POS
@@ -16556,7 +16485,7 @@ II	I-EVT
 어린	O
 시절	O
 동안	O
-친구로	B-POS
+친구로	B-PIV
 지냈으며	O
 카푸토는	B-PER
 그의	O
@@ -16574,14 +16503,14 @@ II	I-EVT
 태어난	O
 그녀는	O
 로스앤젤레스의	B-LOC
-1984년	B-EVT
+1984년	B-DAT
 하계	B-EVT
 올림픽에서	I-EVT
-여성	O
-400m	B-POS
-허들	I-POS
+여성	B-PIV
+400m	B-NUM
+허들	O
 부문에서	O
-은메달을	B-POS
+은메달을	B-PRI
 받았다	O
 .	O
 
@@ -16607,16 +16536,16 @@ II	I-EVT
 로	O
 런던	B-LOC
 영화	O
-비평가	B-POS
-협회상	O
+비평가	B-PRI
+협회상	I-PRI
 등	O
 여러	O
 시상식에서	O
-여우주연상과	B-POS
-신인상을	B-POS
+여우주연상과	B-PRI
+신인상을	B-PRI
 석권하고	O
-아카데미	O
-여우주연상에	O
+아카데미	B-PRI
+여우주연상에	I-PRI
 노미네이트되는	O
 등	O
 성공적으로	O
@@ -16633,14 +16562,14 @@ II	I-EVT
 제퍼슨으로	I-PER
 윔피키드	B-EVT
 1	B-NUM
-,	O
-2	O
-,	O
-3	O
-등을	O
+,	I-NUM
+2	B-NUM
+,	I-NUM
+3	I-NUM
+등을	I-NUM
 찍었고	O
-2014	B-NUM
-타잔에서	B-LOC
+2014	B-DAT
+타잔에서	B-AFW
 데렉	B-PER
 목소리를	O
 연출하였다	O
@@ -16648,18 +16577,18 @@ II	I-EVT
 
 로버트 캐프런
 영 아티스트 어워드 아역 남우조연상, 영 아티스트 어워드 아역 앙상블 캐스팅상 등을 수상하였다.
-영	O
-아티스트	O
-어워드	O
-아역	B-POS
-남우조연상	I-POS
+영	B-EVT
+아티스트	I-EVT
+어워드	I-EVT
+아역	B-PRI
+남우조연상	I-PRI
 ,	O
-영	O
-아티스트	O
-어워드	O
-아역	B-POS
-앙상블	I-POS
-캐스팅상	I-POS
+영	B-EVT
+아티스트	I-EVT
+어워드	I-EVT
+아역	B-PRI
+앙상블	I-PRI
+캐스팅상	I-PRI
 등을	O
 수상하였다	O
 .	O
@@ -16673,7 +16602,7 @@ II	I-EVT
 고문에	O
 못	O
 이겨	O
-간첩이라고	B-POS
+간첩이라고	O
 자백하여	O
 징역	O
 12년을	B-DAT
@@ -16690,8 +16619,8 @@ II	I-EVT
 리그에서	O
 평균	O
 2	B-NUM
-.	O
-3개로	B-NUM
+.	I-NUM
+3개로	I-NUM
 제일	O
 많은	O
 스틸을	O
@@ -16715,13 +16644,13 @@ II	I-EVT
 보여줬는데	O
 ,	O
 15점	B-NUM
-이상	I-NUM
+이상	O
 ,	O
 15리바운드	B-NUM
 이상	I-NUM
 ,	O
 15어시스트	B-NUM
-이상을	I-NUM
+이상을	O
 모두	O
 기록한	O
 선수들은	B-POS
@@ -16741,8 +16670,8 @@ II	I-EVT
 시즌에	I-DAT
 평균	O
 11	B-NUM
-.	O
-7개의	B-NUM
+.	I-NUM
+7개의	I-NUM
 어시스트를	O
 뿌리며	O
 리그에서	O
@@ -16779,7 +16708,7 @@ II	I-EVT
 이후에도 10어시스트 이상을 꾸준히 기록하며 37경기로 늘린다.
 이후에도	O
 10어시스트	B-NUM
-이상을	I-NUM
+이상을	O
 꾸준히	O
 기록하며	O
 37경기로	B-NUM
@@ -16794,7 +16723,7 @@ II	I-EVT
 브래들리는	B-PER
 매우	O
 촉망받던	O
-유망주였다	B-POS
+유망주였다	O
 .	O
 
 에이버리 브래들리
@@ -16806,9 +16735,9 @@ ESPNU는	B-ORG
 올려놓았고	O
 ,	O
 그리고	O
-Scout	B-HEC
-.	I-HEC
-com은	B-HEC
+Scout	B-INF
+.	I-INF
+com은	I-INF
 그를	O
 5위로	B-NUM
 평가했다	O
@@ -16818,7 +16747,7 @@ com은	B-HEC
 2009년에 NBA 식스맨상을 받았다.
 2009년에	B-DAT
 NBA	B-ORG
-식스맨상을	B-POS
+식스맨상을	B-PRI
 받았다	O
 .	O
 
@@ -16827,7 +16756,7 @@ NBA	B-ORG
 1964년	B-DAT
 영화	O
 《	O
-가정이	I-AFW
+가정이	B-AFW
 아닌	I-AFW
 집	I-AFW
 》	O
@@ -16837,7 +16766,7 @@ NBA	B-ORG
 1966년	B-DAT
 영화	O
 《	O
-바디	I-AFW
+바디	B-AFW
 캡슐	I-AFW
 》	O
 에서	O
@@ -16851,7 +16780,7 @@ NBA	B-ORG
 1966년	B-DAT
 영화	O
 《	O
-공룡	I-AFW
+공룡	B-AFW
 100만년	I-AFW
 》	O
 에서	O
@@ -16875,19 +16804,19 @@ NBA	B-ORG
 1973년	B-DAT
 출연한	O
 《	O
-삼총사	I-AFW
+삼총사	B-AFW
 》	O
 에서	O
 보여준	O
 연기로	O
-1974년	B-NUM
+1974년	B-DAT
 골든	B-EVT
 글로브상	I-EVT
 뮤지컬	O
 코미디	O
 영화	O
 부문	O
-여우주연상을	B-POS
+여우주연상을	B-PRI
 수상했다	O
 .	O
 
@@ -16895,8 +16824,8 @@ NBA	B-ORG
 백악관 앞에서 팀 모어하우스를 맞이하는 버락 오바마.
 백악관	B-ORG
 앞에서	O
-팀	O
-모어하우스를	B-PER
+팀	B-PER
+모어하우스를	I-PER
 맞이하는	O
 버락	B-PER
 오바마	I-PER
@@ -16906,7 +16835,7 @@ NBA	B-ORG
 베이징에서 열린 2008년 하계 올림픽 당시, 사브르 단체전에 참가하여 은메달을 목에 건 선수이다.
 베이징에서	B-LOC
 열린	O
-2008년	B-EVT
+2008년	B-DAT
 하계	B-EVT
 올림픽	I-EVT
 당시	O
@@ -16914,7 +16843,7 @@ NBA	B-ORG
 사브르	B-EVT
 단체전에	I-EVT
 참가하여	O
-은메달을	B-POS
+은메달을	B-PRI
 목에	O
 건	O
 선수이다	B-POS
@@ -16922,12 +16851,12 @@ NBA	B-ORG
 
 팀 모어하우스
 모어하우스는 2000년에 브랜다이스 대학교에서 역사 전공으로 학사 학위를 받았다.
-모어하우스는	B-ORG
+모어하우스는	B-PER
 2000년에	B-DAT
 브랜다이스	B-ORG
 대학교에서	I-ORG
-역사	O
-전공으로	O
+역사	B-POS
+전공으로	I-POS
 학사	B-POS
 학위를	O
 받았다	O
@@ -16939,8 +16868,8 @@ NBA	B-ORG
 2012년	B-DAT
 올림픽	B-EVT
 이전에	O
-"	B-POS
-유대인이라는	B-POS
+"	O
+유대인이라는	O
 점	O
 "	O
 이	O
@@ -16953,7 +16882,7 @@ NBA	B-ORG
 매	O
 4년마다	B-DAT
 벌어지는	O
-유대인	B-EVT
+유대인	O
 스포츠	O
 대회인	O
 마카비아	B-EVT
@@ -16969,12 +16898,12 @@ NBA	B-ORG
 나이가	O
 90세를	B-NUM
 넘어	O
-2010년에는	B-NUM
+2010년에는	B-DAT
 은퇴도	O
 생각하였지만	O
 ,	O
-다음	B-DAT
-해	I-DAT
+다음	O
+해	O
 3월	B-DAT
 동일본	B-EVT
 대지진이	I-EVT
@@ -16990,7 +16919,7 @@ NBA	B-ORG
 2013년	B-DAT
 10월	I-DAT
 13일	I-DAT
-심부전으로	O
+심부전으로	B-HEC
 사망하여	O
 가족장	O
 후	O
@@ -17009,8 +16938,8 @@ NBA	B-ORG
 전	O
 총리	B-POS
 13	B-NUM
-.	O
-9	B-NUM
+.	I-NUM
+9	I-NUM
 %	I-NUM
 ,	O
 유승민	B-PER
@@ -17018,8 +16947,8 @@ NBA	B-ORG
 바른미래당	B-ORG
 대표	B-POS
 13	B-NUM
-.	O
-5	B-NUM
+.	I-NUM
+5	I-NUM
 %	I-NUM
 를	O
 기록했고	O
@@ -17033,16 +16962,16 @@ NBA	B-ORG
 전	O
 총리가	B-POS
 28	B-NUM
-.	O
-5	B-NUM
+.	I-NUM
+5	I-NUM
 %	I-NUM
 ,	O
 유승민	B-PER
 전	O
 대표가	B-POS
 10	B-NUM
-.	O
-7	B-NUM
+.	I-NUM
+7	I-NUM
 %	I-NUM
 를	O
 기록했다	O
@@ -17057,13 +16986,13 @@ NBA	B-ORG
 10일	I-DAT
 병원으로부터	O
 두드러기	B-HEC
-질환	O
+질환	I-HEC
 판정을	O
 받았는데	O
 이미	O
 7월	B-DAT
 4일	I-DAT
-병무청으로부터	O
+병무청으로부터	B-ORG
 징집	O
 면제	O
 판정을	O

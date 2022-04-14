@@ -26453,7 +26453,7 @@ UCLA에서	B-ORG
 그는	O
 2002년	B-DAT
 말	I-DAT
-인권과 O
+인권과	O
 중재	O
 역할에	O
 대한	O
@@ -26634,7 +26634,7 @@ UCLA에서	B-ORG
 .	O
 
 함석헌
-이로 인해 성서조선은 폐간되고, 함석헌은 서대문형무소에 미결수로 1943년 4월 1일까지 1년간 복역하였다(수형번호1588번).
+이로 인해 성서조선은 폐간되고, 함석헌은 서대문형무소에 미결수로 1943년 4월 1일까지 1년간 복역하였다(수형번호1588번)
 이로	O
 인해	O
 성서조선은	B-AFW
@@ -26648,10 +26648,9 @@ UCLA에서	B-ORG
 1일까지	I-DAT
 1년간	B-DAT
 복역하였다	O
-(	0
+(	O
 수형번호1588번	B-NUM
 )	O
-.	O
 
 함석헌
 1945년 혈맹의 친구였던, 김교신이 흥남에서 장티푸스로 별세하고, 그 해 8월 15일 해방을 맞이한다.
@@ -27177,7 +27176,7 @@ YWCA	B-ORG
 
 함석헌
 한 인터뷰에서 그는 '민족통합을 참으로 하려면 우리의 대적이 누군가부터 분명히 알아야 합니다.
-한   O
+한	O
 인터뷰에서	O
 그는	O
 '	O
@@ -27274,7 +27273,7 @@ YWCA	B-ORG
 시대에	O
 ,	O
 나라의	O
-주인이	B-CVL
+주인이	O
 민중이라면서	O
 민중을	O
 다스리려해서	O
@@ -27991,7 +27990,7 @@ Nida	B-LOC
 그의	I-AFW
 형제들	I-AFW
 (	O
-Joseph  B-AFW
+Joseph	B-AFW
 and	I-AFW
 his	I-AFW
 Brothers	I-AFW
@@ -28170,7 +28169,7 @@ H	B-PER
 .	I-PER
 T	I-PER
 .	I-PER
-Lowe    I-PER
+Lowe	I-PER
 -	I-PER
 Porter가	I-PER
 번역했다	O
@@ -29016,7 +29015,7 @@ OECD의	B-ORG
 노래	O
 콘테스트에서	O
 〈	O
-AMERICAN    B-AFW
+AMERICAN	B-AFW
 PIE	I-AFW
 〉	O
 를	O
@@ -29308,7 +29307,7 @@ MPG	B-ORG
 
 막스 플랑크
 괴팅겐에 있는 플랑크의 묘지.
-괴팅겐에    B-LOC
+괴팅겐에	B-LOC
 있는	O
 플랑크의	B-PER
 묘지	O
@@ -29606,7 +29605,7 @@ Neupfadfinder	B-ORG
 1923년	B-DAT
 8월	I-DAT
 로베르트	B-PER
-혼젤	I-PER7
+혼젤	I-PER
 과	O
 하이젠베르크는	B-LOC
 뮌헨에서	B-LOC
@@ -29735,9 +29734,9 @@ Neupfadfinder	B-ORG
 안익태
 1945년 8.15 조선 광복 이후 대한민국 서울의 숭실중학교와 숭실고등학교에서 각각 명예 졸업장을 수여받기도 한 그는 대한민국의 국가(國歌)인 애국가를 작곡했으며, 대표 작품으로 한국환상곡이 있다.
 1945년	B-DAT
-8   B-DAT
+8	B-DAT
 .	I-DAT
-15  I-DAT
+15	I-DAT
 조선	B-EVT
 광복	I-EVT
 이후	O
@@ -29763,7 +29762,7 @@ Neupfadfinder	B-ORG
 ,	O
 대표	O
 작품으로	O
-한국환상곡이  B-AFW
+한국환상곡이	B-AFW
 있다	O
 .	O
 
@@ -31025,7 +31024,7 @@ Teresa	I-PER
 1897년	B-DAT
 8월	I-DAT
 26일	I-DAT
-~   I-DAT
+~	I-DAT
 1990년	I-DAT
 7월	I-DAT
 18일	I-DAT
@@ -31233,7 +31232,7 @@ Teresa	I-PER
 26일	I-DAT
 )	O
 은	O
-일제  O
+일제	O
 강점기의	O
 한국	B-LOC
 소설가이다	B-POS
@@ -31883,7 +31882,7 @@ Brasileiro	I-AFW
 한국	B-EVT
 전쟁	I-EVT
 기간인	O
-1951년	B-DATG
+1951년	B-DAT
 5월부터	I-DAT
 1952년	I-DAT
 8월까지	I-DAT
@@ -34557,7 +34556,7 @@ Masaccio	B-PER
 요한네스	I-PER
 (	O
 Johannes	B-PER
-de  I-PER
+de	I-PER
 Sacrobosco	I-PER
 )	O
 가	O
@@ -34640,7 +34639,7 @@ Sacrobosco	I-PER
 2007년	B-DAT
 11월에	I-DAT
 네이처	B-ORG
-지가	I-OEG
+지가	I-ORG
 선정한	O
 인류역사를	O
 바꾼	O
@@ -36313,7 +36312,7 @@ MBC	B-ORG
 밀턴 프리드먼
 프리드먼은 1912년 7월 31일 뉴욕 브루클린에서 태어났다.
 프리드먼은	B-PER
-1912년	B-dAT
+1912년	B-DAT
 7월	I-DAT
 31일	I-DAT
 뉴욕	B-LOC
@@ -37098,7 +37097,7 @@ Avi	B-PER
 나이에	O
 세르파	O
 텐징	B-PER
-노르가이와   I-PER
+노르가이와	I-PER
 함께	O
 에베레스트	B-LOC
 산을	I-LOC
@@ -37371,7 +37370,7 @@ KBS	B-ORG
 해피선데이	B-AFW
 -	I-AFW
 1박	I-AFW
-2일	I-aFW
+2일	I-AFW
 》	O
 은	O
 5인	B-NUM
@@ -39162,7 +39161,7 @@ Award	I-PRI
 인도의 첫 여성 총리로, 현재까지도 여성으로서는 유일하다.
 인도의	B-LOC
 첫	B-NUM
-여성  B-PIV
+여성	B-PIV
 총리로	B-POS
 ,	O
 현재까지도	O
@@ -39579,7 +39578,7 @@ FIFA	B-ORG
 본명은 '네타리 헤르슐라그', 2003년에 학사 학위를 취득했다.
 본명은	O
 '	O
-네타리 B-PER
+네타리	B-PER
 헤르슐라그	I-PER
 '	O
 2003년에	B-DAT
@@ -39678,7 +39677,7 @@ MSL	B-EVT
 ,	O
 골든	B-PRI
 글로브상	I-PRI
-남우주연상	B-PRO
+남우주연상	B-PRI
 후보에	O
 지명되었다	O
 .	O
@@ -39851,7 +39850,7 @@ co	I-INF
 kr	I-INF
 /	I-INF
 ~	I-INF
-saulbass    I-INF
+saulbass	I-INF
 /	I-INF
 ssahn	I-INF
 /	I-INF
@@ -40678,7 +40677,7 @@ JJ모터스의	B-ORG
 송민도
 1960년대 후반에 장남이 베트남 전쟁에 참전한 것을 계기로 사이공에 식당을 차리고 머물렀다.
 1960년대	B-DAT
-후반에 O
+후반에	O
 장남이	B-PIV
 베트남	B-EVT
 전쟁에	I-EVT
@@ -43822,7 +43821,7 @@ Formula	I-INF
 와이즈넛
 2016년 인공지능 기업으로는 최초로 매출액 200억원 돌파뿐만 아니라 지난 2019년 자체 기록을 또 한번 갱신하는 매출액 277억 원을 달성하는 등, 인공지능 챗봇 및 검색 1위 기업으로 업계를 선도해나가고 있다.
 2016년	B-DAT
-인공지능    O
+인공지능	O
 기업으로는	O
 최초로	O
 매출액	O
@@ -43961,7 +43960,7 @@ Formula	I-INF
 2014년 연결기준 연매출 423억으로 공시하였으며 맛김 등을 제외한 순수 도자기 매출은 372억원으로 공시하였다.
 2014년	B-DAT
 연결기준	O
-연매출 O
+연매출	O
 423억으로	B-NUM
 공시하였으며	O
 맛김	O
@@ -44192,7 +44191,7 @@ GS25
 2월	I-DAT
 전두환	B-PER
 정권의	O
-'   O
+'	O
 국제그룹	O
 정상화	O
 대책	O
@@ -44500,7 +44499,7 @@ Contarex	B-INF
 SE를	I-INF
 마지막으로	O
 더이상	O
-카메라를    O
+카메라를	O
 생산하지	O
 않게	O
 된다	O
@@ -45086,7 +45085,7 @@ z가	I-PER
 영입했고	O
 ,	O
 영국	B-LOC
-여성  B-PIV
+여성	B-PIV
 그룹인	O
 '	O
 슈가베이비스	B-PER
@@ -45713,7 +45712,7 @@ KT테크
 영화	O
 지옥의	B-AFW
 천사들에	I-AFW
-등장
+등장	O
 (	O
 1924	B-DAT
 )	O
@@ -46756,7 +46755,7 @@ Makgai는	I-PER
 "	O
 제네릭을	O
 먹고있는	O
-에이즈 B-PIV
+에이즈	B-HEC
 감염인으로서	O
 노바티스에게	B-ORG
 소송을	O
@@ -46818,7 +46817,7 @@ CJ올리브영
 서울특별시	B-LOC
 영등포구	B-LOC
 양평로21길	B-LOC
-10  I-LOC
+10	I-LOC
 (	O
 양평동5가	B-LOC
 )	O
@@ -46992,7 +46991,7 @@ VFX	O
 아카데미	B-EVT
 어워즈	I-EVT
 시각효과상	B-PRI
-후보  O
+후보	O
 10에	B-NUM
 선정되었다	O
 .	O
@@ -47151,7 +47150,7 @@ Inc	I-ORG
 본사를	O
 둔	O
 중국의	B-LOC
-모바일 O
+모바일	O
 인터넷	O
 기업이다	O
 .	O
@@ -47294,7 +47293,7 @@ PC방의	O
 한	O
 것은	O
 임업회사	B-ORG
-큄메네의    B-ORG
+큄메네의	B-ORG
 상무이사	B-POS
 에이나르	B-PER
 아흘만과	I-PER
@@ -48252,7 +48251,7 @@ modusign	I-INF
 .	I-INF
 co	I-INF
 .	I-INF
-kr에서    I-INF
+kr에서	I-INF
 회원	B-POS
 가입	O
 후	O
@@ -48560,7 +48559,7 @@ Janzen	I-PER
 핀레이슨
 그래서 핀레이슨 기계공장이 제면소로 완전 전환된 것이 1828년이며, 이 때를 핀란드 면직산업의 시작점으로 친다.
 그래서	O
-핀레이슨	B-RG
+핀레이슨	B-ORG
 기계공장이	O
 제면소로	O
 완전	O
@@ -49038,7 +49037,7 @@ DB	O
 URL을	O
 56개의	B-NUM
 일반	O
-URL O
+URL	O
 카테고리와	O
 9개의	B-NUM
 악성	O
@@ -49075,7 +49074,7 @@ AJ가족
 :	O
 1928	B-DAT
 ~	I-DAT
-2014    I-DAT
+2014	I-DAT
 )	O
 이	O
 1960년	B-DAT
@@ -49518,7 +49517,7 @@ integration	O
 1998년 3월 기업부설연구소를 세우고, 2000년 10월 국내 최초 PDA(개인용 휴대단말기) 기반 내비게이션 ‘아이나비320’을 개발했다.
 1998년	B-DAT
 3월	I-DAT
-기업부설연구소를    O
+기업부설연구소를	O
 세우고	O
 ,	O
 2000년	B-DAT
@@ -49693,7 +49692,7 @@ OLX301G	B-INF
 )	O
 와	O
 망막색소변성증	B-HEC
-치료제 O
+치료제	O
 (	O
 OLX304A	B-INF
 )	O
@@ -49793,7 +49792,7 @@ tvN	B-ORG
 신화그룹
 창시자인 채계유 선생과 그의 아들 조나단 채가 그룹을 이끌었다.
 창시자인	B-POS
-채계유 B-PER
+채계유	B-PER
 선생과	B-POS
 그의	O
 아들	B-PIV
@@ -53265,9 +53264,9 @@ iOS와	B-INF
 이때	O
 이기전	B-PER
 (	O
-李   B-PER
-基   I-PER
-田   I-PER
+李	B-PER
+基	I-PER
+田	I-PER
 )	O
 회장이	B-POS
 쌍방울에	B-ORG
@@ -53644,7 +53643,7 @@ Look	O
 .	O
 (	O
 2020	B-DAT
-)   O
+)	O
 .	O
 
 제약
@@ -53749,7 +53748,7 @@ Dior	I-PER
 그가	O
 바로	O
 이브	B-PER
-생   I-PER
+생	I-PER
 로랑	I-PER
 (	O
 Yves	B-PER
@@ -54032,7 +54031,7 @@ SK텔레콤이	B-ORG
 2014년	B-DAT
 4월에는	I-DAT
 '	O
-대한민국	B-EVT,
+대한민국	B-EVT
 국민브랜드	I-EVT
 대상	I-EVT
 '	O

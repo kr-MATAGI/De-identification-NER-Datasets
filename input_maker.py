@@ -47,7 +47,10 @@ def make_npy(src_path: str, save_path: str, model_name: str, max_len: int):
         attention_mask = []
         labels = []
         for seg in read_items.segment_list:
-            lhs, rhs = seg.split("\t")
+            try:
+                lhs, rhs = seg.split("\t")
+            except:
+                print("1", read_items.sent, "\n", seg)
             token_list = tokenizer(lhs)
 
             token_len = len(token_list["input_ids"][1:-1])
@@ -63,8 +66,7 @@ def make_npy(src_path: str, save_path: str, model_name: str, max_len: int):
                         try:
                             labels.append(DE_IDENT_TAG[rhs])
                         except:
-                            print(read_items.sent, "\n", lhs, seg)
-                            exit()
+                            print("2", read_items.sent, "\n", seg)
                     else:
                         labels.append(DE_IDENT_TAG["X"])
         # end loop, read_items.segment_list
@@ -127,7 +129,7 @@ def split_npy_input(src_dir: str):
     src_token_type_ids = np.load(src_dir+"/token_type_ids.npy")
 
     total_sent_size = src_input_ids.shape[0]
-    train_idx_list = np.random.choice(total_sent_size, 1200, False)
+    train_idx_list = np.random.choice(total_sent_size, 2700, False)
     test_idx_list = []
     for idx in range(total_sent_size):
         if idx not in train_idx_list:

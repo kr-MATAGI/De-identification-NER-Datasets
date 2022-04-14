@@ -3,24 +3,24 @@
 서울메트로환경	B-ORG
 (	O
 서울메트로	B-ORG
-環	B-AFW
+環	I-ORG
 境	I-ORG
 )	O
 은	O
-서울도시철도	B-AFW
-1	B-AFW
-,	I-AFW
-2	I-AFW
-,	I-AFW
-3	I-AFW
-,	I-AFW
-4호선	I-AFW
+서울도시철도	O
+1	B-NUM
+,	I-NUM
+2	I-NUM
+,	I-NUM
+3	I-NUM
+,	I-NUM
+4호선	I-NUM
 120개역	B-NUM
 ,	O
 5개	B-NUM
 차량기지	O
 및	O
-전동차	B-AFW
+전동차	O
 2	B-NUM
 ,	I-NUM
 114량	I-NUM
@@ -42,7 +42,7 @@
 서울특별시 성동구 천호대로78길 15-48 (용답동) 서울교육문화센터 5층에 있다.
 서울특별시	B-LOC
 성동구	B-LOC
-천호대로78길	B-ORG
+천호대로78길	B-LOC
 15	B-NUM
 -	I-NUM
 48	I-NUM
@@ -60,10 +60,10 @@
 서울특별시	B-LOC
 송파구	B-LOC
 신천동	B-LOC
-롯데월드타워	B-AFW
+롯데월드타워	B-LOC
 건너편에	O
 있는	O
-롯데캐슬골드에	B-ORG
+롯데캐슬골드에	B-LOC
 위치에	O
 있으며	O
 본점은	O
@@ -79,23 +79,23 @@
 1998년 넥슨의 '바람의 나라'를 시작으로 '미르의 전설', '카발' 등 100여편의 온라임게임 음악 및 사운드를 제작해 왔다.
 1998년	B-DAT
 넥슨의	B-ORG
-'	B-AFW
-바람의	I-AFW
+'	O
+바람의	B-AFW
 나라	I-AFW
 '	O
 를	O
 시작으로	O
-'	B-AFW
-미르의	I-AFW
+'	O
+미르의	B-AFW
 전설	I-AFW
 '	O
 ,	O
-'	B-AFW
-카발	I-AFW
-'	I-AFW
+'	O
+카발	B-AFW
+'	O
 등	O
 100여편의	O
-온라임게임	B-HEC
+온라임게임	B-AFW
 음악	O
 및	O
 사운드를	O
@@ -104,18 +104,16 @@
 .	O
 
 스탠더드 오일
-창업자와 대표이사인 존 록펠러()는 이 회사를 통해 억만장자가 되었고, 근대 미국 역사상 가장 부유한 사람이 되었지만 스탠더드 오일이 자신의 경쟁사에게 비도덕적인 행동을 은밀히 했다는 주장도 있었다.
+창업자와 대표이사인 존 록펠러는 이 회사를 통해 억만장자가 되었고, 근대 미국 역사상 가장 부유한 사람이 되었지만 스탠더드 오일이 자신의 경쟁사에게 비도덕적인 행동을 은밀히 했다는 주장도 있었다.
 창업자와	B-POS
 대표이사인	B-POS
 존	B-PER
 록펠러	I-PER
-(	O
-)	O
 는	O
 이	O
 회사를	O
 통해	O
-억만장자가	B-POS
+억만장자가	O
 되었고	O
 ,	O
 근대	O
@@ -139,15 +137,15 @@
 
 맥겔리 모터사이클
 맥겔리 모터사이클(Megelli Motorcycles)은 신규 모터사이클 제조 브랜드로, 2007년 11월 밀라노 EICMA 전시회에 자신들의 최초모델을 전시했다.
-맥겔리	B-HEC
-모터사이클	I-HEC
+맥겔리	B-ORG
+모터사이클	I-ORG
 (	O
-Megelli	I-HEC
-Motorcycles	I-HEC
+Megelli	B-ORG
+Motorcycles	I-ORG
 )	O
 은	O
 신규	O
-모터사이클	B-HEC
+모터사이클	O
 제조	O
 브랜드로	O
 ,	O
@@ -168,8 +166,8 @@ EICMA	I-EVT
 미디어	O
 회사의	O
 6천만	B-NUM
-곡	I-NUM
-이상의	I-NUM
+곡	O
+이상의	O
 노래나	O
 뮤직	O
 비디오	O
@@ -180,9 +178,9 @@ EICMA	I-EVT
 제공되는	O
 기본	O
 기능은	O
-무료이며	B-NUM
+무료이며	O
 ,	O
-유료	B-NUM
+유료	O
 구독을	O
 통해	O
 오프라인	O
@@ -198,7 +196,7 @@ EICMA	I-EVT
 
 스포티파이
 사용자는 아티스트, 앨범 또는 장르의 종류별로 검색할 수 있으며 재생 목록을 생성하거나 편집 및 공유할 수 있다.
-사용자는	B-POS
+사용자는	O
 아티스트	B-POS
 ,	O
 앨범	O
@@ -234,19 +232,19 @@ EICMA	I-EVT
 및	O
 아시아	B-LOC
 일부에서	O
-윈도우	B-HEC
+윈도우	B-INF
 ,	O
-macOS	B-HEC
+macOS	B-INF
 ,	O
-리눅스	B-HEC
-컴퓨터	I-HEC
+리눅스	B-INF
+컴퓨터	O
 ,	O
-iOS	B-HEC
+iOS	B-INF
 ,	O
-안드이드	B-HEC
-스마트폰	I-HEC
+안드이드	B-INF
+스마트폰	O
 및	O
-태블릿을	B-HEC
+태블릿을	O
 포함한	O
 대부분의	O
 최신	O
@@ -262,9 +260,9 @@ iOS	B-HEC
 수익의	O
 약	B-NUM
 70	I-NUM
-%	O
+%	I-NUM
 를	O
-저작권	B-POS
+저작권	O
 보유자에게	O
 분배한	O
 다음	O
@@ -317,9 +315,9 @@ iOS	B-HEC
 블랙베리 (기업)
 2008년에는 2/4분기 기준 가입자 수 1,900만 명을 넘어 미국의 스마트폰 시장 점유율 1위를 자랑하기도 했으나 그 후 애플과 삼성전자에 의해 꾸준히 점유율이 떨어졌다.
 2008년에는	B-DAT
-2	B-DAT
-/	I-DAT
-4분기	I-DAT
+2	B-NUM
+/	I-NUM
+4분기	I-NUM
 기준	O
 가입자	O
 수	O
@@ -329,7 +327,7 @@ iOS	B-HEC
 명을	I-NUM
 넘어	O
 미국의	B-LOC
-스마트폰	B-HEC
+스마트폰	O
 시장	O
 점유율	O
 1위를	B-NUM
@@ -349,15 +347,15 @@ iOS	B-HEC
 2016년 12월부터 블랙베리는 스마트폰 생산을 중단하고 2013년에 야심차게 발표한 블랙베리 10을 더이상 개발하지 않을 것을 공표하였다.
 2016년	B-DAT
 12월부터	I-DAT
-블랙베리는	B-HEC
-스마트폰	B-HEC
+블랙베리는	B-ORG
+스마트폰	O
 생산을	O
 중단하고	O
 2013년에	B-DAT
 야심차게	O
 발표한	O
-블랙베리	B-HEC
-10을	I-HEC
+블랙베리	B-INF
+10을	I-INF
 더이상	O
 개발하지	O
 않을	O
@@ -373,7 +371,7 @@ TCL	B-ORG
 커뮤니케이션에	I-ORG
 글로벌	O
 브랜드	O
-사용권을	B-POS
+사용권을	O
 라이센싱하는	O
 계약을	O
 체결하였다	O
@@ -381,11 +379,11 @@ TCL	B-ORG
 
 엑타코
 아마존 Kindle, 아이리버 STORY와 같은 제품 군에 속한다.
-아마존	B-ORG
-Kindle	B-HEC
+아마존	B-INF
+Kindle	I-INF
 ,	O
-아이리버	B-ORG
-STORY와	I-HEC
+아이리버	B-INF
+STORY와	I-INF
 같은	O
 제품	O
 군에	O
@@ -396,44 +394,44 @@ STORY와	I-HEC
 대표적인 솔루션으로는 인공지능 챗봇 솔루션 와이즈 아이챗(WISE i Chat)과 인공지능 컨텐츠 큐레이팅 솔루션 와이즈 아이데스크(WISE i Desk), 통합 검색 솔루션인 서치포뮬러원(Search Formula-1)이 있으며, 빅데이터 의미분석 솔루션, 외부 정보 수집 솔루션, 자동 분류 솔루션 등이 있다.
 대표적인	O
 솔루션으로는	O
-인공지능	B-HEC
-챗봇	I-HEC
-솔루션	I-HEC
-와이즈	I-HEC
-아이챗	I-HEC
+인공지능	O
+챗봇	O
+솔루션	O
+와이즈	B-INF
+아이챗	I-INF
 (	O
-WISE	I-HEC
-i	I-HEC
-Chat	I-HEC
+WISE	B-INF
+i	I-INF
+Chat	I-INF
 )	O
 과	O
-인공지능	B-HEC
-컨텐츠	I-HEC
-큐레이팅	I-HEC
-솔루션	I-HEC
-와이즈	B-HEC
-아이데스크	I-HEC
+인공지능	O
+컨텐츠	O
+큐레이팅	O
+솔루션	O
+와이즈	B-INF
+아이데스크	I-INF
 (	O
-WISE	B-HEC
-i	I-HEC
-Desk	I-HEC
+WISE	B-INF
+i	I-INF
+Desk	I-INF
 )	O
 ,	O
 통합	O
 검색	O
 솔루션인	O
-서치포뮬러원	B-HEC
+서치포뮬러원	B-INF
 (	O
-Search	I-HEC
-Formula	I-HEC
--	I-HEC
-1	I-HEC
+Search	B-INF
+Formula	I-INF
+-	I-INF
+1	I-INF
 )	O
 이	O
 있으며	O
 ,	O
-빅데이터	B-HEC
-의미분석	I-HEC
+빅데이터	O
+의미분석	O
 솔루션	O
 ,	O
 외부	O
@@ -451,7 +449,7 @@ Formula	I-HEC
 와이즈넛
 2016년 인공지능 기업으로는 최초로 매출액 200억원 돌파뿐만 아니라 지난 2019년 자체 기록을 또 한번 갱신하는 매출액 277억 원을 달성하는 등, 인공지능 챗봇 및 검색 1위 기업으로 업계를 선도해나가고 있다.
 2016년	B-DAT
-인공지능	B-HEC
+인공지능    O
 기업으로는	O
 최초로	O
 매출액	O
@@ -471,8 +469,8 @@ Formula	I-HEC
 달성하는	O
 등	O
 ,	O
-인공지능	B-HEC
-챗봇	I-HEC
+인공지능	O
+챗봇	O
 및	O
 검색	O
 1위	B-NUM
@@ -488,7 +486,7 @@ Formula	I-HEC
 새롭게	O
 출시한	O
 신제품	O
-소주로	B-POS
+소주로	O
 대한민국	B-LOC
 내에서	O
 최초로	O
@@ -497,10 +495,10 @@ Formula	I-HEC
 단일주정을	O
 사용하여	O
 만든	O
-“	B-HEC
-월	O
-,	O
-강	B-HEC
+“	O
+월	B-INF
+,	I-INF
+강	I-INF
 ”	O
 을	O
 출시하였다	O
@@ -512,8 +510,8 @@ Formula	I-HEC
 대한민국	B-LOC
 전라남도	B-LOC
 목포시	B-LOC
-호남로68번길	B-AFW
-36	I-DAT
+호남로68번길	B-LOC
+36	I-LOC
 (	O
 대안동	B-LOC
 )	O
@@ -526,13 +524,13 @@ Formula	I-HEC
 장성군	B-LOC
 장성읍	B-LOC
 보해길	B-LOC
-41에	I-DAT
+41에	I-LOC
 위치하고	O
 있으며	O
 ,	O
 술의	O
-80	O
-%	O
+80	B-NUM
+%	I-NUM
 이상을	O
 차지하는	O
 좋은	O
@@ -568,8 +566,8 @@ Formula	I-HEC
 노사상생	O
 우수기업	O
 대한민국	B-LOC
-국무총리	B-POS
-표창을	O
+국무총리	B-PRI
+표창을	I-PRI
 받으며	O
 어려운	O
 경제난	O
@@ -587,12 +585,13 @@ Formula	I-HEC
 .	O
 
 스튜디오 썸머
-2014년 연결기준 연매출423억으로 공시하였으며 맛김 등을 제외한 순수 도자기 매출은 372억원으로 공시하였다.
+2014년 연결기준 연매출 423억으로 공시하였으며 맛김 등을 제외한 순수 도자기 매출은 372억원으로 공시하였다.
 2014년	B-DAT
 연결기준	O
-연매출423억으로	B-NUM
+연매출 O
+423억으로	B-NUM
 공시하였으며	O
-맛김	B-PER
+맛김	O
 등을	O
 제외한	O
 순수	O
@@ -624,7 +623,7 @@ Formula	I-HEC
 있으며	O
 조선의	B-LOC
 유명한	O
-소프트웨어관련	B-HEC
+소프트웨어관련	O
 부문회사	O
 ,	O
 과학연구기관들과의	O
@@ -640,14 +639,14 @@ Formula	I-HEC
 봄바디어(Bombardier Inc.)는 조제프아르망 봉바르디에가 1942년에 창립한 캐나다의 기업이다.
 봄바디어	B-ORG
 (	O
-Bombardier	I-ORG
+Bombardier	B-ORG
 Inc	I-ORG
 .	I-ORG
 )	O
 는	O
-조제프아르망	B-ORG
-봉바르디에가	I-ORG
-1942년에	B-NUM
+조제프아르망	B-PER
+봉바르디에가	I-PER
+1942년에	B-DAT
 창립한	O
 캐나다의	B-LOC
 기업이다	O
@@ -660,7 +659,7 @@ Inc	I-ORG
 13일부터	I-DAT
 2020년	I-DAT
 3월까지	I-DAT
-봄바디어의	B-ORG
+봄바디어의	B-PER
 회장과	B-POS
 CEO를	B-POS
 역임했던	O
@@ -669,8 +668,8 @@ CEO를	B-POS
 2018년	B-DAT
 11월	I-DAT
 ,	O
-봄바디어의	B-ORG
-700만주를	B-POS
+봄바디어의	B-PER
+700만주를	B-NUM
 매각하려고	O
 한	O
 것이	O
@@ -694,13 +693,13 @@ GS25
 동대문구	B-LOC
 회기동에	B-LOC
 첫	B-NUM
-점포인	I-NUM
-경희점이	B-ORG
+점포인	O
+경희점이	O
 개설된	O
 이후	O
 크게	O
 성장하여	O
-2013년	B-NUM
+2013년	B-DAT
 현재	O
 전국에	O
 8	B-NUM
@@ -721,22 +720,22 @@ GS리테일의 멤버십 카드인 GS&포인트라는 마일리지가 있으며,
 GS리테일의	B-ORG
 멤버십	O
 카드인	O
-GS	B-ORG
+GS	O
 &	O
 포인트라는	O
 마일리지가	O
 있으며	O
 ,	O
-티머니와	B-PIV
+티머니와	B-ORG
 제휴하여	O
 GS25	B-ORG
 멤버십	O
-티머니	B-PIV
+티머니	O
 카드	O
 및	O
 업그레이드	O
 버전인	O
-팝카드가	B-ORG
+팝카드가	B-INF
 출시되었다	O
 .	O
 
@@ -751,13 +750,13 @@ GS25
 
 한솥도시락
 한솥도시락은 대한민국 1위 도시락 프랜차이즈 업체로 1993년 7월 7일 종로구청 앞에 1호점을 오픈하여 24년 동안 전국에 680여개의 점포를 운영하고 있다.
-한솥도시락은	B-POS
+한솥도시락은	B-ORG
 대한민국	B-LOC
 1위	B-NUM
 도시락	O
 프랜차이즈	O
 업체로	O
-1993년	B-NUM
+1993년	B-DAT
 7월	I-DAT
 7일	I-DAT
 종로구청	B-ORG
@@ -784,9 +783,9 @@ GS25
 모태로	O
 고무신	O
 브랜드	O
-′	B-HEC
-왕자표	B-POS
-고무신	I-HEC
+′	O
+왕자표	B-INF
+고무신	I-INF
 ′	O
 을	O
 출시하여	O
@@ -820,7 +819,7 @@ GS25
 2월	I-DAT
 전두환	B-PER
 정권의	O
-'	B-ORG
+'   O
 국제그룹	O
 정상화	O
 대책	O
@@ -831,7 +830,7 @@ GS25
 정리와	O
 함께	O
 하루	B-DAT
-아침에	B-DAT
+아침에	I-DAT
 공중분해되는	O
 비운을	O
 겪게	O
@@ -875,13 +874,13 @@ GS25
 이	O
 시점에서	O
 전두환이	B-PER
-재벌	O
-총수들을	B-POS
+재벌	B-POS
+총수들을	I-POS
 소집하였고	O
 ,	O
-1985년	B-NUM
+1985년	B-DAT
 2월	I-DAT
-총선에	O
+총선에	B-EVT
 대비해	O
 전두환이	B-PER
 직접	O
@@ -906,7 +905,7 @@ GS25
 부산을	B-LOC
 떠난	O
 상태였고	O
-총선에서	O
+총선에서	B-EVT
 김영삼을	B-PER
 비롯한	O
 야당세력이	O
@@ -914,7 +913,7 @@ GS25
 전두환은	B-PER
 이때	O
 분노하며	O
-국제그룹을	O
+국제그룹을	B-ORG
 해체시키기로	O
 결심하기에	O
 이르렀다	O
@@ -927,13 +926,13 @@ AT	B-ORG
 T	I-ORG
 랩스	I-ORG
 (	O
-AT	I-ORG
+AT	B-ORG
 &	I-ORG
 T	I-ORG
 Labs	I-ORG
-,	O
-Inc	O
-.	O
+,	I-ORG
+Inc	I-ORG
+.	I-ORG
 )	O
 는	O
 미국의	B-LOC
@@ -943,7 +942,7 @@ Inc	O
 AT	B-ORG
 &	I-ORG
 T의	I-ORG
-R	B-HEC
+R	O
 &	O
 D	O
 부문을	O
@@ -963,8 +962,8 @@ RBC의	B-ORG
 지냈던	O
 유명	O
 인물로는	O
-캐나디안	B-LOC
-퍼시픽	B-ORG
+캐나디안	B-ORG
+퍼시픽	I-ORG
 철도의	I-ORG
 회장을	B-POS
 지냈던	O
@@ -975,12 +974,12 @@ RBC의	B-ORG
 
 둘리나라
 둘리나라는 아기공룡 둘리를 1983년부터 10년간 보물섬에 연재하던 원작자 김수정이 대한민국 만화캐릭터를 지속성이고 세계적인 캐릭터로 성장시키기 위해 조직적인 활동이 필요함을 느끼고 1995년 2월 설립한 회사이다.
-둘리나라는	B-PER
+둘리나라는	B-ORG
 아기공룡	O
 둘리를	B-PER
-1983년부터	B-NUM
+1983년부터	B-DAT
 10년간	B-DAT
-보물섬에	B-LOC
+보물섬에	O
 연재하던	O
 원작자	B-POS
 김수정이	B-PER
@@ -1005,31 +1004,29 @@ RBC의	B-ORG
 2003년, IT/PC 업계 최초로 산업자원부 주관 '골든브랜드'를 수상하였으며, ISO 9001인증을 획득하였다.
 2003년	B-DAT
 ,	O
-IT	B-HEC
-/	I-HEC
-PC	I-HEC
+IT	O
+/	O
+PC	O
 업계	O
 최초로	O
 산업자원부	B-ORG
 주관	O
 '	O
-골든브랜드	O
+골든브랜드	B-PRI
 '	O
 를	O
 수상하였으며	O
 ,	O
-ISO	B-EVT
-9001인증을	I-EVT
+ISO	B-PRI
+9001인증을	I-PRI
 획득하였다	O
 .	O
 
 칼자이스
-칼 자이스 그룹()의 본사는 독일 바덴뷔르템베르크주 오버코헨에 소재하고 있다.
+칼 자이스 그룹의 본사는 독일 바덴뷔르템베르크주 오버코헨에 소재하고 있다.
 칼	B-ORG
 자이스	I-ORG
 그룹	I-ORG
-(	O
-)	O
 의	O
 본사는	O
 독일	B-LOC
@@ -1042,8 +1039,8 @@ ISO	B-EVT
 칼자이스
 현재 칼 자이스는 전 세계 30여개 국에 지사를 운영하고 있고, 100여개 이상의 국가에서 영업하고 있으며, 독일 외에 유럽, 북미대륙, 미국, 아시아에서도 생산 설비를 갖추고 있다.
 현재	O
-칼	B-LOC
-자이스는	I-PER
+칼	B-ORG
+자이스는	I-ORG
 전	O
 세계	O
 30여개	B-NUM
@@ -1074,29 +1071,27 @@ ISO	B-EVT
 .	O
 
 칼자이스
-이는 칼 자이스가 1936년 세계 최초의 35mm 단일 렌즈 리플렉스 카메라인 키네 엑삭타()를 생산했으며, 이를 시작으로 35mm 카메라의 보급 및 개발에 가장 큰 기여를 한 회사이기 때문이다.
+이는 칼 자이스가 1936년 세계 최초의 35mm 단일 렌즈 리플렉스 카메라인 키네 엑삭타를 생산했으며, 이를 시작으로 35mm 카메라의 보급 및 개발에 가장 큰 기여를 한 회사이기 때문이다.
 이는	O
-칼	B-PER
-자이스가	I-PER
-1936년	B-NUM
+칼	B-ORG
+자이스가	I-ORG
+1936년	B-DAT
 세계	O
 최초의	O
 35mm	B-NUM
 단일	O
-렌즈	B-HEC
-리플렉스	I-HEC
-카메라인	I-HEC
-키네	B-HEC
-엑삭타	I-HEC
-(	O
-)	O
+렌즈	O
+리플렉스	O
+카메라인	O
+키네	B-INF
+엑삭타	I-INF
 를	O
 생산했으며	O
 ,	O
 이를	O
 시작으로	O
-35mm	B-HEC
-카메라의	I-HEC
+35mm	B-NUM
+카메라의	O
 보급	O
 및	O
 개발에	O
@@ -1115,7 +1110,7 @@ ISO	B-EVT
 이후	O
 일본	B-LOC
 기업의	O
-카메라	B-HEC
+카메라	O
 시장	O
 진출로	O
 인해	O
@@ -1128,11 +1123,11 @@ ISO	B-EVT
 시작했고	O
 ,	O
 1969년	B-DAT
-Contarex	B-HEC
-SE를	I-HEC
+Contarex	B-INF
+SE를	I-INF
 마지막으로	O
 더이상	O
-카메라를	B-HEC
+카메라를    O
 생산하지	O
 않게	O
 된다	O
@@ -1148,7 +1143,7 @@ SE를	I-HEC
 의류	O
 용품들을	O
 한	B-NUM
-매장에서	I-NUM
+매장에서	O
 취급하고	O
 있다는	O
 특징이	O
@@ -1156,44 +1151,43 @@ SE를	I-HEC
 .	O
 
 이월드
-이월드(E · WORLD, )는 대한민국 대구광역시 달서구 두류공원로 200(두류 2동)에 있는 테마파크이다.
+이월드(E · WORLD)는 대한민국 대구광역시 달서구 두류공원로 200(두류 2동)에 있는 테마파크이다.
 이월드	B-LOC
 (	O
 E	B-ORG
-·	O
-WORLD	B-ORG
-,	O
+·	I-ORG
+WORLD	I-ORG
 )	O
 는	O
 대한민국	B-LOC
 대구광역시	B-LOC
 달서구	B-LOC
-두류공원로	B-AFW
-200	I-AFW
+두류공원로	B-LOC
+200	I-LOC
 (	O
 두류	B-LOC
-2동	I-AFW
+2동	I-LOC
 )	O
 에	O
 있는	O
-테마파크이다	B-AFW
+테마파크이다	O
 .	O
 
 이월드
 2019년 8월 16일에 근무하던 아르바이트생이 놀이기구 롤러코스터 '허리케인'에 끼여 오른쪽 다리 무릎 아랫부분이 절단된 사고가 발생했다.
-2019년	B-NUM
+2019년	B-DAT
 8월	I-DAT
 16일에	I-DAT
 근무하던	O
 아르바이트생이	B-POS
 놀이기구	O
-롤러코스터	B-AFW
-'	B-HEC
-허리케인	B-HEC
+롤러코스터	O
+'	O
+허리케인	B-INF
 '	O
 에	O
 끼여	O
-오른쪽	B-HEC
+오른쪽	O
 다리	O
 무릎	O
 아랫부분이	O
@@ -1206,11 +1200,11 @@ WORLD	B-ORG
 나무소프트(Namusoft)는 대한민국의 소프트웨어 회사로, 서울특별시 금천구 가산동에 본사를 두고 있다.
 나무소프트	B-ORG
 (	O
-Namusoft	I-ORG
+Namusoft	B-ORG
 )	O
 는	O
 대한민국의	B-LOC
-소프트웨어	B-HEC
+소프트웨어	O
 회사로	O
 ,	O
 서울특별시	B-LOC
@@ -1223,7 +1217,7 @@ Namusoft	I-ORG
 
 나무소프트
 파일링플래너는 업무 수행에 대한 자원을 비용과 시간으로 관리하여 객관적인 평가지표를 제시한다.
-파일링플래너는	B-POS
+파일링플래너는	B-INF
 업무	O
 수행에	O
 대한	O
@@ -1238,15 +1232,15 @@ Namusoft	I-ORG
 
 나무소프트
 엔터프라이즈 디스크 (Enterprise Disk)는 네트워크 드라이브 기반의 기업용 파일 관리 소프트웨어이다.
-엔터프라이즈	B-HEC
-디스크	I-HEC
+엔터프라이즈	B-INF
+디스크	I-INF
 (	O
-Enterprise	I-HEC
-Disk	I-HEC
+Enterprise	B-INF
+Disk	I-INF
 )	O
 는	O
-네트워크	B-HEC
-드라이브	I-HEC
+네트워크	O
+드라이브	O
 기반의	O
 기업용	O
 파일	O
@@ -1258,37 +1252,36 @@ Disk	I-HEC
 27세 독일의 이민자 Friedrich Gretsch가 미국에 도착한 직후 뉴욕 브로클린에 1883년 설립한 회사이다.
 27세	B-NUM
 독일의	B-LOC
-이민자	B-POS
-Friedrich	B-ORG
-Gretsch가	I-ORG
+이민자	O
+Friedrich	B-PER
+Gretsch가	I-PER
 미국에	B-LOC
 도착한	O
 직후	O
 뉴욕	B-LOC
 브로클린에	B-LOC
-1883년	B-NUM
+1883년	B-DAT
 설립한	O
 회사이다	O
 .	O
 
 매일유업
-매일유업(每日乳業, )은 1969년 대한민국 정부의 종합낙농개발사업의 일환으로 진암 故 김복용 회장이 설립한 유가공업체다.
+매일유업(每日乳業)은 1969년 대한민국 정부의 종합낙농개발사업의 일환으로 진암 故 김복용 회장이 설립한 유가공업체다.
 매일유업	B-ORG
 (	O
-每	O
-日	O
-乳	B-POS
-業	O
-,	O
+每	B-ORG
+日	I-ORG
+乳	I-ORG
+業	I-ORG
 )	O
 은	O
-1969년	B-NUM
+1969년	B-DAT
 대한민국	B-LOC
 정부의	B-ORG
 종합낙농개발사업의	O
 일환으로	O
 진암	B-PER
-故	I-PER
+故	O
 김복용	I-PER
 회장이	B-POS
 설립한	O
@@ -1298,11 +1291,11 @@ Gretsch가	I-ORG
 SKM (기업)
 1990년대 후반 기준으로 전 세계 오디오테이프 산업에서 30% 가량을 차지했던 적이 있었으나 2000년대에 들어서면서 법정관리에 들어갔으며, 2012년부로 결국 폐업했다.
 1990년대	B-DAT
-후반	I-DAT
+후반	O
 기준으로	O
 전	O
 세계	O
-오디오테이프	B-HEC
+오디오테이프	O
 산업에서	O
 30	B-NUM
 %	I-NUM
@@ -1315,7 +1308,7 @@ SKM (기업)
 법정관리에	O
 들어갔으며	O
 ,	O
-2012년부로	B-NUM
+2012년부로	B-DAT
 결국	O
 폐업했다	O
 .	O
@@ -1332,10 +1325,10 @@ AIA생명
 ,	I-NUM
 912억원과	I-NUM
 위험기준	O
-자기자본비율	B-HEC
+자기자본비율	O
 (	O
-RBC	B-HEC
-ratio	I-HEC
+RBC	O
+ratio	O
 )	O
 로	O
 환산	O
@@ -1352,7 +1345,7 @@ AIA생명은	B-ORG
 서비스를	O
 자랑하는	O
 우량	O
-생명보험사로서	B-POS
+생명보험사로서	O
 2000년	B-DAT
 이후	O
 AIG생명으로	B-ORG
@@ -1361,7 +1354,7 @@ AIG생명으로	B-ORG
 6월	I-DAT
 1일에	I-DAT
 AIG생명에서	B-ORG
-'	B-ORG
+'	O
 AIA생명	B-ORG
 '	O
 으로	O
@@ -1377,7 +1370,7 @@ AIA생명	B-ORG
 1971년	B-DAT
 상호명을	O
 한국비락에서	B-ORG
-'	B-ORG
+'	O
 비락유업	B-ORG
 '	O
 로	O
@@ -1391,7 +1384,7 @@ AIA생명	B-ORG
 
 노리단
 노리단은 10살 어린이부터 40대 중년까지 다세대가 함께 참여 가능하며 구성원 모두가 공연하는 배우, 워크숍을 하는 교사, 손공예를 하는 제작자의 경험을 순환하는 삶을 지향한다.
-노리단은	B-PER
+노리단은	B-ORG
 10살	B-NUM
 어린이부터	O
 40대	B-NUM
@@ -1438,24 +1431,23 @@ AIA생명	B-ORG
 
 배럿 화기사
 Florin Krasniqi와 그의 동료들은 코소보 전쟁이 일어나던 90년대 말 라이플총 을 얻게 된다.
-Florin	B-HEC
-Krasniqi와	I-HEC
+Florin	B-PER
+Krasniqi와	I-PER
 그의	O
 동료들은	O
-코소보	B-LOC
-전쟁이	O
+코소보	B-EVT
+전쟁이	I-EVT
 일어나던	O
 90년대	B-DAT
 말	I-DAT
-라이플총	B-AFW
+라이플총	O
 을	O
 얻게	O
 된다	O
 .	O
 
 대한중석
-* 1968년 4월, 대한민국 정부의 합작투자로(정부 75%, 대한중석 25%) 포항종합제철을 설립하였다.
-*	O
+1968년 4월, 대한민국 정부의 합작투자로(정부 75%, 대한중석 25%) 포항종합제철을 설립하였다.
 1968년	B-DAT
 4월	I-DAT
 ,	O
@@ -1465,7 +1457,7 @@ Krasniqi와	I-HEC
 (	O
 정부	B-ORG
 75	B-NUM
-%	O
+%	I-NUM
 ,	O
 대한중석	B-ORG
 25	B-NUM
@@ -1479,10 +1471,10 @@ Krasniqi와	I-HEC
 영풍문고(永豊文庫)는 서울특별시 강남구에 본사를 두고 있는 대한민국의 대형서점이다.
 영풍문고	B-ORG
 (	O
-永	B-AFW
-豊	B-AFW
-文	I-AFW
-庫	I-AFW
+永	B-ORG
+豊	I-ORG
+文	I-ORG
+庫	I-ORG
 )	O
 는	O
 서울특별시	B-LOC
@@ -1498,11 +1490,11 @@ Krasniqi와	I-HEC
 인천백화점(仁川百貨店)은 인천광역시 중구 인현동에 위치했던 백화점이다.
 인천백화점	B-ORG
 (	O
-仁	B-AFW
-川	B-AFW
-百	I-AFW
-貨	I-AFW
-店	I-AFW
+仁	B-ORG
+川	I-ORG
+百	I-ORG
+貨	I-ORG
+店	I-ORG
 )	O
 은	O
 인천광역시	B-LOC
@@ -1529,9 +1521,9 @@ IMF사태	B-EVT
 방송국	O
 주식의	O
 99	B-NUM
-.	O
-98	O
-%	O
+.	I-NUM
+98	I-NUM
+%	I-NUM
 를	O
 핀란드	B-LOC
 정부가	B-ORG
@@ -1540,10 +1532,10 @@ IMF사태	B-EVT
 공기업으로	O
 ,	O
 4개의	B-NUM
-텔레비전	B-HEC
+텔레비전	O
 채널과	O
 13개의	B-NUM
-라디오	B-HEC
+라디오	O
 채널	O
 및	O
 25개의	B-NUM
@@ -1564,7 +1556,7 @@ IMF사태	B-EVT
 BMG의	I-ORG
 지분	O
 50	B-NUM
-%	O
+%	I-NUM
 를	O
 소니가	B-ORG
 모두	O
@@ -1582,22 +1574,22 @@ BMG의	I-ORG
 (	O
 tinnos	B-ORG
 ,	O
-대표	O
+대표	B-POS
 이상락	B-PER
 )	O
 는	O
 대한민국의	B-LOC
-자동차	B-AFW
+자동차	O
 부품	O
 기업으로	O
 ,	O
-Connected	B-HEC
-IVI	I-HEC
+Connected	O
+IVI	O
 (	O
-In	I-HEC
--	I-HEC
-Vehicle	I-HEC
-Infotainment	I-HEC
+In	O
+-	O
+Vehicle	O
+Infotainment	O
 )	O
 제품을	O
 개발	O
@@ -1605,10 +1597,10 @@ Infotainment	I-HEC
 생산	O
 ,	O
 100	B-NUM
-%	O
+%	I-NUM
 해외로	O
 수출하는	O
-전자	B-HEC
+전자	O
 /	O
 정보	O
 통신	O
@@ -1628,8 +1620,8 @@ Infotainment	I-HEC
 및	O
 수입대체	O
 ,	O
-자동차와	B-AFW
-IT의	B-HEC
+자동차와	O
+IT의	O
 융합	O
 발전	O
 ,	O
@@ -1646,35 +1638,35 @@ IT의	B-HEC
 2015년	B-DAT
 한국을	B-LOC
 빛낸	O
-이달의	B-ORG
-무역인상	B-POS
+이달의	O
+무역인상	B-PRI
 ,	O
-자동차의날	B-AFW
-자동차	B-AFW
+자동차의날	O
+자동차	O
 산업	O
 발전	O
 유공	O
-대통령	B-POS
-표창을	O
+대통령	B-PRI
+표창을	I-PRI
 수여	O
 받았다	O
 .	O
 
 락 네이션
 락 네이션(Roc Nation)은 미국의 힙합레이블로 래퍼 Jay-z가 설립했다, 과거에는 소니 뮤직 엔터테인먼트 산하에 있었으나 현재는 유니버설 뮤직 그룹 산하에 있다.
-락	B-AFW
-네이션	I-AFW
+락	B-ORG
+네이션	I-ORG
 (	O
-Roc	B-AFW
-Nation	I-AFW
+Roc	B-ORG
+Nation	I-ORG
 )	O
 은	O
 미국의	B-LOC
 힙합레이블로	O
 래퍼	B-POS
-Jay	B-ORG
--	O
-z가	O
+Jay	B-PER
+-	I-PER
+z가	I-PER
 설립했다	O
 ,	O
 과거에는	O
@@ -1693,7 +1685,7 @@ z가	O
 
 락 네이션
 데프잼과 결별 후, 그는 힙합회사 라이브 네이션의 회사 락 네이션을 설립하고, 계약한다.
-데프잼과	B-POS
+데프잼과	B-ORG
 결별	O
 후	O
 ,	O
@@ -1702,15 +1694,15 @@ z가	O
 라이브	O
 네이션의	O
 회사	O
-락	O
-네이션을	O
+락	B-ORG
+네이션을	I-ORG
 설립하고	O
 ,	O
 계약한다	O
 .	O
 
 락 네이션
-현재 노스 캐롤라이나 출신 래퍼 제이 콜을 영입했고, 영국 여성그룹인 '슈가베이비스(Sugababes)'를 영입했다.
+현재 노스 캐롤라이나 출신 래퍼 제이 콜을 영입했고, 영국 여성 그룹인 '슈가베이비스(Sugababes)'를 영입했다.
 현재	O
 노스	B-LOC
 캐롤라이나	B-LOC
@@ -1721,11 +1713,12 @@ z가	O
 영입했고	O
 ,	O
 영국	B-LOC
-여성그룹인	B-POS
-'	B-PER
+여성  B-PIV
+그룹인	O
+'	O
 슈가베이비스	B-PER
 (	O
-Sugababes	I-PER
+Sugababes	B-PER
 )	O
 '	O
 를	O
@@ -1733,10 +1726,10 @@ Sugababes	I-PER
 .	O
 
 서치나
-서치나(Searchina, )는 중화인민공화국에 관한 정보를 전문적으로 다루는 우익성향을 지향하는 일본 기업이다.
+서치나(Searchina)는 중화인민공화국에 관한 정보를 전문적으로 다루는 우익성향을 지향하는 일본 기업이다.
 서치나	B-ORG
 (	O
-Searchina	I-ORG
+Searchina	B-ORG
 ,	O
 )	O
 는	O
@@ -1745,7 +1738,7 @@ Searchina	I-ORG
 정보를	O
 전문적으로	O
 다루는	O
-우익성향을	O
+우익성향을	B-PIV
 지향하는	O
 일본	B-LOC
 기업이다	O
@@ -1774,14 +1767,14 @@ Searchina	I-ORG
 
 굳이어
 자전거 고무 타이어 제조로 시작하여 자동차와 항공기 타이어 제조로 오랫동안 세계 최대의 타이어 업체로 이름을 알렸으나, 현재 타이어 제조에서는 일본 브리지스톤과 프랑스 미쉐린에 뒤지고 있으며, 회사는 대신 사업을 다각화하였다.
-자전거	B-AFW
+자전거	O
 고무	O
 타이어	O
 제조로	O
 시작하여	O
-자동차와	B-AFW
-항공기	B-AFW
-타이어	I-AFW
+자동차와	O
+항공기	O
+타이어	O
 제조로	O
 오랫동안	O
 세계	O
@@ -1810,10 +1803,10 @@ Searchina	I-ORG
 테크노스 저팬
 대표작은 열혈시리즈, 더블 드래곤 시리즈 등이 있다.
 대표작은	O
-열혈시리즈	B-HEC
+열혈시리즈	B-INF
 ,	O
-더블	B-HEC
-드래곤	I-HEC
+더블	B-INF
+드래곤	I-INF
 시리즈	O
 등이	O
 있다	O
@@ -1880,8 +1873,8 @@ GM이	B-ORG
 인수	O
 이후	O
 스파이커는	B-ORG
-스웨디시	B-LOC
-오토모빌로	B-ORG
+스웨디시	B-ORG
+오토모빌로	I-ORG
 사명을	O
 바꾸고	O
 새롭게	O
@@ -1946,12 +1939,12 @@ GM이	B-ORG
 프로그래머	B-POS
 알렉산더	B-PER
 로에즈너가	I-PER
-웹	B-HEC
-전략	I-HEC
-게임	I-HEC
-오게임	B-HEC
+웹	O
+전략	O
+게임	O
+오게임	B-INF
 (	O
-Ogame	B-HEC
+Ogame	B-INF
 )	O
 을	O
 개발	O
@@ -1963,16 +1956,16 @@ Ogame	B-HEC
 맵더소울
 대표는 타블로이며, 에픽하이를 비롯한 플래닛 쉬버, MYK, Dok2가 소속되어 있었다.
 대표는	B-POS
-타블로이며	B-POS
+타블로이며	B-PER
 ,	O
-에픽하이를	B-ORG
+에픽하이를	B-PER
 비롯한	O
-플래닛	B-ORG
-쉬버	I-ORG
+플래닛	B-PER
+쉬버	I-PER
 ,	O
-MYK	B-ORG
+MYK	B-PER
 ,	O
-Dok2가	B-ORG
+Dok2가	B-PER
 소속되어	O
 있었다	O
 .	O
@@ -1983,7 +1976,7 @@ Dok2가	B-ORG
 모스크바	B-LOC
 증권거래소와	B-ORG
 런던	B-LOC
-증권거래소	O
+증권거래소	B-ORG
 등에	O
 상장을	O
 갖고	O
@@ -2001,7 +1994,7 @@ Dok2가	B-ORG
 가스프롬
 2018년 가스프롬은 전세계 천연 가스 생산량의 12%를 생산하여 4,976억 입방미터의 천연 및 관련 가스와 1590만 톤의 가스 콘덴세이트를 생산하였다.
 2018년	B-DAT
-가스프롬은	O
+가스프롬은	B-ORG
 전세계	O
 천연	O
 가스	O
@@ -2029,12 +2022,12 @@ Dok2가	B-ORG
 같은 해 가스프롬은 35조 1000억 입방미터, 가스콘덴세이트 16억t의 매장량을 입증했다.
 같은	B-DAT
 해	I-DAT
-가스프롬은	O
+가스프롬은	B-ORG
 35조	B-NUM
 1000억	I-NUM
 입방미터	I-NUM
 ,	O
-가스콘덴세이트	B-HEC
+가스콘덴세이트	O
 16억t의	B-NUM
 매장량을	O
 입증했다	O
@@ -2066,9 +2059,9 @@ t의	I-NUM
 교촌에프앤비	B-ORG
 홍보담당	B-POS
 류하나는	B-PER
-“	B-ORG
+“	O
 교촌치킨의	B-ORG
-마늘간장소스는	B-POS
+마늘간장소스는	O
 경북	B-LOC
 칠곡에	B-LOC
 있는	O
@@ -2094,16 +2087,15 @@ t의	I-NUM
 .	O
 
 교촌 (브랜드)
-* 본점: 경상북도 칠곡군 가산면 송신로 78.
+* 본점: 경상북도 칠곡군 가산면 송신로 78
 *	O
 본점	O
 :	O
 경상북도	B-LOC
 칠곡군	B-LOC
 가산면	B-LOC
-송신로	O
-78	B-NUM
-.	O
+송신로	B-LOC
+78	I-NUM
 
 카스퍼스키 랩
 러시아 모스크바에 본사가 있으며 또 전 세계적으로 500사 이상의 파트너가 있다.
@@ -2130,7 +2122,7 @@ t의	I-NUM
 삼성증권	B-ORG
 본사	O
 직원이	B-POS
-코로나19	B-NUM
+코로나19	B-HEC
 확진	O
 판정을	O
 받게	O
@@ -2157,12 +2149,12 @@ t의	I-NUM
 지역에서	O
 영업을	O
 해오다	O
-2015년	B-NUM
-과일소주	B-POS
+2015년	B-DAT
+과일소주	O
 열풍과	O
 함께	O
 "	O
-좋은데이	B-DAT
+좋은데이	B-INF
 "	O
 컬러시리즈가	O
 돌풍을	O
@@ -2176,51 +2168,49 @@ t의	I-NUM
 무학은 1993년에 프랑스식 샴페인 페스티발 출시하였으며, 1995년에 23도의 소주인 "화이트"를 선보였으며, 2006년에는 16.9도의 "좋은데이"를 출시하였다.
 무학은	B-ORG
 1993년에	B-DAT
-프랑스식	B-POS
-샴페인	B-POS
-페스티발	O
+프랑스식	B-LOC
+샴페인	O
+페스티발	B-INF
 출시하였으며	O
 ,	O
-1995년에	B-NUM
+1995년에	B-DAT
 23도의	B-NUM
-소주인	B-POS
-"	B-HEC
-화이트	B-HEC
+소주인	O
+"	O
+화이트	B-INF
 "	O
 를	O
 선보였으며	O
 ,	O
-2006년에는	B-NUM
+2006년에는	B-DAT
 16	B-NUM
-.	O
-9도의	B-NUM
+.	I-NUM
+9도의	I-NUM
 "	O
-좋은데이	O
+좋은데이	B-INF
 "	O
 를	O
 출시하였다	O
 .	O
 
 NH투자증권
-엔에이치투자증권(주)()은 농협중앙회 산하 NH농협금융지주의 증권회사로 2022년 3월 기준 자기자본은 7.2조이다.
+엔에이치투자증권(주)은 농협중앙회 산하 NH농협금융지주의 증권회사로 2022년 3월 기준 자기자본은 7.2조이다.
 엔에이치투자증권	B-ORG
-(	O
+(	I-ORG
 주	I-ORG
-)	O
-(	O
-)	O
+)	I-ORG
 은	O
 농협중앙회	B-ORG
 산하	O
 NH농협금융지주의	B-ORG
 증권회사로	O
-2022년	B-NUM
+2022년	B-DAT
 3월	I-DAT
 기준	O
 자기자본은	O
 7	B-NUM
-.	O
-2조이다	B-NUM
+.	I-NUM
+2조이다	I-NUM
 .	O
 
 로카모빌리티
@@ -2229,13 +2219,13 @@ NH농협금융지주의	B-ORG
 서울특별시	B-LOC
 중구	B-LOC
 다동	B-LOC
-케이스퀘어시티	B-AFW
-빌딩에	I-AFW
+케이스퀘어시티	B-LOC
+빌딩에	I-LOC
 있으며	O
 ,	O
-교통카드	B-AFW
+교통카드	O
 ,	O
-대중교통	B-AFW
+대중교통	O
 관련	O
 인프라	O
 구축사업을	O
@@ -2252,7 +2242,7 @@ KT테크
 계속	O
 유지해	O
 왔으나	O
-2015년	B-NUM
+2015년	B-DAT
 5월	I-DAT
 7일자로	I-DAT
 홈페이지	O
@@ -2262,21 +2252,21 @@ KT테크
 
 성동조선해양
 성동조선해양(成東造船海洋)은 경상남도 통영시에 위치한 대한민국의 조선해양회사이다.
-성동조선해양	B-LOC
+성동조선해양	B-ORG
 (	O
-成	B-LOC
-東	B-LOC
-造	B-LOC
-船	B-LOC
-海	B-LOC
-洋	B-LOC
+成	B-ORG
+東	I-ORG
+造	I-ORG
+船	I-ORG
+海	I-ORG
+洋	I-ORG
 )	O
 은	O
 경상남도	B-LOC
 통영시에	B-LOC
 위치한	O
 대한민국의	B-LOC
-조선해양회사이다	B-ORG
+조선해양회사이다	O
 .	O
 
 성동조선해양
@@ -2288,10 +2278,10 @@ KT테크
 불황으로	O
 인하여	O
 ,	O
-2018년	B-NUM
+2018년	B-DAT
 기준	O
 수주잔량이	O
-0이	O
+0이	B-NUM
 되었다	O
 .	O
 
@@ -2300,8 +2290,8 @@ KT테크
 본사는	O
 서울특별시	B-LOC
 서초구	B-LOC
-헌릉로	B-AFW
-12	I-DAT
+헌릉로	B-LOC
+12	I-LOC
 (	O
 양재동	B-LOC
 )	O
@@ -2346,33 +2336,32 @@ KT테크
 .	O
 
 시코르스키 항공
-하워드 휴즈의 영화 지옥의 천사들에 등장 (1924).
+하워드 휴즈의 영화 지옥의 천사들에 등장 (1924)
 하워드	B-PER
 휴즈의	I-PER
 영화	O
-지옥의	O
-천사들에	O
-등장	B-DAT
+지옥의	B-AFW
+천사들에	I-AFW
+등장
 (	O
-1924	B-NUM
+1924	B-DAT
 )	O
-.	O
 
 플레이아시아
 엑스박스 360, 플레이스테이션 3, Wii, 닌텐도 DS, 플레이스테이션 포터블 같은 현 세대 게임기에서 플레이할 수 있는 게임 및 악세사리는 물론, 드림캐스트나 닌텐도 64 같은 구세대 플랫폼 사용자를 위한 제품도 판매하고 있다.
-엑스박스	B-ORG
-360	I-HEC
+엑스박스	B-INF
+360	I-INF
 ,	O
-플레이스테이션	B-HEC
-3	I-HEC
+플레이스테이션	B-INF
+3	I-INF
 ,	O
-Wii	B-HEC
+Wii	B-INF
 ,	O
-닌텐도	B-HEC
-DS	I-HEC
+닌텐도	B-INF
+DS	I-INF
 ,	O
-플레이스테이션	B-HEC
-포터블	I-HEC
+플레이스테이션	B-INF
+포터블	I-INF
 같은	O
 현	O
 세대	O
@@ -2385,9 +2374,9 @@ DS	I-HEC
 악세사리는	O
 물론	O
 ,	O
-드림캐스트나	B-ORG
-닌텐도	B-ORG
-64	I-HEC
+드림캐스트나	B-INF
+닌텐도	B-INF
+64	I-INF
 같은	O
 구세대	O
 플랫폼	O
@@ -2405,7 +2394,7 @@ STX (기업)
 큰폭으로	O
 적자전환을	O
 하며	O
-2013년에는	B-NUM
+2013년에는	B-DAT
 1조	B-NUM
 6천억원에	B-NUM
 달하는	O
@@ -2413,7 +2402,7 @@ STX (기업)
 냈고	O
 ,	O
 같은해	B-DAT
-말에는	I-DAT
+말에는	O
 완전자본잠식에	O
 빠졌다	O
 .	O
@@ -2426,7 +2415,7 @@ STX (기업)
 자율협약	O
 이후	O
 서충일	B-PER
-前	B-POS
+前	O
 대표이사의	B-POS
 인사청탁	O
 ,	O
@@ -2454,7 +2443,7 @@ E	O
 STX (기업)
 서충일 前 대표이사는 홍준표 및 장충기 등의 하숙집 동문으로 알려져 있다.
 서충일	B-PER
-前	B-POS
+前	O
 대표이사는	B-POS
 홍준표	B-PER
 및	O
@@ -2474,7 +2463,7 @@ Bolex	B-ORG
 )	O
 는	O
 영화	O
-카메라를	B-HEC
+카메라를	O
 제작하는	O
 스위스의	B-LOC
 회사이다	O
@@ -2516,14 +2505,14 @@ STX그룹에서	B-ORG
 동화약품
 동화약품 본사는 서울특별시 중구 남대문로9길 24, 6층~8층 (다동)에 위치하고 있다.
 동화약품	B-ORG
-본사는	I-ORG
+본사는	O
 서울특별시	B-LOC
 중구	B-LOC
-남대문로9길	B-AFW
-24	B-NUM
-,	I-NUM
-6층	I-NUM
-~	B-NUM
+남대문로9길	B-LOC
+24	I-LOC
+,	O
+6층	B-NUM
+~	I-NUM
 8층	I-NUM
 (	O
 다동	B-LOC
@@ -2535,9 +2524,9 @@ STX그룹에서	B-ORG
 
 시그마 세븐
 도쿄 배우 생활협동조합에 있었던 쿠보타 히토시와 마키 다이스케등의 일부 성우가 1988년 3월에 독립해서 설립, 주로 성우 매니지먼트를 다루고 있으며, 나레이터에 좀 더 비중을 두고 있다.
-도쿄	B-LOC
-배우	B-POS
-생활협동조합에	B-ORG
+도쿄	B-ORG
+배우	I-ORG
+생활협동조합에	I-ORG
 있었던	O
 쿠보타	B-PER
 히토시와	I-PER
@@ -2565,24 +2554,22 @@ STX그룹에서	B-ORG
 .	O
 
 JVC 켄우드 빅터 엔터테인먼트
-1972년 "빅터 음악 산업 주식회사"()로 설립되었고, 1993년에 회사명을 '빅터 엔터테인먼트'로 이름을 변경하였고, 2014년 4월 1일 현재의 회사명으로 변경하였다.
+1972년 "빅터 음악 산업 주식회사"로 설립되었고, 1993년에 회사명을 '빅터 엔터테인먼트'로 이름을 변경하였고, 2014년 4월 1일 현재의 회사명으로 변경하였다.
 1972년	B-DAT
-"	B-ORG
+"	O
 빅터	B-ORG
 음악	I-ORG
 산업	O
 주식회사	O
 "	O
-(	O
-)	O
 로	O
 설립되었고	O
 ,	O
 1993년에	B-DAT
 회사명을	O
-'	B-PER
+'	O
 빅터	B-ORG
-엔터테인먼트	O
+엔터테인먼트	I-ORG
 '	O
 로	O
 이름을	O
@@ -2614,7 +2601,7 @@ JVC 켄우드 빅터 엔터테인먼트
 신과	O
 같은	O
 존재로	O
-'	B-PER
+'	O
 아야	B-PER
 '	O
 라는	O
@@ -2639,14 +2626,14 @@ JVC 켄우드 빅터 엔터테인먼트
 5백만	I-NUM
 달러	I-NUM
 (	O
-1999	I-NUM
+1999	B-DAT
 )	O
 매출액	O
 143억	B-NUM
 68백만	I-NUM
 달러	I-NUM
 (	O
-1999	I-NUM
+1999	B-DAT
 )	O
 이다	O
 .	O
@@ -2654,7 +2641,7 @@ JVC 켄우드 빅터 엔터테인먼트
 롯데글로벌로지스
 대한민국의 택배업에서 업계 1위인 CJ대한통운에 이어 업계 2위를 차지하고 있다.
 대한민국의	B-LOC
-택배업에서	B-POS
+택배업에서	O
 업계	O
 1위인	B-NUM
 CJ대한통운에	B-ORG
@@ -2670,22 +2657,22 @@ CJ대한통운에	B-ORG
 본래	O
 현대그룹의	B-ORG
 계열사였으나	O
-2014년	B-NUM
+2014년	B-DAT
 7월	I-DAT
 재무구조	O
 개선을	O
 위해	O
 현대로지스틱스	B-ORG
 지분	O
-전량	B-NUM
+전량	O
 (	O
 88	B-NUM
-.	O
-8	B-NUM
+.	I-NUM
+8	I-NUM
 %	I-NUM
 )	O
 을	O
-이지스일호에	B-AFW
+이지스일호에	B-ORG
 매각했다	O
 .	O
 
@@ -2721,12 +2708,12 @@ slit	O
 고정되어	O
 있어	O
 ,	O
-F8까지	B-NUM
+F8까지	O
 조리개를	O
 조이면	O
 0	B-NUM
-.	O
-8m에서	B-NUM
+.	I-NUM
+8m에서	I-NUM
 무한대까지	O
 초점이	O
 맞는다	O
@@ -2736,16 +2723,16 @@ F8까지	B-NUM
 엠피맨닷컴(mpman.com)은 세계 최초의 MP3 플레이어인 엠피맨을 제조한 회사이다.
 엠피맨닷컴	B-ORG
 (	O
-mpman	B-HEC
-.	B-HEC
-com	B-HEC
+mpman	B-ORG
+.	I-ORG
+com	I-ORG
 )	O
 은	O
 세계	O
 최초의	O
-MP3	B-HEC
-플레이어인	I-HEC
-엠피맨을	B-ORG
+MP3	O
+플레이어인	O
+엠피맨을	B-INF
 제조한	O
 회사이다	O
 .	O
@@ -2781,7 +2768,7 @@ MP3	B-HEC
 부도처리되었으며	O
 2004년	B-DAT
 11월	I-DAT
-특허권과	B-POS
+특허권과	O
 함께	O
 후에	O
 아이리버로	B-ORG
@@ -2795,8 +2782,8 @@ MP3	B-HEC
 엠피맨닷컴
 대통령소속 대한민국 국가지식재산위원회(공동위원장: 김황식 국무총리, 윤종용 민간위원장)는 2012년 7월 지식재산사례 심층정책연구("지식재산 분쟁에 따른 우수 기술의 사업화 실패사례 분석 연구")를 통해 국내 벤처기업이 세계 최초로 개발한 MP3플레이어 원천특허가 사업화 과정에서 국내특허는 우리 기업 간 분쟁으로 소멸되었고, 미국·유럽·중국 등지에 등록된 해외특허는 미국 특허괴물(NPE)에 인수되어 오히려 우리 기업들이 라이센스료를 지불하고 있는 것으로 파악되었다고 밝혔다.
 대통령소속	O
-대한민국	B-ORG
-국가지식재산위원회	I-ORG
+대한민국	B-LOC
+국가지식재산위원회	B-ORG
 (	O
 공동위원장	B-POS
 :	O
@@ -2810,7 +2797,7 @@ MP3	B-HEC
 2012년	B-DAT
 7월	I-DAT
 지식재산사례	O
-심층정책연구	B-HEC
+심층정책연구	O
 (	O
 "	O
 지식재산	O
@@ -2831,7 +2818,7 @@ MP3	B-HEC
 세계	O
 최초로	O
 개발한	O
-MP3플레이어	B-HEC
+MP3플레이어	O
 원천특허가	O
 사업화	O
 과정에서	O
@@ -2853,7 +2840,7 @@ MP3플레이어	B-HEC
 미국	B-LOC
 특허괴물	O
 (	O
-NPE	B-HEC
+NPE	O
 )	O
 에	O
 인수되어	O
@@ -2873,10 +2860,10 @@ NPE	B-HEC
 본사는	O
 서울특별시	B-LOC
 성동구	B-LOC
-왕십리로	B-AFW
-83	I-NUM
--	I-NUM
-21	I-NUM
+왕십리로	B-LOC
+83	I-LOC
+-	I-LOC
+21	I-LOC
 (	O
 성수동1가	B-LOC
 )	O
@@ -2889,7 +2876,7 @@ NPE	B-HEC
 .	O
 
 한국기록원
-한국기록원(韓國記錄院, )은 대한민국 서울특별시 마포구의 중소기업으로, 정보 산업을 주력으로 하는 비상장 기업이다.
+한국기록원(韓國記錄院)은 대한민국 서울특별시 마포구의 중소기업으로, 정보 산업을 주력으로 하는 비상장 기업이다.
 한국기록원	B-ORG
 (	O
 韓	B-ORG
@@ -2897,7 +2884,6 @@ NPE	B-HEC
 記	I-ORG
 錄	I-ORG
 院	I-ORG
-,	O
 )	O
 은	O
 대한민국	B-LOC
@@ -2914,10 +2900,8 @@ NPE	B-HEC
 .	O
 
 슈가버블
-슈가버블()은 대한민국의 친환경 세제 전문 기업이며, 대표이사는 김수현이다.
+슈가버블은 대한민국의 친환경 세제 전문 기업이며, 대표이사는 김수현이다.
 슈가버블	B-ORG
-(	O
-)	O
 은	O
 대한민국의	B-LOC
 친환경	O
@@ -2933,17 +2917,17 @@ NPE	B-HEC
 2002년 3월에 '큐리텔'로 사명을 바꿨으며, 같은 해 8월에는 '팬택 앤 큐리텔'로 변경했다.
 2002년	B-DAT
 3월에	I-DAT
-'	B-ORG
-큐리텔	I-ORG
+'	O
+큐리텔	B-ORG
 '	O
 로	O
 사명을	O
 바꿨으며	O
 ,	O
-같은	O
-해	O
+같은	B-DAT
+해	I-DAT
 8월에는	B-DAT
-'	B-ORG
+'	O
 팬택	B-ORG
 앤	I-ORG
 큐리텔	I-ORG
@@ -2959,19 +2943,19 @@ NPE	B-HEC
 세계	O
 최초로	O
 33만	B-NUM
-화소급	I-NUM
-카메라폰을	B-HEC
+화소급	O
+카메라폰을	O
 출시하여	O
 ,	O
-듀얼	B-HEC
-컬러폰	I-HEC
+듀얼	O
+컬러폰	O
 중심의	O
-휴대폰	B-HEC
+휴대폰	O
 시장을	O
-카메라폰	B-HEC
+카메라폰	O
 중심으로	O
 바꾸어	O
-휴대폰	B-HEC
+휴대폰	O
 업계의	O
 리더로	O
 자리잡았다	O
@@ -3029,7 +3013,7 @@ NPE	B-HEC
 )	O
 에	O
 첫	B-NUM
-학원을	I-NUM
+학원을	O
 열었고	O
 ,	O
 2006년	B-DAT
@@ -3063,31 +3047,29 @@ NPE	B-HEC
 각종	O
 비리로	O
 인하여	O
-,	B-DAT
-2011년에	B-NUM
+,	O
+2011년에	B-DAT
 메가스터디에	B-ORG
 인수되었다	O
 .	O
 
 아답텍
-아답텍 본사.
+아답텍 본사
 아답텍	B-ORG
 본사	O
-.	O
 
 한국전기안전공사
-한국전기안전공사(韓國電氣安全公社, )는 전기 재해로부터 국민의 생명과 재산을 보호하여 공공의 복리증진에 기여할 목적으로 설립된 대한민국 산업통상자원부 산하 위탁집행형 준정부기관이다.
+한국전기안전공사(韓國電氣安全公社)는 전기 재해로부터 국민의 생명과 재산을 보호하여 공공의 복리증진에 기여할 목적으로 설립된 대한민국 산업통상자원부 산하 위탁집행형 준정부기관이다.
 한국전기안전공사	B-ORG
 (	O
 韓	B-ORG
 國	I-ORG
 電	I-ORG
-氣	O
-安	B-ORG
+氣	I-ORG
+安	I-ORG
 全	I-ORG
 公	I-ORG
 社	I-ORG
-,	O
 )	O
 는	O
 전기	O
@@ -3133,7 +3115,7 @@ NPE	B-HEC
 부산광역시의	B-LOC
 골프장	O
 및	O
-태종대	B-ORG
+태종대	B-LOC
 전망대를	O
 운영하는	O
 회사이고	O
@@ -3143,7 +3125,7 @@ NPE	B-HEC
 기장군	B-LOC
 일광면	B-LOC
 차양길	B-LOC
-26에	I-NUM
+26에	I-LOC
 있다	O
 .	O
 
@@ -3170,7 +3152,7 @@ NPE	B-HEC
 두어	O
 운영을	O
 하다가	O
-2014년	B-NUM
+2014년	B-DAT
 본사를	O
 서울시	B-LOC
 강남구	B-LOC
@@ -3182,21 +3164,21 @@ NPE	B-HEC
 
 멘소래담
 1889년에 미국의 알버트 알렉산더 하이드와 약사출신인 그의 친구에 의해 미국 뉴욕에서 창업하였으며, 멘소래담 로션을 최초로 개발한 회사이기도 하다.
-1889년에	B-NUM
+1889년에	B-DAT
 미국의	B-LOC
 알버트	B-PER
 알렉산더	I-PER
 하이드와	I-PER
 약사출신인	B-POS
 그의	O
-친구에	O
+친구에	B-PIV
 의해	O
 미국	B-LOC
 뉴욕에서	B-LOC
 창업하였으며	O
 ,	O
-멘소래담	B-HEC
-로션을	I-AFW
+멘소래담	B-INF
+로션을	I-INF
 최초로	O
 개발한	O
 회사이기도	O
@@ -3205,9 +3187,9 @@ NPE	B-HEC
 
 엠베스트
 엠베스트(MBest)는 메가스터디가 운영하는 중학생을 대상으로 한 온라인 교육 사이트이다.
-엠베스트	B-HEC
+엠베스트	B-ORG
 (	O
-MBest	B-HEC
+MBest	B-ORG
 )	O
 는	O
 메가스터디가	B-ORG
@@ -3240,12 +3222,11 @@ LG유플러스
 .	O
 
 효성 (기업)
-효성(曉星, )은 미국, 중국, 유럽을 비롯한 세계 각지에 52개 제조법인(4개 산하지점), 10개 무역법인 (5개 산하 지점), 19개 무역사무소 등 총 80여개 사업장으로 이루어진 글로벌 네트워크를 구축하고 ‘Global Excellence를 통한 가치경영’을 실현하고 있는 대한민국의 대기업이다.
+효성(曉星)은 미국, 중국, 유럽을 비롯한 세계 각지에 52개 제조법인(4개 산하지점), 10개 무역법인 (5개 산하 지점), 19개 무역사무소 등 총 80여개 사업장으로 이루어진 글로벌 네트워크를 구축하고 ‘Global Excellence를 통한 가치경영’을 실현하고 있는 대한민국의 대기업이다.
 효성	B-ORG
 (	O
-曉	B-PER
-星	B-LOC
-,	O
+曉	B-ORG
+星	I-ORG
 )	O
 은	O
 미국	B-LOC
@@ -3257,14 +3238,14 @@ LG유플러스
 세계	O
 각지에	O
 52개	B-NUM
-제조법인	B-NUM
+제조법인	O
 (	O
 4개	B-NUM
 산하지점	O
 )	O
 ,	O
 10개	B-NUM
-무역법인	B-NUM
+무역법인	O
 (	O
 5개	B-NUM
 산하	O
@@ -3281,9 +3262,9 @@ LG유플러스
 글로벌	O
 네트워크를	O
 구축하고	O
-‘	B-HEC
-Global	B-HEC
-Excellence를	I-HEC
+‘	O
+Global	O
+Excellence를	O
 통한	O
 가치경영	O
 ’	O
@@ -3296,7 +3277,7 @@ Excellence를	I-HEC
 
 효성 (기업)
 타이어코드 사업부문은 전 세계 고객들에게 보다 안정적인 제품공급과 신속한 서비스를 제공하기 위해 울산공장 외에 중국과 베트남, 미국, 브라질, 룩셈부르크 등 세계 각지에 현지 생산체제를 구축하는 등 생산기지를 다변화하고 있다.
-타이어코드	B-HEC
+타이어코드	O
 사업부문은	O
 전	O
 세계	O
@@ -3335,15 +3316,15 @@ Excellence를	I-HEC
 효성은	B-ORG
 2009년	B-DAT
 울산의	B-LOC
-용연	B-AFW
-공장에	I-AFW
-연간	B-DAT
+용연	B-LOC
+공장에	I-LOC
+연간	O
 5천만m	B-NUM
 규모의	O
-LCD용	B-AFW
-TAC	I-AFW
-필름	I-AFW
-공장을	I-AFW
+LCD용	O
+TAC	O
+필름	O
+공장을	O
 완공하고	O
 생산에	O
 들어갔다	O
@@ -3358,8 +3339,8 @@ TAC	I-AFW
 연산	O
 6천만m	B-NUM
 규모의	O
-LCD용	B-HEC
-TAC필름	B-HEC
+LCD용	O
+TAC필름	O
 증설에	O
 나서는	O
 등	O
@@ -3374,13 +3355,11 @@ TAC필름	B-HEC
 .	O
 
 잭 블랙 (기업)
-잭블랙()은 미국의 남성 화장품 브랜드로, 대한민국에서는 주식회사 탑스타에서 수입하여 판매하고 있다.
-잭블랙	B-HEC
-(	O
-)	O
+잭블랙은 미국의 남성 화장품 브랜드로, 대한민국에서는 주식회사 탑스타에서 수입하여 판매하고 있다.
+잭블랙	B-ORG
 은	O
 미국의	B-LOC
-남성	O
+남성	B-PIV
 화장품	O
 브랜드로	O
 ,	O
@@ -3393,7 +3372,7 @@ TAC필름	B-HEC
 .	O
 
 노바티스
-남아공 에이즈 감염인단체인 치료행동캠페인의 활동가 Sydnkey Makgai는 이 시위에서"제네릭을 먹고있는 에이즈감염인으로서 노바티스에게 소송을 취하할 것을 촉구한다.
+남아공 에이즈 감염인단체인 치료행동캠페인의 활동가 Sydnkey Makgai는 이 시위에서"제네릭을 먹고있는 에이즈 감염인으로서 노바티스에게 소송을 취하할 것을 촉구한다.
 남아공	B-LOC
 에이즈	B-HEC
 감염인단체인	O
@@ -3403,11 +3382,12 @@ Sydnkey	B-PER
 Makgai는	I-PER
 이	O
 시위에서	O
-"	B-HEC
-제네릭을	B-HEC
+"	O
+제네릭을	O
 먹고있는	O
-에이즈감염인으로서	B-POS
-노바티스에게	B-PER
+에이즈 B-PIV
+감염인으로서	O
+노바티스에게	B-ORG
 소송을	O
 취하할	O
 것을	O
@@ -3424,7 +3404,7 @@ CJ올리브영
 시초이며	O
 ,	O
 현재는	O
-명동점이	B-ORG
+명동점이	O
 본점이다	O
 .	O
 
@@ -3443,7 +3423,7 @@ CJ올리브영
 해외	O
 진출에	O
 성공하였다	O
-.	B-DAT
+.	O
 (	O
 17년	I-DAT
 7월	I-DAT
@@ -3451,12 +3431,12 @@ CJ올리브영
 만료로	O
 철수	O
 )	O
-2019년	B-NUM
+2019년	B-DAT
 기준으로	O
 해외	O
 7개국에서	B-NUM
 13개	B-NUM
-매장을	I-NUM
+매장을	O
 운영	O
 중이다	O
 .	O
@@ -3466,8 +3446,8 @@ CJ올리브영
 사옥은	O
 서울특별시	B-LOC
 영등포구	B-LOC
-양평로21길	B-AFW
-10	B-NUM
+양평로21길	B-LOC
+10  I-LOC
 (	O
 양평동5가	B-LOC
 )	O
@@ -3479,10 +3459,10 @@ CJ올리브영
 이 기업은 항공기 엔진, 냉난방기, 건물 시스템, 연료전지, 엘리베이터 및 에스컬레이터 등의 다양한 제품을 생산하고 있다.‘19년 결산 기준 경영실적은 매출 665억불에 영업이익 53억불을 자랑한다.
 이	O
 기업은	O
-항공기	B-AFW
+항공기	O
 엔진	O
 ,	O
-냉난방기	B-AFW
+냉난방기	O
 ,	O
 건물	O
 시스템	O
@@ -3491,15 +3471,15 @@ CJ올리브영
 ,	O
 엘리베이터	O
 및	O
-에스컬레이터	B-HEC
+에스컬레이터	O
 등의	O
 다양한	O
 제품을	O
 생산하고	O
 있다	O
 .	O
-‘	B-DAT
-19년	I-DAT
+‘	O
+19년	B-DAT
 결산	O
 기준	O
 경영실적은	O
@@ -3511,26 +3491,10 @@ CJ올리브영
 .	O
 
 아크로스 엔터테인먼트
-주식회사 아크로스 엔터테인먼트()는 일본의 예능 사무소.주로 성우의 매니지먼트를 다루고 있다.도쿄 배우 생활협동조합의 매니저였던 후지사키 쥰이 2008년 4월에 설립했다.
-주식회사	O
-아크로스	B-ORG
-엔터테인먼트	I-ORG
-(	O
-)	O
-는	O
-일본의	B-LOC
-예능	O
-사무소	O
-.	O
-주로	O
-성우의	B-POS
-매니지먼트를	O
-다루고	O
-있다	O
-.	O
+도쿄 배우 생활협동조합의 매니저였던 후지사키 쥰이 2008년 4월에 설립했다.
 도쿄	B-LOC
-배우	B-POS
-생활협동조합의	B-ORG
+배우	B-ORG
+생활협동조합의	I-ORG
 매니저였던	B-POS
 후지사키	B-PER
 쥰이	I-PER
@@ -3589,7 +3553,7 @@ Euler	B-ORG
 독일의	B-LOC
 헤르메스	B-ORG
 (	O
-Hermes	I-ORG
+Hermes	B-ORG
 )	O
 사의	O
 합병하였고	O
@@ -3608,34 +3572,32 @@ Hermes	I-ORG
 .	O
 
 우리서비스네트워크
-더블유서비스네트워크(https://web.archive.org/web/20180329134526/http://woorisn.com/')'는 우리은행의 통합적인 물류운송과 근무인력 파견을 주 업무로 하는 회사이다.
+더블유서비스네트워크(https://web.archive.org/web/20180329134526/http://woorisn.com/)는 우리은행의 통합적인 물류운송과 근무인력 파견을 주 업무로 하는 회사이다.
 더블유서비스네트워크	B-HEC
 (	O
-https	B-HEC
-:	B-HEC
-/	B-HEC
-/	B-HEC
-web	B-HEC
-.	B-HEC
-archive	B-HEC
-.	I-HEC
-org	I-HEC
-/	B-HEC
-web	B-HEC
-/	B-NUM
-20180329134526	B-NUM
-/	O
-http	B-HEC
-:	B-HEC
-/	B-HEC
-/	B-HEC
-woorisn	B-HEC
-.	I-HEC
-com	I-HEC
-/	I-HEC
-'	B-HEC
+https	B-INF
+:	I-INF
+/	I-INF
+/	I-INF
+web	I-INF
+.	I-INF
+archive	I-INF
+.	I-INF
+org	I-INF
+/	I-INF
+web	I-INF
+/	I-INF
+20180329134526	I-INF
+/	I-INF
+http	B-INF
+:	I-INF
+/	I-INF
+/	I-INF
+woorisn	I-INF
+.	I-INF
+com	I-INF
+/	I-INF
 )	O
-'	O
 는	O
 우리은행의	B-ORG
 통합적인	O
@@ -3649,22 +3611,23 @@ com	I-HEC
 .	O
 
 포스크리에이티브파티
-또한 2018년에는 한국 VFX 업계 최초로 아카데미 어워즈 시각효과상 후보10에 선정되었다.
+또한 2018년에는 한국 VFX 업계 최초로 아카데미 어워즈 시각효과상 후보 10에 선정되었다.
 또한	O
 2018년에는	B-DAT
 한국	B-LOC
-VFX	B-HEC
+VFX	O
 업계	O
 최초로	O
 아카데미	B-EVT
 어워즈	I-EVT
-시각효과상	B-POS
-후보10에	I-POS
+시각효과상	B-PRI
+후보  O
+10에	B-NUM
 선정되었다	O
 .	O
 
 포스크리에이티브파티
-2014년 부산의 애니메이션 스튜디오 AZworks(에이지웍스)를 인수하며, 애니메이션 사업을 시작했다.<br>.
+2014년 부산의 애니메이션 스튜디오 AZworks(에이지웍스)를 인수하며, 애니메이션 사업을 시작했다.
 2014년	B-NUM
 부산의	B-LOC
 애니메이션	O
@@ -3680,10 +3643,6 @@ AZworks	B-ORG
 사업을	O
 시작했다	O
 .	O
-<	O
-br	O
->	O
-.	O
 
 포스크리에이티브파티
 대표작으로는 CJ E&M과 공동 제작한 TV시리즈 애니메이션 '로봇트레인', 아라마키신지 감독의 '캡틴하록' 등이 있다.
@@ -3694,17 +3653,17 @@ E	I-ORG
 M과	I-ORG
 공동	O
 제작한	O
-TV시리즈	B-HEC
+TV시리즈	O
 애니메이션	O
-'	B-AFW
-로봇트레인	I-AFW
-'	I-AFW
+'	O
+로봇트레인	B-AFW
+'	O
 ,	O
 아라마키신지	B-PER
 감독의	B-POS
-'	B-AFW
+'	O
 캡틴하록	B-AFW
-'	I-AFW
+'	O
 등이	O
 있다	O
 .	O
@@ -3713,11 +3672,11 @@ TV시리즈	B-HEC
 루프탑컴퍼니 (Rooftop Company)은 2016년에 브랜뉴뮤직 소속 프로듀서 동네형과 원영헌이 설립한 대한민국의 매니지먼트 회사다, 대표적인 아티스트로는 프리티브라운과 시윤이 소속되어있다.
 루프탑컴퍼니	B-ORG
 (	O
-Rooftop	I-ORG
+Rooftop	B-ORG
 Company	I-ORG
 )	O
 은	O
-2016년에	B-NUM
+2016년에	B-DAT
 브랜뉴뮤직	B-ORG
 소속	O
 프로듀서	B-POS
@@ -3730,14 +3689,14 @@ Company	I-ORG
 ,	O
 대표적인	O
 아티스트로는	B-POS
-프리티브라운과	B-ORG
+프리티브라운과	B-PER
 시윤이	B-PER
 소속되어있다	O
 .	O
 
 헤스버거
 1966년에 난탈리에서 처음으로 문을 열었으며, 현재 핀란드 내의 200여개의 매장을 포함하여 유럽의 여러 나라에서 운영하고 있다.
-1966년에	B-NUM
+1966년에	B-DAT
 난탈리에서	B-LOC
 처음으로	O
 문을	O
@@ -3758,18 +3717,18 @@ Company	I-ORG
 
 퍼시픽 사우스웨스트 항공
 퍼시픽 사우스웨스트 항공(Pacific Southwest Airlines) 또는 'PSA 항공'은 미국 캘리포니아주 샌디에이고에서 1949년부터 1988년까지 운행했던 1세대 저가 항공사이다.
-퍼시픽	B-LOC
-사우스웨스트	B-ORG
-항공	I-AFW
+퍼시픽	B-ORG
+사우스웨스트	I-ORG
+항공	I-ORG
 (	O
 Pacific	B-ORG
-Southwest	B-ORG
+Southwest	I-ORG
 Airlines	I-ORG
 )	O
 또는	O
-'	B-ORG
-PSA	I-AFW
-항공	I-AFW
+'	O
+PSA	B-ORG
+항공	I-ORG
 '	O
 은	O
 미국	B-LOC
@@ -3806,20 +3765,13 @@ Friedkin	I-PER
 .	O
 
 치타 모바일
-치타 모바일(Cheetah Mobile Inc, 猎豹移动公司)은 중화인민공화국 베이징 시에 본사를 둔 중국의 모바일 인터넷 기업이다.
-치타	B-LOC
+치타 모바일(Cheetah Mobile Inc)은 중화인민공화국 베이징 시에 본사를 둔 중국의 모바일 인터넷 기업이다.
+치타	B-ORG
 모바일	I-ORG
 (	O
-Cheetah	I-ORG
+Cheetah	B-ORG
 Mobile	I-ORG
 Inc	I-ORG
-,	I-ORG
-[UNK]	I-ORG
-[UNK]	I-ORG
-移	I-ORG
-[UNK]	I-ORG
-公	I-ORG
-司	I-ORG
 )	O
 은	O
 중화인민공화국	B-LOC
@@ -3828,56 +3780,56 @@ Inc	I-ORG
 본사를	O
 둔	O
 중국의	B-LOC
-모바일	B-HEC
-인터넷	I-HEC
+모바일 O
+인터넷	O
 기업이다	O
 .	O
 
 엔조이소프트
 PC방관리프로그램을 개발하여 지난 2005년 법인설립한 이후 PC방 프랜차이즈 <조이칸> 론칭, 위치기반 할인쿠폰앱 <조이쿠폰> 론칭을 비롯하여 PC방 선불기계 솔루션인 <조이머신> 및 노래방통합솔루션 <케이머신>과 외식업 무인정산 셀프오더 시스템인 <아이머신>을 론칭한 차세대 O2O 플랫폼 서비스 기업이다.
-PC방관리프로그램을	B-HEC
+PC방관리프로그램을	O
 개발하여	O
-지난	B-DAT
-2005년	I-DAT
+지난	O
+2005년	B-DAT
 법인설립한	O
 이후	O
-PC방	B-HEC
-프랜차이즈	B-HEC
+PC방	O
+프랜차이즈	O
 <	O
-조이칸	I-HEC
+조이칸	B-INF
 >	O
 론칭	O
 ,	O
-위치기반	B-HEC
-할인쿠폰앱	I-HEC
+위치기반	O
+할인쿠폰앱	O
 <	O
-조이쿠폰	I-HEC
+조이쿠폰	B-INF
 >	O
 론칭을	O
 비롯하여	O
-PC방	B-HEC
-선불기계	B-HEC
+PC방	O
+선불기계	O
 솔루션인	O
 <	O
-조이머신	B-HEC
+조이머신	B-INF
 >	O
 및	O
-노래방통합솔루션	B-HEC
+노래방통합솔루션	O
 <	O
-케이머신	I-HEC
+케이머신	B-INF
 >	O
 과	O
-외식업	B-HEC
-무인정산	I-HEC
-셀프오더	I-HEC
-시스템인	I-HEC
+외식업	O
+무인정산	O
+셀프오더	O
+시스템인	O
 <	O
-아이머신	B-HEC
+아이머신	B-INF
 >	O
 을	O
 론칭한	O
 차세대	O
-O2O	B-HEC
+O2O	O
 플랫폼	O
 서비스	O
 기업이다	O
@@ -3915,13 +3867,13 @@ O2O	B-HEC
 2008년에	B-DAT
 타이완	B-LOC
 20대	B-NUM
-글로벌	O
-브랜드	O
-상을	O
+글로벌	B-PRI
+브랜드	I-PRI
+상을	I-PRI
 받은	O
 바이오스타는	B-ORG
 중국의	B-LOC
-PC방의	B-HEC
+PC방의	O
 메인보드	O
 브랜드에서	O
 1위를	B-NUM
@@ -3935,28 +3887,28 @@ PC방의	B-HEC
 000	I-NUM
 ,	B-NUM
 000	I-NUM
-미국	I-NUM
-달러로	B-POS
+미국	B-LOC
+달러로	O
 추산한다	O
 .	O
 
 구스 아일랜드
 구스 아일랜드의 설립자이자 브루마스터였던 존 홀은 2011년 앤하이저부시 인베브와의 계약 이후 사임하였고, 브렛 포터가 새 브루마스터로 선임되었다.
-구스	B-LOC
-아일랜드의	B-LOC
+구스	B-ORG
+아일랜드의	I-ORG
 설립자이자	B-POS
 브루마스터였던	B-POS
 존	B-PER
 홀은	I-PER
 2011년	B-DAT
-앤하이저부시	B-LOC
+앤하이저부시	B-ORG
 인베브와의	I-ORG
 계약	O
 이후	O
 사임하였고	O
 ,	O
 브렛	B-PER
-포터가	B-POS
+포터가	I-PER
 새	O
 브루마스터로	B-POS
 선임되었다	O
@@ -3971,11 +3923,11 @@ PC방의	B-HEC
 한	O
 것은	O
 임업회사	B-ORG
-[UNK]	B-POS
+큄메네의    B-ORG
 상무이사	B-POS
 에이나르	B-PER
 아흘만과	I-PER
-세를라키우스의	I-PER
+세를라키우스의	B-ORG
 대표이사	B-POS
 괴스타	B-PER
 세를라키우스였다	I-PER
@@ -3985,7 +3937,7 @@ PC방의	B-HEC
 회사 사장으로는 우익 운동가이자 우생학자이기도 한 마르티 피흐칼라가 앉혀졌다.
 회사	O
 사장으로는	B-POS
-우익	O
+우익	B-PIV
 운동가이자	B-POS
 우생학자이기도	B-POS
 한	O
@@ -3996,7 +3948,7 @@ PC방의	B-HEC
 
 비엔티라우하
 비엔티라우하의 직원들은 파업 노동자들을 소련의 지령을 받아 움직이는 자들이라고 생각했고, 파업 노동자들은 또 그들 나름대로 비엔티라우하 직원들을 자신들의 생업을 위협하는 장본인들이라고 생각했다.
-비엔티라우하의	B-LOC
+비엔티라우하의	B-ORG
 직원들은	B-POS
 파업	O
 노동자들을	B-POS
@@ -4012,7 +3964,7 @@ PC방의	B-HEC
 또	O
 그들	O
 나름대로	O
-비엔티라우하	B-LOC
+비엔티라우하	B-ORG
 직원들을	B-POS
 자신들의	O
 생업을	O
@@ -4030,14 +3982,14 @@ PC방의	B-HEC
 행해졌는데	O
 ,	O
 예컨대	O
-1928년	B-NUM
+1928년	B-DAT
 시작된	O
 전국	O
 항만	O
 파업은	O
 해를	O
 넘겨	O
-1929년까지	B-NUM
+1929년까지	B-DAT
 10개월간	B-DAT
 지속되었다	O
 .	O
@@ -4047,25 +3999,25 @@ PC방의	B-HEC
 1940년	B-DAT
 겨울전쟁이	B-EVT
 터지면서	O
-기업주들이	B-POS
+기업주들이	O
 노조의	O
 존재를	O
 인정하는	O
 1월	B-DAT
 약조를	O
 발표하면서	O
-비엔티라우하는	B-LOC
+비엔티라우하는	B-ORG
 사라졌다	O
 .	O
 
 싱클레어 리서치
 1980년 클라이브 싱클레어 (Clive Sinclair)는 당시 영국에서 판매 된 가장 저렴한 개인용 컴퓨터 인 99.95 파운드로 ZX80 연산장치를 사용하여 가정용 컴퓨터 시장에 진입했다.
 1980년	B-DAT
-클라이브	B-AFW
-싱클레어	I-HEC
+클라이브	B-PER
+싱클레어	I-PER
 (	O
-Clive	B-HEC
-Sinclair	I-HEC
+Clive	B-PER
+Sinclair	I-PER
 )	O
 는	O
 당시	O
@@ -4075,13 +4027,13 @@ Sinclair	I-HEC
 가장	O
 저렴한	O
 개인용	O
-컴퓨터	B-HEC
+컴퓨터	O
 인	O
 99	B-NUM
-.	O
-95	B-NUM
-파운드로	I-NUM
-ZX80	B-HEC
+.	I-NUM
+95	I-NUM
+파운드로	O
+ZX80	B-INF
 연산장치를	O
 사용하여	O
 가정용	O
@@ -4096,9 +4048,9 @@ ZX80	B-HEC
 5월	I-DAT
 3일	I-DAT
 버라이즌은	B-ORG
-사업부의	O
-90	O
-%	O
+사업부의	B-POS
+90	B-NUM
+%	I-NUM
 를	O
 아폴로	B-ORG
 글로벌	I-ORG
@@ -4117,14 +4069,13 @@ ZX80	B-HEC
 .	O
 
 우버이츠
-우버이츠()는 미국 캘리포니아 주 샌프란시스코에서 우버 테크놀로지가 시작한 온라인 음식 주문 및 배달 플랫폼이다.
+우버이츠는 미국 캘리포니아 주 샌프란시스코에서 우버 테크놀로지가 시작한 온라인 음식 주문 및 배달 플랫폼이다.
 우버이츠	B-ORG
-(	O
-)	O
+
 는	O
 미국	B-LOC
 캘리포니아	B-LOC
-주	O
+주	I-LOC
 샌프란시스코에서	B-LOC
 우버	B-ORG
 테크놀로지가	I-ORG
@@ -4139,10 +4090,10 @@ ZX80	B-HEC
 
 우버이츠
 우버이츠 애플리케이션은 구글 플레이에서 1000만 건 이상의 다운로드를 기록하였고, 4.2점을 받았다.
-우버이츠	B-HEC
-애플리케이션은	I-HEC
-구글	B-HEC
-플레이에서	I-HEC
+우버이츠	B-ORG
+애플리케이션은	O
+구글	B-INF
+플레이에서	I-INF
 1000만	B-NUM
 건	I-NUM
 이상의	I-NUM
@@ -4150,8 +4101,8 @@ ZX80	B-HEC
 기록하였고	O
 ,	O
 4	B-NUM
-.	O
-2점을	B-NUM
+.	I-NUM
+2점을	I-NUM
 받았다	O
 .	O
 
@@ -4182,19 +4133,19 @@ ZX80	B-HEC
 현	O
 내	O
 시장의	O
-90	O
-%	O
+90	B-NUM
+%	I-NUM
 내지는	O
-80	O
-%	O
+80	B-NUM
+%	I-NUM
 이상의	O
 점유율을	O
 보였고	O
 ,	O
 현재에도	O
-약	O
-60	O
-%	O
+약	B-NUM
+60	I-NUM
+%	I-NUM
 를	O
 넘는	O
 점유율을	O
@@ -4203,16 +4154,14 @@ ZX80	B-HEC
 .	O
 
 알리페이
-알리페이(,  , 즈푸바오)는 서드파티 모바일 및 온라인 지급 플랫폼으로, 2004년 2월 중국 항저우에서 알리바바 그룹과 알리바바 그룹의 설립자 마윈에 의해 설립되었다.
+알리페이(즈푸바오)는 서드파티 모바일 및 온라인 지급 플랫폼으로, 2004년 2월 중국 항저우에서 알리바바 그룹과 알리바바 그룹의 설립자 마윈에 의해 설립되었다.
 알리페이	B-ORG
 (	O
-,	O
-,	O
-즈푸바오	B-LOC
+즈푸바오	B-ORG
 )	O
 는	O
-서드파티	B-HEC
-모바일	B-HEC
+서드파티	O
+모바일	O
 및	O
 온라인	O
 지급	O
@@ -4233,20 +4182,19 @@ ZX80	B-HEC
 .	O
 
 마리몬드
-* 미투 운동이 대한민국을 강타하던 2018년 초, 당시 마리몬드 대표인 윤홍조씨의 부친 윤호진 연출가의 성추행 문제가 알려지며 논란에 휩싸였다.
-*	O
+미투 운동이 대한민국을 강타하던 2018년 초, 당시 마리몬드 대표인 윤홍조씨의 부친 윤호진 연출가의 성추행 문제가 알려지며 논란에 휩싸였다.
 미투	O
 운동이	O
 대한민국을	B-LOC
 강타하던	O
-2018년	B-NUM
+2018년	B-DAT
 초	I-DAT
 ,	O
 당시	O
-마리몬드	B-PER
+마리몬드	B-ORG
 대표인	B-POS
 윤홍조씨의	B-PER
-부친	B-POS
+부친	B-PIV
 윤호진	B-PER
 연출가의	B-POS
 성추행	O
@@ -4258,15 +4206,15 @@ ZX80	B-HEC
 
 마리몬드
 마리몬드 윤홍조 대표는 창작뮤지컬 '명성황후' '영웅' 등을 제작한 윤호진 에이콤 대표의 아들이다.
-마리몬드	B-PER
-윤홍조	I-PER
+마리몬드	B-ORG
+윤홍조	B-PER
 대표는	B-POS
 창작뮤지컬	O
-'	B-AFW
+'	O
 명성황후	B-AFW
-'	B-AFW
-'	B-AFW
-영웅	I-AFW
+'	O
+'	O
+영웅	B-AFW
 '	O
 등을	O
 제작한	O
@@ -4322,13 +4270,13 @@ SPA인	O
 유럽과	B-LOC
 북미	B-LOC
 지역의	O
-이용자들	B-POS
+이용자들	O
 중심으로	O
 전	O
 세계	O
 170개	B-NUM
 국가에서	O
-이용자들을	B-POS
+이용자들을	O
 확보하고	O
 있으며	O
 2017년	B-DAT
@@ -4339,8 +4287,8 @@ SPA인	O
 스타트업에	O
 선정되어	O
 구글	B-ORG
-캠퍼스	O
-서울에	B-LOC
+캠퍼스	I-ORG
+서울에	I-LOC
 합류하였다	O
 .	O
 
@@ -4351,23 +4299,23 @@ CBS	B-ORG
 엔터테인먼트	O
 브랜드는	O
 미국의	B-LOC
-네트워크	B-HEC
-텔레비전	I-HEC
+네트워크	O
+텔레비전	O
 채널	O
 ,	O
 CBS의	B-ORG
 온라인	O
 홈인	O
-CBS	B-HEC
-.	O
-com	O
-,	O
+CBS	B-INF
+.	I-INF
+com	I-INF
+,	I-INF
 그리고	O
-OTT	B-HEC
-서비스	I-HEC
-CBS	B-HEC
-올	I-HEC
-액세스이다	I-HEC
+OTT	O
+서비스	O
+CBS	B-ORG
+올	O
+액세스이다	O
 .	O
 
 성진제강련합기업소
@@ -4390,7 +4338,7 @@ CBS	B-HEC
 새로	O
 완비	O
 하였고	O
-연간	B-DAT
+연간	O
 44만	B-NUM
 톤의	I-NUM
 제강	O
@@ -4421,11 +4369,11 @@ CBS	B-HEC
 강철	O
 1호	B-NUM
 공장과	O
-2호	B-HEC
+2호	B-NUM
 전기로	O
 그리고	O
 강철	O
-3호	B-HEC
+3호	B-NUM
 공장을	O
 전기로	O
 1기를	B-NUM
@@ -4452,7 +4400,7 @@ CBS	B-HEC
 새로	O
 건설	O
 하였고	O
-2005년에는	B-NUM
+2005년에는	B-DAT
 초고전력	O
 제강	O
 공정을	O
@@ -4475,8 +4423,8 @@ CBS	B-HEC
 강재	O
 생산을	O
 1	B-NUM
-.	O
-5배	B-NUM
+.	I-NUM
+5배	I-NUM
 늘리게되는	O
 원인을	O
 가져왔다	O
@@ -4491,11 +4439,11 @@ DFD 그룹
 살아	O
 숨쉬는	O
 닥스는	B-LOC
-1894년	B-NUM
+1894년	B-DAT
 영국	B-LOC
 런던에서	B-LOC
 시작되어	O
-120년의	B-NUM
+120년의	B-DAT
 역사를	O
 지닌	O
 영국의	B-LOC
@@ -4524,9 +4472,9 @@ DFD 그룹
 브랜드	O
 사업으로	O
 45	B-NUM
-.	O
-37	B-NUM
-%	O
+.	I-NUM
+37	I-NUM
+%	I-NUM
 등의	O
 비율로	O
 구성되어	O
@@ -4573,7 +4521,7 @@ DFD 그룹
 출발한	O
 동화토건	B-ORG
 (	O
-주	I-ORG
+주	O
 )	O
 이다	O
 .	O
@@ -4583,7 +4531,7 @@ DFD 그룹
 주식회사	O
 시큐아이	B-ORG
 (	O
-SECUI	I-ORG
+SECUI	B-ORG
 Corp	I-ORG
 .	I-ORG
 )	O
@@ -4597,7 +4545,7 @@ Corp	I-ORG
 전문	O
 업체로	O
 삼성그룹	B-ORG
-삼성SDS의	I-ORG
+삼성SDS의	B-ORG
 자회사이다	O
 .	O
 
@@ -4605,12 +4553,12 @@ Corp	I-ORG
 2007년 10월 사친 반살과 비니 반살 (친족 아님)이 설립하였다.
 2007년	B-DAT
 10월	I-DAT
-사친	O
-반살과	O
+사친	B-PER
+반살과	I-PER
 비니	B-PER
-반살	O
+반살	I-PER
 (	O
-친족	B-POS
+친족	B-PIV
 아님	O
 )	O
 이	O
@@ -4627,13 +4575,13 @@ Amazon Go
 운영되고	O
 있으며	O
 ,	O
-2016년	B-NUM
+2016년	B-DAT
 12월	I-DAT
 5일	I-DAT
 아마존의	B-ORG
-데이	B-AFW
-1	I-AFW
-빌딩에	I-AFW
+데이	B-LOC
+1	I-LOC
+빌딩에	I-LOC
 오픈하였다	O
 .	O
 
@@ -4649,7 +4597,7 @@ Amazon Go
 고석현	B-PER
 등으로	O
 구성된	O
-멤버들이	B-POS
+멤버들이	O
 창업하였으며	O
 ,	O
 2017년	B-DAT
@@ -4677,8 +4625,8 @@ Amazon Go
 소속의	O
 철도기업	O
 페로비에	B-ORG
-델로	B-ORG
-스타토	I-PER
+델로	I-ORG
+스타토	I-ORG
 이탈리아가	B-LOC
 소유한	O
 기업으로	O
@@ -4716,25 +4664,25 @@ Amazon Go
 
 러청은행
 1895년 12월, 파리에서 러시아 대사관에 의해 설립되었다.
-1895년	B-NUM
+1895년	B-DAT
 12월	I-DAT
 ,	O
 파리에서	B-LOC
-러시아	B-LOC
-대사관에	O
+러시아	B-ORG
+대사관에	I-ORG
 의해	O
 설립되었다	O
 .	O
 
 러청은행
 1894년 러불동맹이 체결된 후, 시모노세키 조약의 배상금을 지불하기 위해 청나라가 차관을 모집했을 때, 그것을 러시아-프랑스 은행단이 인수했다.
-1894년	B-NUM
+1894년	B-DAT
 러불동맹이	B-ORG
 체결된	O
 후	O
 ,	O
-시모노세키	B-LOC
-조약의	O
+시모노세키	B-ORG
+조약의	I-ORG
 배상금을	O
 지불하기	O
 위해	O
@@ -4781,7 +4729,7 @@ Amazon Go
 상하이	B-ORG
 은행과	I-ORG
 로아	B-LOC
-1	I-ORG
+1	B-NUM
 대	O
 홍콩	B-LOC
 2로	B-NUM
@@ -4789,7 +4737,7 @@ Amazon Go
 것	O
 ,	O
 그리고	O
-1916년에	B-NUM
+1916년에	B-DAT
 계약한	O
 하얼빈	B-LOC
 -	O
@@ -4823,8 +4771,8 @@ Amazon Go
 코르쿠노프의 초기지분 80%를 3억 달러에 확보하고, 나머지 20%는 순차적으로 늘려 나간다는 인수 계약을 타결시켰다.
 코르쿠노프의	B-PER
 초기지분	O
-80	O
-%	O
+80	B-NUM
+%	I-NUM
 를	O
 3억	B-NUM
 달러에	I-NUM
@@ -4848,7 +4796,7 @@ Amazon Go
 4월	I-DAT
 28일	I-DAT
 마스	B-ORG
-사는	I-ORG
+사는	O
 약	B-NUM
 23억	I-NUM
 달러에	I-NUM
@@ -4863,7 +4811,7 @@ Amazon Go
 6천만	B-NUM
 배럴의	I-NUM
 원유란	O
-,	B-DAT
+,	O
 2010년	B-DAT
 한국은	B-LOC
 이라크에서	B-LOC
@@ -4875,8 +4823,8 @@ Amazon Go
 이는	O
 수입량의	O
 6	B-NUM
-.	O
-9	B-NUM
+.	I-NUM
+9	I-NUM
 %	I-NUM
 를	O
 차지하며	O
@@ -4889,96 +4837,82 @@ Amazon Go
 .	O
 
 모두싸인
-누적 이용자수는 약 150만 명이며, 약 11만여 기업이 모두싸인을 이용하고 있다.(2021.6.30 기준) 웹과 모바일에서 이용이 가능하다.<br/>.
+누적 이용자수는 약 150만 명이며, 약 11만여 기업이 모두싸인을 이용하고 있다.(2021.6.30 기준) 웹과 모바일에서 이용이 가능하다.
 누적	O
-이용자수는	B-POS
+이용자수는	O
 약	B-NUM
 150만	I-NUM
 명이며	I-NUM
 ,	O
-약	O
-11만여	B-NUM
-기업이	I-NUM
-모두싸인을	B-AFW
+약	B-NUM
+11만여	I-NUM
+기업이	O
+모두싸인을	B-ORG
 이용하고	O
 있다	O
-.	B-DAT
+.	O
 (	O
-2021	B-NUM
-.	O
-6	B-DAT
-.	O
-30	B-NUM
+2021	B-DAT
+.	I-DAT
+6	I-DAT
+.	I-DAT
+30	I-DAT
 기준	O
 )	O
 웹과	O
-모바일에서	B-HEC
+모바일에서	O
 이용이	O
 가능하다	O
 .	O
-<	O
-br	O
-/	O
->	O
-.	O
 
 모두싸인
-*웹/모바일: https://www.modusign.co.kr에서 회원 가입 후 이용 가능하다.<br/>.
+*웹/모바일: https://www.modusign.co.kr에서 회원 가입 후 이용 가능하다.
 *	O
-웹	B-HEC
-/	B-HEC
-모바일	B-HEC
+웹	O
+/	O
+모바일	O
 :	O
-https	B-HEC
-:	O
-/	B-HEC
-/	B-HEC
-www	B-HEC
-.	O
-modusign	B-HEC
-.	B-HEC
-co	B-HEC
-.	O
-kr에서	B-HEC
+https	B-INF
+:	I-INF
+/	I-INF
+/	I-INF
+www	I-INF
+.	I-INF
+modusign	I-INF
+.	I-INF
+co	I-INF
+.	I-INF
+kr에서    I-INF
 회원	B-POS
 가입	O
 후	O
 이용	O
 가능하다	O
 .	O
-<	O
-br	O
-/	O
->	O
-.	O
 
 모두싸인
 장영실 벤처포럼 최우수상.
-장영실	B-PER
-벤처포럼	B-EVT
-최우수상	B-POS
+장영실	B-EVT
+벤처포럼	I-EVT
+최우수상	B-PRI
 .	O
 
 모두싸인
-<br/>미래창조과학부 K-Global DB Stars 최우수상.
-<	O
-br	O
-/	O
->	O
+미래창조과학부 K-Global DB Stars 최우수상.
 미래창조과학부	B-ORG
-K	B-ORG
--	I-ORG
+K	B-EVT
+-	I-EVT
 Global	I-EVT
 DB	I-EVT
-Stars	I-ORG
-최우수상	B-POS
+Stars	I-EVT
+최우수상	B-PRI
 .	O
 
 하스 F1
 NASCAR 컵 시리즈에 참가중인 팀의 공동 소유주였던 진 하스가 2014년 4월에 2015년 포뮬러 원 시즌 참가를 목표로 F1 팀을 꾸렸지만 2016년 시즌으로 미뤄졌다.
 NASCAR	B-EVT
 컵	I-EVT
-시리즈에	I-EVT
+시리즈에	O
 참가중인	O
 팀의	O
 공동	O
@@ -4993,10 +4927,10 @@ NASCAR	B-EVT
 시즌	O
 참가를	O
 목표로	O
-F1	B-POS
+F1	O
 팀을	O
 꾸렸지만	O
-2016년	B-NUM
+2016년	B-DAT
 시즌으로	O
 미뤄졌다	O
 .	O
@@ -5008,8 +4942,8 @@ F1	B-POS
 미국	B-LOC
 노스캐롤라이나주의	B-LOC
 샬럿에서	B-LOC
-약	O
-50km	B-NUM
+약	B-NUM
+50km	I-NUM
 떨어진	O
 칸나폴리스에	B-LOC
 위치해	O
@@ -5018,7 +4952,7 @@ F1	B-POS
 
 하스 F1
 하스는 또한 유럽 그랑프리 일정을 원활히 소화하기 위해 영국 옥스퍼드셔주 밴버리에 유럽 지사를 세웠다.
-하스는	B-PER
+하스는	B-ORG
 또한	O
 유럽	B-EVT
 그랑프리	I-EVT
@@ -5068,7 +5002,7 @@ CJ오쇼핑이	B-ORG
 창립	O
 ,	O
 1987년에는	B-DAT
-'	B-ORG
+'	O
 삼성항공산업주식회사	B-ORG
 '	O
 로	O
@@ -5076,7 +5010,7 @@ CJ오쇼핑이	B-ORG
 변경되었고	O
 ,	O
 2000년	B-DAT
-'	B-ORG
+'	O
 삼성테크윈	B-ORG
 '	O
 으로	O
@@ -5093,8 +5027,8 @@ Gendron	I-ORG
 이자	O
 트랜스포드	B-ORG
 사의	I-ORG
-공동	O
-창립자이다	B-POS
+공동	B-POS
+창립자이다	I-POS
 .	O
 
 트랜스포드
@@ -5108,8 +5042,8 @@ Janzen	I-PER
 이자	O
 트랜스포드	B-ORG
 사의	I-ORG
-공동	O
-창립자이다	B-POS
+공동	B-POS
+창립자이다	I-POS
 .	O
 
 선 레코드
@@ -5149,7 +5083,7 @@ Janzen	I-PER
 선은	B-ORG
 주로	O
 아프리카계	B-LOC
-미국인	B-POS
+미국인	O
 음악가들에	B-POS
 전력하는	O
 회사였다	O
@@ -5164,7 +5098,7 @@ Janzen	I-PER
 엔지니어	B-POS
 잭	B-PER
 클리멘트는	I-PER
-필립스가	B-ORG
+필립스가	B-PER
 플로리다에	B-LOC
 떠난	O
 새	O
@@ -5177,19 +5111,19 @@ Janzen	I-PER
 
 선 레코드
 선 레코드의 원 로고는, 멤피스의 주민 겸 필립스의 고등학교 동창 존 게일 파커 2세가 고안했다.
-선	O
-레코드의	O
+선	B-ORG
+레코드의	I-ORG
 원	O
 로고는	O
 ,	O
 멤피스의	B-LOC
-주민	B-POS
+주민	O
 겸	O
-필립스의	B-ORG
+필립스의	B-PER
 고등학교	O
 동창	O
 존	B-PER
-게일	B-PER
+게일	I-PER
 파커	I-PER
 2세가	I-PER
 고안했다	O
@@ -5197,16 +5131,16 @@ Janzen	I-PER
 
 선 레코드
 선 및 필립스 인터네셔널 레이블에서 녹음 및 발매를 행한 여성 아티스트는 총 16명이었으며, 바버라 피트먼과 더 밀러 시스터즈 등이 해당된다.
-선	O
+선	B-ORG
 및	O
 필립스	B-ORG
-인터네셔널	O
-레이블에서	O
+인터네셔널	I-ORG
+레이블에서	I-ORG
 녹음	O
 및	O
 발매를	O
 행한	O
-여성	O
+여성	B-PIV
 아티스트는	B-POS
 총	O
 16명이었으며	B-NUM
@@ -5222,11 +5156,11 @@ Janzen	I-PER
 
 선 레코드
 1970년부로 재발행사로 변용됐지만, 2013년에 이례적으로 컨트리 음악가 줄리 로버트와 녹음 계약을 맺었다.
-1970년부로	B-NUM
+1970년부로	B-DAT
 재발행사로	O
 변용됐지만	O
 ,	O
-2013년에	B-NUM
+2013년에	B-DAT
 이례적으로	O
 컨트리	O
 음악가	B-POS
@@ -5256,13 +5190,13 @@ Janzen	I-PER
 핀레이슨
 그래서 핀레이슨 기계공장이 제면소로 완전 전환된 것이 1828년이며, 이 때를 핀란드 면직산업의 시작점으로 친다.
 그래서	O
-핀레이슨	B-LOC
+핀레이슨	B-RG
 기계공장이	O
 제면소로	O
 완전	O
 전환된	O
 것이	O
-1828년이며	B-NUM
+1828년이며	B-DAT
 ,	O
 이	O
 때를	O
@@ -5274,14 +5208,14 @@ Janzen	I-PER
 
 핀레이슨
 1831년이 되면 핀란드 전역에서 면사를 팔았고, 1840년대에는 핀란드에서 가장 큰 제면소가 되었다.
-1831년이	B-NUM
+1831년이	B-DAT
 되면	O
 핀란드	B-LOC
 전역에서	O
-면사를	B-POS
+면사를	O
 팔았고	O
 ,	O
-1840년대에는	B-NUM
+1840년대에는	B-DAT
 핀란드에서	B-LOC
 가장	O
 큰	O
@@ -5305,7 +5239,7 @@ Janzen	I-PER
 
 핀레이슨
 1882년 핀레이슨 제면소에 조명으로 전등을 설치한 것이 북유럽 최초의 전등이었다.
-1882년	B-NUM
+1882년	B-DAT
 핀레이슨	B-LOC
 제면소에	O
 조명으로	O
@@ -5324,7 +5258,7 @@ Janzen	I-PER
 핀레이슨	B-ORG
 사업부는	I-ORG
 노르웨이의	B-LOC
-사가텍스에	O
+사가텍스에	B-ORG
 판매되었고	O
 ,	O
 2000년	B-DAT
@@ -5342,7 +5276,7 @@ Janzen	I-PER
 구조조정을	O
 발표하고	O
 포르사의	B-LOC
-생산부	O
+생산부	B-POS
 업무를	O
 3월에	B-DAT
 중단시켰다	O
@@ -5364,9 +5298,9 @@ SK머티리얼즈는	B-ORG
 경상북도	B-LOC
 영주시	B-LOC
 가흥공단로	B-LOC
-59	I-NUM
--	I-NUM
-33	I-NUM
+59	I-LOC
+-	I-LOC
+33	I-LOC
 (	O
 상줄동	B-LOC
 )	O
@@ -5380,7 +5314,7 @@ SK머티리얼즈는	B-ORG
 2004년	B-DAT
 김대영	B-PER
 대표이사의	B-POS
-SGP가	B-HEC
+SGP가	B-ORG
 모태기업이며	O
 2009년	B-DAT
 그	O
@@ -5388,9 +5322,9 @@ SGP가	B-HEC
 새롭게	O
 설립된	O
 에스지피코리아가	B-ORG
-2013년	B-NUM
+2013년	B-DAT
 (	O
-주	B-ORG
+주	O
 )	O
 슈피겐코리아로	B-ORG
 바뀌어	O
@@ -5407,7 +5341,7 @@ SGP가	B-HEC
 서울특별시	B-LOC
 마포구	B-LOC
 양화로	B-LOC
-188	I-NUM
+188	I-LOC
 (	O
 동교동	B-LOC
 )	O
@@ -5416,8 +5350,7 @@ SGP가	B-HEC
 .	O
 
 애경산업
-* 2018년 12월 31일 기준 애경산업의 총매출액은 6,973억 원, 영업 이익은 774억 원이며, 당기 순이익은 595억 원이다.
-*	O
+2018년 12월 31일 기준 애경산업의 총매출액은 6,973억 원, 영업 이익은 774억 원이며, 당기 순이익은 595억 원이다.
 2018년	B-DAT
 12월	I-DAT
 31일	I-DAT
@@ -5434,7 +5367,7 @@ SGP가	B-HEC
 774억	B-NUM
 원이며	I-NUM
 ,	O
-당기	B-DAT
+당기	O
 순이익은	O
 595억	B-NUM
 원이다	I-NUM
@@ -5443,10 +5376,10 @@ SGP가	B-HEC
 산엑스
 9년 뒤인 1941년, 유한회사로 개편한 후 1957년 전국에 대리점, 특약점 등을 설치하고 전국 판매망을 완성시켰다.
 9년	B-DAT
-뒤인	I-DAT
-1941년	B-NUM
+뒤인	O
+1941년	B-DAT
 ,	O
-유한회사로	B-ORG
+유한회사로	O
 개편한	O
 후	O
 1957년	B-DAT
@@ -5467,22 +5400,22 @@ SGP가	B-HEC
 음반사의	O
 예술가들은	B-POS
 14개의	B-NUM
-그래미상과	O
+그래미상과	B-PRI
 88개의	B-NUM
-그래미상	O
-후보에	B-POS
+그래미상	B-PRI
+후보에	O
 올랐다	O
 .	O
 
 콩코드 레코드
 "콩코드 재즈"의 C와 J를 포함하는 양식화된 팔분음표인 오리지널 로고는 베이 지역 그래픽 디자이너 댄 벅에 의해 만들어졌는데 그는 이 회사의 여러 앨범 커버 작업도 했다.
-"	B-HEC
-콩코드	I-AFW
-재즈	I-AFW
+"	O
+콩코드	O
+재즈	O
 "	O
 의	O
-C와	B-PER
-J를	B-PER
+C와	O
+J를	O
 포함하는	O
 양식화된	O
 팔분음표인	O
@@ -5490,10 +5423,10 @@ J를	B-PER
 로고는	O
 베이	B-LOC
 지역	O
-그래픽	O
-디자이너	O
+그래픽	B-POS
+디자이너	I-POS
 댄	B-PER
-벅에	O
+벅에	I-PER
 의해	O
 만들어졌는데	O
 그는	O
@@ -5517,24 +5450,24 @@ FBI와	B-ORG
 CIA가	B-ORG
 만든	O
 군사	O
-위성도	B-HEC
+위성도	O
 이	O
 회사가	O
-로켓을	B-HEC
+로켓을	O
 제공한다	O
 .	O
 
 ULA
 스페이스 X가 미국정부와 GPS와 인공위성이 관련된 계약을 미국 정부와 하기 전까지는 독점.
-스페이스	O
-X가	O
+스페이스	B-ORG
+X가	I-ORG
 미국정부와	B-ORG
-GPS와	B-HEC
+GPS와	O
 인공위성이	O
 관련된	O
 계약을	O
-미국	O
-정부와	O
+미국	B-LOC
+정부와	B-ORG
 하기	O
 전까지는	O
 독점	O
@@ -5545,7 +5478,7 @@ GPS와	B-HEC
 경기도	B-LOC
 성남시	B-LOC
 판교	B-LOC
-테크노밸리의	B-ORG
+테크노밸리의	B-LOC
 기존	O
 사옥에서	O
 ,	O
@@ -5565,8 +5498,8 @@ GPS와	B-HEC
 (	O
 서울시	B-LOC
 강남구	B-LOC
-테헤란로113길	B-AFW
-12	I-NUM
+테헤란로113길	B-LOC
+12	I-LOC
 )	O
 에	O
 위치해	O
@@ -5577,19 +5510,19 @@ GPS와	B-HEC
 모니터랩(영어: MONITORAPP)은 2005년에 창립된 대한민국 서울 구로디지털단지에 본사를 둔 애플리케이션 보안 전문 비상장 주식회사이다.
 모니터랩	B-ORG
 (	O
-영어	B-POS
+영어	O
 :	O
 MONITORAPP	B-ORG
 )	O
 은	O
-2005년에	B-NUM
+2005년에	B-DAT
 창립된	O
 대한민국	B-LOC
 서울	B-LOC
 구로디지털단지에	B-LOC
 본사를	O
 둔	O
-애플리케이션	B-HEC
+애플리케이션	O
 보안	O
 전문	O
 비상장	O
@@ -5601,12 +5534,12 @@ AIWAF는 2007년 3월에 ‘프로파일링 기반 웹 보안 시스템’ (정�
 AIWAF는	B-ORG
 2007년	B-DAT
 3월에	I-DAT
-‘	B-HEC
-프로파일링	B-HEC
+‘	O
+프로파일링	O
 기반	O
 웹	O
 보안	O
-시스템	B-HEC
+시스템	O
 ’	O
 (	O
 정상	O
@@ -5634,9 +5567,9 @@ AIWAF는	B-ORG
 ,	O
 특허번호	O
 :	O
-10	B-DAT
--	B-DAT
-0695489	B-DAT
+10	B-NUM
+-	I-NUM
+0695489	I-NUM
 )	O
 특허	O
 등록을	O
@@ -5644,20 +5577,20 @@ AIWAF는	B-ORG
 ,	O
 2009년	B-DAT
 5월에	I-DAT
-‘	B-HEC
-투명	I-HEC
-프록시	I-HEC
-시스템의	I-HEC
+‘	O
+투명	O
+프록시	O
+시스템의	O
 패킷	O
 처리	O
 방법	O
 ’	O
 (	O
 별도의	O
-IP	B-HEC
+IP	O
 부여	O
 없이	O
-Stealth	B-HEC
+Stealth	O
 모드로	O
 운영되어	O
 투명성이	O
@@ -5673,9 +5606,9 @@ Stealth	B-HEC
 ,	O
 특허번호	O
 :	O
-10	B-DAT
--	O
-0898371	O
+10	B-NUM
+-	I-NUM
+0898371	I-NUM
 )	O
 특허	O
 등록을	O
@@ -5683,7 +5616,7 @@ Stealth	B-HEC
 ,	O
 2010년	B-DAT
 1월에	I-DAT
-‘	B-HEC
+‘	O
 웹	O
 -	O
 DB	O
@@ -5719,9 +5652,9 @@ DB	O
 ,	O
 특허번호	O
 :	O
-10	B-DAT
--	O
-0937020	B-DAT
+10	B-NUM
+-	I-NUM
+0937020	I-NUM
 )	O
 특허	O
 등록을	O
@@ -5732,14 +5665,14 @@ DB	O
 유입되는 트래픽의 URL을 56개의 일반 URL 카테고리와 9개의 악성 URL 카테고리로 분류하여 악성 트래픽은 필터링하며 일반 카테고리도 56가지로 분류하여 금융, 포탈, 블로그 등 비 업무 트래픽을 통제한다.
 유입되는	O
 트래픽의	O
-URL을	B-HEC
+URL을	O
 56개의	B-NUM
 일반	O
-URL	B-HEC
+URL O
 카테고리와	O
 9개의	B-NUM
 악성	O
-URL	B-HEC
+URL	O
 카테고리로	O
 분류하여	O
 악성	O
@@ -5753,7 +5686,7 @@ URL	B-HEC
 ,	O
 포탈	O
 ,	O
-블로그	B-HEC
+블로그	O
 등	O
 비	O
 업무	O
@@ -5763,23 +5696,23 @@ URL	B-HEC
 
 AJ가족
 故문태식 선대 회장(출생:1928~2014)이 1960년 설립한 아주산업(주)을 전신으로 한다.
-故	B-PER
+故	O
 문태식	B-PER
 선대	B-POS
-회장	B-POS
+회장	I-POS
 (	O
 출생	O
 :	O
 1928	B-DAT
-~	O
-2014	B-NUM
+~	I-DAT
+2014    I-DAT
 )	O
 이	O
 1960년	B-DAT
 설립한	O
 아주산업	B-ORG
 (	O
-주	I-ORG
+주	O
 )	O
 을	O
 전신으로	O
@@ -5803,8 +5736,8 @@ CEO는	B-POS
 소재지는	O
 경기도	B-LOC
 군포시	B-LOC
-공단로	B-AFW
-149이다	I-NUM
+공단로	B-LOC
+149이다	I-LOC
 .	O
 
 유빈스
@@ -5816,10 +5749,8 @@ CEO는	B-POS
 .	O
 
 아디옌
-아디옌()는 네덜란드의 글로벌 결제 서어비스 기업이다.
+아디옌는 네덜란드의 글로벌 결제 서어비스 기업이다.
 아디옌	B-PER
-(	O
-)	O
 는	O
 네덜란드의	B-LOC
 글로벌	O
@@ -5844,7 +5775,7 @@ CEO는	B-POS
 네덜란드의	B-LOC
 신생	O
 기업	O
-아디옌으로	B-PER
+아디옌으로	B-ORG
 바꿀	O
 것이라고	O
 발표하였는데	O
@@ -5925,15 +5856,15 @@ Beretta	I-PER
 
 베레타
 바르톨로메오 베레타(Bartolomeo Beretta)에 의하여 1526년 설립되었으며, 사업 초기에는 총열만 제작하였다.
-바르톨로메오	B-ORG
-베레타	B-ORG
+바르톨로메오	B-PER
+베레타	I-PER
 (	O
-Bartolomeo	B-ORG
-Beretta	I-ORG
+Bartolomeo	B-PER
+Beretta	I-PER
 )	O
 에	O
 의하여	O
-1526년	B-NUM
+1526년	B-DAT
 설립되었으며	O
 ,	O
 사업	O
@@ -5947,13 +5878,13 @@ Beretta	I-ORG
 마그나복스의	B-ORG
 전	O
 회사는	O
-1911년	B-NUM
+1911년	B-DAT
 나파의	B-LOC
 연구실에서	O
-무빙코일	B-HEC
-스피커	I-HEC
+무빙코일	O
+스피커	O
 (	O
-수화기에	B-HEC
+수화기에	O
 대한	O
 미국	B-LOC
 특허번호	O
@@ -5966,11 +5897,11 @@ Beretta	I-ORG
 를	O
 공동으로	O
 발명한	O
-Edwin	B-ORG
-Pridham과	I-ORG
+Edwin	B-PER
+Pridham과	I-PER
 Peter	B-PER
 L	I-PER
-Jensen에	B-ORG
+Jensen에	I-PER
 의해	O
 설립되었다	O
 .	O
@@ -5979,15 +5910,15 @@ Jensen에	B-ORG
 60년 뒤 마그나복스는 세계 최초의 가정용 비디오 게임 콘솔 장난감인 오디세이를 생산하였다.
 60년	B-DAT
 뒤	I-DAT
-마그나복스는	B-AFW
+마그나복스는	B-ORG
 세계	O
 최초의	O
 가정용	O
-비디오	B-HEC
-게임	I-HEC
-콘솔	I-HEC
+비디오	O
+게임	O
+콘솔	O
 장난감인	O
-오디세이를	B-AFW
+오디세이를	B-INF
 생산하였다	O
 .	O
 
@@ -5996,8 +5927,8 @@ DL건설
 본사는	O
 인천광역시	B-LOC
 남동구	B-LOC
-미래로	B-ORG
-14	B-NUM
+미래로	B-LOC
+14	I-LOC
 (	O
 구월동	B-LOC
 )	O
@@ -6007,10 +5938,10 @@ DL건설
 서울사무소는	B-ORG
 서울특별시	B-LOC
 영등포구	B-LOC
-여의대로	B-AFW
-24	I-NUM
+여의대로	B-LOC
+24	I-LOC
 여의도	B-LOC
-전경련회관	B-AFW
+전경련회관	B-LOC
 24	B-NUM
 ~	I-NUM
 26층	I-NUM
@@ -6022,8 +5953,8 @@ DL건설
 체펠린 비행조선
 페르디난트 폰 체펠린 백작이 창업주이며, 전간기에는 후고 에케너가 경영을 맡았다.
 페르디난트	B-PER
-폰	O
-체펠린	B-PER
+폰	I-PER
+체펠린	I-PER
 백작이	B-POS
 창업주이며	B-POS
 ,	O
@@ -6044,11 +5975,11 @@ DL건설
 ,	O
 오마이컴퍼니	B-ORG
 (	O
-www	B-HEC
-.	B-HEC
-ohmycompany	B-HEC
-.	I-HEC
-com	B-HEC
+www	B-INF
+.	I-INF
+ohmycompany	I-INF
+.	I-INF
+com	I-INF
 )	O
 를	O
 런칭한	O
@@ -6061,14 +5992,14 @@ com	B-HEC
 독일 체펠린 선사
 하지만 제2차 세계대전이 발발하며 체펠린 비행선들은 1940년 나치 정권에게 물자로 징발당해 고철 처리된다.
 하지만	O
-제2차	B-NUM
+제2차	B-EVT
 세계대전이	I-EVT
 발발하며	O
-체펠린	B-LOC
+체펠린	B-ORG
 비행선들은	O
 1940년	B-DAT
 나치	B-ORG
-정권에게	B-POS
+정권에게	I-ORG
 물자로	O
 징발당해	O
 고철	O
@@ -6077,13 +6008,13 @@ com	B-HEC
 
 두루두루 아티스트 컴퍼니
 두루두루 아티스트 컴퍼니(DooRooDooRoo Artist Company)는 '널리 아티스트를 이롭게'를 모토로 하는 아티스트 매니지먼트 컴퍼니이다.
-두루두루	B-LOC
-아티스트	I-AFW
-컴퍼니	I-AFW
+두루두루	B-ORG
+아티스트	I-ORG
+컴퍼니	I-ORG
 (	O
-DooRooDooRoo	B-AFW
-Artist	I-AFW
-Company	I-AFW
+DooRooDooRoo	B-ORG
+Artist	I-ORG
+Company	I-ORG
 )	O
 는	O
 '	O
@@ -6116,7 +6047,7 @@ Company	I-AFW
 ABC 스토어
 회사는 연간 이익 2억 3000만 달러 이상을 창출하고 있으며, 1,500명 이상의 직원이 있으며, 하와이에서 37번째로 큰 회사이다.
 회사는	O
-연간	B-DAT
+연간	O
 이익	O
 2억	B-NUM
 3000만	I-NUM
@@ -6139,15 +6070,14 @@ ABC 스토어
 .	O
 
 원더풀 모빌리티
-* 여성 전용 카풀 시스템 여성 라이더와 여성 드라이버를 만나게 하는 카풀 선택 옵션이 적용되어 있다.
-*	O
-여성	O
+여성 전용 카풀 시스템 여성 라이더와 여성 드라이버를 만나게 하는 카풀 선택 옵션이 적용되어 있다.
+여성	B-PIV
 전용	O
 카풀	O
 시스템	O
-여성	O
+여성	B-PIV
 라이더와	B-POS
-여성	O
+여성	B-PIV
 드라이버를	B-POS
 만나게	O
 하는	O
@@ -6167,7 +6097,7 @@ ABC 스토어
 졸업	B-POS
 후	O
 대우통신에서	B-ORG
-전자교환기	B-HEC
+전자교환기	O
 개발과	O
 SI	B-HEC
 (	O
@@ -6187,7 +6117,7 @@ integration	O
 설립한	O
 팅크웨어시스템즈	B-ORG
 (	O
-주	I-ORG
+주	O
 )	O
 이다	O
 .	O
@@ -6201,11 +6131,11 @@ integration	O
 토대로	O
 자체	O
 브랜드	O
-‘	B-HEC
-아이나비	B-HEC
-’	B-HEC
-내비게이션	B-HEC
-단말기를	I-HEC
+‘	O
+아이나비	B-INF
+’	O
+내비게이션	O
+단말기를	O
 생산	O
 ,	O
 시장점유율	O
@@ -6218,22 +6148,22 @@ integration	O
 1998년 3월 기업부설연구소를 세우고, 2000년 10월 국내 최초 PDA(개인용 휴대단말기) 기반 내비게이션 ‘아이나비320’을 개발했다.
 1998년	B-DAT
 3월	I-DAT
-기업부설연구소를	B-ORG
+기업부설연구소를    O
 세우고	O
 ,	O
 2000년	B-DAT
 10월	I-DAT
 국내	O
 최초	O
-PDA	B-HEC
+PDA	O
 (	O
-개인용	B-HEC
-휴대단말기	I-HEC
+개인용	O
+휴대단말기	O
 )	O
 기반	O
-내비게이션	B-HEC
-‘	B-HEC
-아이나비320	I-HEC
+내비게이션	O
+‘	O
+아이나비320	B-INF
 ’	O
 을	O
 개발했다	O
@@ -6243,21 +6173,21 @@ PDA	B-HEC
 2008년 2월 ‘2008 Korea Web Awards’ 소프트웨어진흥원장상을 4년 연속 수상하고, 3월에는 리얼3D를 탑재한 아이나비K2를 출시했다.
 2008년	B-DAT
 2월	I-DAT
-‘	B-DAT
+‘	O
 2008	B-EVT
 Korea	B-EVT
 Web	I-EVT
 Awards	I-EVT
 ’	O
-소프트웨어진흥원장상을	B-POS
+소프트웨어진흥원장상을	B-PRI
 4년	B-DAT
 연속	O
 수상하고	O
 ,	O
 3월에는	B-DAT
-리얼3D를	B-HEC
+리얼3D를	O
 탑재한	O
-아이나비K2를	B-ORG
+아이나비K2를	B-INF
 출시했다	O
 .	O
 
@@ -6268,9 +6198,9 @@ Awards	I-EVT
 시간은	O
 원래의	O
 방송과	O
-사용자가	B-POS
+사용자가	O
 수신한	O
-시간	B-DAT
+시간	O
 (	O
 10	B-DAT
 -	B-DAT
@@ -6285,7 +6215,7 @@ Awards	I-EVT
 기능을	O
 촉진하고	O
 스트리머와	B-POS
-시청자가	B-POS
+시청자가	O
 실시간으로	O
 상호	O
 작용할	O
@@ -6311,11 +6241,13 @@ Awards	I-EVT
 출판한다	O
 .	O
 
-간호교육연수원
-* 이러닝 사업.
-*	O
-이러닝	O
-사업	O
+제약
+이 의약품은 살바르산이라는 이름으로 판매되었다.
+이	O
+의약품은	O
+살바르산이라는	B-INF
+이름으로	O
+판매되었다	O
 .	O
 
 세화양조
@@ -6332,7 +6264,7 @@ Awards	I-EVT
 
 세화양조
 1953년 12월 1일 창립된 대한민국 대구광역시 교동에 위치했던 주류 기업이다.
-1953년	B-NUM
+1953년	B-DAT
 12월	I-DAT
 1일	I-DAT
 창립된	O
@@ -6353,7 +6285,7 @@ Awards	I-EVT
 2개	B-NUM
 기관으로부터	O
 모두	O
-A등급을	O
+A등급을	B-PRI
 받고	O
 ,	O
 2018년	B-DAT
@@ -6362,8 +6294,8 @@ A등급을	O
 기술특례기업으로	O
 상장	B-NUM
 (	O
-KQ	B-POS
-226950	B-NUM
+KQ	O
+226950	O
 )	O
 되었다	O
 .	O
@@ -6375,41 +6307,41 @@ KQ	B-POS
 노인성	B-HEC
 황반변성	I-HEC
 (	O
-건성	I-HEC
+건성	O
 /	O
-습성	B-HEC
+습성	O
 /	O
 망막하섬유화	B-HEC
 )	O
-치료제	I-HEC
+치료제	O
 (	O
-OLX301A	B-HEC
+OLX301A	B-INF
 ,	O
-OLX301D	B-HEC
+OLX301D	B-INF
 ,	O
-OLX301G	B-HEC
+OLX301G	B-INF
 )	O
 와	O
 망막색소변성증	B-HEC
-치료제	I-HEC
+치료제 O
 (	O
-OLX304A	B-HEC
+OLX304A	B-INF
 )	O
 ,	O
 특발성폐섬유화	B-HEC
-치료제	I-HEC
+치료제	O
 (	O
-OLX201A	B-HEC
+OLX201A	B-INF
 )	O
 ,	O
-미백	B-HEC
+미백	O
 (	O
-OLX102	B-HEC
+OLX102	B-INF
 )	O
 ,	O
 아토피	B-HEC
 (	O
-OLX103	B-HEC
+OLX103	B-INF
 )	O
 등의	O
 치료제를	O
@@ -6431,7 +6363,7 @@ OLX103	B-HEC
 것이	O
 보통인데	O
 ,	O
-콰이저우는	B-LOC
+콰이저우는	B-INF
 즉시	O
 발사가	O
 특징이다	O
@@ -6439,16 +6371,16 @@ OLX103	B-HEC
 
 엑스페이스
 콰이저우 로켓은 길이 20 m, 직경 1.4 m, 무게 30 톤, 3단 고체연료에 300 kg LEO 인공위성을 발사할 수 있다.
-콰이저우	B-LOC
+콰이저우	B-INF
 로켓은	O
-길이	B-NUM
+길이	O
 20	B-NUM
 m	I-NUM
 ,	O
 직경	O
 1	B-NUM
-.	O
-4	B-NUM
+.	I-NUM
+4	I-NUM
 m	I-NUM
 ,	O
 무게	O
@@ -6458,8 +6390,8 @@ m	I-NUM
 3단	B-NUM
 고체연료에	O
 300	B-NUM
-kg	O
-LEO	B-HEC
+kg	I-NUM
+LEO	O
 인공위성을	O
 발사할	O
 수	O
@@ -6489,9 +6421,10 @@ tvN	B-ORG
 .	O
 
 신화그룹
-창시자인 채계유선생과 그의 아들 조나단 채가 그룹을 이끌었다.
+창시자인 채계유 선생과 그의 아들 조나단 채가 그룹을 이끌었다.
 창시자인	B-POS
-채계유선생과	B-PER
+채계유 B-PER
+선생과	B-POS
 그의	O
 아들	B-PIV
 조나단	B-PER
@@ -6523,33 +6456,33 @@ tvN	B-ORG
 2018년	B-DAT
 안에	O
 전기	O
-오토바이를	B-AFW
+오토바이를	O
 ,	O
 2019년	B-DAT
 4	I-DAT
 -	I-DAT
 6월	I-DAT
-중에	I-DAT
+중에	O
 스포츠	O
 유틸리티	O
-차량	B-AFW
+차량	O
 (	O
-SUV	B-AFW
+SUV	O
 )	O
 와	O
-세단을	B-AFW
+세단을	O
 ,	O
 2019년	B-DAT
 말에	I-DAT
 소형	O
 내연기관	O
-자동차와	B-AFW
-전기자동차	B-AFW
+자동차와	O
+전기자동차	O
 (	O
-EV	B-AFW
+EV	O
 )	O
 ,	O
-전기버스를	B-AFW
+전기버스를	O
 발매할	O
 예정이다	O
 .	O
@@ -6557,28 +6490,28 @@ EV	B-AFW
 맥키스컴퍼니
 현재는 희석식 소주, 이제우린과 린21을 생산 중이다.
 현재는	O
-희석식	B-POS
-소주	I-POS
+희석식	O
+소주	O
 ,	O
-이제우린과	B-PER
-린21을	B-ORG
+이제우린과	B-INF
+린21을	B-INF
 생산	O
 중이다	O
 .	O
 
 맥키스컴퍼니
 이제우린은 지역사랑 장학캠페인의 일환으로 1병당 5원씩 적립되며, 2028년까지 10년동안 40억 기부를 목표로 진행된다.
-이제우린은	B-PER
-지역사랑	B-EVT
-장학캠페인의	I-EVT
+이제우린은	B-INF
+지역사랑	O
+장학캠페인의	O
 일환으로	O
 1병당	B-NUM
 5원씩	B-NUM
 적립되며	O
 ,	O
-2028년까지	B-NUM
+2028년까지	B-DAT
 10년동안	B-DAT
-40억	B-HEC
+40억	B-NUM
 기부를	O
 목표로	O
 진행된다	O
@@ -6602,7 +6535,7 @@ EV	B-AFW
 위치해	O
 있으며	O
 ,	O
-경기도	O
+경기도	B-LOC
 시흥시	B-LOC
 정왕공단에	B-LOC
 공장이	O
@@ -6611,15 +6544,15 @@ EV	B-AFW
 
 스타피쉬 엔터테인먼트
 스타피쉬 엔터테인먼트(STARFISH entertainment)는 대한민국의 MCN사업의 영향력을 위해 인플루언서를 육성하는 업체이다.
-스타피쉬	B-HEC
-엔터테인먼트	I-HEC
+스타피쉬	B-ORG
+엔터테인먼트	I-ORG
 (	O
-STARFISH	I-POS
-entertainment	I-HEC
+STARFISH	B-ORG
+entertainment	I-ORG
 )	O
 는	O
 대한민국의	B-LOC
-MCN사업의	B-HEC
+MCN사업의	O
 영향력을	O
 위해	O
 인플루언서를	B-POS
@@ -6628,13 +6561,9 @@ MCN사업의	B-HEC
 .	O
 
 새움소프트
-주식회사 새움소프트(, Ltd)는 2005년에 설립된 경기도 안양지역에 본사를 둔 대한민국의 소프트웨어 기업이다.
+주식회사 새움소프트는 2005년에 설립된 경기도 안양지역에 본사를 둔 대한민국의 소프트웨어 기업이다.
 주식회사	O
 새움소프트	B-ORG
-(	O
-,	B-ORG
-Ltd	B-ORG
-)	O
 는	O
 2005년에	B-DAT
 설립된	O
@@ -6643,7 +6572,7 @@ Ltd	B-ORG
 본사를	O
 둔	O
 대한민국의	B-LOC
-소프트웨어	B-HEC
+소프트웨어	O
 기업이다	O
 .	O
 
@@ -6652,7 +6581,7 @@ Ltd	B-ORG
 그룹사	O
 규모의	O
 대용량	O
-사용자	B-NUM
+사용자	O
 (	O
 10만명	B-NUM
 이상	I-NUM
@@ -6661,29 +6590,28 @@ Ltd	B-ORG
 동작하는	O
 실시간	O
 기업형	O
-메신저	B-HEC
+메신저	O
 .	O
 
 새움소프트
-# 스마트폰(안드로이드, 아이폰)메신저, PC메신저, 웹메신저(익스플로러, 크롬, 사파리등) 지원.
-#	B-HEC
-스마트폰	B-HEC
+스마트폰(안드로이드, 아이폰)메신저, PC메신저, 웹메신저(익스플로러, 크롬, 사파리등) 지원.
+스마트폰	O
 (	O
-안드로이드	B-HEC
+안드로이드	B-INF
 ,	O
-아이폰	B-HEC
+아이폰	B-INF
 )	O
-메신저	B-HEC
+메신저	O
 ,	O
-PC메신저	B-HEC
+PC메신저	O
 ,	O
-웹메신저	B-HEC
+웹메신저	O
 (	O
-익스플로러	B-HEC
+익스플로러	B-INF
 ,	O
-크롬	B-HEC
+크롬	B-INF
 ,	O
-사파리등	B-HEC
+사파리등	B-INF
 )	O
 지원	O
 .	O
@@ -6707,15 +6635,15 @@ VIPKID
 캐나다의	B-LOC
 북미	B-LOC
 원어민	B-POS
-교사와	B-POS
+교사와	I-POS
 25분	B-DAT
-1	I-DAT
-:	I-DAT
-1	I-DAT
+1	B-NUM
+:	I-NUM
+1	I-NUM
 화상통화를	O
 통해	O
 완전	O
-몰입식	B-HEC
+몰입식	O
 어린이	O
 화상	O
 영어	O
@@ -6737,16 +6665,16 @@ VIPKID
 5년	B-DAT
 만에	O
 50만	B-NUM
-유료	I-NUM
+유료	O
 회원과	B-POS
 6만	B-NUM
 명의	I-NUM
 우수한	O
-외국인	B-POS
+외국인	O
 강사를	B-POS
 확보한	O
 '	O
-슈퍼학교	B-ORG
+슈퍼학교	O
 '	O
 로	O
 거듭났다	O
@@ -6769,7 +6697,7 @@ VIPKID
 시간엔	O
 독학을	O
 통해	O
-영어를	B-POS
+영어를	O
 열심히	O
 하였다	O
 .	O
@@ -6780,15 +6708,15 @@ VIPKID
 미국	B-LOC
 경제	O
 매체	O
-'	B-ORG
+'	O
 포브스	B-ORG
 '	O
 가	O
 발표한	O
 차세대	O
 아시아	B-LOC
-여성	O
-기업인	O
+여성	B-PIV
+기업인	B-POS
 25명	B-NUM
 중	O
 한	B-NUM
@@ -6827,15 +6755,15 @@ VIPKID
 현재	O
 Qusar	B-ORG
 international	I-ORG
-,	I-ORG
-LLC의	B-ORG
+,	O
+LLC의	O
 CEO	B-POS
 세계경제포럼	B-ORG
-공동	O
-창립자	B-POS
+공동	B-POS
+창립자	I-POS
 겸	O
 북미	B-LOC
-매스	B-POS
+매스	O
 센터장이다	B-POS
 .	O
 
@@ -6843,9 +6771,9 @@ VIPKID
 "저는 부모님들이 아이들에게 외국어를 선물할 수 있다고 믿습니다."라고 말했다.
 "	O
 저는	O
-부모님들이	B-POS
+부모님들이	B-PIV
 아이들에게	O
-외국어를	B-POS
+외국어를	O
 선물할	O
 수	O
 있다고	O
@@ -6858,16 +6786,16 @@ VIPKID
 
 VIPKID
 특수 교육과를 부전공으로 학사 학위 취득 및 2007년 교사 자격증 취득, 6년의 초등학교 교사 경력을 보유하고 있다.
-특수	O
-교육과를	O
+특수	B-POS
+교육과를	I-POS
 부전공으로	O
 학사	B-POS
 학위	O
 취득	O
 및	O
 2007년	B-DAT
-교사	B-POS
-자격증	O
+교사	B-PRI
+자격증	I-PRI
 취득	O
 ,	O
 6년의	B-DAT
@@ -6883,8 +6811,8 @@ VIPKID
 2000년	B-DAT
 3월	I-DAT
 ,	O
-레코딩	B-ORG
-엔지니어	B-POS
+레코딩	B-POS
+엔지니어	I-POS
 최정훈이	B-PER
 설립한	O
 독립	O
@@ -6906,10 +6834,10 @@ VIPKID
 
 다이제
 다이제는 오리온에서 제조생산하는 통밀과자이다.
-다이제는	B-PER
+다이제는	B-INF
 오리온에서	B-ORG
 제조생산하는	O
-통밀과자이다	B-POS
+통밀과자이다	O
 .	O
 
 다이제
@@ -6917,30 +6845,30 @@ VIPKID
 원래	O
 영국	B-LOC
 맥비티사의	B-ORG
-통밀과자인	B-POS
-다이제스티브를	B-AFW
+통밀과자인	O
+다이제스티브를	B-INF
 독자적으로	O
 리메이크한	O
-과자이며	B-POS
-1997년부터	B-NUM
-천안명물	O
-다이제로	O
+과자이며	O
+1997년부터	B-DAT
+천안명물	B-INF
+다이제로	I-INF
 이름을	O
 변경하고	O
 이후	O
-닥터유	B-ORG
-다이제로	O
+닥터유	B-INF
+다이제로	I-INF
 변경되었다	O
 .	O
 
 후오비
 후오비(huobi)는 2013년 9월 창업자 리린(李林)에 의해 설립된 디지털 자산 거래소이자 금융 서비스 플랫폼이다.
-후오비	B-PER
+후오비	B-ORG
 (	O
-huobi	B-HEC
+huobi	B-ORG
 )	O
 는	O
-2013년	B-NUM
+2013년	B-DAT
 9월	I-DAT
 창업자	B-POS
 리린	B-PER
@@ -6951,11 +6879,11 @@ huobi	B-HEC
 에	O
 의해	O
 설립된	O
-디지털	B-HEC
+디지털	O
 자산	O
 거래소이자	O
 금융	O
-서비스	B-HEC
+서비스	O
 플랫폼이다	O
 .	O
 
@@ -6964,16 +6892,16 @@ huobi	B-HEC
 루슨트	B-ORG
 테크놀로지	I-ORG
 (	O
-Lucent	I-ORG
+Lucent	B-ORG
 Technologies	I-ORG
-,	O
-Inc	B-ORG
+,	I-ORG
+Inc	I-ORG
 .	I-ORG
 )	O
 는	O
 미국	B-LOC
 뉴저지	B-LOC
-주	B-LOC
+주	I-LOC
 머레이	B-ORG
 힐에	I-ORG
 본사를두고있는	O
@@ -6989,15 +6917,15 @@ Inc	B-ORG
 루슨트는	B-ORG
 전	O
 세계적으로	O
-무선통신	B-HEC
+무선통신	O
 장비의	O
 주요	O
 중요	O
 기업이자	O
 퀄컴과	B-ORG
 더불어	O
-CDMA원천	B-HEC
-기술에	I-HEC
+CDMA원천	O
+기술에	O
 관여해온	O
 저력있는	O
 다국적	O
@@ -7006,29 +6934,29 @@ CDMA원천	B-HEC
 
 벨 시스템
 마벨(Ma Bell)은 이제는 때때로  벨 시스템 녹음의 다양한 여성 목소리(Mary Moore, Jane Barbe 및 Pat Fleet, AT & T의 현재 음성)를 지칭하기 위해 사용되기도 한다.
-마벨	B-HEC
+마벨	B-ORG
 (	O
-Ma	B-HEC
-Bell	I-HEC
+Ma	B-ORG
+Bell	I-ORG
 )	O
 은	O
 이제는	O
 때때로	O
-벨	B-HEC
-시스템	I-HEC
+벨	O
+시스템	O
 녹음의	O
 다양한	O
-여성	O
+여성	B-PIV
 목소리	O
 (	O
-Mary	B-HEC
-Moore	O
+Mary	B-PER
+Moore	I-PER
 ,	O
-Jane	B-HEC
-Barbe	I-HEC
+Jane	B-PER
+Barbe	I-PER
 및	O
-Pat	B-HEC
-Fleet	I-HEC
+Pat	B-PER
+Fleet	I-PER
 ,	O
 AT	B-ORG
 &	I-ORG
@@ -7052,9 +6980,9 @@ T의	I-ORG
 IDC	B-ORG
 보고서에	O
 따르면	O
-핏비트는	B-HEC
-2018년	B-NUM
-3분기	I-DAT
+핏비트는	B-ORG
+2018년	B-DAT
+3분기	B-DAT
 선적	O
 기준에서	O
 샤오미와	B-ORG
@@ -7062,7 +6990,7 @@ IDC	B-ORG
 이어	O
 3번째로	B-NUM
 큰	O
-웨어러블	B-HEC
+웨어러블	O
 기업으로	O
 간주된다	O
 .	O
@@ -7072,16 +7000,16 @@ IDC	B-ORG
 활동	O
 추적기와	O
 함께	O
-핏비트는	B-HEC
-iOS	B-HEC
+핏비트는	B-ORG
+iOS	B-INF
 ,	O
-안드로이드	B-HEC
+안드로이드	B-INF
 ,	O
-윈도우	B-HEC
-10	I-HEC
-모바일용	I-HEC
-모바일	B-HEC
-앱과	I-HEC
+윈도우	B-INF
+10	I-INF
+모바일용	O
+모바일	O
+앱과	O
 웹사이트를	O
 제공한다	O
 .	O
@@ -7090,19 +7018,19 @@ iOS	B-HEC
 해당 추적기들은 블루투스를 통해 휴대전화와 같은 기기들과 동기화할 수 있으며 블루투스가 장착된 윈도우 또는 macOS을 구동하는 컴퓨터와도 동기화가 가능하다.
 해당	O
 추적기들은	O
-블루투스를	B-HEC
+블루투스를	O
 통해	O
-휴대전화와	B-HEC
+휴대전화와	O
 같은	O
 기기들과	O
 동기화할	O
 수	O
 있으며	O
-블루투스가	B-HEC
+블루투스가	O
 장착된	O
-윈도우	B-HEC
+윈도우	B-INF
 또는	O
-macOS을	B-HEC
+macOS을	B-INF
 구동하는	O
 컴퓨터와도	O
 동기화가	O
@@ -7114,26 +7042,26 @@ macOS을	B-HEC
 2018년	B-DAT
 10월	I-DAT
 선보인	O
-손목시계같은	B-HEC
+손목시계같은	O
 건강	O
 및	O
 피트니스	O
 추적기인	O
-핏비트	B-HEC
-차지	I-HEC
-3	I-AFW
+핏비트	B-INF
+차지	I-INF
+3	I-INF
 (	O
-Fitbit	I-HEC
-Charge	I-AFW
-3	I-HEC
+Fitbit	B-INF
+Charge	I-INF
+3	I-INF
 )	O
 은	O
-산소	B-HEC
-포화도	I-HEC
+산소	O
+포화도	O
 (	O
-SPO2	I-HEC
+SPO2	O
 )	O
-센서	B-HEC
+센서	O
 기능을	O
 하는	O
 최초의	O
@@ -7148,7 +7076,7 @@ SPO2	I-HEC
 스콧	B-PER
 아파지안	I-PER
 (	O
-Scott	I-PER
+Scott	B-PER
 Arpajian	I-PER
 )	O
 이다	O
@@ -7167,7 +7095,7 @@ CEO는	B-POS
 먼저	O
 설립된	O
 우주	O
-로켓	B-HEC
+로켓	O
 기업인	O
 블루	B-ORG
 오리진	I-ORG
@@ -7175,8 +7103,8 @@ CEO는	B-POS
 스페이스X와는	B-ORG
 달리	O
 ,	O
-3D	B-HEC
-프린터를	I-HEC
+3D	O
+프린터를	O
 사용하려는	O
 아이디어로	O
 회사를	O
@@ -7193,10 +7121,10 @@ CEO는	B-POS
 포함해	O
 로켓의	O
 95	B-NUM
-%	O
+%	I-NUM
 이상을	O
-3D	B-HEC
-프린터로	I-HEC
+3D	O
+프린터로	O
 제작할	O
 것이다	O
 .	O
@@ -7239,12 +7167,12 @@ CEO는	B-POS
 투자은행	B-ORG
 모건	B-PER
 스탠리는	I-PER
-"	B-DAT
-2019년은	I-DAT
-블루	B-HEC
-오리진	I-HEC
+"	O
+2019년은	B-DAT
+블루	B-ORG
+오리진	I-ORG
 ,	O
-스페이스X	B-HEC
+스페이스X	B-ORG
 등	O
 민간	O
 우주기업이	O
@@ -7288,8 +7216,8 @@ space	O
 NASA는	B-ORG
 약	B-NUM
 80	I-NUM
-.	O
-5	B-NUM
+.	I-NUM
+5	I-NUM
 km를	I-NUM
 우주	O
 경계로	O
@@ -7304,12 +7232,12 @@ km를	I-NUM
 창업자	B-POS
 제프	B-PER
 베조스의	I-PER
-블루	B-HEC
-오리진	I-PER
+블루	B-ORG
+오리진	I-ORG
 ,	O
 일론	B-PER
 머스크의	I-PER
-스페이스X에	B-HEC
+스페이스X에	B-ORG
 이어	O
 세	B-NUM
 번째로	I-NUM
@@ -7322,27 +7250,27 @@ km를	I-NUM
 
 코드위버스
 코드위버스(CodeWeavers)는 윈도우 응용 소프트웨어를 macOS와 리눅스에서 구동하기 위해 크로스오버(CrossOver)라는 이름의 사유 버전의 와인을 판매하는 기업이다.
-코드위버스	B-HEC
+코드위버스	B-ORG
 (	O
-CodeWeavers	B-HEC
+CodeWeavers	B-ORG
 )	O
 는	O
-윈도우	B-HEC
+윈도우	B-INF
 응용	O
 소프트웨어를	O
-macOS와	B-HEC
-리눅스에서	B-HEC
+macOS와	B-INF
+리눅스에서	B-INF
 구동하기	O
 위해	O
-크로스오버	B-HEC
+크로스오버	O
 (	O
-CrossOver	I-HEC
+CrossOver	O
 )	O
 라는	O
 이름의	O
 사유	O
 버전의	O
-와인을	B-POS
+와인을	B-INF
 판매하는	O
 기업이다	O
 .	O
@@ -7350,16 +7278,16 @@ CrossOver	I-HEC
 코드위버스
 구글은 어도비 포토샵 지원 개선 및 와인의 기능 추가를 위해 코드위버스에 금액을 지불하였다.
 구글은	B-ORG
-어도비	B-HEC
-포토샵	I-HEC
+어도비	B-INF
+포토샵	I-INF
 지원	O
 개선	O
 및	O
-와인의	B-HEC
+와인의	B-INF
 기능	O
 추가를	O
 위해	O
-코드위버스에	B-HEC
+코드위버스에	B-ORG
 금액을	O
 지불하였다	O
 .	O
@@ -7383,7 +7311,7 @@ BARREL	B-ORG
 )	O
 은	O
 대한민국의	B-LOC
-수영복	B-POS
+수영복	O
 브랜드로	O
 ,	O
 2010년에	B-DAT
@@ -7400,7 +7328,7 @@ P NATION
 2019년	B-DAT
 1월	I-DAT
 24일	I-DAT
-싸이가	B-ORG
+싸이가	B-PER
 본인의	O
 페이스북을	B-ORG
 통해	O
@@ -7415,9 +7343,9 @@ P NATION
 본사는	O
 서울특별시	B-LOC
 강남구	B-LOC
-논현로	B-AFW
-151길	B-NUM
-21에	I-NUM
+논현로	B-LOC
+151길	I-LOC
+21에	I-LOC
 있다	O
 .	O
 
@@ -7434,17 +7362,15 @@ P NATION
 .	O
 
 와사비 (음식점)
-와사비()는 영국을 거점으로 런던과 뉴욕에서 초밥과 도시락 중심의 일본 요리를 취급하는 패스트 푸드 체인점이다.
-와사비	B-POS
-(	O
-)	O
+와사비는 영국을 거점으로 런던과 뉴욕에서 초밥과 도시락 중심의 일본 요리를 취급하는 패스트 푸드 체인점이다.
+와사비	B-ORG
 는	O
 영국을	B-LOC
 거점으로	O
 런던과	B-LOC
 뉴욕에서	B-LOC
-초밥과	B-POS
-도시락	B-POS
+초밥과	O
+도시락	O
 중심의	O
 일본	B-LOC
 요리를	O
@@ -7457,7 +7383,7 @@ P NATION
 와사비 (음식점)
 또한 와사비는 2003년에 대한민국의 사업가 김동현이 설립하였다.
 또한	O
-와사비는	B-POS
+와사비는	B-ORG
 2003년에	B-DAT
 대한민국의	B-LOC
 사업가	B-POS
@@ -7466,11 +7392,9 @@ P NATION
 .	O
 
 카페 네로
-카페 네로()는 영국의 커피 체인점이다.
-카페	O
-네로	B-HEC
-(	O
-)	O
+카페 네로는 영국의 커피 체인점이다.
+카페	B-ORG
+네로	I-ORG
 는	O
 영국의	B-LOC
 커피	O
@@ -7479,13 +7403,13 @@ P NATION
 
 카페 네로
 2013년 카페 네로의 커피는 잡지 〈Which?〉에서 영국의 5대 브랜드 중에서 가장 맛있는 것으로 평가되었다.
-2013년	B-NUM
+2013년	B-DAT
 카페	B-ORG
-네로의	B-ORG
+네로의	I-ORG
 커피는	O
 잡지	O
-〈	B-AFW
-Which	I-AFW
+〈	O
+Which	B-AFW
 ?	I-AFW
 〉	O
 에서	O
@@ -7507,7 +7431,7 @@ Which	I-AFW
 ,	O
 존	B-PER
 루이스의	I-PER
-옥스퍼드	B-ORG
+옥스퍼드	O
 스트리트	O
 점은	O
 여왕의	B-POS
@@ -7523,8 +7447,8 @@ Which	I-AFW
 
 디스이즈잇
 익스프레션 크루에 있었던 김지훈 대표가 창작하였고 말 없이 소리와 몸짓으로만 공연을 한다는 "비언어적 표현"(Non-Verbal Performance)을 컨셉으로 착안하였다.
-익스프레션	B-HEC
-크루에	O
+익스프레션	B-PER
+크루에	I-PER
 있었던	O
 김지훈	B-PER
 대표가	B-POS
@@ -7560,8 +7484,8 @@ Performance	O
 (	O
 $	B-NUM
 17	I-NUM
-.	O
-4	B-NUM
+.	I-NUM
+4	I-NUM
 Billion	O
 )	O
 의	O
@@ -7590,8 +7514,8 @@ Records	I-ORG
 영국의	B-LOC
 록	O
 밴드	O
-레드	B-ORG
-제플린이	I-ORG
+레드	B-PER
+제플린이	I-PER
 발매한	O
 음반	O
 레이블이다	O
@@ -7599,8 +7523,8 @@ Records	I-ORG
 
 스완 송 레코드
 레드 제플린의 매니저인 피터 그랜트에 의해 감독되었고 밴드가 자신의 제품을 홍보할 수 있는 매개체였을 뿐만 아니라 다른 주요 레이블과의 계약을 따내기 어렵다는 것을 알게 된 서명 아티스트들도 있었다.
-레드	B-ORG
-제플린의	I-ORG
+레드	B-PER
+제플린의	I-PER
 매니저인	B-POS
 피터	B-PER
 그랜트에	I-PER
@@ -7631,15 +7555,15 @@ Records	I-ORG
 
 에이스 하드웨어
 에이스 하드웨어(Ace Hardware)는 70여 개국에서 6,000여개의 매장을 운영하고 있는 세계 최대 규모의 집수리 전문 브랜드이다.
-에이스	B-HEC
-하드웨어	I-AFW
+에이스	B-ORG
+하드웨어	I-ORG
 (	O
-Ace	B-LOC
+Ace	B-ORG
 Hardware	I-ORG
 )	O
 는	O
-70여	O
-개국에서	B-NUM
+70여	B-NUM
+개국에서	O
 6	B-NUM
 ,	I-NUM
 000여개의	I-NUM
@@ -7680,8 +7604,8 @@ Hardware	I-ORG
 140만엔	I-NUM
 (	O
 한국돈으로	O
-약	O
-60억	B-NUM
+약	B-NUM
+60억	I-NUM
 1400만원	I-NUM
 규모	O
 )	O
@@ -7714,7 +7638,7 @@ Hardware	I-ORG
 320억엔	B-NUM
 (	O
 약	B-NUM
-3	B-NUM
+3	I-NUM
 ,	I-NUM
 200억원	I-NUM
 )	O
@@ -7745,7 +7669,7 @@ Hardware	I-ORG
 연어양식업체인	O
 노르웨이	B-LOC
 마린하베스트의	B-LOC
-가두리	B-LOC
+가두리	O
 양식장에서는	O
 100만	B-NUM
 마리의	I-NUM
@@ -7761,9 +7685,9 @@ Hardware	I-ORG
 동식물성을 배합한 에보스(EWOS)를 쓴다.
 동식물성을	O
 배합한	O
-에보스	B-HEC
+에보스	O
 (	O
-EWOS	B-HEC
+EWOS	O
 )	O
 를	O
 쓴다	O
@@ -7776,10 +7700,10 @@ VCNC	B-ORG
 브이씨앤씨	B-ORG
 )	O
 는	O
-커플	B-HEC
-앱	I-HEC
-'	B-HEC
-비트윈	I-HEC
+커플	O
+앱	O
+'	O
+비트윈	B-INF
 '	O
 과	O
 타다를	O
@@ -7790,21 +7714,21 @@ VCNC	B-ORG
 VCNC
 원래 비트윈을 출시해 인기를 끈 뒤 이재웅의 쏘카가 인수하여 이재웅의 주도로 유사택시 형태의 렌터카 서비스 타다를 열었다.
 원래	O
-비트윈을	B-HEC
+비트윈을	B-INF
 출시해	O
 인기를	O
 끈	O
 뒤	O
 이재웅의	B-PER
-쏘카가	B-POS
+쏘카가	B-ORG
 인수하여	O
 이재웅의	B-PER
 주도로	O
-유사택시	B-AFW
+유사택시	O
 형태의	O
-렌터카	B-HEC
-서비스	I-HEC
-타다를	O
+렌터카	O
+서비스	O
+타다를	B-ORG
 열었다	O
 .	O
 
@@ -7812,7 +7736,7 @@ VCNC
 이 회사는 1961년 12월 8일 부산광역시(당시 시의 명칭은 경상남도 부산시)에서 설립된 기업이다.
 이	O
 회사는	O
-1961년	B-NUM
+1961년	B-DAT
 12월	I-DAT
 8일	I-DAT
 부산광역시	B-LOC
@@ -7834,25 +7758,25 @@ VCNC
 자본금은	O
 2억엔	B-NUM
 (	O
-약	O
-21	B-NUM
-.	O
-84억원	B-NUM
+약	B-NUM
+21	I-NUM
+.	I-NUM
+84억원	I-NUM
 )	O
 이며	O
 ,	O
 종업원	B-POS
 수는	O
-육상부	B-ORG
+육상부	B-POS
 49명	B-NUM
 ,	O
-해상부	B-ORG
+해상부	B-POS
 156명	B-NUM
 등	O
 205명의	B-NUM
-종업원	B-DAT
+종업원	B-POS
 (	O
-2015년	B-NUM
+2015년	B-DAT
 4월	I-DAT
 기준	O
 )	O
@@ -7865,10 +7789,10 @@ VCNC
 라이프스캔(LifeScan, Inc.)은 당뇨병 시장, 특히 혈당 모니터링시스템에 중점을 둔 제품을 갖춘 진단시스템 제조업체이다.
 라이프스캔	B-ORG
 (	O
-LifeScan	I-ORG
-,	O
-Inc	B-ORG
-.	O
+LifeScan	B-ORG
+,	I-ORG
+Inc	I-ORG
+.	I-ORG
 )	O
 은	O
 당뇨병	B-HEC
@@ -7889,7 +7813,7 @@ Inc	B-ORG
 회사 철학은 "당뇨로 고생하는 사람들에게 제한없는 세상을 만드는 것"이다.
 회사	O
 철학은	O
-"	B-HEC
+"	O
 당뇨로	B-HEC
 고생하는	O
 사람들에게	O
@@ -7905,32 +7829,32 @@ Inc	B-ORG
 또한, 인공지능 부문에서도 2005년 인공지능 기반 미니홈피인 아우닷컴(aAwoo.com)을 출시했던 적이 있으며, 자연어 처리 기술을 기반으로 인공지능 기술을 이용한 챗봇 솔루션과 사람의 손을 거치지 않고도 보고서를 받아볼 수 있는 인공지능 리포트(AI Report)를 출시하는 등 지속적인 기술 개발에 힘쓰고 있다.
 또한	O
 ,	O
-인공지능	B-HEC
+인공지능	O
 부문에서도	O
 2005년	B-DAT
-인공지능	B-HEC
+인공지능	O
 기반	O
-미니홈피인	B-HEC
-아우닷컴	B-HEC
+미니홈피인	O
+아우닷컴	O
 (	O
-aAwoo	B-HEC
-.	I-HEC
-com	I-HEC
+aAwoo	B-INF
+.	I-INF
+com	I-INF
 )	O
 을	O
 출시했던	O
 적이	O
 있으며	O
 ,	O
-자연어	B-HEC
-처리	I-HEC
+자연어	O
+처리	O
 기술을	O
 기반으로	O
-인공지능	B-HEC
-기술을	I-HEC
+인공지능	O
+기술을	O
 이용한	O
-챗봇	B-HEC
-솔루션과	I-HEC
+챗봇	O
+솔루션과	O
 사람의	O
 손을	O
 거치지	O
@@ -7939,11 +7863,11 @@ com	I-HEC
 받아볼	O
 수	O
 있는	O
-인공지능	B-HEC
-리포트	I-HEC
+인공지능	O
+리포트	O
 (	O
-AI	I-HEC
-Report	I-HEC
+AI	O
+Report	O
 )	O
 를	O
 출시하는	O
@@ -7963,7 +7887,7 @@ Report	I-HEC
 대구에서	B-LOC
 주식회사로	O
 설립되었으며	O
-2019년	B-NUM
+2019년	B-DAT
 2월	I-DAT
 서울	B-LOC
 강남구로	B-LOC
@@ -7982,15 +7906,15 @@ Report	I-HEC
 글래드 호텔앤리조트
 글래드 라이브 강남은 지하 3층 지상 20층 210객실 규모로 큐레이티드 라이프스타일 호텔을 지향한다.
 글래드	B-ORG
-라이브	I-AFW
+라이브	I-LOC
 강남은	I-LOC
-지하	B-NUM
+지하	O
 3층	B-NUM
 지상	O
 20층	B-NUM
 210객실	B-NUM
 규모로	O
-큐레이티드	B-LOC
+큐레이티드	O
 라이프스타일	O
 호텔을	O
 지향한다	O
@@ -8003,18 +7927,18 @@ Report	I-HEC
 세계적인	O
 음향기기	O
 전문업체인	O
-‘	B-ORG
-하만카돈	I-ORG
+‘	O
+하만카돈	B-ORG
 ’	O
 의	O
-블루투스	B-HEC
-스피커가	I-HEC
+블루투스	O
+스피커가	O
 제공되며	O
-빈백	B-HEC
-소파	I-HEC
+빈백	O
+소파	O
 ,	O
-무빙	B-HEC
-테이블	I-HEC
+무빙	O
+테이블	O
 등으로	O
 고객	O
 스스로	O
@@ -8038,8 +7962,8 @@ TAKEONE COMPANY
 ,	O
 인기	O
 캐릭터	O
-'	B-HEC
-뿌까	B-HEC
+'	O
+뿌까	B-PER
 '	O
 를	O
 활용한	O
@@ -8053,7 +7977,7 @@ SM그룹
 우 회장은 1953년 전라남도 고흥에서 태어났다.
 우	B-PER
 회장은	B-POS
-1953년	B-NUM
+1953년	B-DAT
 전라남도	B-LOC
 고흥에서	B-LOC
 태어났다	O
@@ -8066,7 +7990,7 @@ SM그룹
 재학	B-POS
 중이던	O
 1971년	B-DAT
-양계장을	B-POS
+양계장을	O
 열어	O
 사업가로	B-POS
 첫발을	O
@@ -8105,7 +8029,7 @@ SM그룹	B-ORG
 3월	I-DAT
 이	O
 총리의	B-POS
-모친	B-POS
+모친	B-PIV
 상가에서	O
 이계연씨를	B-PER
 만나	O
@@ -8143,7 +8067,7 @@ SM그룹
 정년	O
 퇴임한	O
 뒤	O
-SM그룹에	B-POS
+SM그룹에	B-ORG
 재취업했다	O
 .	O
 
@@ -8151,17 +8075,17 @@ Loma
 성중립적 디자인의 남성용/여성용 자위기구를 디자인하고 생산하며, 성중립적 디자인의 남성과 여성의 섹스토이를 판매하는 기업이다.
 성중립적	O
 디자인의	O
-남성용	O
+남성용	B-PIV
 /	O
-여성용	O
+여성용	B-PIV
 자위기구를	O
 디자인하고	O
 생산하며	O
 ,	O
 성중립적	O
 디자인의	O
-남성과	O
-여성의	O
+남성과	B-PIV
+여성의	B-PIV
 섹스토이를	O
 판매하는	O
 기업이다	O
@@ -8204,8 +8128,8 @@ Glocom
 하고	O
 있고	O
 특히	O
-팬	B-HEC
-시스템즈에	I-HEC
+팬	B-ORG
+시스템즈에	I-ORG
 운영할	O
 것이라는	O
 설이	O
@@ -8227,13 +8151,13 @@ Glocom
 있고	O
 ,	O
 2018년	B-DAT
-여름	B-EVT
+여름	B-DAT
 헤드윅	B-EVT
 대만	I-EVT
 투어를	I-EVT
 시작으로	O
 ,	O
-쇼노트의	O
+쇼노트의	B-ORG
 뮤지컬	O
 콘텐츠도	O
 해외로	O
@@ -8248,15 +8172,15 @@ Glocom
 약880만	B-NUM
 달러를	I-NUM
 아이슬란드	B-LOC
-동북부에	B-HEC
+동북부에	B-LOC
 먼저	O
 투자하고	O
 투자	O
 계획은	O
 약8800만에서	B-NUM
 1	B-NUM
-.	O
-76억	B-NUM
+.	I-NUM
+76억	I-NUM
 달러로	I-NUM
 책정하고	O
 여행지를	O
@@ -8269,8 +8193,8 @@ RDA (아바타)
 처음에는	O
 2명의	B-NUM
 사업가가	B-POS
-친구와	B-POS
-친지들에게서	B-POS
+친구와	B-PIV
+친지들에게서	B-PIV
 돈을	O
 빌려	O
 실리콘밸리의	B-LOC
@@ -8303,10 +8227,10 @@ RDA (아바타)
 설정에	O
 따르면	O
 제이크의	B-PER
-형	O
+형	B-PIV
 토미는	B-PER
 사실	O
-강도에게	B-POS
+강도에게	O
 살해당한	O
 것이	O
 아니라	O
@@ -8326,39 +8250,39 @@ RDA의	B-ORG
 오토기어(AutoGear)는 대한민국 기업 디지털기어(사업자 번호 : 134-21-43312)에서 운영하는 사이트겸 [https://www.youtube.com/user/autogearr 유튜브 채널]이다.
 오토기어	B-ORG
 (	O
-AutoGear	B-HEC
+AutoGear	B-ORG
 )	O
 는	O
 대한민국	B-LOC
 기업	O
-디지털기어	B-HEC
+디지털기어	B-ORG
 (	O
 사업자	O
 번호	O
 :	O
 134	B-NUM
--	B-NUM
+-	I-NUM
 21	I-NUM
--	B-NUM
-43312	B-NUM
+-	I-NUM
+43312	I-NUM
 )	O
 에서	O
 운영하는	O
 사이트겸	O
-[	B-HEC
-https	B-HEC
-:	O
-/	B-HEC
-/	B-HEC
-www	B-HEC
-.	O
-youtube	B-HEC
-.	B-HEC
-com	B-HEC
-/	B-HEC
-user	B-HEC
-/	B-HEC
-autogearr	B-HEC
+[	O
+https	B-INF
+:	I-INF
+/	I-INF
+/	I-INF
+www	I-INF
+.	I-INF
+youtube	I-INF
+.	I-INF
+com	I-INF
+/	I-INF
+user	I-INF
+/	I-INF
+autogearr	I-INF
 유튜브	I-HEC
 채널	O
 ]	O
@@ -8366,8 +8290,7 @@ autogearr	B-HEC
 .	O
 
 오토기어
-# 사고에 대해 박병일 명장이 시동꺼짐을 지적하자 다양한 차를 예로 든 점을 문제삼으며 지속적으로 공격.
-#	O
+사고에 대해 박병일 명장이 시동꺼짐을 지적하자 다양한 차를 예로 든 점을 문제삼으며 지속적으로 공격.
 사고에	O
 대해	O
 박병일	B-PER
@@ -8385,8 +8308,7 @@ autogearr	B-HEC
 .	O
 
 오토기어
-# 카본 샤프트, 알루미늄 합금 등을 거론하며 특정 유튜버를 비하함.
-#	O
+카본 샤프트, 알루미늄 합금 등을 거론하며 특정 유튜버를 비하함.
 카본	B-LOC
 샤프트	O
 ,	O
@@ -8407,7 +8329,7 @@ autogearr	B-HEC
 재직하던	O
 조선혜	B-PER
 회장이	B-POS
-지인인	B-POS
+지인인	B-PIV
 현	O
 이희구	B-PER
 공동회장과	B-POS
@@ -8425,7 +8347,7 @@ autogearr	B-HEC
 5	B-NUM
 %	I-NUM
 ,	O
-마스크	B-POS
+마스크	O
 같은	O
 의약외품은	O
 10	B-NUM
@@ -8444,7 +8366,7 @@ autogearr	B-HEC
 지금	O
 같은	O
 상황에서는	O
-마스크가	B-POS
+마스크가	O
 언제나	O
 완판되므로	O
 지오영	B-PER
@@ -8476,11 +8398,11 @@ autogearr	B-HEC
 문재인 대통령 영부인 김정숙, 조선혜 지오영 대표, 손혜원 국회의원이 숙명여자고등학교 동창이며, 지오영이 김정숙과의 인맥을 통해 공적 마스크 공급권을 독점하여 막대한 이득을 거두고 있다는 루머가 있었지만, 조 대표는 인일여자고등학교 출신이다.
 문재인	B-PER
 대통령	B-POS
-영부인	B-POS
+영부인	B-PIV
 김정숙	B-PER
 ,	O
 조선혜	B-PER
-지오영	B-PER
+지오영	B-ORG
 대표	B-POS
 ,	O
 손혜원	B-PER
@@ -8488,13 +8410,13 @@ autogearr	B-HEC
 숙명여자고등학교	B-ORG
 동창이며	B-POS
 ,	O
-지오영이	B-PER
+지오영이	B-ORG
 김정숙과의	B-PER
 인맥을	O
 통해	O
 공적	O
-마스크	B-POS
-공급권을	I-POS
+마스크	O
+공급권을	O
 독점하여	O
 막대한	O
 이득을	O
@@ -8518,7 +8440,7 @@ autogearr	B-HEC
 약학대학을	B-ORG
 졸업했으며	B-POS
 ,	O
-2017년	B-NUM
+2017년	B-DAT
 5월부터	I-DAT
 숙명여자고등학교	B-ORG
 이사장을	B-POS
@@ -8532,8 +8454,8 @@ autogearr	B-HEC
 바탕으로	O
 숙명여자고등학교	B-ORG
 동창회인	O
-'	B-ORG
-숙녀회	I-ORG
+'	O
+숙녀회	B-ORG
 '	O
 를	O
 통해	O
@@ -8566,7 +8488,7 @@ autogearr	B-HEC
 고문은	B-POS
 더불어민주당에	B-ORG
 4월	B-DAT
-총선	O
+총선	B-EVT
 비례대표	B-POS
 공천을	O
 신청하여	O
@@ -8583,10 +8505,10 @@ autogearr	B-HEC
 박명숙	B-PER
 전	O
 고문의	B-POS
-남편	B-POS
+남편	B-PIV
 이재현	B-PER
 성균관대	B-ORG
-약대	B-ORG
+약대	I-ORG
 교수와	B-POS
 몇	O
 가지	O
@@ -8597,13 +8519,13 @@ autogearr	B-HEC
 지오영
 우선 이 처장과 이 교수는 각각 서울대 약대 81학번, 77학번이고, 석사 학위도 서울대 약대에서 받았다.
 우선	O
-이	O
+이	B-PER
 처장과	B-POS
-이	O
+이	B-PER
 교수는	B-POS
 각각	O
 서울대	B-ORG
-약대	B-ORG
+약대	I-ORG
 81학번	B-NUM
 ,	O
 77학번이고	B-NUM
@@ -8611,20 +8533,20 @@ autogearr	B-HEC
 석사	B-POS
 학위도	O
 서울대	B-ORG
-약대에서	B-ORG
+약대에서	I-ORG
 받았다	O
 .	O
 
 지오영
 이 처장은 2012년부터 식약처장 임명 전까지 성균관대 약대 교수를 역임하였고, 이 교수도 2012년부터 성균관대 약대 교수를 맡고 있다.
-이	O
+이	B-PER
 처장은	B-POS
 2012년부터	B-DAT
 식약처장	B-POS
 임명	O
 전까지	O
 성균관대	B-ORG
-약대	B-ORG
+약대	I-ORG
 교수를	B-POS
 역임하였고	O
 ,	O
@@ -8632,7 +8554,7 @@ autogearr	B-HEC
 교수도	B-POS
 2012년부터	B-DAT
 성균관대	B-ORG
-약대	B-ORG
+약대	I-ORG
 교수를	B-POS
 맡고	O
 있다	O
@@ -8643,13 +8565,13 @@ autogearr	B-HEC
 이	O
 처장은	B-POS
 2015	B-DAT
--	B-DAT
+-	I-DAT
 2016년에	I-DAT
 한국보건사회약료경영학회	B-ORG
 회장을	B-POS
 역임하였고	O
 ,	O
-이	O
+이	B-PER
 교수는	B-POS
 2008년부터	B-DAT
 한국보건사회약료경영학회	B-ORG
@@ -8662,7 +8584,7 @@ autogearr	B-HEC
 조 대표는 지오영이 대한약사회의 추천 덕에 공적판매처에 합류할 수 있었다고 밝혔는데, 김대업 대한약사회장은 노무현 대통령 직속 약사발전특별위원회 전문위원, 민주평화통일자문회의 위원 등을 역임하여 현 정부의 구성원들과도 관계했다.
 조	B-PER
 대표는	B-POS
-지오영이	B-PER
+지오영이	B-ORG
 대한약사회의	B-ORG
 추천	O
 덕에	O
@@ -8692,13 +8614,13 @@ autogearr	B-HEC
 
 지오영
 지오영의 사적이익 추구를 위해 군장병을 동원하여 마스크를 유통하였다는 의혹이 나오고 있다.
-지오영의	B-PER
+지오영의	B-ORG
 사적이익	O
 추구를	O
 위해	O
 군장병을	B-POS
 동원하여	O
-마스크를	B-POS
+마스크를	O
 유통하였다는	O
 의혹이	O
 나오고	O
@@ -8708,13 +8630,13 @@ autogearr	B-HEC
 지오영
 공적 마스크를 총괄하는 기획재정부 관계자는 ‘군 장병의 무료 봉사로 발생하는 이윤을 기업이 챙기는 것이 타당하냐’는 질문에는 "드릴 말씀이 없다"고 했다.
 공적	O
-마스크를	B-POS
+마스크를	O
 총괄하는	O
 기획재정부	B-ORG
 관계자는	O
 ‘	O
 군	B-POS
-장병의	B-POS
+장병의	I-POS
 무료	O
 봉사로	O
 발생하는	O
@@ -8740,22 +8662,22 @@ autogearr	B-HEC
 2020년	B-DAT
 3월	I-DAT
 19일	I-DAT
-"	B-HEC
-마스크	B-HEC
+"	O
+마스크	O
 공급이	O
 워낙	O
 급한	O
 상황이라서	O
-군	O
-장병의	O
+군	B-POS
+장병의	I-POS
 힘을	O
 빌린	O
 것	O
 "	O
 이라며	O
 "	O
-군	O
-장병	O
+군	B-POS
+장병	I-POS
 70명도	B-NUM
 포장	O
 작업을	O
@@ -8782,10 +8704,10 @@ autogearr	B-HEC
 있으며	O
 ,	O
 러시아	B-LOC
-맥주	B-POS
+맥주	O
 시장의	O
-선두	B-POS
-주자이다	I-POS
+선두	O
+주자이다	O
 .	O
 
 발티카 (기업)
@@ -8798,14 +8720,12 @@ autogearr	B-HEC
 .	O
 
 위더플럭 레코즈
-위더플럭 레코즈()는 스윙스와 기리보이가 설립한 대한민국의 힙합 레이블이다.
+위더플럭 레코즈는 스윙스와 기리보이가 설립한 대한민국의 힙합 레이블이다.
 위더플럭	B-ORG
 레코즈	I-ORG
-(	O
-)	O
 는	O
-스윙스와	B-ORG
-기리보이가	B-ORG
+스윙스와	B-PER
+기리보이가	B-PER
 설립한	O
 대한민국의	B-LOC
 힙합	O
@@ -8814,7 +8734,7 @@ autogearr	B-HEC
 
 Zedge
 Zedge의 앱은 2019년 7월 31일 기준으로 4억회 이상 다운로드 되었으며 월간 활동 사용자 수가 3,400만 명에 달했다.
-Zedge의	B-HEC
+Zedge의	B-ORG
 앱은	O
 2019년	B-DAT
 7월	I-DAT
@@ -8824,9 +8744,9 @@ Zedge의	B-HEC
 이상	I-NUM
 다운로드	O
 되었으며	O
-월간	B-DAT
+월간	O
 활동	O
-사용자	B-POS
+사용자	O
 수가	O
 3	B-NUM
 ,	I-NUM
@@ -8849,7 +8769,7 @@ MOYE	B-ORG
 설립한	O
 패션전문	O
 크라우드펀딩	O
-플랫폼	B-HEC
+플랫폼	O
 기업이다	O
 .	O
 
@@ -8868,7 +8788,7 @@ MOYE	B-ORG
 자금을	O
 모집하는	O
 크라우드	O
-펀딩	B-HEC
+펀딩	O
 중개	O
 서비스이다	O
 .	O
@@ -8879,13 +8799,13 @@ MOYE	B-ORG
 설립	O
 후	O
 본격적으로	O
-금융	B-HEC
-AI와	I-HEC
-블록체인을	B-HEC
+금융	O
+AI와	O
+블록체인을	O
 기반으로	O
-디지털금융	B-HEC
-핀테크	I-HEC
-솔루션을	I-HEC
+디지털금융	O
+핀테크	O
+솔루션을	O
 다각도로	O
 제공하고	O
 있다	O
@@ -8897,14 +8817,14 @@ AI와	I-HEC
 트러스트버스가	B-ORG
 협력해	O
 개발할	O
-디지털	B-HEC
-자산관리	I-HEC
-서비스	I-HEC
+디지털	O
+자산관리	O
+서비스	O
 명칭은	O
-'	B-HEC
-마스터키	B-HEC
+'	O
+마스터키	B-INF
 (	O
-MasterKey	I-HEC
+MasterKey	B-INF
 )	O
 '	O
 다	O
@@ -8912,13 +8832,13 @@ MasterKey	I-HEC
 
 룰루레몬 애틀라티카
 룰루레몬은 본사에 연구 개발 연구소인 ‘Whitespace’를 두고 있으며, 50명의 과학자와 생리학자들이 포함되어 있다.
-룰루레몬은	B-HEC
+룰루레몬은	B-ORG
 본사에	O
 연구	O
 개발	O
 연구소인	O
-‘	B-HEC
-Whitespace	B-HEC
+‘	O
+Whitespace	B-ORG
 ’	O
 를	O
 두고	O
@@ -8949,13 +8869,13 @@ Whitespace	B-HEC
 600은 23g~24g, 800은 28g~30g 정도로, 얼마 안 되는 것 같지만 쓰다보면 일반 샤프는 너무 가벼워서 못 쓸 정도이다.
 600은	B-NUM
 23g	B-NUM
-~	O
-24g	B-NUM
+~	I-NUM
+24g	I-NUM
 ,	O
 800은	B-NUM
 28g	B-NUM
-~	O
-30g	B-NUM
+~	I-NUM
+30g	I-NUM
 정도로	O
 ,	O
 얼마	O
@@ -8979,7 +8899,7 @@ Whitespace	B-HEC
 서울특별시	B-LOC
 마포구	B-LOC
 양화로	B-LOC
-26	I-NUM
+26	I-LOC
 (	O
 합정동	B-LOC
 )	O
@@ -9037,11 +8957,11 @@ Whitespace	B-HEC
 오로라 (기업)
 오로라는 약 146만달러의 가격으로 2000개의 오로라 다이아몬드가 박힌 내장된 펜을 포함한 많은 작은 한정 생산 펜을 만든다.
 오로라는	B-ORG
-약	O
-146만달러의	B-NUM
+약	B-NUM
+146만달러의	I-NUM
 가격으로	O
 2000개의	B-NUM
-오로라	B-HEC
+오로라	B-ORG
 다이아몬드가	O
 박힌	O
 내장된	O
@@ -9056,29 +8976,25 @@ Whitespace	B-HEC
 .	O
 
 Eckel Industries
-에켈 인더스트리스(영어: Eckel Industries Ltd  웹사이트: https://eckelacoustics.com/<nowiki/>)는 미국과 캐나다에 본사를 둔 70년 가까이 음향 소음제어 산업을 이끌고 있는 글로벌 회사이다.
-에켈	B-PER
-인더스트리스	B-ORG
+에켈 인더스트리스(영어: Eckel Industries Ltd  웹사이트: https://eckelacoustics.com/)는 미국과 캐나다에 본사를 둔 70년 가까이 음향 소음제어 산업을 이끌고 있는 글로벌 회사이다.
+에켈	B-ORG
+인더스트리스	I-ORG
 (	O
-영어	B-POS
+영어	O
 :	O
 Eckel	B-ORG
-Industries	I-HEC
-Ltd	I-HEC
+Industries	I-ORG
+Ltd	I-ORG
 웹사이트	O
 :	O
-https	B-HEC
-:	O
-/	B-HEC
-/	B-HEC
-eckelacoustics	B-HEC
-.	O
-com	B-HEC
-/	O
-<	O
-nowiki	B-HEC
-/	O
->	O
+https	B-INF
+:	I-INF
+/	I-INF
+/	I-INF
+eckelacoustics	I-INF
+.	I-INF
+com	I-INF
+/	I-INF
 )	O
 는	O
 미국과	B-LOC
@@ -9087,8 +9003,8 @@ nowiki	B-HEC
 둔	O
 70년	B-DAT
 가까이	O
-음향	B-HEC
-소음제어	I-HEC
+음향	O
+소음제어	O
 산업을	O
 이끌고	O
 있는	O
@@ -9097,10 +9013,8 @@ nowiki	B-HEC
 .	O
 
 파니니 (기업)
-파니니()는 이탈리아 모데나에 본사를 둔 회사로, 1961년 파니니 형제가 설립하였다.
-파니니	B-PER
-(	O
-)	O
+파니니는 이탈리아 모데나에 본사를 둔 회사로, 1961년 파니니 형제가 설립하였다.
+파니니	B-ORG
 는	O
 이탈리아	B-LOC
 모데나에	B-LOC
@@ -9110,7 +9024,7 @@ nowiki	B-HEC
 ,	O
 1961년	B-DAT
 파니니	B-PER
-형제가	B-POS
+형제가	B-PIV
 설립하였다	O
 .	O
 
@@ -9121,7 +9035,7 @@ nowiki	B-HEC
 짐머만과	I-PER
 시모네	B-PER
 짐머만	I-PER
-자매가	B-POS
+자매가	B-PIV
 1991년에	B-DAT
 설립했다	O
 .	O
@@ -9157,9 +9071,9 @@ nowiki	B-HEC
 스쿨뮤직
 (주)스쿨뮤직은 2000년 5월 창립되었으며, 인터넷 악기 쇼핑몰과 교육 컨텐츠를 운영하고 있는 악기전문 기업이다.
 (	O
-주	I-ORG
+주	O
 )	O
-스쿨뮤직은	I-ORG
+스쿨뮤직은	B-ORG
 2000년	B-DAT
 5월	I-DAT
 창립되었으며	O
@@ -9184,7 +9098,7 @@ nowiki	B-HEC
 도시	O
 이름으로	O
 ,	O
-펜더의	B-LOC
+펜더의	B-ORG
 미국	B-LOC
 생산	O
 기타	O
@@ -9202,14 +9116,14 @@ nowiki	B-HEC
 큰	O
 회사이며	O
 ,	O
-2018년	B-NUM
+2018년	B-DAT
 기준으로	O
 매출액은	O
 4조	B-NUM
 1	I-NUM
 ,	I-NUM
 340억	I-NUM
-루블로서	I-NUM
+루블로서	O
 ,	O
 러시아의	B-LOC
 가즈프롬에	B-LOC
@@ -9222,7 +9136,7 @@ nowiki	B-HEC
 
 로스네프트
 2019년 말 기준으로 자회사를 포함하여 약 35만 명의 직원을 고용하였다.
-2019년	B-NUM
+2019년	B-DAT
 말	I-DAT
 기준으로	O
 자회사를	O
@@ -9239,11 +9153,11 @@ nowiki	B-HEC
 본	O
 거래소의	O
 전신이며	O
-1808년에	B-NUM
+1808년에	B-DAT
 설립된	O
-'	B-LOC
-밀라노	I-AFW
-거래소	I-AFW
+'	O
+밀라노	B-ORG
+거래소	I-ORG
 '	O
 로	O
 익히	O
@@ -9272,18 +9186,17 @@ YDM에	B-ORG
 .	O
 
 오스트리아 연방 철도
-오스트리아 연방 철도 그룹 조직도(2014년 4월 현재).
-오스트리아	B-LOC
-연방	I-AFW
-철도	I-AFW
-그룹	I-AFW
-조직도	B-DAT
+오스트리아 연방 철도 그룹 조직도(2014년 4월 현재)
+오스트리아	B-ORG
+연방	I-ORG
+철도	I-ORG
+그룹	I-ORG
+조직도	O
 (	O
-2014년	I-DAT
+2014년	B-DAT
 4월	I-DAT
 현재	O
 )	O
-.	O
 
 RTL 텔레비전
 이 후에 2013년 7월 31일에 바이에른주에서 먼저 지상파 채널 송출을 중단하고, 2017년 3월 29일 HEVC 기반 DVB-T2 방송으로 전환하면서 DVB-T 송출은 완전히 종료되었다.
@@ -9302,16 +9215,16 @@ RTL 텔레비전
 2017년	B-DAT
 3월	I-DAT
 29일	I-DAT
-HEVC	B-HEC
+HEVC	O
 기반	O
-DVB	B-HEC
+DVB	O
 -	O
-T2	B-HEC
+T2	O
 방송으로	O
 전환하면서	O
-DVB	B-HEC
+DVB	O
 -	O
-T	B-HEC
+T	O
 송출은	O
 완전히	O
 종료되었다	O
@@ -9322,8 +9235,8 @@ T	B-HEC
 2001년	B-DAT
 설립되었으며	O
 ,	O
-100	O
-%	O
+100	B-NUM
+%	I-NUM
 종업원이	B-POS
 출자한	O
 종업원지주	O
@@ -9356,9 +9269,9 @@ Group	I-ORG
 가지고	O
 있었으며	O
 ,	O
-삼풍백화점	B-ORG
-붕괴	O
-사고로	O
+삼풍백화점	B-EVT
+붕괴	I-EVT
+사고로	I-EVT
 인해	O
 1996년에	B-DAT
 해체되었다	O
@@ -9376,7 +9289,7 @@ Group	I-ORG
 6월	I-DAT
 고병우	B-PER
 회장이	B-POS
-정부에서	O
+정부에서	B-ORG
 임명한	O
 전문경영인으로	B-POS
 고병우	B-PER
@@ -9467,11 +9380,9 @@ HDC그룹	B-ORG
 .	O
 
 젤리피쉬 엔터테인먼트
-젤리피쉬 엔터테인먼트()는 프로듀서 겸 작곡가 황세준이 2007년에 설립한 대한민국의 연예 기획사이다.
+젤리피쉬 엔터테인먼트는 프로듀서 겸 작곡가 황세준이 2007년에 설립한 대한민국의 연예 기획사이다.
 젤리피쉬	B-ORG
 엔터테인먼트	I-ORG
-(	O
-)	O
 는	O
 프로듀서	B-POS
 겸	O
@@ -9489,19 +9400,19 @@ HDC그룹	B-ORG
 본사는	O
 서울특별시	B-LOC
 강남구	B-LOC
-언주로157길	B-ORG
-3	B-NUM
--	I-NUM
-6	I-NUM
-GM사옥에	B-AFW
+언주로157길	B-LOC
+3	I-LOC
+-	I-LOC
+6	I-LOC
+GM사옥에	B-LOC
 있다	O
 .	O
 
 페이즈 원
 자회사로 랄프 이미징을 소유하고 있으며, 2009년에는 파산 직전인 일본의 메이저 중형 카메라 회사인 마미야를 인수 인계하여, 전 세계의 카메라 시장의 일본 카메라 회사의 독점을 유럽 회사가 압박을 준다.
 자회사로	O
-랄프	B-PER
-이미징을	I-PER
+랄프	B-ORG
+이미징을	I-ORG
 소유하고	O
 있으며	O
 ,	O
@@ -9511,18 +9422,18 @@ GM사옥에	B-AFW
 일본의	B-LOC
 메이저	O
 중형	O
-카메라	B-HEC
+카메라	O
 회사인	O
-마미야를	B-LOC
+마미야를	B-ORG
 인수	O
 인계하여	O
 ,	O
 전	O
 세계의	O
-카메라	B-HEC
+카메라	O
 시장의	O
 일본	B-LOC
-카메라	B-HEC
+카메라	O
 회사의	O
 독점을	O
 유럽	B-LOC
@@ -9542,11 +9453,11 @@ GM사옥에	B-AFW
 한	B-NUM
 애벌레에게	O
 생후	O
-첫	O
+첫	B-NUM
 4일간	B-DAT
 오로지	O
-로열	B-HEC
-젤리만	I-HEC
+로열	O
+젤리만	O
 ,	O
 그것도	O
 대량으로	O
@@ -9571,13 +9482,13 @@ GM사옥에	B-AFW
 여는 시간은 08:30 ~ 15:00 (멕시코 중부 시간)이다.
 여는	O
 시간은	O
-08	O
-:	O
-30	B-DAT
-~	O
-15	B-DAT
-:	O
-00	B-DAT
+08	B-DAT
+:	I-DAT
+30	I-DAT
+~	I-DAT
+15	I-DAT
+:	I-DAT
+00	I-DAT
 (	O
 멕시코	B-LOC
 중부	O
@@ -9650,7 +9561,7 @@ GM사옥에	B-AFW
 게이츠	B-PER
 이사장이	B-POS
 설립한	O
-'	B-ORG
+'	O
 테라파워	B-ORG
 '	O
 측과	O
@@ -9664,7 +9575,7 @@ GM사옥에	B-AFW
 스포츠	O
 브랜드	O
 중	O
-100년	O
+100년	B-DAT
 이상의	O
 역사를	O
 가진	O
@@ -9674,12 +9585,12 @@ GM사옥에	B-AFW
 아디다스의	B-ORG
 전신	O
 ·	O
-1920	B-NUM
+1920	B-DAT
 )	O
 ,	O
 휠라	B-ORG
 (	O
-1911	B-NUM
+1911	B-DAT
 )	O
 ,	O
 그리고	O
@@ -9689,17 +9600,17 @@ GM사옥에	B-AFW
 
 로봇신문
 2013년 11월말 기준으로 세계 60여개 국가에서 독자들이 이 사이트를 찾아 로봇 관련 소식을 접하고 있다.
-2013년	B-NUM
+2013년	B-DAT
 11월말	I-DAT
 기준으로	O
 세계	O
-60여개	O
+60여개	B-NUM
 국가에서	O
-독자들이	B-POS
+독자들이	O
 이	O
 사이트를	O
 찾아	O
-로봇	B-HEC
+로봇	O
 관련	O
 소식을	O
 접하고	O
@@ -9710,7 +9621,7 @@ GM사옥에	B-AFW
 대한민국에서는 서울 지하철 9호선의 운영을 했었다.
 대한민국에서는	B-LOC
 서울	B-LOC
-지하철	B-AFW
+지하철	O
 9호선의	B-NUM
 운영을	O
 했었다	O
@@ -9721,7 +9632,7 @@ HYBE
 1997년부터	B-DAT
 2005년까지	I-DAT
 JYP	B-ORG
-엔터테인먼트에서	O
+엔터테인먼트에서	I-ORG
 수석	B-POS
 작곡가로	I-POS
 활동한	O
@@ -9746,14 +9657,14 @@ HYBE
 세계적	O
 성공에	O
 힘입어	O
-빅히트	O
-엔터테인먼트의	O
+빅히트	B-ORG
+엔터테인먼트의	I-ORG
 상장	O
 가능성을	O
 공개적으로	O
 인정하고	O
 투자자들과	O
-기업공개	B-POS
+기업공개	O
 (	O
 IPO	O
 )	O
@@ -9768,18 +9679,18 @@ IPO	O
 모르메디는 Castrosua사의 하이브리드 버스 디자인, 퍼스널 응급상황 요청 장비인 eNest 등으로 디자인 상을 수상한 바 있으며 다국적 기업인 테카(Teka) 나 에데사(Edesa)와 같은 가정용 전자제품 업체나 LG, Airis, BQ와 같은 전자기기 업체, 스페인 공영철도기업인 렌페(Renfe)의 역 주변 도로 시설물 디자인을 담당하였다.
 모르메디는	B-ORG
 Castrosua사의	B-ORG
-하이브리드	B-AFW
-버스	I-AFW
+하이브리드	O
+버스	O
 디자인	O
 ,	O
 퍼스널	O
 응급상황	O
 요청	O
 장비인	O
-eNest	B-HEC
+eNest	B-INF
 등으로	O
-디자인	O
-상을	O
+디자인	B-PRI
+상을	I-PRI
 수상한	O
 바	O
 있으며	O
@@ -9844,15 +9755,15 @@ Renfe	B-ORG
 달	I-DAT
 구독료는	O
 8	B-NUM
-.	O
-99	B-NUM
+.	I-NUM
+99	I-NUM
 달러이며	I-NUM
 ,	O
-iOS와	B-HEC
-안드로이드	B-HEC
-스마트폰	I-HEC
+iOS와	B-INF
+안드로이드	B-INF
+스마트폰	O
 및	O
-태블릿에서	B-HEC
+태블릿에서	O
 이용이	O
 가능하다	O
 .	O
@@ -9869,11 +9780,11 @@ iOS와	B-HEC
 선일금고제작
 세계 내화금고 시장에서 34.8%의 점유율로 1위이며, 국내 금고시장의 70%를 점유하고 있다.
 세계	O
-내화금고	B-HEC
+내화금고	O
 시장에서	O
 34	B-NUM
-.	O
-8	B-NUM
+.	I-NUM
+8	I-NUM
 %	I-NUM
 의	O
 점유율로	O
@@ -9882,7 +9793,7 @@ iOS와	B-HEC
 국내	O
 금고시장의	O
 70	B-NUM
-%	O
+%	I-NUM
 를	O
 점유하고	O
 있다	O
@@ -9890,12 +9801,12 @@ iOS와	B-HEC
 
 선일금고제작
 2019년 제 7회 대한민국브랜드대상 단체부분 대상 수상.
-2019년	B-NUM
+2019년	B-DAT
 제	B-NUM
 7회	I-NUM
 대한민국브랜드대상	B-EVT
-단체부분	O
-대상	O
+단체부분	B-PRI
+대상	I-PRI
 수상	O
 .	O
 
@@ -9915,10 +9826,10 @@ iOS와	B-HEC
 
 태창 (기업)
 태창(泰昌)은 대한민국에 본사를 둔 내의류 제조 및 수출, 여성 수입의류 판매, 생수 제조 등을 주요사업으로 한 기업이다.
-태창	B-PER
+태창	B-ORG
 (	O
-泰	B-LOC
-昌	B-LOC
+泰	B-ORG
+昌	I-ORG
 )	O
 은	O
 대한민국에	B-LOC
@@ -9929,7 +9840,7 @@ iOS와	B-HEC
 및	O
 수출	O
 ,	O
-여성	O
+여성	B-PIV
 수입의류	O
 판매	O
 ,	O
@@ -9949,7 +9860,7 @@ iOS와	B-HEC
 이삼노	B-PER
 (	O
 李	B-PER
-三	B-PER
+三	I-PER
 老	I-PER
 )	O
 전	O
@@ -9969,7 +9880,7 @@ iOS와	B-HEC
 그러나	O
 70년대	B-DAT
 들어	O
-오일쇼크	B-HEC
+오일쇼크	B-EVT
 등으로	O
 수출길이	O
 막히면서	O
@@ -9980,23 +9891,23 @@ iOS와	B-HEC
 .	O
 
 태창 (기업)
-이때 이기전(李基田) 회장이 쌍방울에 재직하다가 1973년 2월 14일 오일쇼크 파동에서 태창의 경영이 흔들리자 뛰어들어 위기극복을 위해 태창메리야스공업사와 금성메리야스공업사를 합병해 태창섬유(泰昌纖維) 주식회사로 법인설립하여 제2의 창업을 하면서 시작되었다.
+이때 이기전(李基田) 회장이 쌍방울에 재직하다가 1973년 2월 14일 오일쇼크 파동에서 태창의 경영이 흔들리자 뛰어들어 위기극복을 위해 태창메리야스공업사와 금성메리야스공업사를 합병해 태창섬유 주식회사로 법인설립하여 제2의 창업을 하면서 시작되었다.
 이때	O
 이기전	B-PER
 (	O
-李	B-ORG
-基	B-ORG
-田	B-POS
+李   B-PER
+基   I-PER
+田   I-PER
 )	O
 회장이	B-POS
 쌍방울에	B-ORG
 재직하다가	O
-1973년	B-NUM
+1973년	B-DAT
 2월	I-DAT
 14일	I-DAT
 오일쇼크	B-EVT
 파동에서	O
-태창의	B-PER
+태창의	B-ORG
 경영이	O
 흔들리자	O
 뛰어들어	O
@@ -10006,12 +9917,6 @@ iOS와	B-HEC
 금성메리야스공업사를	B-ORG
 합병해	O
 태창섬유	B-ORG
-(	O
-泰	O
-昌	O
-[UNK]	O
-維	O
-)	O
 주식회사로	O
 법인설립하여	O
 제2의	B-NUM
@@ -10021,35 +9926,33 @@ iOS와	B-HEC
 .	O
 
 태창 (기업)
-* 1981년 1월 28일 대통령 감사장 수상(근로청소년 지원)하였다.
-*	O
+1981년 1월 28일 대통령 감사장 수상(근로청소년 지원)하였다.
 1981년	B-DAT
 1월	I-DAT
 28일	I-DAT
-대통령	B-POS
-감사장	I-POS
-수상	I-POS
+대통령	B-PRI
+감사장	I-PRI
+수상	O
 (	O
-근로청소년	B-POS
+근로청소년	O
 지원	O
 )	O
 하였다	O
 .	O
 
 태창 (기업)
-* 1995년 5월 (주)태창 김윤재(金允在) 대표이사 사장을 태창그룹 부회장으로 승진하고, 이기전 회장의 2남 이주영(李柱泳) 총괄전무를 (주)태창 대표이사 사장으로 승진 발령하였다.
-*	O
+1995년 5월 (주)태창 김윤재(金允在) 대표이사 사장을 태창그룹 부회장으로 승진하고, 이기전 회장의 2남 이주영(李柱泳) 총괄전무를 (주)태창 대표이사 사장으로 승진 발령하였다.
 1995년	B-DAT
 5월	I-DAT
 (	O
-주	B-ORG
+주	O
 )	O
-태창	B-PER
+태창	B-ORG
 김윤재	B-PER
 (	O
 金	B-PER
-允	B-PER
-在	O
+允	I-PER
+在	I-PER
 )	O
 대표이사	B-POS
 사장을	B-POS
@@ -10063,14 +9966,14 @@ iOS와	B-HEC
 이주영	B-PER
 (	O
 李	B-PER
-柱	B-PER
-泳	B-PER
+柱	I-PER
+泳	I-PER
 )	O
 총괄전무를	B-POS
 (	O
-주	B-ORG
+주	O
 )	O
-태창	O
+태창	B-ORG
 대표이사	B-POS
 사장으로	B-POS
 승진	O
@@ -10078,15 +9981,14 @@ iOS와	B-HEC
 .	O
 
 태창 (기업)
-* 1998년 IMF 여파로 경영이 힘들어져 이해 5월 5일 최종 부도처리됐다.
-*	O
+1998년 IMF 여파로 경영이 힘들어져 이해 5월 5일 최종 부도처리됐다.
 1998년	B-DAT
-IMF	B-ORG
+IMF	B-EVT
 여파로	O
 경영이	O
 힘들어져	O
-이해	B-DAT
-5월	I-DAT
+이해	O
+5월	B-DAT
 5일	I-DAT
 최종	O
 부도처리됐다	O
@@ -10094,8 +9996,8 @@ IMF	B-ORG
 
 글라스휘테 오리기날
 플라잉 투어빌리언과 영구 달력을 탑재해서 이 시계는 1990년이후 글라스휘테에서 생산된 시계 중 가장 복잡한 모델이다.
-플라잉	B-HEC
-투어빌리언과	B-POS
+플라잉	O
+투어빌리언과	O
 영구	O
 달력을	O
 탑재해서	O
@@ -10113,7 +10015,7 @@ IMF	B-ORG
 
 관수금속
 차량 위의 기기와 행선지 표시 등 씰 부착도 선택식으로 되어있었지만, 2000년 이후부터 모든 부품이 장착되고 행선지 표시도 인쇄된 상태로 발매되는 제품이 늘어나고 있다.
-차량	B-AFW
+차량	O
 위의	O
 기기와	O
 행선지	O
@@ -10142,17 +10044,17 @@ IMF	B-ORG
 인더스트리얼 라이트 & 매직
 대표작품으로는 스타워즈, 인디아나존스, E.T, 터미네이터, 쥬라기공원 등이 있다.
 대표작품으로는	O
-스타워즈	B-LOC
+스타워즈	B-AFW
 ,	O
-인디아나존스	B-LOC
+인디아나존스	B-AFW
 ,	O
 E	B-AFW
-.	O
-T	B-ORG
+.	I-AFW
+T	I-AFW
 ,	O
 터미네이터	B-AFW
 ,	O
-쥬라기공원	B-LOC
+쥬라기공원	B-AFW
 등이	O
 있다	O
 .	O
@@ -10162,7 +10064,7 @@ T	B-ORG
 2010년에는	B-DAT
 광저우	B-EVT
 아시안게임	I-EVT
-펜싱	I-ORG
+펜싱	B-ORG
 국가대표팀의	I-ORG
 극기훈련을	O
 진행하였다	O
@@ -10170,11 +10072,11 @@ T	B-ORG
 
 팬톤
 팬톤(PANTONE LLC.)는 다양한 산업 분야에 정확한 컬러 선정과 색채의 아름다움을 제공하고 있으며, 10,000가지 이상의 색을 시스템으로 체계화 한 세계적으로 권위있는 기업이다.
-팬톤	B-HEC
+팬톤	B-ORG
 (	O
-PANTONE	B-HEC
-LLC	I-HEC
-.	O
+PANTONE	B-ORG
+LLC	I-ORG
+.	I-ORG
 )	O
 는	O
 다양한	O
@@ -10207,7 +10109,7 @@ LLC	I-HEC
 엔진으로	O
 시속	O
 60	B-NUM
-~	B-NUM
+~	I-NUM
 65km	I-NUM
 정도를	O
 낼	O
@@ -10235,16 +10137,14 @@ LLC	I-HEC
 .	O
 
 불가리
-불가리()는 그리스계 이탈리아인 소티리오 불가리가 1884년에 이탈리아 로마에 창업한 고급 보석 브랜드이다.
-불가리	B-PER
-(	O
-)	O
+불가리는 그리스계 이탈리아인 소티리오 불가리가 1884년에 이탈리아 로마에 창업한 고급 보석 브랜드이다.
+불가리	B-ORG
 는	O
-그리스계	B-LOC
-이탈리아인	B-POS
+그리스계	O
+이탈리아인	O
 소티리오	B-PER
 불가리가	I-PER
-1884년에	B-NUM
+1884년에	B-DAT
 이탈리아	B-LOC
 로마에	B-LOC
 창업한	O
@@ -10256,13 +10156,13 @@ LLC	I-HEC
 셀린느
 이들 부부는 아이들의 장신구를 만드는 가게로 시작했지만 1948년까지 3개의 더 많은 가게들로 확장했고, 키치함을 넘어 매일 여성들이 착용할 수 있는 데일리룩을 목표로 디자인하기 시작했다.
 이들	O
-부부는	O
+부부는	B-PIV
 아이들의	O
 장신구를	O
 만드는	O
 가게로	O
 시작했지만	O
-1948년까지	B-NUM
+1948년까지	B-DAT
 3개의	B-NUM
 더	O
 많은	O
@@ -10272,7 +10172,7 @@ LLC	I-HEC
 키치함을	O
 넘어	O
 매일	O
-여성들이	O
+여성들이	B-PIV
 착용할	O
 수	O
 있는	O
@@ -10283,28 +10183,24 @@ LLC	I-HEC
 .	O
 
 디올 (기업)
-디올() 또는 ''크리스찬 디올''()는 프랑스의 패션 디자이너 크리스티앙 디오르가 1946년에 설립한 하이엔드 명품 패션 브랜드이다.
-디올	B-HEC
-(	O
-)	O
+디올 또는 ''크리스찬 디올''는 프랑스의 패션 디자이너 크리스티앙 디오르가 1946년에 설립한 하이엔드 명품 패션 브랜드이다.
+디올	B-ORG
 또는	O
-'	B-PER
-'	B-PER
-크리스찬	I-PER
-디올	I-PER
 '	O
 '	O
-(	O
-)	O
+크리스찬	B-ORG
+디올	I-ORG
+'	O
+'	O
 는	O
 프랑스의	B-LOC
-패션	O
-디자이너	O
+패션	B-POS
+디자이너	I-POS
 크리스티앙	B-PER
 디오르가	I-PER
 1946년에	B-DAT
 설립한	O
-하이엔드	B-LOC
+하이엔드	O
 명품	O
 패션	O
 브랜드이다	O
@@ -10330,12 +10226,12 @@ Look	O
 컬랙션으로	I-NUM
 선보이며	O
 모든	O
-여성들을	O
+여성들을	B-PIV
 열광시켰고	O
 그뒤	O
 계속	O
 모든	O
-여성들에게	O
+여성들에게	B-PIV
 사랑받고	O
 프랑스	B-LOC
 명품을	O
@@ -10345,18 +10241,19 @@ Look	O
 .	O
 
 디올 (기업)
-디올의 연매출은 약 연매출3,285억 4천만원이며 작년 대비 76%상승으로 매년 꾸준히 상승하고 영업이익은 1,047억 1천만원이며 작년 대비 137%상승으로 영업이익도 꾸준히 상승한다.(2020.
+디올의 연매출은 약 연매출 3,285억 4천만원이며 작년 대비 76%상승으로 매년 꾸준히 상승하고 영업이익은 1,047억 1천만원이며 작년 대비 137%상승으로 영업이익도 꾸준히 상승한다.(2020).
 디올의	B-ORG
 연매출은	O
 약	O
-연매출3	O
-,	B-NUM
+연매출 O
+3	B-NUM
+,	I-NUM
 285억	I-NUM
 4천만원이며	I-NUM
 작년	B-DAT
 대비	O
 76	B-NUM
-%	O
+%	I-NUM
 상승으로	O
 매년	O
 꾸준히	O
@@ -10369,20 +10266,29 @@ Look	O
 작년	B-DAT
 대비	O
 137	B-NUM
-%	O
+%	I-NUM
 상승으로	O
 영업이익도	O
 꾸준히	O
 상승한다	O
-.	B-DAT
+.	O
 (	O
-2020	B-NUM
+2020	B-DAT
+)   O
 .	O
 
-디올 (기업)
-대한민국).
-대한민국	B-LOC
-)	O
+제약
+아르스페나민은 합성한 화합물 중 준비되었고, 부분적으로 선택적인 독성을 나타냈다.
+아르스페나민은	B-HEC
+합성한	O
+화합물	O
+중	O
+준비되었고	O
+,	O
+부분적으로	O
+선택적인	O
+독성을	O
+나타냈다	O
 .	O
 
 디올 (기업)
@@ -10391,14 +10297,14 @@ Look	O
 크리스찬	B-PER
 디올	I-PER
 (	O
-Christian	B-ORG
-Dior	I-ORG
+Christian	B-PER
+Dior	I-PER
 )	O
 은	O
 몽테뉴가	B-LOC
 30번지에	B-NUM
 첫	B-NUM
-부티크를	B-POS
+부티크를	O
 열었고	O
 이것이	O
 브랜드	O
@@ -10413,14 +10319,14 @@ Dior	O
 디올 (기업)
 그는 여성의 잘록한 허리라인와 꽃봉오리같은 풍성한 골반을 강조하여 여성의 실루엣을 아름답게 만들었고 값이 비싼 원단을 사용해 화려한 컬렉션을 선보였다.
 그는	O
-여성의	O
+여성의	B-PIV
 잘록한	O
 허리라인와	O
 꽃봉오리같은	O
 풍성한	O
 골반을	O
 강조하여	O
-여성의	O
+여성의	B-PIV
 실루엣을	O
 아름답게	O
 만들었고	O
@@ -10439,12 +10345,12 @@ Dior	O
 크리스찬	B-PER
 디올	I-PER
 (	O
-Christian	B-ORG
-Dior	O
+Christian	B-PER
+Dior	I-PER
 )	O
 는	O
 옷보다	O
-여성의	O
+여성의	B-PIV
 아름다움을	O
 더	O
 크게	O
@@ -10472,13 +10378,13 @@ Dior	O
 영입되는데	O
 그가	O
 바로	O
-이브	B-DAT
-생	O
-로랑	B-PER
+이브	B-PER
+생   I-PER
+로랑	I-PER
 (	O
-Yves	O
-Saint	O
-Laurent	O
+Yves	B-PER
+Saint	I-PER
+Laurent	I-PER
 )	O
 이다	O
 .	O
@@ -10497,13 +10403,12 @@ Laurent	O
 .	O
 
 디올 (기업)
-* 디올 카로백(Dior Caro): 크리스찬 디올의 여동생 캐서린을 기리는 가방이고 디올의 시그니처 패턴인 카나주 패턴으로 디자인되어있다.
-*	O
-디올	B-PER
-카로백	I-PER
+디올 카로백(Dior Caro): 크리스찬 디올의 여동생 캐서린을 기리는 가방이고 디올의 시그니처 패턴인 카나주 패턴으로 디자인되어있다.
+디올	B-INF
+카로백	I-INF
 (	O
-Dior	O
-Caro	B-AFW
+Dior	B-INF
+Caro	I-INF
 )	O
 :	O
 크리스찬	B-PER
@@ -10512,10 +10417,10 @@ Caro	B-AFW
 캐서린을	B-PER
 기리는	O
 가방이고	O
-디올의	O
+디올의	B-ORG
 시그니처	O
 패턴인	O
-카나주	B-LOC
+카나주	O
 패턴으로	O
 디자인되어있다	O
 .	O
@@ -10532,8 +10437,8 @@ Caro	B-AFW
 현재	O
 회사	O
 업무의	O
-75	O
-%	O
+75	B-NUM
+%	I-NUM
 가	O
 해상	O
 재생	O
@@ -10546,7 +10451,7 @@ Caro	B-AFW
 
 오렌지라이프
 2017년 기준으로 800여 명의 임직원과 재무컨설턴트가 근무하며 국내 90여 개의 지점을 보유하고 있다.
-2017년	B-NUM
+2017년	B-DAT
 기준으로	O
 800여	B-NUM
 명의	I-NUM
@@ -10554,8 +10459,8 @@ Caro	B-AFW
 재무컨설턴트가	B-POS
 근무하며	O
 국내	O
-90여	O
-개의	B-NUM
+90여	B-NUM
+개의	I-NUM
 지점을	O
 보유하고	O
 있다	O
@@ -10566,13 +10471,13 @@ Caro	B-AFW
 2021년10월28일	B-DAT
 삼성바이오로직스	B-ORG
 (	O
-Samsung	I-ORG
+Samsung	B-ORG
 BioLogics	I-ORG
 )	O
 가	O
 코로나19	B-HEC
 백신	I-HEC
-모더나를	I-HEC
+모더나를	B-HEC
 첫	B-NUM
 출하하였다	O
 .	O
@@ -10581,20 +10486,20 @@ BioLogics	I-ORG
 이는 올해 5월22일 모더나(Moderna)가  삼성바이오로직스와 모더나 코로나19 mRNA 백신인 mRNA-1273에 대한 완제 위탁생산 계약을 체결한지 약6개월여만이다.
 이는	O
 올해	B-DAT
-5월22일	I-DAT
-모더나	B-ORG
+5월22일	B-DAT
+모더나	B-HEC
 (	O
-Moderna	B-ORG
+Moderna	B-HEC
 )	O
 가	O
 삼성바이오로직스와	B-ORG
 모더나	B-HEC
-코로나19	I-HEC
-mRNA	I-HEC
+코로나19	B-HEC
+mRNA	O
 백신인	O
 mRNA	B-HEC
--	B-NUM
-1273에	I-NUM
+-	I-HEC
+1273에	I-HEC
 대한	O
 완제	O
 위탁생산	O
@@ -10610,7 +10515,7 @@ mRNA	B-HEC
 찰스	B-PER
 레브슨과	I-PER
 레브슨의	B-PER
-형제인	B-POS
+형제인	B-PIV
 조지프	B-PER
 ,	O
 찰스	B-PER
@@ -10639,7 +10544,7 @@ mRNA	B-HEC
 그리고 올리버 피플스가 도드라지는 브랜드가 될 수 있었던 계기중 하나는 배우나 뮤지션.
 그리고	O
 올리버	B-PER
-피플스가	O
+피플스가	I-PER
 도드라지는	O
 브랜드가	O
 될	O
@@ -10647,8 +10552,8 @@ mRNA	B-HEC
 있었던	O
 계기중	O
 하나는	B-NUM
-배우나	O
-뮤지션	O
+배우나	B-POS
+뮤지션	B-POS
 .	O
 
 명인제약
@@ -10656,21 +10561,21 @@ mRNA	B-HEC
 주요	O
 제품으로는	O
 잇몸질환	B-HEC
-치료제인	I-HEC
-'	B-HEC
-이가탄	I-HEC
+치료제인	O
+'	O
+이가탄	B-INF
 '	O
 ,	O
 장용성	B-HEC
 변비	I-HEC
-치료제	I-HEC
-'	B-HEC
-메이킨Q	I-HEC
+치료제	O
+'	O
+메이킨Q	B-HEC
 '	O
 ,	O
 종합감기약	B-HEC
-'	B-HEC
-콜그린에이	I-HEC
+'	O
+콜그린에이	B-HEC
 '	O
 등이	O
 있다	O
@@ -10690,7 +10595,7 @@ KAS	B-ORG
 1	B-NUM
 ,	I-NUM
 100여	I-NUM
-포워더가	B-HEC
+포워더가	O
 서비스를	O
 이용하고	O
 있다	O
@@ -10724,12 +10629,12 @@ KAS	B-ORG
 헬스커넥트	B-ORG
 주식회사	I-ORG
 (	O
-HealthConnect	I-ORG
+HealthConnect	B-ORG
 Co	I-ORG
 .	I-ORG
-,	O
-Ltd	B-ORG
-.	O
+,	I-ORG
+Ltd	I-ORG
+.	I-ORG
 )	O
 는	O
 서울대학교병원과	B-ORG
@@ -10756,18 +10661,18 @@ SK텔레콤이	B-ORG
 2014년 4월에는 '대한민국 국민브랜드 대상' 국회정보위원장상을 수상했다.
 2014년	B-DAT
 4월에는	I-DAT
-'	B-EVT
-대한민국	B-EVT
+'	O
+대한민국	B-EVT,
 국민브랜드	I-EVT
 대상	I-EVT
 '	O
-국회정보위원장상을	B-POS
+국회정보위원장상을	B-PRI
 수상했다	O
 .	O
 
 휴롬
 2014년 기준, 중국과 대한민국에 4개의 공장, 6백만대 수준의 생산능력을 보유하고 있으며, 전 세계 60여개 국에 제품을 유통하고 있다.
-2014년	B-NUM
+2014년	B-DAT
 기준	O
 ,	O
 중국과	B-LOC
@@ -10783,7 +10688,7 @@ SK텔레콤이	B-ORG
 ,	O
 전	O
 세계	O
-60여개	O
+60여개	B-NUM
 국에	O
 제품을	O
 유통하고	O
@@ -10802,7 +10707,7 @@ SK텔레콤이	B-ORG
 아들인	B-PIV
 성준	B-PER
 ,	O
-성훈씨가	O
+성훈씨가	B-PER
 각각	O
 30	B-NUM
 %	I-NUM
@@ -10828,7 +10733,7 @@ SK텔레콤이	B-ORG
 삼성전자로지텍은 530여 종업원과 8,600여 명의 협력사 임직원은 3,200여 국내 판매점과 최종 고객, 해외 600개 거래선에 대하여 물류서비스 제공하고 있다.
 삼성전자로지텍은	B-ORG
 530여	B-NUM
-종업원과	I-NUM
+종업원과	B-POS
 8	B-NUM
 ,	I-NUM
 600여	I-NUM
@@ -10856,7 +10761,7 @@ SK텔레콤이	B-ORG
 삼천리 창업자인 고(故) 유성연·이장균 명예회장 일가가 삼탄의 대주주로 고 유성연 명예회장의 아들인 유상덕 삼탄 회장이 실질적으로 경영권을 쥐고 있다.
 삼천리	B-LOC
 창업자인	B-POS
-고	B-PER
+고	O
 (	O
 故	O
 )	O
@@ -10887,13 +10792,13 @@ SK텔레콤이	B-ORG
 명예회장의	B-POS
 아들인	B-PIV
 이만득	B-PER
-삼천리	B-LOC
+삼천리	B-ORG
 회장은	B-POS
 삼탄	O
 지분을	O
 보유하고	O
 있지만	O
-삼탄	O
+삼탄	B-ORG
 경영에는	O
 참여하지	O
 않고	O
@@ -10902,7 +10807,7 @@ SK텔레콤이	B-ORG
 
 삼탄
 삼탄 지분은 유상덕 회장, 이만득 회장을 비롯한 양가가 66.98%를 보유하고 있다.
-삼탄	B-POS
+삼탄	B-ORG
 지분은	O
 유상덕	B-PER
 회장	B-POS
@@ -10910,11 +10815,11 @@ SK텔레콤이	B-ORG
 이만득	B-PER
 회장을	B-POS
 비롯한	O
-양가가	B-NUM
+양가가	O
 66	B-NUM
-.	O
-98	B-NUM
-%	O
+.	I-NUM
+98	I-NUM
+%	I-NUM
 를	O
 보유하고	O
 있다	O
@@ -10930,8 +10835,8 @@ SK텔레콤이	B-ORG
 일가가	O
 삼탄	B-ORG
 지분을	O
-50	B-HEC
-:	B-NUM
+50	B-NUM
+:	I-NUM
 50	I-NUM
 수준으로	O
 보유하고	O
@@ -10948,9 +10853,9 @@ SK텔레콤이	B-ORG
 2004년	B-DAT
 창립	O
 2주년만에	B-DAT
-무역의	B-DAT
-날	I-DAT
-철탑산업훈장을	B-POS
+무역의	B-EVT
+날	I-EVT
+철탑산업훈장을	B-PRI
 수상하였다	O
 .	O
 
@@ -10958,14 +10863,14 @@ SK텔레콤이	B-ORG
 2005년 대우통신 컴퓨터사업부를 인수합병, 이듬해 한국 최초로 국방부에 PC를  45,000대품하였다.
 2005년	B-DAT
 대우통신	B-ORG
-컴퓨터사업부를	B-ORG
+컴퓨터사업부를	B-POS
 인수합병	O
 ,	O
-이듬해	B-DAT
+이듬해	O
 한국	B-LOC
 최초로	O
 국방부에	B-ORG
-PC를	B-HEC
+PC를	O
 45	B-NUM
 ,	I-NUM
 000대품하였다	I-NUM
@@ -10975,12 +10880,12 @@ PC를	B-HEC
 같은 해 데스크톱PC에 대한 굿디자인 인증 및 디자인우수상을 수상하기도 했다.
 같은	B-DAT
 해	I-DAT
-데스크톱PC에	B-HEC
+데스크톱PC에	O
 대한	O
-굿디자인	B-POS
-인증	O
+굿디자인	B-PRI
+인증	I-PRI
 및	O
-디자인우수상을	O
+디자인우수상을	B-PRI
 수상하기도	O
 했다	O
 .	O
@@ -10988,22 +10893,22 @@ PC를	B-HEC
 루컴즈전자
 (주)대우루컴즈 창립자이자 현재 대표이사인 윤춘기는 1984년부터 대우전자 모니터사업부에서 쌓아 온 경험과 기술력으로 (주)대우루컴즈의 총 경영을 이끌고 있다.
 (	O
-주	B-ORG
+주	O
 )	O
 대우루컴즈	B-ORG
 창립자이자	B-POS
 현재	O
 대표이사인	B-POS
 윤춘기는	B-PER
-1984년부터	B-NUM
+1984년부터	B-DAT
 대우전자	B-ORG
-모니터사업부에서	B-ORG
+모니터사업부에서	B-POS
 쌓아	O
 온	O
 경험과	O
 기술력으로	O
 (	O
-주	B-ORG
+주	O
 )	O
 대우루컴즈의	B-ORG
 총	O
@@ -11017,7 +10922,7 @@ PC를	B-HEC
 캠코는	B-ORG
 향후	O
 3년	B-DAT
-동안	I-DAT
+동안	O
 매년	O
 2500억원	B-NUM
 투입	O
@@ -11033,48 +10938,47 @@ PC를	B-HEC
 .	O
 
 캠코선박운용
-[출처] 매일경제 http://news.mk.co.kr/newsRead.php?&year=2017&no=322837.
-[	B-ORG
-출처	B-ORG
+[출처] 매일경제 http://news.mk.co.kr/newsRead.php?&year=2017&no=322837
+[	O
+출처	O
 ]	O
 매일경제	B-ORG
-http	B-HEC
-:	O
-/	O
-/	O
-news	B-HEC
-.	O
-mk	B-HEC
-.	O
-co	B-HEC
-.	O
-kr	B-HEC
-/	B-HEC
-newsRead	B-HEC
-.	O
-php	O
-?	O
-&	O
-year	O
-=	O
-2017	B-NUM
-&	O
-no	O
-=	O
-322837	O
-.	O
+http	B-INF
+:	I-INF
+/	I-INF
+/	I-INF
+news	I-INF
+.	I-INF
+mk	I-INF
+.	I-INF
+co	I-INF
+.	I-INF
+kr	I-INF
+/	I-INF
+newsRead	I-INF
+.	I-INF
+php	I-INF
+?	I-INF
+&	I-INF
+year	I-INF
+=	I-INF
+2017	I-INF
+&	I-INF
+no	I-INF
+=	I-INF
+322837	I-INF
 
 RTL 그룹
 모기업은 독일의 베르텔스만이며 2014년 1월 기준으로 75.1%의 지분을 소유하고 있다.
 모기업은	O
 독일의	B-LOC
 베르텔스만이며	B-LOC
-2014년	B-NUM
+2014년	B-DAT
 1월	I-DAT
 기준으로	O
 75	B-NUM
-.	O
-1	B-NUM
+.	I-NUM
+1	I-NUM
 %	I-NUM
 의	O
 지분을	O
@@ -11105,7 +11009,7 @@ RTL 그룹
 또한	O
 이	O
 회사는	O
-1907년부터	B-NUM
+1907년부터	B-DAT
 여러	O
 자동차	O
 경주	O
@@ -11116,7 +11020,7 @@ RTL 그룹
 현재	O
 포뮬러	B-EVT
 원에	I-EVT
-타이어를	B-POS
+타이어를	O
 제공하고	O
 있다	O
 .	O
@@ -11126,35 +11030,35 @@ RTL 그룹
 1960년	B-DAT
 파리의	B-LOC
 유명	O
-헤어	O
-드레서	B-AFW
-르리에브르	I-AFW
+헤어	B-POS
+드레서	I-POS
+르리에브르	B-PER
 (	O
 Mr	B-PER
-Lelievre	I-AFW
+Lelievre	I-PER
 )	O
 가	O
 최초로	O
 전문	O
-헤어	O
-드레서들을	O
+헤어	B-PER
+드레서들을	I-PER
 위한	O
-컬링	B-HEC
-아이론을	I-HEC
+컬링	O
+아이론을	O
 발명하면서	O
 탄생하여	O
 ,	O
 파리	B-LOC
 상류	O
 사회의	O
-여성들에게	O
+여성들에게	B-PIV
 그	O
 가치를	O
 인정	O
 받기	O
 시작하여	O
 유럽	B-LOC
-전지역내	B-LOC
+전지역내	O
 브랜드	O
 인지도	O
 1위	B-NUM
@@ -11171,15 +11075,15 @@ Lelievre	I-AFW
 대표의	B-POS
 어머니가	B-PIV
 디지틀조선일보의	B-ORG
-최대주주	O
+최대주주	B-POS
 방상훈	B-PER
 조선일보	B-ORG
 회장의	B-POS
-고모라는	B-POS
+고모라는	B-PIV
 이유만으로	O
 디지틀조선일보는	B-ORG
 소위	O
-'	B-PER
+'	O
 김무성	B-PER
 테마주	O
 '	O
@@ -11196,8 +11100,8 @@ Lelievre	I-AFW
 
 3LAB
 ‘LAB’은 연구실, 실험실을 의미하고, 글자 위의 분자 기호는 과학을 의미하며, 적색은 2명의 화학자, 백색은 1명의 의학자를 뜻하며, 추구하는 3가지 목표는 'Perfect Science, Perfect Product, Perfect Skin'이다.
-‘	B-HEC
-LAB	B-HEC
+‘	O
+LAB	O
 ’	O
 은	O
 연구실	O
@@ -11241,7 +11145,7 @@ Skin	O
 고소득 전문직 여성이 주 고객이다.
 고소득	O
 전문직	O
-여성이	B-POS
+여성이	B-PIV
 주	O
 고객이다	B-POS
 .	O
@@ -11253,23 +11157,23 @@ Skin	O
 수수료	O
 등이	O
 97	B-NUM
-%	O
+%	I-NUM
 ,	O
 신용카드	O
 단말기	O
 등이	O
 2	B-NUM
-.	O
-5	B-NUM
-%	O
+.	I-NUM
+5	I-NUM
+%	I-NUM
 ,	O
 기타	O
 투자	O
 수익	O
 0	B-NUM
-.	O
-5	B-NUM
-%	O
+.	I-NUM
+5	I-NUM
+%	I-NUM
 가량으로	O
 이루어진다	O
 .	O
@@ -11355,7 +11259,7 @@ Skin	O
 주요	O
 사망	O
 요인이었고	O
-신생아	B-POS
+신생아	O
 사망율은	O
 10	B-NUM
 %	I-NUM

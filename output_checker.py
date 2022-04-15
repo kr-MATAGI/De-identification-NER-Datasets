@@ -92,7 +92,7 @@ if "__main__" == __name__:
                                               model_dir="./model-base")
         model.eval()
 
-        input_str = "아버지 최윤홍, 아들 최재훈이고, 직업은 음악가이며 매출 500억을 달성했다."
+        input_str = "그 사람의 취미는 음악 감상이다."
         inputs = tokenizer(input_str, return_tensors="pt", truncation=True, max_length=512)
 
         outputs = model(input_ids=inputs["input_ids"],

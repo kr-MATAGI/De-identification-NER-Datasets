@@ -20,6 +20,7 @@ from tqdm import tqdm
 
 from seqeval import metrics as seqeval_metrics
 from sklearn import metrics as sklearn_metrics
+from sklearn.model_selection import KFold
 
 from tag_def import DE_IDENT_TAG
 
@@ -60,16 +61,16 @@ def show_ner_report(labels, preds):
     return seqeval_metrics.classification_report(labels, preds)
 
 class De_Ident_Dataset(Dataset):
-    def __init__(self, path: str=""):
-        self.attention_mask = np.load(path+"/attention_mask.npy")
-        self.input_ids = np.load(path+"/input_ids.npy")
-        self.labels = np.load(path+"/labels.npy")
-        self.token_type_ids = np.load(path+"/token_type_ids.npy")
+    def __init__(self, data: np.ndarray, idx_list: np.ndarray):
+        self.input_ids = data[idx_list][:, :, 0]
+        self.attention_mask = data[idx_list][:, :, 1]
+        self.token_type_ids = data[idx_list][:, :, 2]
+        self.labels = data[idx_list][:, :, 3]
 
-        self.attention_mask = torch.tensor(self.attention_mask, dtype=torch.long)
         self.input_ids = torch.tensor(self.input_ids, dtype=torch.long)
-        self.labels = torch.tensor(self.labels, dtype=torch.long)
+        self.attention_mask = torch.tensor(self.attention_mask, dtype=torch.long)
         self.token_type_ids = torch.tensor(self.token_type_ids, dtype=torch.long)
+        self.labels = torch.tensor(self.labels, dtype=torch.long)
 
     def __len__(self):
         return len(self.input_ids)
@@ -93,22 +94,17 @@ logger = init_logger()
 if not os.path.exists("./logs"):
     os.mkdir("./logs")
 tb_writer = SummaryWriter("./logs")
-################################################################################################################
 
-
-################################################################################################################
 ######################################## Train / Eval ##########################################################
-################################################################################################################
-def train(args, model, train_dataset, dev_dataset, test_dataset):
-    train_sampler = RandomSampler(train_dataset)
-    train_dataloader = DataLoader(train_dataset, sampler=train_sampler,
-                                  batch_size=args.train_batch_size)
+def train(args, model, train_dataset, fold_size: int=10):
+    train_data_len = train_dataset.shape[0] * (fold_size-1)
+    k_fold = KFold(n_splits=fold_size, random_state=args.seed, shuffle=True)
 
     if args.max_steps > 0:
         t_total = args.max_steps
-        args.num_train_epochs = args.max_steps // (len(train_dataloader) // args.gradient_accumulation_steps) + 1
+        args.num_train_epochs = args.max_steps // (train_data_len // args.gradient_accumulation_steps) + 1
     else:
-        t_total = len(train_dataloader) // args.gradient_accumulation_steps * args.num_train_epochs
+        t_total = (train_data_len // args.gradient_accumulation_steps * args.num_train_epochs)
 
     # Prepare optimizer and schedule (linear warmup and decay)
     no_decay = ['bias', 'LayerNorm.weight']
@@ -145,7 +141,10 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
     tr_loss = 0.0
 
     model.zero_grad()
-    for epoch in range(args.num_train_epochs):
+    for epoch, (train_idx_list, test_idx_list) in zip(range(args.num_train_epochs), k_fold.split(train_dataset)):
+        train_fold_dataset = De_Ident_Dataset(data=train_dataset, idx_list=train_idx_list)
+        dev_fold_datasets = De_Ident_Dataset(data=train_dataset, idx_list=test_idx_list)
+        train_dataloader = DataLoader(train_fold_dataset, batch_size=args.train_batch_size)
         pbar = tqdm(train_dataloader)
         for step, batch in enumerate(pbar):
             model.train()
@@ -187,10 +186,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
                 pbar.set_description("Train Loss - %.04f" % (tr_loss / global_step))
 
                 if args.logging_steps > 0 and global_step % args.logging_steps == 0:
-                    if args.evaluate_test_during_training:
-                        evaluate(args, model, test_dataset, "test", global_step)
-                    else:
-                        evaluate(args, model, dev_dataset, "dev", global_step)
+                    evaluate(args, model, dev_fold_datasets, "dev", global_step)
 
                 if args.save_steps > 0 and global_step % args.save_steps == 0:
                     # Save samples checkpoint
@@ -220,6 +216,7 @@ def train(args, model, train_dataset, dev_dataset, test_dataset):
 
 def evaluate(args, model, eval_dataset, mode, global_step=None, train_epoch=0):
     results = {}
+
     eval_sampler = SequentialSampler(eval_dataset)
     eval_dataloader = DataLoader(eval_dataset, sampler=eval_sampler, batch_size=args.eval_batch_size)
 
@@ -337,13 +334,12 @@ def main(cli_args):
     logger.info(f"Training/Evaluation parameters {args}")
     args.output_dir = os.path.join(args.ckpt_dir, args.output_dir)
 
-    # Config - naver ner labels
+    # Config
     config = ElectraConfig.from_pretrained(args.model_name_or_path,
                                            num_labels=len(DE_IDENT_TAG.keys()),
                                            id2label={str(i): label for i, label in enumerate(DE_IDENT_TAG.keys())},
                                            label2id={label: i for i, label in enumerate(DE_IDENT_TAG.keys())})
 
-    # Model
     # Model
     if args.is_crf:
         model = ElectraCRF_NER(config=config)
@@ -358,12 +354,23 @@ def main(cli_args):
     model.to(args.device)
 
     # Load datasets
-    train_dataset = De_Ident_Dataset(path=args.train_dir) if args.train_dir else None
-    dev_dataset = De_Ident_Dataset(path=args.dev_dir) if args.dev_dir else None
-    test_dataset = De_Ident_Dataset(path=args.test_dir) if args.test_dir else None
+    train_input_ids = np.load(args.train_dir+"/input_ids.npy")
+    train_attention_mask = np.load(args.train_dir+"/attention_mask.npy")
+    train_token_type_ids = np.load(args.train_dir+"/token_type_ids.npy")
+    train_labels = np.load(args.train_dir+"/labels.npy")
+    train_np_list = [train_input_ids, train_attention_mask, train_token_type_ids, train_labels]
+    train_dataset = np.stack(train_np_list, axis=-1)
+
+    test_input_ids = np.load(args.test_dir+"/input_ids.npy")
+    test_attention_mask = np.load(args.test_dir+"/attention_mask.npy")
+    test_token_type_ids = np.load(args.test_dir+"/token_type_ids.npy")
+    test_labels = np.load(args.test_dir+"/labels.npy")
+    test_np_list = [test_input_ids, test_attention_mask, test_token_type_ids, test_labels]
+    test_dataset = np.stack(test_np_list, axis=-1)
+    test_dataset = De_Ident_Dataset(data=test_dataset, idx_list=np.array([i for i in range(test_dataset.shape[0])]))
 
     if args.do_train:
-        global_step, tr_loss = train(args, model, train_dataset, dev_dataset, test_dataset)
+        global_step, tr_loss = train(args, model, train_dataset, fold_size=10)
         logger.info(f"global_step = {global_step}, average loss = {tr_loss}")
 
     results = {}

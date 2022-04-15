@@ -129,7 +129,7 @@ def split_npy_input(src_dir: str):
     src_token_type_ids = np.load(src_dir+"/token_type_ids.npy")
 
     total_sent_size = src_input_ids.shape[0]
-    train_idx_list = np.random.choice(total_sent_size, 2700, False)
+    train_idx_list = np.random.choice(total_sent_size, 2400, False)
     test_idx_list = []
     for idx in range(total_sent_size):
         if idx not in train_idx_list:

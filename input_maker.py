@@ -49,8 +49,8 @@ def make_npy(src_path: str, save_path: str, model_name: str, max_len: int):
         for seg in read_items.segment_list:
             try:
                 lhs, rhs = seg.split("\t")
-            except:
-                print("1", read_items.sent, "\n", seg)
+            except Exception as err:
+                print("1", read_items.sent, "\n", seg, err)
             token_list = tokenizer(lhs)
 
             token_len = len(token_list["input_ids"][1:-1])

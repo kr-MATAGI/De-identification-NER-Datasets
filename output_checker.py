@@ -1,3 +1,5 @@
+import copy
+
 import numpy as np
 
 from tag_def import DE_IDENT_TAG
@@ -11,25 +13,21 @@ def trained_model_load(tokenizer_name: str, model_dir: str):
 
     return tokenizer, model
 
-### MAIN ###
-if "__main__" == __name__:
-    print("[output_checker] START")
-
-    save_file = open("./output_check.txt", mode="w", encoding="utf-8")
+def check_test_datasets(test_dir: str, model_dir: str, save_path: str):
+    save_file = open(save_path, mode="w", encoding="utf-8")
     save_file.write("word\tlabel\tpred\n")
 
     # model
     tokenizer, model = trained_model_load(tokenizer_name="monologg/koelectra-base-v3-discriminator",
-                                          model_dir="./model-base")
+                                          model_dir=model_dir)
     model.eval()
 
-    test_np_dir = "./npy/test"
-    test_input_ids_np = np.load(test_np_dir+"/input_ids.npy")
-    test_labels_ids_np = np.load(test_np_dir+"/labels.npy")
-    test_attention_mask_np = np.load(test_np_dir+"/attention_mask.npy")
-    test_token_type_ids_np = np.load(test_np_dir+"/token_type_ids.npy")
+    test_input_ids_np = np.load(test_dir + "/input_ids.npy")
+    test_labels_ids_np = np.load(test_dir + "/labels.npy")
+    test_attention_mask_np = np.load(test_dir + "/attention_mask.npy")
+    test_token_type_ids_np = np.load(test_dir + "/token_type_ids.npy")
 
-    id2label = {v:k for k, v in DE_IDENT_TAG.items()}
+    id2label = {v: k for k, v in DE_IDENT_TAG.items()}
     data_size = test_input_ids_np.shape[0]
     for data_idx in range(data_size):
         inputs = {
@@ -78,3 +76,49 @@ if "__main__" == __name__:
                 save_file.write(tok + "\t" + la + "\t" + prd + "\n")
         save_file.write("\n")
     save_file.close()
+
+
+### MAIN ###
+if "__main__" == __name__:
+    print("[output_checker] START")
+
+    do_check_test_npy = False
+    if do_check_test_npy:
+        check_test_datasets(test_dir="./npy/test", model_dir="./model_base", save_path="./output_check.txt")
+
+    do_check_sent = True
+    if do_check_sent:
+        tokenizer, model = trained_model_load(tokenizer_name="monologg/koelectra-base-v3-discriminator",
+                                              model_dir="./model-base")
+        model.eval()
+
+        input_str = "아버지 최윤홍, 아들 최재훈이고, 직업은 음악가이며 매출 500억을 달성했다."
+        inputs = tokenizer(input_str, return_tensors="pt", truncation=True, max_length=512)
+
+        outputs = model(input_ids=inputs["input_ids"],
+                    attention_mask=inputs["attention_mask"],
+                    token_type_ids=inputs["token_type_ids"])
+        logits = outputs.logits
+        preds = logits.detach().cpu().numpy()
+        preds = np.argmax(preds, axis=2)[0]
+
+        id2label = {v: k for k, v in DE_IDENT_TAG.items()}
+        conv_preds = list(id2label[x] for x in preds)
+        tokens = tokenizer.convert_ids_to_tokens(inputs["input_ids"][0])[1:-1]
+        conv_preds = conv_preds[1:-1]
+
+        new_tokens = []
+        new_preds = []
+        for tok, prd in zip(tokens, conv_preds):
+            if "[SEP]" == tok:
+                break
+            elif "##" in tok:
+                back_word = new_tokens[-1]
+                back_word += tok.replace("##", "")
+                new_tokens[-1] = back_word
+            else:
+                new_tokens.append(tok)
+                new_preds.append(prd)
+
+        for tok, prd in zip(new_tokens, new_preds):
+                print(tok + "\t" + prd)

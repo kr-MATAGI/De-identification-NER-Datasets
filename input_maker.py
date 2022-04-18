@@ -193,7 +193,7 @@ def check_tag_count(src_path: str):
 
 ### MAIN ###
 if "__main__" == __name__:
-    do_make_all_input = True
+    do_make_all_input = False
     if do_make_all_input:
         src_path = "./data/merge/test_regex_merge_프로토타입.txt"
         save_path = "./npy"
@@ -202,7 +202,7 @@ if "__main__" == __name__:
                  model_name="monologg/koelectra-base-v3-discriminator",
                  max_len=512)
 
-    do_split_made_input = True
+    do_split_made_input = False
     if do_split_made_input:
         src_dir = "./npy"
         split_npy_input(src_dir=src_dir)

@@ -61,11 +61,11 @@ def show_ner_report(labels, preds):
     return seqeval_metrics.classification_report(labels, preds)
 
 class De_Ident_Dataset(Dataset):
-    def __init__(self, data: np.ndarray, idx_list: np.ndarray):
-        self.input_ids = data[idx_list][:, :, 0]
-        self.attention_mask = data[idx_list][:, :, 1]
-        self.token_type_ids = data[idx_list][:, :, 2]
-        self.labels = data[idx_list][:, :, 3]
+    def __init__(self, data: np.ndarray):
+        self.input_ids = data[:][:, :, 0]
+        self.attention_mask = data[:][:, :, 1]
+        self.token_type_ids = data[:][:, :, 2]
+        self.labels = data[:][:, :, 3]
 
         self.input_ids = torch.tensor(self.input_ids, dtype=torch.long)
         self.attention_mask = torch.tensor(self.attention_mask, dtype=torch.long)
@@ -96,9 +96,8 @@ if not os.path.exists("./logs"):
 tb_writer = SummaryWriter("./logs")
 
 ######################################## Train / Eval ##########################################################
-def train(args, model, train_dataset, fold_size: int=10):
-    train_data_len = train_dataset.shape[0] * (fold_size-1)
-    k_fold = KFold(n_splits=fold_size, random_state=args.seed, shuffle=True)
+def train(args, model, train_dataset, dev_dataset):
+    train_data_len = train_dataset.shape[0]
 
     if args.max_steps > 0:
         t_total = args.max_steps
@@ -140,11 +139,11 @@ def train(args, model, train_dataset, fold_size: int=10):
     global_step = 0
     tr_loss = 0.0
 
+    train_De_Ident = De_Ident_Dataset(data=train_dataset)
+    dev_De_Ident = De_Ident_Dataset(data=dev_dataset)
     model.zero_grad()
-    for epoch, (train_idx_list, test_idx_list) in zip(range(args.num_train_epochs), k_fold.split(train_dataset)):
-        train_fold_dataset = De_Ident_Dataset(data=train_dataset, idx_list=train_idx_list)
-        dev_fold_datasets = De_Ident_Dataset(data=train_dataset, idx_list=test_idx_list)
-        train_dataloader = DataLoader(train_fold_dataset, batch_size=args.train_batch_size)
+    for epoch in range(args.num_train_epochs):
+        train_dataloader = DataLoader(train_De_Ident, batch_size=args.train_batch_size)
         pbar = tqdm(train_dataloader)
         for step, batch in enumerate(pbar):
             model.train()
@@ -186,7 +185,7 @@ def train(args, model, train_dataset, fold_size: int=10):
                 pbar.set_description("Train Loss - %.04f" % (tr_loss / global_step))
 
                 if args.logging_steps > 0 and global_step % args.logging_steps == 0:
-                    evaluate(args, model, dev_fold_datasets, "dev", global_step)
+                    evaluate(args, model, dev_De_Ident, "dev", global_step)
 
                 if args.save_steps > 0 and global_step % args.save_steps == 0:
                     # Save samples checkpoint
@@ -359,7 +358,10 @@ def main(cli_args):
     train_token_type_ids = np.load(args.train_dir+"/token_type_ids.npy")
     train_labels = np.load(args.train_dir+"/labels.npy")
     train_np_list = [train_input_ids, train_attention_mask, train_token_type_ids, train_labels]
-    train_dataset = np.stack(train_np_list, axis=-1)
+    train_stack = np.stack(train_np_list, axis=-1)
+    train_dataset_size = train_stack.shape[0]
+    train_dataset = train_stack[:int(train_dataset_size*0.8), :, :]
+    dev_dataset = train_stack[int(train_dataset_size*0.8):, :, :]
 
     test_input_ids = np.load(args.test_dir+"/input_ids.npy")
     test_attention_mask = np.load(args.test_dir+"/attention_mask.npy")
@@ -367,10 +369,10 @@ def main(cli_args):
     test_labels = np.load(args.test_dir+"/labels.npy")
     test_np_list = [test_input_ids, test_attention_mask, test_token_type_ids, test_labels]
     test_dataset = np.stack(test_np_list, axis=-1)
-    test_dataset = De_Ident_Dataset(data=test_dataset, idx_list=np.array([i for i in range(test_dataset.shape[0])]))
+    test_dataset = De_Ident_Dataset(data=test_dataset)
 
     if args.do_train:
-        global_step, tr_loss = train(args, model, train_dataset, fold_size=10)
+        global_step, tr_loss = train(args, model, train_dataset, dev_dataset)
         logger.info(f"global_step = {global_step}, average loss = {tr_loss}")
 
     results = {}

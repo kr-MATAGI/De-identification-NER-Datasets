@@ -208,7 +208,7 @@ def train(args, model, train_dataset, dev_dataset):
             if args.max_steps > 0 and global_step > args.max_steps:
                 break
 
-        logger.info("  Epoch Done= %d", epoch)
+        logger.info("  Epoch Done= %d", epoch + 1)
         pbar.close()
 
     return global_step, tr_loss / global_step

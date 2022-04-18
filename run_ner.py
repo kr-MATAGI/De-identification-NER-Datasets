@@ -141,9 +141,11 @@ def train(args, model, train_dataset, dev_dataset):
 
     train_De_Ident = De_Ident_Dataset(data=train_dataset)
     dev_De_Ident = De_Ident_Dataset(data=dev_dataset)
+    train_sampler = RandomSampler(train_De_Ident)
+
     model.zero_grad()
     for epoch in range(args.num_train_epochs):
-        train_dataloader = DataLoader(train_De_Ident, batch_size=args.train_batch_size)
+        train_dataloader = DataLoader(train_De_Ident, sampler=train_sampler, batch_size=args.train_batch_size)
         pbar = tqdm(train_dataloader)
         for step, batch in enumerate(pbar):
             model.train()

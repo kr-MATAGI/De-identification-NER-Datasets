@@ -8,7 +8,7 @@ import torch
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 
 def trained_model_load(tokenizer_name: str, model_dir: str):
-    tokenizer = AutoTokenizer.from_pretrained("monologg/koelectra-base-v3-discriminator")
+    tokenizer = AutoTokenizer.from_pretrained(tokenizer_name)
     model = AutoModelForTokenClassification.from_pretrained(model_dir)
 
     return tokenizer, model
@@ -18,7 +18,7 @@ def check_test_datasets(test_dir: str, model_dir: str, save_path: str):
     save_file.write("word\tlabel\tpred\n")
 
     # model
-    tokenizer, model = trained_model_load(tokenizer_name="monologg/koelectra-base-v3-discriminator",
+    tokenizer, model = trained_model_load(tokenizer_name="klue/bert-base",
                                           model_dir=model_dir)
     model.eval()
 
@@ -84,20 +84,21 @@ if "__main__" == __name__:
 
     do_check_test_npy = False
     if do_check_test_npy:
-        check_test_datasets(test_dir="./npy/test", model_dir="./model_base", save_path="./output_check.txt")
+        check_test_datasets(test_dir="./npy/klue_bert_tokenization/test", model_dir="./model_base", save_path="./output_check.txt")
 
-    do_check_sent = True
+    do_check_sent = False
     if do_check_sent:
-        tokenizer, model = trained_model_load(tokenizer_name="monologg/koelectra-base-v3-discriminator",
+        tokenizer, model = trained_model_load(tokenizer_name="klue/bert-base",
                                               model_dir="./model-base")
         model.eval()
 
-        input_str = "음악 감상을 취미로 즐겼다."
+        input_str = "1980년 6월 11일에 경상남도 거제시에서 태어났으며 가족으로는 아내와 딸, 아들이, 있다."
         inputs = tokenizer(input_str, return_tensors="pt", truncation=True, max_length=512)
+        print(tokenizer.convert_ids_to_tokens(inputs["input_ids"][0]))
 
         outputs = model(input_ids=inputs["input_ids"],
-                    attention_mask=inputs["attention_mask"],
-                    token_type_ids=inputs["token_type_ids"])
+                        attention_mask=inputs["attention_mask"],
+                        token_type_ids=inputs["token_type_ids"])
         logits = outputs.logits
         preds = logits.detach().cpu().numpy()
         preds = np.argmax(preds, axis=2)[0]

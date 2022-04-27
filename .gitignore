@@ -14,3 +14,6 @@ __pycache__
 
 # MAC
 .DS_Store
+
+# ckpt (model)
+*ckpt

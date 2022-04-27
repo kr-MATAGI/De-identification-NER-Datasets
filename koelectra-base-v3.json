@@ -1,10 +1,10 @@
 {
   "task": "custom",
   "data_dir": "data",
-  "ckpt_dir": "ckpt",
-  "train_dir": "./npy/train",
+  "ckpt_dir": "koelectra-ckpt",
+  "train_dir": "./npy/koelectra_tokenization/train",
   "dev_dir": "",
-  "test_dir": "./npy/test",
+  "test_dir": "./npy/koelectra_tokenization/test",
   "evaluate_test_during_training": false,
   "eval_all_checkpoints": true,
   "save_optimizer": false,

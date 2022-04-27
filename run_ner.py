@@ -13,14 +13,13 @@ from attrdict import AttrDict
 import torch
 from torch.utils.data import RandomSampler, SequentialSampler, DataLoader, Dataset
 from torch.utils.tensorboard import SummaryWriter
-from transformers import ElectraConfig, get_linear_schedule_with_warmup, ElectraForTokenClassification
+from transformers import AutoConfig, get_linear_schedule_with_warmup, AutoModelForTokenClassification
 from electra_crf import ElectraCRF_NER
 
 from tqdm import tqdm
 
 from seqeval import metrics as seqeval_metrics
 from sklearn import metrics as sklearn_metrics
-from sklearn.model_selection import KFold
 
 from tag_def import DE_IDENT_TAG
 
@@ -336,16 +335,16 @@ def main(cli_args):
     args.output_dir = os.path.join(args.ckpt_dir, args.output_dir)
 
     # Config
-    config = ElectraConfig.from_pretrained(args.model_name_or_path,
-                                           num_labels=len(DE_IDENT_TAG.keys()),
-                                           id2label={str(i): label for i, label in enumerate(DE_IDENT_TAG.keys())},
-                                           label2id={label: i for i, label in enumerate(DE_IDENT_TAG.keys())})
+    config = AutoConfig.from_pretrained(args.model_name_or_path,
+                                        num_labels=len(DE_IDENT_TAG.keys()),
+                                        id2label={str(i): label for i, label in enumerate(DE_IDENT_TAG.keys())},
+                                        label2id={label: i for i, label in enumerate(DE_IDENT_TAG.keys())})
 
     # Model
     if args.is_crf:
         model = ElectraCRF_NER(config=config)
     else:
-        model = ElectraForTokenClassification.from_pretrained(args.model_name_or_path, config=config)
+        model = AutoModelForTokenClassification.from_pretrained(args.model_name_or_path, config=config)
 
     # GPU or CPU
     if 1 < torch.cuda.device_count():
@@ -395,7 +394,7 @@ def main(cli_args):
             if args.is_crf:
                 model = ElectraCRF_NER.from_pretrained(checkpoint)
             else:
-                model = ElectraForTokenClassification.from_pretrained(checkpoint)
+                model = AutoModelForTokenClassification.from_pretrained(checkpoint)
             model.to(args.device)
             result = evaluate(args, model, test_dataset, mode="test", global_step=global_step)
             result = dict((k + "_{}".format(global_step), v) for k, v in result.items())

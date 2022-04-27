@@ -1,10 +1,11 @@
 import numpy as np
 import copy
 import os
+import pickle
 from tag_def import DE_IDENT_TAG, DE_IDENT_ZIP
 
 import torch
-from transformers import ElectraTokenizer
+from transformers import AutoTokenizer
 
 def read_src_liens(src_path: ""):
     with open(src_path, mode="r", encoding="utf-8") as src_file:
@@ -40,7 +41,7 @@ def make_npy(src_path: str, save_path: str, model_name: str, max_len: int):
         "labels": []
     }
 
-    tokenizer = ElectraTokenizer.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
     for read_items in read_src_liens(src_path):
         input_ids = []
         token_type_ids = []
@@ -111,7 +112,7 @@ def make_npy(src_path: str, save_path: str, model_name: str, max_len: int):
     np.save(save_path + "/attention_mask", npy_dict["attention_mask"])
 
 
-def split_npy_input(src_dir: str):
+def split_npy_input(src_dir: str, save_idx_path: str="", is_load_pkl: bool=False):
     print(f"[split_npy_input] src_dir: {src_dir}")
 
     train_dir = src_dir + "/train"
@@ -129,11 +130,24 @@ def split_npy_input(src_dir: str):
     src_token_type_ids = np.load(src_dir+"/token_type_ids.npy")
 
     total_sent_size = src_input_ids.shape[0]
-    train_idx_list = np.random.choice(total_sent_size, 2400, False)
+    train_idx_list = []
+    if not is_load_pkl:
+        train_idx_list = np.random.choice(total_sent_size, 2400, False)
+    else:
+        with open(save_idx_path, mode="rb") as load_pkl:
+            print(f"Load idx pickle file !")
+            train_idx_list = pickle.load(load_pkl)
+            train_idx_list = np.array(train_idx_list)
     test_idx_list = []
     for idx in range(total_sent_size):
         if idx not in train_idx_list:
             test_idx_list.append(idx)
+
+    if not is_load_pkl:
+        # save rand idx list
+        with open(save_idx_path, mode="wb") as save_pkl:
+            pickle.dump(train_idx_list, save_pkl)
+
     print(f"train_idx_list.size: {len(train_idx_list)}")
     print(f"test_idx_list.size: {len(test_idx_list)}")
 
@@ -193,7 +207,7 @@ def check_tag_count(src_path: str):
 
 ### MAIN ###
 if "__main__" == __name__:
-    do_make_all_input = False
+    do_make_all_input = True
     if do_make_all_input:
         src_path = "./data/merge/test_regex_merge_프로토타입.txt"
         save_path = "./npy"
@@ -202,10 +216,11 @@ if "__main__" == __name__:
                  model_name="monologg/koelectra-base-v3-discriminator",
                  max_len=512)
 
-    do_split_made_input = False
+    do_split_made_input = True
     if do_split_made_input:
         src_dir = "./npy"
-        split_npy_input(src_dir=src_dir)
+        save_idx_path = "./npy/save_train_idx.pkl"
+        split_npy_input(src_dir=src_dir, save_idx_path=save_idx_path, is_load_pkl=True)
 
     do_check_count = True
     if do_check_count:

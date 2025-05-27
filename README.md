@@ -1,5 +1,22 @@
 # De-identification-NER-Datasets
 
+이 프로젝트는 한국어 텍스트에서 개인정보 비식별화를 위한 NER(Named Entity Recognition) 데이터셋을 생성하고 처리하는 도구입니다.
+
+## 프로젝트 구조
+```
+.
+├── data/           # 학습 및 테스트 데이터
+├── model/          # 학습된 모델 저장 디렉토리
+├── npy/            # NumPy 배열 저장 디렉토리
+├── utils/          # 유틸리티 함수
+├── electra_crf.py  # ELECTRA-CRF 모델 구현
+├── input_maker.py  # 입력 데이터 생성
+├── output_checker.py # 출력 검증
+├── run_ner.py      # NER 실행 스크립트
+├── tag_def.py      # 태그 정의
+└── tag_regex.py    # 정규표현식 기반 태그 처리
+```
+
 ## 비식별 개체명 태그 세트
 1) PER (Person)
    - 사람 이름, 별명, 캐릭터명, 신화/종교 인물, 가수 그룹명
@@ -80,3 +97,41 @@
    2. 락타목스, 네오히알주와 같은 의약 제품명
    3. 뇌진탕, 뇌졸중, 식도, 천식, 뇌경색, 안면마비, 기흉 등 의학용어 사전이 필요함
    4. 규칙을 통해 만들어도 생성자가 직접 확인이 필요함.
+
+## 주요 기능
+
+### 1. 데이터 전처리
+- 위키피디아 덤프 파일에서 관련 문서 추출
+- 개인정보 관련 문단 추출
+- 위키피디아 마크업 제거
+
+### 2. NER 모델 처리
+- koelectra-small 및 koelectra-base 모델 지원
+- CRF 레이어를 통한 시퀀스 라벨링
+- 다양한 사전 학습 모델 설정 (kluebert-base, klueroberta-base 등)
+
+### 3. 태그 처리 및 검증
+- 정규표현식 기반 태그 처리
+- 출력 결과 검증
+- 태그 정제 및 변환
+
+## 사용 방법
+
+1. 필요한 모델 파일을 `model/` 디렉토리에 위치시킵니다.
+2. 입력 데이터를 `data/` 디렉토리에 준비합니다.
+3. 다음 명령어로 NER을 실행합니다:
+```bash
+python run_ner.py
+```
+
+## 태그 처리 규칙
+// ... existing code ...
+
+## Naver NLP Challenge (NER) / TTA Tag와 차이점
+// ... existing code ...
+
+## 알려진 제한사항
+// ... existing code ...
+
+## 라이선스
+이 프로젝트는 연구 및 학습 목적으로 제공됩니다.
